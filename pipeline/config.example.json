@@ -1,0 +1,28 @@
+{
+  "_note": "複製本檔為 config.json 後填入資料。config.json 已被 .gitignore 排除，切勿提交到公開倉庫。",
+  "site": {
+    "brand": "Fly & Feast HK",
+    "url": "https://flyandfeasthk.com",
+    "utmSource": "facebook"
+  },
+  "facebook": {
+    "pageId": "",
+    "pageAccessToken": "使用 Meta for Developers → 圖形 API 工具產生長期專頁權杖"
+  },
+  "instagram": {
+    "igUserId": "IG 商業帳號 ID，需與 Facebook 專頁連結",
+    "accessToken": "同上，需具備 instagram_content_publish 權限"
+  },
+  "affiliate": {
+    "agoda": "填入 Agoda 聯盟 CID，之後可用程式自動附加追蹤參數",
+    "klook": "填入 Klook 聯盟 ID",
+    "trip": "填入 Trip.com 聯盟 ID",
+    "travelpayouts": "填入 Travelpayouts token"
+  },
+  "posting": {
+    "facebookPerDay": 2,
+    "instagramPerDay": 1,
+    "bestHours": ["12:00", "19:30"],
+    "note": "香港受眾活躍時段：午飯與晚間。同一優惠不要在同日重複發佈。"
+  }
+}

@@ -1,0 +1,15 @@
+# 憑證與本機設定
+pipeline/config.json
+
+# 每日抓取的原始結果（暫存，可重新抓取）
+pipeline/raw/*.json
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# 編輯器
+.vscode/
+.idea/

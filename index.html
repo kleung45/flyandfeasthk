@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fly &amp; Feast HK 飛嚐香港｜香港出發機票特價・餐廳優惠每日更新</title>
+<meta name="description" content="每日為香港人搜羅最抵的機票特價、廉航閃促、酒店自助餐與餐廳優惠。附適用期限、注意事項與原始來源連結，一眼看清是否真抵。">
+<meta name="theme-color" content="#E5484D">
+<link rel="canonical" href="https://flyandfeasthk.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fly &amp; Feast HK">
+<meta property="og:title" content="Fly &amp; Feast HK｜香港出發機票特價・餐廳優惠每日更新">
+<meta property="og:description" content="每日搜羅香港出發的機票特價與餐廳優惠，附期限、注意事項與來源連結。">
+<meta property="og:url" content="https://flyandfeasthk.com/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23E5484D'/><path d='M6 20l20-8-6 14-3-5-6 3 2-4z' fill='white'/></svg>">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Fly & Feast HK",
+  "alternateName": "飛嚐香港",
+  "url": "https://flyandfeasthk.com/",
+  "description": "香港出發機票特價與餐廳優惠情報站",
+  "inLanguage": "zh-Hant-HK"
+}
+</script>
+</head>
+<body>
+
+<div class="notice" id="sampleNotice" hidden>
+  <strong>示範資料</strong>
+  <span>目前頁面上的優惠為版型示範，價格與條款並非真實報價。接入真實情報源後請移除本提示。</span>
+  <button type="button" id="noticeClose" aria-label="關閉提示">×</button>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">
+        <strong>Fly &amp; Feast HK</strong>
+        <small>飛嚐香港</small>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="#deals">最新優惠</a>
+      <a href="#how">運作方式</a>
+      <a href="#about">關於本站</a>
+    </nav>
+    <a class="btn btn-primary" href="#subscribe">訂閱通知</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">每日更新 · 香港出發</p>
+      <h1>香港最抵的機票與餐廳優惠，一次看清</h1>
+      <p class="lede">
+        我們從航空公司官網、酒店餐飲部、訂座與票券平台逐項核對，只留下真正值得出手的優惠。
+        每筆都附上適用期限、隱藏條款與原始來源連結——價格會不會變、名額夠不夠，你自己判斷。
+      </p>
+      <div class="hero-stats" id="heroStats">
+        <div class="stat"><b id="statActive">—</b><span>進行中優惠</span></div>
+        <div class="stat"><b id="statEnding">—</b><span>三日內結束</span></div>
+        <div class="stat"><b id="statFlight">—</b><span>機票</span></div>
+        <div class="stat"><b id="statDining">—</b><span>餐飲</span></div>
+      </div>
+      <p class="updated" id="updated">資料更新中…</p>
+    </div>
+  </section>
+
+  <section class="wrap" id="deals">
+    <div class="controls">
+      <div class="chips" role="tablist" aria-label="優惠類別">
+        <button class="chip is-active" data-cat="all" role="tab">全部</button>
+        <button class="chip" data-cat="flight" role="tab">機票特價</button>
+        <button class="chip" data-cat="dining" role="tab">餐廳優惠</button>
+      </div>
+      <div class="controls-right">
+        <label class="search">
+          <span class="sr-only">搜尋優惠</span>
+          <input type="search" id="q" placeholder="搜尋目的地、餐廳、航空公司…" autocomplete="off">
+        </label>
+        <label class="select">
+          <span class="sr-only">排序</span>
+          <select id="sort">
+            <option value="ending">即將結束優先</option>
+            <option value="price">價格由低至高</option>
+            <option value="discount">折扣幅度</option>
+          </select>
+        </label>
+        <label class="toggle">
+          <input type="checkbox" id="hideExpired" checked>
+          <span>隱藏已結束</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <p class="empty" id="empty" hidden>沒有符合條件的優惠，試試放宽搜尋或切換類別。</p>
+  </section>
+
+  <section class="how" id="how">
+    <div class="wrap">
+      <h2>這些優惠是怎樣來的</h2>
+      <div class="how-grid">
+        <article>
+          <span class="step">01</span>
+          <h3>每日掃描情報源</h3>
+          <p>航空公司官網優惠頁、酒店餐飲部公告、訂座與票券平台，加上公開的旅遊優惠 RSS，逐一核對。</p>
+        </article>
+        <article>
+          <span class="step">02</span>
+          <h3>驗價與去重</h3>
+          <p>與近期價格比較，剔除非真正降價的「假特價」；同一優惠在多個渠道出現只保留最可靠的一條。</p>
+        </article>
+        <article>
+          <span class="step">03</span>
+          <h3>寫清條款再上架</h3>
+          <p>標明適用時段、不適用日期、必須兩人同行之類的隱藏條件，並附上原始來源連結供你核實。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe" id="subscribe">
+    <div class="wrap subscribe-inner">
+      <div>
+        <h2>唔想錯過閃促？</h2>
+        <p>廉航閃促通常只有 48 至 72 小時。留下電郵，我們在優惠結束前提醒你。</p>
+      </div>
+      <form class="sub-form" id="subForm" novalidate>
+        <label class="sr-only" for="email">電郵地址</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+        <button class="btn btn-primary" type="submit">訂閱</button>
+        <p class="sub-msg" id="subMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="about wrap" id="about">
+    <h2>關於本站</h2>
+    <p>
+      Fly &amp; Feast HK 是優惠情報整理平台，並非旅行社或銷售方。我們不代收款項、不處理訂單，
+      所有交易一律在商戶官方頁面完成。
+    </p>
+    <p>
+      頁面上的部分連結為聯盟連結：你若經連結完成消費，我們可能獲得佣金。這不會令你付多一分錢，
+      也不影響我們對優惠的評價與排序。
+    </p>
+    <p class="disclaimer">
+      價格、艙位、名額與條款隨時變動，一切以商戶官方公佈為準。我們無法保證任何優惠在你查閱時仍然有效。
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>Fly &amp; Feast HK</strong>
+      <p>香港出發的機票特價與餐廳優惠情報</p>
+    </div>
+    <div class="footer-links">
+      <a href="#deals">最新優惠</a>
+      <a href="#how">運作方式</a>
+      <a href="#about">關於本站</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Fly &amp; Feast HK · 本頁優惠資訊僅供參考，一切以商戶官方公佈為準。</p>
+  </div>
+</footer>
+
+<noscript><p class="wrap">本頁需要 JavaScript 才能顯示優惠清單。</p></noscript>
+
+<script src="data/deals.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

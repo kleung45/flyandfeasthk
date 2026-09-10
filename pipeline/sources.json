@@ -1,0 +1,153 @@
+{
+  "_note": "情報源清單。mode=rss 由 fetch_deals.py 自動抓取；mode=agent 由智能體用網頁搜尋／瀏覽方式查核；mode=api 需填寫聯盟金鑰後才啟用。",
+  "sources": [
+    {
+      "id": "secretflying",
+      "name": "Secret Flying",
+      "mode": "rss",
+      "category": "flight",
+      "url": "https://www.secretflying.com/feed/",
+      "enabled": true,
+      "weight": 8,
+      "note": "全球錯誤票價與閃促，需自行篩出香港出發"
+    },
+    {
+      "id": "fly4free",
+      "name": "Fly4free",
+      "mode": "rss",
+      "category": "flight",
+      "url": "https://www.fly4free.com/feed/",
+      "enabled": true,
+      "weight": 7,
+      "note": "歐洲出發為主，偶有亞洲線"
+    },
+    {
+      "id": "headforpoints",
+      "name": "Head for Points",
+      "mode": "rss",
+      "category": "flight",
+      "url": "https://www.headforpoints.com/feed/",
+      "enabled": true,
+      "weight": 6,
+      "note": "英式里數與酒店玩法，方法論可參考"
+    },
+    {
+      "id": "hkexpress_promo",
+      "name": "HK Express 優惠頁",
+      "mode": "agent",
+      "category": "flight",
+      "url": "https://www.hkexpress.com/zh-hk/promotions",
+      "enabled": true,
+      "weight": 10,
+      "note": "香港市場最核心的廉航情報源，每週查核"
+    },
+    {
+      "id": "greaterbay_promo",
+      "name": "大灣區航空 優惠頁",
+      "mode": "agent",
+      "category": "flight",
+      "url": "https://www.greaterbay-airlines.com/",
+      "enabled": true,
+      "weight": 9,
+      "note": "包行李價，家庭客群"
+    },
+    {
+      "id": "cathay_offers",
+      "name": "國泰航空 官網優惠",
+      "mode": "agent",
+      "category": "flight",
+      "url": "https://www.cathaypacific.com/cx/zh_HK/offers.html",
+      "enabled": true,
+      "weight": 9,
+      "note": "官網限定價與里數位子"
+    },
+    {
+      "id": "hka_offers",
+      "name": "香港航空 優惠",
+      "mode": "agent",
+      "category": "flight",
+      "url": "https://www.hongkongairlines.com/",
+      "enabled": true,
+      "weight": 7,
+      "note": "短線為主"
+    },
+    {
+      "id": "scoot_promo",
+      "name": "酷航 Scoot 促銷",
+      "mode": "agent",
+      "category": "flight",
+      "url": "https://www.flyscoot.com/zh/promotions",
+      "enabled": true,
+      "weight": 6,
+      "note": "東南亞線"
+    },
+    {
+      "id": "openrice_promo",
+      "name": "OpenRice 優惠專區",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.openrice.com/zh/hongkong/promotions",
+      "enabled": true,
+      "weight": 9,
+      "note": "香港餐廳優惠最集中的入口"
+    },
+    {
+      "id": "klook_dining",
+      "name": "Klook 餐飲優惠",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.klook.com/zh-HK/",
+      "enabled": true,
+      "weight": 8,
+      "note": "酒店自助餐券、現金券，自帶聯盟計劃"
+    },
+    {
+      "id": "hotel_icon",
+      "name": "唯港薈 餐飲優惠",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.hotel-icon.com/",
+      "enabled": true,
+      "weight": 7,
+      "note": "自助餐情報"
+    },
+    {
+      "id": "shangrila_dining",
+      "name": "香格里拉 餐飲優惠",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.shangri-la.com/",
+      "enabled": true,
+      "weight": 7,
+      "note": "酒店自助餐與買一送一"
+    },
+    {
+      "id": "agoda_affiliate",
+      "name": "Agoda 聯盟 API",
+      "mode": "api",
+      "category": "hotel",
+      "url": "https://partners.agoda.com/",
+      "enabled": false,
+      "weight": 10,
+      "note": "申請聯盟帳號後啟用，可拿到香港酒店即時低價"
+    },
+    {
+      "id": "travelpayouts",
+      "name": "Travelpayouts 機票數據",
+      "mode": "api",
+      "category": "flight",
+      "url": "https://www.travelpayouts.com/",
+      "enabled": false,
+      "weight": 10,
+      "note": "申請後可取得歷史票價與特價機票 API"
+    }
+  ],
+  "compliance": {
+    "rules": [
+      "只抓取公開的促銷頁、RSS 與聯盟資料；不繞過反爬機制，不破解任何登入牆。",
+      "每篇文章必須附上原始來源連結，讓讀者可自行核實。",
+      "價格與名額會變動，所有輸出必須帶免責聲明。",
+      "聯盟連結需明確標示，遵守各地廣告揭露規定。"
+    ]
+  }
+}
