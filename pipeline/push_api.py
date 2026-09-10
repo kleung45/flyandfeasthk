@@ -44,6 +44,15 @@ def git(*args: str) -> str:
     return proc.stdout
 
 
+def git_bytes(*args: str) -> bytes:
+    proc = subprocess.run(["git", *args], cwd=ROOT, capture_output=True)
+    if proc.returncode != 0:
+        raise SystemExit(
+            f"git {' '.join(args)} 失敗：{proc.stderr.decode(errors='replace').strip()}"
+        )
+    return proc.stdout
+
+
 def get_token() -> str:
     env = dict(os.environ)
     env.update({"GIT_TERMINAL_PROMPT": "0", "GCM_INTERACTIVE": "never"})
@@ -96,20 +105,20 @@ def api(token: str, path: str, method: str = "GET", payload: dict | None = None)
 
 
 def staged_files() -> list[tuple[str, str]]:
-    """回傳 [(相對路徑, git 模式)]，涵蓋已追蹤與未忽略的新檔案。"""
-    out = git("ls-files", "-s", "--cached", "--others", "--exclude-standard")
+    """回傳 [(相對路徑, git 模式)]。
+
+    先執行 `git add -A`，讓 git 依 .gitattributes 對換行做正規化；
+    之後一律從 index 取內容，避免把 Windows 的 CRLF 原始位元組直接寫進遠端。
+    """
+    git("add", "-A")
+    out = git("ls-files", "-s")
     seen: dict[str, str] = {}
     for line in out.splitlines():
-        if not line.strip():
+        if not line.strip() or "\t" not in line:
             continue
-        if "\t" in line:
-            # 已追蹤檔案：<模式> <sha> <階段>\t<路徑>
-            meta, _, path = line.partition("\t")
-            parts = meta.split()
-            mode = parts[0] if parts and parts[0] in VALID_MODES else "100644"
-        else:
-            # 未追蹤檔案只有路徑，沒有模式
-            path, mode = line.strip(), "100644"
+        meta, _, path = line.partition("\t")
+        parts = meta.split()
+        mode = parts[0] if parts and parts[0] in VALID_MODES else "100644"
         if path:
             seen[path] = mode
     return sorted(seen.items())
@@ -133,14 +142,13 @@ def main() -> None:
 
     entries = []
     for path, mode in files:
+        # 從 index 取內容（已套用 .gitattributes 的換行正規化），而非磁碟原始位元組
+        content = git_bytes("cat-file", "blob", f":{path}")
         blob = api(
             token,
             "/git/blobs",
             "POST",
-            {
-                "content": base64.b64encode((ROOT / path).read_bytes()).decode(),
-                "encoding": "base64",
-            },
+            {"content": base64.b64encode(content).decode(), "encoding": "base64"},
         )["sha"]
         entries.append({"path": path, "mode": mode, "type": "blob", "sha": blob})
     print(f"已上傳 {len(entries)} 個 blob")
