@@ -20,8 +20,8 @@ hk-deals/
 ├─ robots.txt                  搜尋引擎指引
 ├─ sitemap.xml                 站點地圖
 ├─ CNAME                       GitHub Pages 自訂域名（flyandfeasthk.com）
-├─ .github/workflows/deploy.yml  推送即自動部署到 GitHub Pages
-├─ pipeline/deploy.sh          一鍵：重建 + 產生文案 + commit + push
+├─ .github/workflows/static.yml  推送即自動部署到 GitHub Pages（只發佈網站檔案）
+├─ pipeline/deploy.sh          一鍵：重建 + 產生文案 + 推送部署
 ├─ assets/
 │  ├─ style.css                樣式（淺色簡潔風，響應式）
 │  └─ app.js                   篩選、排序、搜尋、分享邏輯
@@ -35,6 +35,7 @@ hk-deals/
 │  ├─ build_site.py            主資料庫 + drafts/ → data/
 │  ├─ generate_content.py      產生 FB / IG / 小紅書文案 → outbox/
 │  ├─ publish_social.py        透過 Graph API 發佈到 FB 專頁與 Instagram
+│  ├─ push_api.py              透過 GitHub API 推送（取代 git push，見下方說明）
 │  ├─ config.example.json      憑證設定範本
 │  ├─ raw/                     每日抓取原始結果（可視為暫存）
 │  └─ drafts/                  智能體每日產出的新優惠草稿
@@ -95,75 +96,58 @@ cd .. && python -m http.server 8777     # 本地預覽 http://127.0.0.1:8777/
 
 ## 部署（flyandfeasthk.com）
 
-靜態站沒有後端，任何靜態託管都可以：
+靜態站沒有後端，目前跑在 GitHub Pages 上：
 
-| 平台 | 做法 |
-|------|------|
-| GitHub Pages | 本倉庫已內建 `.github/workflows/deploy.yml`，推上 `main` 就自動發佈（目前採用） |
-| Cloudflare Pages | 連接 Git 倉庫，建置指令留空，輸出目錄填 `hk-deals`（香港訪問延遲更低） |
-| Netlify | 直接拖放 `hk-deals` 資料夾 |
+- 網站本體：<https://kleung45.github.io/flyandfeasthk/>
+- 發佈方式：推上 `main` → `.github/workflows/static.yml` 自動部署
+- **只會發佈 `index.html assets/ data/ robots.txt sitemap.xml CNAME`**。
+  工作流內有一道複製步驟，先把這些檔案收進 `_site` 再上傳。
+  **不要**把 `path` 改回 `'.'`，否則 `pipeline/`、`outbox/`、`README.md` 會全部變成公開可讀。
 
-### GitHub Pages 首次上線步驟
+### ⚠️ 目前的阻塞：域名沒有 DNS 記錄
 
-**第一步：在 GitHub 建立空倉庫**
+查 `flyandfeasthk.com` 的 NS / A / CNAME 全部回傳 NXDOMAIN（網域不存在），
+表示這個域名**還沒註冊，或已註冊但未設定 nameserver**。在處理好之前自訂域名無法綁定，
+`https://flyandfeasthk.com` 打不開，網站只能先用 `kleung45.github.io` 的網址。
 
-到 <https://github.com/new> 開一個新倉庫：
+處理順序：
 
-| 欄位 | 填法 |
-|------|------|
-| Repository name | `flyandfeasthk`（**不要**加 `.git`，`.git` 只是網址後綴） |
-| Description | 可留空 |
-| 可見性 | **Public** —— 免費帳號的 GitHub Pages 只支援公開倉庫 |
-| Add a README file | **不要勾** |
-| Add .gitignore / license | **不要勾** |
+1. 到域名商確認 `flyandfeasthk.com` 已註冊且狀態正常（不是待付款或已過期）。
+2. 在域名商後台加入指向 GitHub Pages 的記錄：
+   - 四筆 `A`，名稱 `@`：`185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`
+   - 一筆 `CNAME`，名稱 `www`，指向 `kleung45.github.io`
+3. 回 GitHub：**Settings → Pages → Custom domain** 填 `flyandfeasthk.com`，勾選 **Enforce HTTPS**。
+   （`CNAME` 檔雖已在倉庫內，用 Actions 部署時仍要在設定頁手動填一次。）
+4. DNS 生效後（通常數分鐘到數小時）即可用自訂域名開啟。
 
-一定要建立**完全空白**的倉庫。若勾了 README，GitHub 會先產生一個 commit，
-與本機歷史分岔，`git push` 會被拒絕（要處理就得 force push，麻煩）。
+### 推送方式：用 push_api.py，不要用 git push
 
-倉庫是公開的，代表 `pipeline/` 內的腳本原始碼也會公開。這本身無妨（不含任何憑證——
-`config.json` 已被 `.gitignore` 排除），但要意識到這一點。
-真正發佈到網站的只有 `index.html assets data robots.txt sitemap.xml CNAME`，
-`pipeline/` 與 `outbox/` 不會出現在網站上。
-
-**第二步：推送本機已完成的倉庫**
-
-本機倉庫已初始化完成（分支 `main`，含部署工作流）。跑這三行：
+這台機器上 `git push` 會無回應逾時（實測掛住 90 秒以上且零輸出），所以改走 GitHub API：
 
 ```bash
-cd D:/Work_buddy_Project/2026-09-10-14-41-48/hk-deals
-
-git remote add origin https://github.com/kleung45/flyandfeasthk.git
-git push -u origin main
+python pipeline/push_api.py                      # 推送目前內容
+python pipeline/push_api.py --dry-run            # 只看會推送什麼，不提交
+python pipeline/push_api.py --message "自訂訊息"
 ```
 
-> 帳號若不是 `kleung45`（本機 git 設定讀到的），把網址中的用戶名換成你的。
-> 推送時會彈出瀏覽器授權視窗（Git Credential Manager），登入一次之後就不必再輸。
+它會先 `git add -A`（讓 `.gitattributes` 的換行正規化生效），再從 index 取內容
+建立 blob／tree／commit，最後更新遠端分支並把本機同步到最新提交。
+憑證由 `git credential fill` 取得，只在記憶體中使用，不寫入磁碟。
 
-**第三步：開啟 Pages**
-
-1. **Settings → Pages → Source** 選 **GitHub Actions**（不要選 branch）。
-2. 等 Actions 跑完，網址會是 `https://kleung45.github.io/flyandfeasthk/`。
-3. **Settings → Pages → Custom domain** 填入 `flyandfeasthk.com`，勾選 **Enforce HTTPS**。
-   （`CNAME` 檔已在倉庫內，GitHub 會自動識別。）
-
-**DNS 設定**（在域名商後台）：
-
-- 四筆 `A` 記錄，名稱 `@`，分別指向 `185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`
-- 一筆 `CNAME`，名稱 `www`，指向 `kleung45.github.io`
-
-日後每次更新只要跑：
+日常只要跑：
 
 ```bash
 bash pipeline/deploy.sh
 ```
 
-它會重建資料、產生文案、commit 並 push，GitHub Actions 接著自動發佈。
+它會重建資料 → 產生文案 → 呼叫 `push_api.py` 推送，GitHub Actions 接著自動發佈。
+`deploy.sh` 內建安全閘：資料中仍有 `sample: true` 時會中止，避免公開示範價格。
 
 本站已內建 SEO 檔案：`robots.txt`、`sitemap.xml`，以及指向 `flyandfeasthk.com` 的 canonical 與 OG 標籤。
-上線後到 Google Search Console 提交 `https://flyandfeasthk.com/sitemap.xml`。
+域名生效後到 Google Search Console 提交 `https://flyandfeasthk.com/sitemap.xml`。
 
-之後若換域名，記得同步更新這幾處：`index.html` 的 canonical 與 `og:url`、`robots.txt`、
-`sitemap.xml`、`CNAME`、`.github/workflows/deploy.yml` 的複製清單，以及 `pipeline/store.json` 的 `meta.siteUrl`。
+之後若換域名，記得同步更新：`index.html` 的 canonical 與 `og:url`、`robots.txt`、
+`sitemap.xml`、`CNAME`，以及 `pipeline/store.json` 的 `meta.siteUrl`。
 
 ## 接上 Facebook / Instagram 自動發帖
 
