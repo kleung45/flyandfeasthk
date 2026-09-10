@@ -36,7 +36,7 @@ jobs:
       - name: 組裝要發佈的網站檔案
         run: |
           mkdir -p _site
-          cp -r index.html assets data robots.txt sitemap.xml CNAME _site/
+          cp -r index.html assets data robots.txt sitemap.xml CNAME ads.txt _site/
           echo "將發佈以下內容："
           find _site -type f | sort
 
