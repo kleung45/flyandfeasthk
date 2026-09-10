@@ -19,7 +19,8 @@ hk-deals/
 ├─ index.html                  網站首頁（單頁應用，資料驅動）
 ├─ robots.txt                  搜尋引擎指引
 ├─ sitemap.xml                 站點地圖
-├─ CNAME                       GitHub Pages 自訂域名（flyandfeasthk.com）
+├─ ads.txt                     AdSense 授權賣方宣告（pub-1777376842974340）
+├─ CNAME                       GitHub Pages 自訂域名（www.flyandfeasthk.com）
 ├─ .github/workflows/static.yml  推送即自動部署到 GitHub Pages（只發佈網站檔案）
 ├─ pipeline/deploy.sh          一鍵：重建 + 產生文案 + 推送部署
 ├─ assets/
@@ -148,6 +149,29 @@ bash pipeline/deploy.sh
 
 之後若換域名，記得同步更新：`index.html` 的 canonical 與 `og:url`、`robots.txt`、
 `sitemap.xml`、`CNAME`，以及 `pipeline/store.json` 的 `meta.siteUrl`。
+
+## Google AdSense
+
+`index.html` 的 `<head>` 已載入 AdSense：
+
+```html
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1777376842974340"
+crossorigin="anonymous"></script>
+```
+
+根目錄的 `ads.txt` 對應同一個發佈商 ID：
+
+```
+google.com, pub-1777376842974340, DIRECT, f08c47fec0942fa0
+```
+
+- **這行 `<script>` 負責驗證網站擁有權並啟用自動廣告。** 若你在 AdSense 後台只想用
+  「自動廣告」，這樣就足夠；若要指定版位（手動廣告單元），還須在頁面內插入對應的
+  `<ins class="adsbygoogle">` 區塊，並把 `data-ad-slot` 填成後台給的版位編號。
+- `ads.txt` 必須能從 `https://www.flyandfeasthk.com/ads.txt` 直接讀到，因此已加進
+  `.github/workflows/static.yml` 的複製清單。缺少它，AdSense 會持續顯示
+  「找不到 ads.txt」警告，並可能降低競價。
+- 審核期間網站需有實質內容，且優惠資料不可為示範資料（`meta.sample` 須為 `false`）。
 
 ## 接上 Facebook / Instagram 自動發帖
 
