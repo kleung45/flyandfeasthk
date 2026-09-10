@@ -105,7 +105,29 @@ cd .. && python -m http.server 8777     # 本地預覽 http://127.0.0.1:8777/
 
 ### GitHub Pages 首次上線步驟
 
-倉庫已在本機初始化完成（分支 `main`）。需要你在自己電腦上跑三行指令：
+**第一步：在 GitHub 建立空倉庫**
+
+到 <https://github.com/new> 開一個新倉庫：
+
+| 欄位 | 填法 |
+|------|------|
+| Repository name | `flyandfeasthk`（**不要**加 `.git`，`.git` 只是網址後綴） |
+| Description | 可留空 |
+| 可見性 | **Public** —— 免費帳號的 GitHub Pages 只支援公開倉庫 |
+| Add a README file | **不要勾** |
+| Add .gitignore / license | **不要勾** |
+
+一定要建立**完全空白**的倉庫。若勾了 README，GitHub 會先產生一個 commit，
+與本機歷史分岔，`git push` 會被拒絕（要處理就得 force push，麻煩）。
+
+倉庫是公開的，代表 `pipeline/` 內的腳本原始碼也會公開。這本身無妨（不含任何憑證——
+`config.json` 已被 `.gitignore` 排除），但要意識到這一點。
+真正發佈到網站的只有 `index.html assets data robots.txt sitemap.xml CNAME`，
+`pipeline/` 與 `outbox/` 不會出現在網站上。
+
+**第二步：推送本機已完成的倉庫**
+
+本機倉庫已初始化完成（分支 `main`，含部署工作流）。跑這三行：
 
 ```bash
 cd D:/Work_buddy_Project/2026-09-10-14-41-48/hk-deals
@@ -114,7 +136,10 @@ git remote add origin https://github.com/kleung45/flyandfeasthk.git
 git push -u origin main
 ```
 
-然後到 GitHub 倉庫頁面：
+> 帳號若不是 `kleung45`（本機 git 設定讀到的），把網址中的用戶名換成你的。
+> 推送時會彈出瀏覽器授權視窗（Git Credential Manager），登入一次之後就不必再輸。
+
+**第三步：開啟 Pages**
 
 1. **Settings → Pages → Source** 選 **GitHub Actions**（不要選 branch）。
 2. 等 Actions 跑完，網址會是 `https://kleung45.github.io/flyandfeasthk/`。
