@@ -1,4 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
+# 只發佈網站檔案到 GitHub Pages。
+# 注意：不要改回 path: '.'，否則 pipeline/、outbox/、README.md 都會被公開讀取。
 name: Deploy static content to Pages
 
 on:
@@ -31,13 +32,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: 組裝要發佈的網站檔案
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data robots.txt sitemap.xml CNAME _site/
+          echo "將發佈以下內容："
+          find _site -type f | sort
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # 只上傳網站檔案。不要改成 '.'，否則 pipeline/ 與 outbox/ 會被公開讀取。
+          path: "_site"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
