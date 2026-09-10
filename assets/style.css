@@ -102,6 +102,20 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 52px 0 34px; }
+.hero-inner { display: flex; align-items: center; gap: 44px; }
+.hero-copy { flex: 1 1 520px; min-width: 0; }
+.hero-art { flex: 0 1 440px; min-width: 0; }
+.hero-art svg {
+  display: block; width: 100%; height: auto;
+  filter: drop-shadow(0 14px 28px rgba(229, 72, 77, .14));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-art { animation: ff-float 5s ease-in-out infinite; }
+  @keyframes ff-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+}
 .eyebrow {
   display: inline-block; font-size: 12px; letter-spacing: .12em;
   color: var(--accent); background: var(--accent-soft);
@@ -164,6 +178,13 @@ a { color: inherit; text-decoration: none; }
 .card.is-expired:hover { transform: none; box-shadow: none; }
 
 .card-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.card-sticker {
+  margin-left: auto; width: 46px; height: 46px; border-radius: 13px; flex: none;
+  display: flex; align-items: center; justify-content: center; font-size: 24px;
+}
+.st-flight { background: var(--blue-soft); }
+.st-dining { background: var(--amber-soft); }
+.st-hotel { background: var(--teal-soft); }
 .badge {
   font-size: 11px; font-weight: 600; letter-spacing: .04em;
   border-radius: 5px; padding: 3px 8px;
@@ -229,13 +250,20 @@ a { color: inherit; text-decoration: none; }
 .how h2 { margin-bottom: 26px; }
 .how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
 .how-grid article { border-left: 2px solid var(--accent); padding-left: 16px; }
-.how-grid .step { font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: .1em; }
+.step-ico {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 46px; height: 46px; border-radius: 13px; font-size: 22px; margin-bottom: 10px;
+}
+.how-grid .step { display: block; font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .12em; }
 .how-grid h3 { margin: 6px 0 6px; }
 .how-grid p { font-size: 14px; color: var(--muted); }
 
 /* ---------- Subscribe ---------- */
 .subscribe { padding: 52px 0 8px; }
 .subscribe-inner { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
+.sub-copy { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.sub-art { flex: none; width: 132px; }
+.sub-art svg { display: block; width: 100%; height: auto; }
 .subscribe h2 { font-size: 20px; }
 .subscribe p { font-size: 14px; color: var(--muted); margin-top: 6px; max-width: 420px; }
 .sub-form { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-left: auto; position: relative; }
@@ -272,6 +300,8 @@ a { color: inherit; text-decoration: none; }
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
   .nav { display: none; }
+  .hero-inner { flex-direction: column-reverse; align-items: flex-start; gap: 24px; }
+  .hero-art { max-width: 380px; }
   .controls-right { margin-left: 0; width: 100%; }
   .search input { width: 100%; }
   .search { flex: 1 1 200px; }

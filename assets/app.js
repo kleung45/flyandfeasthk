@@ -24,11 +24,19 @@
   };
 
   var CAT_LABEL = { flight: "機票", dining: "餐飲", hotel: "酒店" };
+  var CAT_EMOJI = { flight: "✈️", dining: "🍜", hotel: "🏨" };
+  var CAT_STICKER = { flight: "st-flight", dining: "st-dining", hotel: "st-hotel" };
 
   function esc(value) {
     return String(value == null ? "" : value).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
+  }
+
+  function cardSticker(cat) {
+    var emoji = CAT_EMOJI[cat] || "🎁";
+    var cls = CAT_STICKER[cat] || "st-hotel";
+    return '<span class="card-sticker ' + cls + '" aria-hidden="true">' + emoji + "</span>";
   }
 
   function categoryBadge(cat) {
@@ -95,7 +103,7 @@
       : '<a class="link-btn" href="' + esc(deal.url || "#") + '" target="_blank" rel="noopener nofollow">查看優惠 →</a>';
 
     return '<article class="' + cls + '" data-id="' + esc(deal.id) + '">' +
-      '<div class="card-top">' + badges + "</div>" +
+      '<div class="card-top">' + badges + cardSticker(deal.category) + "</div>" +
       "<h3>" + esc(deal.title) + "</h3>" +
       (deal.subtitle ? '<p class="sub">' + esc(deal.subtitle) + "</p>" : "") +
       (route ? '<p class="route">' + esc(route) + "</p>" : "") +
