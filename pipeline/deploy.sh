@@ -29,12 +29,9 @@ if [ "${1:-}" != "--force" ] && grep -q '"sample": true' data/deals.json 2>/dev/
   exit 1
 fi
 
-git add -A
-if git diff --cached --quiet; then
-  echo "沒有變更，無需部署。"
-  exit 0
-fi
-
-git commit -m "chore: 更新優惠資料 $(date +%Y-%m-%d)"
-git push
-echo "已推送，GitHub Actions 會自動發佈到 flyandfeasthk.com"
+echo
+echo "== 推送並部署 =="
+# 這台機器上 `git push` 會無回應逾時（實測掛住 90 秒以上且零輸出），
+# 因此改走 GitHub API 推送，效果等同一次 push。
+"$PYTHON" pipeline/push_api.py
+echo "已推送，GitHub Actions 會自動發佈網站"
