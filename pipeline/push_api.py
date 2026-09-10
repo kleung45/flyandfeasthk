@@ -128,7 +128,31 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="透過 GitHub API 推送本機內容")
     parser.add_argument("--message", default=None, help="提交訊息，預設自動產生")
     parser.add_argument("--dry-run", action="store_true", help="只顯示會推送什麼，不真的提交")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="遠端有本機沒有的提交時，仍強行覆蓋（預設會中止）",
+    )
     args = parser.parse_args()
+
+    # 防覆蓋檢查：有人在 GitHub 網頁改過檔案時，本機的舊版本會把它蓋掉
+    git("fetch", "origin", BRANCH)
+    remote_head = git("rev-parse", "FETCH_HEAD").strip()
+    local_head = git("rev-parse", "HEAD").strip()
+    if remote_head != local_head:
+        behind = (
+            subprocess.run(
+                ["git", "merge-base", "--is-ancestor", remote_head, local_head], cwd=ROOT
+            ).returncode
+            != 0
+        )
+        if behind and not args.force:
+            files = git("diff", "--name-only", f"{local_head}..{remote_head}").split()
+            print(f"遠端有本機沒有的提交（{remote_head[:9]}），為避免覆蓋已中止。")
+            print("受影響的檔案：" + "、".join(files) if files else "（無法列出）")
+            print("先執行 `git fetch origin main && git reset --hard FETCH_HEAD` 對齊，")
+            print("或確認要覆蓋時加 --force。")
+            raise SystemExit(1)
 
     files = staged_files()
     if not files:
