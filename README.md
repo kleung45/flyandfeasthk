@@ -6,6 +6,12 @@
 情報源 → 抓取／核價 → 產出草稿 → 建站 → Facebook / Instagram
 ```
 
+> **上線前必做**
+> `pipeline/store.json` 目前是 11 筆**示範資料**，價格（HK$388 之類）並非真實報價，
+> 頁面上會顯示黃色「示範資料」提示條。
+> 公開發佈前必須把真實優惠填進去，並將 `meta.sample` 改為 `false` 讓提示條消失。
+> 否則等同在網站上散佈假價格。
+
 ## 目錄結構
 
 ```
@@ -14,6 +20,8 @@ hk-deals/
 ├─ robots.txt                  搜尋引擎指引
 ├─ sitemap.xml                 站點地圖
 ├─ CNAME                       GitHub Pages 自訂域名（flyandfeasthk.com）
+├─ .github/workflows/deploy.yml  推送即自動部署到 GitHub Pages
+├─ pipeline/deploy.sh          一鍵：重建 + 產生文案 + commit + push
 ├─ assets/
 │  ├─ style.css                樣式（淺色簡潔風，響應式）
 │  └─ app.js                   篩選、排序、搜尋、分享邏輯
@@ -91,21 +99,46 @@ cd .. && python -m http.server 8777     # 本地預覽 http://127.0.0.1:8777/
 
 | 平台 | 做法 |
 |------|------|
-| Cloudflare Pages | 連接 Git 倉庫，建置指令留空，輸出目錄填 `hk-deals`（推薦：香港訪問延遲低、免費 SSL） |
-| GitHub Pages | 把 `hk-deals` 內容推到 `gh-pages` 分支；`CNAME` 檔已備好 `flyandfeasthk.com` |
+| GitHub Pages | 本倉庫已內建 `.github/workflows/deploy.yml`，推上 `main` 就自動發佈（目前採用） |
+| Cloudflare Pages | 連接 Git 倉庫，建置指令留空，輸出目錄填 `hk-deals`（香港訪問延遲更低） |
 | Netlify | 直接拖放 `hk-deals` 資料夾 |
+
+### GitHub Pages 首次上線步驟
+
+倉庫已在本機初始化完成（分支 `main`）。需要你在自己電腦上跑三行指令：
+
+```bash
+cd D:/Work_buddy_Project/2026-09-10-14-41-48/hk-deals
+
+git remote add origin https://github.com/kleung45/flyandfeasthk.git
+git push -u origin main
+```
+
+然後到 GitHub 倉庫頁面：
+
+1. **Settings → Pages → Source** 選 **GitHub Actions**（不要選 branch）。
+2. 等 Actions 跑完，網址會是 `https://kleung45.github.io/flyandfeasthk/`。
+3. **Settings → Pages → Custom domain** 填入 `flyandfeasthk.com`，勾選 **Enforce HTTPS**。
+   （`CNAME` 檔已在倉庫內，GitHub 會自動識別。）
 
 **DNS 設定**（在域名商後台）：
 
-- Cloudflare Pages：加一筆 `CNAME`，名稱 `@`，指向 `<專案名>.pages.dev`。
-- GitHub Pages：加四筆 `A` 指向 `185.199.108.153 / .109.153 / .110.153 / .111.153`，
-  再加一筆 `CNAME`，名稱 `www`，指向 `<你的帳號>.github.io`。
+- 四筆 `A` 記錄，名稱 `@`，分別指向 `185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`
+- 一筆 `CNAME`，名稱 `www`，指向 `kleung45.github.io`
+
+日後每次更新只要跑：
+
+```bash
+bash pipeline/deploy.sh
+```
+
+它會重建資料、產生文案、commit 並 push，GitHub Actions 接著自動發佈。
 
 本站已內建 SEO 檔案：`robots.txt`、`sitemap.xml`，以及指向 `flyandfeasthk.com` 的 canonical 與 OG 標籤。
-申請 Google Search Console 時直接提交 `https://flyandfeasthk.com/sitemap.xml`。
+上線後到 Google Search Console 提交 `https://flyandfeasthk.com/sitemap.xml`。
 
-之後若換域名，記得同步更新這四處：`index.html` 的 canonical 與 `og:url`、`robots.txt`、
-`sitemap.xml`、`pipeline/store.json` 的 `meta.siteUrl`，以及 `CNAME`。
+之後若換域名，記得同步更新這幾處：`index.html` 的 canonical 與 `og:url`、`robots.txt`、
+`sitemap.xml`、`CNAME`、`.github/workflows/deploy.yml` 的複製清單，以及 `pipeline/store.json` 的 `meta.siteUrl`。
 
 ## 接上 Facebook / Instagram 自動發帖
 

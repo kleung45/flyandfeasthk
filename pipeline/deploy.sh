@@ -21,6 +21,14 @@ if ! git remote get-url origin >/dev/null 2>&1; then
   exit 0
 fi
 
+# 安全閘：示範資料仍在上線內容中時，拒絕推送，避免公開假價格
+if [ "${1:-}" != "--force" ] && grep -q '"sample": true' data/deals.json 2>/dev/null; then
+  echo "偵測到網站資料仍包含示範優惠（sample = true），已中止部署。"
+  echo "請先在 pipeline/store.json 換上真實優惠並把 meta.sample 設為 false；"
+  echo "若確定要照樣部署，執行：bash pipeline/deploy.sh --force"
+  exit 1
+fi
+
 git add -A
 if git diff --cached --quiet; then
   echo "沒有變更，無需部署。"
