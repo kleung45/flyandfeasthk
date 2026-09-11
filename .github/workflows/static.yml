@@ -37,6 +37,8 @@ jobs:
         run: |
           mkdir -p _site
           cp -r index.html assets data robots.txt sitemap.xml CNAME ads.txt _site/
+          # Google Search Console 網域驗證檔（不可刪除，否則驗證會失效）
+          cp google*.html _site/ 2>/dev/null || true
           echo "將發佈以下內容："
           find _site -type f | sort
 
