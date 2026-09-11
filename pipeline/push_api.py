@@ -29,6 +29,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
+CONFIG_PATH = Path(__file__).resolve().parent / "config.json"
 REPO = os.environ.get("GH_REPO", "kleung45/flyandfeasthk")
 BRANCH = os.environ.get("GH_BRANCH", "main")
 TIMEOUT = 60
@@ -37,8 +38,15 @@ HK_TZ = timezone(timedelta(hours=8))
 VALID_MODES = {"100644", "100755", "120000"}
 
 
-def git(*args: str) -> str:
-    proc = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
+def git(*args: str, timeout: int = 90) -> str:
+    # 這台機器上 git fetch／push 偶爾會無限期掛住（零輸出、不回應），
+    # 所以所有 git 呼叫一律加上逾時，掛住時降級而不是拖死整個部署流程。
+    try:
+        proc = subprocess.run(
+            ["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=timeout
+        )
+    except subprocess.TimeoutExpired:
+        raise SystemExit(f"git {' '.join(args)} 逾時（{timeout}s）")
     if proc.returncode != 0:
         raise SystemExit(f"git {' '.join(args)} 失敗：{proc.stderr.strip()}")
     return proc.stdout
@@ -54,16 +62,41 @@ def git_bytes(*args: str) -> bytes:
 
 
 def get_token() -> str:
+    """依序取得 GitHub 令牌：環境變數 → config.json（本機、不上傳）→ 系統憑證助手。
+
+    這台機器上從 Python 子進程呼叫 git-credential-manager 會無回應（實測 45 秒逾時），
+    所以正式做法是把令牌存在 pipeline/config.json 的 github.token，只在最後才退回憑證助手。
+    """
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token:
+        return token
+
+    if CONFIG_PATH.exists():
+        try:
+            cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+            token = (cfg.get("github") or {}).get("token", "").strip()
+            if token:
+                return token
+        except (json.JSONDecodeError, OSError):
+            pass
+
     env = dict(os.environ)
     env.update({"GIT_TERMINAL_PROMPT": "0", "GCM_INTERACTIVE": "never"})
-    proc = subprocess.run(
-        ["git", "credential", "fill"],
-        input="protocol=https\nhost=github.com\n\n",
-        capture_output=True,
-        text=True,
-        env=env,
-        timeout=45,
-    )
+    try:
+        proc = subprocess.run(
+            ["git", "credential", "fill"],
+            input="protocol=https\nhost=github.com\n\n",
+            capture_output=True,
+            text=True,
+            env=env,
+            timeout=20,
+        )
+    except subprocess.TimeoutExpired:
+        raise SystemExit(
+            "無法取得 GitHub 憑證：憑證助手逾時。請在 pipeline/config.json 加入\n"
+            '  "github": { "token": "<你的 GitHub PAT>" }\n'
+            "（config.json 已列入 .gitignore，不會上傳）"
+        )
     if proc.returncode != 0:
         raise SystemExit(f"無法取得 GitHub 憑證：{proc.stderr.strip()}")
     for line in proc.stdout.splitlines():
@@ -136,10 +169,16 @@ def main() -> None:
     args = parser.parse_args()
 
     # 防覆蓋檢查：有人在 GitHub 網頁改過檔案時，本機的舊版本會把它蓋掉
-    git("fetch", "origin", BRANCH)
-    remote_head = git("rev-parse", "FETCH_HEAD").strip()
-    local_head = git("rev-parse", "HEAD").strip()
-    if remote_head != local_head:
+    # 若 git fetch 逾時／失敗，改用 API 拿到的遠端 HEAD 判斷（下面非強制更新 ref，
+    # 遠端若已前進，GitHub 會拒絕，不會造成覆蓋），所以可以安全降級繼續。
+    try:
+        git("fetch", "origin", BRANCH)
+        remote_head = git("rev-parse", "FETCH_HEAD").strip()
+        local_head = git("rev-parse", "HEAD").strip()
+    except SystemExit as exc:
+        print(f"注意：無法用本機 git 比對遠端（{exc}），改由推送時的非強制更新保護。")
+        remote_head = local_head = ""
+    if remote_head and remote_head != local_head:
         behind = (
             subprocess.run(
                 ["git", "merge-base", "--is-ancestor", remote_head, local_head], cwd=ROOT

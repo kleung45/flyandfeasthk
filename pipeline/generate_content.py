@@ -53,32 +53,47 @@ def countdown(deal: dict) -> str:
     return ""
 
 
+CAT_STYLE = {
+    "flight": {"emoji": "✈️", "label": "機票"},
+    "hotel": {"emoji": "🏨", "label": "酒店"},
+    "dining": {"emoji": "🍽️", "label": "餐飲"},
+}
+
+
+def _teaser(summary: str, limit: int = 90) -> str:
+    """由長摘要抽一句短介紹，製造好奇感。"""
+    if not summary:
+        return ""
+    cut = summary.split("。")[0]
+    if len(cut) > limit:
+        cut = cut[: limit - 1] + "…"
+    return cut
+
+
 def fb_post(deal: dict, site_url: str) -> str:
-    lines = [f"【{'機票' if deal['category'] == 'flight' else '餐飲'}優惠】{deal['title']}", ""]
-    if deal.get("subtitle"):
-        lines += [deal["subtitle"], ""]
-    if deal.get("summary"):
-        lines += [deal["summary"], ""]
+    """引流式 FB 貼文（短版）：唔寫得太詳盡，引留言→自動回覆送網站連結。"""
+    style = CAT_STYLE.get(deal["category"], {"emoji": "🔥", "label": "優惠"})
+    lines = [f"{style['emoji']} {deal['title']}"]
 
-    if deal.get("highlights"):
-        lines.append("留意重點：")
-        lines += [f"· {h}" for h in deal["highlights"]]
-        lines.append("")
+    if deal.get("route") or deal.get("venue"):
+        lines.append(f"📍 {deal.get('route') or deal.get('venue')}")
+    if deal.get("priceLabel"):
+        lines.append(f"💰 {deal['priceLabel']}")
 
-    meta = []
-    if deal.get("period"):
-        period = deal["period"]
-        # period 已自帶標籤（如「出發期限：」）時不再重複加前綴
-        meta.append(period if "：" in period else f"適用期限：{period}")
-    if countdown(deal):
-        meta.append(f"優惠狀態：{countdown(deal)}")
-    if meta:
-        lines += meta + [""]
+    teaser = _teaser(deal.get("summary", ""))
+    if teaser:
+        lines += ["", teaser]
 
-    url = deal.get("url") or site_url
-    lines += [f"優惠詳情：{url}", "", "—", "Fly & Feast HK 每日為你搜羅香港出發的機票與餐飲優惠。", "價格、名額與條款以商戶官方公佈為準。"]
-    tags = BASE_TAGS + CATEGORY_TAGS.get(deal["category"], []) + [f"#{t}".replace(" ", "") for t in deal.get("tags", [])]
-    lines += [" ".join(dict.fromkeys(tags))]
+    cd = countdown(deal)
+    if cd:
+        lines += ["", f"⏰ {cd}，手快有手慢冇！"]
+
+    lines += [
+        "",
+        "💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！",
+        "",
+        " ".join(dict.fromkeys(BASE_TAGS + CATEGORY_TAGS.get(deal["category"], [])[:2])),
+    ]
     return "\n".join(lines)
 
 
@@ -119,22 +134,19 @@ def xhs_note(deal: dict, site_url: str) -> str:
 
 
 def digest_post(deals: list[dict], site_url: str) -> str:
-    lines = ["【本週香港優惠速報】", ""]
-    flights = [d for d in deals if d["category"] == "flight"]
-    dinings = [d for d in deals if d["category"] == "dining"]
+    lines = ["🔥【今日香港抵嘢速報】", ""]
+    for d in deals[:6]:
+        emoji = CAT_STYLE.get(d["category"], {"emoji": "🔥"})["emoji"]
+        name = (d.get("venue") or "").split(" · ")[0] or d.get("route") or d["title"]
+        lines.append(f"{emoji} {name}｜{money(d)}")
 
-    if flights:
-        lines.append("機票")
-        for d in flights[:4]:
-            lines.append(f"· {d.get('route') or d['title']}　{money(d)}（{countdown(d)}）")
-        lines.append("")
-    if dinings:
-        lines.append("餐飲")
-        for d in dinings[:4]:
-            lines.append(f"· {d.get('venue') or d['title']}　{money(d)}（{countdown(d)}）")
-        lines.append("")
-
-    lines += [f"完整清單：{site_url}", "", " ".join(BASE_TAGS)]
+    lines += [
+        "",
+        "全部優惠仲有幾多日、點樣申請？",
+        "留言「優惠」，我哋即刻 send 晒連結俾你 📩",
+        "",
+        " ".join(BASE_TAGS),
+    ]
     return "\n".join(lines)
 
 
@@ -177,7 +189,7 @@ def main() -> int:
                 "platform": "facebook",
                 "category": deal["category"],
                 "message": fb_post(deal, site_url),
-                "link": deal.get("url") or site_url,
+                "link": site_url,  # 引流到自家網站（廣告收益），唔直接跳商戶
                 "imageUrl": deal.get("image") or "",
             },
             {

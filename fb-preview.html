@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-page-node-id="7jlofBg21KGmf1BOT8sQHT">
+<head data-page-node-id="v7FYBJQt8aTJYFS9CQcS4k">
+<meta charset="UTF-8" data-page-node-id="aGoj1U1IzCu7Fy456aQmRu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="5odUmFGnKTsM0YFpCxf3u4">
+<title>Facebook 帖子预览（短版·留言引流）｜Fly & Feast HK</title>
+<style>
+  :root {
+    --fb-blue: #1877f2;
+    --fb-bg: #f0f2f5;
+    --card: #ffffff;
+    --text: #050505;
+    --sub: #65676b;
+    --divider: #e4e6eb;
+    --hover: #f2f2f2;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Helvetica, Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background: var(--fb-bg);
+    color: var(--text);
+    padding-bottom: 60px;
+  }
+  .topbar {
+    background: var(--card);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 12px;
+    padding: 8px 16px;
+  }
+  .topbar .fb-logo {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--fb-blue); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; font-weight: 700;
+  }
+  .topbar .search {
+    background: var(--fb-bg); border-radius: 20px;
+    padding: 8px 16px; color: var(--sub); font-size: 15px; flex: 0 1 240px;
+  }
+  .topbar .spacer { flex: 1; }
+  .topbar .avatar-me { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg,#a855f7,#6366f1); }
+  .preview-note {
+    background: #fffbe6; border-bottom: 1px solid #ffe58f;
+    color: #874d00; font-size: 13px; text-align: center; padding: 8px 16px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 16px 12px; }
+
+  .page-card { background: var(--card); border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,.15); margin-bottom: 16px; overflow: hidden; }
+  .page-cover { height: 140px; background: linear-gradient(120deg,#0ea5e9 0%,#2563eb 45%,#f59e0b 100%); position: relative; }
+  .page-cover svg { position: absolute; right: 16px; bottom: -6px; opacity: .9; }
+  .page-info { display: flex; gap: 14px; padding: 0 16px 14px; margin-top: -36px; align-items: flex-end; }
+  .page-avatar { width: 88px; height: 88px; border-radius: 50%; border: 4px solid var(--card); background: #fff; overflow: hidden; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  .page-avatar img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
+  .page-meta h1 { font-size: 24px; }
+  .page-meta p { color: var(--sub); font-size: 13px; margin-top: 2px; }
+  .page-actions { display: flex; gap: 8px; padding: 0 16px 16px; }
+  .btn { border: none; border-radius: 6px; padding: 8px 18px; font-size: 15px; font-weight: 600; cursor: pointer; }
+  .btn.primary { background: var(--fb-blue); color: #fff; }
+  .btn.gray { background: var(--divider); color: var(--text); }
+
+  .post { background: var(--card); border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,.15); margin-bottom: 16px; overflow: hidden; }
+  .post-head { display: flex; gap: 10px; padding: 12px 16px 0; align-items: center; }
+  .p-avatar { width: 40px; height: 40px; border-radius: 50%; background: #fff; border: 1px solid var(--divider); overflow: hidden; flex-shrink: 0; }
+  .p-avatar img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+  .p-head-meta { flex: 1; }
+  .p-head-meta .name { font-weight: 600; font-size: 15px; }
+  .p-head-meta .time { color: var(--sub); font-size: 13px; }
+  .p-head-more { color: var(--sub); font-size: 18px; letter-spacing: 2px; padding: 0 6px; }
+  .post-body { padding: 10px 16px 4px; font-size: 15px; line-height: 1.6; white-space: pre-wrap; word-break: break-word; }
+  .post-body .tags { color: var(--fb-blue); }
+  .post-stats { display: flex; justify-content: space-between; padding: 8px 16px; color: var(--sub); font-size: 14px; }
+  .post-stats .reactions span { display: inline-flex; width: 20px; height: 20px; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; border: 2px solid var(--card); margin-right: -6px; }
+  .r-like { background: var(--fb-blue); color:#fff; }
+  .r-love { background: #f33e58; color:#fff; }
+  .r-wow  { background: #f7b125; color:#fff; }
+  .post-actions { display: flex; border-top: 1px solid var(--divider); margin: 0 16px; }
+  .pa-btn { flex: 1; text-align: center; padding: 8px 0; font-size: 15px; color: var(--sub); font-weight: 600; cursor: pointer; border-radius: 6px; }
+  .pa-btn:hover { background: var(--hover); }
+
+  /* 留言區：模擬「留言→自動回覆」流程 */
+  .comment { display: flex; gap: 8px; margin: 0 16px 10px; }
+  .c-avatar { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; }
+  .c-user { background: linear-gradient(135deg,#34d399,#0ea5e9); }
+  .c-bubble { background: var(--hover); border-radius: 16px; padding: 8px 12px; font-size: 14px; }
+  .c-bubble .c-name { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+  .c-page .c-bubble { background: #e7f3ff; }
+  .c-page .c-name::after {
+    content: "· 自動回覆"; font-weight: 400; color: var(--sub); font-size: 12px; margin-left: 4px;
+  }
+  .c-page .c-avatar { background: #fff; border: 1px solid var(--divider); overflow: hidden; }
+  .c-page .c-avatar img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+  .c-link { color: var(--fb-blue); }
+</style>
+</head>
+<body data-page-node-id="3CZrd80FMpyNJh9NvF5c0U">
+
+<div class="topbar" data-page-node-id="grnAzB46e2pq5zbdLFhYxl">
+  <div class="fb-logo" data-page-node-id="LRadaYyXKa5GVqVFCR5BJO">f</div>
+  <div class="search" data-page-node-id="WCACEyb8OxD7PkDjcDBArI">搜尋 Facebook</div>
+  <div class="spacer" data-page-node-id="erj3X6gs7uxMaiE6W59S9M"></div>
+  <div class="avatar-me" data-page-node-id="GhyhSt7qaEeOGHEi6G1NoW"></div>
+</div>
+<div class="preview-note" data-page-node-id="hGjUkxWp7saJrmkDFifA2W">📱 Facebook 專頁貼文預覽（短版 · 留言引流）｜互動數字為示意｜藍色回覆 = 你的自動回覆示範</div>
+
+<div class="wrap" data-page-node-id="C5jAEtfasMUs9tXtBAyHex">
+
+  <!-- 專頁資料卡 -->
+  <div class="page-card" data-page-node-id="wpFSLHKccdLeHOhPKLkDbi">
+    <div class="page-cover" data-page-node-id="6elYXnMGH1spGslENF4PiP">
+      <svg width="150" height="90" viewBox="0 0 150 90" fill="none" data-page-node-id="7VDN6oUcLpoCIijNrnLHHW">
+        <path d="M8 72 Q40 40 70 52 T140 30" stroke="rgba(255,255,255,.7)" stroke-width="2" stroke-dasharray="6 6" fill="none" data-page-node-id="OonYHQkPMqpT8CYG0Nw0hL"/>
+        <path d="M120 26 l26 -10 -8 22 -10 -6z" fill="#fff" data-page-node-id="cTFVSNFCz2zYdzKDhiAg3F"/>
+        <circle cx="30" cy="24" r="8" fill="rgba(255,255,255,.55)" data-page-node-id="OAD3ESWkcckNAOgT53m2fg"/>
+        <circle cx="56" cy="14" r="5" fill="rgba(255,255,255,.4)" data-page-node-id="ikYiXVpjaqGG3Rbv54Gk25"/>
+      </svg>
+    </div>
+    <div class="page-info" data-page-node-id="54BE4GxGD5rZuwsP5Z0KWu">
+      <div class="page-avatar" data-page-node-id="QWQBrGBbClDFETlBZ0wbgg"><img src="assets/logo.png" alt="logo" data-page-node-id="9ePERojDYiMBFmj4KTzk6r"></div>
+      <div class="page-meta" data-page-node-id="dlux5G71MYBJ6Tv6MC7zdw">
+        <h1 data-page-node-id="ACwhijHBlK6c4xvZa8IR77">Fly & Feast HK 飛嚐香港</h1>
+        <p data-page-node-id="57qRqE0M7EhuHwKz7YUqyv">旅遊與優惠情報 · 每日下午 2:30 更新 · 1,286 人讚好 · 1,340 人追蹤</p>
+      </div>
+    </div>
+    <div class="page-actions" data-page-node-id="5rB0h8Bu7KDeClV5HRht32">
+      <button class="btn primary" data-page-node-id="8V9IyK8yBsVwK6AxGkjTHe">✓ 已讚好</button>
+      <button class="btn gray" data-page-node-id="xRuESM3TbNetPDW0GGNIJX">✉ 傳訊息</button>
+    </div>
+  </div>
+
+  <!-- 1. 速報 -->
+  <div class="post" data-page-node-id="kTq6UaqmI3H6NvFS7Dt7iQ">
+    <div class="post-head" data-page-node-id="EkZjFEAx3OitjRPKwP35Qp">
+      <div class="p-avatar" data-page-node-id="E1aMOG1mRDs9LYzIC647ej"><img src="assets/logo.png" alt="" data-page-node-id="VAJjmKxGWJikq71WMN0AGS"></div>
+      <div class="p-head-meta" data-page-node-id="1Cagtkh68oDrqmvbhxKqhN">
+        <div class="name" data-page-node-id="lLYLODcDiCP27r36U9m98W">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="H6yGdkBURGc2MHj7bhxDyy">剛剛 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="KFznm75hM3p71RladrveBf">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="i2aLpMDGDmt5C5C2ksAo8r">🔥【今日香港抵嘢速報】
+
+✈️ 香港出發 · 台北／曼谷／首爾／東京／杭州／上海｜來回連稅 HK$99 起
+🍽️ 九龍香格里拉 Café Kool｜HK$398 起 / 2 位
+🍽️ 馬哥孛羅香港酒店 Cafe Marco｜HK$392 起 / 2 位（長者）
+✈️ 國泰全航網 · 50+ 個目的地｜會員額外 28% off（下一張經濟艙機票）
+✈️ 香港出發 · 東京／大阪／札幌／福岡／沖繩／台北等｜指定航點低至 88 折
+🍽️ 香港沙田萬怡酒店 MoMo Café｜HK$886 / 2 位
+
+全部優惠仲有幾多日、點樣申請？
+留言「優惠」，我哋即刻 send 晒連結俾你 📩
+
+<span class="tags" data-page-node-id="1YL74gfI30yfSOmc043H6M">#香港優惠 #FlyAndFeastHK</span></div>
+    <div class="post-stats" data-page-node-id="riU4IE4aasUfcy5Uhu9BBB">
+      <div class="reactions" data-page-node-id="PJ2OKmFBYqt3MUWCTm9b7p"><span class="r-like" data-page-node-id="BT3oScWIIf1pbFx4lu9ZcP">👍</span><span class="r-love" data-page-node-id="VQBFKwEzIJtCc5OGLerxde">❤</span><span class="r-wow" data-page-node-id="TrTOaf5rYNUvkfEI42Vzi6">😮</span> 214</div>
+      <div data-page-node-id="fbE2qiBP5MAoUkF0844ZAc">52 則留言 · 27 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="Gl9wKsC0EEtHYe2d0EhHTr">
+      <div class="pa-btn" data-page-node-id="4zZRfeA0l8wo9y9pCJVsTQ">👍 讚</div><div class="pa-btn" data-page-node-id="UByM5ndVyJ32fAvSxQmWNH">💬 留言</div><div class="pa-btn" data-page-node-id="8XzAf5H9oatFf6OinyFCVK">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="AsWnQZaFBVEoCKkfJVnuas"><div class="c-avatar c-user" data-page-node-id="HKLykdQxjuPuZ67FFJW3k3"></div>
+      <div class="c-bubble" data-page-node-id="rb7n3F3izUgwvIF8hg6r6i"><div class="c-name" data-page-node-id="EkRskn9NbmpTlxkhZiHlVU">陳太</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="iMwE4iYs94haybHkDyQegK"><div class="c-avatar" data-page-node-id="ZmDsLyIUbe3vpyEoBOfU03"><img src="assets/logo.png" alt="" data-page-node-id="1DLPhGpZtEEIeWumzMArYR"></div>
+      <div class="c-bubble" data-page-node-id="q6D9fiNgkmkvl4QAaFvDdS"><div class="c-name" data-page-node-id="fxArSiW3o7gSARFQkVqFKG">Fly & Feast HK 飛嚐香港</div>傳送門嚟喇 🚀 <span class="c-link" data-page-node-id="GyYmvHJI1IEEzi1BXEVEsC">flyandfeasthk.com</span>　全部優惠碼同申請入口都喺入面！</div>
+    </div>
+  </div>
+
+  <!-- 2. Trip.com 9.9 -->
+  <div class="post" data-page-node-id="9V3hMcqCfevOEFKeX2o6tw">
+    <div class="post-head" data-page-node-id="ghdtEAv5egiu5suy0PPPDV">
+      <div class="p-avatar" data-page-node-id="F3lOKkCe1F1ricuILaorQI"><img src="assets/logo.png" alt="" data-page-node-id="SR1nSE3H4F1a5n0DiBdjPZ"></div>
+      <div class="p-head-meta" data-page-node-id="SymEhCrZrK0mFDbSHdnanA">
+        <div class="name" data-page-node-id="3Cx26TcytiuTSvEzRoKU7T">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="YoJUEj5HYgPwJFXgp6kPFV">2 小時 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="uy9PTjyivdQMk8F6cleTqp">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="9iw2MHSttC3rnS4CjTLhOB">✈️ Trip.com 9.9 狂賞：香港來回機票連稅 HK$99 起
+📍 香港出發 · 台北／曼谷／首爾／東京／杭州／上海
+💰 來回連稅 HK$99 起
+
+Trip.com 一連四日的「9.9 狂賞」，每日中午 12 時開搶限量一口價來回機票，標價已包含所有稅項及附加費
+
+⏰ 剩 2 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="nuV4bAEOJg0g6FPvm8mxPL">#香港優惠 #FlyAndFeastHK #香港機票 #機票優惠</span></div>
+    <div class="post-stats" data-page-node-id="rFhg3sseDO0Ws7NBRAwh20">
+      <div class="reactions" data-page-node-id="nWrnB4EpyE2EyEN17XbpQ0"><span class="r-like" data-page-node-id="zMbVznUFkEHrxZB2IV7v5e">👍</span><span class="r-love" data-page-node-id="2WWXpldM49hx6PKPSOnN8q">❤</span> 186</div>
+      <div data-page-node-id="OAWQT447pIotgMoEXLYdn8">63 則留言 · 41 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="234COpfKwCwFvIQhWNCxqP">
+      <div class="pa-btn" data-page-node-id="3Fsn4fvZXnNXyCNpEgDCWd">👍 讚</div><div class="pa-btn" data-page-node-id="JWc3hFBUc1Becur1PzEWR1">💬 留言</div><div class="pa-btn" data-page-node-id="kiG9p66whUZHaKFEk6EbCr">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="NKnjct8oGJcdehITCUBINm"><div class="c-avatar c-user" data-page-node-id="yFqC6UEFdxc9PRJcyOlPmn"></div>
+      <div class="c-bubble" data-page-node-id="3vMR73dyQBxuypIbPvIFWB"><div class="c-name" data-page-node-id="uWTC6hkvC4eH6FCYwY6Blc">Kelvin Wong</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="AnwTFEkXp3NYe01nGgYHba"><div class="c-avatar" data-page-node-id="uAgrmb42jHhPpcc9DAFyui"><img src="assets/logo.png" alt="" data-page-node-id="mfojhWfScjxLhnVmJAeeav"></div>
+      <div class="c-bubble" data-page-node-id="PUXHWOSSV03lF61jSetPlB"><div class="c-name" data-page-node-id="tXNpXQ8b9jIH5WVMUOZEO6">Fly & Feast HK 飛嚐香港</div>入嚟呢度搶 👉 <span class="c-link" data-page-node-id="dUod3Ve0hVDdU8g6QB3mEF">flyandfeasthk.com</span>　仲教埋你點樣搶到 HK$399 曼谷 😉</div>
+    </div>
+  </div>
+
+  <!-- 3. Café Kool -->
+  <div class="post" data-page-node-id="fjC7JkB57BmMIY3bG7DMlW">
+    <div class="post-head" data-page-node-id="NTGQjmEp2Uf0fiMEByALw1">
+      <div class="p-avatar" data-page-node-id="l7poUsv73rMAsCpdN3A7sC"><img src="assets/logo.png" alt="" data-page-node-id="gfErp57AMGBZUBrS7WYKZA"></div>
+      <div class="p-head-meta" data-page-node-id="iBNBskQpTYhUU0hJx5fqi3">
+        <div class="name" data-page-node-id="wleeZ6F757pKDr63KyIdFw">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="byDqQGaXh5NbwNES7fWiDB">5 小時 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="8eWFF3jmCBa4pwPRjEoVJ7">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="66mNceUlZMYP0PzWC02Pcs">🍽️ 「夏日東瀛」自助午餐 買一送一，人均 HK$199 起
+📍 九龍香格里拉 Café Kool · 尖沙咀東
+💰 HK$398 起 / 2 位
+
+九龍香格里拉 Café Kool「夏日東瀛」自助午餐買一送一，每兩位 HK$598 起，輸入優惠碼「FBWCK」後 HK$398 起／2 位，人均 HK$199 起，價錢已含加一…
+
+⏰ 剩 4 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="Wwe76LY4p1ZubKiMquoOt0">#香港優惠 #FlyAndFeastHK #香港美食 #自助餐</span></div>
+    <div class="post-stats" data-page-node-id="CdtveWHWBSRHxGehHM1J4P">
+      <div class="reactions" data-page-node-id="MlU0EaMPM7FMO3h62xk9LI"><span class="r-like" data-page-node-id="W9r4Tj3eubKhHgthIYgtwX">👍</span><span class="r-love" data-page-node-id="s5Iz6jkU3HFmRCfMdmzOYV">❤</span><span class="r-wow" data-page-node-id="zMSvTes8CCAOuwAoZoLkzy">😮</span> 302</div>
+      <div data-page-node-id="pmC11qKBeXolWq5S0AKsjI">88 則留言 · 96 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="LopEMyZedCcBVd7C9VXtsD">
+      <div class="pa-btn" data-page-node-id="wN714GzGsY7pkBvw9sUSwj">👍 讚</div><div class="pa-btn" data-page-node-id="AvsHNIRsSvQK40S8bkhddi">💬 留言</div><div class="pa-btn" data-page-node-id="Nfvw3qLkynjJUSmRZkHs2l">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="eZefH2WGKVwb8YCHtsvXbr"><div class="c-avatar c-user" data-page-node-id="KTWErrldwucRbWLfA4Ygta"></div>
+      <div class="c-bubble" data-page-node-id="1CpB4LrE2FJyOZB07rm5JE"><div class="c-name" data-page-node-id="VjrHaJxdlkW4Vt4A3SuB94">小美</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="hdn47dd13cUkwdWZuiskv9"><div class="c-avatar" data-page-node-id="l0wCFeffliTQSCqHekF5c1"><img src="assets/logo.png" alt="" data-page-node-id="bkcXTjTCpIenF8wGdcHnae"></div>
+      <div class="c-bubble" data-page-node-id="QUKP4DFuNtB2tQMlBCf3bH"><div class="c-name" data-page-node-id="Tj5BitXtGBNHK9EUvfc4QY">Fly & Feast HK 飛嚐香港</div>優惠碼＋預訂教學喺度 📩 <span class="c-link" data-page-node-id="SGsgb8ONJG8pIvdcsHlAKQ">flyandfeasthk.com</span></div>
+    </div>
+  </div>
+
+  <!-- 4. Cafe Marco 長者 -->
+  <div class="post" data-page-node-id="0FCcXOrZAQVK2k7ISQHH53">
+    <div class="post-head" data-page-node-id="C8nPB0o9RG6wVFEU6RnlND">
+      <div class="p-avatar" data-page-node-id="gdvkIGT9LXHeF3N0bMrXU1"><img src="assets/logo.png" alt="" data-page-node-id="73eAr0okp94HMb46NCsFYO"></div>
+      <div class="p-head-meta" data-page-node-id="gHjp5mjEPZWwYetyHNFj8g">
+        <div class="name" data-page-node-id="QKD7dGVexW34WT6oCfGX8t">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="pUjVgGfr4DDAQADcqe1ltd">7 小時 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="yT5uTEbCoYYKCCMIJYP8Zg">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="f5U7qzb3rUgMvLv5TDl7nj">🍽️ 長者專享自助午餐 買一送一，人均 HK$196 起
+📍 馬哥孛羅香港酒店 Cafe Marco · 尖沙咀海港城
+💰 HK$392 起 / 2 位（長者）
+
+馬哥孛羅香港酒店 Cafe Marco 推出長者專屬買一送一，網上預訂並在結帳時輸入優惠碼「FBWCM50」，長者自助午餐平日折後 HK$392／2 位（人均 HK$196），週…
+
+⏰ 剩 5 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="sM3PdSFEm9Afa7hnKnfVsP">#香港優惠 #FlyAndFeastHK #香港美食 #自助餐</span></div>
+    <div class="post-stats" data-page-node-id="QkIpIFBqFpljoLIkac6OTA">
+      <div class="reactions" data-page-node-id="HSV37rJsIkYA0ivGK1jiwm"><span class="r-like" data-page-node-id="6WxuvrQ2yDOh8eFqOIPMTe">👍</span><span class="r-love" data-page-node-id="oT9JfHxfBrMY5HB7b1X1ix">❤</span> 145</div>
+      <div data-page-node-id="wyMoeDZuUYMllch6WytgPI">34 則留言 · 48 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="BlI2rWKg6vCD23KYmUV5Ef">
+      <div class="pa-btn" data-page-node-id="mwrHHEjAJ0W4jDE2nAyMKm">👍 讚</div><div class="pa-btn" data-page-node-id="LdcF2LyDmaHRQ40yNLqIkP">💬 留言</div><div class="pa-btn" data-page-node-id="Pu8Tz8CPQt9GeQmC0hBXmK">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="PhyFVlZfmaFwjh5lrn7qIb"><div class="c-avatar c-user" data-page-node-id="biAuWH782shQPOBmQ6x7FV"></div>
+      <div class="c-bubble" data-page-node-id="82yMwzArDb42ewDBnWpgq2"><div class="c-name" data-page-node-id="ZqqdaA6L6FGgbLaFkB21lL">阿May</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="GFsOyWl14i3CY6GABogEW4"><div class="c-avatar" data-page-node-id="7GbrEb6PkjbBnct0I9XqzX"><img src="assets/logo.png" alt="" data-page-node-id="nF37RyG4MTLGMUXRi4LGZa"></div>
+      <div class="c-bubble" data-page-node-id="vVc2pV24WEDEASivQy1Rb1"><div class="c-name" data-page-node-id="x45j4RKMIpn30TdB3gBVdl">Fly & Feast HK 飛嚐香港</div>link 喺度 👉 <span class="c-link" data-page-node-id="NYo47EsZFtJFd0fYz0T1qL">flyandfeasthk.com</span>　帶埋屋企人去啦 ❤️</div>
+    </div>
+  </div>
+
+  <!-- 5. 國泰 -->
+  <div class="post" data-page-node-id="wG53oVqzfq2rUuBdcqcubj">
+    <div class="post-head" data-page-node-id="8XbYkIQbaZW9tygNH7kTQT">
+      <div class="p-avatar" data-page-node-id="QKRkKeBx0DmRBIFIb7TfOD"><img src="assets/logo.png" alt="" data-page-node-id="PpgUU2uW2BOLJoD5XOKaes"></div>
+      <div class="p-head-meta" data-page-node-id="wKsCI5zV4Ow7WXI1sKti3W">
+        <div class="name" data-page-node-id="gXlFcFO4HHe4F0NSqg8z1k">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="iEeaPFXTSOBSiMQtoLUYgf">9 小時 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="RGMqCb1D7hrvZpHmP0oe0k">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="xHmjumc91b8MPC8n4ltqa3">✈️ 80 周年 AnniFAREsary：全線特價，會員再享 28% off
+📍 國泰全航網 · 50+ 個目的地
+💰 會員額外 28% off（下一張經濟艙機票）
+
+國泰航空 80 周年「AnniFAREsary」，整個 9 月全航網艙位特價，旅遊期最遠到 2027 年 8 月
+
+⏰ 剩 8 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="aVmnn7xFgUFl4xvrjdGL4S">#香港優惠 #FlyAndFeastHK #香港機票 #機票優惠</span></div>
+    <div class="post-stats" data-page-node-id="xvAQm1QKvOLc3P8wNm0OPf">
+      <div class="reactions" data-page-node-id="e2Bl2JFRF0WHQuUFsDx1kL"><span class="r-like" data-page-node-id="D2DLP5BECriB9XlBadBdF7">👍</span><span class="r-love" data-page-node-id="wLBaURXsJOcWIQanSxZyAL">❤</span> 98</div>
+      <div data-page-node-id="Bxqu0TXFt3rrK2Pwz5wcxF">21 則留言 · 15 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="BmvE3gzJeN8WPEyJPOfZR1">
+      <div class="pa-btn" data-page-node-id="mlUkFwgzummYiXChfMVGjF">👍 讚</div><div class="pa-btn" data-page-node-id="BS7mCg6HLWVB791WDJfJvG">💬 留言</div><div class="pa-btn" data-page-node-id="D8T2LKKocWyecXhsMZgVns">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="mbgqtH76KuBLiyLJh4e5Lv"><div class="c-avatar c-user" data-page-node-id="GsvvOdf2gsi1MQCYnh4LH7"></div>
+      <div class="c-bubble" data-page-node-id="eG4qrLf7yqXBsxWhJN5JGb"><div class="c-name" data-page-node-id="aamEd0r71f8Czf3UyafuLo">Jason Lee</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="0hxORWLEpDnPYjAXAqCumS"><div class="c-avatar" data-page-node-id="Cm4zISIiUPCz7bLGcAwYCQ"><img src="assets/logo.png" alt="" data-page-node-id="7T7k75e07lJWaK1YlKr3EJ"></div>
+      <div class="c-bubble" data-page-node-id="0Eu01PK2BoQ0IPGkH5rVto"><div class="c-name" data-page-node-id="0zwu6StaFang11yvPOm8Qf">Fly & Feast HK 飛嚐香港</div>28% off 申請攻略喺呢度 📩 <span class="c-link" data-page-node-id="BAYFme61P2y0IXi4L4vBNU">flyandfeasthk.com</span></div>
+    </div>
+  </div>
+
+  <!-- 6. 大灣區航空 -->
+  <div class="post" data-page-node-id="AC4m1DLTtcOBgDisPGFN8D">
+    <div class="post-head" data-page-node-id="e6aPxiBkzSHpfJFdUOTbpe">
+      <div class="p-avatar" data-page-node-id="9eA58u9iDhYOcm8k7jJFlm"><img src="assets/logo.png" alt="" data-page-node-id="msLKiPZz5W18317IKMg6vC"></div>
+      <div class="p-head-meta" data-page-node-id="0bPjeSVom8ycL6954pefjC">
+        <div class="name" data-page-node-id="EoJ0fQ0dPT3Iy2CAoUC9HM">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="QnWxA5QW303c8Dop6eO71v">昨日 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="AAgAWOsectvP8Sr6bLpna5">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="8mIomfd3qUe90osPsdl2nM">✈️ 指定 11 個航點低至 88 折
+📍 香港出發 · 東京／大阪／札幌／福岡／沖繩／台北等
+💰 指定航點低至 88 折
+
+大灣區航空推出「APP 秋季限時優惠」，即日起至 9 月 21 日，透過 GBA 手機 App 使用專屬優惠券預訂指定航點，票價低至 88 折
+
+⏰ 剩 11 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="gyGqBMjtPrRvEEBzIPWk48">#香港優惠 #FlyAndFeastHK #香港機票 #機票優惠</span></div>
+    <div class="post-stats" data-page-node-id="fpWUMeUKI8SLcfP6sdRceg">
+      <div class="reactions" data-page-node-id="pfkmHSswOc8C0wJJtkEBol"><span class="r-like" data-page-node-id="m6SHi1kKWoeeERT9Vdtq1g">👍</span><span class="r-love" data-page-node-id="8BfOrWZCDU5NzPwpIV3vd4">❤</span> 76</div>
+      <div data-page-node-id="i52tPJsq4Z6mmU5Qqote15">17 則留言 · 11 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="6MPJChKSGGFCW6lATI0Aoj">
+      <div class="pa-btn" data-page-node-id="a9a54ecBEs253jGHW7vf8l">👍 讚</div><div class="pa-btn" data-page-node-id="i8o2XZ8XMtAZetoI9arrri">💬 留言</div><div class="pa-btn" data-page-node-id="FEuE27aHOCBIGrncaTKnVt">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="EkCBWsm7efR1tIetsF67mK"><div class="c-avatar c-user" data-page-node-id="gQ7flFoHPFb7r3fyMDp7Kk"></div>
+      <div class="c-bubble" data-page-node-id="cBYeDmL7aIEUCFZO2RwyM9"><div class="c-name" data-page-node-id="aCYWm6NUQdj6mHA1zLGue3">Yuki</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="b13qUEMr3zsY6gkAkXubxv"><div class="c-avatar" data-page-node-id="s8cClnfIsJmBCKzzPUYSsR"><img src="assets/logo.png" alt="" data-page-node-id="Gx6WaUVbRJIpKpbrn72xEZ"></div>
+      <div class="c-bubble" data-page-node-id="g8zaZ0cYbFuiYIdo9tW1Lg"><div class="c-name" data-page-node-id="flXpl9VblrX9fH8DDu5OuU">Fly & Feast HK 飛嚐香港</div>App 優惠券用法教學 📩 <span class="c-link" data-page-node-id="66MmdqmbmzFz2RhuTLiNLN">flyandfeasthk.com</span></div>
+    </div>
+  </div>
+
+  <!-- 7. MoMo Café -->
+  <div class="post" data-page-node-id="ro1fLfhV1QPCo1Ffnp1PAF">
+    <div class="post-head" data-page-node-id="FG91TtAAjA7JOivDV5zsR3">
+      <div class="p-avatar" data-page-node-id="N9XaNOZzhQjBpdJeasmI2M"><img src="assets/logo.png" alt="" data-page-node-id="ZwozvsfyshpkyKaALMX3dW"></div>
+      <div class="p-head-meta" data-page-node-id="BlZHhCc6sw8UzVI9tmmWeX">
+        <div class="name" data-page-node-id="wi2kdBE6qDCGHLZHxZyaNH">Fly & Feast HK 飛嚐香港</div>
+        <div class="time" data-page-node-id="XeOGORu6NvJ7XNdyyBhe9F">昨日 · 🌐</div>
+      </div>
+      <div class="p-head-more" data-page-node-id="2KOKoS38NCmWH9aBpXWOyO">⋯</div>
+    </div>
+    <div class="post-body" data-page-node-id="OtpLmJwm33MFMhDGwlMIrL">🍽️ 東南亞風味巡禮自助晚餐 買一送一，人均 HK$443
+📍 香港沙田萬怡酒店 MoMo Café · 沙田
+💰 HK$886 / 2 位
+
+沙田萬怡酒店 MoMo Café 於 Klook 推出「夏日抵 Deal」快閃買一送一，兩位同行原價 HK$1,624，折後 HK$886，人均 HK$443
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+
+<span class="tags" data-page-node-id="hTlfsowJvzCtAEIHlHv8mo">#香港優惠 #FlyAndFeastHK #香港美食 #自助餐</span></div>
+    <div class="post-stats" data-page-node-id="lFPaY7hMMTzfa8Qi2G4lQN">
+      <div class="reactions" data-page-node-id="LtSBSLg58YNf8IXacNLIxk"><span class="r-like" data-page-node-id="wb4GPGMLKNI4nvi729D0WC">👍</span><span class="r-love" data-page-node-id="snya4ydulaa4GdPGVDwpwd">❤</span><span class="r-wow" data-page-node-id="7f1pl01EX0gbhDlHISdAIE">😮</span> 167</div>
+      <div data-page-node-id="dT2aN9Oz7VOuP2ucn8PUKE">39 則留言 · 28 次分享</div>
+    </div>
+    <div class="post-actions" data-page-node-id="YEmVIvU86lkpwckmxh50jC">
+      <div class="pa-btn" data-page-node-id="8W4fFJKWljCdIei99b5qKh">👍 讚</div><div class="pa-btn" data-page-node-id="UebPRIv39ZUZmwqTw81wx4">💬 留言</div><div class="pa-btn" data-page-node-id="Mts8TnIfXG6jytgJpKltpv">↗ 分享</div>
+    </div>
+    <div class="comment" data-page-node-id="z0z6v85nmV5JUouAObG4ZV"><div class="c-avatar c-user" data-page-node-id="CvmTGjxt0whDrHGCKkSprG"></div>
+      <div class="c-bubble" data-page-node-id="nrGA4wuzTkD1qEnC7bVhXB"><div class="c-name" data-page-node-id="6mAUmbXNClielPDIOui31X">Marco Chau</div>優惠</div>
+    </div>
+    <div class="comment c-page" data-page-node-id="3wESmbxeES4u6ZnOJqJiyX"><div class="c-avatar" data-page-node-id="MiewaUBqhHOgfE4IZgnPGb"><img src="assets/logo.png" alt="" data-page-node-id="CztJ8PBzgh4wGYj4GgMh8N"></div>
+      <div class="c-bubble" data-page-node-id="rxsLENcBoLbLsGiW7nVVMV"><div class="c-name" data-page-node-id="be8g3VeuCAeRhAcj0HJ5Oz">Fly & Feast HK 飛嚐香港</div>預訂入口喺度 🍻 <span class="c-link" data-page-node-id="6adzQfkm6ieIRcH1FXakMo">flyandfeasthk.com</span></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
