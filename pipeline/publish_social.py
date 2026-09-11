@@ -21,6 +21,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -29,6 +30,7 @@ GRAPH = "https://graph.facebook.com/v21.0"
 DEFAULT_CONFIG = ROOT / "config.json"
 DEFAULT_STORE = ROOT / "store.json"
 OUTBOX = PROJECT / "outbox"
+MARKER_NAME = ".facebook_published.json"
 RETRY = 2
 
 
@@ -41,6 +43,8 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
 
     來源一：store.json 內 postedFacebook 為 true 的優惠。
     來源二：之前日期 outbox/<date>/manifest.json 已收錄的 Facebook 貼文 id。
+    來源三：當日已寫入的發佈紀錄 outbox/<date>/.facebook_published.json
+            （防範同一天重複執行造成重複貼文）。
     回傳 {dealId: 原因}，方便列印略過原因。
     """
     seen: dict[str, str] = {}
@@ -53,6 +57,17 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
         for deal in store.get("deals", []):
             if deal.get("postedFacebook") and deal.get("id"):
                 seen[deal["id"]] = "store.json 已標記 postedFacebook"
+
+    if current_date:
+        marker = OUTBOX / current_date / MARKER_NAME
+        if marker.exists():
+            try:
+                marked = load_json(marker)
+            except json.JSONDecodeError:
+                marked = {}
+            for deal_id in marked.get("dealIds", []):
+                if deal_id and deal_id != "digest":
+                    seen.setdefault(deal_id, f"當日已發佈（{MARKER_NAME}）")
 
     if OUTBOX.exists():
         for manifest in sorted(OUTBOX.glob("*/manifest.json")):
@@ -70,6 +85,28 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
                     seen[deal_id] = f"已於 {manifest.parent.name} outbox 發佈"
 
     return seen
+
+
+def write_publish_marker(manifest_path: Path, deal_ids: list[str]) -> None:
+    """記錄當日已成功發佈的 Facebook 優惠，避免同日再次執行時重複貼文。"""
+    marker = manifest_path.parent / MARKER_NAME
+    existing: list[str] = []
+    if marker.exists():
+        try:
+            existing = load_json(marker).get("dealIds", [])
+        except json.JSONDecodeError:
+            existing = []
+    merged = list(dict.fromkeys(existing + deal_ids))
+    marker.write_text(
+        json.dumps(
+            {"publishedAt": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+             "dealIds": merged},
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    print(f"已寫入發佈紀錄 {marker.name}（共 {len(merged)} 筆）")
 
 
 def mark_posted_facebook(store_path: Path, deal_ids: list[str]) -> None:
@@ -117,7 +154,7 @@ def api_post(path: str, data: dict[str, str]) -> dict:
     raise RuntimeError(f"呼叫 Graph API 失敗：{last}")
 
 
-PORTAL_COMMENT = "🔗 傳送門：https://flyandfeasthk.com（優惠碼＋申請入口全部喺入面）"
+PORTAL_COMMENT = "🔗 傳送門：https://www.flyandfeasthk.com（優惠碼＋申請入口全部喺入面）"
 
 
 def _pin_portal_comment(cfg: dict, post_id: str) -> str:
@@ -250,6 +287,7 @@ def main() -> int:
 
     if fb_posted and not dry:
         mark_posted_facebook(Path(args.store), fb_posted)
+        write_publish_marker(manifest_path, fb_posted)
 
     print(f"\n完成：成功 {ok}、略過 {skipped}、失敗 {failed}")
     if dry:

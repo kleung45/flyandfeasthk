@@ -164,6 +164,9 @@ def main() -> int:
     site_url = meta.get("siteUrl", "")
     deals = [d for d in payload["deals"] if d.get("status") != "expired"]
 
+    # 去重統一在發佈層（publish_social.py 的 --store 機制）處理：
+    # 它會比對 store.json 的 postedFacebook 標記與先前日期的 outbox manifest，
+    # 這裡不重複實作，避免兩套標準互相打架。
     if args.category:
         deals = [d for d in deals if d["category"] == args.category]
     if args.limit:

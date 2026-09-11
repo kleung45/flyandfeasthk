@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -28,6 +29,231 @@ DATA = PROJECT / "data"
 HK_TZ = timezone(timedelta(hours=8))
 END_SOON_DAYS = 3
 REQUIRED = ("id", "category", "title", "priceLabel", "endsAt")
+
+INDEX = PROJECT / "index.html"
+SITEMAP = PROJECT / "sitemap.xml"
+
+CARDS_START = "<!-- SEO:CARDS:START -->"
+CARDS_END = "<!-- SEO:CARDS:END -->"
+ITEMLIST_START = "<!-- SEO:ITEMLIST:START -->"
+ITEMLIST_END = "<!-- SEO:ITEMLIST:END -->"
+
+GRID_RE = re.compile(r'<div class="grid" id="grid"[^>]*></div>')
+
+CAT_LABEL = {"flight": "機票", "dining": "餐飲", "hotel": "酒店"}
+CAT_EMOJI = {"flight": "✈️", "dining": "🍜", "hotel": "🏨"}
+CAT_STICKER = {"flight": "st-flight", "dining": "st-dining", "hotel": "st-hotel"}
+
+
+# --------------------------------------------------------------------------
+# 靜態預渲染：把優惠卡片寫進 index.html 的 #grid，
+# 令 HTML 原始碼本身就含優惠文字（不依賴 JavaScript 才看得到內容）。
+# 前端 assets/app.js 載入後會用相同模板重新渲染一次，視覺結果完全一致。
+# 若 app.js 的 card() 有改動，這裡要同步更新。
+# --------------------------------------------------------------------------
+
+def esc(value) -> str:
+    s = "" if value is None else str(value)
+    return (
+        s.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
+
+
+def countdown(deal: dict) -> str:
+    if deal.get("status") == "expired":
+        return "已結束"
+    d = deal.get("daysLeft")
+    if d == 0:
+        return "今日結束"
+    if d == 1:
+        return "明日結束"
+    if isinstance(d, int):
+        return f"剩 {d} 日"
+    return ""
+
+
+def category_badge(cat: str) -> str:
+    cls = {"flight": "badge-flight", "dining": "badge-dining"}.get(cat, "badge-hotel")
+    return f'<span class="badge {cls}">{esc(CAT_LABEL.get(cat, "優惠"))}</span>'
+
+
+def status_badge(deal: dict) -> str:
+    if deal.get("status") == "expired":
+        return '<span class="badge badge-expired">已結束</span>'
+    if deal.get("status") == "ending":
+        return f'<span class="badge badge-urgent">{esc(countdown(deal))}</span>'
+    return ""
+
+
+def card_sticker(cat: str) -> str:
+    emoji = CAT_EMOJI.get(cat, "🎁")
+    cls = CAT_STICKER.get(cat, "st-hotel")
+    return f'<span class="card-sticker {cls}" aria-hidden="true">{emoji}</span>'
+
+
+def render_card(deal: dict) -> str:
+    cls = "card" + (" is-expired" if deal.get("status") == "expired" else "")
+    route = deal.get("route") or deal.get("venue") or ""
+
+    badges = category_badge(deal.get("category", "")) + status_badge(deal)
+    if deal.get("sample"):
+        badges += '<span class="badge badge-sample">示範</span>'
+
+    save = f'<span class="save">省 {esc(deal["discountPct"])}%</span>' if deal.get("discountPct") else ""
+
+    highlights = ""
+    if deal.get("highlights"):
+        items = "".join(f"<li>{esc(h)}</li>" for h in deal["highlights"])
+        highlights = f"<ul>{items}</ul>"
+
+    source = ""
+    if deal.get("sourceLabel"):
+        label = esc(deal["sourceLabel"])
+        if deal.get("sourceUrl"):
+            label = f'<a href="{esc(deal["sourceUrl"])}" target="_blank" rel="noopener nofollow">{label}</a>'
+        source = f'<p class="source">來源：{label}</p>'
+
+    share = ""
+    if deal.get("status") != "expired":
+        share = f'<button class="icon-btn" type="button" data-share="{esc(deal["id"])}">分享</button>'
+
+    if deal.get("status") == "expired":
+        cta = '<span class="period">優惠已結束</span>'
+    else:
+        cta = (
+            f'<a class="link-btn" href="{esc(deal.get("url") or "#")}"'
+            ' target="_blank" rel="noopener nofollow">查看優惠 →</a>'
+        )
+
+    return (
+        f'<article class="{cls}" data-id="{esc(deal["id"])}">'
+        f'<div class="card-top">{badges}{card_sticker(deal.get("category", ""))}</div>'
+        f'<h3>{esc(deal.get("title"))}</h3>'
+        + (f'<p class="sub">{esc(deal["subtitle"])}</p>' if deal.get("subtitle") else "")
+        + (f'<p class="route">{esc(route)}</p>' if route else "")
+        + '<div class="price-row">'
+        f'<span class="price">{esc(deal.get("priceLabel") or "")}</span>'
+        + (f'<span class="price-was">{esc(deal["originalLabel"])}</span>' if deal.get("originalLabel") else "")
+        + save
+        + "</div>"
+        + (f'<p class="summary">{esc(deal["summary"])}</p>' if deal.get("summary") else "")
+        + highlights
+        + '<div class="card-foot">'
+        f'<span class="period">{esc(deal.get("period") or countdown(deal))}</span>'
+        f'<span class="actions">{share}{cta}</span>'
+        "</div>"
+        + source
+        + "</article>"
+    )
+
+
+def replace_region(html: str, start: str, end: str, body: str) -> str:
+    i, j = html.find(start), html.find(end)
+    if i == -1 or j == -1 or j < i:
+        return html
+    return html[: i + len(start)] + "\n" + body + "\n      " + html[j:]
+
+
+def bootstrap_index(html: str) -> str:
+    """首次執行時插入標記與 FAQ 區塊，之後每次建置只替換標記之間的內容。"""
+    if CARDS_START not in html:
+        m = GRID_RE.search(html)
+        if m:
+            indent = "\n      "
+            html = (
+                html[: m.start()]
+                + '<div class="grid" id="grid">'
+                + indent + CARDS_START
+                + indent + CARDS_END
+                + "\n    </div>"
+                + html[m.end():]
+            )
+
+    if ITEMLIST_START not in html:
+        anchor = "</head>"
+        block = (
+            "<!-- SEO:ITEMLIST:START -->\n"
+            "<!-- SEO:ITEMLIST:END -->\n"
+        )
+        html = html.replace(anchor, block + anchor, 1)
+
+    return html
+
+
+def inject_index(deals: list[dict], meta: dict) -> None:
+    if not INDEX.exists():
+        print(f"提醒：找不到 {INDEX.name}，略過靜態預渲染")
+        return
+
+    html = bootstrap_index(INDEX.read_text(encoding="utf-8"))
+
+    live = [d for d in deals if d.get("status") != "expired"]
+    cards = "\n".join(render_card(d) for d in live)
+    html = replace_region(html, CARDS_START, CARDS_END, cards)
+
+    itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "香港出發機票特價與餐廳優惠（進行中）",
+        "description": meta.get("disclaimer", ""),
+        "numberOfItems": len(live),
+        "itemListOrder": "https://schema.org/ItemListOrderDescending",
+        "itemListElement": [],
+    }
+    for i, d in enumerate(live, 1):
+        entry: dict = {"@type": "ListItem", "position": i, "name": d.get("title")}
+        url = d.get("url")
+        price = d.get("priceValue")
+        if url and isinstance(price, (int, float)):
+            offer = {
+                "@type": "Offer",
+                "name": d.get("title"),
+                "url": url,
+                "price": price,
+                "priceCurrency": "HKD",
+                "category": CAT_LABEL.get(d.get("category"), "優惠"),
+            }
+            if d.get("endsAt"):
+                offer["availabilityEnds"] = d["endsAt"]
+            if d.get("sourceLabel"):
+                offer["seller"] = {"@type": "Organization", "name": d["sourceLabel"]}
+            entry["item"] = offer
+        elif url:
+            entry["url"] = url
+        itemlist["itemListElement"].append(entry)
+
+    ld = (
+        '<script type="application/ld+json">\n'
+        + json.dumps(itemlist, ensure_ascii=False, indent=2)
+        + "\n</script>"
+    )
+    html = replace_region(html, ITEMLIST_START, ITEMLIST_END, ld)
+    INDEX.write_text(html, encoding="utf-8")
+    print(f"  靜態預渲染 {len(live)} 筆優惠卡片 + ItemList 結構化資料已寫入 index.html")
+
+
+def write_sitemap(meta: dict) -> None:
+    site = (meta.get("siteUrl") or "").rstrip("/")
+    if not site:
+        return
+    today = datetime.now(HK_TZ).date().isoformat()
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        "  <url>\n"
+        f"    <loc>{site}/</loc>\n"
+        f"    <lastmod>{today}</lastmod>\n"
+        "    <changefreq>daily</changefreq>\n"
+        "    <priority>1.0</priority>\n"
+        "  </url>\n"
+        "</urlset>\n"
+    )
+    SITEMAP.write_text(xml, encoding="utf-8")
+    print(f"  sitemap.xml 已更新（lastmod {today}）")
 
 
 def parse_dt(value: str | None) -> datetime | None:
@@ -159,6 +385,10 @@ def main() -> int:
         f"已結束 {stats['expired']} 筆\n"
         f"  機票 {stats['flight']} / 餐飲 {stats['dining']} / 酒店 {stats['hotel']}"
     )
+
+    # SEO 產物：靜態預渲染 + sitemap（每次建置自動更新）
+    inject_index(deals, meta)
+    write_sitemap(meta)
 
     if warnings:
         print("\n提醒：")

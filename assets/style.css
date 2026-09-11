@@ -320,3 +320,14 @@ a { color: inherit; text-decoration: none; }
   .header-inner { gap: 12px; }
   .brand-text small { display: none; }
 }
+
+/* 常見問題（SEO 用可收錄內容區塊）*/
+.deals-title { margin: 0; }
+.faq { display: flex; flex-direction: column; gap: 10px; }
+.faq details {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); padding: 14px 16px;
+}
+.faq summary { cursor: pointer; font-weight: 500; font-size: 14.5px; }
+.faq details[open] summary { margin-bottom: 8px; }
+.faq p { font-size: 14px; color: var(--muted); margin: 0; }

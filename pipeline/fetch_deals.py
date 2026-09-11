@@ -28,7 +28,7 @@ SOURCES_FILE = ROOT / "sources.json"
 RAW_DIR = ROOT / "raw"
 
 UA = (
-    "Mozilla/5.0 (compatible; FlyAndFeastHK/1.0; +https://flyandfeasthk.com/about) "
+    "Mozilla/5.0 (compatible; FlyAndFeastHK/1.0; +https://www.flyandfeasthk.com/about) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 )
 TIMEOUT = 20

@@ -2,7 +2,7 @@
   "_note": "複製本檔為 config.json 後填入資料。config.json 已被 .gitignore 排除，切勿提交到公開倉庫。",
   "site": {
     "brand": "Fly & Feast HK",
-    "url": "https://flyandfeasthk.com",
+    "url": "https://www.flyandfeasthk.com",
     "utmSource": "facebook"
   },
   "facebook": {

@@ -3,8 +3,8 @@ window.DEAL_DATA = {
   "meta": {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
-    "siteUrl": "https://flyandfeasthk.com",
-    "updated": "2026-09-11T15:00:51+08:00",
+    "siteUrl": "https://www.flyandfeasthk.com",
+    "updated": "2026-09-11T15:20:32+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "stats": {
@@ -80,6 +80,7 @@ window.DEAL_DATA = {
         "屯門"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 2,
       "status": "ending"
     },
@@ -112,6 +113,7 @@ window.DEAL_DATA = {
         "限時 4 日"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 3,
       "status": "ending"
     },
@@ -209,6 +211,7 @@ window.DEAL_DATA = {
         "紅磡"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 4,
       "status": "active"
     },
@@ -241,6 +244,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 5,
       "status": "active"
     },
@@ -364,6 +368,7 @@ window.DEAL_DATA = {
         "金鐘"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 26,
       "status": "active"
     }
