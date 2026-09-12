@@ -1,0 +1,54 @@
+{
+  "deals": [
+    {
+      "id": "flight-wingon-visa-flatprice-20260912",
+      "category": "flight",
+      "title": "永安 App 一口價：台北來回連稅 HK$600 起，逢週四準時開搶",
+      "subtitle": "Visa 尊享機票一口價 · App 限定",
+      "route": "香港出發 · 東京／大阪／台北／首爾／曼谷／悉尼",
+      "priceLabel": "台北／曼谷 HK$600 · 首爾 HK$800 · 東京／大阪 HK$999（來回連稅一口價）",
+      "priceValue": 600,
+      "originalLabel": "悉尼一口價 HK$1,999（名額 20 個）",
+      "endsAt": "2026-09-24T15:00:00+08:00",
+      "period": "開搶日程：9/17（四）11:00 台北 HK$600（100 名額）、15:00 首爾 HK$800（80 名額）；9/24（四）11:00 曼谷 HK$600（80 名額）、15:00 東京 HK$999（80 名額）；旅行日期：至 2027-03-31 指定日子",
+      "summary": "永安旅遊 9 月逢星期四 11:00 及 15:00 分兩輪開搶「Visa 尊享機票一口價」：台北／曼谷來回連稅 HK$600、首爾 HK$800、東京／大阪 HK$999、悉尼 HK$1,999，名額有限先到先得，出行日期覆蓋至 2027 年 3 月底。",
+      "highlights": [
+        "只限永安旅遊手機 App 下單（須更新至 13.8 或以上）並登入會員帳戶",
+        "須以香港或澳門發行的有效 Visa 卡付款",
+        "每名會員限用優惠一次，每張訂單最多 1 名成人；不可與其他優惠同用",
+        "一口價不包括付費行李，加購須另付款",
+        "下一輪：9/17 台北 $600、首爾 $800——記得預先填好旅客資料再搶"
+      ],
+      "url": "https://hk.wingontravel.com/4xpND3I",
+      "sourceLabel": "永安旅遊優惠頁 · MeetHK 報導",
+      "sourceUrl": "https://www.meethk.com/?p=category%2Fflight%2Feurope",
+      "tags": ["機票特價", "一口價", "週四開搶"],
+      "sample": false
+    },
+    {
+      "id": "dining-lemenu-gloucester-20260912",
+      "category": "dining",
+      "title": "「秋日盛宴」自助晚餐低至 44 折，HK$498 / 位起",
+      "subtitle": "六國酒店 Le Menu 西餐廳 · 灣仔",
+      "venue": "六國酒店 Le Menu 西餐廳 · 灣仔告士打道 72 號 1 樓",
+      "priceLabel": "KKday 限時快閃 HK$498 / 位起",
+      "priceValue": 498,
+      "originalLabel": "原價約 HK$977 / 位（-49%）",
+      "endsAt": "2026-09-19T23:59:00+08:00",
+      "period": "KKday 限時快閃，名額售完即止；「秋日盛宴」自助晚餐由 2026-09-04 起供應",
+      "summary": "灣仔六國酒店 Le Menu「秋日盛宴」自助晚餐，經 KKday 限時快閃低至 44 折（HK$498/位起，原價約 HK$977）。主打冰鎮波士頓龍蝦、長腳蟹、炆花膠、片皮鵝、火焰富貴雞、法式海鮮酥皮盒同橙酒班戟，仲有即場火焰烹調表演。",
+      "highlights": [
+        "海鮮冷盤任食：波士頓龍蝦、長腳蟹、麵包蟹；甜品有 Haagen-Dazs 雪糕",
+        "招牌火焰表演：火焰富貴雞、法式海鮮酥皮盒、火焰雪山",
+        "須經 KKday 平台預訂，快閃名額有限",
+        "熱門時段（週末）建議提早一至兩星期訂位",
+        "地址：灣仔告士打道 72 號六國酒店 1 樓"
+      ],
+      "url": "https://hkbuffethunter.com/kkday-buffet-deals",
+      "sourceLabel": "HKBuffetHunter KKday 格價 · BrandON 今日優惠",
+      "sourceUrl": "https://www.brandon.promo/zh/deals-today",
+      "tags": ["酒店自助餐", "灣仔", "龍蝦"],
+      "sample": false
+    }
+  ]
+}
