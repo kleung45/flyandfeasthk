@@ -4,52 +4,21 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-12T16:35:11+08:00",
+    "updated": "2026-09-13T16:27:47+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-    "updatedAt": "2026-09-12T16:35:00+08:00",
+    "updatedAt": "2026-09-13T16:30:00+08:00",
     "stats": {
-      "total": 16,
-      "active": 16,
+      "total": 18,
+      "active": 17,
       "ending": 6,
-      "expired": 0,
+      "expired": 1,
       "flight": 5,
-      "dining": 11,
+      "dining": 13,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-tripcom-99mega-20260910",
-      "category": "flight",
-      "title": "Trip.com 9.9 狂賞：香港來回機票連稅 HK$99 起",
-      "subtitle": "Trip.com 官方活動 · 9 月 9 至 12 日",
-      "route": "香港出發 · 台北／曼谷／首爾／東京／杭州／上海",
-      "priceLabel": "來回連稅 HK$99 起",
-      "priceValue": 99,
-      "originalLabel": "限量一口價，非長期價格",
-      "endsAt": "2026-09-12T23:59:00+08:00",
-      "period": "出發日期：2026-09-09 至 2026-12-31（已含稅項及附加費）",
-      "summary": "Trip.com 一連四日的「9.9 狂賞」，每日中午 12 時開搶限量一口價來回機票，標價已包含所有稅項及附加費。台北 HK$99、曼谷 HK$399、首爾 HK$599、東京 HK$999，名額有限、先到先得。",
-      "highlights": [
-        "每日中午 12:00 準時開搶，名額有限，以完成付款者為準",
-        "9 月 10 日場次：香港來回曼谷 HK$399（香港航空）、香港來回首爾 HK$599",
-        "9 月 11 日場次：香港來回杭州 HK$399、香港來回上海虹橋 HK$399",
-        "每晚 21:00 另有 Mastercard 優惠碼，機票或酒店滿 HK$2,000 減 HK$399",
-        "出發日期由購買當日至 2026-12-31，國慶、聖誕等旺季多數需另加價"
-      ],
-      "url": "https://hk.trip.com/sale/w/6jvgfva22wbcpnbf/hk202699mega.html",
-      "sourceLabel": "Trip.com 官方活動頁（9.9 狂賞）",
-      "sourceUrl": "https://hk.trip.com/sale/w/6jvgfva22wbcpnbf/hk202699mega.html",
-      "tags": [
-        "限時 4 日",
-        "一口價",
-        "需搶購"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-cafelagoon-tuenmun-20260911",
       "category": "dining",
@@ -82,7 +51,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -115,7 +84,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -147,7 +116,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -179,7 +148,7 @@ window.DEAL_DATA = {
         "長者優惠"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -213,7 +182,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -246,8 +215,8 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "flight-cx-annifaresary-20260910",
@@ -276,7 +245,7 @@ window.DEAL_DATA = {
         "會員限定"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -308,7 +277,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -337,7 +306,7 @@ window.DEAL_DATA = {
         "日本"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -369,7 +338,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -400,7 +369,7 @@ window.DEAL_DATA = {
         "沙田"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -433,7 +402,8 @@ window.DEAL_DATA = {
         "長者優惠"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "postedFacebook": true,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -467,7 +437,8 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "postedFacebook": true,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -501,7 +472,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -533,8 +504,99 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 49,
+      "postedFacebook": true,
+      "daysLeft": 48,
       "status": "active"
+    },
+    {
+      "id": "dining-wmhotel-goldencrab-20260913",
+      "category": "dining",
+      "title": "「黃金蟹宴」自助晚餐開鑼，預付優惠碼低至 5 折",
+      "subtitle": "將軍澳 WM Hotel Café@WM · 9 至 11 月限定",
+      "venue": "WM Hotel Café@WM · 將軍澳（大埔仔，近科大）",
+      "priceLabel": "自助晚餐預付優惠碼低至 5 折",
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "供應期：2026-09 至 2026-11；預付優惠碼折扣至名額用完為止",
+      "summary": "將軍澳 WM Hotel「Café@WM」推出黃金蟹宴自助晚餐：釀蟹蓋、蒸大閘蟹、加拿大雪蟹腳、法國食用蟹任食，另有明太子蟹撻、墨西哥蟹肉 Quesadilla、蟹膏餃、鹹蛋黃蟹肉天使麵等主廚菜式，配即開生蠔同海鮮冰鎮盤，預付訂購用優惠碼可低至 5 折。",
+      "highlights": [
+        "任食蟹類四重奏：釀蟹蓋、蒸大閘蟹、加拿大雪蟹腳、法國食用蟹",
+        "主廚蟹料理：明太子蟹酥盒、蟹膏雲吞、鹹蛋黃蟹肉天使麵",
+        "即開生蠔＋海鮮冰鎮盤同步供應",
+        "須預付訂購並輸入指定優惠碼，折扣上限 5 折",
+        "供應期至 11 月底，中秋檔期建議提早訂"
+      ],
+      "url": "https://ritzyhongkong.com/hairy-crab-season-guide-2026",
+      "sourceLabel": "Ritzy Hong Kong 蟹季指南（引官方公佈）",
+      "sourceUrl": "https://ritzyhongkong.com/hairy-crab-season-guide-2026",
+      "tags": [
+        "酒店自助餐",
+        "大閘蟹",
+        "將軍澳"
+      ],
+      "sample": false,
+      "daysLeft": 78,
+      "status": "active"
+    },
+    {
+      "id": "dining-cruise-hairycrab-tasting-20260913",
+      "category": "dining",
+      "title": "「Hairy Crab Feed Me!」大閘蟹季節套餐 HK$628 / 位",
+      "subtitle": "北角 Hyatt Centric 維港海景餐廳 Cruise · 9/7 起供應",
+      "venue": "Cruise Restaurant & Bar · 北角 Hyatt Centric Victoria Harbour（天台維港景）",
+      "priceLabel": "HK$628 / 位（最少 2 位）",
+      "priceValue": 628,
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "供應期：2026-09-07 至 2026-11-30",
+      "summary": "北角 Hyatt Centric 維港海景屋頂餐廳 Cruise 推出「Hairy Crab Feed Me!」季節套餐：花膠野菌焗蟹肉蟹膏、鎮江醋蒸大閘蟹、大閘蟹小籠包、蒸花蟹腸粉，最後以冧酒巴巴配草莓紫蘇清湯收尾，維港景襯蟹宴。",
+      "highlights": [
+        "招牌：花膠野菌焗蟹肉及蟹膏、鎮江醋蒸大閘蟹",
+        "大閘蟹小籠包＋蒸花蟹腸粉，中式蟹味一路到底",
+        "甜品：冧酒巴巴＋草莓紫蘇 Consommé",
+        "最少 2 位起訂，天台座位建議提早訂",
+        "同場另有「Crab-ulous」蟹季下午茶 HK$480/位，9/27 前登場優惠 8 折"
+      ],
+      "url": "https://ritzyhongkong.com/hairy-crab-season-guide-2026",
+      "sourceLabel": "Ritzy Hong Kong 蟹季指南（引官方 IG 公佈）",
+      "sourceUrl": "https://ritzyhongkong.com/hairy-crab-season-guide-2026",
+      "tags": [
+        "大閘蟹",
+        "北角",
+        "季節套餐"
+      ],
+      "sample": false,
+      "daysLeft": 78,
+      "status": "active"
+    },
+    {
+      "id": "flight-tripcom-99mega-20260910",
+      "category": "flight",
+      "title": "Trip.com 9.9 狂賞：香港來回機票連稅 HK$99 起",
+      "subtitle": "Trip.com 官方活動 · 9 月 9 至 12 日",
+      "route": "香港出發 · 台北／曼谷／首爾／東京／杭州／上海",
+      "priceLabel": "來回連稅 HK$99 起",
+      "priceValue": 99,
+      "originalLabel": "限量一口價，非長期價格",
+      "endsAt": "2026-09-12T23:59:00+08:00",
+      "period": "出發日期：2026-09-09 至 2026-12-31（已含稅項及附加費）",
+      "summary": "Trip.com 一連四日的「9.9 狂賞」，每日中午 12 時開搶限量一口價來回機票，標價已包含所有稅項及附加費。台北 HK$99、曼谷 HK$399、首爾 HK$599、東京 HK$999，名額有限、先到先得。",
+      "highlights": [
+        "每日中午 12:00 準時開搶，名額有限，以完成付款者為準",
+        "9 月 10 日場次：香港來回曼谷 HK$399（香港航空）、香港來回首爾 HK$599",
+        "9 月 11 日場次：香港來回杭州 HK$399、香港來回上海虹橋 HK$399",
+        "每晚 21:00 另有 Mastercard 優惠碼，機票或酒店滿 HK$2,000 減 HK$399",
+        "出發日期由購買當日至 2026-12-31，國慶、聖誕等旺季多數需另加價"
+      ],
+      "url": "https://hk.trip.com/sale/w/6jvgfva22wbcpnbf/hk202699mega.html",
+      "sourceLabel": "Trip.com 官方活動頁（9.9 狂賞）",
+      "sourceUrl": "https://hk.trip.com/sale/w/6jvgfva22wbcpnbf/hk202699mega.html",
+      "tags": [
+        "限時 4 日",
+        "一口價",
+        "需搶購"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
     }
   ]
 };
