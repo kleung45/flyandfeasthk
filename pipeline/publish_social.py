@@ -27,11 +27,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent
 GRAPH = "https://graph.facebook.com/v21.0"
+THREADS_GRAPH = "https://graph.threads.net/v1.0"
 DEFAULT_CONFIG = ROOT / "config.json"
 DEFAULT_STORE = ROOT / "store.json"
 OUTBOX = PROJECT / "outbox"
 MARKER_NAME = ".facebook_published.json"
 RETRY = 2
+SOCIAL_PLATFORMS = ("facebook", "threads", "instagram")
 
 
 def load_json(path: Path) -> dict:
@@ -66,7 +68,7 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
             except json.JSONDecodeError:
                 marked = {}
             for deal_id in marked.get("dealIds", []):
-                if deal_id and deal_id != "digest":
+                if deal_id:  # 包含 digest：速報每日只發一次
                     seen.setdefault(deal_id, f"當日已發佈（{MARKER_NAME}）")
 
     if OUTBOX.exists():
@@ -78,7 +80,7 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
             except json.JSONDecodeError:
                 continue
             for post in payload.get("posts", []):
-                if post.get("platform") != "facebook":
+                if post.get("platform") not in ("facebook", "threads"):
                     continue
                 deal_id = post.get("dealId")
                 if deal_id and deal_id != "digest" and deal_id not in seen:
@@ -245,14 +247,14 @@ def main() -> int:
     if args.limit:
         posts = posts[: args.limit]
 
-    # 去重：同一優惠不重複發佈；速報（digest）每日照發
+    # 去重：同一優惠不重複發佈；速報（digest）以當日 marker 為準，只發一次
     posted_skipped: dict[str, str] = {}
     if not args.no_dedup:
         posted_skipped = already_posted_deal_ids(Path(args.store), manifest.get("date", ""))
         keep = []
         for post in posts:
             deal_id = post.get("dealId")
-            if deal_id and deal_id != "digest" and deal_id in posted_skipped:
+            if deal_id and deal_id in posted_skipped:  # 含 digest：當日已發過速報就略過
                 continue
             keep.append(post)
         if len(keep) != len(posts):

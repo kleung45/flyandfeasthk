@@ -14,6 +14,8 @@
 
 #香港優惠 #FlyAndFeastHK
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-cafelagoon-tuenmun-20260911
@@ -29,6 +31,8 @@
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -46,6 +50,8 @@ HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入�
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-kowloon-shangrila-cafekool-20260910
@@ -61,6 +67,8 @@ HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入�
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -78,6 +86,8 @@ HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入�
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-cafemarco-tst-20260910
@@ -93,6 +103,8 @@ HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入�
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -110,6 +122,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-hyatt-kaitak-dimsun-20260911
@@ -125,6 +139,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -142,6 +158,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-foodstudio-wanchai-20260913
@@ -157,6 +175,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -174,6 +194,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## flight-gba-app-autumn-20260910
@@ -189,6 +211,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -206,6 +230,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-momocafe-shatin-20260910
@@ -221,6 +247,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -238,6 +266,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-naneisuisan-tst-20260912
@@ -253,6 +283,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -270,6 +302,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-cafetoo-admiralty-20260911
@@ -285,6 +319,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -302,6 +338,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-wmhotel-goldencrab-20260913
@@ -317,6 +355,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com
 
 ---
 
@@ -334,6 +374,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-momocafe-saiyingpun-20260913
@@ -350,6 +392,8 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
+🔗 傳送門：https://www.flyandfeasthk.com
+
 ---
 
 ## dining-threeoncanton-tst-20260913
@@ -365,3 +409,5 @@ KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 1
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+🔗 傳送門：https://www.flyandfeasthk.com

@@ -6,7 +6,7 @@
     "updated": "2026-09-11T15:20:00+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-    "updatedAt": "2026-09-13T16:30:00+08:00"
+    "updatedAt": "2026-09-13T16:40:00+08:00"
   },
   "deals": [
     {
@@ -522,7 +522,8 @@
         "大閘蟹",
         "將軍澳"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     },
     {
       "id": "dining-cruise-hairycrab-tasting-20260913",
@@ -549,6 +550,146 @@
         "大閘蟹",
         "北角",
         "季節套餐"
+      ],
+      "sample": false,
+      "postedFacebook": true
+    },
+    {
+      "id": "dining-momocafe-saiyingpun-20260913",
+      "category": "dining",
+      "title": "蠔海鮮自助晚餐 55 折，HK$369 起（已包加一）",
+      "subtitle": "MoMo Café（西營盤萬怡酒店）· 平日晚市",
+      "venue": "MoMo Café · 西營盤干諾道西 167 號香港萬怡酒店",
+      "priceLabel": "OpenRice 訂座優惠 成人 HK$369.2 / 位（已包 10% 加一）",
+      "priceValue": 369,
+      "originalLabel": "原價 HK$568+ / 位（-45%）",
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "2026-09-01 至 2026-11-30，星期一至四晚市 18:30–21:30（2026-10-01、2026-10-19 不適用）",
+      "summary": "西營盤萬怡酒店 MoMo Café 經 OpenRice 訂座享自助晚餐 55 折，成人 HK$369.2 已包加一。任食生蠔等海鮮、12 款 Mövenpick 雪糕，晚市仲任飲生啤，海鮮控回本之選。",
+      "highlights": [
+        "任食生蠔＋海鮮，12 款 Mövenpick 雪糕任食",
+        "晚市任飲生啤（free flow draft beer）",
+        "OpenRice 會員網上訂座時選用此優惠（換領編號 C0000395860）",
+        "地址：西營盤干諾道西 167 號香港萬怡酒店"
+      ],
+      "url": "https://ph.openrice.com/en/hongkong/offer/55%E6%8A%98%E6%B5%B7%E9%AE%AE%E6%99%9A%E9%A4%90%E8%87%AA%E5%8A%A9%E9%A4%90-12%E6%AC%BEmovenpick-%E9%9B%AA%E7%B3%95-%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94-%E4%BB%BB%E9%A3%B2%E7%94%9F%E5%95%A4-momo-cafe-o395860",
+      "sourceLabel": "OpenRice 官方優惠頁",
+      "sourceUrl": "https://ph.openrice.com/en/hongkong/offer/55%E6%8A%98%E6%B5%B7%E9%AE%AE%E6%99%9A%E9%A4%90%E8%87%AA%E5%8A%A9%E9%A4%90-12%E6%AC%BEmovenpick-%E9%9B%AA%E7%B3%95-%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94-%E4%BB%BB%E9%A3%B2%E7%94%9F%E5%95%A4-momo-cafe-o395860",
+      "tags": [
+        "酒店自助餐",
+        "西營盤",
+        "生蠔"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-threeoncanton-tst-20260913",
+      "category": "dining",
+      "title": "尖沙咀海景自助午餐 7 折，兩位起用得",
+      "subtitle": "Three on Canton（海港城港威酒店）· 全日適用",
+      "venue": "Three on Canton · 尖沙咀廣東道 13 號海港城港威酒店 3 樓",
+      "priceLabel": "OpenRice 訂座優惠 自助午餐 7 折（另收加一）",
+      "originalLabel": "自助午餐正價 7 折",
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "即日起至 2026-11-30，每日 12:00–14:00，適用於 2 位或以上",
+      "summary": "海港城港威酒店 Three on Canton 經 OpenRice 訂座，自助午餐劃一 7 折，即日至 11 月底每日適用，兩位起用得。維港海景＋自助海鮮，午市慳住食之選。",
+      "highlights": [
+        "自助午餐 7 折，星期一至日 12:00–14:00 適用",
+        "須 2 位或以上惠顧，每單限用一次",
+        "OpenRice 會員網上訂座時選用此優惠（換領編號 C0000392316）",
+        "地址：尖沙咀廣東道 13 號海港城港威酒店 3 樓"
+      ],
+      "url": "https://www.openrice.com/zh-cn/hongkong/offer/%E6%83%A0%E9%A1%A7%E8%87%AA%E5%8A%A9%E5%8D%88%E9%A4%90%E5%8F%AF%E4%BA%AB7%E6%8A%98%E5%84%AA%E6%83%A0-o392316",
+      "sourceLabel": "OpenRice 官方優惠頁",
+      "sourceUrl": "https://www.openrice.com/zh-cn/hongkong/offer/%E6%83%A0%E9%A1%A7%E8%87%AA%E5%8A%A9%E5%8D%88%E9%A4%90%E5%8F%AF%E4%BA%AB7%E6%8A%98%E5%84%AA%E6%83%A0-o392316",
+      "tags": [
+        "酒店自助餐",
+        "尖沙咀",
+        "海景"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-foodstudio-wanchai-20260913",
+      "category": "dining",
+      "title": "一周年禮遇：晚市 2 位 HK$915、午市 3 位 HK$915，網店低至 65 折",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 青口自助盛薈",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "週年禮遇（9/14–18）午市人均 HK$305／晚市人均 HK$458；網店自助午餐 65 折 HK$321 起",
+      "priceValue": 305,
+      "originalLabel": "午市原價 HK$470.8 / 位（-35%）；晚市 2 位禮遇約為原價一半",
+      "endsAt": "2026-09-18T23:59:00+08:00",
+      "period": "週年禮遇適用 2026-09-14 至 09-18，經萬麗網上商店預訂（名額有限售完即止）；「鮮」聲奪人青口自助盛薈供應至 2026-10-15，網店 65 折同步",
+      "summary": "萬麗海景 Food Studio 一周年，9/14–18 午市 3 位 HK$915（人均 HK$305）、晚市 2 位 HK$915（人均 HK$458），另網店預訂自助餐低至 65 折。任食荷蘭青口＋龍蝦、海膽、魚子醬、和牛四大矜貴食材。",
+      "highlights": [
+        "晚市限定：蒸焗新鮮龍蝦、海膽魚子醬紫菜塔可、鴨肝多士",
+        "招牌海膽、魚子醬、龍蝦、和牛任食",
+        "9/15 生日賓客 4 人同行每人 HK$91.5（須經網上商店）",
+        "預訂：renhongkong-eshop.com/zh/food-studio，不設電話預訂"
+      ],
+      "url": "https://renhongkong-eshop.com/zh/food-studio",
+      "sourceLabel": "am730 報道 · RunHotel",
+      "sourceUrl": "https://www.am730.com.hk/article/1049419",
+      "tags": [
+        "酒店自助餐",
+        "灣仔",
+        "青口"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-cafekool-dinner-tst-20260913",
+      "category": "dining",
+      "title": "「夏日東瀛」自助晚餐買一送一，人均 HK$391 起",
+      "subtitle": "Café Kool（九龍香格里拉）· KKday 快閃",
+      "venue": "Café Kool · 尖沙咀東麼地道 64 號九龍香格里拉大酒店閣樓",
+      "priceLabel": "KKday 輸入優惠碼 FBWCK 後 HK$782 / 2 位（已包加一）",
+      "priceValue": 391,
+      "originalLabel": "原價 HK$900 起 / 位（約 -43%）",
+      "endsAt": "2026-09-14T23:59:00+08:00",
+      "period": "KKday 預售 2026-09-08 12:00 至 09-14 23:59；用餐 2026-09-09 至 09-30，星期一至五自助晚餐 18:00–21:30",
+      "summary": "九龍香格里拉 Café Kool「夏日東瀛」自助晚餐經 KKday 買一送一，用 FBWCK 後 2 位 HK$782（人均 HK$391 起）。任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒸龍蝦同焗蠔，超過 200 款美食，預售只到 9/14。",
+      "highlights": [
+        "任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒜蓉蒸龍蝦",
+        "日式海鮮陣容：油甘魚刺身、帶子、軟殼蟹丼、銀鱈魚西京燒",
+        "KKday 預售至 9/14 23:59，用餐期至 9/30",
+        "須於用餐日 12 小時前購買；地址：尖沙咀東麼地道 64 號"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/133283",
+      "sourceLabel": "東張+ myTV SUPER 著數 · KKday",
+      "sourceUrl": "https://www.mytvsuper.com/tc/scoopplus/lifestyle/jetso/17887715820051/",
+      "tags": [
+        "酒店自助餐",
+        "尖沙咀",
+        "買一送一"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-playt-cwb-20260913",
+      "category": "dining",
+      "title": "「安記海味」平日自助午餐買二送一，人均 HK$351 起",
+      "subtitle": "PLAYT（銅鑼灣柏寧酒店）· 9 月限定聯乘",
+      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
+      "priceLabel": "KKday 買二送一 HK$1,053 / 3 位（已包加一）",
+      "priceValue": 351,
+      "originalLabel": "3 位只付 2 位價（-33%）",
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "「安記海味」聯乘自助餐供應 2026-09-01 至 09-30；平日自助午餐星期一至五 12:00–14:30",
+      "summary": "柏寧酒店 PLAYT 9 月聯乘老字號安記海味，KKday 平日自助午餐買二送一，3 位 HK$1,053（人均 HK$351 起）。安記紅燒 6 頭鮑魚、蟹粉鮑魚兩面黃、海參濃湯蒸蛋白，再加生蠔刺身雪蟹腳，秋日進補回本位。",
+      "highlights": [
+        "安記海味限定：紅燒 6 頭鮑魚配花寸菇鴨掌、蟹粉鮑魚兩面黃",
+        "叉燒鮑魚蜜糖意大利雪糕等創意甜品",
+        "雪蟹腳、即製沙律、燒西冷扒、無限暢飲果汁特飲",
+        "KKday 預訂，晚餐方案最早可訂 9/14（人均 HK$604 起）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/128971",
+      "sourceLabel": "KKday 官方商品頁",
+      "sourceUrl": "https://www.kkday.com/zh-hk/product/128971-hotel-buffet-playt-buffet-at-the-park-lane-hong-kong",
+      "tags": [
+        "酒店自助餐",
+        "銅鑼灣",
+        "鮑魚"
       ],
       "sample": false
     }

@@ -150,6 +150,22 @@ def digest_post(deals: list[dict], site_url: str) -> str:
     return "\n".join(lines)
 
 
+THREADS_LIMIT = 500  # Threads 單則貼文上限
+
+
+def _to_threads(text: str, site_url: str) -> str:
+    """Threads 無置頂留言功能，直接喺文末加傳送門；超過 500 字就截斷。"""
+    out = text + f"\n\n🔗 傳送門：{site_url}"
+    if len(out) > THREADS_LIMIT:
+        out = out[: THREADS_LIMIT - 1].rstrip() + "…"
+    return out
+
+
+def threads_post(deal: dict, site_url: str) -> str:
+    """Threads 版：同 FB 短文案，但連結直接放文末（無法置頂留言）。"""
+    return _to_threads(fb_post(deal, site_url), site_url)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="產生社交媒體文案")
     ap.add_argument("--limit", type=int, default=0, help="最多輸出幾筆單篇貼文（0 = 不限）")
@@ -181,11 +197,12 @@ def main() -> int:
 
     manifest = {"date": today, "generatedAt": datetime.now(HK_TZ).isoformat(timespec="seconds"), "posts": []}
 
-    fb, ig, xhs = [], [], []
+    fb, ig, xhs, threads = [], [], [], []
     for deal in deals:
         fb.append(f"## {deal['id']}\n\n{fb_post(deal, site_url)}\n")
         ig.append(f"## {deal['id']}\n\n{ig_caption(deal, site_url)}\n")
         xhs.append(f"## {deal['id']}\n\n{xhs_note(deal, site_url)}\n")
+        threads.append(f"## {deal['id']}\n\n{threads_post(deal, site_url)}\n")
         manifest["posts"] += [
             {
                 "dealId": deal["id"],
@@ -193,6 +210,14 @@ def main() -> int:
                 "category": deal["category"],
                 "message": fb_post(deal, site_url),
                 "link": site_url,  # 引流到自家網站（廣告收益），唔直接跳商戶
+                "imageUrl": deal.get("image") or "",
+            },
+            {
+                "dealId": deal["id"],
+                "platform": "threads",
+                "category": deal["category"],
+                "message": threads_post(deal, site_url),
+                "link": site_url,
                 "imageUrl": deal.get("image") or "",
             },
             {
@@ -206,7 +231,9 @@ def main() -> int:
         ]
 
     digest = digest_post(deals, site_url)
+    threads_digest = _to_threads(digest, site_url)
     fb.insert(0, f"## digest\n\n{digest}\n")
+    threads.insert(0, f"## digest\n\n{threads_digest}\n")
     manifest["posts"].insert(
         0,
         {
@@ -218,8 +245,20 @@ def main() -> int:
             "imageUrl": "",
         },
     )
+    manifest["posts"].insert(
+        1,
+        {
+            "dealId": "digest",
+            "platform": "threads",
+            "category": "digest",
+            "message": threads_digest,
+            "link": site_url,
+            "imageUrl": "",
+        },
+    )
 
     (out_dir / "facebook.md").write_text("\n---\n\n".join(fb), encoding="utf-8")
+    (out_dir / "threads.md").write_text("\n---\n\n".join(threads), encoding="utf-8")
     (out_dir / "instagram.md").write_text("\n---\n\n".join(ig), encoding="utf-8")
     (out_dir / "xiaohongshu.md").write_text("\n---\n\n".join(xhs), encoding="utf-8")
     (out_dir / "manifest.json").write_text(
@@ -227,7 +266,7 @@ def main() -> int:
     )
 
     print(f"完成：{out_dir}")
-    print(f"  貼文 {len(deals)} 筆 + 1 則速報，社群文案 3 份，manifest.json 已產生")
+    print(f"  貼文 {len(deals)} 筆 + 1 則速報，社群文案 4 份（FB／Threads／IG／小紅書），manifest.json 已產生")
     return 0
 
 
