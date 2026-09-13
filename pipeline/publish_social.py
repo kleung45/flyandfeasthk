@@ -31,24 +31,31 @@ THREADS_GRAPH = "https://graph.threads.net/v1.0"
 DEFAULT_CONFIG = ROOT / "config.json"
 DEFAULT_STORE = ROOT / "store.json"
 OUTBOX = PROJECT / "outbox"
-MARKER_NAME = ".facebook_published.json"
+MARKER_NAME = ".facebook_published.json"  # FB 當日發佈紀錄
+THREADS_MARKER_NAME = ".threads_published.json"  # Threads 當日發佈紀錄
 RETRY = 2
 SOCIAL_PLATFORMS = ("facebook", "threads", "instagram")
 
 
-def load_json(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8"))
+def marker_name_for(platform: str) -> str:
+    return MARKER_NAME if platform == "facebook" else THREADS_MARKER_NAME
 
 
-def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, str]:
-    """收集不應再次發佈的優惠 id。
+def store_flag_for(platform: str) -> str:
+    """store.json 內「已發佈」標記欄位名：FB 與 Threads 分開記賬。"""
+    return "postedFacebook" if platform == "facebook" else "postedThreads"
 
-    來源一：store.json 內 postedFacebook 為 true 的優惠。
-    來源二：之前日期 outbox/<date>/manifest.json 已收錄的 Facebook 貼文 id。
-    來源三：當日已寫入的發佈紀錄 outbox/<date>/.facebook_published.json
-            （防範同一天重複執行造成重複貼文）。
+
+def already_posted_deal_ids(store_path: Path, current_date: str, platform: str = "facebook") -> dict[str, str]:
+    """收集不應再次發佈的優惠 id（按平台分開判斷）。
+
+    來源一：store.json 內對應平台標記（postedFacebook / postedThreads）為 true。
+    來源二：之前日期 outbox/<date>/manifest.json 已收錄的同一平台貼文 id。
+    來源三：當日已寫入的發佈紀錄 marker（防範同一天重複執行造成重複貼文）。
     回傳 {dealId: 原因}，方便列印略過原因。
     """
+    flag_key = store_flag_for(platform)
+    marker_file = marker_name_for(platform)
     seen: dict[str, str] = {}
 
     if store_path.exists():
@@ -57,19 +64,19 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
         except json.JSONDecodeError:
             store = {}
         for deal in store.get("deals", []):
-            if deal.get("postedFacebook") and deal.get("id"):
-                seen[deal["id"]] = "store.json 已標記 postedFacebook"
+            if deal.get(flag_key) and deal.get("id"):
+                seen[deal["id"]] = f"store.json 已標記 {flag_key}"
 
     if current_date:
-        marker = OUTBOX / current_date / MARKER_NAME
+        marker = OUTBOX / current_date / marker_file
         if marker.exists():
             try:
                 marked = load_json(marker)
             except json.JSONDecodeError:
                 marked = {}
             for deal_id in marked.get("dealIds", []):
-                if deal_id:  # 包含 digest：速報每日只發一次
-                    seen.setdefault(deal_id, f"當日已發佈（{MARKER_NAME}）")
+                if deal_id:  # 包含 digest：速報同一平台每日只發一次
+                    seen.setdefault(deal_id, f"當日已發佈（{marker_file}）")
 
     if OUTBOX.exists():
         for manifest in sorted(OUTBOX.glob("*/manifest.json")):
@@ -80,7 +87,7 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
             except json.JSONDecodeError:
                 continue
             for post in payload.get("posts", []):
-                if post.get("platform") not in ("facebook", "threads"):
+                if post.get("platform") != platform:
                     continue
                 deal_id = post.get("dealId")
                 if deal_id and deal_id != "digest" and deal_id not in seen:
@@ -89,9 +96,13 @@ def already_posted_deal_ids(store_path: Path, current_date: str) -> dict[str, st
     return seen
 
 
-def write_publish_marker(manifest_path: Path, deal_ids: list[str]) -> None:
-    """記錄當日已成功發佈的 Facebook 優惠，避免同日再次執行時重複貼文。"""
-    marker = manifest_path.parent / MARKER_NAME
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_publish_marker(manifest_path: Path, deal_ids: list[str], platform: str = "facebook") -> None:
+    """記錄當日已成功發佈的優惠（按平台分檔），避免同日再次執行時重複貼文。"""
+    marker = manifest_path.parent / marker_name_for(platform)
     existing: list[str] = []
     if marker.exists():
         try:
@@ -111,10 +122,11 @@ def write_publish_marker(manifest_path: Path, deal_ids: list[str]) -> None:
     print(f"已寫入發佈紀錄 {marker.name}（共 {len(merged)} 筆）")
 
 
-def mark_posted_facebook(store_path: Path, deal_ids: list[str]) -> None:
-    """把成功發佈的優惠在 store.json 標記 postedFacebook = true。"""
+def mark_posted_facebook(store_path: Path, deal_ids: list[str], platform: str = "facebook") -> None:
+    """把成功發佈的優惠在 store.json 標記對應平台的已發佈旗標。"""
     if not deal_ids or not store_path.exists():
         return
+    flag_key = store_flag_for(platform)
     try:
         store = load_json(store_path)
     except json.JSONDecodeError as exc:
@@ -123,12 +135,12 @@ def mark_posted_facebook(store_path: Path, deal_ids: list[str]) -> None:
 
     marked = 0
     for deal in store.get("deals", []):
-        if deal.get("id") in deal_ids and not deal.get("postedFacebook"):
-            deal["postedFacebook"] = True
+        if deal.get("id") in deal_ids and not deal.get(flag_key):
+            deal[flag_key] = True
             marked += 1
     if marked:
         store_path.write_text(json.dumps(store, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"已在 {store_path.name} 標記 {marked} 筆 postedFacebook = true")
+        print(f"已在 {store_path.name} 標記 {marked} 筆 {flag_key} = true")
 
 
 def api_post(path: str, data: dict[str, str]) -> dict:
@@ -154,6 +166,31 @@ def api_post(path: str, data: dict[str, str]) -> dict:
                 continue
             break
     raise RuntimeError(f"呼叫 Graph API 失敗：{last}")
+
+
+def api_post_threads(path: str, data: dict[str, str]) -> dict:
+    """呼叫 Threads API（graph.threads.net），重試邏輯同 api_post。"""
+    body = urllib.parse.urlencode(data).encode()
+    req = urllib.request.Request(f"{THREADS_GRAPH}/{path}", data=body, method="POST")
+    last: Exception | None = None
+    for attempt in range(RETRY + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode(errors="replace")
+            last = RuntimeError(f"HTTP {exc.code}：{detail}")
+            if exc.code in (429, 500, 502, 503) and attempt < RETRY:
+                time.sleep(2**attempt * 3)
+                continue
+            break
+        except (urllib.error.URLError, TimeoutError) as exc:
+            last = exc
+            if attempt < RETRY:
+                time.sleep(2**attempt * 3)
+                continue
+            break
+    raise RuntimeError(f"呼叫 Threads API 失敗：{last}")
 
 
 PORTAL_COMMENT = "🔗 傳送門：https://www.flyandfeasthk.com（優惠碼＋申請入口全部喺入面）"
@@ -218,12 +255,46 @@ def post_instagram(cfg: dict, post: dict, dry: bool) -> str:
     return f"已發佈，media id = {result.get('id')}"
 
 
+def post_threads(cfg: dict, post: dict, dry: bool) -> str:
+    """發佈文字帖到 Threads（兩步：建立容器 → 發佈）。
+
+    Threads 無置頂留言 API，文案生成時已把傳送門直接寫進內文。
+    """
+    th = cfg.get("threads", {})
+    user_id = th.get("userId")
+    token = th.get("accessToken")
+    if not user_id or not token:
+        raise RuntimeError("config.json 未填 threads.userId 或 threads.accessToken（需先完成 Threads 授權）")
+
+    text = post["message"]
+    if len(text) > 500:
+        text = text[:499].rstrip() + "…"
+
+    if dry:
+        return f"[dry-run] 將發佈到 Threads 帳號 {user_id}（{len(text)} 字）"
+
+    container = api_post_threads(
+        f"{user_id}/threads",
+        {"media_type": "TEXT", "text": text, "access_token": token},
+    )
+    creation_id = container.get("id")
+    if not creation_id:
+        raise RuntimeError(f"Threads 建立容器失敗：{container}")
+
+    time.sleep(3)
+    result = api_post_threads(
+        f"{user_id}/threads_publish",
+        {"creation_id": creation_id, "access_token": token},
+    )
+    return f"已發佈，threads post id = {result.get('id')}"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="發佈社群貼文")
     ap.add_argument("--manifest", required=True, help="outbox/<date>/manifest.json 路徑")
     ap.add_argument("--config", default=str(DEFAULT_CONFIG), help="設定檔路徑")
     ap.add_argument("--store", default=str(DEFAULT_STORE), help="主資料庫路徑（用於 postedFacebook 去重）")
-    ap.add_argument("--platform", choices=["facebook", "instagram"], help="只發佈指定平台")
+    ap.add_argument("--platform", choices=["facebook", "threads", "instagram"], help="只發佈指定平台")
     ap.add_argument("--limit", type=int, default=0, help="最多發佈幾則（0 = 全部）")
     ap.add_argument("--live", action="store_true", help="真正發佈（不加此參數為 dry-run）")
     ap.add_argument("--interval", type=float, default=3.0, help="每則之間的間隔秒數")
@@ -247,29 +318,33 @@ def main() -> int:
     if args.limit:
         posts = posts[: args.limit]
 
-    # 去重：同一優惠不重複發佈；速報（digest）以當日 marker 為準，只發一次
-    posted_skipped: dict[str, str] = {}
-    if not args.no_dedup:
-        posted_skipped = already_posted_deal_ids(Path(args.store), manifest.get("date", ""))
-        keep = []
-        for post in posts:
-            deal_id = post.get("dealId")
-            if deal_id and deal_id in posted_skipped:  # 含 digest：當日已發過速報就略過
-                continue
-            keep.append(post)
-        if len(keep) != len(posts):
-            print(f"去重：略過 {len(posts) - len(keep)} 則已發佈過的優惠\n")
-        posts = keep
+    # 去重：同一優惠在同一平台不重複發佈（FB／Threads 分開記賬）；Instagram 不去重
+    dedup_platforms = [p for p in ("facebook", "threads") if not args.platform or p == args.platform]
+    seen_by_platform = {
+        p: already_posted_deal_ids(Path(args.store), manifest.get("date", ""), p)
+        for p in dedup_platforms
+    } if not args.no_dedup else {}
+    if seen_by_platform:
+        before = len(posts)
+        posts = [
+            p for p in posts
+            if p["platform"] == "instagram"
+            or p.get("dealId") not in seen_by_platform.get(p["platform"], {})
+        ]
+        if len(posts) != before:
+            print(f"去重：略過 {before - len(posts)} 則已發佈過的優惠\n")
 
     print(f"{'[DRY-RUN] ' if dry else '[LIVE] '}共 {len(posts)} 則待處理\n")
 
     ok = skipped = failed = 0
-    fb_posted: list[str] = []
+    posted_by_platform: dict[str, list[str]] = {}
     for i, post in enumerate(posts, 1):
         label = f"{i}/{len(posts)} {post['platform']} · {post['dealId']}"
         try:
             if post["platform"] == "facebook":
                 msg = post_facebook(cfg, post, dry)
+            elif post["platform"] == "threads":
+                msg = post_threads(cfg, post, dry)
             elif post["platform"] == "instagram":
                 msg = post_instagram(cfg, post, dry)
             else:
@@ -278,8 +353,8 @@ def main() -> int:
                 skipped += 1
             else:
                 ok += 1
-                if post["platform"] == "facebook" and msg.startswith("已發佈"):
-                    fb_posted.append(post["dealId"])
+                if post["platform"] in ("facebook", "threads") and msg.startswith("已發佈"):
+                    posted_by_platform.setdefault(post["platform"], []).append(post["dealId"])
             print(f"  {label}\n    {msg}")
         except RuntimeError as exc:
             failed += 1
@@ -287,9 +362,10 @@ def main() -> int:
         if not dry and i < len(posts):
             time.sleep(args.interval)
 
-    if fb_posted and not dry:
-        mark_posted_facebook(Path(args.store), fb_posted)
-        write_publish_marker(manifest_path, fb_posted)
+    if not dry:
+        for platform, ids in posted_by_platform.items():
+            mark_posted_facebook(Path(args.store), ids, platform)
+            write_publish_marker(manifest_path, ids, platform)
 
     print(f"\n完成：成功 {ok}、略過 {skipped}、失敗 {failed}")
     if dry:

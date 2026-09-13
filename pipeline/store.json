@@ -580,7 +580,8 @@
         "西營盤",
         "生蠔"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     },
     {
       "id": "dining-threeoncanton-tst-20260913",
@@ -607,7 +608,8 @@
         "尖沙咀",
         "海景"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     },
     {
       "id": "dining-foodstudio-wanchai-20260913",
@@ -635,7 +637,8 @@
         "灣仔",
         "青口"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     },
     {
       "id": "dining-cafekool-dinner-tst-20260913",
@@ -663,7 +666,8 @@
         "尖沙咀",
         "買一送一"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     },
     {
       "id": "dining-playt-cwb-20260913",
@@ -691,7 +695,8 @@
         "銅鑼灣",
         "鮑魚"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true
     }
   ]
 }

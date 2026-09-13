@@ -13,6 +13,10 @@
     "igUserId": "IG 商業帳號 ID，需與 Facebook 專頁連結",
     "accessToken": "同上，需具備 instagram_content_publish 權限"
   },
+  "threads": {
+    "userId": "Threads 使用者 ID（以 Threads token 呼叫 graph.threads.net/v1.0/me 取得）",
+    "accessToken": "需具備 threads_basic + threads_content_publish 權限的長期 token"
+  },
   "affiliate": {
     "agoda": "填入 Agoda 聯盟 CID，之後可用程式自動附加追蹤參數",
     "klook": "填入 Klook 聯盟 ID",

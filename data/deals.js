@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-13T16:34:06+08:00",
+    "updated": "2026-09-13T16:42:51+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-13T16:40:00+08:00",
@@ -146,6 +146,7 @@ window.DEAL_DATA = {
         "買一送一"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 1,
       "status": "ending"
     },
@@ -305,6 +306,7 @@ window.DEAL_DATA = {
         "青口"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 5,
       "status": "active"
     },
@@ -528,6 +530,7 @@ window.DEAL_DATA = {
         "鮑魚"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 17,
       "status": "active"
     },
@@ -686,6 +689,7 @@ window.DEAL_DATA = {
         "生蠔"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 78,
       "status": "active"
     },
@@ -715,6 +719,7 @@ window.DEAL_DATA = {
         "海景"
       ],
       "sample": false,
+      "postedFacebook": true,
       "daysLeft": 78,
       "status": "active"
     },
