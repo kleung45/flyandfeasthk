@@ -152,17 +152,25 @@ def digest_post(deals: list[dict], site_url: str) -> str:
 
 THREADS_LIMIT = 500  # Threads 單則貼文上限
 
+# Threads 帖文本體是否直接附上網站傳送門。
+# False = 帖文唔出現網址（用戶指定）：連結只由 pipeline/engage.py 在有人留言查詢時
+#        以自動回覆送出，帖文本身保持乾淨，靠 CTA「留言『優惠』」收集互動。
+# True  = 舊行為：文末加「🔗 傳送門：<網址>」。
+THREADS_INCLUDE_PORTAL = False
+
 
 def _to_threads(text: str, site_url: str) -> str:
-    """Threads 無置頂留言功能，直接喺文末加傳送門；超過 500 字就截斷。"""
-    out = text + f"\n\n🔗 傳送門：{site_url}"
+    """Threads 版文案：預設不加傳送門（見 THREADS_INCLUDE_PORTAL）；超過 500 字就截斷。"""
+    out = text
+    if THREADS_INCLUDE_PORTAL:
+        out = out + f"\n\n🔗 傳送門：{site_url}"
     if len(out) > THREADS_LIMIT:
         out = out[: THREADS_LIMIT - 1].rstrip() + "…"
     return out
 
 
 def threads_post(deal: dict, site_url: str) -> str:
-    """Threads 版：同 FB 短文案，但連結直接放文末（無法置頂留言）。"""
+    """Threads 版：同 FB 短文案；連結不放文末，改由留言自動回覆送出。"""
     return _to_threads(fb_post(deal, site_url), site_url)
 
 

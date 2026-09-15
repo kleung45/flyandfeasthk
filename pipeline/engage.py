@@ -348,9 +348,8 @@ def threads_reply(user_id: str, reply_to_id: str, text: str, token: str) -> str:
 # 主流程
 # --------------------------------------------------------------------------
 
-def build_candidates(cfg: dict, args, cutoff: datetime) -> tuple[list[dict], list[dict]]:
-    """回傳 (可回覆候選, 掃描到的所有留言)。"""
-    candidates: list[dict] = []
+def collect_comments(cfg: dict, args, cutoff: datetime) -> list[dict]:
+    """抓取兩個平台上近期帖文的所有留言／回覆（未過濾，篩選在 main() 進行）。"""
     scanned: list[dict] = []
 
     if args.platform in ("facebook", "both"):
@@ -408,7 +407,7 @@ def build_candidates(cfg: dict, args, cutoff: datetime) -> tuple[list[dict], lis
                     "isOwn": bool(own) and username.lower() == own,
                 })
 
-    return scanned, scanned
+    return scanned
 
 
 def main() -> int:
@@ -455,7 +454,7 @@ def main() -> int:
     comment_cutoff = now_hk() - timedelta(days=args.comment_days)
     today = today_str()
 
-    scanned, _ = build_candidates(cfg, args, comment_cutoff)
+    scanned = collect_comments(cfg, args, comment_cutoff)
     print(f"共掃描到 {len(scanned)} 則留言／回覆\n")
 
     replied_state: dict = state["replied"]
