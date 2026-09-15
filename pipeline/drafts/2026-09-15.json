@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-15",
+  "deals": [
+    {
+      "id": "dining-haixian-wagyu-tst-20260915",
+      "category": "dining",
+      "title": "120 分鐘 A5 和牛火鍋放題買一送一＋下次免費券，人均低至 HK$175",
+      "subtitle": "海上鮮海鮮和牛涮涮鍋（佐敦）· OpenRice 中秋特集",
+      "venue": "海上鮮海鮮和牛涮涮鍋 · 尖沙咀柯士甸道 124-126 號帝寶樓地下（佐敦站 D 出口步行 4 分鐘）",
+      "priceLabel": "OpenRice 獨家買1送1＋下次免費券 HK$698 / 2 位（未連服務費）",
+      "priceValue": 175,
+      "originalLabel": "套餐價值 HK$2,094，一人價錢即時二人放題再送下次免費券，變相 4 位人均 HK$175（約 3.3 折）",
+      "discountPct": 67,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "OpenRice 中秋節特集：2026-08-26 至 2026-09-27；晚市放題 120 分鐘",
+      "summary": "佐敦「海上鮮海鮮和牛涮涮鍋」經 OpenRice 中秋特集推出買一送一：HK$698（未連服務費）即時二人任食 120 分鐘日本十勝 A5 和牛火鍋放題＋龍蝦生蠔海鮮拼盤，再送一張「下次免費券」，變相 4 位人均 HK$175（原價約 HK$698/位）。菲律賓直送生猛活海鮮，另有潮州滷水鵝等特色菜式。",
+      "highlights": [
+        "一人價錢享即時二人放題，再送下次免費券，變相 4 位 HK$698（人均 HK$175）",
+        "任食日本十勝 A5 和牛＋龍蝦、生蠔、鮑魚海鮮拼盤，120 分鐘晚市",
+        "餐廳 OpenRice 頁另設晚市買1送1 HK$598 方案（北海道米豚放題 HK$498），以餐廳頁面為準",
+        "服務費另計，以原價計算；OpenRice 中秋特集優惠碼 MOON80：餐飲券滿 $800 減 $80",
+        "地址：尖沙咀柯士甸道 124-126 號帝寶樓地下 A&B 號舖"
+      ],
+      "url": "https://www.openrice.com/info/MidAutumnSpecial2026/booking.html",
+      "sourceLabel": "OpenRice 中秋節特集 2026 · 海上鮮餐廳頁",
+      "sourceUrl": "https://www.openrice.com/zh-hk/hongkong/r-seafood-wagyu-shabu-shabu-tsim-sha-tsui-japanese-hot-pot-r994390",
+      "tags": ["火鍋放題", "買一送一", "佐敦", "和牛"],
+      "sample": false
+    },
+    {
+      "id": "dining-foodstudio-oyster-lunch-20260915",
+      "category": "dining",
+      "title": "蠔賞·海鮮自助午餐 OpenRice 獨家 5 折，週末 HK$210 / 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 週末及公眾假期午市",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家 5 折 HK$210 / 1 位（已連服務費）",
+      "priceValue": 210,
+      "originalLabel": "原價 HK$383 / 位（-45%）",
+      "discountPct": 50,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期六、日及公眾假期自助午餐；實際可供預訂日期以 OpenRice 頁面顯示為準",
+      "summary": "灣仔萬麗海景酒店 Food Studio 經 OpenRice 訂座，週末及公眾假期「蠔賞·海鮮自助午餐」獨家 5 折，HK$210/位已連服務費（原價 HK$383）。酒店級自助餐返到人均兩百樓下，海鮮控週末回本之選。",
+      "highlights": [
+        "OpenRice 獨家 5 折，適用星期六、日及公眾假期自助午餐，已連服務費",
+        "須經 OpenRice 會員網上訂座並選用此優惠",
+        "同期供應「鮮」聲奪人青口自助盛薈（至 10/15）",
+        "同場另有平日鮑魚海鮮盛宴半自助晚餐 55 折 HK$221 起（已連服務費）",
+        "OpenRice 訂座優惠名額有限，價格與可供日期以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": ["酒店自助餐", "5 折", "灣仔", "生蠔"],
+      "sample": false
+    },
+    {
+      "id": "dining-foodstudio-midautumn-20260915",
+      "category": "dining",
+      "title": "中秋海陸盛宴自助晚餐買一送一，HK$718 / 2 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 中秋檔期 OpenRice 獨家",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家買1送1 HK$718 / 2 位（已連服務費）",
+      "priceValue": 359,
+      "originalLabel": "原價 HK$1,316 / 2 位（約 5.5 折）",
+      "discountPct": 45,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "適用 2026-09-24 至 09-25 及 2026-09-26 至 09-27 晚市（中秋三天假期）",
+      "summary": "萬麗海景 Food Studio 中秋檔期經 OpenRice 推出獨家買一送一：9 月 24 至 25 日或 26 至 27 日晚市自助晚餐，2 位只收 HK$718 已連服務費（原價 HK$1,316，人均 HK$359）。中秋三天假期想食好啲，呢個位好搶手。",
+      "highlights": [
+        "OpenRice 獨家買1送1，只限 9/24–25 及 9/26–27 晚市兩個檔期",
+        "已連服務費，人均 HK$359（原價約 HK$658/位）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "中秋正日 9/25 適用首個檔期，建議盡早訂",
+        "價格與名額以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio 中秋海陸盛宴）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": ["酒店自助餐", "買一送一", "中秋", "灣仔"],
+      "sample": false
+    },
+    {
+      "id": "dining-savvy-lunch-tst-20260915",
+      "category": "dining",
+      "title": "平日半自助午餐買二送一，人均 HK$251 起（已連服務費）",
+      "subtitle": "尖沙咀太子酒店 SAVVY · OpenRice 訂座",
+      "venue": "SAVVY · 尖沙咀東部麼地道 20 號太子酒店 M 層",
+      "priceLabel": "OpenRice 買2送1 HK$754 / 3 位（人均 HK$251，已連服務費）",
+      "priceValue": 251,
+      "originalLabel": "原價 HK$1,082 / 3 位（約 7 折）",
+      "discountPct": 30,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期一至五午市；周末海鮮早午自助餐買2送1 HK$1,237 / 3 位；實際可供日期以 OpenRice 頁面為準",
+      "summary": "尖沙咀東太子酒店 SAVVY 經 OpenRice 訂座，平日半自助午餐買二送一，3 位 HK$754 已連服務費，人均 HK$251（原價 HK$1,082/3 位）。尖沙咀東區酒店午市呢個價好罕有，仲有周末海鮮早午自助餐同帝王蟹龍蝦晚餐買二送一。",
+      "highlights": [
+        "平日（一至五）半自助午餐買2送1：HK$754 / 3 位已連服務費",
+        "周末海鮮早午自助餐買2送1：HK$1,237 / 3 位（原價 $1,775）",
+        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐買2送1：HK$1,789 / 3 位（原價 $2,567）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "地址：尖沙咀東部麼地道 20 號太子酒店；價格以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（SAVVY）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": ["酒店自助餐", "買二送一", "尖沙咀"],
+      "sample": false
+    }
+  ]
+}

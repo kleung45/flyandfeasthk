@@ -3,152 +3,21 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-13T16:42:51+08:00",
+    "updated": "2026-09-15T10:43:37+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-    "updatedAt": "2026-09-13T16:40:00+08:00",
+    "updatedAt": "2026-09-15T10:50:00+08:00",
     "stats": {
-      "total": 23,
+      "total": 27,
       "active": 22,
-      "ending": 7,
-      "expired": 1,
+      "ending": 5,
+      "expired": 5,
       "flight": 5,
-      "dining": 18,
+      "dining": 22,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-cafelagoon-tuenmun-20260911",
-      "category": "dining",
-      "title": "自助餐快閃低至 1 折，平日午市人均 HK$82 起",
-      "subtitle": "屯門黃金海岸酒店 聆渢咖啡廳 Café Lagoon",
-      "venue": "香港黃金海岸酒店 聆渢咖啡廳 · 屯門青山公路 1 號",
-      "priceLabel": "平日自助午餐人均 HK$82 起（1 折）",
-      "priceValue": 82,
-      "originalLabel": "原價成人 HK$449 起／位；1 折只折餐費，服務費按原價收取",
-      "discountPct": 90,
-      "endsAt": "2026-09-13T23:59:00+08:00",
-      "period": "預訂期：2026-09-07 12:00 至 2026-09-13 23:59；用餐期：2026-09-08 至 2026-10-31",
-      "summary": "屯門黃金海岸酒店聆渢咖啡廳（Café Lagoon）推出快閃自助餐優惠，平日午市 1 折後人均只需 HK$82 起（原價 HK$449），平日自助晚餐人均 HK$148 起（原價 HK$812）；搶不到 1 折亦有買一送一及買一送二。9 月新推「燒烤百味盛宴自助晚餐」，戶外炭烤區供應參巴醬燒魔鬼魚、日式醬燒白鱔及炭燒封門柳，每位賓客另獲主廚麥皮虎蝦一隻。",
-      "highlights": [
-        "1 折名額適用於星期一至四，只折餐費、服務費按原價收取，數量有限額滿即止",
-        "預訂期至 2026-09-13 23:59，用餐期 9 月 8 日至 10 月 31 日，須經 KKday 平台預訂",
-        "買一送二：2 位成人 + 1 位 3 至 11 歲小童，平日午市 HK$519 起／3 位、晚市 HK$930 起／3 位",
-        "買一送一：自助午餐成人人均 HK$245 起、自助晚餐人均 HK$443 起",
-        "逢周五、周末及公眾假期晚市加推脆皮烤乳豬、德州煙熏和牛胸肉、美式燒烤醬燒豬仔髀",
-        "地址：香港青山公路 1 號香港黃金海岸酒店低層地下；午市 12:00–14:30、晚市 18:00–21:30"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/133125",
-      "sourceLabel": "KKday 產品頁 · 星島頭條／myTV SUPER 報導",
-      "sourceUrl": "https://www.stheadline.com/food/3612156/%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%E8%87%AA%E5%8A%A9%E9%A4%901%E6%8A%98%E5%84%AA%E6%83%A0148%E4%BD%8D%E8%B5%B7%E6%AD%8E%E7%87%92%E7%83%A4%E7%9B%9B%E5%AE%B4-%E6%85%A2%E7%83%A4%E5%92%8C%E7%89%9B%E9%BA%A5%E7%9A%AE%E8%99%8E%E8%9D%A6%E7%87%92%E9%AD%94%E9%AC%BC%E9%AD%9A%E5%91%A8%E6%9C%AB%E9%99%90%E5%AE%9A%E7%83%A4%E4%B9%B3%E8%B1%AC",
-      "tags": [
-        "酒店自助餐",
-        "1 折",
-        "買一送一",
-        "屯門"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "flight-hkexpress-hsbc-flashsale-20260911",
-      "category": "flight",
-      "title": "滙豐信用卡快閃：8 個航點低至 5 折，河內來回連稅 HK$1,331 起",
-      "subtitle": "HK Express 香港快運 × 滙豐信用卡 · 優惠碼 HSBCUO26",
-      "route": "香港出發 · 台中／亞庇（沙巴）／河內／常州（5 折）；福岡／高松／清邁／馬尼拉（8 折）",
-      "priceLabel": "單程 HK$40 起（未連稅）· 來回連稅 HK$1,331 起",
-      "priceValue": 40,
-      "originalLabel": "須以指定滙豐信用卡付款，並輸入優惠碼 HSBCUO26",
-      "discountPct": 50,
-      "endsAt": "2026-09-14T23:45:00+08:00",
-      "period": "預訂期：即日至 2026-09-14 23:45；旅遊日期：2026-09-22 至 2026-12-15",
-      "summary": "HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入優惠碼「HSBCUO26」，再以指定滙豐信用卡付款，指定航點低至 5 折。台中單程 HK$55 起、河內單程低至 HK$40、來回連稅最平 HK$1,331；福岡、高松、清邁、馬尼拉則享 8 折。",
-      "highlights": [
-        "5 折航點：台中、亞庇（沙巴）、河內、常州；8 折航點：福岡、高松、清邁、馬尼拉",
-        "只有最平價的「輕便飛」（包 1 件隨身物品）才享足 5 折，其餘票價級別折扣較少",
-        "優惠碼要在搜尋頁先輸入，並揀選標示「已套用優惠代碼」的航班才生效",
-        "只限官網及手機 App（不適用於微信小程序），銀聯及扣賬卡不適用",
-        "旅客須自付燃油附加費與稅項，廉航票價不含寄艙行李；名額與艙位有限，售完即止"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/plan/Special-Offers/Promotions/hsbc_flashsale_20260910",
-      "sourceLabel": "HK Express 官方優惠頁 · etnet 經濟通／U Travel 報導",
-      "sourceUrl": "https://www.etnet.com.hk/www/tc/lifestyle/408723/%E9%A6%99%E6%B8%AF%E5%BF%AB%E9%81%8B%E9%AB%98%E9%81%9450%E7%A5%A8%E5%83%B9%E6%8A%98%E6%89%A3%EF%BC%818%E5%80%8B%E8%88%AA%E9%BB%9E%E5%8C%85%E6%8B%AC%E7%A6%8F%E5%B2%A1%E3%80%81%E9%AB%98%E6%9D%BE...+%E5%8F%B0%E4%B8%AD%E5%96%AE%E7%A8%8B%2455%E8%B5%B7+%E6%B2%B3%E5%85%A7%E4%BE%86%E5%9B%9E%E9%80%A3%E7%A8%85%241%2C331%E8%B5%B7",
-      "tags": [
-        "廉航",
-        "信用卡優惠",
-        "限時 4 日"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-kowloon-shangrila-cafekool-20260910",
-      "category": "dining",
-      "title": "「夏日東瀛」自助午餐 買一送一，人均 HK$199 起",
-      "subtitle": "九龍香格里拉 Café Kool",
-      "venue": "九龍香格里拉 Café Kool · 尖沙咀東",
-      "priceLabel": "HK$398 起 / 2 位",
-      "priceValue": 199,
-      "originalLabel": "原價 HK$548 起 / 位（已含加一服務費）",
-      "discountPct": 64,
-      "endsAt": "2026-09-14T23:59:00+08:00",
-      "period": "用餐日期：2026-09-09 至 2026-09-30；午餐時段 12:00–14:30",
-      "summary": "九龍香格里拉 Café Kool「夏日東瀛」自助午餐買一送一，每兩位 HK$598 起，輸入優惠碼「FBWCK」後 HK$398 起／2 位，人均 HK$199 起，價錢已含加一服務費。任食刺身壽司、蒜香牛油帶子、油甘魚刺身配柚子醋汁，週末加推宮崎牛壽喜燒。",
-      "highlights": [
-        "優惠碼「FBWCK」，每張訂單限用一組；另有無門檻碼「FBWCK50」折後 HK$548 起／2 位",
-        "買一送一每次須預訂 2 位，於 KKday 平台下單",
-        "預訂期為 2026-09-08 12:00 至 09-14 23:59，須於用餐日 12 小時前購買",
-        "晚餐同設買一送一：星期一至五 HK$782 起／2 位（人均 HK$391 起）",
-        "地址：香港九龍尖沙咀東麼地道 64 號九龍香格里拉閣樓"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/133283",
-      "sourceLabel": "KKday 產品頁 · myTV SUPER 報導",
-      "sourceUrl": "https://www.mytvsuper.com/tc/scoopplus/lifestyle/jetso/17887715820051/-199%E4%BD%8D%E4%BB%BB%E9%A3%9F%E5%88%BA%E8%BA%AB-%E5%AE%AE%E5%B4%8E%E7%89%9B%E5%A3%BD%E5%96%9C%E7%87%92-%E5%B0%96%E6%B2%99%E5%92%80%E4%B9%9D%E9%BE%8D%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89-%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-cafekool-dinner-tst-20260913",
-      "category": "dining",
-      "title": "「夏日東瀛」自助晚餐買一送一，人均 HK$391 起",
-      "subtitle": "Café Kool（九龍香格里拉）· KKday 快閃",
-      "venue": "Café Kool · 尖沙咀東麼地道 64 號九龍香格里拉大酒店閣樓",
-      "priceLabel": "KKday 輸入優惠碼 FBWCK 後 HK$782 / 2 位（已包加一）",
-      "priceValue": 391,
-      "originalLabel": "原價 HK$900 起 / 位（約 -43%）",
-      "endsAt": "2026-09-14T23:59:00+08:00",
-      "period": "KKday 預售 2026-09-08 12:00 至 09-14 23:59；用餐 2026-09-09 至 09-30，星期一至五自助晚餐 18:00–21:30",
-      "summary": "九龍香格里拉 Café Kool「夏日東瀛」自助晚餐經 KKday 買一送一，用 FBWCK 後 2 位 HK$782（人均 HK$391 起）。任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒸龍蝦同焗蠔，超過 200 款美食，預售只到 9/14。",
-      "highlights": [
-        "任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒜蓉蒸龍蝦",
-        "日式海鮮陣容：油甘魚刺身、帶子、軟殼蟹丼、銀鱈魚西京燒",
-        "KKday 預售至 9/14 23:59，用餐期至 9/30",
-        "須於用餐日 12 小時前購買；地址：尖沙咀東麼地道 64 號"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/133283",
-      "sourceLabel": "東張+ myTV SUPER 著數 · KKday",
-      "sourceUrl": "https://www.mytvsuper.com/tc/scoopplus/lifestyle/jetso/17887715820051/",
-      "tags": [
-        "酒店自助餐",
-        "尖沙咀",
-        "買一送一"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-cafemarco-tst-20260910",
       "category": "dining",
@@ -178,7 +47,8 @@
         "長者優惠"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "postedThreads": true,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -212,7 +82,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 2,
+      "postedThreads": true,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -245,7 +116,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 3,
+      "postedThreads": true,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -275,8 +147,9 @@
         "會員限定"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "postedThreads": true,
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-foodstudio-wanchai-20260913",
@@ -306,8 +179,9 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 5,
-      "status": "active"
+      "postedThreads": true,
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-lemenu-gloucester-20260912",
@@ -338,7 +212,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 6,
+      "postedThreads": true,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -367,7 +242,8 @@
         "日本"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "postedThreads": true,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -399,7 +275,74 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 11,
+      "postedThreads": true,
+      "daysLeft": 9,
+      "status": "active"
+    },
+    {
+      "id": "dining-haixian-wagyu-tst-20260915",
+      "category": "dining",
+      "title": "120 分鐘 A5 和牛火鍋放題買一送一＋下次免費券，人均低至 HK$175",
+      "subtitle": "海上鮮海鮮和牛涮涮鍋（佐敦）· OpenRice 中秋特集",
+      "venue": "海上鮮海鮮和牛涮涮鍋 · 尖沙咀柯士甸道 124-126 號帝寶樓地下（佐敦站 D 出口步行 4 分鐘）",
+      "priceLabel": "OpenRice 獨家買1送1＋下次免費券 HK$698 / 2 位（未連服務費）",
+      "priceValue": 175,
+      "originalLabel": "套餐價值 HK$2,094，一人價錢即時二人放題再送下次免費券，變相 4 位人均 HK$175（約 3.3 折）",
+      "discountPct": 67,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "OpenRice 中秋節特集：2026-08-26 至 2026-09-27；晚市放題 120 分鐘",
+      "summary": "佐敦「海上鮮海鮮和牛涮涮鍋」經 OpenRice 中秋特集推出買一送一：HK$698（未連服務費）即時二人任食 120 分鐘日本十勝 A5 和牛火鍋放題＋龍蝦生蠔海鮮拼盤，再送一張「下次免費券」，變相 4 位人均 HK$175（原價約 HK$698/位）。菲律賓直送生猛活海鮮，另有潮州滷水鵝等特色菜式。",
+      "highlights": [
+        "一人價錢享即時二人放題，再送下次免費券，變相 4 位 HK$698（人均 HK$175）",
+        "任食日本十勝 A5 和牛＋龍蝦、生蠔、鮑魚海鮮拼盤，120 分鐘晚市",
+        "餐廳 OpenRice 頁另設晚市買1送1 HK$598 方案（北海道米豚放題 HK$498），以餐廳頁面為準",
+        "服務費另計，以原價計算；OpenRice 中秋特集優惠碼 MOON80：餐飲券滿 $800 減 $80",
+        "地址：尖沙咀柯士甸道 124-126 號帝寶樓地下 A&B 號舖"
+      ],
+      "url": "https://www.openrice.com/info/MidAutumnSpecial2026/booking.html",
+      "sourceLabel": "OpenRice 中秋節特集 2026 · 海上鮮餐廳頁",
+      "sourceUrl": "https://www.openrice.com/zh-hk/hongkong/r-seafood-wagyu-shabu-shabu-tsim-sha-tsui-japanese-hot-pot-r994390",
+      "tags": [
+        "火鍋放題",
+        "買一送一",
+        "佐敦",
+        "和牛"
+      ],
+      "sample": false,
+      "daysLeft": 12,
+      "status": "active"
+    },
+    {
+      "id": "dining-foodstudio-midautumn-20260915",
+      "category": "dining",
+      "title": "中秋海陸盛宴自助晚餐買一送一，HK$718 / 2 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 中秋檔期 OpenRice 獨家",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家買1送1 HK$718 / 2 位（已連服務費）",
+      "priceValue": 359,
+      "originalLabel": "原價 HK$1,316 / 2 位（約 5.5 折）",
+      "discountPct": 45,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "適用 2026-09-24 至 09-25 及 2026-09-26 至 09-27 晚市（中秋三天假期）",
+      "summary": "萬麗海景 Food Studio 中秋檔期經 OpenRice 推出獨家買一送一：9 月 24 至 25 日或 26 至 27 日晚市自助晚餐，2 位只收 HK$718 已連服務費（原價 HK$1,316，人均 HK$359）。中秋三天假期想食好啲，呢個位好搶手。",
+      "highlights": [
+        "OpenRice 獨家買1送1，只限 9/24–25 及 9/26–27 晚市兩個檔期",
+        "已連服務費，人均 HK$359（原價約 HK$658/位）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "中秋正日 9/25 適用首個檔期，建議盡早訂",
+        "價格與名額以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio 中秋海陸盛宴）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "中秋",
+        "灣仔"
+      ],
+      "sample": false,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -430,7 +373,8 @@
         "沙田"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "postedThreads": true,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -464,7 +408,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "postedThreads": true,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -499,7 +444,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "postedThreads": true,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -530,7 +476,73 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "postedThreads": true,
+      "daysLeft": 15,
+      "status": "active"
+    },
+    {
+      "id": "dining-foodstudio-oyster-lunch-20260915",
+      "category": "dining",
+      "title": "蠔賞·海鮮自助午餐 OpenRice 獨家 5 折，週末 HK$210 / 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 週末及公眾假期午市",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家 5 折 HK$210 / 1 位（已連服務費）",
+      "priceValue": 210,
+      "originalLabel": "原價 HK$383 / 位（-45%）",
+      "discountPct": 50,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期六、日及公眾假期自助午餐；實際可供預訂日期以 OpenRice 頁面顯示為準",
+      "summary": "灣仔萬麗海景酒店 Food Studio 經 OpenRice 訂座，週末及公眾假期「蠔賞·海鮮自助午餐」獨家 5 折，HK$210/位已連服務費（原價 HK$383）。酒店級自助餐返到人均兩百樓下，海鮮控週末回本之選。",
+      "highlights": [
+        "OpenRice 獨家 5 折，適用星期六、日及公眾假期自助午餐，已連服務費",
+        "須經 OpenRice 會員網上訂座並選用此優惠",
+        "同期供應「鮮」聲奪人青口自助盛薈（至 10/15）",
+        "同場另有平日鮑魚海鮮盛宴半自助晚餐 55 折 HK$221 起（已連服務費）",
+        "OpenRice 訂座優惠名額有限，價格與可供日期以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "5 折",
+        "灣仔",
+        "生蠔"
+      ],
+      "sample": false,
+      "daysLeft": 15,
+      "status": "active"
+    },
+    {
+      "id": "dining-savvy-lunch-tst-20260915",
+      "category": "dining",
+      "title": "平日半自助午餐買二送一，人均 HK$251 起（已連服務費）",
+      "subtitle": "尖沙咀太子酒店 SAVVY · OpenRice 訂座",
+      "venue": "SAVVY · 尖沙咀東部麼地道 20 號太子酒店 M 層",
+      "priceLabel": "OpenRice 買2送1 HK$754 / 3 位（人均 HK$251，已連服務費）",
+      "priceValue": 251,
+      "originalLabel": "原價 HK$1,082 / 3 位（約 7 折）",
+      "discountPct": 30,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期一至五午市；周末海鮮早午自助餐買2送1 HK$1,237 / 3 位；實際可供日期以 OpenRice 頁面為準",
+      "summary": "尖沙咀東太子酒店 SAVVY 經 OpenRice 訂座，平日半自助午餐買二送一，3 位 HK$754 已連服務費，人均 HK$251（原價 HK$1,082/3 位）。尖沙咀東區酒店午市呢個價好罕有，仲有周末海鮮早午自助餐同帝王蟹龍蝦晚餐買二送一。",
+      "highlights": [
+        "平日（一至五）半自助午餐買2送1：HK$754 / 3 位已連服務費",
+        "周末海鮮早午自助餐買2送1：HK$1,237 / 3 位（原價 $1,775）",
+        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐買2送1：HK$1,789 / 3 位（原價 $2,567）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "地址：尖沙咀東部麼地道 20 號太子酒店；價格以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（SAVVY）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "買二送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -564,7 +576,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 24,
+      "postedThreads": true,
+      "daysLeft": 22,
       "status": "active"
     },
     {
@@ -597,7 +610,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 48,
+      "postedThreads": true,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -627,7 +641,8 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 78,
+      "postedThreads": true,
+      "daysLeft": 76,
       "status": "active"
     },
     {
@@ -658,7 +673,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 78,
+      "daysLeft": 76,
       "status": "active"
     },
     {
@@ -689,7 +704,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 78,
+      "daysLeft": 76,
       "status": "active"
     },
     {
@@ -719,7 +734,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 78,
+      "daysLeft": 76,
       "status": "active"
     },
     {
@@ -750,6 +765,141 @@
         "需搶購"
       ],
       "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cafelagoon-tuenmun-20260911",
+      "category": "dining",
+      "title": "自助餐快閃低至 1 折，平日午市人均 HK$82 起",
+      "subtitle": "屯門黃金海岸酒店 聆渢咖啡廳 Café Lagoon",
+      "venue": "香港黃金海岸酒店 聆渢咖啡廳 · 屯門青山公路 1 號",
+      "priceLabel": "平日自助午餐人均 HK$82 起（1 折）",
+      "priceValue": 82,
+      "originalLabel": "原價成人 HK$449 起／位；1 折只折餐費，服務費按原價收取",
+      "discountPct": 90,
+      "endsAt": "2026-09-13T23:59:00+08:00",
+      "period": "預訂期：2026-09-07 12:00 至 2026-09-13 23:59；用餐期：2026-09-08 至 2026-10-31",
+      "summary": "屯門黃金海岸酒店聆渢咖啡廳（Café Lagoon）推出快閃自助餐優惠，平日午市 1 折後人均只需 HK$82 起（原價 HK$449），平日自助晚餐人均 HK$148 起（原價 HK$812）；搶不到 1 折亦有買一送一及買一送二。9 月新推「燒烤百味盛宴自助晚餐」，戶外炭烤區供應參巴醬燒魔鬼魚、日式醬燒白鱔及炭燒封門柳，每位賓客另獲主廚麥皮虎蝦一隻。",
+      "highlights": [
+        "1 折名額適用於星期一至四，只折餐費、服務費按原價收取，數量有限額滿即止",
+        "預訂期至 2026-09-13 23:59，用餐期 9 月 8 日至 10 月 31 日，須經 KKday 平台預訂",
+        "買一送二：2 位成人 + 1 位 3 至 11 歲小童，平日午市 HK$519 起／3 位、晚市 HK$930 起／3 位",
+        "買一送一：自助午餐成人人均 HK$245 起、自助晚餐人均 HK$443 起",
+        "逢周五、周末及公眾假期晚市加推脆皮烤乳豬、德州煙熏和牛胸肉、美式燒烤醬燒豬仔髀",
+        "地址：香港青山公路 1 號香港黃金海岸酒店低層地下；午市 12:00–14:30、晚市 18:00–21:30"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/133125",
+      "sourceLabel": "KKday 產品頁 · 星島頭條／myTV SUPER 報導",
+      "sourceUrl": "https://www.stheadline.com/food/3612156/%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%E8%87%AA%E5%8A%A9%E9%A4%901%E6%8A%98%E5%84%AA%E6%83%A0148%E4%BD%8D%E8%B5%B7%E6%AD%8E%E7%87%92%E7%83%A4%E7%9B%9B%E5%AE%B4-%E6%85%A2%E7%83%A4%E5%92%8C%E7%89%9B%E9%BA%A5%E7%9A%AE%E8%99%8E%E8%9D%A6%E7%87%92%E9%AD%94%E9%AC%BC%E9%AD%9A%E5%91%A8%E6%9C%AB%E9%99%90%E5%AE%9A%E7%83%A4%E4%B9%B3%E8%B1%AC",
+      "tags": [
+        "酒店自助餐",
+        "1 折",
+        "買一送一",
+        "屯門"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-hsbc-flashsale-20260911",
+      "category": "flight",
+      "title": "滙豐信用卡快閃：8 個航點低至 5 折，河內來回連稅 HK$1,331 起",
+      "subtitle": "HK Express 香港快運 × 滙豐信用卡 · 優惠碼 HSBCUO26",
+      "route": "香港出發 · 台中／亞庇（沙巴）／河內／常州（5 折）；福岡／高松／清邁／馬尼拉（8 折）",
+      "priceLabel": "單程 HK$40 起（未連稅）· 來回連稅 HK$1,331 起",
+      "priceValue": 40,
+      "originalLabel": "須以指定滙豐信用卡付款，並輸入優惠碼 HSBCUO26",
+      "discountPct": 50,
+      "endsAt": "2026-09-14T23:45:00+08:00",
+      "period": "預訂期：即日至 2026-09-14 23:45；旅遊日期：2026-09-22 至 2026-12-15",
+      "summary": "HK Express 聯乘滙豐信用卡推出快閃優惠，於官網或 App 先輸入優惠碼「HSBCUO26」，再以指定滙豐信用卡付款，指定航點低至 5 折。台中單程 HK$55 起、河內單程低至 HK$40、來回連稅最平 HK$1,331；福岡、高松、清邁、馬尼拉則享 8 折。",
+      "highlights": [
+        "5 折航點：台中、亞庇（沙巴）、河內、常州；8 折航點：福岡、高松、清邁、馬尼拉",
+        "只有最平價的「輕便飛」（包 1 件隨身物品）才享足 5 折，其餘票價級別折扣較少",
+        "優惠碼要在搜尋頁先輸入，並揀選標示「已套用優惠代碼」的航班才生效",
+        "只限官網及手機 App（不適用於微信小程序），銀聯及扣賬卡不適用",
+        "旅客須自付燃油附加費與稅項，廉航票價不含寄艙行李；名額與艙位有限，售完即止"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/plan/Special-Offers/Promotions/hsbc_flashsale_20260910",
+      "sourceLabel": "HK Express 官方優惠頁 · etnet 經濟通／U Travel 報導",
+      "sourceUrl": "https://www.etnet.com.hk/www/tc/lifestyle/408723/%E9%A6%99%E6%B8%AF%E5%BF%AB%E9%81%8B%E9%AB%98%E9%81%9450%E7%A5%A8%E5%83%B9%E6%8A%98%E6%89%A3%EF%BC%818%E5%80%8B%E8%88%AA%E9%BB%9E%E5%8C%85%E6%8B%AC%E7%A6%8F%E5%B2%A1%E3%80%81%E9%AB%98%E6%9D%BE...+%E5%8F%B0%E4%B8%AD%E5%96%AE%E7%A8%8B%2455%E8%B5%B7+%E6%B2%B3%E5%85%A7%E4%BE%86%E5%9B%9E%E9%80%A3%E7%A8%85%241%2C331%E8%B5%B7",
+      "tags": [
+        "廉航",
+        "信用卡優惠",
+        "限時 4 日"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-kowloon-shangrila-cafekool-20260910",
+      "category": "dining",
+      "title": "「夏日東瀛」自助午餐 買一送一，人均 HK$199 起",
+      "subtitle": "九龍香格里拉 Café Kool",
+      "venue": "九龍香格里拉 Café Kool · 尖沙咀東",
+      "priceLabel": "HK$398 起 / 2 位",
+      "priceValue": 199,
+      "originalLabel": "原價 HK$548 起 / 位（已含加一服務費）",
+      "discountPct": 64,
+      "endsAt": "2026-09-14T23:59:00+08:00",
+      "period": "用餐日期：2026-09-09 至 2026-09-30；午餐時段 12:00–14:30",
+      "summary": "九龍香格里拉 Café Kool「夏日東瀛」自助午餐買一送一，每兩位 HK$598 起，輸入優惠碼「FBWCK」後 HK$398 起／2 位，人均 HK$199 起，價錢已含加一服務費。任食刺身壽司、蒜香牛油帶子、油甘魚刺身配柚子醋汁，週末加推宮崎牛壽喜燒。",
+      "highlights": [
+        "優惠碼「FBWCK」，每張訂單限用一組；另有無門檻碼「FBWCK50」折後 HK$548 起／2 位",
+        "買一送一每次須預訂 2 位，於 KKday 平台下單",
+        "預訂期為 2026-09-08 12:00 至 09-14 23:59，須於用餐日 12 小時前購買",
+        "晚餐同設買一送一：星期一至五 HK$782 起／2 位（人均 HK$391 起）",
+        "地址：香港九龍尖沙咀東麼地道 64 號九龍香格里拉閣樓"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/133283",
+      "sourceLabel": "KKday 產品頁 · myTV SUPER 報導",
+      "sourceUrl": "https://www.mytvsuper.com/tc/scoopplus/lifestyle/jetso/17887715820051/-199%E4%BD%8D%E4%BB%BB%E9%A3%9F%E5%88%BA%E8%BA%AB-%E5%AE%AE%E5%B4%8E%E7%89%9B%E5%A3%BD%E5%96%9C%E7%87%92-%E5%B0%96%E6%B2%99%E5%92%80%E4%B9%9D%E9%BE%8D%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89-%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cafekool-dinner-tst-20260913",
+      "category": "dining",
+      "title": "「夏日東瀛」自助晚餐買一送一，人均 HK$391 起",
+      "subtitle": "Café Kool（九龍香格里拉）· KKday 快閃",
+      "venue": "Café Kool · 尖沙咀東麼地道 64 號九龍香格里拉大酒店閣樓",
+      "priceLabel": "KKday 輸入優惠碼 FBWCK 後 HK$782 / 2 位（已包加一）",
+      "priceValue": 391,
+      "originalLabel": "原價 HK$900 起 / 位（約 -43%）",
+      "endsAt": "2026-09-14T23:59:00+08:00",
+      "period": "KKday 預售 2026-09-08 12:00 至 09-14 23:59；用餐 2026-09-09 至 09-30，星期一至五自助晚餐 18:00–21:30",
+      "summary": "九龍香格里拉 Café Kool「夏日東瀛」自助晚餐經 KKday 買一送一，用 FBWCK 後 2 位 HK$782（人均 HK$391 起）。任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒸龍蝦同焗蠔，超過 200 款美食，預售只到 9/14。",
+      "highlights": [
+        "任食宮崎和牛扒、鐵板燒鮑魚、甲羅燒多士、蒜蓉蒸龍蝦",
+        "日式海鮮陣容：油甘魚刺身、帶子、軟殼蟹丼、銀鱈魚西京燒",
+        "KKday 預售至 9/14 23:59，用餐期至 9/30",
+        "須於用餐日 12 小時前購買；地址：尖沙咀東麼地道 64 號"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/133283",
+      "sourceLabel": "東張+ myTV SUPER 著數 · KKday",
+      "sourceUrl": "https://www.mytvsuper.com/tc/scoopplus/lifestyle/jetso/17887715820051/",
+      "tags": [
+        "酒店自助餐",
+        "尖沙咀",
+        "買一送一"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
       "daysLeft": 0,
       "status": "expired"
     }
