@@ -1,6 +1,10 @@
 # 憑證與本機設定
 pipeline/config.json
 
+# 社群互動自動回覆的本機狀態（含留言者 id／用戶名，不對外公開）
+pipeline/engage_state.json
+pipeline/engage_log.jsonl
+
 # 每日抓取的原始結果（暫存，可重新抓取）
 pipeline/raw/*.json
 

@@ -746,7 +746,9 @@
         "佐敦",
         "和牛"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-foodstudio-oyster-lunch-20260915",
@@ -777,7 +779,9 @@
         "灣仔",
         "生蠔"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-foodstudio-midautumn-20260915",
@@ -808,7 +812,9 @@
         "中秋",
         "灣仔"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-savvy-lunch-tst-20260915",
@@ -838,7 +844,9 @@
         "買二送一",
         "尖沙咀"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }
