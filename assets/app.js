@@ -100,7 +100,7 @@
 
     var cta = deal.status === "expired"
       ? '<span class="period">優惠已結束</span>'
-      : '<a class="link-btn" href="' + esc(deal.url || "#") + '" target="_blank" rel="noopener nofollow">查看優惠 →</a>';
+      : '<a class="link-btn" href="' + esc(deal.url || "#") + '" target="_blank" rel="noopener sponsored">查看優惠 →</a>';
 
     return '<article class="' + cls + '" data-id="' + esc(deal.id) + '">' +
       '<div class="card-top">' + badges + cardSticker(deal.category) + "</div>" +

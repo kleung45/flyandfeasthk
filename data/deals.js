@@ -4,89 +4,22 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-15T10:43:37+08:00",
+    "updated": "2026-09-16T21:51:44+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-15T10:50:00+08:00",
+    "ga4MeasurementId": "",
     "stats": {
       "total": 27,
-      "active": 22,
-      "ending": 5,
-      "expired": 5,
+      "active": 20,
+      "ending": 4,
+      "expired": 7,
       "flight": 5,
       "dining": 22,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-cafemarco-tst-20260910",
-      "category": "dining",
-      "title": "長者專享自助午餐 買一送一，人均 HK$196 起",
-      "subtitle": "馬哥孛羅香港酒店 Cafe Marco",
-      "venue": "馬哥孛羅香港酒店 Cafe Marco · 尖沙咀海港城",
-      "priceLabel": "HK$392 起 / 2 位（長者）",
-      "priceValue": 196,
-      "originalLabel": "價錢已含加一服務費",
-      "discountPct": 50,
-      "endsAt": "2026-09-15T23:59:00+08:00",
-      "period": "用餐日期：2026-09-10 至 2026-11-30；午餐 12:00–14:30、晚餐 18:30–22:00",
-      "summary": "馬哥孛羅香港酒店 Cafe Marco 推出長者專屬買一送一，網上預訂並在結帳時輸入優惠碼「FBWCM50」，長者自助午餐平日折後 HK$392／2 位（人均 HK$196），週末及假日 HK$440／2 位（人均 HK$220），價錢已含加一服務費。",
-      "highlights": [
-        "預訂期：2026-09-09 12:00 至 09-15 23:59",
-        "優惠碼「FBWCM50」為無門檻減 HK$50，每張訂單限用一組",
-        "買一送一每次須預訂 2 位，且該方案僅限長者使用",
-        "晚餐同設買一送一：長者平日人均低至 HK$358、週末及假日 HK$382",
-        "9 至 11 月限定「尋味潮州自助晚餐」，地址：尖沙咀海港城廣東道 3 號"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/101419",
-      "sourceLabel": "KKday 產品頁 · 星島頭條報導",
-      "sourceUrl": "https://www.stheadline.com/food/3613037/%E5%B0%96%E6%B2%99%E5%92%80%E9%A6%AC%E5%93%A5%E5%AD%9B%E7%BE%85%E8%87%AA%E5%8A%A9%E9%A4%90%E5%84%AA%E6%83%A0%E9%95%B7%E8%80%85%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-196%E4%BD%8D%E8%B5%B7%E6%AD%8E%E5%86%B0%E9%8E%AE%E6%B5%B7%E9%AE%AE%E6%BE%B3%E6%B4%B2%E7%89%9B%E8%82%89%E6%89%93%E5%86%B7",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "長者優惠"
-      ],
-      "sample": false,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-haiyuntian-hairycrab-20260911",
-      "category": "dining",
-      "title": "150 分鐘任食大閘蟹＋片皮鴨，限量 HK$88 / 位",
-      "subtitle": "九龍海逸君綽酒店 海雲天 · KKday 美食大賞",
-      "venue": "九龍海逸君綽酒店 海雲天 · 紅磡（210 度維港海景）",
-      "priceLabel": "限量 HK$88 / 位",
-      "priceValue": 88,
-      "originalLabel": "原價 HK$748 / 位，另須現場支付茶芥費及加一服務費",
-      "discountPct": 88,
-      "endsAt": "2026-09-15T23:59:00+08:00",
-      "period": "預訂期：2026-09-09 15:00 至 2026-09-15 23:59；用餐日期：2026-09-10 至 2026-11-30（部分日子不適用）",
-      "summary": "KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 150 分鐘任食大閘蟹＋京式片皮鴨，限量名額低至 HK$88 / 位（原價 HK$748），另設低至 39 折（HK$598／2 位）、1 成人＋1 長者人均 HK$314 及買一送一（成人平均 HK$374／位）方案。每位另送蠔皇鮑魚金錢及養生燉湯各一客。",
-      "highlights": [
-        "四款任食大閘蟹：避風塘、油鹽焗、藥膳、清水；另設片皮鴨、蟹粉粥、蟹粉燒賣等",
-        "4 位或以上同行，每位額外獲贈滷水乳鴿半隻",
-        "須經 KKday 平台預訂，名額有限、先到先得；優惠價須另付茶芥費及原價加一服務費",
-        "晚市不適用日：9 月 12、16、19、25、27 日及 10 月 3、11 日",
-        "若大閘蟹貨源短缺，餐廳會以其他海鮮代替或安排改期",
-        "地址：九龍紅磡德豐街 20 號海逸君綽酒店二樓"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/103926",
-      "sourceLabel": "KKday 產品頁 · 星島頭條／U Food 報導",
-      "sourceUrl": "https://www.stheadline.com/food/3613034/88%E5%A4%A7%E9%96%98%E8%9F%B9%E7%89%87%E7%9A%AE%E9%B4%A8%E6%94%BE%E9%A1%8C%E9%85%92%E5%BA%97%E6%BF%80%E7%BD%95%E5%84%AA%E6%83%A0-150%E5%88%86%E9%90%98%E7%84%A1%E9%99%90%E5%9B%9B%E6%AC%BE%E5%A4%A7%E9%96%98%E8%9F%B9%E5%B0%8F%E8%8F%9C%E7%B3%96%E6%B0%B4-%E5%8A%A0%E9%80%81%E9%AE%91%E9%AD%9A%E5%8F%8A%E7%87%89%E6%B9%AF",
-      "tags": [
-        "任食放題",
-        "大閘蟹",
-        "紅磡"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-hyatt-kaitak-dimsun-20260911",
       "category": "dining",
@@ -118,7 +51,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -149,7 +82,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -181,7 +114,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -214,8 +147,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "flight-gba-app-autumn-20260910",
@@ -244,7 +177,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -277,7 +210,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -310,7 +243,9 @@ window.DEAL_DATA = {
         "和牛"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -343,7 +278,9 @@ window.DEAL_DATA = {
         "灣仔"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -375,7 +312,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -410,7 +347,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 15,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -446,7 +383,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 15,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -478,7 +415,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 15,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -511,7 +448,9 @@ window.DEAL_DATA = {
         "生蠔"
       ],
       "sample": false,
-      "daysLeft": 15,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -543,7 +482,9 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 15,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -578,7 +519,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 22,
+      "daysLeft": 21,
       "status": "active"
     },
     {
@@ -612,7 +553,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -643,7 +584,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 76,
+      "daysLeft": 75,
       "status": "active"
     },
     {
@@ -674,7 +615,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 76,
+      "daysLeft": 75,
       "status": "active"
     },
     {
@@ -705,7 +646,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 76,
+      "daysLeft": 75,
       "status": "active"
     },
     {
@@ -735,7 +676,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 76,
+      "daysLeft": 75,
       "status": "active"
     },
     {
@@ -897,6 +838,74 @@ window.DEAL_DATA = {
         "酒店自助餐",
         "尖沙咀",
         "買一送一"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cafemarco-tst-20260910",
+      "category": "dining",
+      "title": "長者專享自助午餐 買一送一，人均 HK$196 起",
+      "subtitle": "馬哥孛羅香港酒店 Cafe Marco",
+      "venue": "馬哥孛羅香港酒店 Cafe Marco · 尖沙咀海港城",
+      "priceLabel": "HK$392 起 / 2 位（長者）",
+      "priceValue": 196,
+      "originalLabel": "價錢已含加一服務費",
+      "discountPct": 50,
+      "endsAt": "2026-09-15T23:59:00+08:00",
+      "period": "用餐日期：2026-09-10 至 2026-11-30；午餐 12:00–14:30、晚餐 18:30–22:00",
+      "summary": "馬哥孛羅香港酒店 Cafe Marco 推出長者專屬買一送一，網上預訂並在結帳時輸入優惠碼「FBWCM50」，長者自助午餐平日折後 HK$392／2 位（人均 HK$196），週末及假日 HK$440／2 位（人均 HK$220），價錢已含加一服務費。",
+      "highlights": [
+        "預訂期：2026-09-09 12:00 至 09-15 23:59",
+        "優惠碼「FBWCM50」為無門檻減 HK$50，每張訂單限用一組",
+        "買一送一每次須預訂 2 位，且該方案僅限長者使用",
+        "晚餐同設買一送一：長者平日人均低至 HK$358、週末及假日 HK$382",
+        "9 至 11 月限定「尋味潮州自助晚餐」，地址：尖沙咀海港城廣東道 3 號"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/101419",
+      "sourceLabel": "KKday 產品頁 · 星島頭條報導",
+      "sourceUrl": "https://www.stheadline.com/food/3613037/%E5%B0%96%E6%B2%99%E5%92%80%E9%A6%AC%E5%93%A5%E5%AD%9B%E7%BE%85%E8%87%AA%E5%8A%A9%E9%A4%90%E5%84%AA%E6%83%A0%E9%95%B7%E8%80%85%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-196%E4%BD%8D%E8%B5%B7%E6%AD%8E%E5%86%B0%E9%8E%AE%E6%B5%B7%E9%AE%AE%E6%BE%B3%E6%B4%B2%E7%89%9B%E8%82%89%E6%89%93%E5%86%B7",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "長者優惠"
+      ],
+      "sample": false,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-haiyuntian-hairycrab-20260911",
+      "category": "dining",
+      "title": "150 分鐘任食大閘蟹＋片皮鴨，限量 HK$88 / 位",
+      "subtitle": "九龍海逸君綽酒店 海雲天 · KKday 美食大賞",
+      "venue": "九龍海逸君綽酒店 海雲天 · 紅磡（210 度維港海景）",
+      "priceLabel": "限量 HK$88 / 位",
+      "priceValue": 88,
+      "originalLabel": "原價 HK$748 / 位，另須現場支付茶芥費及加一服務費",
+      "discountPct": 88,
+      "endsAt": "2026-09-15T23:59:00+08:00",
+      "period": "預訂期：2026-09-09 15:00 至 2026-09-15 23:59；用餐日期：2026-09-10 至 2026-11-30（部分日子不適用）",
+      "summary": "KKday 美食大賞期間，紅磡九龍海逸君綽酒店「海雲天」推出 150 分鐘任食大閘蟹＋京式片皮鴨，限量名額低至 HK$88 / 位（原價 HK$748），另設低至 39 折（HK$598／2 位）、1 成人＋1 長者人均 HK$314 及買一送一（成人平均 HK$374／位）方案。每位另送蠔皇鮑魚金錢及養生燉湯各一客。",
+      "highlights": [
+        "四款任食大閘蟹：避風塘、油鹽焗、藥膳、清水；另設片皮鴨、蟹粉粥、蟹粉燒賣等",
+        "4 位或以上同行，每位額外獲贈滷水乳鴿半隻",
+        "須經 KKday 平台預訂，名額有限、先到先得；優惠價須另付茶芥費及原價加一服務費",
+        "晚市不適用日：9 月 12、16、19、25、27 日及 10 月 3、11 日",
+        "若大閘蟹貨源短缺，餐廳會以其他海鮮代替或安排改期",
+        "地址：九龍紅磡德豐街 20 號海逸君綽酒店二樓"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/103926",
+      "sourceLabel": "KKday 產品頁 · 星島頭條／U Food 報導",
+      "sourceUrl": "https://www.stheadline.com/food/3613034/88%E5%A4%A7%E9%96%98%E8%9F%B9%E7%89%87%E7%9A%AE%E9%B4%A8%E6%94%BE%E9%A1%8C%E9%85%92%E5%BA%97%E6%BF%80%E7%BD%95%E5%84%AA%E6%83%A0-150%E5%88%86%E9%90%98%E7%84%A1%E9%99%90%E5%9B%9B%E6%AC%BE%E5%A4%A7%E9%96%98%E8%9F%B9%E5%B0%8F%E8%8F%9C%E7%B3%96%E6%B0%B4-%E5%8A%A0%E9%80%81%E9%AE%91%E9%AD%9A%E5%8F%8A%E7%87%89%E6%B9%AF",
+      "tags": [
+        "任食放題",
+        "大閘蟹",
+        "紅磡"
       ],
       "sample": false,
       "postedFacebook": true,

@@ -37,6 +37,8 @@ CARDS_START = "<!-- SEO:CARDS:START -->"
 CARDS_END = "<!-- SEO:CARDS:END -->"
 ITEMLIST_START = "<!-- SEO:ITEMLIST:START -->"
 ITEMLIST_END = "<!-- SEO:ITEMLIST:END -->"
+GA4_START = "<!-- SEO:GA4:START -->"
+GA4_END = "<!-- SEO:GA4:END -->"
 
 GRID_RE = re.compile(r'<div class="grid" id="grid"[^>]*></div>')
 
@@ -124,9 +126,10 @@ def render_card(deal: dict) -> str:
     if deal.get("status") == "expired":
         cta = '<span class="period">優惠已結束</span>'
     else:
+        # 商戶外流連結為聯盟／推廣性質，按 Google 建議標記 rel="sponsored"
         cta = (
             f'<a class="link-btn" href="{esc(deal.get("url") or "#")}"'
-            ' target="_blank" rel="noopener nofollow">查看優惠 →</a>'
+            ' target="_blank" rel="noopener sponsored">查看優惠 →</a>'
         )
 
     return (
@@ -181,7 +184,47 @@ def bootstrap_index(html: str) -> str:
         )
         html = html.replace(anchor, block + anchor, 1)
 
+    if GA4_START not in html:
+        anchor = "</head>"
+        block = (
+            "<!-- SEO:GA4:START -->\n"
+            "<!-- SEO:GA4:END -->\n"
+        )
+        html = html.replace(anchor, block + anchor, 1)
+
     return html
+
+
+def inject_ga4(meta: dict) -> None:
+    """依 store.json meta.ga4MeasurementId 注入 GA4 gtag；未設定則留空。"""
+    if not INDEX.exists():
+        return
+    html = bootstrap_index(INDEX.read_text(encoding="utf-8"))
+    ga4_id = (meta.get("ga4MeasurementId") or "").strip()
+    if ga4_id and not re.match(r"^G-[A-Z0-9]{6,15}$", ga4_id, re.IGNORECASE):
+        print(f"  GA4 ID 格式可疑：{ga4_id!r}（應為 G-XXXXXXXXXX），本次不注入")
+        ga4_id = ""
+    if ga4_id:
+        snippet = (
+            '<script async src="https://www.googletagmanager.com/gtag/js?id='
+            + esc(ga4_id) + '"></script>\n'
+            "<script>\n"
+            "  window.dataLayer = window.dataLayer || [];\n"
+            "  function gtag(){dataLayer.push(arguments);}\n"
+            "  gtag('js', new Date());\n"
+            "  gtag('config', '" + ga4_id + "');\n"
+            "</script>"
+        )
+        note = f"GA4 gtag 已注入（{ga4_id}）"
+    else:
+        snippet = (
+            "<!-- GA4 未設定：在 pipeline/store.json 的 meta.ga4MeasurementId 填入"
+            " G-XXXXXXXXXX 後重新 build 即會自動注入 -->"
+        )
+        note = "GA4 未設定（meta.ga4MeasurementId 為空），僅保留佔位註解"
+    html = replace_region(html, GA4_START, GA4_END, snippet)
+    INDEX.write_text(html, encoding="utf-8")
+    print(f"  {note}")
 
 
 def inject_index(deals: list[dict], meta: dict) -> None:
@@ -386,9 +429,10 @@ def main() -> int:
         f"  機票 {stats['flight']} / 餐飲 {stats['dining']} / 酒店 {stats['hotel']}"
     )
 
-    # SEO 產物：靜態預渲染 + sitemap（每次建置自動更新）
+    # SEO 產物：靜態預渲染 + sitemap + GA4（每次建置自動更新）
     inject_index(deals, meta)
     write_sitemap(meta)
+    inject_ga4(meta)
 
     if warnings:
         print("\n提醒：")
