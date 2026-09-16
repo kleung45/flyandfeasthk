@@ -39,6 +39,10 @@ ITEMLIST_START = "<!-- SEO:ITEMLIST:START -->"
 ITEMLIST_END = "<!-- SEO:ITEMLIST:END -->"
 GA4_START = "<!-- SEO:GA4:START -->"
 GA4_END = "<!-- SEO:GA4:END -->"
+GTM_HEAD_START = "<!-- SEO:GTM-HEAD:START -->"
+GTM_HEAD_END = "<!-- SEO:GTM-HEAD:END -->"
+GTM_BODY_START = "<!-- SEO:GTM-BODY:START -->"
+GTM_BODY_END = "<!-- SEO:GTM-BODY:END -->"
 
 GRID_RE = re.compile(r'<div class="grid" id="grid"[^>]*></div>')
 
@@ -192,7 +196,63 @@ def bootstrap_index(html: str) -> str:
         )
         html = html.replace(anchor, block + anchor, 1)
 
+    if GTM_HEAD_START not in html:
+        anchor = "</head>"
+        block = (
+            "<!-- SEO:GTM-HEAD:START -->\n"
+            "<!-- SEO:GTM-HEAD:END -->\n"
+        )
+        html = html.replace(anchor, block + anchor, 1)
+
+    if GTM_BODY_START not in html:
+        m = re.search(r"<body[^>]*>", html)
+        if m:
+            body_open = m.group(0)
+            block = (
+                body_open + "\n"
+                "<!-- SEO:GTM-BODY:START -->\n"
+                "<!-- SEO:GTM-BODY:END -->\n"
+            )
+            html = html.replace(body_open, block, 1)
+
     return html
+
+
+def inject_gtm(meta: dict) -> None:
+    """依 store.json meta.gtmContainerId 注入 GTM（head script + body noscript）。"""
+    if not INDEX.exists():
+        return
+    html = bootstrap_index(INDEX.read_text(encoding="utf-8"))
+    gtm_id = (meta.get("gtmContainerId") or "").strip()
+    if gtm_id and not re.match(r"^GTM-[A-Z0-9]{5,12}$", gtm_id, re.IGNORECASE):
+        print(f"  GTM ID 格式可疑：{gtm_id!r}（應為 GTM-XXXXXXX），本次不注入")
+        gtm_id = ""
+    if gtm_id:
+        head_snippet = (
+            "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n"
+            "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n"
+            "j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n"
+            "'https://www.googletagmanager.com/gtm.js?id='+i+dl;"
+            "f.parentNode.insertBefore(j,f);\n"
+            "})(window,document,'script','dataLayer','" + gtm_id + "');</script>"
+        )
+        body_snippet = (
+            '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id='
+            + gtm_id + '"\nheight="0" width="0" style="display:none;visibility:hidden">'
+            "</iframe></noscript>"
+        )
+        note = f"GTM 已注入（head script + body noscript，{gtm_id}）"
+    else:
+        head_snippet = (
+            "<!-- GTM 未設定：在 pipeline/store.json 的 meta.gtmContainerId 填入"
+            " GTM-XXXXXXX 後重新 build 即會自動注入 -->"
+        )
+        body_snippet = "<!-- GTM noscript 佔位 -->"
+        note = "GTM 未設定（meta.gtmContainerId 為空），僅保留佔位註解"
+    html = replace_region(html, GTM_HEAD_START, GTM_HEAD_END, head_snippet)
+    html = replace_region(html, GTM_BODY_START, GTM_BODY_END, body_snippet)
+    INDEX.write_text(html, encoding="utf-8")
+    print(f"  {note}")
 
 
 def inject_ga4(meta: dict) -> None:
@@ -429,10 +489,11 @@ def main() -> int:
         f"  機票 {stats['flight']} / 餐飲 {stats['dining']} / 酒店 {stats['hotel']}"
     )
 
-    # SEO 產物：靜態預渲染 + sitemap + GA4（每次建置自動更新）
+    # SEO 產物：靜態預渲染 + sitemap + GA4/GTM（每次建置自動更新）
     inject_index(deals, meta)
     write_sitemap(meta)
     inject_ga4(meta)
+    inject_gtm(meta)
 
     if warnings:
         print("\n提醒：")

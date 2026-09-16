@@ -4,11 +4,12 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-16T21:51:44+08:00",
+    "updated": "2026-09-16T22:02:41+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-15T10:50:00+08:00",
     "ga4MeasurementId": "",
+    "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 27,
       "active": 20,
