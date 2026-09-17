@@ -21,6 +21,18 @@
   --shadow: 0 1px 2px rgba(23, 24, 26, .05), 0 8px 24px -12px rgba(23, 24, 26, .18);
   --wrap: 1120px;
   --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Hiragino Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-brand: "Playfair Display", "Georgia", "Times New Roman", serif;
+}
+
+/* Playfair Display（SIL Open Font License 1.1）自託管，只取 latin 子集，僅用於品牌英文。
+   Google Fonts 提供的是可變字體，單一檔案已涵蓋 400–900 全字重。
+   中文標題不受影響，仍由 --font 的 Noto Sans TC 等接管。 */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("fonts/playfair-display-latin.woff2") format("woff2");
 }
 
 * { box-sizing: border-box; }
@@ -72,18 +84,29 @@ a { color: inherit; text-decoration: none; }
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
-.header-inner { display: flex; align-items: center; gap: 24px; height: 64px; }
-.brand { display: flex; align-items: center; gap: 10px; margin-right: auto; }
+.header-inner { display: flex; align-items: center; gap: 24px; height: 72px; }
+.brand { display: flex; align-items: center; gap: 12px; margin-right: auto; }
 .brand-mark {
-  width: 43px; height: 43px; object-fit: contain; flex: none;
+  width: 52px; height: 52px; object-fit: contain; flex: none;
+  transition: transform .18s ease;
 }
+.brand:hover .brand-mark { transform: scale(1.06) rotate(-3deg); }
 .footer-logo {
-  display: block; width: 53px; height: 53px; object-fit: contain;
-  margin-bottom: 8px;
+  display: block; width: 60px; height: 60px; object-fit: contain;
+  margin-bottom: 10px;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-text strong { font-size: 15px; letter-spacing: -.01em; }
-.brand-text small { font-size: 11px; color: var(--muted); letter-spacing: .06em; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-text strong {
+  font-family: var(--font-brand);
+  font-weight: 900;
+  font-size: 23px;
+  letter-spacing: .005em;
+  color: var(--text);
+}
+.brand-text small {
+  font-size: 11.5px; color: var(--muted); letter-spacing: .16em;
+  font-weight: 600; margin-top: 2px;
+}
 .nav { display: flex; gap: 22px; font-size: 14px; color: var(--muted); }
 .nav a:hover { color: var(--text); }
 
@@ -310,6 +333,10 @@ a { color: inherit; text-decoration: none; }
 .site-footer { background: #1C1D1F; color: #C9CBCE; padding: 40px 0 26px; margin-top: 8px; }
 .footer-inner { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: flex-start; }
 .site-footer strong { color: #fff; font-size: 15px; }
+.footer-inner > div:first-child strong {
+  font-family: var(--font-brand); font-weight: 900; font-size: 21px;
+  letter-spacing: .005em; display: block;
+}
 .site-footer p { font-size: 13px; color: #8E9296; margin-top: 6px; }
 .footer-links { display: flex; gap: 20px; font-size: 13px; }
 .footer-links a:hover { color: #fff; }
@@ -336,7 +363,9 @@ a { color: inherit; text-decoration: none; }
   .subscribe-inner { gap: 18px; }
   .sub-form { margin-left: 0; width: 100%; }
   .sub-form input { width: 100%; flex: 1 1 200px; }
-  .header-inner { gap: 12px; }
+  .header-inner { gap: 12px; height: 64px; }
+  .brand-mark { width: 42px; height: 42px; }
+  .brand-text strong { font-size: 19px; }
   .brand-text small { display: none; }
 }
 
