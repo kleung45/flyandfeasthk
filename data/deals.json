@@ -3,57 +3,23 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-16T22:28:27+08:00",
+    "updated": "2026-09-17T10:53:24+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-    "updatedAt": "2026-09-15T10:50:00+08:00",
+    "updatedAt": "2026-09-17T10:53:02+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
-      "total": 27,
-      "active": 20,
-      "ending": 4,
-      "expired": 7,
+      "total": 31,
+      "active": 23,
+      "ending": 3,
+      "expired": 8,
       "flight": 5,
-      "dining": 22,
+      "dining": 26,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-hyatt-kaitak-dimsun-20260911",
-      "category": "dining",
-      "title": "120 分鐘點心放題買二送二，人均 HK$264 起",
-      "subtitle": "尖沙咀凱悅酒店 凱悅軒",
-      "venue": "香港尖沙咀凱悅酒店 凱悅軒 · 尖沙咀河內道 18 號",
-      "priceLabel": "HK$1,056 / 4 位（人均 HK$264）",
-      "priceValue": 264,
-      "originalLabel": "原價 HK$458 / 位，價錢已包茶位及加一服務費",
-      "discountPct": 42,
-      "endsAt": "2026-09-16T23:59:00+08:00",
-      "period": "預訂期：2026-09-10 18:00 至 2026-09-16 23:59；用餐日期：2026-09-10 至 2026-10-31",
-      "summary": "尖沙咀凱悅酒店中菜廳「凱悅軒」推出 120 分鐘點心放題快閃優惠，四人同行買二送二，HK$1,056／4 位，人均低至 HK$264（原價 HK$458 / 位），已包茶位費及加一服務費；二人同行亦可享低至 7 折 HK$342 / 位。供應時段為早鳥 10:00 至 12:00。",
-      "highlights": [
-        "任食蝦餃、燒賣、叉燒、甜點等多款星級點心，限時 120 分鐘",
-        "買二送二方案須 4 位同行；低至 7 折方案須以 2 位的倍數預訂",
-        "結帳用建行（亞洲）信用卡單一簽賬滿 HK$1,000，輸入優惠碼 26CCBA140 可再減 HK$140",
-        "所有方案已包括任食 120 分鐘、茶芥及原價加一服務費；名額有限",
-        "須經 KKday 平台預訂，地址：九龍尖沙咀河內道 18 號香港尖沙咀凱悅酒店"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/114210",
-      "sourceLabel": "KKday 產品頁 · 星島頭條報導",
-      "sourceUrl": "https://www.stheadline.com/food/3613694/%E9%BB%9E%E5%BF%83%E6%94%BE%E9%A1%8C%E8%B2%B7%E4%BA%8C%E9%80%81%E4%BA%8C%E5%B0%96%E6%B2%99%E5%92%80%E5%87%B1%E6%82%85%E9%85%92%E5%BA%97%E5%87%B1%E6%82%85%E8%BB%92%E5%84%AA%E6%83%A0-264%E8%B5%B7120%E5%88%86%E9%90%98%E4%BB%BB%E9%A3%9F%E8%9D%A6%E9%A4%83%E7%87%92%E8%B3%A3%E5%8F%89%E7%87%92%E7%94%9C%E9%BB%9E",
-      "tags": [
-        "點心放題",
-        "買二送二",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "flight-cx-annifaresary-20260910",
       "category": "flight",
@@ -82,7 +48,7 @@
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -114,7 +80,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -147,7 +113,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -177,7 +143,7 @@
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -210,7 +176,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -245,7 +211,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -280,7 +246,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -312,7 +278,7 @@
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -347,7 +313,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -383,7 +349,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -415,7 +381,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -450,7 +416,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -484,7 +450,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -519,7 +485,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -553,7 +519,73 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 45,
+      "daysLeft": 44,
+      "status": "active"
+    },
+    {
+      "id": "dining-harbourplaza-metropolis-bogo-20260917",
+      "category": "dining",
+      "title": "官方 eShop 快閃買一送一，自助午餐人均 HK$287 起／晚餐 HK$467 起",
+      "subtitle": "紅磡都會海逸酒店 西餐廳 Promenade · 鮑魚花膠饗宴",
+      "venue": "西餐廳 Promenade Restaurant · 紅磡都會道 7 號都會海逸酒店 7 樓（紅磡站 C2 出口）",
+      "priceLabel": "eShop 買1送1 午餐人均 HK$286.8 起／晚餐 HK$466.8 起／週末下午茶 HK$262.8 起",
+      "priceValue": 286.8,
+      "originalLabel": "另收按原價計算之加一服務費；原價以 eShop 結帳頁為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-31T23:59:00+08:00",
+      "period": "快閃買一送一適用 2026 年 8 月至 10 月份自助餐；「金秋尋珍・鮑魚花膠饗宴」主題 9 至 10 月供應",
+      "summary": "紅磡都會海逸酒店西餐廳經酒店官方 eShop 推出快閃買一送一：自助午餐人均 HK$286.8 起、自助晚餐人均 HK$466.8 起、週末下午茶自助餐人均 HK$262.8 起。9 至 10 月「金秋尋珍・鮑魚花膠饗宴」主打五鼎海味高湯鍋（鯊魚骨湯配干貝、花膠、鮑魚、螺片）、沙薑花膠鮑魚滑雞煲同馬賽花膠魚湯龍蝦泡沫杯。",
+      "highlights": [
+        "經酒店 eShop 付全費預訂指定日子自助餐即享買一送一，名額有限",
+        "焦點菜式：五鼎海味高湯鍋、蠔皇花膠鮑魚燴扁意粉（五六限定）、泰式明爐花膠沙巴龍躉魚",
+        "冰鎮龍蝦、雪花蟹腳、藍青口任食；週末及假期刺身區加供三文魚籽",
+        "週末下午茶「芒」著心動・「茶」言蜜語：鐵觀音芝士蛋糕、玄米茶木糠布甸",
+        "另設買二送二、長者半價及生日半價等方案；以酒店 eShop 公佈為準"
+      ],
+      "url": "https://eshop.harbour-plaza.com/metropolis/zh/home",
+      "sourceLabel": "都會海逸酒店官方網上商店 · am730 報道",
+      "sourceUrl": "https://www.am730.com.hk/article/1051876",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "紅磡",
+        "花膠"
+      ],
+      "sample": false,
+      "daysLeft": 44,
+      "status": "active"
+    },
+    {
+      "id": "dining-oceanpark-marriott-bogo-20260917",
+      "category": "dining",
+      "title": "平日自助午餐成人買一送一 HK$598／2 位，晚市人均 HK$467 起",
+      "subtitle": "海洋公園萬豪酒店 海灣餐廳 Marina Kitchen · KKday 快閃",
+      "venue": "海灣餐廳 Marina Kitchen · 黃竹坑黃竹坑道 180 號香港海洋公園萬豪酒店大堂樓層",
+      "priceLabel": "KKday 平日午餐成人買1送1 HK$598／2 位成人（人均 HK$299）＋小童 HK$88／位",
+      "priceValue": 299,
+      "originalLabel": "自助晚餐平日 HK$934／2 位（人均 HK$467）、週末假期 HK$982／2 位（人均 HK$491）；原價以 KKday 頁面為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-31T23:59:00+08:00",
+      "period": "KKday 用餐日期 2026-09-03 至 2026-10-31（晚餐 9/25–26 不適用）；午餐 12:00–14:30、晚餐 18:00–21:30",
+      "summary": "海洋公園萬豪酒店海灣餐廳「尋味日韓」自助餐經 KKday 買一送一：平日自助午餐成人 2 位 HK$598（人均 HK$299）＋小童每位 HK$88；平日自助晚餐 2 位 HK$934（人均 HK$467 起）。現蒸波士頓龍蝦配信州味噌汁、網燒特選和牛、北海道帶子任食，仲免費玩兒童遊樂天地。",
+      "highlights": [
+        "平日自助午餐成人買1送1 HK$598／2 位，加小童每位 HK$88，人均 HK$229 起（2 大 1 小）",
+        "自助晚餐買1送1：平日 HK$934／2 位、週末假期 HK$982／2 位（已包原價加一服務費）",
+        "另有成人買2送1：午餐 HK$1,146／3 位、晚餐 HK$1,791／3 位（人均 HK$597）",
+        "「尋味日韓」主打現蒸波士頓龍蝦、日式和牛火鍋、鐵板燒、Häagen-Dazs 雪糕",
+        "惠顧晚餐免費享用兒童遊樂天地；須經 KKday 預訂，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/141238-wong-chuk-hang-ocean-park-marriott-hotel-marina-kitchen-buffet",
+      "sourceLabel": "KKday 產品頁 · U Lifestyle／men's Reads 報道",
+      "sourceUrl": "https://www.mensreads.com/post/ocean-park-marriott-marina-kitchen-buffet-offer-2026",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "黃竹坑",
+        "親子"
+      ],
+      "sample": false,
+      "daysLeft": 44,
       "status": "active"
     },
     {
@@ -584,7 +616,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 75,
+      "daysLeft": 74,
       "status": "active"
     },
     {
@@ -615,7 +647,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 75,
+      "daysLeft": 74,
       "status": "active"
     },
     {
@@ -646,7 +678,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 75,
+      "daysLeft": 74,
       "status": "active"
     },
     {
@@ -676,7 +708,73 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 75,
+      "daysLeft": 74,
+      "status": "active"
+    },
+    {
+      "id": "dining-whotel-kitchen-bogo-20260917",
+      "category": "dining",
+      "title": "KITCHEN 自助晚餐買一送一，人均 HK$563 起（已連服務費）",
+      "subtitle": "尖沙咀 W 酒店 · 阿根廷炭烤風味盛宴",
+      "venue": "KITCHEN · 九龍站柯士甸道西 1 號 W Hong Kong 6 樓",
+      "priceLabel": "KKday 買1送1 兩位 HK$1,126 起（人均 HK$563，已包 10% 服務費）＋碼 SEPWHOTEL 減 HK$50",
+      "priceValue": 563,
+      "originalLabel": "原價以 KKday 結帳頁為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "「阿根廷炭烤風味盛宴」供應 2026-09-04 至 11-30；買一送一適用星期五至日、公眾假期及前夕",
+      "summary": "尖沙咀 W 酒店 KITCHEN 自助晚餐買一送一：星期五至日、公眾假期及前夕兩位 HK$1,126 起，人均 HK$563 已連 10% 服務費，KKday 輸入碼「SEPWHOTEL」再減 HK$50。主題「阿根廷炭烤風味盛宴」有 Asado 燒牛肋骨，逢週五至日無限量生蠔，中秋 9/25 晚上仲有第二輪（20:30–22:30）可訂。",
+      "highlights": [
+        "買一送一兩位 HK$1,126 起（人均 HK$563 已連服務費），優惠碼 SEPWHOTEL 減 HK$50，名額有限",
+        "阿根廷炭烤主題（9/4–11/30）：Asado 燒牛肋骨、芝士番茄醬炸牛扒、檸檬烤豬五花肉",
+        "逢星期五至日無限量生蠔；甜品有阿根廷焦糖布丁及焦糖吉士冬甩",
+        "中秋 9/25 設兩輪用餐（18:00 及 20:30），截稿時次輪仍可訂，座位即時變動",
+        "須經 KKday 預訂，付款前以結帳頁成功套用優惠碼為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/131045-w-hotel-hong-kong-buffet-offer-2023-kitchen-lunch-brunch-dinner",
+      "sourceLabel": "KKday 產品頁 · RunHotel 中秋自助餐指南",
+      "sourceUrl": "https://www.runhotel.hk/mid-autumn-buffet-p204205",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "尖沙咀",
+        "中秋"
+      ],
+      "sample": false,
+      "daysLeft": 74,
+      "status": "active"
+    },
+    {
+      "id": "dining-sheraton-tungchung-lnt-20260917",
+      "category": "dining",
+      "title": "深海「蟹」逅自助餐酒店官網 7 折，平日午餐成人 HK$299.6 起",
+      "subtitle": "東涌世茂喜來登酒店 嶼坊 LNT Dining · 官方網上商店價",
+      "venue": "嶼坊 LNT Dining · 東涌怡東路 9 號香港東涌世茂喜來登酒店 1 樓",
+      "priceLabel": "官網商店 7 折 平日自助午餐成人 HK$299.6／自助晚餐 HK$537.6",
+      "priceValue": 299.6,
+      "originalLabel": "原價成人午餐 HK$428+10%／晚餐 HK$768+10%（服務費另計）",
+      "discountPct": 30,
+      "endsAt": "2026-12-18T23:59:00+08:00",
+      "period": "深海「蟹」逅主題供應即日起至 2026-12-18；午餐 12:00–14:30、晚餐 18:00–21:30",
+      "summary": "東涌世茂喜來登「嶼坊」深海「蟹」逅主題自助餐，經酒店官方網上商店預訂成人劃一 7 折：平日自助午餐 HK$299.6、自助晚餐 HK$537.6（原價 HK$428／HK$768 另收加一）。任食烤俄羅斯紅帝王蟹、烤雪蟹、避風塘炒蟹鉗，晚餐仲包果汁、汽水、咖啡、茶同啤酒暢飲。",
+      "highlights": [
+        "9/27 前檔期主打烤俄羅斯紅帝王蟹、烤俄羅斯雪蟹、避風塘炒紅蟹鉗、軟殼蟹卷",
+        "自助晚餐已包括無限暢飲果汁、汽水、咖啡、茶及啤酒",
+        "9/28 起轉新菜單：冬瓜花菇燉蟹肉湯、蟹肉漢堡、日式蟹肉茶碗蒸",
+        "9/25 及 26 中秋檔期晚餐優惠價 HK$646.4（7 折），小童長者另有折扣價",
+        "地址：東涌怡東路 9 號，東涌站有酒店免費穿梭巴士；以酒店網上商店價格為準"
+      ],
+      "url": "https://sheratontungchungshop.com/zh/cl-dinner-buffet",
+      "sourceLabel": "東涌世茂喜來登酒店官方網上商店",
+      "sourceUrl": "https://sheratontungchungshop.com/zh/cl-dinner-buffet",
+      "tags": [
+        "酒店自助餐",
+        "7 折",
+        "東涌",
+        "蟹宴"
+      ],
+      "sample": false,
+      "daysLeft": 92,
       "status": "active"
     },
     {
@@ -906,6 +1004,40 @@
         "任食放題",
         "大閘蟹",
         "紅磡"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-hyatt-kaitak-dimsun-20260911",
+      "category": "dining",
+      "title": "120 分鐘點心放題買二送二，人均 HK$264 起",
+      "subtitle": "尖沙咀凱悅酒店 凱悅軒",
+      "venue": "香港尖沙咀凱悅酒店 凱悅軒 · 尖沙咀河內道 18 號",
+      "priceLabel": "HK$1,056 / 4 位（人均 HK$264）",
+      "priceValue": 264,
+      "originalLabel": "原價 HK$458 / 位，價錢已包茶位及加一服務費",
+      "discountPct": 42,
+      "endsAt": "2026-09-16T23:59:00+08:00",
+      "period": "預訂期：2026-09-10 18:00 至 2026-09-16 23:59；用餐日期：2026-09-10 至 2026-10-31",
+      "summary": "尖沙咀凱悅酒店中菜廳「凱悅軒」推出 120 分鐘點心放題快閃優惠，四人同行買二送二，HK$1,056／4 位，人均低至 HK$264（原價 HK$458 / 位），已包茶位費及加一服務費；二人同行亦可享低至 7 折 HK$342 / 位。供應時段為早鳥 10:00 至 12:00。",
+      "highlights": [
+        "任食蝦餃、燒賣、叉燒、甜點等多款星級點心，限時 120 分鐘",
+        "買二送二方案須 4 位同行；低至 7 折方案須以 2 位的倍數預訂",
+        "結帳用建行（亞洲）信用卡單一簽賬滿 HK$1,000，輸入優惠碼 26CCBA140 可再減 HK$140",
+        "所有方案已包括任食 120 分鐘、茶芥及原價加一服務費；名額有限",
+        "須經 KKday 平台預訂，地址：九龍尖沙咀河內道 18 號香港尖沙咀凱悅酒店"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/114210",
+      "sourceLabel": "KKday 產品頁 · 星島頭條報導",
+      "sourceUrl": "https://www.stheadline.com/food/3613694/%E9%BB%9E%E5%BF%83%E6%94%BE%E9%A1%8C%E8%B2%B7%E4%BA%8C%E9%80%81%E4%BA%8C%E5%B0%96%E6%B2%99%E5%92%80%E5%87%B1%E6%82%85%E9%85%92%E5%BA%97%E5%87%B1%E6%82%85%E8%BB%92%E5%84%AA%E6%83%A0-264%E8%B5%B7120%E5%88%86%E9%90%98%E4%BB%BB%E9%A3%9F%E8%9D%A6%E9%A4%83%E7%87%92%E8%B3%A3%E5%8F%89%E7%87%92%E7%94%9C%E9%BB%9E",
+      "tags": [
+        "點心放題",
+        "買二送二",
+        "尖沙咀"
       ],
       "sample": false,
       "postedFacebook": true,
