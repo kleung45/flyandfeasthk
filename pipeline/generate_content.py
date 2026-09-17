@@ -70,6 +70,27 @@ def _teaser(summary: str, limit: int = 90) -> str:
     return cut
 
 
+def _cta(site_url: str, with_link: bool = True, source: str = "facebook") -> list[str]:
+    """引流 CTA。
+
+    雙軌策略：
+    - with_link=True（Facebook）：留言關鍵詞取連結（自動回覆）＋ 直接點網站主頁，
+      後者帶 UTM 標籤以便 GA4 分辨流量來源。
+    - with_link=False（Threads）：帖文保持零網址，只靠留言自動回覆送出連結。
+
+    site_url 若已帶查詢字串，附加參數改用 & 串接。
+    """
+    lines = ["💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！"]
+    if with_link:
+        url = site_url or ""
+        sep = "&" if "?" in url else "?"
+        lines.append(
+            f"🔗 或者直接上我哋網站睇齊全部優惠："
+            f"{url}{sep}utm_source={source}&utm_medium=social&utm_campaign=deals"
+        )
+    return lines
+
+
 def fb_post(deal: dict, site_url: str) -> str:
     """引流式 FB 貼文（短版）：唔寫得太詳盡，引留言→自動回覆送網站連結。"""
     style = CAT_STYLE.get(deal["category"], {"emoji": "🔥", "label": "優惠"})
@@ -88,9 +109,8 @@ def fb_post(deal: dict, site_url: str) -> str:
     if cd:
         lines += ["", f"⏰ {cd}，手快有手慢冇！"]
 
+    lines += [""] + _cta(site_url, with_link=True, source="facebook")
     lines += [
-        "",
-        "💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！",
         "",
         " ".join(dict.fromkeys(BASE_TAGS + CATEGORY_TAGS.get(deal["category"], [])[:2])),
     ]
@@ -133,6 +153,11 @@ def xhs_note(deal: dict, site_url: str) -> str:
     return "\n".join(lines)
 
 
+def threads_digest(deals: list[dict], site_url: str) -> str:
+    """Threads 速報：CTA 只保留留言關鍵詞（帖文不放網址）。"""
+    return _to_threads(digest_post(deals, site_url), site_url)
+
+
 def digest_post(deals: list[dict], site_url: str) -> str:
     lines = ["🔥【今日香港抵嘢速報】", ""]
     for d in deals[:6]:
@@ -140,10 +165,9 @@ def digest_post(deals: list[dict], site_url: str) -> str:
         name = (d.get("venue") or "").split(" · ")[0] or d.get("route") or d["title"]
         lines.append(f"{emoji} {name}｜{money(d)}")
 
+    lines += ["", "全部優惠仲有幾多日、點樣申請？"]
+    lines += _cta(site_url, with_link=True, source="facebook")
     lines += [
-        "",
-        "全部優惠仲有幾多日、點樣申請？",
-        "留言「優惠」，我哋即刻 send 晒連結俾你 📩",
         "",
         " ".join(BASE_TAGS),
     ]
@@ -160,9 +184,16 @@ THREADS_INCLUDE_PORTAL = False
 
 
 def _to_threads(text: str, site_url: str) -> str:
-    """Threads 版文案：預設不加傳送門（見 THREADS_INCLUDE_PORTAL）；超過 500 字就截斷。"""
+    """Threads 版文案：預設不加傳送門（見 THREADS_INCLUDE_PORTAL）；超過 500 字就截斷。
+
+    關掉傳送門時，一併把 CTA 內嘅網址行剔走，確保帖文零網址（引流靠留言自動回覆）。
+    """
     out = text
-    if THREADS_INCLUDE_PORTAL:
+    if not THREADS_INCLUDE_PORTAL:
+        out = "\n".join(
+            ln for ln in out.split("\n") if not (ln.strip().startswith("🔗") and "http" in ln)
+        )
+    else:
         out = out + f"\n\n🔗 傳送門：{site_url}"
     if len(out) > THREADS_LIMIT:
         out = out[: THREADS_LIMIT - 1].rstrip() + "…"

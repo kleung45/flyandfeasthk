@@ -70,6 +70,7 @@ def main() -> int:
     target_w = 400
     target_h = round(logo.height * target_w / logo.width)
     logo = logo.resize((target_w, target_h), Image.LANCZOS)
+    # 2026-09-17 換透明底鴨嘴獸插畫：直接用 alpha 貼喺柔色圓底上，唔使咭片框。
     img.paste(logo, (1190 - target_w, 80 + (500 - target_h) // 2), logo)
 
     # 左側文案

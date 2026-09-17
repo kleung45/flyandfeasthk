@@ -10,7 +10,8 @@
 🍽️ 海上鮮海鮮和牛涮涮鍋｜OpenRice 獨家買1送1＋下次免費券 HK$698 / 2 位（未連服務費）
 
 全部優惠仲有幾多日、點樣申請？
-留言「優惠」，我哋即刻 send 晒連結俾你 📩
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK
 
@@ -27,6 +28,7 @@
 ⏰ 明日結束，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
@@ -43,6 +45,7 @@
 ⏰ 明日結束，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -59,6 +62,7 @@
 ⏰ 剩 2 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -75,6 +79,7 @@
 ⏰ 剩 4 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
@@ -91,6 +96,7 @@
 ⏰ 剩 7 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
 
@@ -107,6 +113,7 @@
 ⏰ 剩 10 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -123,6 +130,7 @@
 ⏰ 剩 10 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -139,6 +147,7 @@
 ⏰ 剩 12 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -155,6 +164,7 @@
 ⏰ 剩 13 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -171,6 +181,7 @@
 ⏰ 剩 13 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -187,6 +198,7 @@
 ⏰ 剩 13 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -203,6 +215,7 @@
 ⏰ 剩 13 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -219,6 +232,7 @@
 ⏰ 剩 13 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -235,6 +249,7 @@
 ⏰ 剩 20 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -251,6 +266,7 @@
 ⏰ 剩 44 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -267,6 +283,7 @@
 ⏰ 剩 44 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -283,6 +300,7 @@
 ⏰ 剩 44 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -299,6 +317,7 @@
 ⏰ 剩 74 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -315,6 +334,7 @@
 ⏰ 剩 74 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -331,6 +351,7 @@
 ⏰ 剩 74 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -347,6 +368,7 @@
 ⏰ 剩 74 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -363,6 +385,7 @@
 ⏰ 剩 74 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐
 
@@ -379,5 +402,6 @@
 ⏰ 剩 92 日，手快有手慢冇！
 
 💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
 
 #香港優惠 #FlyAndFeastHK #香港美食 #自助餐

@@ -879,7 +879,9 @@
         "東涌",
         "蟹宴"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-harbourplaza-metropolis-bogo-20260917",
@@ -910,7 +912,9 @@
         "紅磡",
         "花膠"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-oceanpark-marriott-bogo-20260917",
@@ -941,7 +945,9 @@
         "黃竹坑",
         "親子"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-whotel-kitchen-bogo-20260917",
@@ -972,7 +978,9 @@
         "尖沙咀",
         "中秋"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }

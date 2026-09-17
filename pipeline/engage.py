@@ -69,6 +69,9 @@ KEYWORDS = [
     # 優惠碼／預訂
     "優惠碼", "优惠码", "promo code", "coupon", "code", "代碼", "優惠券", "优惠券",
     "voucher", "booking", "預訂", "预订",
+    # 查詢具體安排（常見追問）
+    "點用", "怎麼用", "点用", "點申請", "申請", "使用期", "有效", "幾時", "什么时候", "幾時完",
+    "到幾時", "幾點", "邊間", "哪間", "地址", "在哪", "邊度有", "點去", "地鐵", "訂位",
     # 主題詞
     "hotel", "buffet", "自助餐", "機票", "机票", "flight", "ticket",
     "攻略", "清單", "清单", "全集", "總覽", "总览", "list",
@@ -85,6 +88,7 @@ BLACKLIST = [
 ]
 
 # 回覆模板輪換（避免每則一模一樣，Meta 對機械式重複回覆不友善）
+# {url} 由 main() 依平台帶 UTM 標籤代入，方便 GA4 分辨社群引流成效。
 TEMPLATES = [
     "唔使客氣 🙌 你要嘅優惠＋預訂入口全部喺呢度：\n{url}\n\n"
     "網站每日更新香港出發嘅機票特價同酒店自助餐／餐廳優惠，每筆都有優惠碼、適用期限同官方來源。"
@@ -100,6 +104,14 @@ TEMPLATES = [
 
     "即刻俾你 🙂\n{url}\n\n"
     "每日更新嘅香港出發機票特價＋自助餐／餐廳折扣都在此，另附優惠碼、適用期限同原始來源。"
+    "價格以商戶官方公佈為準。",
+
+    "呢個優惠嘅申請入口＋優惠碼，喺網站對應嗰筆入面就有 👇\n{url}\n\n"
+    "入到去搵返同一間餐廳／同一條航線，就會見到預訂連結同適用期限。"
+    "名額有限，價格以商戶官方公佈為準。",
+
+    "冇問題 👌 全部優惠（連優惠碼同截止日期）集中喺呢度：\n{url}\n\n"
+    "網站每筆都附原始來源，方便你自己核對。想我幫你揀最抵嘅幾筆都可以話我知。"
     "價格以商戶官方公佈為準。",
 ]
 
@@ -410,6 +422,19 @@ def collect_comments(cfg: dict, args, cutoff: datetime) -> list[dict]:
     return scanned
 
 
+def site_url_for(site_url: str, platform: str, keyword: str = "") -> str:
+    """為回覆連結加上 UTM 標籤，方便 GA4 分辨社群引流成效。"""
+    url = site_url or ""
+    if not url:
+        return url
+    sep = "&" if "?" in url else "?"
+    src = "threads" if platform == "threads" else "facebook"
+    utm = f"{url}{sep}utm_source={src}&utm_medium=social&utm_campaign=comment_reply"
+    if keyword:
+        utm += f"&utm_content={urllib.parse.quote(keyword)}"
+    return utm
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="自動回覆社群優惠查詢留言（預設 dry-run）")
     ap.add_argument("--config", default=str(DEFAULT_CONFIG))
@@ -501,14 +526,16 @@ def main() -> int:
     ok = failed = 0
     if dry:
         for item in pending:
-            text = random.choice(TEMPLATES).format(url=site_url)
+            text = random.choice(TEMPLATES).format(
+                url=site_url_for(site_url, item["platform"], item.get("keyword", "")))
             print(f"  · {item['platform']} @{item['userName']} 「{item['text'][:40]}」"
                   f"（命中：{item['keyword']}）")
             print(f"    → {text.splitlines()[0]}")
     else:
         for i, item in enumerate(pending, 1):
             template = TEMPLATES[(i - 1) % len(TEMPLATES)]
-            text = template.format(url=site_url)
+            text = template.format(
+                url=site_url_for(site_url, item["platform"], item.get("keyword", "")))
             label = f"{i}/{len(pending)} {item['platform']} @{item['userName']}"
             try:
                 if item["platform"] == "facebook":

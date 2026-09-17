@@ -75,10 +75,10 @@ a { color: inherit; text-decoration: none; }
 .header-inner { display: flex; align-items: center; gap: 24px; height: 64px; }
 .brand { display: flex; align-items: center; gap: 10px; margin-right: auto; }
 .brand-mark {
-  width: 36px; height: 36px; object-fit: contain; flex: none;
+  width: 43px; height: 43px; object-fit: contain; flex: none;
 }
 .footer-logo {
-  display: block; width: 44px; height: 44px; object-fit: contain;
+  display: block; width: 53px; height: 53px; object-fit: contain;
   margin-bottom: 8px;
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
