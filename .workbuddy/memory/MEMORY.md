@@ -19,6 +19,10 @@
 ## 流程
 - `pipeline/engage.py`：FB/Threads 留言自動回覆（dry-run 預設，--live 先發送；
   三層去重：留言 id、每用戶每日一次、每輪上限）。
+  - `--max-posts` 預設 **30**（2026-09-17 由 20 上調）。帖文係按 API 回傳次序切頭 N 則，
+    發文頻繁時 20 會滑掉只係 4 日前嘅帖文，令其上嘅新查詢留言被靜默漏掉。
+  - 掃描池數字變動時，要先分辨係 **7 日日期窗口**（`--days`/`--comment-days`）
+    抑或 **筆數窗口**（`--max-posts`）造成，兩者修法不同。
 - `pipeline/build_site.py`：store.json + drafts → data/deals.json|.js + 靜態預渲染卡片
   + ItemList schema + sitemap.xml + GA4 注入。
 - 社群文案（貼文唔放鏈 + 置頂留言放鏈策略）→ outbox/YYYY-MM-DD/。

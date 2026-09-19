@@ -4,86 +4,23 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-17T15:31:44+08:00",
+    "updated": "2026-09-19T11:11:13+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-17T10:53:02+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
-      "total": 31,
-      "active": 23,
+      "total": 36,
+      "active": 26,
       "ending": 3,
-      "expired": 8,
+      "expired": 10,
       "flight": 5,
-      "dining": 26,
+      "dining": 31,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-cx-annifaresary-20260910",
-      "category": "flight",
-      "title": "80 周年 AnniFAREsary：全線特價，會員再享 28% off",
-      "subtitle": "國泰航空 · 9 月限定",
-      "route": "國泰全航網 · 50+ 個目的地",
-      "priceLabel": "會員額外 28% off（下一張經濟艙機票）",
-      "originalLabel": "另有全航網特價，9 月全月發售",
-      "discountPct": 28,
-      "endsAt": "2026-09-18T23:59:00+08:00",
-      "period": "特價旅遊期：至 2027-08；28% off 適用旅遊期：2027-01-08 至 2027-05-23",
-      "summary": "國泰航空 80 周年「AnniFAREsary」，整個 9 月全航網艙位特價，旅遊期最遠到 2027 年 8 月。會員於 9 月 1 至 18 日在官網訂票，下一張經濟艙機票可享 28% 折扣，另有多重里數與購物禮遇，須先免費登記成為國泰會員。",
-      "highlights": [
-        "28% off 須於 9 月 18 日前在國泰官網訂票，且只限官網、不適用於手機 App",
-        "28% off 的適用旅遊期為 2027-01-08 至 2027-05-23",
-        "最高 1,946 亞洲萬里通里數獎賞；會員號含 8 或 0 者額外獲 866 里",
-        "憑國泰登機證於香港 80 間指定商戶可享最高 40% 折扣，至 9 月 30 日"
-      ],
-      "url": "https://www.cathaypacific.com/cx/zh_HK.html",
-      "sourceLabel": "國泰航空官方新聞稿",
-      "sourceUrl": "https://news.cathaypacific.com/cathay-celebrates-80-years-together-with-customers-through-special-annifaresary-offers-gme8na",
-      "tags": [
-        "傳統航空",
-        "里數",
-        "會員限定"
-      ],
-      "sample": false,
-      "postedThreads": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-foodstudio-wanchai-20260913",
-      "category": "dining",
-      "title": "一周年禮遇：晚市 2 位 HK$915、午市 3 位 HK$915，網店低至 65 折",
-      "subtitle": "Food Studio（香港萬麗海景酒店）· 青口自助盛薈",
-      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
-      "priceLabel": "週年禮遇（9/14–18）午市人均 HK$305／晚市人均 HK$458；網店自助午餐 65 折 HK$321 起",
-      "priceValue": 305,
-      "originalLabel": "午市原價 HK$470.8 / 位（-35%）；晚市 2 位禮遇約為原價一半",
-      "endsAt": "2026-09-18T23:59:00+08:00",
-      "period": "週年禮遇適用 2026-09-14 至 09-18，經萬麗網上商店預訂（名額有限售完即止）；「鮮」聲奪人青口自助盛薈供應至 2026-10-15，網店 65 折同步",
-      "summary": "萬麗海景 Food Studio 一周年，9/14–18 午市 3 位 HK$915（人均 HK$305）、晚市 2 位 HK$915（人均 HK$458），另網店預訂自助餐低至 65 折。任食荷蘭青口＋龍蝦、海膽、魚子醬、和牛四大矜貴食材。",
-      "highlights": [
-        "晚市限定：蒸焗新鮮龍蝦、海膽魚子醬紫菜塔可、鴨肝多士",
-        "招牌海膽、魚子醬、龍蝦、和牛任食",
-        "9/15 生日賓客 4 人同行每人 HK$91.5（須經網上商店）",
-        "預訂：renhongkong-eshop.com/zh/food-studio，不設電話預訂"
-      ],
-      "url": "https://renhongkong-eshop.com/zh/food-studio",
-      "sourceLabel": "am730 報道 · RunHotel",
-      "sourceUrl": "https://www.am730.com.hk/article/1049419",
-      "tags": [
-        "酒店自助餐",
-        "灣仔",
-        "青口"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-lemenu-gloucester-20260912",
       "category": "dining",
@@ -114,7 +51,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -144,6 +81,105 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
+      "daysLeft": 2,
+      "status": "ending"
+    },
+    {
+      "id": "dining-ritzcarlton-cafe103-bogo-20260919",
+      "category": "dining",
+      "title": "Café 103「和風名匠」自助晚餐買二送二，人均 HK$494",
+      "subtitle": "尖沙咀麗思卡爾頓酒店 · 118 樓海景自助",
+      "venue": "Café 103 · 尖沙咀柯士甸道西 1 號麗思卡爾頓酒店 118 樓（九龍站出口）",
+      "priceLabel": "Klook 買2送2 自助晚餐 4 位 HK$1,976（人均 HK$494，已連服務費）",
+      "priceValue": 494,
+      "originalLabel": "原價以 Klook 結帳頁為準",
+      "discountPct": 50,
+      "endsAt": "2026-09-21T23:59:00+08:00",
+      "period": "快閃開售 2026-09-15 21:00 至 09-21；用餐日期 2026-09-16 至 10-31",
+      "summary": "尖沙咀麗思卡爾頓 Café 103「和風名匠自助饗宴」經 Klook 買二送二：4 位 HK$1,976 連服務費，人均 HK$494。118 樓海景任食生蠔、龍蝦、時令刺身壽司、環球海鮮同和風熱葷。",
+      "highlights": [
+        "買2送2 自助晚餐 4 位 HK$1,976（已連服務費），人均 HK$494",
+        "生蠔、龍蝦、時令刺身壽司、環球海鮮、和風熱葷、意式雪糕",
+        "118 樓維港海景，九龍站上蓋直達",
+        "開售期只到 9/21，名額有限先到先得",
+        "以 Klook 頁面價格及可訂日期為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/74928-the-ritz-carlton-hong-kong/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買二送二",
+        "尖沙咀",
+        "和風"
+      ],
+      "sample": false,
+      "daysLeft": 2,
+      "status": "ending"
+    },
+    {
+      "id": "dining-eaton-astor-bogo-20260919",
+      "category": "dining",
+      "title": "The Astor 自助晚餐買一送一，人均 HK$459（已連服務費）",
+      "subtitle": "佐敦逸東酒店 普慶餐廳 · 生蠔蟹腳海鮮陣",
+      "venue": "普慶餐廳 The Astor · 佐敦彌敦道 380 號逸東酒店 1 樓（佐敦站 B1 出口）",
+      "priceLabel": "Klook 買1送1 自助晚餐 2 位 HK$918（人均 HK$459，已連服務費）",
+      "priceValue": 459,
+      "originalLabel": "原價以 Klook 結帳頁為準",
+      "discountPct": 50,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "快閃開售 2026-09-17 12:00 至 09-23；用餐日期 2026-09-18 至 10-11",
+      "summary": "佐敦逸東酒店普慶餐廳 The Astor 自助晚餐經 Klook 買一送一：2 位 HK$918 連服務費，人均 HK$459。任食生蠔、蟹腳、麵包蟹等冰鎮海鮮，用得日期去到 10 月 11 日。",
+      "highlights": [
+        "買1送1 自助晚餐 2 位 HK$918（已連服務費），人均 HK$459",
+        "生蠔、蟹腳、麵包蟹輪流供應",
+        "用餐日期 9/18 至 10/11，開售期至 9/23",
+        "彌敦道核心地段，佐敦站直達",
+        "以 Klook 頁面價格及可訂日期為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "佐敦",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-goldcoast-cafelagoon-bbq-20260919",
+      "category": "dining",
+      "title": "「燒烤百味盛宴」自助晚餐，買 1 位＋第 2 位 HK$12，人均 HK$412",
+      "subtitle": "屯門黃金海岸酒店 聆渢咖啡廳 · 海景燒烤陣",
+      "venue": "聆渢咖啡廳 Café Lagoon · 屯門青山公路─青山灣段 1 號黃金海岸酒店 1 樓",
+      "priceLabel": "Klook 買1位＋第2位 HK$12：自助晚餐 2 位 HK$824（人均 HK$412，已連服務費）",
+      "priceValue": 412,
+      "originalLabel": "另設買一送一 2 位 HK$886（人均 HK$443）及 3 位 HK$1,174（人均 HK$392）",
+      "discountPct": 50,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "快閃開售 2026-09-17 21:00 至 09-23；用餐日期 2026-09-18 至 10-31",
+      "summary": "屯門黃金海岸酒店聆渢咖啡廳「燒烤百味盛宴」自助晚餐經 Klook 快閃：買 1 位＋第 2 位 HK$12，2 位 HK$824 連服務費、人均 HK$412。炭燒封門柳、紅酒燴牛尾、德州煙燻和牛胸肉，週末仲有脆皮烤乳豬同美式燒烤豬仔髀。",
+      "highlights": [
+        "買1位＋第2位 HK$12：2 位 HK$824（已連服務費），人均 HK$412",
+        "炭燒封門柳、麥皮虎蝦（每位 1 隻）、紅酒燴牛尾、迷你關東煮",
+        "週五至日及假期加供脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀、台灣香腸",
+        "開售期至 9/23，用餐日期去到 10/31",
+        "以 Klook 頁面價格及可訂日期為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "屯門",
+        "燒烤"
+      ],
+      "sample": false,
       "daysLeft": 4,
       "status": "active"
     },
@@ -177,7 +213,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -212,7 +248,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -247,7 +283,73 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 8,
+      "status": "active"
+    },
+    {
+      "id": "dining-lemenu-wanchai-autumn-20260919",
+      "category": "dining",
+      "title": "秋日盛宴自助晚餐 5 折，限定三晚 HK$599／位",
+      "subtitle": "灣仔六國酒店 Le Menu · 龍蝦 · 花膠 · 火焰富贵雞",
+      "venue": "Le Menu · 灣仔告士打道 72 號六國酒店 1 樓（灣仔站 C 出口）",
+      "priceLabel": "OpenRice 訂座預購 5 折：秋日盛宴自助晚餐 HK$599／位（9/25–27 限定，已連服務費）",
+      "priceValue": 599,
+      "originalLabel": "原價以 OpenRice 訂座預購頁為準；另設 74 折下午茶套餐 HK$498／2 位",
+      "discountPct": 50,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "5 折自助晚餐限定 2026-09-25 至 09-27 三晚；晚餐 18:00–22:00",
+      "summary": "灣仔六國酒店 Le Menu 經 OpenRice 訂座預購推 5 折「秋日盛宴」自助晚餐：9 月 25 至 27 日限定三晚，每位 HK$599 已連服務費。主打龍蝦、花膠、火焰富贵雞，仲有冰鎮海鮮、即場手握壽司同甜品陣。",
+      "highlights": [
+        "5 折自助晚餐 HK$599／位（已連服務費），僅限 9/25–27 中秋檔期三晚",
+        "焦點：龍蝦、花膠、火焰富贵雞",
+        "冰鎮海鮮、特級牛扒、即場手握壽司、中西甜品任食",
+        "經 OpenRice 訂座預購，名額先到先得",
+        "以 OpenRice 餐廳專頁價格及供應為準"
+      ],
+      "url": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
+      "sourceLabel": "OpenRice 訂座預購 · Le Menu 專頁",
+      "sourceUrl": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
+      "tags": [
+        "酒店自助餐",
+        "5 折",
+        "灣仔",
+        "中秋"
+      ],
+      "sample": false,
+      "daysLeft": 8,
+      "status": "active"
+    },
+    {
+      "id": "dining-congress-plus-hkcec-bogo-20260919",
+      "category": "dining",
+      "title": "海鮮自助晚餐買二送二，人均 HK$417（已連服務費）",
+      "subtitle": "灣仔會展中心 薈景 Congress Plus · 海景燒烤海鮮盛宴",
+      "venue": "薈景 Congress Plus · 灣仔港灣道 1 號香港會議展覽中心（灣仔站 A5 出口）",
+      "priceLabel": "Klook 買2送2 自助晚餐 4 位 HK$1,668（人均 HK$417，已連服務費）",
+      "priceValue": 417,
+      "originalLabel": "原價以 Klook 結帳頁為準；另設第二位半價 2 位 HK$1,289",
+      "discountPct": 50,
+      "endsAt": "2026-09-28T23:59:00+08:00",
+      "period": "快閃開售 2026-09-15 21:00 至 09-28；用餐日期 2026-09-16 至 10-31",
+      "summary": "灣仔會展中心薈景海景燒烤海鮮自助晚餐經 Klook 買二送二：4 位 HK$1,668 連服務費，人均 HK$417。主打蒜味胡椒燒開邊龍蝦、上湯焗龍蝦鉗、燒和牛腹扒、香草燒蒜焗羊排，即開生蠔同長腳蟹都任食。",
+      "highlights": [
+        "買2送2 自助晚餐 4 位 HK$1,668（已連服務費），人均 HK$417",
+        "焦點：蒜味胡椒燒開邊龍蝦、上湯焗龍蝦鉗、蒜蓉牛油煎鐵板帆立貝、燒和牛腹扒",
+        "即開生蠔、龍蝦、長腳蟹、麵包蟹、青口等冰鎮海鮮陣",
+        "另設自助晚餐第二位半價（2 位 HK$1,289）作後備方案",
+        "同類快閃名額少、過往試過開售 15 分鐘售罄，以 Klook 頁面為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/87794-congress-plus/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買二送二",
+        "灣仔",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -279,7 +381,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -314,7 +416,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -350,7 +452,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -382,7 +484,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -417,7 +519,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -451,7 +553,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -486,7 +588,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -520,7 +622,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -555,7 +657,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -590,7 +692,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -621,7 +723,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 74,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -652,7 +754,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 74,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -683,7 +785,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 74,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -713,7 +815,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 74,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -748,7 +850,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 74,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -783,7 +885,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 92,
+      "daysLeft": 90,
       "status": "active"
     },
     {
@@ -1047,6 +1149,69 @@ window.DEAL_DATA = {
         "點心放題",
         "買二送二",
         "尖沙咀"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-cx-annifaresary-20260910",
+      "category": "flight",
+      "title": "80 周年 AnniFAREsary：全線特價，會員再享 28% off",
+      "subtitle": "國泰航空 · 9 月限定",
+      "route": "國泰全航網 · 50+ 個目的地",
+      "priceLabel": "會員額外 28% off（下一張經濟艙機票）",
+      "originalLabel": "另有全航網特價，9 月全月發售",
+      "discountPct": 28,
+      "endsAt": "2026-09-18T23:59:00+08:00",
+      "period": "特價旅遊期：至 2027-08；28% off 適用旅遊期：2027-01-08 至 2027-05-23",
+      "summary": "國泰航空 80 周年「AnniFAREsary」，整個 9 月全航網艙位特價，旅遊期最遠到 2027 年 8 月。會員於 9 月 1 至 18 日在官網訂票，下一張經濟艙機票可享 28% 折扣，另有多重里數與購物禮遇，須先免費登記成為國泰會員。",
+      "highlights": [
+        "28% off 須於 9 月 18 日前在國泰官網訂票，且只限官網、不適用於手機 App",
+        "28% off 的適用旅遊期為 2027-01-08 至 2027-05-23",
+        "最高 1,946 亞洲萬里通里數獎賞；會員號含 8 或 0 者額外獲 866 里",
+        "憑國泰登機證於香港 80 間指定商戶可享最高 40% 折扣，至 9 月 30 日"
+      ],
+      "url": "https://www.cathaypacific.com/cx/zh_HK.html",
+      "sourceLabel": "國泰航空官方新聞稿",
+      "sourceUrl": "https://news.cathaypacific.com/cathay-celebrates-80-years-together-with-customers-through-special-annifaresary-offers-gme8na",
+      "tags": [
+        "傳統航空",
+        "里數",
+        "會員限定"
+      ],
+      "sample": false,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-foodstudio-wanchai-20260913",
+      "category": "dining",
+      "title": "一周年禮遇：晚市 2 位 HK$915、午市 3 位 HK$915，網店低至 65 折",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 青口自助盛薈",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "週年禮遇（9/14–18）午市人均 HK$305／晚市人均 HK$458；網店自助午餐 65 折 HK$321 起",
+      "priceValue": 305,
+      "originalLabel": "午市原價 HK$470.8 / 位（-35%）；晚市 2 位禮遇約為原價一半",
+      "endsAt": "2026-09-18T23:59:00+08:00",
+      "period": "週年禮遇適用 2026-09-14 至 09-18，經萬麗網上商店預訂（名額有限售完即止）；「鮮」聲奪人青口自助盛薈供應至 2026-10-15，網店 65 折同步",
+      "summary": "萬麗海景 Food Studio 一周年，9/14–18 午市 3 位 HK$915（人均 HK$305）、晚市 2 位 HK$915（人均 HK$458），另網店預訂自助餐低至 65 折。任食荷蘭青口＋龍蝦、海膽、魚子醬、和牛四大矜貴食材。",
+      "highlights": [
+        "晚市限定：蒸焗新鮮龍蝦、海膽魚子醬紫菜塔可、鴨肝多士",
+        "招牌海膽、魚子醬、龍蝦、和牛任食",
+        "9/15 生日賓客 4 人同行每人 HK$91.5（須經網上商店）",
+        "預訂：renhongkong-eshop.com/zh/food-studio，不設電話預訂"
+      ],
+      "url": "https://renhongkong-eshop.com/zh/food-studio",
+      "sourceLabel": "am730 報道 · RunHotel",
+      "sourceUrl": "https://www.am730.com.hk/article/1049419",
+      "tags": [
+        "酒店自助餐",
+        "灣仔",
+        "青口"
       ],
       "sample": false,
       "postedFacebook": true,

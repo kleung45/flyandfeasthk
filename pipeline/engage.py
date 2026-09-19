@@ -443,7 +443,9 @@ def main() -> int:
     ap.add_argument("--platform", choices=["facebook", "threads", "both"], default="both")
     ap.add_argument("--days", type=int, default=7, help="只看最近幾日的帖文")
     ap.add_argument("--comment-days", type=int, default=7, help="只回覆最近幾日的留言")
-    ap.add_argument("--max-posts", type=int, default=20, help="每個平台最多掃幾則帖文")
+    ap.add_argument("--max-posts", type=int, default=30, help="每個平台最多掃幾則帖文")
+    # 預設 30（原本 20）：發文頻率提高後，20 則的窗口已會滑掉 4 日前的帖文，
+    # 令舊帖上的新查詢留言被靜默漏掉。Threads /threads 端點本身約只回 30 則，故 30 已覆蓋全部。
     ap.add_argument("--limit", type=int, default=20, help="本輪最多回覆幾則")
     ap.add_argument("--per-user-daily", type=int, default=1, help="每個用戶每日最多回覆幾次（0=不限）")
     ap.add_argument("--interval", type=float, default=4.0, help="每則回覆之間相隔秒數")
