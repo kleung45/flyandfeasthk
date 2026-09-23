@@ -3,19 +3,19 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-22T13:25:46+08:00",
+    "updated": "2026-09-23T14:56:57+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-22T13:25:32+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
-      "total": 45,
-      "active": 29,
-      "ending": 6,
+      "total": 48,
+      "active": 32,
+      "ending": 8,
       "expired": 16,
       "flight": 5,
-      "dining": 40,
+      "dining": 43,
       "hotel": 0
     }
   },
@@ -52,7 +52,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -87,7 +87,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -120,7 +120,44 @@
         "下午茶"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "ending"
+    },
+    {
+      "id": "dining-langham-foodgallery-flashsale-20260923",
+      "category": "dining",
+      "title": "尖沙咀朗廷酒店自助餐快閃 1 折，午餐 HK$100、晚餐 HK$160",
+      "subtitle": "香港朗廷酒店 · 尖沙咀北京道 · 今晚截單",
+      "venue": "The Food Gallery · 香港九龍尖沙咀北京道 8 號香港朗廷酒店（尖沙咀站 L5 出口）",
+      "priceLabel": "KKday 快閃 1 折（已包加一服務費）：自助午餐 HK$100／位（原價 HK$548）、自助晚餐 HK$160／位（原價 HK$878）；1 折名額售罄後可選買一送一：自助午餐 HK$598／2 位（人均 HK$299）、自助晚餐 HK$958／2 位（人均 HK$479）",
+      "priceValue": 100,
+      "originalLabel": "自助午餐原價 HK$548／位、自助晚餐原價 HK$878／位（另收原價加一服務費）",
+      "discountPct": 90,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "KKday 預訂期 2026-09-17 12:00 至 09-23 23:59（今晚截單）；用餐日期 2026-09-18 至 10-31；午餐星期一至五 12:00-14:30、星期六至日 11:30-15:00；晚餐 18:00-22:00",
+      "summary": "尖沙咀香港朗廷酒店 The Food Gallery 快閃 1 折：自助午餐 HK$100／位、自助晚餐 HK$160／位，已包加一服務費，即係約 9 折上再打一折。冰鎮海鮮有長腳蟹、麵包蟹、鮑魚、翡翠螺，熱盤有威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排，Mövenpick 雪糕任食。預訂期今晚 23:59 完結，名額有限售完即止。",
+      "highlights": [
+        "自助午餐 1 折 HK$100／位（原價 HK$548，已包加一）",
+        "自助晚餐 1 折 HK$160／位（原價 HK$878，已包加一）",
+        "1 折售罄可改買一送一：午餐人均 HK$299、晚餐人均 HK$479",
+        "冰鎮海鮮：長腳蟹、麵包蟹、鮑魚、翡翠螺、凍熟蝦",
+        "招牌熱盤：威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排、Mövenpick 雪糕",
+        "預訂期至 2026-09-23 23:59，用餐日期至 10-31；小童及長者不適用折扣"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/101140",
+      "sourceLabel": "myTV SUPER 東張+ · KKday 產品頁",
+      "sourceUrl": "https://www.mytvsuper.com/sc/scoopplus/lifestyle/jetso/17895455890966/",
+      "tags": [
+        "酒店自助餐",
+        "1折",
+        "快閃",
+        "尖沙咀",
+        "買一送一"
+      ],
+      "sample": false,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -153,7 +190,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -188,7 +225,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -221,7 +258,44 @@
         "港式"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 1,
+      "status": "ending"
+    },
+    {
+      "id": "dining-mrsteak-cwb-flashsale-20260923",
+      "category": "dining",
+      "title": "銅鑼灣 Mr.Steak 自助餐首位 1 折＋次位 6 折，人均 HK$144 起",
+      "subtitle": "銅鑼灣世貿中心 · 2.5 小時任食 · 10 月適用",
+      "venue": "Mr. Steak a la minute · 銅鑼灣告士打道 280 號世貿中心 6 樓",
+      "priceLabel": "第 1 位 1 折＋第 2 位 6 折：自助午餐 2 位 HK$287（人均 HK$144，星期一至五）／2 位 HK$357（人均 HK$179，週末及公眾假期）；自助晚餐 2 位 HK$392 起（人均 HK$196 起）、和牛龍蝦晚市 2 位 HK$469 起（人均 HK$235 起）。現場另收原價 10% 服務費",
+      "priceValue": 144,
+      "originalLabel": "原價以 KKday 產品頁公佈為準；優惠另加原價 10% 服務費",
+      "discountPct": 65,
+      "endsAt": "2026-09-24T23:59:00+08:00",
+      "period": "KKday 開售 2026-09-18 12:00 至 09-24 23:59；用餐日期 2026-10-02 至 10-31；午餐星期一至五 12:00-14:30、星期六至日及公眾假期 11:30-14:00；晚餐 17:00-19:00 及 19:30-22:00",
+      "summary": "銅鑼灣 Mr.Steak a la minute 入選 KKday 2026 美食大賞，加推自助餐第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐 2 位 HK$287、人均 HK$144，任食 2.5 小時。晚市升級場有日本和牛、龍蝦、雪花蟹腳、即開生蠔、煎鴨肝；週末午市加設即開生蠔、美國極黑牛鐵板燒同 Häagen-Dazs 雪糕。開售期至 9/24。",
+      "highlights": [
+        "第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐人均 HK$144",
+        "週末及公眾假期午餐人均 HK$179（加設即開生蠔、極黑牛鐵板燒）",
+        "自助晚餐 17:00 場人均 HK$196 起；19:30 和牛龍蝦盛宴人均 HK$235 起",
+        "招牌：雪花蟹腳、美國燒牛肉、煎鴨肝、傳情達意心太軟、牛乳布甸",
+        "開售期 2026-09-18 12:00 至 09-24 23:59，用餐日期 10-02 至 10-31",
+        "現場另收原價 10% 服務費；名額有限，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/279547",
+      "sourceLabel": "U Lifestyle 港生活 · KKday 產品頁",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20110406/",
+      "tags": [
+        "自助餐",
+        "銅鑼灣",
+        "1折",
+        "買一送一",
+        "和牛"
+      ],
+      "sample": false,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -256,7 +330,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -291,7 +365,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -326,7 +400,41 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-chaoguoxian-tst-hotpot-20260923",
+      "category": "dining",
+      "title": "尖沙咀潮鍋鮮無限時蒸氣火鍋放題，買二送一每人 HK$199",
+      "subtitle": "尖沙咀太興廣場 · 任飲啤酒汽水 · 送芝士焗龍蝦",
+      "venue": "潮鍋鮮 · 香港九龍尖沙咀金馬倫道 5 號太興廣場 2 樓",
+      "priceLabel": "買二送一 HK$598／3 位（人均 HK$199，原價 HK$298／位）；買三送一 HK$896／4 位（人均 HK$224）；9 折單人 HK$268／位（3 位起）。午市及晚市無限時任飲任食，每位再送芝士焗龍蝦一客；現場另收原價加一服務費，須以現金支付",
+      "priceValue": 199,
+      "originalLabel": "原價 HK$298／位；現場另收原價加一服務費",
+      "discountPct": 33,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "快閃預訂期 2026-09-21 18:00 至 09-27 23:59；用餐時間午市 12:00-18:00、晚市 17:00-00:00，星期一至日適用；使用日期以 KKday 產品頁為準",
+      "summary": "尖沙咀潮鍋鮮快閃買二送一：3 位 HK$598、人均 HK$199，享無限時任飲任食蒸氣石鍋火鍋。餐廳設海鮮池自撈鮮活海鮮即蒸，供應潮式牛肉、近百款火鍋料、炸物燒物，汽水同啤酒無限時任飲，每位再送芝士焗龍蝦一客。想食足成晚又唔想趕時間嘅聚餐選擇。",
+      "highlights": [
+        "買二送一：3 位 HK$598，人均 HK$199（原價 HK$298／位）",
+        "買三送一：4 位 HK$896，人均 HK$224",
+        "無限時任飲任食，午市 12:00-18:00、晚市 17:00-00:00",
+        "自撈鮮活海鮮即撈即蒸，近百款火鍋料、炸物燒物任食",
+        "汽水及啤酒無限時任飲；每位加送芝士焗龍蝦一客",
+        "快閃預訂期至 2026-09-27 23:59；現場另收原價加一，須現金支付"
+      ],
+      "url": "https://fave.co/4yMzzlb",
+      "sourceLabel": "星島頭條 · men's Reads 報導",
+      "sourceUrl": "https://www.stheadline.com/food/3617624/",
+      "tags": [
+        "火鍋放題",
+        "買二送一",
+        "尖沙咀",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -361,7 +469,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -394,7 +502,9 @@
         "生蠔"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -426,7 +536,7 @@
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -461,7 +571,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -497,7 +607,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -529,7 +639,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -564,7 +674,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -598,7 +708,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -633,7 +743,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -668,7 +778,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 15,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -702,7 +812,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -737,7 +847,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -772,7 +882,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -805,7 +915,9 @@
         "海景"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -836,7 +948,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -867,7 +979,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -898,7 +1010,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -928,7 +1040,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -963,7 +1075,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -998,7 +1110,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 87,
+      "daysLeft": 86,
       "status": "active"
     },
     {
