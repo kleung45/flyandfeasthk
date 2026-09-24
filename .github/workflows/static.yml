@@ -36,11 +36,26 @@ jobs:
       - name: 組裝要發佈的網站檔案
         run: |
           mkdir -p _site
-          cp -r index.html assets data robots.txt sitemap.xml CNAME ads.txt _site/
+          # 網站檔案白名單。**新增頂層目錄時必須加進來**，否則線上會 404
+          # （2026-09-24 曾因漏了 deals/ guides/ about/ contact/ privacy/ terms/
+          #   而全部子頁 404，首頁卻正常，極易誤判為部署成功）。
+          SITE_ITEMS="index.html assets data robots.txt sitemap.xml CNAME ads.txt
+                      deals guides about contact privacy terms"
+          missing=""
+          for item in $SITE_ITEMS; do
+            [ -e "$item" ] || missing="$missing $item"
+          done
+          if [ -n "$missing" ]; then
+            echo "::error::白名單中有項目不存在，請檢查：$missing"
+            exit 1
+          fi
+          cp -r $SITE_ITEMS _site/
           # Google Search Console 網域驗證檔（不可刪除，否則驗證會失效）
           cp google*.html _site/ 2>/dev/null || true
-          echo "將發佈以下內容："
-          find _site -type f | sort
+          # 目錄式 URL（/deals/ → /deals/index.html）由 GitHub Pages 自動處理
+          touch _site/.nojekyll
+          echo "將發佈以下內容（共 $(find _site -type f | wc -l) 個檔案）："
+          find _site -type f | sort | head -80
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

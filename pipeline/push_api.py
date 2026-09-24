@@ -157,6 +157,27 @@ def staged_files() -> list[tuple[str, str]]:
     return sorted(seen.items())
 
 
+def remote_blobs(token: str, tree_sha: str) -> set[str]:
+    """遞迴列出遠端某個 tree 內所有 blob 路徑。
+
+    用途：偵測「本機已刪除但遠端仍在」的檔案。Git Data API 建立 tree 時若只用
+    base_tree + 本機檔案，行為是純增量的——刪除永遠不會傳到遠端
+    （2026-09-24 踩過：.workbuddy 內部筆記從索引移除後，仍留在公開 repo 內）。
+    """
+    paths: set[str] = set()
+    pending: list[tuple[str, str]] = [("", tree_sha)]
+    while pending:
+        prefix, sha = pending.pop()
+        data = api(token, f"/git/trees/{sha}")
+        for item in data.get("tree", []):
+            path = f"{prefix}{item['path']}"
+            if item.get("type") == "blob":
+                paths.add(path)
+            elif item.get("type") == "tree" and item.get("sha"):
+                pending.append((path + "/", item["sha"]))
+    return paths
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="透過 GitHub API 推送本機內容")
     parser.add_argument("--message", default=None, help="提交訊息，預設自動產生")
@@ -203,6 +224,22 @@ def main() -> None:
     base_tree = api(token, f"/git/commits/{head}")["tree"]["sha"]
     print(f"遠端目前 HEAD：{head[:9]}")
 
+    # 處理刪除：遠端有、本機索引沒有的檔案，要在 tree 內以 sha=null 移除，
+    # 否則刪除不會生效（Git Data API 的 base_tree 是純增量語意）。
+    # 這一步放在上傳 blob 之前，好讓 --dry-run 也能快速看到會刪什麼。
+    try:
+        remote_paths = remote_blobs(token, base_tree)
+        deletions = sorted(remote_paths - {path for path, _ in files})
+    except SystemExit as exc:
+        print(f"注意：未能讀取遠端檔案清單，本次略過刪除處理（{exc}）")
+        deletions = []
+    if deletions:
+        print(f"將移除遠端 {len(deletions)} 個檔案：")
+        for path in deletions[:20]:
+            print(f"  - {path}")
+        if len(deletions) > 20:
+            print(f"  …（其餘 {len(deletions) - 20} 個）")
+
     entries = []
     for path, mode in files:
         # 從 index 取內容（已套用 .gitattributes 的換行正規化），而非磁碟原始位元組
@@ -214,7 +251,10 @@ def main() -> None:
             {"content": base64.b64encode(content).decode(), "encoding": "base64"},
         )["sha"]
         entries.append({"path": path, "mode": mode, "type": "blob", "sha": blob})
-    print(f"已上傳 {len(entries)} 個 blob")
+    for path in deletions:
+        entries.append({"path": path, "mode": "100644", "type": "blob", "sha": None})
+    print(f"已上傳 {len(entries) - len(deletions)} 個 blob"
+          + (f"，並移除 {len(deletions)} 個檔案" if deletions else ""))
 
     tree = api(token, "/git/trees", "POST", {"base_tree": base_tree, "tree": entries})["sha"]
     if tree == base_tree:

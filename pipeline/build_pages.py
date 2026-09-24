@@ -32,6 +32,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -1652,6 +1653,28 @@ def load() -> tuple[dict, list[dict]]:
     return meta, deals
 
 
+def prune_stale_pages(valid_ids: set[str]) -> int:
+    """移除已不在資料庫內的優惠詳情頁，避免留下無入口的孤兒頁面。
+
+    安全限制：資料筆數少於 MIN_PRUNE_SIZE 時完全不動，避免上游資料異常
+    （例如 store.json 被截斷）時一次過刪掉大量頁面。
+    """
+    MIN_PRUNE_SIZE = 10
+    if len(valid_ids) < MIN_PRUNE_SIZE:
+        return 0
+    base = PROJECT / "deals"
+    if not base.exists():
+        return 0
+    keep = set(CAT_SLUG.values())
+    removed = 0
+    for child in base.iterdir():
+        if not child.is_dir() or child.name in keep or child.name in valid_ids:
+            continue
+        shutil.rmtree(child, ignore_errors=True)
+        removed += 1
+    return removed
+
+
 def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict:
     if meta is None or deals is None:
         meta, deals = load()
@@ -1661,6 +1684,7 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
         write_page(PROJECT / "deals" / d["id"] / "index.html", build_deal_page(d, deals, meta))
         written += 1
 
+    pruned = prune_stale_pages({d["id"] for d in deals})
     write_page(PROJECT / "deals" / "index.html", build_deals_index(deals, meta))
     for c in ("flight", "dining", "hotel"):
         write_page(PROJECT / "deals" / CAT_SLUG[c] / "index.html",
@@ -1679,6 +1703,7 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     print(
         f"  多頁內容：{written} 個優惠詳情頁、4 個分類／總覽頁、"
         f"{len(GUIDES)} 篇攻略、4 個合規頁；sitemap 收錄 {total} 條 URL"
+        + (f"；已清除 {pruned} 個孤兒頁面" if pruned else "")
     )
     return result
 
