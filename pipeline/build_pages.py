@@ -197,6 +197,13 @@ def detect_platform(deal: dict) -> str:
     return "商戶官方或指定平台"
 
 
+def tag_overlap(a: dict, b: dict) -> int:
+    """兩個優惠共用幾個標籤。用來判斷『同類』是否真的可比。"""
+    ta = {str(t).strip() for t in (a.get("tags") or []) if str(t).strip()}
+    tb = {str(t).strip() for t in (b.get("tags") or []) if str(t).strip()}
+    return len(ta & tb)
+
+
 def ends_text(deal: dict) -> str:
     raw = deal.get("endsAt") or ""
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", raw)
@@ -326,29 +333,39 @@ def editorial_blocks(deal: dict, peers: list[dict]) -> list[tuple[str, list[str]
         paras4.append("標籤：" + "、".join(tags) + "。")
     blocks.append(("適合邊種場合", paras4, []))
 
-    # 5) 同類點揀
+    # 5) 同類點揀：優先比較標籤重疊的項目（同屬自助餐、同區之類），
+    #    標籤全無重疊時才退回整個類別，避免拿火鍋放題去比茶餐廳碟頭飯。
     paras5 = []
-    same = [p for p in peers if p.get("category") == cat and p.get("id") != deal.get("id")
+    same = [p for p in peers
+            if p.get("category") == cat
+            and p.get("id") != deal.get("id")
             and p.get("status") != "expired"]
     with_pv = [p for p in same if per_head(p) is not None]
-    if pv is not None and with_pv:
-        with_pv.sort(key=lambda p: per_head(p))
-        cheaper = [p for p in with_pv if per_head(p) < pv - 0.5]
+    themed = [p for p in with_pv if tag_overlap(deal, p) > 0]
+    basis = themed or with_pv
+    basis_name = "標籤相近的" if themed else "同類"
+
+    if pv is not None and basis:
+        by_price = sorted(basis, key=lambda p: per_head(p))
+        cheaper = [p for p in by_price if per_head(p) < pv - 0.5]
         if not cheaper:
             paras5.append(
-                f"在現時收錄的 {len(with_pv) + 1} 筆同類優惠中，這筆的 {unit}成本屬最低一批。"
+                f"在現時收錄 {len(basis) + 1} 筆{basis_name}優惠中，"
+                f"這筆的{unit}成本屬最低一批。"
             )
         else:
             paras5.append(
-                f"在現時收錄的同類優惠中，有 {len(cheaper)} 筆的{unit}成本比這筆更低，"
+                f"在現時收錄的{basis_name}優惠中，有 {len(cheaper)} 筆的{unit}成本比這筆更低，"
                 "如果只以價錢行先，值得一併比較。"
             )
-        near = sorted(with_pv, key=lambda p: abs(per_head(p) - pv))[:3]
+        # 標籤相近的項目夠多時，就只列這些，不混入其他類型
+        near_pool = themed if len(themed) >= 2 else basis
+        near = sorted(near_pool, key=lambda p: (-tag_overlap(deal, p), abs(per_head(p) - pv)))[:3]
         lines = []
         for p in near:
-            title = re.sub(r"\s+", " ", str(p.get("title") or ""))[:46]
+            title = re.sub(r"\s+", " ", str(p.get("title") or ""))[:44]
             lines.append(f"{title}（{hk_num(per_head(p))}／{unit}）")
-        paras5.append("價位最接近的同類選擇：" + "；".join(lines) + "。")
+        paras5.append("價位最接近的選擇：" + "；".join(lines) + "。")
     else:
         paras5.append("同類可比較的價格資料不足，暫未能提供橫向對比。")
     paras5.append("以上比較只按本頁收錄的資料計算，不代表市面上全部選擇。")
@@ -606,13 +623,16 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
     pv = per_head(deal)
     plat = detect_platform(deal)
 
-    # 相關優惠：同類、價格最接近、排除自己
+    # 相關優惠：同類 + 標籤相近 + 價位接近，排除自己
     same = [p for p in peers
             if p.get("id") != deal.get("id")
             and p.get("category") == cat
             and p.get("status") != "expired"]
-    if pv is not None:
-        same.sort(key=lambda p: abs((per_head(p) or 1e9) - pv))
+    base_price = pv if pv is not None else 1e9
+    same.sort(key=lambda p: (
+        -tag_overlap(deal, p),
+        abs((per_head(p) if per_head(p) is not None else 1e9) - base_price),
+    ))
     related = same[:3]
     if len(related) < 3:
         extra = [p for p in peers
