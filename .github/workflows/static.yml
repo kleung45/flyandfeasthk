@@ -40,7 +40,7 @@ jobs:
           # （2026-09-24 曾因漏了 deals/ guides/ about/ contact/ privacy/ terms/
           #   而全部子頁 404，首頁卻正常，極易誤判為部署成功）。
           SITE_ITEMS="index.html assets data robots.txt sitemap.xml CNAME ads.txt
-                      deals guides about contact privacy terms"
+                      deals guides about contact privacy terms japan"
           missing=""
           for item in $SITE_ITEMS; do
             [ -e "$item" ] || missing="$missing $item"

@@ -41,7 +41,11 @@ ROOT = Path(__file__).resolve().parent
 PROJECT = ROOT.parent
 DATA = PROJECT / "data"
 STORE = ROOT / "store.json"
+JAPAN_FILE = ROOT / "japan.json"
 SITEMAP = PROJECT / "sitemap.xml"
+
+# 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
+JAPAN_CITY_ORDER = ["東京", "大阪", "京都", "神戶", "名古屋", "橫濱", "福岡", "札幌", "沖繩"]
 
 HK_TZ = timezone(timedelta(hours=8))
 SITE_FALLBACK = "https://www.flyandfeasthk.com"
@@ -409,6 +413,7 @@ def nav_html(active: str) -> str:
         ("/deals/flight/", "機票特價", "flight"),
         ("/deals/dining/", "餐廳優惠", "dining"),
         ("/deals/hotel/", "酒店優惠", "hotel"),
+        ("/japan/", "日本美食", "japan"),
         ("/guides/", "優惠攻略", "guides"),
         ("/about/", "關於本站", "about"),
     ]
@@ -446,6 +451,7 @@ def footer_html() -> str:
         '<a href="/deals/flight/">機票特價</a>'
         '<a href="/deals/dining/">餐廳優惠</a>'
         '<a href="/deals/hotel/">酒店優惠</a>'
+        '<a href="/japan/">日本美食</a>'
         '<a href="/guides/">優惠攻略</a>'
         "</div>"
         '<div class="footer-links">'
@@ -1584,10 +1590,347 @@ def build_terms(deals: list[dict], meta: dict) -> str:
 
 
 # --------------------------------------------------------------------------
+# 日本美食專欄（/japan/）
+# --------------------------------------------------------------------------
+
+def load_japan() -> list[dict]:
+    if not JAPAN_FILE.exists():
+        return []
+    try:
+        payload = json.loads(JAPAN_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    eats = payload.get("eats") or []
+    return [e for e in eats if e.get("id") and e.get("name")]
+
+
+def rating_line(e: dict) -> str:
+    """★ 4.4 · 1,302 則 Google 評論（2026-09-24 核對）"""
+    parts = [f"Google 評分 {e.get('rating'):.1f}"]
+    if e.get("reviews"):
+        n = e["reviews"]
+        suffix = " 則評論以上" if e.get("reviewsApprox") else " 則評論"
+        parts.append(f"{n:,}{suffix}")
+    if e.get("ratingCheckedAt"):
+        parts.append(f"{e['ratingCheckedAt']} 核對")
+    return " · ".join(parts)
+
+
+def japan_rating_tier(rating: float) -> str:
+    if rating >= 4.5:
+        return ("4.5 分以上在 Google Maps 屬於極少數：通常要長期維持高水準先做得到，"
+                "呢個分數本身就係最強嘅推薦理由。")
+    if rating >= 4.3:
+        return ("4.3 分以上已經爬得過 Google 大量評論嘅平均線——"
+                "評論愈多，愈難靠少數好評拉高，呢個分數代表長期穩定。")
+    return "4.2 分以上已屬優秀，配合評論數量一併睇更有參考價值。"
+
+
+def japan_review_signal(e: dict) -> str:
+    n = e.get("reviews")
+    if not n:
+        return "評論總數未有可靠數字，建議出發前直接喺 Google Maps 睇最新評價分佈。"
+    if n >= 2000:
+        return (f"評論數超過 {n:,} 則，樣本夠大，分數唔會因為幾單新評價就大幅波動；"
+                "同時留意當中對排隊、服務節奏嘅評語，呢啲分店規模先會出現嘅特徵。")
+    if n >= 800:
+        return (f"約 {n:,} 則評論，樣本屬中大規模，分數有參考性；"
+                "建議順手睇埋近三個月嘅評價，確認狀態冇回落。")
+    return f"約 {n:,} 則評論，樣本有限，分數浮動會較大，去之前記得覆核。"
+
+
+def japan_price_signal(e: dict) -> str:
+    band = str(e.get("priceRange") or "")
+    m = re.search(r"¥\s*([\d,]+)", band)
+    lo = int(m.group(1).replace(",", "")) if m else None
+    if lo is not None and lo < 1500:
+        extra = "屬日常價位，當一頓普通飯食都唔會肉赤。"
+    elif lo is not None and lo < 3000:
+        extra = "屬一頓正餐價位，以質素計屬合理，當旅途中的小獎勵最啱。"
+    elif lo is not None:
+        extra = "屬專程消費價位，建議預好預算並確認套餐內容先落單。"
+    else:
+        extra = "價位以店家現場公佈為準。"
+    return f"標示價位：{band or '未標示'}。{extra}"
+
+
+def japan_editorial_blocks(e: dict, peers: list[dict]) -> list[tuple[str, list[str], list[str]]]:
+    blocks: list[tuple[str, list[str], list[str]]] = []
+    rating = e.get("rating")
+
+    # 1) 評分點解讀
+    paras = [japan_rating_tier(rating), japan_review_signal(e)]
+    paras.append("評分與評論數會隨時間浮動，以上為收錄時抄錄的數字；出發前請以 Google Map 即時顯示為準。")
+    blocks.append(("評分點解讀", paras, []))
+
+    # 2) 消費預算
+    blocks.append(("消費預算", [japan_price_signal(e)], []))
+
+    # 3) 去之前要知道
+    tips = [str(t) for t in (e.get("tips") or []) if str(t).strip()]
+    if not tips:
+        tips = ["暫時未有特別注意事項，建議出發前以 Google Map 與店家公佈為準。"]
+    blocks.append(("去之前要知道", [], tips))
+
+    # 4) 同城點揀
+    same = [p for p in peers
+            if p.get("id") != e.get("id")
+            and p.get("city") == e.get("city")]
+    if same:
+        same.sort(key=lambda p: abs((p.get("rating") or 0) - (rating or 0)))
+        lines = []
+        for p in same[:3]:
+            pr = p.get("priceRange") or "價位見詳情頁"
+            lines.append(f"{p['name']}（{p.get('rating'):.1f} 分 · {pr}）")
+        blocks.append(("同城仲有呢啲選擇",
+                       [f"同一個城市收錄了 {len(same)} 間同樣高分的餐廳，分數與價位最接近的如下，"
+                        "行程排得埋就值得一併考慮。"], lines))
+    return blocks
+
+
+def japan_editorial_html(e: dict, peers: list[dict]) -> str:
+    blocks = japan_editorial_blocks(e, peers)
+    parts = [
+        '<section class="editorial" aria-labelledby="jp-ed-title">',
+        '<h2 id="jp-ed-title">🧾 編輯觀點 <span class="ed-cat">由評分、價位與收錄資料推導</span></h2>',
+    ]
+    for title, paras, bullets in blocks:
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁評分、地址與注意事項由 Fly &amp; Feast HK 編輯部根據公開來源'
+        "核對抄錄，最後核對日期見頁首資料。餐廳營業時間、價格與供應隨時變動，"
+        "一切以店家及 Google Map 即時資訊為準。</p>"
+    )
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def japan_card(e: dict) -> str:
+    url = f"/japan/{esc(e['id'])}/"
+    star = f"{e.get('rating'):.1f}" if isinstance(e.get("rating"), (int, float)) else "—"
+    stars = f"★ {star}"
+    reviews = ""
+    if e.get("reviews"):
+        n = e["reviews"]
+        reviews = f" · {n:,}+ 則評論" if e.get("reviewsApprox") else f" · {n:,} 則評論"
+    hl = ""
+    if e.get("tips"):
+        hl = "<ul>" + "".join(f"<li>{esc(t)}</li>" for t in e["tips"][:2]) + "</ul>"
+    return (
+        f'<article class="card" data-id="{esc(e["id"])}">'
+        '<div class="card-top">'
+        f'<span class="badge badge-dining">{esc(e.get("city") or "日本")}</span>'
+        f'<span class="badge badge-rating" aria-label="Google 評分">{esc(star + " Google")}</span>'
+        '<span class="card-sticker st-dining" aria-hidden="true">🇯🇵</span>'
+        "</div>"
+        f'<h3><a href="{url}">{esc(e["name"])}</a></h3>'
+        + (f'<p class="sub">{esc(e["nameEn"])}</p>' if e.get("nameEn") else "")
+        + f'<p class="route">{esc(e.get("cuisine") or "")}｜{esc(e.get("area") or "")}</p>'
+        + '<div class="price-row">'
+        f'<span class="price">{esc(e.get("priceRange") or "價位見詳情頁")}</span>'
+        f'<span class="save">{esc(stars + reviews)}</span>'
+        "</div>"
+        + (f'<p class="summary">{esc(e["blurb"])}</p>' if e.get("blurb") else "")
+        + hl
+        + f'<div class="card-foot"><span class="period">{esc(rating_line(e))}</span>'
+        f'<span class="actions"><a class="link-btn" href="{url}">睇詳情 →</a></span></div>'
+        + "</article>"
+    )
+
+
+def japan_grid(eats: list[dict]) -> str:
+    if not eats:
+        return '<p class="empty">這個城市暫時未有收錄的餐廳。</p>'
+    return '<div class="grid">' + "".join(japan_card(e) for e in eats) + "</div>"
+
+
+def build_japan_index(eats: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+    cities: list[str] = []
+    for e in eats:
+        c = str(e.get("city") or "其他")
+        if c not in cities:
+            cities.append(c)
+    cities.sort(key=lambda c: (JAPAN_CITY_ORDER.index(c) if c in JAPAN_CITY_ORDER else 99))
+
+    city_nav = "".join(
+        f'<a href="#city-{i}">{esc(c)}（{sum(1 for e in eats if e.get("city") == c)}）</a>'
+        for i, c in enumerate(cities)
+    )
+    sections = ""
+    for i, c in enumerate(cities):
+        pool = [e for e in eats if e.get("city") == c]
+        pool.sort(key=lambda e: -(e.get("rating") or 0))
+        sections += (
+            f'<h2 class="section-h2" id="city-{i}">📍 {esc(c)}'
+            f'<span class="ed-cat">共 {len(pool)} 間</span></h2>'
+            + japan_grid(pool)
+        )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本美食", None)])
+        + '<div class="page-head">'
+        "<h1>🇯🇵 日本美食專欄：Google Maps 高分餐廳逐個講</h1>"
+        '<p class="page-lede">香港人去日本，最難唔係搵唔到嘢食，係選擇太多唔知邊間值得去。'
+        "這個專欄每星期收羅日本不同城市在 Google Maps 上高分的餐廳，"
+        "每間有獨立詳情頁：評分點解讀、價位預算、排隊與預約貼士，"
+        "並附上資料來源，等你唔使齋靠一句「好好食」做決定。</p>"
+        f'<div class="page-meta"><span>已收錄：<b>{len(eats)}</b> 間</span>'
+        f'<span>城市：<b>{len(cities)}</b> 個</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        f'<div class="cat-nav">{city_nav}</div>'
+        "</div>"
+        + '<div class="prose">'
+        "<h2>收錄準則</h2>"
+        "<ul>"
+        "<li><b>評分以 Google Maps 為準</b>：評分與評論數由公開來源抄錄並附出處，"
+        "優先收錄 4.3 分以上、評論數有相當規模的餐廳。</li>"
+        "<li><b>評分會浮動</b>：每筆資料標明核對日期，出發前請以 Google Map 即時顯示為準。</li>"
+        "<li><b>唔收閉門造車的評價</b>：我們不會自己「評分」，"
+        "每頁的觀點都是由已核實的評分、價位與注意事項推導出來。</li>"
+        "<li><b>每星期更新</b>：輪替加入不同城市的選擇，由東京、大阪等熱門城市開始，"
+        "逐步覆蓋更多地區。</li>"
+        "</ul>"
+        "</div>"
+        + sections
+        + "</main>"
+    )
+    return layout(
+        title="日本美食專欄：Google Maps 高分餐廳推薦｜Fly & Feast HK",
+        desc=f"日本不同城市的 Google Maps 高分餐廳專欄，現收錄 {len(eats)} 間，"
+             "每間附評分解讀、價位預算、排隊與預約貼士及資料來源，每星期更新。",
+        path="/japan/",
+        body=body,
+        meta=meta,
+        active="japan",
+        ld=[breadcrumb_ld([("日本美食", None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": "日本美食專欄", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_japan_eat_page(e: dict, peers: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    city = str(e.get("city") or "日本")
+    url = f"/japan/{e['id']}/"
+    updated = str(meta.get("updated") or "")[:10]
+    star = f"{e.get('rating'):.1f}" if isinstance(e.get("rating"), (int, float)) else "—"
+
+    facts = [
+        ("城市／地區", f"{city} · {e.get('area') or '—'}"),
+        ("菜式", e.get("cuisine") or "—"),
+        ("招牌", e.get("signature") or "—"),
+        ("Google 評分", rating_line(e)),
+        ("價位", e.get("priceRange") or "—"),
+        ("地址", e.get("address") or "—"),
+    ]
+    facts_html = "".join(
+        f'<div class="deal-fact"><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in facts
+    )
+
+    related = [p for p in peers
+               if p.get("id") != e.get("id") and p.get("city") == e.get("city")]
+    related.sort(key=lambda p: abs((p.get("rating") or 0) - (e.get("rating") or 0)))
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本美食", "/japan/"), (e.get("name", ""), None)])
+        + '<article>'
+        '<div class="deal-hero">'
+        '<div class="card-top">'
+        '<span class="badge badge-dining">日本美食</span>'
+        f'<span class="badge badge-rating">★ {esc(star)} Google</span>'
+        "</div>"
+        f"<h1>{esc(e.get('name'))}</h1>"
+        + (f'<p class="lede-line">{esc(e["nameEn"])}</p>' if e.get("nameEn") else "")
+        + '<div class="price-panel">'
+        f'<span class="p-now">{esc(e.get("priceRange") or "價位以店家公佈為準")}</span>'
+        '<span class="p-note">價位與營業時間以店家及 Google Map 即時資訊為準。</span>'
+        "</div>"
+        f'<dl class="deal-facts">{facts_html}</dl>'
+        "</div>"
+        + (f'<h2 class="section-h2">📖 編輯簡介</h2><p>{esc(e.get("blurb"))}</p>'
+           if e.get("blurb") else "")
+        + japan_editorial_html(e, peers)
+        + (
+            '<div class="deal-actions">'
+            f'<a class="link-btn" href="{esc(e.get("mapsUrl") or "#")}" target="_blank" rel="noopener nofollow">'
+            "在 Google Maps 打開（導航／睇最新評價）→</a>"
+            '<a class="btn-ghost" href="/japan/">睇晒全部日本餐廳</a>'
+            "</div>"
+            '<div class="source-block"><p><strong>評分與資料來源：</strong>'
+            + (
+                f'<a href="{esc(e["sourceUrl"])}" target="_blank" rel="noopener nofollow">'
+                f'{esc(e.get("sourceLabel") or e["sourceUrl"])}</a>'
+                if e.get("sourceUrl") else esc(e.get("sourceLabel"))
+            )
+            + f"</p><p>評分與評論數於 {esc(e.get('ratingCheckedAt') or updated)} 核對抄錄，"
+            "會隨時間浮動；營業時間、價格與供應隨時變動，一切以店家及 Google Map 即時資訊為準。</p></div>"
+        )
+        + "</article>"
+        + (
+            '<section class="related"><h2 class="section-h2">🔎 同城市仲有</h2>'
+            '<p class="section-note">評分與價位最接近的同城選擇。</p>'
+            + japan_grid(related[:3])
+            + "</section>"
+            if related else ""
+        )
+        + "</main>"
+    )
+
+    trail = [("日本美食", "/japan/"), (e.get("name", ""), None)]
+    ld = [
+        breadcrumb_ld(trail, site),
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": e.get("name"),
+            "description": (e.get("blurb") or "")[:155],
+            "inLanguage": "zh-Hant-HK",
+            "dateModified": str(meta.get("updated") or ""),
+            "author": {"@type": "Organization", "name": "Fly & Feast HK 編輯部"},
+            "publisher": {"@type": "Organization", "name": "Fly & Feast HK"},
+            "mainEntityOfPage": {"@type": "WebPage", "@id": site + url},
+        },
+    ]
+    return layout(
+        title=f"{e.get('name')}｜{city} Google Maps 高分餐廳｜Fly & Feast HK",
+        desc=((e.get("blurb") or e.get("name") or "")[:155]),
+        path=url,
+        body=body,
+        meta=meta,
+        active="japan",
+        ld=ld,
+    )
+
+
+def prune_stale_japan_pages(valid_ids: set[str]) -> int:
+    """同優惠頁一樣，清除已不在 japan.json 的孤兒頁。資料少於 5 筆時不動。"""
+    MIN_SIZE = 5
+    if len(valid_ids) < MIN_SIZE:
+        return 0
+    base = PROJECT / "japan"
+    if not base.exists():
+        return 0
+    removed = 0
+    for child in base.iterdir():
+        if child.is_dir() and child.name not in valid_ids:
+            shutil.rmtree(child, ignore_errors=True)
+            removed += 1
+    return removed
+
+
+# --------------------------------------------------------------------------
 # sitemap
 # --------------------------------------------------------------------------
 
-def build_sitemap(deals: list[dict], meta: dict) -> str:
+def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     today = datetime.now(HK_TZ).date().isoformat()
     urls: list[tuple[str, str, str]] = [
@@ -1596,6 +1939,9 @@ def build_sitemap(deals: list[dict], meta: dict) -> str:
     ]
     for c in ("flight", "dining", "hotel"):
         urls.append((f"/deals/{CAT_SLUG[c]}/", "0.9", "daily"))
+    urls.append(("/japan/", "0.8", "weekly"))
+    for e in (japan_eats or []):
+        urls.append((f"/japan/{e['id']}/", "0.6", "weekly"))
     urls.append(("/guides/", "0.8", "weekly"))
     for g in GUIDES:
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly"))
@@ -1693,17 +2039,35 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     for g in GUIDES:
         write_page(PROJECT / "guides" / g["slug"] / "index.html",
                    build_guide_page(g["slug"], deals, meta))
+
+    # 日本美食專欄
+    eats = load_japan()
+    jpruned = prune_stale_japan_pages({e["id"] for e in eats})
+    if eats:
+        write_page(PROJECT / "japan" / "index.html", build_japan_index(eats, meta))
+        for e in eats:
+            write_page(PROJECT / "japan" / e["id"] / "index.html",
+                       build_japan_eat_page(e, eats, meta))
+    else:
+        print("  日本美食專欄：japan.json 無資料或不存在，已略過")
+
     write_page(PROJECT / "about" / "index.html", build_about(deals, meta))
     write_page(PROJECT / "contact" / "index.html", build_contact(deals, meta))
     write_page(PROJECT / "privacy" / "index.html", build_privacy(deals, meta))
     write_page(PROJECT / "terms" / "index.html", build_terms(deals, meta))
 
-    total = build_sitemap(deals, meta)
-    result = {"deals": written, "pages": written + 4 + 3 + 1 + len(GUIDES) + 4, "sitemap": total}
+    total = build_sitemap(deals, meta, eats)
+    result = {
+        "deals": written,
+        "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats) + (1 if eats else 0),
+        "sitemap": total,
+    }
     print(
         f"  多頁內容：{written} 個優惠詳情頁、4 個分類／總覽頁、"
-        f"{len(GUIDES)} 篇攻略、4 個合規頁；sitemap 收錄 {total} 條 URL"
-        + (f"；已清除 {pruned} 個孤兒頁面" if pruned else "")
+        f"{len(eats)} 個日本美食頁、{len(GUIDES)} 篇攻略、4 個合規頁；"
+        f"sitemap 收錄 {total} 條 URL"
+        + (f"；已清除 {pruned} 個優惠孤兒頁面" if pruned else "")
+        + (f"；已清除 {jpruned} 個日本美食孤兒頁面" if jpruned else "")
     )
     return result
 
