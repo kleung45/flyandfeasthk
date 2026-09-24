@@ -34,6 +34,7 @@ import json
 import re
 import shutil
 import sys
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -1616,6 +1617,41 @@ def rating_line(e: dict) -> str:
     return " · ".join(parts)
 
 
+def maps_embed_src(e: dict) -> str | None:
+    """由官方 mapsUrl 的 query 參數派生無需 API key 的嵌入地圖網址。
+
+    Google Maps 官方嵌入（output=embed）可合法顯示該地點的地圖、
+    實景相片與評分卡；查詢串直接沿用收錄時的同一組參數，定位一致。
+    """
+    src = str(e.get("mapsUrl") or "")
+    q = None
+    if "query=" in src:
+        q = src.split("query=", 1)[1].split("&", 1)[0]
+    if not q:
+        name = e.get("name")
+        city = e.get("city")
+        if name and city:
+            q = urllib.parse.quote(f"{name} {city}")
+    if not q:
+        return None
+    return f"https://www.google.com/maps?q={q}&output=embed&hl=zh-HK"
+
+
+def maps_embed_html(e: dict) -> str:
+    src = maps_embed_src(e)
+    if not src:
+        return ""
+    name = e.get("name") or "餐廳"
+    return (
+        '<figure class="maps-embed">'
+        f'<iframe src="{esc(src)}" title="{esc(name)} 嘅 Google Maps 地圖與實景相片" '
+        'loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>'
+        '<figcaption class="jp-note">地圖卡由 Google Maps 官方嵌入，可直接睇到店面實景相、'
+        "評分同街景；以 Google Map 即時顯示為準。</figcaption>"
+        "</figure>"
+    )
+
+
 def japan_rating_tier(rating: float) -> str:
     if rating >= 4.5:
         return ("4.5 分以上在 Google Maps 屬於極少數：通常要長期維持高水準先做得到，"
@@ -1855,6 +1891,7 @@ def build_japan_eat_page(e: dict, peers: list[dict], meta: dict) -> str:
         "</div>"
         f'<dl class="deal-facts">{facts_html}</dl>'
         "</div>"
+        + maps_embed_html(e)
         + (f'<h2 class="section-h2">📖 編輯簡介</h2><p>{esc(e.get("blurb"))}</p>'
            if e.get("blurb") else "")
         + japan_editorial_html(e, peers)
