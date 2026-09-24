@@ -3,7 +3,16 @@
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
     "updated": "2026-09-24",
     "minRating": 4.2,
-    "rotation": ["札幌", "名古屋", "橫濱", "神戶", "沖繩", "廣島", "仙台", "金澤"]
+    "rotation": [
+      "札幌",
+      "名古屋",
+      "橫濱",
+      "神戶",
+      "沖繩",
+      "廣島",
+      "仙台",
+      "金澤"
+    ]
   },
   "eats": [
     {
@@ -170,6 +179,174 @@
       ],
       "sourceLabel": "DocentPro（經 Google Maps 核實的福岡拉麵榜）",
       "sourceUrl": "https://docentpro.com/featured/fukuokas-top-ramen-shops-ranks-10-to-6_3bb20719-bc2c-486a-8375-d391b973e9a8",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-tokyo-fuunji",
+      "name": "麺創房 風雲児",
+      "nameEn": "Fuunji",
+      "city": "東京",
+      "area": "渋谷區代々木（新宿站步行約 6 分鐘）",
+      "cuisine": "拉麵／沾麵",
+      "signature": "得製つけめん、雞白湯魚介 W 湯底",
+      "rating": 4.3,
+      "reviews": 5507,
+      "reviewsApprox": true,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥1,000–2,000",
+      "address": "東京都渋谷区代々木2-14-3 北斗第一ビル B1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%89%B5%E6%88%BF%20%E9%A2%A8%E9%9B%B2%E5%85%90%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "新宿沾麵名店，雞白湯加魚介的 W 湯底配上桌邊自加的魚粉，湯頭濃而不膩；麺量加盛免費，食量大的最啱。食べログ百名店常客，唔只遊客，本地人都排。",
+      "tips": [
+        "排隊係常態：不少人開店前 15–20 分鐘已到場排隊，平日午市隊亦唔短。",
+        "先在食券機買券再入座，動線快；湯賣完即收市，晚市想食要早到。",
+        "食完記得用檯上熱水將沾汁開成湯飲埋，係呢度嘅標準食法。"
+      ],
+      "sourceLabel": "Yuku Japan（引用 Google 評分 4.3 與評論數）",
+      "sourceUrl": "https://yukujapan.com/places/fuunji-kanto",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-tokyo-afuri-harajuku",
+      "name": "AFURI 原宿",
+      "nameEn": "AFURI Harajuku",
+      "city": "東京",
+      "area": "渋谷區千駄ヶ谷（原宿站步行約 2 分鐘）",
+      "cuisine": "拉麵",
+      "signature": "柚子鹽味拉麵、柚子沾麵",
+      "rating": 4.4,
+      "reviews": 4386,
+      "reviewsApprox": true,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥1,000–2,000",
+      "address": "東京都渋谷区千駄ヶ谷3-63-1 グランデフォレスタ原宿 1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=AFURI%20%E5%8E%9F%E5%AE%BF%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "以柚子湯底殺出重圍的東京人氣拉麵店，雞湯加柑橘清香，清淡唔油膩，係豚骨當道嘅東京入面最清爽嘅選擇；另有素食拉麵，同行有素食朋友都照顧到。",
+      "tips": [
+        "先在 Kiosk 點餐機落單再入座，唔識日文都有圖揀。",
+        "午市高峰會排隊，建議避開 12–1 點；店內座位不多。",
+        "招牌柚子鹽味拉麵之外，柚子沾麵同炭燒叉燒都係常見推薦。"
+      ],
+      "sourceLabel": "Postcard（引用 Google 評分 4.4 與評論數）",
+      "sourceUrl": "https://www.postcard.inc/places/s/Z29vZ2xlfENoSUpiYTE3VGJxTUdHQVJGdERWNmhrWmJjcw",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-tokyo-butagumi",
+      "name": "西麻布 豚組",
+      "nameEn": "Nishiazabu Butagumi",
+      "city": "東京",
+      "area": "港區西麻布（六本木站步行約 10 分鐘）",
+      "cuisine": "炸豬排",
+      "signature": "品牌豬里肌豬排（豪華超厚切）",
+      "rating": 4.4,
+      "reviews": 1305,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥3,000–5,000",
+      "address": "東京都港区西麻布2-24-9",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E8%B1%9A%E7%B5%84%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "日本豬排界嘅品牌豬專門店：菜單列明每種豬嘅品種、產地同飼料，全國近 30 種品牌豬輪住揀。舊房子改建嘅兩層小屋，環境靚，係想食一餐「認真豬排」嘅地方。",
+      "tips": [
+        "每星期一休息；午市 11:30–15:00、晚市 18:00–22:00（最後點餐 21:00）。",
+        "晚市建議預訂，午市相對清靜；不設停車場。",
+        "可信用卡與 PayPay；先鹽後醬汁係店家建議食法，飯、卷心菜與味噌湯可免費添。"
+      ],
+      "sourceLabel": "Yuku Japan（引用 Google 評分 4.4 與評論數）；價位參考 Worldtriper",
+      "sourceUrl": "https://yukujapan.com/places/butagumi-kanto",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-kobe-mouriya",
+      "name": "神戸牛 ステーキ モーリヤ 本店",
+      "nameEn": "Kobe Beef Steak Restaurant Mouriya Honten",
+      "city": "神戶",
+      "area": "中央區下山手通（三宮站步行約 3–5 分鐘）",
+      "cuisine": "鐵板燒／神戶牛",
+      "signature": "A5 神戶牛西冷鐵板燒",
+      "rating": 4.6,
+      "reviews": 1752,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥5,000–13,000（午市較抵）",
+      "address": "兵庫県神戸市中央区下山手通2-1-17 モーリヤビル",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%9E%E6%88%B8%E7%89%9B%20%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%20%E3%83%A2%E3%83%BC%E3%83%AA%E3%83%A4%20%E6%9C%AC%E5%BA%97%20%E7%A5%9E%E6%88%B8",
+      "blurb": "1885 年創業嘅神戶牛鐵板燒老舖，只選但馬血統 A5 神戶牛，廚師在你面前鐵板即燒。晚市全套約 ¥13,000 起，午市套餐便宜一大截，係「專程食神戶牛」最穩陣嘅名店之一。",
+      "tips": [
+        "熱門時段必須預約，官網可訂；午市性價比明顯高過晚市。",
+        "可信用卡；店內設 counter 位可近距離睇燒牛過程。",
+        "評分與評論數為第三方引用快照，以 Google Map 即時顯示為準。"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.6 與 1,752 評論）",
+      "sourceUrl": "https://t.restaurantguru.ru/amp/Kobe-Beef-Steak-Restaurant-Mouriya-Honten-Kobe",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-kyoto-katsukura",
+      "name": "名代とんかつ かつくら 三条本店",
+      "nameEn": "Katsukura Tonkatsu Sanjo Honten",
+      "city": "京都",
+      "area": "中京區石橋町（三條站步行約 5 分鐘）",
+      "cuisine": "炸豬排",
+      "signature": "自磨芝麻醬汁炸豬排套餐",
+      "rating": 4.5,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥2,000–2,999",
+      "address": "京都府京都市中京区石橋町16",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%8D%E4%BB%A3%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%20%E3%81%8B%E3%81%A4%E3%81%8F%E3%82%89%20%E4%B8%89%E6%9D%A1%E6%9C%AC%E5%BA%97%20%E4%BA%AC%E9%83%BD",
+      "blurb": "關西人氣豬排連鎖的三條本店，開餐先自己磨芝麻調醬，係佢嘅招牌儀式感；豬排外脆內嫩，米與湯都有水準，屬京都少數評分高兼價位親民的穩陣選擇。",
+      "tips": [
+        "熱門時段要排隊，建議避開 12–1 點；不設預約。",
+        "午市與晚市套餐多在 ¥2,000–2,999 一帶，以店家公佈為準。",
+        "可信用卡；三條站步行約 5 分鐘，河原町一帶行過去都得。"
+      ],
+      "sourceLabel": "Yuku Japan 與 DocentPro（引用 Google 評分 4.5）",
+      "sourceUrl": "https://yukujapan.com/places/katsukura-sanjo-kansai",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-fukuoka-maedaya",
+      "name": "博多もつ鍋 前田屋 大名店",
+      "nameEn": "Hakata Motsunabe Maedaya Daimyo",
+      "city": "福岡",
+      "area": "中央區大名（天神站步行約 10 分鐘）",
+      "cuisine": "牛腸鍋",
+      "signature": "味噌牛腸鍋、酢もつ",
+      "rating": 4.4,
+      "reviews": 423,
+      "ratingCheckedAt": "2026-09-24",
+      "address": "福岡県福岡市中央区大名1-12-28",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E3%82%82%E3%81%A4%E9%8D%8B%20%E5%89%8D%E7%94%B0%E5%B1%8B%20%E5%A4%A7%E5%90%8D%E5%BA%97%20%E7%A6%8F%E5%B2%A1",
+      "blurb": "福岡名物牛腸鍋的在地人氣店，味噌湯底濃而不膩，牛腸處理得乾淨無腥味；設英文菜單，對旅客友善，適合兩三個朋友一齊圍爐。",
+      "tips": [
+        "晚市經常滿座，建議提前預約。",
+        "味噌味最受歡迎，酢もつ（醋漬牛腸）係常見前菜推薦。",
+        "鍋物按人數計價，實際收費以店家公佈為準。"
+      ],
+      "sourceLabel": "LavieTaste.AI（引用 Google 評分 4.4 與 423 評論）",
+      "sourceUrl": "http://lavietaste.ai/zh/famous-fukuoka-motsu-nabe",
+      "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-nagoya-horaiken",
+      "name": "あつた蓬莱軒 神宮店",
+      "nameEn": "Atsuta Houraiken Jingu",
+      "city": "名古屋",
+      "area": "熱田區神宮（熱田神宮傳馬町站步行約 4 分鐘）",
+      "cuisine": "鰻魚飯",
+      "signature": "元祖ひつまぶし（鰻魚三吃）",
+      "rating": 4.4,
+      "reviews": 5919,
+      "ratingCheckedAt": "2026-09-24",
+      "priceRange": "¥4,400 起",
+      "address": "愛知県名古屋市熱田区神宮2-10-26",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A4%E3%81%9F%E8%93%AC%E8%8E%B1%E8%BB%92%20%E7%A5%9E%E5%AE%AE%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+      "blurb": "蒲燒鰻三吃「ひつまぶし」的發源店，1873 年創業、百四年幾歷史：一先原味、二加藥味、三開茶漬，鰻魚炭香配飯焦香，係名古屋最重要的食評朝聖點。",
+      "tips": [
+        "排隊極長：平日午市都可能要等一至兩小時，開店前排隊或先取整理券。",
+        "星期二休息（以店家公佈為準）；參拜熱田神宮順路一併去最順。",
+        "單份 ひつまぶし 約 ¥4,400，屬專程消費價位。"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 5,919 評論）",
+      "sourceUrl": "https://wanderlog.com/es/place/details/419662/atsuta-houraiken-jingu",
       "addedAt": "2026-09-24"
     }
   ]
