@@ -48,6 +48,53 @@ SITEMAP = PROJECT / "sitemap.xml"
 # 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
 JAPAN_CITY_ORDER = ["東京", "大阪", "京都", "神戶", "名古屋", "橫濱", "福岡", "札幌", "沖繩"]
 
+# 地區歸納：城市 → 地區頁（/japan/<key>/）。收錄新城市時，把城市加進對應地區即可；
+# 新地區要同時在 JP_REGIONS 加條目（名稱與簡介），地區頁與 sitemap 會自動生成。
+JP_REGIONS = {
+    "kanto": {
+        "name": "關東",
+        "intro": "以東京領銜，連同橫濱等周邊城市。拉麵、壽司到深水埗式街坊食堂同高級割烹並存，"
+                 "選擇多到唔使愁，最難係分辨邊間值得專程去——這頁的排行就係幫你收窄範圍。",
+    },
+    "kansai": {
+        "name": "關西",
+        "intro": "大阪、京都、神戶組成的美食重鎮：大阪燒與章魚燒的庶民味、京都的懷石與湯葉、"
+                 "神戶牛的洋食傳統。關西人對飲食嘅執著全日本聞名，高分小店密度數一數二。",
+    },
+    "chubu": {
+        "name": "中部／東海",
+        "intro": "以名古屋為中心，味噌煮、味噌豬排與手羽先獨樹一幟，係日本國內都公認「食風自成一派」的地區。",
+    },
+    "kyushu": {
+        "name": "九州",
+        "intro": "豚骨拉麵的發源地，博多豚骨、熊本黑麻油與鹿兒島湯麵各有派系；"
+                 "加上屋台文化與海鮮，福岡更被稱為日本最適合「食到扶牆走」的城市。",
+    },
+    "hokkaido": {
+        "name": "北海道",
+        "intro": "味噌拉麵發源地札幌、湯咖哩與函館鹽味拉麵，再配上全國頂級的海產同乳製品，"
+                 "係「食材本身就是賣點」的地區。",
+    },
+    "chugoku": {
+        "name": "中國／瀨戶內",
+        "intro": "廣島蠔、尾道拉麵與瀨戶內海的海鮮料理，食風低調但水準極高。",
+    },
+    "okinawa": {
+        "name": "沖繩",
+        "intro": "琉球料理自成一格：沖繩麵、豬肉料理與塔可飯，混雜美式與亞洲風味，係日本最「唔日本」又最有趣嘅食區。",
+    },
+}
+JP_REGION_ORDER = ["kanto", "kansai", "chubu", "kyushu", "hokkaido", "chugoku", "okinawa"]
+JP_CITY_REGION = {
+    "東京": "kanto", "橫濱": "kanto",
+    "大阪": "kansai", "京都": "kansai", "神戶": "kansai",
+    "名古屋": "chubu",
+    "福岡": "kyushu",
+    "札幌": "hokkaido",
+    "廣島": "chugoku",
+    "沖繩": "okinawa",
+}
+
 HK_TZ = timezone(timedelta(hours=8))
 SITE_FALLBACK = "https://www.flyandfeasthk.com"
 
@@ -1652,6 +1699,107 @@ def maps_embed_html(e: dict) -> str:
     )
 
 
+def region_key_of(e: dict) -> str | None:
+    return JP_CITY_REGION.get(str(e.get("city") or ""))
+
+
+def japan_regions_in_use(eats: list[dict]) -> list[str]:
+    """有收錄的地區 key，按展示次序排列。"""
+    present = {region_key_of(e) for e in eats}
+    present.discard(None)
+    return [k for k in JP_REGION_ORDER if k in present]
+
+
+def japan_ranked(pool: list[dict]) -> list[dict]:
+    """誠實排序：先 Google 評分、同分按評論數，全由已核實數據推導，非編輯評選。"""
+    return sorted(
+        pool,
+        key=lambda e: (-(e.get("rating") or 0), -(e.get("reviews") or 0)),
+    )
+
+
+def build_japan_region_page(rkey: str, pool: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    info = JP_REGIONS[rkey]
+    rname = info["name"]
+    updated = str(meta.get("updated") or "")[:10]
+    ranked = japan_ranked(pool)
+    top, rest = ranked[:10], ranked[10:]
+    is_top10 = len(ranked) >= 10
+    heading = f"🏆 {rname}十大最佳餐廳" if is_top10 else f"🏆 {rname}高分餐廳排行"
+    heading_note = (
+        f"已收錄 {len(ranked)} 間，排行按 Google 評分（同分按評論數）自動排序，非編輯評選；"
+        "滿 10 間後此頁會自動成為「地區十大」。"
+        if not is_top10 else
+        f"已收錄 {len(ranked)} 間，頭十名按 Google 評分（同分按評論數）自動排序，非編輯評選；"
+        "排名每星期隨收錄與評分核對更新。"
+    )
+
+    def ranked_card(i: int, e: dict) -> str:
+        medal = {1: "🥇", 2: "🥈", 3: "🥉"}.get(i, "　")
+        return (
+            '<div class="ranked-item">'
+            f'<div class="rank-tag" aria-label="第 {i} 位">{"#" if i > 3 else medal}'
+            f'{"" if i <= 3 else i}</div>'
+            + japan_card(e)
+            + "</div>"
+        )
+
+    sections = "".join(ranked_card(i, e) for i, e in enumerate(top, 1))
+    if rest:
+        sections += (
+            f'<h2 class="section-h2">更多收錄（第 {len(top) + 1} 位起）</h2>'
+            + japan_grid(rest)
+        )
+
+    others = [k for k in japan_regions_in_use(pool) if k != rkey]
+    other_nav = "".join(
+        f'<a href="/japan/{esc(k)}/">{esc(JP_REGIONS[k]["name"])}</a>' for k in others
+    )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本美食", "/japan/"), (rname, None)])
+        + '<div class="page-head">'
+        f"<h1>{heading}</h1>"
+        f'<p class="page-lede">{esc(info["intro"])}</p>'
+        f'<div class="page-meta"><span>已收錄：<b>{len(ranked)}</b> 間</span>'
+        f'<span>城市：<b>{len({e.get("city") for e in pool})}</b> 個</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        f'<p class="section-note">{esc(heading_note)}</p>'
+        + (f'<div class="cat-nav">{other_nav}</div>' if other_nav else "")
+        + "</div>"
+        + '<div class="ranked-list">' + sections + "</div>"
+        + '<div class="prose">'
+        "<h2>點樣睇呢個排行</h2>"
+        "<ul>"
+        "<li><b>排法係透明的</b>：先按 Google 評分由高至低，同分再按評論數多寡；"
+        "全由已核實的公開數據推導，我們不會憑喜好調位。</li>"
+        "<li><b>評分高唔等於適合你</b>：排第一嗰間可能要排一個鐘隊。"
+        "每間店嘅詳情頁有排隊、預約與付款貼士，出發前花一分鐘睇清楚。</li>"
+        "<li><b>收錄係持續進行</b>：每星期加入新餐廳，收錄唔代表全區最好食，"
+        "只代表通過我們嘅評分同評論數門檻；排名會隨更新浮動。</li>"
+        "<li><b>出發前以 Google Map 即時資訊為準</b>：評分、營業時間同供應都會變，"
+        "每筆資料標明核對日期。</li>"
+        "</ul>"
+        "</div>"
+        + "</main>"
+    )
+    return layout(
+        title=f"{rname}{'十大最佳' if is_top10 else '高分餐廳'}"
+              f"：Google Maps 高分推薦｜Fly & Feast HK",
+        desc=f"{rname}地區的 Google Maps 高分餐廳排行，現收錄 {len(ranked)} 間，"
+             "按已核實評分與評論數排序，附評分解讀、價位預算與排隊貼士，每星期更新。",
+        path=f"/japan/{rkey}/",
+        body=body,
+        meta=meta,
+        active="japan",
+        ld=[breadcrumb_ld([("日本美食", "/japan/"), (rname, None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": f"日本美食專欄：{rname}", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
 def japan_rating_tier(rating: float) -> str:
     if rating >= 4.5:
         return ("4.5 分以上在 Google Maps 屬於極少數：通常要長期維持高水準先做得到，"
@@ -1794,6 +1942,11 @@ def build_japan_index(eats: list[dict], meta: dict) -> str:
             cities.append(c)
     cities.sort(key=lambda c: (JAPAN_CITY_ORDER.index(c) if c in JAPAN_CITY_ORDER else 99))
 
+    region_nav = "".join(
+        f'<a href="/japan/{esc(rk)}/">🏆 {esc(JP_REGIONS[rk]["name"])}'
+        f'（{sum(1 for e in eats if region_key_of(e) == rk)}）</a>'
+        for rk in japan_regions_in_use(eats)
+    )
     city_nav = "".join(
         f'<a href="#city-{i}">{esc(c)}（{sum(1 for e in eats if e.get("city") == c)}）</a>'
         for i, c in enumerate(cities)
@@ -1820,7 +1973,9 @@ def build_japan_index(eats: list[dict], meta: dict) -> str:
         f'<div class="page-meta"><span>已收錄：<b>{len(eats)}</b> 間</span>'
         f'<span>城市：<b>{len(cities)}</b> 個</span>'
         f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
-        f'<div class="cat-nav">{city_nav}</div>'
+        + (f'<div class="cat-nav region-nav"><b>地區排行：</b>{region_nav}</div>'
+           if region_nav else "")
+        + f'<div class="cat-nav">{city_nav}</div>'
         "</div>"
         + '<div class="prose">'
         "<h2>收錄準則</h2>"
@@ -1977,6 +2132,8 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
     for c in ("flight", "dining", "hotel"):
         urls.append((f"/deals/{CAT_SLUG[c]}/", "0.9", "daily"))
     urls.append(("/japan/", "0.8", "weekly"))
+    for rk in japan_regions_in_use(japan_eats or []):
+        urls.append((f"/japan/{rk}/", "0.7", "weekly"))
     for e in (japan_eats or []):
         urls.append((f"/japan/{e['id']}/", "0.6", "weekly"))
     urls.append(("/guides/", "0.8", "weekly"))
@@ -2079,12 +2236,20 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
 
     # 日本美食專欄
     eats = load_japan()
-    jpruned = prune_stale_japan_pages({e["id"] for e in eats})
+    jpruned = prune_stale_japan_pages(
+        {e["id"] for e in eats} | set(japan_regions_in_use(eats))
+    )
+    n_region_pages = 0
     if eats:
         write_page(PROJECT / "japan" / "index.html", build_japan_index(eats, meta))
         for e in eats:
             write_page(PROJECT / "japan" / e["id"] / "index.html",
                        build_japan_eat_page(e, eats, meta))
+        for rkey in japan_regions_in_use(eats):
+            pool = [e for e in eats if region_key_of(e) == rkey]
+            write_page(PROJECT / "japan" / rkey / "index.html",
+                       build_japan_region_page(rkey, pool, meta))
+            n_region_pages += 1
     else:
         print("  日本美食專欄：japan.json 無資料或不存在，已略過")
 
@@ -2096,12 +2261,14 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     total = build_sitemap(deals, meta, eats)
     result = {
         "deals": written,
-        "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats) + (1 if eats else 0),
+        "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats)
+                 + (1 if eats else 0) + n_region_pages,
         "sitemap": total,
     }
     print(
         f"  多頁內容：{written} 個優惠詳情頁、4 個分類／總覽頁、"
-        f"{len(eats)} 個日本美食頁、{len(GUIDES)} 篇攻略、4 個合規頁；"
+        f"{len(eats)} 個日本美食頁（另 {n_region_pages} 個地區排行頁）、"
+        f"{len(GUIDES)} 篇攻略、4 個合規頁；"
         f"sitemap 收錄 {total} 條 URL"
         + (f"；已清除 {pruned} 個優惠孤兒頁面" if pruned else "")
         + (f"；已清除 {jpruned} 個日本美食孤兒頁面" if jpruned else "")
