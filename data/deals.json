@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-23T14:56:57+08:00",
+    "updated": "2026-09-24T17:31:38+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-22T13:25:32+08:00",
@@ -11,188 +11,15 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 48,
-      "active": 32,
-      "ending": 8,
-      "expired": 16,
+      "active": 27,
+      "ending": 7,
+      "expired": 21,
       "flight": 5,
       "dining": 43,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-eaton-astor-bogo-20260919",
-      "category": "dining",
-      "title": "The Astor 自助晚餐買一送一，人均 HK$459（已連服務費）",
-      "subtitle": "佐敦逸東酒店 普慶餐廳 · 生蠔蟹腳海鮮陣",
-      "venue": "普慶餐廳 The Astor · 佐敦彌敦道 380 號逸東酒店 1 樓（佐敦站 B1 出口）",
-      "priceLabel": "Klook 買1送1 自助晚餐 2 位 HK$918（人均 HK$459，已連服務費）",
-      "priceValue": 459,
-      "originalLabel": "原價以 Klook 結帳頁為準",
-      "discountPct": 50,
-      "endsAt": "2026-09-23T23:59:00+08:00",
-      "period": "快閃開售 2026-09-17 12:00 至 09-23；用餐日期 2026-09-18 至 10-11",
-      "summary": "佐敦逸東酒店普慶餐廳 The Astor 自助晚餐經 Klook 買一送一：2 位 HK$918 連服務費，人均 HK$459。任食生蠔、蟹腳、麵包蟹等冰鎮海鮮，用得日期去到 10 月 11 日。",
-      "highlights": [
-        "買1送1 自助晚餐 2 位 HK$918（已連服務費），人均 HK$459",
-        "生蠔、蟹腳、麵包蟹輪流供應",
-        "用餐日期 9/18 至 10/11，開售期至 9/23",
-        "彌敦道核心地段，佐敦站直達",
-        "以 Klook 頁面價格及可訂日期為準"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
-      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
-      "sourceUrl": "https://www.runhotel.hk/?p=160041",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "佐敦",
-        "海鮮"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-goldcoast-cafelagoon-bbq-20260919",
-      "category": "dining",
-      "title": "「燒烤百味盛宴」自助晚餐，買 1 位＋第 2 位 HK$12，人均 HK$412",
-      "subtitle": "屯門黃金海岸酒店 聆渢咖啡廳 · 海景燒烤陣",
-      "venue": "聆渢咖啡廳 Café Lagoon · 屯門青山公路─青山灣段 1 號黃金海岸酒店 1 樓",
-      "priceLabel": "Klook 買1位＋第2位 HK$12：自助晚餐 2 位 HK$824（人均 HK$412，已連服務費）",
-      "priceValue": 412,
-      "originalLabel": "另設買一送一 2 位 HK$886（人均 HK$443）及 3 位 HK$1,174（人均 HK$392）",
-      "discountPct": 50,
-      "endsAt": "2026-09-23T23:59:00+08:00",
-      "period": "快閃開售 2026-09-17 21:00 至 09-23；用餐日期 2026-09-18 至 10-31",
-      "summary": "屯門黃金海岸酒店聆渢咖啡廳「燒烤百味盛宴」自助晚餐經 Klook 快閃：買 1 位＋第 2 位 HK$12，2 位 HK$824 連服務費、人均 HK$412。炭燒封門柳、紅酒燴牛尾、德州煙燻和牛胸肉，週末仲有脆皮烤乳豬同美式燒烤豬仔髀。",
-      "highlights": [
-        "買1位＋第2位 HK$12：2 位 HK$824（已連服務費），人均 HK$412",
-        "炭燒封門柳、麥皮虎蝦（每位 1 隻）、紅酒燴牛尾、迷你關東煮",
-        "週五至日及假期加供脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀、台灣香腸",
-        "開售期至 9/23，用餐日期去到 10/31",
-        "以 Klook 頁面價格及可訂日期為準"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
-      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
-      "sourceUrl": "https://www.runhotel.hk/?p=160041",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "屯門",
-        "燒烤"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-crowneplaza-suncafe-bogo-20260922",
-      "category": "dining",
-      "title": "尚廚自助餐買一送一，下午茶人均 HK$161（連加一）",
-      "subtitle": "將軍澳九龍東皇冠假日酒店 · 國慶中秋都用得",
-      "venue": "尚廚 The Chef's Table · 將軍澳唐德街 3 號香港九龍東皇冠假日酒店（將軍澳站）",
-      "priceLabel": "01空間 買1送1（連加一服務費）：週末下午茶 2 位 HK$322（人均 HK$161）；平日自助午餐 2 位 HK$418（人均 HK$209）；平日自助晚餐 2 位 HK$718（人均 HK$359）",
-      "priceValue": 161,
-      "originalLabel": "下午茶原價 HK$589.6／2 位；平日午餐原價 HK$765.6／2 位；平日晚餐原價 HK$1,315.6／2 位",
-      "discountPct": 50,
-      "endsAt": "2026-09-23T23:59:00+08:00",
-      "period": "01空間 開售 2026-09-17 11:00 至 09-23 23:59；兌換日期 2026-09-18 至 10-31（中秋及國慶期間適用）；每日每時段 10 個名額",
-      "summary": "將軍澳九龍東皇冠假日酒店尚廚經 01空間 推買一送一快閃：週末下午茶自助餐 2 位 HK$322、人均 HK$161 已連加一；自助午餐平日人均 HK$209、晚餐人均 HK$359。任食生蠔、松葉蟹腳，10 月有鮑魚盛『燕』下午茶主題，中秋國慶都用得。",
-      "highlights": [
-        "週末下午茶買1送1：2 位 HK$322，人均 HK$161（已連加一）",
-        "自助午餐買1送1：平日 2 位 HK$418、週末 HK$466（人均 HK$209／HK$233）",
-        "自助晚餐買1送1：平日 2 位 HK$718、週末 HK$766（人均 HK$359／HK$383）",
-        "生蠔、松葉蟹腳、Haagen-Dazs 雪糕、開心果巴斯克芝士蛋糕",
-        "每日每時段僅 10 個名額；開售期至 9/23 23:59，以 01空間 頁面為準"
-      ],
-      "url": "https://space.hk01.com/event/643e49e8a3b64b001808e92e/",
-      "sourceLabel": "01空間活動頁 · 香港01 報導",
-      "sourceUrl": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/60276673/%E8%87%AA%E5%8A%A9%E9%A4%90%E5%84%AA%E6%83%A0%E8%B2%B71%E9%80%811-%E5%9C%8B%E6%85%B6%E4%B8%AD%E7%A7%8B%E9%81%A9%E7%94%A8-%E7%9A%87%E5%86%A0%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97-161%E8%B5%B7%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "將軍澳",
-        "下午茶"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-langham-foodgallery-flashsale-20260923",
-      "category": "dining",
-      "title": "尖沙咀朗廷酒店自助餐快閃 1 折，午餐 HK$100、晚餐 HK$160",
-      "subtitle": "香港朗廷酒店 · 尖沙咀北京道 · 今晚截單",
-      "venue": "The Food Gallery · 香港九龍尖沙咀北京道 8 號香港朗廷酒店（尖沙咀站 L5 出口）",
-      "priceLabel": "KKday 快閃 1 折（已包加一服務費）：自助午餐 HK$100／位（原價 HK$548）、自助晚餐 HK$160／位（原價 HK$878）；1 折名額售罄後可選買一送一：自助午餐 HK$598／2 位（人均 HK$299）、自助晚餐 HK$958／2 位（人均 HK$479）",
-      "priceValue": 100,
-      "originalLabel": "自助午餐原價 HK$548／位、自助晚餐原價 HK$878／位（另收原價加一服務費）",
-      "discountPct": 90,
-      "endsAt": "2026-09-23T23:59:00+08:00",
-      "period": "KKday 預訂期 2026-09-17 12:00 至 09-23 23:59（今晚截單）；用餐日期 2026-09-18 至 10-31；午餐星期一至五 12:00-14:30、星期六至日 11:30-15:00；晚餐 18:00-22:00",
-      "summary": "尖沙咀香港朗廷酒店 The Food Gallery 快閃 1 折：自助午餐 HK$100／位、自助晚餐 HK$160／位，已包加一服務費，即係約 9 折上再打一折。冰鎮海鮮有長腳蟹、麵包蟹、鮑魚、翡翠螺，熱盤有威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排，Mövenpick 雪糕任食。預訂期今晚 23:59 完結，名額有限售完即止。",
-      "highlights": [
-        "自助午餐 1 折 HK$100／位（原價 HK$548，已包加一）",
-        "自助晚餐 1 折 HK$160／位（原價 HK$878，已包加一）",
-        "1 折售罄可改買一送一：午餐人均 HK$299、晚餐人均 HK$479",
-        "冰鎮海鮮：長腳蟹、麵包蟹、鮑魚、翡翠螺、凍熟蝦",
-        "招牌熱盤：威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排、Mövenpick 雪糕",
-        "預訂期至 2026-09-23 23:59，用餐日期至 10-31；小童及長者不適用折扣"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/101140",
-      "sourceLabel": "myTV SUPER 東張+ · KKday 產品頁",
-      "sourceUrl": "https://www.mytvsuper.com/sc/scoopplus/lifestyle/jetso/17895455890966/",
-      "tags": [
-        "酒店自助餐",
-        "1折",
-        "快閃",
-        "尖沙咀",
-        "買一送一"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "flight-wingon-visa-flatprice-20260912",
-      "category": "flight",
-      "title": "永安 App 一口價：台北來回連稅 HK$600 起，逢週四準時開搶",
-      "subtitle": "Visa 尊享機票一口價 · App 限定",
-      "route": "香港出發 · 東京／大阪／台北／首爾／曼谷／悉尼",
-      "priceLabel": "台北／曼谷 HK$600 · 首爾 HK$800 · 東京／大阪 HK$999（來回連稅一口價）",
-      "priceValue": 600,
-      "originalLabel": "悉尼一口價 HK$1,999（名額 20 個）",
-      "endsAt": "2026-09-24T15:00:00+08:00",
-      "period": "開搶日程：9/17（四）11:00 台北 HK$600（100 名額）、15:00 首爾 HK$800（80 名額）；9/24（四）11:00 曼谷 HK$600（80 名額）、15:00 東京 HK$999（80 名額）；旅行日期：至 2027-03-31 指定日子",
-      "summary": "永安旅遊 9 月逢星期四 11:00 及 15:00 分兩輪開搶「Visa 尊享機票一口價」：台北／曼谷來回連稅 HK$600、首爾 HK$800、東京／大阪 HK$999、悉尼 HK$1,999，名額有限先到先得，出行日期覆蓋至 2027 年 3 月底。",
-      "highlights": [
-        "只限永安旅遊手機 App 下單（須更新至 13.8 或以上）並登入會員帳戶",
-        "須以香港或澳門發行的有效 Visa 卡付款",
-        "每名會員限用優惠一次，每張訂單最多 1 名成人；不可與其他優惠同用",
-        "一口價不包括付費行李，加購須另付款",
-        "下一輪：9/17 台北 $600、首爾 $800——記得預先填好旅客資料再搶"
-      ],
-      "url": "https://hk.wingontravel.com/4xpND3I",
-      "sourceLabel": "永安旅遊優惠頁 · MeetHK 報導",
-      "sourceUrl": "https://www.meethk.com/?p=category%2Fflight%2Feurope",
-      "tags": [
-        "機票特價",
-        "一口價",
-        "週四開搶"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-conrad-gardencafe-bogo-20260921",
       "category": "dining",
@@ -225,7 +52,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -260,7 +87,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -295,7 +122,9 @@
         "和牛"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -330,8 +159,8 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-foodstudio-midautumn-20260915",
@@ -365,8 +194,8 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-lemenu-wanchai-autumn-20260919",
@@ -400,8 +229,8 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-chaoguoxian-tst-hotpot-20260923",
@@ -434,8 +263,10 @@
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-congress-plus-hkcec-bogo-20260919",
@@ -469,7 +300,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -504,7 +335,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -536,7 +367,7 @@
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -571,7 +402,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -607,7 +438,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -639,7 +470,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -674,7 +505,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -708,7 +539,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -743,7 +574,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -778,7 +609,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -812,7 +643,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -847,7 +678,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -882,7 +713,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -917,7 +748,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -948,7 +779,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -979,7 +810,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -1010,7 +841,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -1040,7 +871,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -1075,7 +906,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -1110,7 +941,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 86,
+      "daysLeft": 85,
       "status": "active"
     },
     {
@@ -1640,6 +1471,181 @@
         "買一送一",
         "尖沙咀",
         "東南亞"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-eaton-astor-bogo-20260919",
+      "category": "dining",
+      "title": "The Astor 自助晚餐買一送一，人均 HK$459（已連服務費）",
+      "subtitle": "佐敦逸東酒店 普慶餐廳 · 生蠔蟹腳海鮮陣",
+      "venue": "普慶餐廳 The Astor · 佐敦彌敦道 380 號逸東酒店 1 樓（佐敦站 B1 出口）",
+      "priceLabel": "Klook 買1送1 自助晚餐 2 位 HK$918（人均 HK$459，已連服務費）",
+      "priceValue": 459,
+      "originalLabel": "原價以 Klook 結帳頁為準",
+      "discountPct": 50,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "快閃開售 2026-09-17 12:00 至 09-23；用餐日期 2026-09-18 至 10-11",
+      "summary": "佐敦逸東酒店普慶餐廳 The Astor 自助晚餐經 Klook 買一送一：2 位 HK$918 連服務費，人均 HK$459。任食生蠔、蟹腳、麵包蟹等冰鎮海鮮，用得日期去到 10 月 11 日。",
+      "highlights": [
+        "買1送1 自助晚餐 2 位 HK$918（已連服務費），人均 HK$459",
+        "生蠔、蟹腳、麵包蟹輪流供應",
+        "用餐日期 9/18 至 10/11，開售期至 9/23",
+        "彌敦道核心地段，佐敦站直達",
+        "以 Klook 頁面價格及可訂日期為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "佐敦",
+        "海鮮"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-goldcoast-cafelagoon-bbq-20260919",
+      "category": "dining",
+      "title": "「燒烤百味盛宴」自助晚餐，買 1 位＋第 2 位 HK$12，人均 HK$412",
+      "subtitle": "屯門黃金海岸酒店 聆渢咖啡廳 · 海景燒烤陣",
+      "venue": "聆渢咖啡廳 Café Lagoon · 屯門青山公路─青山灣段 1 號黃金海岸酒店 1 樓",
+      "priceLabel": "Klook 買1位＋第2位 HK$12：自助晚餐 2 位 HK$824（人均 HK$412，已連服務費）",
+      "priceValue": 412,
+      "originalLabel": "另設買一送一 2 位 HK$886（人均 HK$443）及 3 位 HK$1,174（人均 HK$392）",
+      "discountPct": 50,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "快閃開售 2026-09-17 21:00 至 09-23；用餐日期 2026-09-18 至 10-31",
+      "summary": "屯門黃金海岸酒店聆渢咖啡廳「燒烤百味盛宴」自助晚餐經 Klook 快閃：買 1 位＋第 2 位 HK$12，2 位 HK$824 連服務費、人均 HK$412。炭燒封門柳、紅酒燴牛尾、德州煙燻和牛胸肉，週末仲有脆皮烤乳豬同美式燒烤豬仔髀。",
+      "highlights": [
+        "買1位＋第2位 HK$12：2 位 HK$824（已連服務費），人均 HK$412",
+        "炭燒封門柳、麥皮虎蝦（每位 1 隻）、紅酒燴牛尾、迷你關東煮",
+        "週五至日及假期加供脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀、台灣香腸",
+        "開售期至 9/23，用餐日期去到 10/31",
+        "以 Klook 頁面價格及可訂日期為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
+      "sourceLabel": "Klook 產品頁 · RunHotel 自助餐買一送一合集（9/15 更新）",
+      "sourceUrl": "https://www.runhotel.hk/?p=160041",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "屯門",
+        "燒烤"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-crowneplaza-suncafe-bogo-20260922",
+      "category": "dining",
+      "title": "尚廚自助餐買一送一，下午茶人均 HK$161（連加一）",
+      "subtitle": "將軍澳九龍東皇冠假日酒店 · 國慶中秋都用得",
+      "venue": "尚廚 The Chef's Table · 將軍澳唐德街 3 號香港九龍東皇冠假日酒店（將軍澳站）",
+      "priceLabel": "01空間 買1送1（連加一服務費）：週末下午茶 2 位 HK$322（人均 HK$161）；平日自助午餐 2 位 HK$418（人均 HK$209）；平日自助晚餐 2 位 HK$718（人均 HK$359）",
+      "priceValue": 161,
+      "originalLabel": "下午茶原價 HK$589.6／2 位；平日午餐原價 HK$765.6／2 位；平日晚餐原價 HK$1,315.6／2 位",
+      "discountPct": 50,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "01空間 開售 2026-09-17 11:00 至 09-23 23:59；兌換日期 2026-09-18 至 10-31（中秋及國慶期間適用）；每日每時段 10 個名額",
+      "summary": "將軍澳九龍東皇冠假日酒店尚廚經 01空間 推買一送一快閃：週末下午茶自助餐 2 位 HK$322、人均 HK$161 已連加一；自助午餐平日人均 HK$209、晚餐人均 HK$359。任食生蠔、松葉蟹腳，10 月有鮑魚盛『燕』下午茶主題，中秋國慶都用得。",
+      "highlights": [
+        "週末下午茶買1送1：2 位 HK$322，人均 HK$161（已連加一）",
+        "自助午餐買1送1：平日 2 位 HK$418、週末 HK$466（人均 HK$209／HK$233）",
+        "自助晚餐買1送1：平日 2 位 HK$718、週末 HK$766（人均 HK$359／HK$383）",
+        "生蠔、松葉蟹腳、Haagen-Dazs 雪糕、開心果巴斯克芝士蛋糕",
+        "每日每時段僅 10 個名額；開售期至 9/23 23:59，以 01空間 頁面為準"
+      ],
+      "url": "https://space.hk01.com/event/643e49e8a3b64b001808e92e/",
+      "sourceLabel": "01空間活動頁 · 香港01 報導",
+      "sourceUrl": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/60276673/%E8%87%AA%E5%8A%A9%E9%A4%90%E5%84%AA%E6%83%A0%E8%B2%B71%E9%80%811-%E5%9C%8B%E6%85%B6%E4%B8%AD%E7%A7%8B%E9%81%A9%E7%94%A8-%E7%9A%87%E5%86%A0%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97-161%E8%B5%B7%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "將軍澳",
+        "下午茶"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-langham-foodgallery-flashsale-20260923",
+      "category": "dining",
+      "title": "尖沙咀朗廷酒店自助餐快閃 1 折，午餐 HK$100、晚餐 HK$160",
+      "subtitle": "香港朗廷酒店 · 尖沙咀北京道 · 今晚截單",
+      "venue": "The Food Gallery · 香港九龍尖沙咀北京道 8 號香港朗廷酒店（尖沙咀站 L5 出口）",
+      "priceLabel": "KKday 快閃 1 折（已包加一服務費）：自助午餐 HK$100／位（原價 HK$548）、自助晚餐 HK$160／位（原價 HK$878）；1 折名額售罄後可選買一送一：自助午餐 HK$598／2 位（人均 HK$299）、自助晚餐 HK$958／2 位（人均 HK$479）",
+      "priceValue": 100,
+      "originalLabel": "自助午餐原價 HK$548／位、自助晚餐原價 HK$878／位（另收原價加一服務費）",
+      "discountPct": 90,
+      "endsAt": "2026-09-23T23:59:00+08:00",
+      "period": "KKday 預訂期 2026-09-17 12:00 至 09-23 23:59（今晚截單）；用餐日期 2026-09-18 至 10-31；午餐星期一至五 12:00-14:30、星期六至日 11:30-15:00；晚餐 18:00-22:00",
+      "summary": "尖沙咀香港朗廷酒店 The Food Gallery 快閃 1 折：自助午餐 HK$100／位、自助晚餐 HK$160／位，已包加一服務費，即係約 9 折上再打一折。冰鎮海鮮有長腳蟹、麵包蟹、鮑魚、翡翠螺，熱盤有威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排，Mövenpick 雪糕任食。預訂期今晚 23:59 完結，名額有限售完即止。",
+      "highlights": [
+        "自助午餐 1 折 HK$100／位（原價 HK$548，已包加一）",
+        "自助晚餐 1 折 HK$160／位（原價 HK$878，已包加一）",
+        "1 折售罄可改買一送一：午餐人均 HK$299、晚餐人均 HK$479",
+        "冰鎮海鮮：長腳蟹、麵包蟹、鮑魚、翡翠螺、凍熟蝦",
+        "招牌熱盤：威靈頓牛柳、斧頭扒、烤阿根廷沙朗牛排、Mövenpick 雪糕",
+        "預訂期至 2026-09-23 23:59，用餐日期至 10-31；小童及長者不適用折扣"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/101140",
+      "sourceLabel": "myTV SUPER 東張+ · KKday 產品頁",
+      "sourceUrl": "https://www.mytvsuper.com/sc/scoopplus/lifestyle/jetso/17895455890966/",
+      "tags": [
+        "酒店自助餐",
+        "1折",
+        "快閃",
+        "尖沙咀",
+        "買一送一"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-wingon-visa-flatprice-20260912",
+      "category": "flight",
+      "title": "永安 App 一口價：台北來回連稅 HK$600 起，逢週四準時開搶",
+      "subtitle": "Visa 尊享機票一口價 · App 限定",
+      "route": "香港出發 · 東京／大阪／台北／首爾／曼谷／悉尼",
+      "priceLabel": "台北／曼谷 HK$600 · 首爾 HK$800 · 東京／大阪 HK$999（來回連稅一口價）",
+      "priceValue": 600,
+      "originalLabel": "悉尼一口價 HK$1,999（名額 20 個）",
+      "endsAt": "2026-09-24T15:00:00+08:00",
+      "period": "開搶日程：9/17（四）11:00 台北 HK$600（100 名額）、15:00 首爾 HK$800（80 名額）；9/24（四）11:00 曼谷 HK$600（80 名額）、15:00 東京 HK$999（80 名額）；旅行日期：至 2027-03-31 指定日子",
+      "summary": "永安旅遊 9 月逢星期四 11:00 及 15:00 分兩輪開搶「Visa 尊享機票一口價」：台北／曼谷來回連稅 HK$600、首爾 HK$800、東京／大阪 HK$999、悉尼 HK$1,999，名額有限先到先得，出行日期覆蓋至 2027 年 3 月底。",
+      "highlights": [
+        "只限永安旅遊手機 App 下單（須更新至 13.8 或以上）並登入會員帳戶",
+        "須以香港或澳門發行的有效 Visa 卡付款",
+        "每名會員限用優惠一次，每張訂單最多 1 名成人；不可與其他優惠同用",
+        "一口價不包括付費行李，加購須另付款",
+        "下一輪：9/17 台北 $600、首爾 $800——記得預先填好旅客資料再搶"
+      ],
+      "url": "https://hk.wingontravel.com/4xpND3I",
+      "sourceLabel": "永安旅遊優惠頁 · MeetHK 報導",
+      "sourceUrl": "https://www.meethk.com/?p=category%2Fflight%2Feurope",
+      "tags": [
+        "機票特價",
+        "一口價",
+        "週四開搶"
       ],
       "sample": false,
       "postedFacebook": true,

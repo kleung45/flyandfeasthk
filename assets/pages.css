@@ -1,0 +1,223 @@
+/* 內頁樣式（優惠詳情頁、分類頁、攻略頁、合規頁）。
+   沿用 assets/style.css 的 CSS 變數與既有元件，只補內頁需要的版式。 */
+
+/* ---------- 內頁共用 ---------- */
+.page-main { padding: 28px 0 8px; }
+
+.crumb {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  font-size: 13px; color: var(--muted); padding: 18px 0 0;
+}
+.crumb a { color: var(--muted); }
+.crumb a:hover { color: var(--accent); }
+.crumb span[aria-hidden] { color: var(--line-strong); }
+
+.page-head { padding: 18px 0 6px; }
+.page-head h1 { font-size: 27px; max-width: 780px; }
+.page-head .page-sub { margin-top: 10px; color: var(--muted); max-width: 780px; }
+.page-lede { margin-top: 12px; max-width: 780px; color: var(--text); }
+
+.page-meta {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px;
+  font-size: 13px; color: var(--muted);
+}
+.page-meta b { font-weight: 700; color: var(--text); }
+
+.section-h2 {
+  font-size: 19px; margin: 34px 0 14px;
+  display: flex; align-items: center; gap: 8px;
+}
+.section-h2::after {
+  content: ""; flex: 1; height: 1px; background: var(--line);
+}
+
+.section-note { font-size: 13px; color: var(--muted); margin: -6px 0 14px; }
+
+/* ---------- 優惠詳情頁 ---------- */
+.deal-hero {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 24px; margin-top: 20px;
+}
+.deal-hero h1 { font-size: 26px; }
+.deal-hero .lede-line { margin-top: 10px; color: var(--muted); }
+
+.deal-facts {
+  display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 20px; padding-top: 18px; border-top: 1px dashed var(--line);
+}
+.deal-fact { display: flex; flex-direction: column; gap: 3px; }
+.deal-fact dt { font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+.deal-fact dd { margin: 0; font-size: 14px; line-height: 1.5; }
+
+.price-panel {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px;
+  background: var(--accent-soft); border: 1px solid #F6D3D3;
+  border-radius: var(--radius-sm); padding: 14px 16px; margin-top: 18px;
+}
+.price-panel .p-now { font-size: 19px; font-weight: 700; color: var(--accent-dark); }
+.price-panel .p-was { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+.price-panel .p-save {
+  font-size: 12px; font-weight: 700; color: #fff; background: var(--accent);
+  border-radius: 999px; padding: 3px 10px;
+}
+.price-panel .p-note { flex-basis: 100%; font-size: 12px; color: var(--muted); }
+
+.editorial {
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-left: 3px solid var(--teal); border-radius: var(--radius-sm);
+  padding: 20px 22px; margin-top: 22px;
+}
+.editorial > h2 { font-size: 17px; display: flex; align-items: center; gap: 8px; }
+.editorial .ed-cat { font-size: 12px; font-weight: 400; color: var(--muted); }
+.editorial h3 {
+  font-size: 14px; margin: 18px 0 6px; color: var(--teal);
+  display: flex; align-items: center; gap: 7px;
+}
+.editorial h3::before {
+  content: ""; width: 5px; height: 5px; border-radius: 50%;
+  background: var(--teal); flex: none;
+}
+.editorial p { font-size: 14px; color: #3A3D44; margin-bottom: 8px; }
+.editorial ul { margin: 6px 0 0; padding-left: 20px; }
+.editorial li { font-size: 14px; color: #3A3D44; margin-bottom: 5px; }
+.editorial .ed-foot {
+  margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--line);
+  font-size: 12px; color: var(--muted); font-style: normal;
+}
+
+.terms-box {
+  background: var(--amber-soft); border: 1px solid #F1DFC4;
+  border-radius: var(--radius-sm); padding: 18px 20px; margin-top: 22px;
+}
+.terms-box h2 { font-size: 16px; color: #8A5A00; }
+.terms-box dl { margin: 12px 0 0; }
+.terms-box dt { font-size: 12px; color: #8A5A00; margin-top: 10px; letter-spacing: .02em; }
+.terms-box dd { margin: 2px 0 0; font-size: 14px; color: #4A3A12; }
+
+.deal-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.deal-actions .link-btn {
+  display: inline-block; padding: 11px 20px; border-radius: 999px;
+  background: var(--accent); color: #fff; font-weight: 700; font-size: 14px;
+}
+.deal-actions .link-btn:hover { background: var(--accent-dark); }
+.deal-actions .btn-ghost {
+  display: inline-block; padding: 11px 20px; border-radius: 999px;
+  border: 1px solid var(--line-strong); font-weight: 700; font-size: 14px; color: var(--text);
+}
+.deal-actions .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+.source-block {
+  margin-top: 20px; padding: 14px 16px; background: var(--gray-soft);
+  border-radius: var(--radius-sm); font-size: 13px; color: var(--muted);
+}
+.source-block a { color: var(--blue); word-break: break-all; }
+
+/* ---------- 卡片格內的相關優惠 ---------- */
+.related .grid { margin-top: 0; }
+.related .card { display: flex; flex-direction: column; }
+.related .card h3 { font-size: 15px; }
+.related .card h3 a:hover { color: var(--accent); }
+
+/* ---------- 分類頁 ---------- */
+.cat-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.cat-nav a {
+  border: 1px solid var(--line-strong); border-radius: 999px;
+  padding: 7px 15px; font-size: 13px; font-weight: 700; color: var(--text);
+  background: var(--surface);
+}
+.cat-nav a:hover { border-color: var(--accent); color: var(--accent); }
+.cat-nav a.is-current { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.rank-list { display: grid; gap: 12px; margin-top: 4px; }
+.rank-item {
+  display: flex; gap: 14px; align-items: flex-start;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); padding: 14px 16px;
+}
+.rank-no {
+  flex: none; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--accent-soft); color: var(--accent-dark);
+  font-size: 13px; font-weight: 700; display: grid; place-items: center;
+}
+.rank-body h3 { font-size: 15px; }
+.rank-body h3 a:hover { color: var(--accent); }
+.rank-body .rank-meta { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.rank-body .rank-why { font-size: 13px; color: #3A3D44; margin-top: 6px; }
+
+/* ---------- 攻略頁 ---------- */
+.guide-card-grid {
+  display: grid; gap: 14px; margin-top: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.guide-card {
+  display: flex; flex-direction: column; gap: 8px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow);
+}
+.guide-card .g-ico { font-size: 24px; line-height: 1; }
+.guide-card h3 { font-size: 17px; }
+.guide-card h3 a:hover { color: var(--accent); }
+.guide-card p { font-size: 14px; color: var(--muted); }
+.guide-card .g-foot { font-size: 12px; color: var(--muted); margin-top: auto; }
+
+.prose { max-width: 780px; }
+.prose h2 { font-size: 20px; margin: 30px 0 12px; }
+.prose h3 { font-size: 16px; margin: 22px 0 8px; }
+.prose p { margin-bottom: 12px; }
+.prose ul, .prose ol { margin: 0 0 14px; padding-left: 22px; }
+.prose li { margin-bottom: 7px; }
+.prose li strong { font-weight: 700; }
+.prose table { width: 100%; border-collapse: collapse; margin: 8px 0 18px; font-size: 14px; }
+.prose th, .prose td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.prose th { background: var(--gray-soft); font-size: 13px; }
+
+.callout {
+  background: var(--blue-soft); border: 1px solid #CFDCFB;
+  border-radius: var(--radius-sm); padding: 16px 18px; margin: 16px 0;
+  font-size: 14px;
+}
+.callout strong { display: block; margin-bottom: 4px; }
+
+/* ---------- 合規頁 ---------- */
+.legal { max-width: 820px; }
+.legal h2 { font-size: 18px; margin: 28px 0 10px; }
+.legal h3 { font-size: 15px; margin: 18px 0 6px; }
+.legal p, .legal li { font-size: 14px; color: #3A3D44; margin-bottom: 10px; }
+.legal ul { padding-left: 22px; }
+.legal .updated-line { font-size: 13px; color: var(--muted); }
+.legal table { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 13px; }
+.legal th, .legal td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.legal th { background: var(--gray-soft); }
+
+.contact-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); margin-top: 16px;
+}
+.contact-card dl { margin: 0; }
+.contact-card dt { font-size: 12px; color: var(--muted); margin-top: 14px; }
+.contact-card dt:first-child { margin-top: 0; }
+.contact-card dd { margin: 3px 0 0; font-size: 15px; font-weight: 700; }
+.contact-card dd a { color: var(--blue); word-break: break-all; }
+
+@media (max-width: 720px) {
+  .page-head h1 { font-size: 22px; }
+  .deal-hero { padding: 18px; }
+  .deal-hero h1 { font-size: 21px; }
+  .editorial { padding: 16px 17px; }
+}
+
+/* 手機版保留站內導覽：style.css 在 900px 以下會隱藏 .nav，
+   但審核與爬蟲都需要完整的站內連結，所以改為可橫向滑動。 */
+@media (max-width: 900px) {
+  .site-header .nav {
+    display: flex; flex-wrap: nowrap; gap: 16px;
+    font-size: 13px; overflow-x: auto;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .site-header .nav::-webkit-scrollbar { display: none; }
+  .site-header .nav a { white-space: nowrap; }
+  .header-inner { gap: 14px; }
+  .brand-text { flex: none; }
+}

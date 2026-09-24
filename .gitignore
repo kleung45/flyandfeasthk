@@ -8,6 +8,9 @@ pipeline/engage_log.jsonl
 # 每日抓取的原始結果（暫存，可重新抓取）
 pipeline/raw/*.json
 
+# 智能體工作紀錄（內部筆記，不應隨網站公開）
+.workbuddy/
+
 # 系統檔案
 .DS_Store
 Thumbs.db

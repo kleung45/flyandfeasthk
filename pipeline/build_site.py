@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -128,18 +129,15 @@ def render_card(deal: dict) -> str:
         share = f'<button class="icon-btn" type="button" data-share="{esc(deal["id"])}">分享</button>'
 
     if deal.get("status") == "expired":
-        cta = '<span class="period">優惠已結束</span>'
+        cta = f'<a class="link-btn" href="deals/{esc(deal["id"])}/">睇紀錄 →</a>'
     else:
-        # 商戶外流連結為聯盟／推廣性質，按 Google 建議標記 rel="sponsored"
-        cta = (
-            f'<a class="link-btn" href="{esc(deal.get("url") or "#")}"'
-            ' target="_blank" rel="noopener sponsored">查看優惠 →</a>'
-        )
+        cta = f'<a class="link-btn" href="deals/{esc(deal["id"])}/">睇詳情與條款 →</a>'
 
     return (
         f'<article class="{cls}" data-id="{esc(deal["id"])}">'
         f'<div class="card-top">{badges}{card_sticker(deal.get("category", ""))}</div>'
-        f'<h3>{esc(deal.get("title"))}</h3>'
+        # 標題連到站內詳情頁，令預渲染 HTML 本身就帶有完整內部連結
+        f'<h3><a href="deals/{esc(deal["id"])}/">{esc(deal.get("title"))}</a></h3>'
         + (f'<p class="sub">{esc(deal["subtitle"])}</p>' if deal.get("subtitle") else "")
         + (f'<p class="route">{esc(route)}</p>' if route else "")
         + '<div class="price-row">'
@@ -494,6 +492,18 @@ def main() -> int:
     write_sitemap(meta)
     inject_ga4(meta)
     inject_gtm(meta)
+
+    # 多頁內容：優惠詳情頁、分類頁、攻略頁、合規頁。
+    # 這裡產生的 sitemap.xml 會覆蓋上面那份，收錄全部子頁 URL。
+    # 匯入失敗（例如檔案被誤刪）只提示，不中斷每日建置。
+    try:
+        if str(ROOT) not in sys.path:
+            sys.path.insert(0, str(ROOT))
+        import build_pages  # noqa: PLC0415  同目錄模組，需先加入 sys.path
+
+        build_pages.build_all(meta, deals)
+    except Exception as exc:  # noqa: BLE001  任何失敗都不應令每日流程中斷
+        print(f"  多頁內容產生失敗，已跳過：{type(exc).__name__}: {exc}")
 
     if warnings:
         print("\n提醒：")

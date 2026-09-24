@@ -1475,7 +1475,9 @@
         "尖沙咀",
         "買一送一"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-mrsteak-cwb-flashsale-20260923",
@@ -1508,7 +1510,9 @@
         "買一送一",
         "和牛"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-chaoguoxian-tst-hotpot-20260923",
@@ -1540,7 +1544,9 @@
         "尖沙咀",
         "海鮮"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }

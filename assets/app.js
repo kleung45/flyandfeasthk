@@ -68,9 +68,14 @@
       " " + pad(dt.getHours()) + ":" + pad(dt.getMinutes());
   }
 
+  function detailPath(id) {
+    return "/deals/" + encodeURIComponent(String(id)) + "/";
+  }
+
   function card(deal) {
     var cls = "card" + (deal.status === "expired" ? " is-expired" : "");
     var route = deal.route || deal.venue || "";
+    var detail = detailPath(deal.id);
     var badges = categoryBadge(deal.category) + statusBadge(deal);
     if (deal.sample) badges += '<span class="badge badge-sample">示範</span>';
 
@@ -98,13 +103,15 @@
       share = '<button class="icon-btn" type="button" data-share="' + esc(deal.id) + '">分享</button>';
     }
 
+    // 標題連到站內詳情頁，令站內連結保持完整；
+    // 外連（聯盟／推廣）留在詳情頁，並按搜尋引擎建議標示 rel="sponsored"。
     var cta = deal.status === "expired"
-      ? '<span class="period">優惠已結束</span>'
-      : '<a class="link-btn" href="' + esc(deal.url || "#") + '" target="_blank" rel="noopener sponsored">查看優惠 →</a>';
+      ? '<a class="link-btn" href="' + detail + '">睇紀錄 →</a>'
+      : '<a class="link-btn" href="' + detail + '">睇詳情與條款 →</a>';
 
     return '<article class="' + cls + '" data-id="' + esc(deal.id) + '">' +
       '<div class="card-top">' + badges + cardSticker(deal.category) + "</div>" +
-      "<h3>" + esc(deal.title) + "</h3>" +
+      '<h3><a href="' + detail + '">' + esc(deal.title) + "</a></h3>" +
       (deal.subtitle ? '<p class="sub">' + esc(deal.subtitle) + "</p>" : "") +
       (route ? '<p class="route">' + esc(route) + "</p>" : "") +
       '<div class="price-row">' +
@@ -189,7 +196,10 @@
       var id = btn.dataset.share;
       var deal = (data.deals || []).filter(function (d) { return d.id === id; })[0];
       if (!deal) return;
-      var url = deal.url || (data.meta && data.meta.siteUrl) || location.href;
+      // 分享站內詳情頁而非商戶外連，令流量回到自己網站（可被 GA4 追蹤）
+      var origin = (data.meta && data.meta.siteUrl) || location.origin;
+      var url = String(origin).replace(/\/$/, "") + detailPath(id) +
+        "?utm_source=share&utm_medium=social&utm_campaign=deal_share";
       var shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
       window.open(shareUrl, "_blank", "noopener,width=640,height=560");
     });
