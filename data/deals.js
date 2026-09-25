@@ -4,128 +4,55 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-24T21:42:46+08:00",
+    "updated": "2026-09-25T10:39:56+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-22T13:25:32+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
-      "total": 48,
+      "total": 51,
       "active": 27,
-      "ending": 7,
-      "expired": 21,
+      "ending": 9,
+      "expired": 24,
       "flight": 5,
-      "dining": 43,
+      "dining": 46,
       "hotel": 0
     }
   },
   "deals": [
     {
-      "id": "dining-conrad-gardencafe-bogo-20260921",
+      "id": "dining-platter-tuenmun-bogo-20260925",
       "category": "dining",
-      "title": "咖啡園自助午餐買一送一，人均 HK$299（已包加一）",
-      "subtitle": "金鐘港麗酒店 Garden Café · 樂聚廊下午茶買一送一人均 HK$215",
-      "venue": "咖啡園 Garden Café · 金鐘道 88 號太古廣場港麗酒店大堂低座（金鐘站 F 出口）",
-      "priceLabel": "KKday 買1送1：咖啡園自助午餐平日 2 位 HK$598（人均 HK$299，已包加一）／週末 2 位 HK$622（人均 HK$311）",
-      "priceValue": 299,
-      "originalLabel": "午餐原價 HK$548／位（已包括加一）；樂聚廊下午茶原價 HK$757／2 位",
+      "title": "屯門悅品酒店自助餐買一送一，人均 HK$84 起",
+      "subtitle": "屯門悅品度假酒店 · The Platter · 9/26 截單",
+      "venue": "The Platter · 香港屯門建豐街 4 號悅品度假酒店 · 屯門 2 樓",
+      "priceLabel": "買一送一 HK$168／2 位起（人均 HK$84 起，另收原價加一服務費）；龍蝦片皮鴨「海陸珍萃」晚餐人均 HK$269 起；方案涵蓋閒日半自助午餐、週末自助午餐、鮑魚海鮮半自助晚餐及中秋海陸盛宴",
+      "priceValue": 84,
+      "originalLabel": "原價以 KKday 產品頁公佈為準；另須現場支付每位原價加一服務費",
       "discountPct": 50,
-      "endsAt": "2026-09-24T23:59:00+08:00",
-      "period": "KKday 預訂期 2026-09-18 18:00 至 09-24 23:59；用餐日期 2026-09-19 至 11-30",
-      "summary": "金鐘港麗酒店咖啡園 Garden Café 自助午餐經 KKday 買一送一：平日 2 位 HK$598、週末 2 位 HK$622，已包加一服務費。冰鎮海鮮有鱈場蟹腳、海蝦、青口、蜆，配日式刺身壽司、即煮喇沙、燒西冷牛肉；樂聚廊「仲夏果韻」下午茶同樣買一送一，2 位 HK$430（人均 HK$215）。",
+      "endsAt": "2026-09-26T23:59:00+08:00",
+      "period": "KKday 開售即日起至 2026-09-26 23:59；使用日期至 10-30；每次需至少預訂 2 位",
+      "summary": "屯門悅品度假酒店 The Platter 買一送一：半自助午餐 HK$168／2 位、人均 HK$84 起，另收原價加一。升級龍蝦片皮鴨「海陸珍萃」晚餐人均 HK$269 起，中秋海陸盛宴同樣有份。開售期 9/26 截單，使用至 10/30。",
       "highlights": [
-        "咖啡園自助午餐買一送一：平日 2 位 HK$598（人均 HK$299，已包加一）",
-        "週末及公眾假期 2 位 HK$622（人均 HK$311）",
-        "樂聚廊「仲夏果韻」下午茶買一送一 2 位 HK$430（人均 HK$215，15:00–17:30）",
-        "海鮮焦點：鱈場蟹腳、海蝦、青口、蜆、日式刺身壽司、即煮馬來西亞叻沙",
-        "預訂期至 9/24 23:59，用餐日期去到 11/30；名額有限，以 KKday 頁面為準"
+        "閒日半自助午餐買一送一 HK$168／2 位，人均 HK$84 起",
+        "「海陸珍萃」龍蝦片皮鴨晚餐人均 HK$269 起",
+        "方案包括週末自助午餐、鮑魚海鮮半自助晚餐、中秋海陸盛宴",
+        "開售至 2026-09-26 23:59，使用日期至 10-30",
+        "PayMe 滿 HK$300 用碼 262PAY20 可再減 HK$20",
+        "每次至少 2 位起；另收原價加一，以 KKday 頁面為準"
       ],
-      "url": "https://www.kkday.com/zh-hk/product/135619",
-      "sourceLabel": "KKday 產品頁 · myTV SUPER 東張+ 及 U Food 報導（2026-09-18）",
-      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/3098019/",
+      "url": "https://sc-hk.ulifestyle.com.hk/activity/detail/20110710/",
+      "sourceLabel": "U Lifestyle 港生活 · KKday 2026 美食大賞",
+      "sourceUrl": "https://sc-hk.ulifestyle.com.hk/activity/detail/20110710/",
       "tags": [
         "酒店自助餐",
         "買一送一",
-        "金鐘",
-        "下午茶"
+        "屯門",
+        "龍蝦"
       ],
       "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-keewah-tearoom-bogo-20260922",
-      "category": "dining",
-      "title": "黯然銷魂飯買一送一，HK$108 食兩碗（人均約 $54）",
-      "subtitle": "灣仔奇華茶室 · 中秋限定晚市快閃四日",
-      "venue": "奇華茶室 · 灣仔皇后大道東 188 號 1 樓三級歷史建築（灣仔站 D 出口）",
-      "priceLabel": "買一送一：招牌黯然銷魂飯 HK$108／兩碗（人均約 HK$54，另收加一服務費）",
-      "priceValue": 54,
-      "originalLabel": "原價 HK$108／碗",
-      "discountPct": 50,
-      "endsAt": "2026-09-24T23:59:00+08:00",
-      "period": "推廣日期 2026-09-21 至 09-24，一連四日；晚市時段（晚上 6 時後至供應完畢）；堂食或外賣自取均可",
-      "summary": "灣仔奇華茶室中秋限定：招牌「黯然銷魂飯」晚市買一送一，HK$108 食兩碗、人均約 HK$54（另收加一）。厚切叉燒配流心太陽蛋，兩碗金黃荷包蛋啱啱湊成「雙黃」寓意圓滿。歷史建築內歎懷舊港味，唔使預早訂枱。",
-      "highlights": [
-        "招牌黯然銷魂飯買一送一：HK$108／兩碗，人均約 HK$54（另收加一）",
-        "每日新鮮出爐厚切叉燒＋流心太陽蛋",
-        "晚市 6 時後供應，堂食或外賣自取都得",
-        "灣仔三級歷史建築內，三十年代長廊式陽台打卡位",
-        "只到 9/24、數量有限售完即止；不可與其他優惠同用"
-      ],
-      "url": "https://www.stheadline.com/food/3616909/%E7%81%A3%E4%BB%94%E5%A5%87%E8%8F%AF%E8%8C%B6%E5%AE%A4%E4%B8%AD%E7%A7%8B%E9%99%90%E5%AE%9A%E9%BB%AF%E7%84%B6%E9%8A%B7%E9%AD%82%E9%A3%AF%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-%E4%B8%80%E9%80%A34%E6%97%A5%E6%99%9A%E5%B8%82%E4%BE%9B%E6%87%89",
-      "sourceLabel": "星島頭條報導（2026-09-19）",
-      "sourceUrl": "https://www.stheadline.com/food/3616909/%E7%81%A3%E4%BB%94%E5%A5%87%E8%8F%AF%E8%8C%B6%E5%AE%A4%E4%B8%AD%E7%A7%8B%E9%99%90%E5%AE%9A%E9%BB%AF%E7%84%B6%E9%8A%B7%E9%AD%82%E9%A3%AF%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-%E4%B8%80%E9%80%A34%E6%97%A5%E6%99%9A%E5%B8%82%E4%BE%9B%E6%87%89",
-      "tags": [
-        "餐廳優惠",
-        "買一送一",
-        "灣仔",
-        "港式"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-mrsteak-cwb-flashsale-20260923",
-      "category": "dining",
-      "title": "銅鑼灣 Mr.Steak 自助餐首位 1 折＋次位 6 折，人均 HK$144 起",
-      "subtitle": "銅鑼灣世貿中心 · 2.5 小時任食 · 10 月適用",
-      "venue": "Mr. Steak a la minute · 銅鑼灣告士打道 280 號世貿中心 6 樓",
-      "priceLabel": "第 1 位 1 折＋第 2 位 6 折：自助午餐 2 位 HK$287（人均 HK$144，星期一至五）／2 位 HK$357（人均 HK$179，週末及公眾假期）；自助晚餐 2 位 HK$392 起（人均 HK$196 起）、和牛龍蝦晚市 2 位 HK$469 起（人均 HK$235 起）。現場另收原價 10% 服務費",
-      "priceValue": 144,
-      "originalLabel": "原價以 KKday 產品頁公佈為準；優惠另加原價 10% 服務費",
-      "discountPct": 65,
-      "endsAt": "2026-09-24T23:59:00+08:00",
-      "period": "KKday 開售 2026-09-18 12:00 至 09-24 23:59；用餐日期 2026-10-02 至 10-31；午餐星期一至五 12:00-14:30、星期六至日及公眾假期 11:30-14:00；晚餐 17:00-19:00 及 19:30-22:00",
-      "summary": "銅鑼灣 Mr.Steak a la minute 入選 KKday 2026 美食大賞，加推自助餐第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐 2 位 HK$287、人均 HK$144，任食 2.5 小時。晚市升級場有日本和牛、龍蝦、雪花蟹腳、即開生蠔、煎鴨肝；週末午市加設即開生蠔、美國極黑牛鐵板燒同 Häagen-Dazs 雪糕。開售期至 9/24。",
-      "highlights": [
-        "第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐人均 HK$144",
-        "週末及公眾假期午餐人均 HK$179（加設即開生蠔、極黑牛鐵板燒）",
-        "自助晚餐 17:00 場人均 HK$196 起；19:30 和牛龍蝦盛宴人均 HK$235 起",
-        "招牌：雪花蟹腳、美國燒牛肉、煎鴨肝、傳情達意心太軟、牛乳布甸",
-        "開售期 2026-09-18 12:00 至 09-24 23:59，用餐日期 10-02 至 10-31",
-        "現場另收原價 10% 服務費；名額有限，以 KKday 頁面為準"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/279547",
-      "sourceLabel": "U Lifestyle 港生活 · KKday 產品頁",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20110406/",
-      "tags": [
-        "自助餐",
-        "銅鑼灣",
-        "1折",
-        "買一送一",
-        "和牛"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -160,7 +87,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -195,7 +122,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -230,7 +157,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -266,7 +193,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -301,8 +228,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-momocafe-shatin-flashsale-20260922",
@@ -336,8 +263,76 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
+    },
+    {
+      "id": "dining-lhotel-islandsouth-ion-bogo-20260925",
+      "category": "dining",
+      "title": "黃竹坑南灣如心酒店自助餐買一送一，人均 HK$239 起",
+      "subtitle": "黃竹坑南灣如心酒店 · I-O-N · 開售至 9/28",
+      "venue": "I-O-N · 香港香港仔黃竹坑道 55 號南灣如心酒店 P3 樓（黃竹坑站）",
+      "priceLabel": "買一送一 HK$478／2 位起（假日自助午餐人均 HK$239 起）、尋味牛饌自助晚餐人均 HK$293 起，已包加一服務費；每次需購買 2 位",
+      "priceValue": 239,
+      "originalLabel": "原價以 KKday 產品頁公佈為準；優惠價已包原價加一服務費",
+      "discountPct": 50,
+      "endsAt": "2026-09-28T23:59:00+08:00",
+      "period": "KKday 開售 2026-09-22 12:00 至 09-28 23:59；使用日期 2026-09-23 至 11-30；最早可預訂假日午餐日 09-26；假日自助午餐或自助晚餐適用",
+      "summary": "黃竹坑南灣如心酒店 I-O-N 買一送一：假日自助午餐 HK$478／2 位、人均 HK$239 起，晚餐人均 HK$293 起。冰鎮海鮮、招牌湯麵吧、東南亞美食任食，免費暢飲汽水。開售期至 9/28 23:59，使用期長至 11/30。",
+      "highlights": [
+        "假日自助午餐買一送一 HK$478／2 位，人均 HK$239 起",
+        "尋味牛饌自助晚餐人均 HK$293 起，避風塘炒牛小排、泰式船麵",
+        "冰鎮海鮮、招牌湯麵吧、東南亞美食，免費暢飲汽水",
+        "開售期 2026-09-22 12:00 至 09-28 23:59，使用至 11-30",
+        "建行（亞洲）信用卡滿 HK$450 用碼 26CCBA50 可再減 HK$50",
+        "每次需購買 2 位；菜式或有更改，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/158980",
+      "sourceLabel": "U Lifestyle 港生活 · KKday 產品頁",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20110783/",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "黃竹坑",
+        "Klook快閃"
+      ],
+      "sample": false,
+      "daysLeft": 3,
+      "status": "ending"
+    },
+    {
+      "id": "dining-chuangwongdian-crab-20260925",
+      "category": "dining",
+      "title": "茶皇殿阿拉斯加長腳蟹宴，首 2 位每位 HK$88",
+      "subtitle": "茶皇殿 9 分店 · 4 斤鮮活長腳蟹 · 人均低至 HK$157",
+      "venue": "茶皇殿（旺角／油塘／何文田／觀塘／葵涌／啟德／荃灣／土瓜灣）及茶皇漁港（屯門）",
+      "priceLabel": "首 2 位預訂每位 HK$88；6 位套餐 HK$1,020（人均 HK$170）、8 位套餐 HK$1,256（人均 HK$157）；另有 52 折方案 6 位人均 HK$198 起。現場另收茶芥及原價加一服務費",
+      "priceValue": 88,
+      "originalLabel": "原價以 KKday 產品頁公佈為準；現場另收茶芥及原價加一服務費",
+      "discountPct": 48,
+      "endsAt": "2026-09-28T23:59:00+08:00",
+      "period": "KKday 開售 2026-09-22 15:00 至 09-28 23:59；使用日期 2026-09-28 至 10-31；供應時間星期一至日早上 11 時起",
+      "summary": "連鎖酒樓茶皇殿推自撈鮮活阿拉斯加長腳蟹宴：足足 4 斤重長腳蟹清蒸或日式凍食，首 2 位每位 HK$88，6 位套餐人均 HK$170、8 位人均 HK$157。配金獎脆皮開邊乳鴿、薑蔥焗台山蠔、清蒸東星斑。全線 9 分店供應，開售期至 9/28。",
+      "highlights": [
+        "首 2 位預訂每位 HK$88，其餘 6 位享 5 折",
+        "6 位套餐人均 HK$170；8 位套餐人均 HK$157",
+        "4 斤鮮活阿拉斯加長腳蟹，即撈即蒸或日式凍食",
+        "配金獎經典脆皮開邊乳鴿、薑蔥焗台山蠔、清蒸東星斑",
+        "開售 2026-09-22 15:00 至 09-28 23:59，使用至 10-31",
+        "須足 6 位或 8 位使用；另收茶芥及原價加一，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/163725",
+      "sourceLabel": "星島頭條 · U Food · U Lifestyle",
+      "sourceUrl": "https://www.stheadline.com/food/3617790/",
+      "tags": [
+        "粵菜",
+        "長腳蟹",
+        "海鮮宴",
+        "多分店"
+      ],
+      "sample": false,
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-momocafe-shatin-20260910",
@@ -368,7 +363,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -403,7 +398,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -439,7 +434,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -471,7 +466,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -506,7 +501,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -540,7 +535,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -575,7 +570,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -610,7 +605,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -644,7 +639,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 37,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -679,7 +674,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 37,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -714,7 +709,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 37,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -749,7 +744,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 37,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -780,7 +775,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -811,7 +806,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -842,7 +837,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -872,7 +867,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -907,7 +902,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -942,7 +937,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 85,
+      "daysLeft": 84,
       "status": "active"
     },
     {
@@ -1647,6 +1642,113 @@ window.DEAL_DATA = {
         "機票特價",
         "一口價",
         "週四開搶"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-conrad-gardencafe-bogo-20260921",
+      "category": "dining",
+      "title": "咖啡園自助午餐買一送一，人均 HK$299（已包加一）",
+      "subtitle": "金鐘港麗酒店 Garden Café · 樂聚廊下午茶買一送一人均 HK$215",
+      "venue": "咖啡園 Garden Café · 金鐘道 88 號太古廣場港麗酒店大堂低座（金鐘站 F 出口）",
+      "priceLabel": "KKday 買1送1：咖啡園自助午餐平日 2 位 HK$598（人均 HK$299，已包加一）／週末 2 位 HK$622（人均 HK$311）",
+      "priceValue": 299,
+      "originalLabel": "午餐原價 HK$548／位（已包括加一）；樂聚廊下午茶原價 HK$757／2 位",
+      "discountPct": 50,
+      "endsAt": "2026-09-24T23:59:00+08:00",
+      "period": "KKday 預訂期 2026-09-18 18:00 至 09-24 23:59；用餐日期 2026-09-19 至 11-30",
+      "summary": "金鐘港麗酒店咖啡園 Garden Café 自助午餐經 KKday 買一送一：平日 2 位 HK$598、週末 2 位 HK$622，已包加一服務費。冰鎮海鮮有鱈場蟹腳、海蝦、青口、蜆，配日式刺身壽司、即煮喇沙、燒西冷牛肉；樂聚廊「仲夏果韻」下午茶同樣買一送一，2 位 HK$430（人均 HK$215）。",
+      "highlights": [
+        "咖啡園自助午餐買一送一：平日 2 位 HK$598（人均 HK$299，已包加一）",
+        "週末及公眾假期 2 位 HK$622（人均 HK$311）",
+        "樂聚廊「仲夏果韻」下午茶買一送一 2 位 HK$430（人均 HK$215，15:00–17:30）",
+        "海鮮焦點：鱈場蟹腳、海蝦、青口、蜆、日式刺身壽司、即煮馬來西亞叻沙",
+        "預訂期至 9/24 23:59，用餐日期去到 11/30；名額有限，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/135619",
+      "sourceLabel": "KKday 產品頁 · myTV SUPER 東張+ 及 U Food 報導（2026-09-18）",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/3098019/",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "金鐘",
+        "下午茶"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-keewah-tearoom-bogo-20260922",
+      "category": "dining",
+      "title": "黯然銷魂飯買一送一，HK$108 食兩碗（人均約 $54）",
+      "subtitle": "灣仔奇華茶室 · 中秋限定晚市快閃四日",
+      "venue": "奇華茶室 · 灣仔皇后大道東 188 號 1 樓三級歷史建築（灣仔站 D 出口）",
+      "priceLabel": "買一送一：招牌黯然銷魂飯 HK$108／兩碗（人均約 HK$54，另收加一服務費）",
+      "priceValue": 54,
+      "originalLabel": "原價 HK$108／碗",
+      "discountPct": 50,
+      "endsAt": "2026-09-24T23:59:00+08:00",
+      "period": "推廣日期 2026-09-21 至 09-24，一連四日；晚市時段（晚上 6 時後至供應完畢）；堂食或外賣自取均可",
+      "summary": "灣仔奇華茶室中秋限定：招牌「黯然銷魂飯」晚市買一送一，HK$108 食兩碗、人均約 HK$54（另收加一）。厚切叉燒配流心太陽蛋，兩碗金黃荷包蛋啱啱湊成「雙黃」寓意圓滿。歷史建築內歎懷舊港味，唔使預早訂枱。",
+      "highlights": [
+        "招牌黯然銷魂飯買一送一：HK$108／兩碗，人均約 HK$54（另收加一）",
+        "每日新鮮出爐厚切叉燒＋流心太陽蛋",
+        "晚市 6 時後供應，堂食或外賣自取都得",
+        "灣仔三級歷史建築內，三十年代長廊式陽台打卡位",
+        "只到 9/24、數量有限售完即止；不可與其他優惠同用"
+      ],
+      "url": "https://www.stheadline.com/food/3616909/%E7%81%A3%E4%BB%94%E5%A5%87%E8%8F%AF%E8%8C%B6%E5%AE%A4%E4%B8%AD%E7%A7%8B%E9%99%90%E5%AE%9A%E9%BB%AF%E7%84%B6%E9%8A%B7%E9%AD%82%E9%A3%AF%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-%E4%B8%80%E9%80%A34%E6%97%A5%E6%99%9A%E5%B8%82%E4%BE%9B%E6%87%89",
+      "sourceLabel": "星島頭條報導（2026-09-19）",
+      "sourceUrl": "https://www.stheadline.com/food/3616909/%E7%81%A3%E4%BB%94%E5%A5%87%E8%8F%AF%E8%8C%B6%E5%AE%A4%E4%B8%AD%E7%A7%8B%E9%99%90%E5%AE%9A%E9%BB%AF%E7%84%B6%E9%8A%B7%E9%AD%82%E9%A3%AF%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0-%E4%B8%80%E9%80%A34%E6%97%A5%E6%99%9A%E5%B8%82%E4%BE%9B%E6%87%89",
+      "tags": [
+        "餐廳優惠",
+        "買一送一",
+        "灣仔",
+        "港式"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-mrsteak-cwb-flashsale-20260923",
+      "category": "dining",
+      "title": "銅鑼灣 Mr.Steak 自助餐首位 1 折＋次位 6 折，人均 HK$144 起",
+      "subtitle": "銅鑼灣世貿中心 · 2.5 小時任食 · 10 月適用",
+      "venue": "Mr. Steak a la minute · 銅鑼灣告士打道 280 號世貿中心 6 樓",
+      "priceLabel": "第 1 位 1 折＋第 2 位 6 折：自助午餐 2 位 HK$287（人均 HK$144，星期一至五）／2 位 HK$357（人均 HK$179，週末及公眾假期）；自助晚餐 2 位 HK$392 起（人均 HK$196 起）、和牛龍蝦晚市 2 位 HK$469 起（人均 HK$235 起）。現場另收原價 10% 服務費",
+      "priceValue": 144,
+      "originalLabel": "原價以 KKday 產品頁公佈為準；優惠另加原價 10% 服務費",
+      "discountPct": 65,
+      "endsAt": "2026-09-24T23:59:00+08:00",
+      "period": "KKday 開售 2026-09-18 12:00 至 09-24 23:59；用餐日期 2026-10-02 至 10-31；午餐星期一至五 12:00-14:30、星期六至日及公眾假期 11:30-14:00；晚餐 17:00-19:00 及 19:30-22:00",
+      "summary": "銅鑼灣 Mr.Steak a la minute 入選 KKday 2026 美食大賞，加推自助餐第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐 2 位 HK$287、人均 HK$144，任食 2.5 小時。晚市升級場有日本和牛、龍蝦、雪花蟹腳、即開生蠔、煎鴨肝；週末午市加設即開生蠔、美國極黑牛鐵板燒同 Häagen-Dazs 雪糕。開售期至 9/24。",
+      "highlights": [
+        "第 1 位 1 折＋第 2 位 6 折：平日下午自助午餐人均 HK$144",
+        "週末及公眾假期午餐人均 HK$179（加設即開生蠔、極黑牛鐵板燒）",
+        "自助晚餐 17:00 場人均 HK$196 起；19:30 和牛龍蝦盛宴人均 HK$235 起",
+        "招牌：雪花蟹腳、美國燒牛肉、煎鴨肝、傳情達意心太軟、牛乳布甸",
+        "開售期 2026-09-18 12:00 至 09-24 23:59，用餐日期 10-02 至 10-31",
+        "現場另收原價 10% 服務費；名額有限，以 KKday 頁面為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/279547",
+      "sourceLabel": "U Lifestyle 港生活 · KKday 產品頁",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20110406/",
+      "tags": [
+        "自助餐",
+        "銅鑼灣",
+        "1折",
+        "買一送一",
+        "和牛"
       ],
       "sample": false,
       "postedFacebook": true,
