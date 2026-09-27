@@ -3,10 +3,10 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-22T13:25:32+08:00",
+    "updated": "2026-09-27T16:20:00+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-    "updatedAt": "2026-09-22T13:25:32+08:00",
+    "updatedAt": "2026-09-27T16:20:00+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS"
   },
@@ -1578,7 +1578,9 @@
         "黃竹坑",
         "Klook快閃"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-platter-tuenmun-bogo-20260925",
@@ -1610,7 +1612,9 @@
         "屯門",
         "龍蝦"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-chuangwongdian-crab-20260925",
@@ -1641,6 +1645,134 @@
         "長腳蟹",
         "海鮮宴",
         "多分店"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
+    },
+    {
+      "id": "dining-alexander-cafea-kingcrab-20260927",
+      "category": "dining",
+      "title": "北角歷山酒店帝王蟹×鮑魚盛宴，午餐人均低至 HK$230",
+      "subtitle": "阿拉斯加蟹腳＋磯燒鮑魚 · 連無限暢飲紅白酒啤酒 · 買 2 成人送 1 小童",
+      "venue": "北角歷山酒店大堂樓層 Café A",
+      "priceLabel": "週末自助午餐買 2 成人送 1 小童 HK$690/組（2 大 1 小，人均 HK$230，原價 HK$1,324/組）；週末自助晚餐同款 HK$1,053/組（人均 HK$351）；另設自助晚餐 65 折每位 HK$499。已連原價加一服務費",
+      "priceValue": 230,
+      "originalLabel": "原價 HK$1,324/組（午餐）至 HK$768/位（晚餐），已連服務費",
+      "discountPct": 48,
+      "endsAt": "2026-09-28T23:59:00+08:00",
+      "period": "KKday 開售 2026-09-22 18:00 至 09-28 23:59；使用日期 2026-10-01 至 10-31（週末自助餐；生日 5 送 1 方案壽星須當月享用）",
+      "summary": "北角歷山酒店 Café A 十月全新「阿拉斯加帝王蟹×鮑魚盛宴」自助餐，經 KKday 用優惠碼 SEPALXDRA／ALXDRA60，週末午餐買 2 成人送 1 小童人均低至 HK$230，晚餐人均 HK$351 或 65 折每位 HK$499，仲連無限暢飲紅白酒、啤酒同汽水果汁。預訂期只去到 9/28 23:59，手快有。",
+      "highlights": [
+        "週末自助午餐買 2 送 1 小童：HK$690/組，人均 HK$230（原價約 52 折）",
+        "週末自助晚餐買 2 送 1 小童：HK$1,053/組，人均 HK$351；或 65 折每位 HK$499",
+        "阿拉斯加蟹腳、鱈場蟹腳、磯燒鮑魚配三文魚籽、蟹肉焗蠔；晚市加碼香煎鴨肝及蜜汁燒焗羊肩",
+        "連無限暢飲紅白酒、啤酒、汽水及果汁",
+        "優惠碼 SEPALXDRA／ALXDRA60；開售期至 9/28 23:59，使用期 10/1–10/31"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/105552",
+      "sourceLabel": "U Lifestyle · KKday",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20110853/",
+      "tags": [
+        "自助餐",
+        "帝王蟹",
+        "鮑魚",
+        "買2送1",
+        "北角"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-hotelease-eatease-flash-20260927",
+      "category": "dining",
+      "title": "旭逸酒店荃灣快閃 56 折，半自助午餐 HK$98 一位",
+      "subtitle": "任食即開生蠔晚餐 55 折 HK$158 · 01空間限時快閃",
+      "venue": "旭逸酒店·荃灣 1 樓 Eat@ease（葵涌圳邊街 15-19 號，葵興站步行約 15 分鐘或酒店免費接駁巴士）",
+      "priceLabel": "饗樂悠閒半自助午餐每位 HK$98（原價 HK$173.8，56 折）；「和洋の味」生蠔半自助晚餐每位 HK$158（原價 HK$283.8，55 折）；現場另收加一服務費",
+      "priceValue": 98,
+      "originalLabel": "原價 HK$173.8/位（午餐）、HK$283.8/位（生蠔晚餐）",
+      "discountPct": 44,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "01空間限時快閃，頁面未列明確結束日（以 01空間 頁面為準）；午餐每日 11:30-14:00，生蠔晚餐每日 18:00-21:30（9/25-27 除外）",
+      "summary": "荃灣旭逸酒店 Eat@ease 工業風餐廳限時快閃：半自助午餐 56 折每位 HK$98（自選主菜如海南雞、澳洲肉眼扒），生蠔半自助晚餐 55 折每位 HK$158 任食即開生蠔＋冰鎮海鮮。01空間售票，確認後不可取消或更改。",
+      "highlights": [
+        "半自助午餐 56 折每位 HK$98：沙律吧、餐湯、甜品、飲品吧任食＋自選主菜",
+        "生蠔半自助晚餐 55 折每位 HK$158：任食即開生蠔＋冰鎮海鮮（9/25-27 除外）",
+        "主菜可補差價升級澳洲肉眼扒、羊鞍扒、黑毛豬柳等",
+        "01空間售票，不可取消／更改；節日及其前夕不適用，以 01空間 為準"
+      ],
+      "url": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
+      "sourceLabel": "香港01活動空間（01空間）",
+      "sourceUrl": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
+      "tags": [
+        "自助餐",
+        "生蠔",
+        "半自助",
+        "快閃",
+        "荃灣"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-cafetoo-isl-lunch-b2g2-20260927",
+      "category": "dining",
+      "title": "港島香格里拉 cafe TOO 國慶快閃，自助午餐買二送二",
+      "subtitle": "金秋海鮮蟹宴 · 10/1 香格里拉精品店限量開售",
+      "venue": "金鐘太古廣場港島香格里拉 7 樓 cafe TOO",
+      "priceLabel": "自助午餐買二送二限量套票（10/1 上午 10 時起於香格里拉精品店開售，售完即止）；餐牌平日自助午餐原價每位 HK$568 起",
+      "priceValue": 284,
+      "originalLabel": "餐牌平日自助午餐每位 HK$568 起（買二送二即變相半價）",
+      "discountPct": 50,
+      "endsAt": "2026-10-07T23:59:00+08:00",
+      "period": "香格里拉精品店開售 2026-10-01 至 10-07；換領用餐 2026-10-12 至 10-28（星期一至四午市，10/19 不適用），售完即止",
+      "summary": "港島香格里拉 cafe TOO 國慶快閃：10/1 起 7 日內於香格里拉精品店搶購限量「自助午餐買二送二」套票，10/12–10/28 逢週一至四午市換領。金秋海鮮蟹宴主題，晚市仲有清蒸大閘蟹同龍蝦。限量發售，搶唔到就冇。",
+      "highlights": [
+        "自助午餐買二送二限量套票，10/1 上午 10 時精品店開售",
+        "換領用餐 10/12–10/28 週一至四午市（10/19 不適用）",
+        "金秋豐盛海鮮蟹宴主題：晚市限定清蒸大閘蟹、蜘蛛蟹、清蒸新鮮龍蝦",
+        "售完即止；以港島香格里拉官方公佈為準"
+      ],
+      "url": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
+      "sourceLabel": "港島香格里拉官方 · Trip.com 國慶優惠懶人包",
+      "sourceUrl": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
+      "tags": [
+        "自助餐",
+        "買二送二",
+        "國慶",
+        "蟹宴",
+        "金鐘"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-royalgarden-greenery-65off-20260927",
+      "category": "dining",
+      "title": "帝苑酒店雅苑座限時 65 折，自助晚餐 HK$569 起",
+      "subtitle": "110 呎室內空中花園 · 龍蝦長腳蟹 M5 和牛 · 現場音樂",
+      "venue": "尖沙咀麼地道 69 號帝苑酒店 3 樓雅苑座 The Greenery",
+      "priceLabel": "自助晚餐每位 HK$569 起（限時低至 65 折）；自助午餐每位 HK$344 起；另有買一位成人送一位小童方案（午餐 HK$504 起／晚餐 HK$834 起）；現場另收加一服務費",
+      "priceValue": 569,
+      "originalLabel": "原價以 Klook 產品頁公佈為準；限時 65 折起",
+      "discountPct": 35,
+      "endsAt": "2026-10-31T23:59:00+08:00",
+      "period": "「珍菌和牛海鮮盛宴」主題 9 月至 10 月供應；Klook 限時 65 折未列明確截止日（以 Klook 頁面為準）；晚餐 18:30-21:45、午餐平日 12:00-14:30／假日 12:00-15:00",
+      "summary": "尖沙咀帝苑酒店雅苑座 The Greenery，全港獨有 110 呎室內空中花園＋中央噴泉。Klook 限時 65 折：自助晚餐每位 HK$569 起、午餐 HK$344 起，仲有買 1 送 1 小童親子方案。10 月主題有龍蝦、長腳蟹、M5 和牛，晚市現場音樂表演。",
+      "highlights": [
+        "Klook 限時低至 65 折：自助晚餐 HK$569 起、自助午餐 HK$344 起",
+        "買 1 位成人送 1 位小童：午餐 HK$504 起、晚餐 HK$834 起",
+        "9–10 月「珍菌和牛海鮮盛宴」：龍蝦、長腳蟹、即剪片皮鴨、馳名蝴蝶酥",
+        "110 呎室內空中花園＋現場音樂；生日月提前 24 小時訂位送蛋糕",
+        "65 折未列明確截止日，以 Klook 頁面為準"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/101881",
+      "sourceLabel": "U Lifestyle 國慶煙花餐廳指南 · Klook",
+      "sourceUrl": "https://sc-hk.ulifestyle.com.hk/activity/detail/20110731/",
+      "tags": [
+        "自助餐",
+        "65折",
+        "親子",
+        "尖沙咀",
+        "煙花"
       ],
       "sample": false
     }
