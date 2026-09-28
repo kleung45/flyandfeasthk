@@ -1680,7 +1680,9 @@
         "買2送1",
         "北角"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-hotelease-eatease-flash-20260927",
@@ -1711,7 +1713,9 @@
         "快閃",
         "荃灣"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-cafetoo-isl-lunch-b2g2-20260927",
@@ -1742,7 +1746,9 @@
         "蟹宴",
         "金鐘"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-royalgarden-greenery-65off-20260927",
@@ -1774,7 +1780,9 @@
         "尖沙咀",
         "煙花"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "meta": {
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-    "updated": "2026-09-24",
+    "updated": "2026-09-28",
     "minRating": 4.2,
     "rotation": [
-      "札幌",
+      "沖繩",
+      "廣島",
       "名古屋",
       "橫濱",
       "神戶",
-      "沖繩",
-      "廣島",
       "仙台",
-      "金澤"
+      "金澤",
+      "札幌"
     ]
   },
   "eats": [
@@ -348,6 +348,107 @@
       "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 5,919 評論）",
       "sourceUrl": "https://wanderlog.com/es/place/details/419662/atsuta-houraiken-jingu",
       "addedAt": "2026-09-24"
+    },
+    {
+      "id": "jp-sapporo-okushiba-ekimae",
+      "name": "スープカレー 奥芝商店 駅前創成寺",
+      "nameEn": "Okushiba Shoten Ekimae Soseiji",
+      "city": "札幌",
+      "area": "中央區北4條西（JR 札幌站步行約 4–5 分鐘，ホクレンビル B1F 美食街）",
+      "cuisine": "湯咖喱",
+      "signature": "蝦湯頭湯咖喱、帶骨嫩雞腿蔬菜湯咖喱（¥1,480）、綜合海鮮湯咖喱（¥2,180）",
+      "rating": 4.6,
+      "reviews": 5983,
+      "ratingCheckedAt": "2026-09-28",
+      "priceRange": "¥1,480–2,500",
+      "address": "北海道札幌市中央区北4条西1丁目 ホクレンビル B1F パールタウン",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%BC%E3%83%97%E3%82%AB%E3%83%AC%E3%83%BC%20%E5%A5%A5%E8%8A%9D%E5%95%86%E5%BA%97%20%E9%A7%85%E5%89%8D%E5%89%B5%E6%88%90%E5%AF%BA%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "札幌湯咖喱的代表之一，最大分別是用鮮蝦熬湯底而非雞湯，湯頭帶海水鮮甜，是「唔食雞湯底」的人都會翻盤的一碗。位置上就在札幌站旁大樓地庫的美食街，落機或臨走前食都順路。",
+      "tips": [
+        "排隊是常態：開店前已有人龍，假日更會排成兩排，建議一開門或避開 12–1 點。",
+        "落單四步：先揀湯底（可加價轉蝦湯）→ 揀主菜 → 揀辣度（0–5 免費、6–12 加價）→ 揀飯量（小／普通免費，中大碗加價）。",
+        "有中文與英文菜單，店員會先遞餐牌讓你邊排邊揀。",
+        "可信用卡與主要電子支付；地址在ホクレンビル B1F，唔熟路就直接輸入地址用 Google Maps 帶路。"
+      ],
+      "sourceLabel": "Yuku Japan（引用 Google 評分 4.6 與 5,983 評論）；另見 bobby.tw 同列 4.6",
+      "sourceUrl": "https://yukujapan.com/places/okushiba-shoten-ekimae-hokkaido",
+      "addedAt": "2026-09-28"
+    },
+    {
+      "id": "jp-sapporo-haruka",
+      "name": "札幌らーめん Haruka（サッポロラーメン ハルカ）",
+      "nameEn": "Sapporo Ramen Haruka",
+      "city": "札幌",
+      "area": "薄野（元祖さっぽろラーメン横丁內，地鐵薄野站步行約 1 分鐘）",
+      "cuisine": "拉麵",
+      "signature": "芝士味噌拉麵（混合多種芝士，含北海道卡門貝爾）、味噌牛油粟米拉麵、昆布帆立貝鹽拉麵",
+      "rating": 4.8,
+      "reviews": 3986,
+      "reviewsApprox": true,
+      "ratingCheckedAt": "2026-09-28",
+      "priceRange": "¥1,000–2,000",
+      "address": "北海道札幌市中央区南5条西3-6 N・グランデビル 1F 元祖さっぽろラーメン横丁",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20Haruka%20%E5%85%83%E7%A5%96%E3%81%95%E3%81%A3%E3%81%BD%E3%82%8D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E6%A8%AA%E4%B8%81%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "藏在拉麵橫丁裡的小店，只有 10 個吧檯位，但 Google 評分高得誇張——招牌芝士味噌拉麵落足幾種芝士，湯頭濃得來唔漿口；另有半份份量，食量細的都食得完。",
+      "tips": [
+        "只有 8–10 個吧檯座位，開店前已有人排，繁忙時段等 40 分鐘至 2 小時都試過；湯賣完即收市。天氣凍時店員會派暖手包。",
+        "店員會在入座前先給 QR 碼落單，入到去即刻有得食，慳返等位時間；亦可選擇食完先付。",
+        "有英文菜單；有半份（smaller serving）份量可選，唔想食太飽可以叫；店內有免費水。",
+        "午市與晚市兩個時段（週一至六晚市開到深夜，週日較早收），不定休，出發前先查店家最新公佈；現金與信用卡都收。"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.8 與 3,986 評論）",
+      "sourceUrl": "https://wanderlog.com/place/details/867189/sapporo-ramen-haruka",
+      "addedAt": "2026-09-28"
+    },
+    {
+      "id": "jp-sapporo-hitsujishi",
+      "name": "羊炙 成吉思汗 すすきの（Hitsujishi Genghis Khan Susukino）",
+      "nameEn": "Hitsujishi Genghis Khan Restaurant Susukino",
+      "city": "札幌",
+      "area": "薄野（中央區南5條西3丁目 5.3 ビル 6F）",
+      "cuisine": "成吉思汗烤羊肉",
+      "signature": "羊肩肉、羊里肌（岩鹽調味）、冷麵、highball",
+      "rating": 4.8,
+      "reviews": 491,
+      "ratingCheckedAt": "2026-09-28",
+      "priceRange": "¥3,000–8,000（按人頭及點法）",
+      "address": "北海道札幌市中央区南5条西3丁目 5.3ビル 6階",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8A%E7%82%99%20%E3%82%B8%E3%83%B3%E3%82%AE%E3%82%B9%E3%82%AB%E3%83%B3%20%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%205.3%E3%83%93%E3%83%AB%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "薄野大廈 6 樓的成吉思汗小店，Google 評分 4.8 係札幌羊肉店中少見。羊肉新鮮、騷味極輕，店長會逐款肉同醬料講解甚至示範點燒，對第一次食成吉思汗的人非常友善。",
+      "tips": [
+        "強烈建議先訂位：店內座位有限，有人第一日撲空、訂位後第二日才食到。",
+        "店長可講簡單英文，會推介份量與切法，唔識燒都可以放心。",
+        "星期四 17:00 開門，其餘日子約 12:30 開始營業；一人用餐不設放題，想食放題要兩人以上。",
+        "可信用卡；人均消費視乎點肉量，由約 ¥2,000 到 ¥5,000 都見，以店家現場收費為準。"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.8 與 491 評論）；Wanderlog 同列 4.8",
+      "sourceUrl": "https://restaurantguru.com/amp/Hitsujishi-Genghis-Khan-Restaurant-Susukino-Sapporo",
+      "addedAt": "2026-09-28"
+    },
+    {
+      "id": "jp-sapporo-toriton-kita8",
+      "name": "回転寿し トリトン 北8条光星店",
+      "nameEn": "Kaiten Zushi Toriton Kita 8-jo Kosei",
+      "city": "札幌",
+      "area": "東區北8條東5（JR 札幌站步行約 12 分鐘；地鐵東豐線東區役所前站約 6 分鐘）",
+      "cuisine": "迴轉壽司",
+      "signature": "厚切生三文魚、活北寄貝、帆立貝、海膽、茶碗蒸",
+      "rating": 4.3,
+      "reviews": 4009,
+      "ratingCheckedAt": "2026-09-28",
+      "priceRange": "¥3,000–4,000（人均）",
+      "address": "北海道札幌市東区北8条東5丁目19-1",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9E%E8%BB%A2%E5%AF%BF%E3%81%97%20%E3%83%88%E3%83%AA%E3%83%88%E3%83%B3%20%E5%8C%978%E6%9D%A1%E5%85%89%E6%98%9F%E5%BA%97%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "發跡自北見的北海道迴轉壽司名牌，北8條光星店是札幌市內最就腳的一間。魚生切得比一般迴轉壽司厚一截，價錢仍是迴轉壽司級數，北海道限定食材多，係「唔想食貴價壽司但要有質素」最穩的一站。",
+      "tips": [
+        "不設預約、只做現場候位；到店先在螢幕取整理券，可用 LINE 睇叫號。",
+        "等 1 至 3 小時屬常見，取券後可先去札幌啤酒博物館／Ario 商場或附近 Sport DEPO 逛，唔使企門口等。",
+        "平板點餐可切換中文，附圖片與價錢，旅客友好；麵飯可選半份。",
+        "11:00–22:00（最後點餐 21:30），元旦及 1 月 2 日休；可信用卡與交通系電子貨幣，但不收二維碼支付；設 30 個共用車位。"
+      ],
+      "sourceLabel": "Bigfang 札幌美食地圖（引用 Google 評分 4.3 與 4,009 評論）",
+      "sourceUrl": "https://www.bigfang.tw/blog/post/sapporo-delicious",
+      "addedAt": "2026-09-28"
     }
   ]
 }

@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-27T15:59:11+08:00",
+    "updated": "2026-09-28T10:36:24+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-27T16:20:00+08:00",
@@ -12,156 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 55,
-      "active": 30,
-      "ending": 16,
-      "expired": 25,
+      "active": 26,
+      "ending": 13,
+      "expired": 29,
       "flight": 5,
       "dining": 50,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-haixian-wagyu-tst-20260915",
-      "category": "dining",
-      "title": "120 分鐘 A5 和牛火鍋放題買一送一＋下次免費券，人均低至 HK$175",
-      "subtitle": "海上鮮海鮮和牛涮涮鍋（佐敦）· OpenRice 中秋特集",
-      "venue": "海上鮮海鮮和牛涮涮鍋 · 尖沙咀柯士甸道 124-126 號帝寶樓地下（佐敦站 D 出口步行 4 分鐘）",
-      "priceLabel": "OpenRice 獨家買1送1＋下次免費券 HK$698 / 2 位（未連服務費）",
-      "priceValue": 175,
-      "originalLabel": "套餐價值 HK$2,094，一人價錢即時二人放題再送下次免費券，變相 4 位人均 HK$175（約 3.3 折）",
-      "discountPct": 67,
-      "endsAt": "2026-09-27T23:59:00+08:00",
-      "period": "OpenRice 中秋節特集：2026-08-26 至 2026-09-27；晚市放題 120 分鐘",
-      "summary": "佐敦「海上鮮海鮮和牛涮涮鍋」經 OpenRice 中秋特集推出買一送一：HK$698（未連服務費）即時二人任食 120 分鐘日本十勝 A5 和牛火鍋放題＋龍蝦生蠔海鮮拼盤，再送一張「下次免費券」，變相 4 位人均 HK$175（原價約 HK$698/位）。菲律賓直送生猛活海鮮，另有潮州滷水鵝等特色菜式。",
-      "highlights": [
-        "一人價錢享即時二人放題，再送下次免費券，變相 4 位 HK$698（人均 HK$175）",
-        "任食日本十勝 A5 和牛＋龍蝦、生蠔、鮑魚海鮮拼盤，120 分鐘晚市",
-        "餐廳 OpenRice 頁另設晚市買1送1 HK$598 方案（北海道米豚放題 HK$498），以餐廳頁面為準",
-        "服務費另計，以原價計算；OpenRice 中秋特集優惠碼 MOON80：餐飲券滿 $800 減 $80",
-        "地址：尖沙咀柯士甸道 124-126 號帝寶樓地下 A&B 號舖"
-      ],
-      "url": "https://www.openrice.com/info/MidAutumnSpecial2026/booking.html",
-      "sourceLabel": "OpenRice 中秋節特集 2026 · 海上鮮餐廳頁",
-      "sourceUrl": "https://www.openrice.com/zh-hk/hongkong/r-seafood-wagyu-shabu-shabu-tsim-sha-tsui-japanese-hot-pot-r994390",
-      "tags": [
-        "火鍋放題",
-        "買一送一",
-        "佐敦",
-        "和牛"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-foodstudio-midautumn-20260915",
-      "category": "dining",
-      "title": "中秋海陸盛宴自助晚餐買一送一，HK$718 / 2 位（已連服務費）",
-      "subtitle": "Food Studio（香港萬麗海景酒店）· 中秋檔期 OpenRice 獨家",
-      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
-      "priceLabel": "OpenRice 獨家買1送1 HK$718 / 2 位（已連服務費）",
-      "priceValue": 359,
-      "originalLabel": "原價 HK$1,316 / 2 位（約 5.5 折）",
-      "discountPct": 45,
-      "endsAt": "2026-09-27T23:59:00+08:00",
-      "period": "適用 2026-09-24 至 09-25 及 2026-09-26 至 09-27 晚市（中秋三天假期）",
-      "summary": "萬麗海景 Food Studio 中秋檔期經 OpenRice 推出獨家買一送一：9 月 24 至 25 日或 26 至 27 日晚市自助晚餐，2 位只收 HK$718 已連服務費（原價 HK$1,316，人均 HK$359）。中秋三天假期想食好啲，呢個位好搶手。",
-      "highlights": [
-        "OpenRice 獨家買1送1，只限 9/24–25 及 9/26–27 晚市兩個檔期",
-        "已連服務費，人均 HK$359（原價約 HK$658/位）",
-        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
-        "中秋正日 9/25 適用首個檔期，建議盡早訂",
-        "價格與名額以 OpenRice 頁面為準"
-      ],
-      "url": "https://www.openrice.com/info/booking/buffet",
-      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio 中秋海陸盛宴）",
-      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "中秋",
-        "灣仔"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-lemenu-wanchai-autumn-20260919",
-      "category": "dining",
-      "title": "秋日盛宴自助晚餐 5 折，限定三晚 HK$599／位",
-      "subtitle": "灣仔六國酒店 Le Menu · 龍蝦 · 花膠 · 火焰富贵雞",
-      "venue": "Le Menu · 灣仔告士打道 72 號六國酒店 1 樓（灣仔站 C 出口）",
-      "priceLabel": "OpenRice 訂座預購 5 折：秋日盛宴自助晚餐 HK$599／位（9/25–27 限定，已連服務費）",
-      "priceValue": 599,
-      "originalLabel": "原價以 OpenRice 訂座預購頁為準；另設 74 折下午茶套餐 HK$498／2 位",
-      "discountPct": 50,
-      "endsAt": "2026-09-27T23:59:00+08:00",
-      "period": "5 折自助晚餐限定 2026-09-25 至 09-27 三晚；晚餐 18:00–22:00",
-      "summary": "灣仔六國酒店 Le Menu 經 OpenRice 訂座預購推 5 折「秋日盛宴」自助晚餐：9 月 25 至 27 日限定三晚，每位 HK$599 已連服務費。主打龍蝦、花膠、火焰富贵雞，仲有冰鎮海鮮、即場手握壽司同甜品陣。",
-      "highlights": [
-        "5 折自助晚餐 HK$599／位（已連服務費），僅限 9/25–27 中秋檔期三晚",
-        "焦點：龍蝦、花膠、火焰富贵雞",
-        "冰鎮海鮮、特級牛扒、即場手握壽司、中西甜品任食",
-        "經 OpenRice 訂座預購，名額先到先得",
-        "以 OpenRice 餐廳專頁價格及供應為準"
-      ],
-      "url": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
-      "sourceLabel": "OpenRice 訂座預購 · Le Menu 專頁",
-      "sourceUrl": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
-      "tags": [
-        "酒店自助餐",
-        "5 折",
-        "灣仔",
-        "中秋"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-chaoguoxian-tst-hotpot-20260923",
-      "category": "dining",
-      "title": "尖沙咀潮鍋鮮無限時蒸氣火鍋放題，買二送一每人 HK$199",
-      "subtitle": "尖沙咀太興廣場 · 任飲啤酒汽水 · 送芝士焗龍蝦",
-      "venue": "潮鍋鮮 · 香港九龍尖沙咀金馬倫道 5 號太興廣場 2 樓",
-      "priceLabel": "買二送一 HK$598／3 位（人均 HK$199，原價 HK$298／位）；買三送一 HK$896／4 位（人均 HK$224）；9 折單人 HK$268／位（3 位起）。午市及晚市無限時任飲任食，每位再送芝士焗龍蝦一客；現場另收原價加一服務費，須以現金支付",
-      "priceValue": 199,
-      "originalLabel": "原價 HK$298／位；現場另收原價加一服務費",
-      "discountPct": 33,
-      "endsAt": "2026-09-27T23:59:00+08:00",
-      "period": "快閃預訂期 2026-09-21 18:00 至 09-27 23:59；用餐時間午市 12:00-18:00、晚市 17:00-00:00，星期一至日適用；使用日期以 KKday 產品頁為準",
-      "summary": "尖沙咀潮鍋鮮快閃買二送一：3 位 HK$598、人均 HK$199，享無限時任飲任食蒸氣石鍋火鍋。餐廳設海鮮池自撈鮮活海鮮即蒸，供應潮式牛肉、近百款火鍋料、炸物燒物，汽水同啤酒無限時任飲，每位再送芝士焗龍蝦一客。想食足成晚又唔想趕時間嘅聚餐選擇。",
-      "highlights": [
-        "買二送一：3 位 HK$598，人均 HK$199（原價 HK$298／位）",
-        "買三送一：4 位 HK$896，人均 HK$224",
-        "無限時任飲任食，午市 12:00-18:00、晚市 17:00-00:00",
-        "自撈鮮活海鮮即撈即蒸，近百款火鍋料、炸物燒物任食",
-        "汽水及啤酒無限時任飲；每位加送芝士焗龍蝦一客",
-        "快閃預訂期至 2026-09-27 23:59；現場另收原價加一，須現金支付"
-      ],
-      "url": "https://fave.co/4yMzzlb",
-      "sourceLabel": "星島頭條 · men's Reads 報導",
-      "sourceUrl": "https://www.stheadline.com/food/3617624/",
-      "tags": [
-        "火鍋放題",
-        "買二送一",
-        "尖沙咀",
-        "海鮮"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-congress-plus-hkcec-bogo-20260919",
       "category": "dining",
@@ -194,7 +53,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -229,7 +88,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -265,7 +124,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -301,7 +160,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -335,7 +194,9 @@ window.DEAL_DATA = {
         "北角"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -367,7 +228,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -402,7 +263,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -438,7 +299,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -470,7 +331,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -505,7 +366,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -539,7 +400,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -572,7 +433,9 @@ window.DEAL_DATA = {
         "荃灣"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -607,8 +470,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-admiralty-20260911",
@@ -642,7 +505,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -675,7 +538,9 @@ window.DEAL_DATA = {
         "金鐘"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -709,7 +574,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -744,7 +609,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -779,7 +644,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -814,7 +679,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -848,7 +713,9 @@ window.DEAL_DATA = {
         "煙花"
       ],
       "sample": false,
-      "daysLeft": 34,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -879,7 +746,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -910,7 +777,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -941,7 +808,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -971,7 +838,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -1006,7 +873,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -1041,7 +908,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 82,
+      "daysLeft": 81,
       "status": "active"
     },
     {
@@ -1889,6 +1756,147 @@ window.DEAL_DATA = {
         "買一送一",
         "屯門",
         "龍蝦"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-haixian-wagyu-tst-20260915",
+      "category": "dining",
+      "title": "120 分鐘 A5 和牛火鍋放題買一送一＋下次免費券，人均低至 HK$175",
+      "subtitle": "海上鮮海鮮和牛涮涮鍋（佐敦）· OpenRice 中秋特集",
+      "venue": "海上鮮海鮮和牛涮涮鍋 · 尖沙咀柯士甸道 124-126 號帝寶樓地下（佐敦站 D 出口步行 4 分鐘）",
+      "priceLabel": "OpenRice 獨家買1送1＋下次免費券 HK$698 / 2 位（未連服務費）",
+      "priceValue": 175,
+      "originalLabel": "套餐價值 HK$2,094，一人價錢即時二人放題再送下次免費券，變相 4 位人均 HK$175（約 3.3 折）",
+      "discountPct": 67,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "OpenRice 中秋節特集：2026-08-26 至 2026-09-27；晚市放題 120 分鐘",
+      "summary": "佐敦「海上鮮海鮮和牛涮涮鍋」經 OpenRice 中秋特集推出買一送一：HK$698（未連服務費）即時二人任食 120 分鐘日本十勝 A5 和牛火鍋放題＋龍蝦生蠔海鮮拼盤，再送一張「下次免費券」，變相 4 位人均 HK$175（原價約 HK$698/位）。菲律賓直送生猛活海鮮，另有潮州滷水鵝等特色菜式。",
+      "highlights": [
+        "一人價錢享即時二人放題，再送下次免費券，變相 4 位 HK$698（人均 HK$175）",
+        "任食日本十勝 A5 和牛＋龍蝦、生蠔、鮑魚海鮮拼盤，120 分鐘晚市",
+        "餐廳 OpenRice 頁另設晚市買1送1 HK$598 方案（北海道米豚放題 HK$498），以餐廳頁面為準",
+        "服務費另計，以原價計算；OpenRice 中秋特集優惠碼 MOON80：餐飲券滿 $800 減 $80",
+        "地址：尖沙咀柯士甸道 124-126 號帝寶樓地下 A&B 號舖"
+      ],
+      "url": "https://www.openrice.com/info/MidAutumnSpecial2026/booking.html",
+      "sourceLabel": "OpenRice 中秋節特集 2026 · 海上鮮餐廳頁",
+      "sourceUrl": "https://www.openrice.com/zh-hk/hongkong/r-seafood-wagyu-shabu-shabu-tsim-sha-tsui-japanese-hot-pot-r994390",
+      "tags": [
+        "火鍋放題",
+        "買一送一",
+        "佐敦",
+        "和牛"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-foodstudio-midautumn-20260915",
+      "category": "dining",
+      "title": "中秋海陸盛宴自助晚餐買一送一，HK$718 / 2 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 中秋檔期 OpenRice 獨家",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家買1送1 HK$718 / 2 位（已連服務費）",
+      "priceValue": 359,
+      "originalLabel": "原價 HK$1,316 / 2 位（約 5.5 折）",
+      "discountPct": 45,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "適用 2026-09-24 至 09-25 及 2026-09-26 至 09-27 晚市（中秋三天假期）",
+      "summary": "萬麗海景 Food Studio 中秋檔期經 OpenRice 推出獨家買一送一：9 月 24 至 25 日或 26 至 27 日晚市自助晚餐，2 位只收 HK$718 已連服務費（原價 HK$1,316，人均 HK$359）。中秋三天假期想食好啲，呢個位好搶手。",
+      "highlights": [
+        "OpenRice 獨家買1送1，只限 9/24–25 及 9/26–27 晚市兩個檔期",
+        "已連服務費，人均 HK$359（原價約 HK$658/位）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "中秋正日 9/25 適用首個檔期，建議盡早訂",
+        "價格與名額以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio 中秋海陸盛宴）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "中秋",
+        "灣仔"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-lemenu-wanchai-autumn-20260919",
+      "category": "dining",
+      "title": "秋日盛宴自助晚餐 5 折，限定三晚 HK$599／位",
+      "subtitle": "灣仔六國酒店 Le Menu · 龍蝦 · 花膠 · 火焰富贵雞",
+      "venue": "Le Menu · 灣仔告士打道 72 號六國酒店 1 樓（灣仔站 C 出口）",
+      "priceLabel": "OpenRice 訂座預購 5 折：秋日盛宴自助晚餐 HK$599／位（9/25–27 限定，已連服務費）",
+      "priceValue": 599,
+      "originalLabel": "原價以 OpenRice 訂座預購頁為準；另設 74 折下午茶套餐 HK$498／2 位",
+      "discountPct": 50,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "5 折自助晚餐限定 2026-09-25 至 09-27 三晚；晚餐 18:00–22:00",
+      "summary": "灣仔六國酒店 Le Menu 經 OpenRice 訂座預購推 5 折「秋日盛宴」自助晚餐：9 月 25 至 27 日限定三晚，每位 HK$599 已連服務費。主打龍蝦、花膠、火焰富贵雞，仲有冰鎮海鮮、即場手握壽司同甜品陣。",
+      "highlights": [
+        "5 折自助晚餐 HK$599／位（已連服務費），僅限 9/25–27 中秋檔期三晚",
+        "焦點：龍蝦、花膠、火焰富贵雞",
+        "冰鎮海鮮、特級牛扒、即場手握壽司、中西甜品任食",
+        "經 OpenRice 訂座預購，名額先到先得",
+        "以 OpenRice 餐廳專頁價格及供應為準"
+      ],
+      "url": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
+      "sourceLabel": "OpenRice 訂座預購 · Le Menu 專頁",
+      "sourceUrl": "https://www.openrice.com/zh/hongkong/r-le-menu-%E7%81%A3%E4%BB%94-%E8%A5%BF%E5%BC%8F-%E8%87%AA%E5%8A%A9%E9%A4%90-r3596",
+      "tags": [
+        "酒店自助餐",
+        "5 折",
+        "灣仔",
+        "中秋"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-chaoguoxian-tst-hotpot-20260923",
+      "category": "dining",
+      "title": "尖沙咀潮鍋鮮無限時蒸氣火鍋放題，買二送一每人 HK$199",
+      "subtitle": "尖沙咀太興廣場 · 任飲啤酒汽水 · 送芝士焗龍蝦",
+      "venue": "潮鍋鮮 · 香港九龍尖沙咀金馬倫道 5 號太興廣場 2 樓",
+      "priceLabel": "買二送一 HK$598／3 位（人均 HK$199，原價 HK$298／位）；買三送一 HK$896／4 位（人均 HK$224）；9 折單人 HK$268／位（3 位起）。午市及晚市無限時任飲任食，每位再送芝士焗龍蝦一客；現場另收原價加一服務費，須以現金支付",
+      "priceValue": 199,
+      "originalLabel": "原價 HK$298／位；現場另收原價加一服務費",
+      "discountPct": 33,
+      "endsAt": "2026-09-27T23:59:00+08:00",
+      "period": "快閃預訂期 2026-09-21 18:00 至 09-27 23:59；用餐時間午市 12:00-18:00、晚市 17:00-00:00，星期一至日適用；使用日期以 KKday 產品頁為準",
+      "summary": "尖沙咀潮鍋鮮快閃買二送一：3 位 HK$598、人均 HK$199，享無限時任飲任食蒸氣石鍋火鍋。餐廳設海鮮池自撈鮮活海鮮即蒸，供應潮式牛肉、近百款火鍋料、炸物燒物，汽水同啤酒無限時任飲，每位再送芝士焗龍蝦一客。想食足成晚又唔想趕時間嘅聚餐選擇。",
+      "highlights": [
+        "買二送一：3 位 HK$598，人均 HK$199（原價 HK$298／位）",
+        "買三送一：4 位 HK$896，人均 HK$224",
+        "無限時任飲任食，午市 12:00-18:00、晚市 17:00-00:00",
+        "自撈鮮活海鮮即撈即蒸，近百款火鍋料、炸物燒物任食",
+        "汽水及啤酒無限時任飲；每位加送芝士焗龍蝦一客",
+        "快閃預訂期至 2026-09-27 23:59；現場另收原價加一，須現金支付"
+      ],
+      "url": "https://fave.co/4yMzzlb",
+      "sourceLabel": "星島頭條 · men's Reads 報導",
+      "sourceUrl": "https://www.stheadline.com/food/3617624/",
+      "tags": [
+        "火鍋放題",
+        "買二送一",
+        "尖沙咀",
+        "海鮮"
       ],
       "sample": false,
       "postedFacebook": true,
