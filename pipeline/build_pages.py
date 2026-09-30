@@ -45,6 +45,7 @@ STORE = ROOT / "store.json"
 JAPAN_FILE = ROOT / "japan.json"
 HOTELS_FILE = ROOT / "japan-hotels.json"
 DRIVE_FILE = ROOT / "japan-drive.json"
+BARS_FILE = ROOT / "japan-bars.json"
 SITEMAP = PROJECT / "sitemap.xml"
 
 # 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
@@ -675,6 +676,7 @@ def nav_html(active: str) -> str:
         ("/japan/", "日本美食", "japan"),
         ("/japan/hotels/", "日本酒店", "japan-hotel"),
         ("/japan/drive/", "日本自駕", "japan-drive"),
+        ("/japan/bars/", "日本酒吧", "japan-bar"),
         ("/guides/", "優惠攻略", "guides"),
         ("/about/", "關於本站", "about"),
     ]
@@ -715,6 +717,7 @@ def footer_html() -> str:
         '<a href="/japan/">日本美食</a>'
         '<a href="/japan/hotels/">日本酒店</a>'
         '<a href="/japan/drive/">日本自駕</a>'
+        '<a href="/japan/bars/">日本酒吧</a>'
         '<a href="/guides/">優惠攻略</a>'
         "</div>"
         '<div class="footer-links">'
@@ -1904,7 +1907,8 @@ def maps_embed_html(e: dict, kind: str = "餐廳") -> str:
     if not src:
         return ""
     name = e.get("name") or kind
-    scene = {"餐廳": "店面實景相", "酒店": "外觀與周邊實景相"}.get(kind, "路線周邊實景與街景")
+    scene = {"餐廳": "店面實景相", "酒店": "外觀與周邊實景相",
+             "酒吧": "店面實景與所在大廈位置"}.get(kind, "路線周邊實景與街景")
     return (
         '<figure class="maps-embed">'
         f'<iframe src="{esc(src)}" title="{esc(name)} 嘅 Google Maps 地圖與實景相片" '
@@ -2199,6 +2203,10 @@ def build_japan_index(eats: list[dict], meta: dict) -> str:
         f'<a href="{DRIVE_INDEX_PATH}">🛣️ 日本自駕遊路線專欄</a>'
         f'　<a href="{DRIVE_GUIDE_PATH}">📋 自駕實務指南（證件・電單車・ETC）</a>'
         "　想自駕逐間掃，記得先睇證件同車種限制。</div>"
+        '<div class="cat-nav region-nav"><b>飲咩？</b>'
+        f'<a href="{BARS_INDEX_PATH}">🍸 日本各地必去威士忌與雞尾酒吧</a>'
+        f'　<a href="{BARS_GUIDE_PATH}">📋 酒吧禮儀與點酒指南（座位費・點酒用語）</a>'
+        "　食完飯想飲一杯，呢度有按地區收錄的威士忌吧同雞尾酒吧。</div>"
         "</div>"
         + '<div class="prose">'
         "<h2>收錄準則</h2>"
@@ -2335,7 +2343,7 @@ def build_japan_eat_page(e: dict, peers: list[dict], meta: dict) -> str:
 # 不是編輯主觀評選，亦不會自行評分。
 
 # /japan/ 之下屬於「非餐廳 id、亦非地區 key」的固定目錄；清除孤兒頁時要保留。
-JAPAN_RESERVED_DIRS = {"hotels", "drive"}
+JAPAN_RESERVED_DIRS = {"hotels", "drive", "bars"}
 
 HOTEL_INDEX_PATH = "/japan/hotels/"
 
@@ -3200,6 +3208,7 @@ def build_drive_region_page(rkey: str, pool: list[dict], meta: dict) -> str:
 
 def build_drive_route_page(r: dict, peers: list[dict], meta: dict) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
     rkey = drive_region_of(r)
     rname = JP_REGIONS[rkey]["name"]
     url = f"{DRIVE_INDEX_PATH}{r['id']}/"
@@ -3376,6 +3385,659 @@ def build_drive_guide(routes: list[dict], meta: dict) -> str:
     )
 
 
+# --------------------------------------------------------------------------
+# 日本酒吧專欄（/japan/bars/、/japan/bars/<地區>/、/japan/bars/<id>/）
+# 另設 /japan/bars/guide/ 酒吧禮儀與點酒指南。
+# --------------------------------------------------------------------------
+
+BARS_INDEX_PATH = "/japan/bars/"
+BARS_GUIDE_PATH = "/japan/bars/guide/"
+
+BAR_TYPE_LABEL = {
+    "whisky": "🥃 威士忌專門",
+    "cocktail": "🍸 雞尾酒專門",
+    "both": "🥃🍸 兩者兼備",
+}
+BAR_TYPE_SHORT = {
+    "whisky": "威士忌專門",
+    "cocktail": "雞尾酒專門",
+    "both": "威士忌＋雞尾酒",
+}
+
+# 第四份地區簡介（美食、酒店、自駕各有一份，呢份講飲酒文化，唔可以共用）。
+JP_BAR_REGION_INTRO = {
+    "kanto": "東京係全球雞尾酒同威士忌吧密度最高嘅城市之一，但銀座、新宿、池袋各走一條完全唔同嘅路線："
+             "銀座走高級正統吧，新宿有大量藏身大廈高層嘅小店，池袋就聚集咗一批以稀有酒藏取勝嘅專門店。"
+             "東京嘅難處唔係冇得揀，而係大部分好店都要預約，而且藏身大廈三樓以上、冇招牌，"
+             "要睇大廈指示牌搭電梯。",
+    "kansai": "大阪同京都嘅酒吧性格差好遠。大阪（北新地、中崎町一帶）嘅正統吧多數老闆親自落場，"
+              "氣氛較外向、英文較好；京都就偏靜，speakeasy 設計特別多，有店直接用紅色電話亭做入口。"
+              "京都另一條線係專做日本威士忌嘅小店，座位少但選酒極精，店主會逐款同你講。",
+    "chubu": "名古屋嘅酒吧集中在名駅同榮一帶，最大優點係方便——新幹線落車行幾分鐘就有得飲。"
+             "相比東京，呢度嘅正統吧多數唔需要預約，價位亦較平，"
+             "適合行程緊、只想飲一杯就走的旅客。",
+    "kyushu": "福岡嘅酒吧場景在九州最成熟，大名一帶係核心。呢度嘅特色係「水果系」——"
+              "唔少店會用九州時令水果（甘王草莓、柑橘）入酒，季節一變酒單就跟住變。"
+              "收費普遍有座位費，屬日本正統吧慣例。",
+    "hokkaido": "札幌係 Nikka 嘅地盤——創辦人竹鶴政孝當年就係覺得北海道氣候似蘇格蘭，"
+                "先喺余市開第一間蒸餾所。所以札幌嘅威士忌吧普遍同蒸餾廠有直接關係，"
+                "東京大阪賣斷市嘅酒，喺呢度櫃上仲有。缺點係大部分店藏身薄野一帶大廈高層，"
+                "要睇指示牌搭電梯。",
+    "tohoku": "仙台嘅國分町係東北最大娛樂街區，聚集數千家食店同酒吧。"
+              "呢度嘅正統吧多數由大師級調酒師坐鎮，價位比東京相宜，而且多數冇酒單——"
+              "靠你講口味即場調，反而係最好嘅體驗。",
+    "chugoku": "廣島嘅酒吧集中在流川町同中町一帶，規模唔算大但質素高，評分 4.7 以上嘅小店唔少。"
+               "呢度嘅特色係店主親自坐鎮、同客傾酒，對外國客人普遍友善；"
+               "部分店會用本地食材（例如配甜豆醬）做原創雞尾酒。",
+    "shikoku": "四國嘅高松同松山都有各自嘅老牌酒吧同爵士吧，但公開可查核嘅 Google 評分資料較少。"
+               "本專欄以「有可引用評分來源」為收錄前提，所以呢一區仍在陸續補上。",
+    "okinawa": "沖繩嘅夜晚以國際通一帶為主。泡盛（沖繩蒸餾酒）係本地特色，"
+               "唔少酒吧會用泡盛做原創雞尾酒；同時亦有主打威士忌同雪茄嘅成熟系酒吧。"
+               "本區公開可查核嘅評分資料仍在補齊中。",
+}
+BAR_REGION_INTRO_FALLBACK = (
+    "這個地區的酒吧收錄正在陸續增加。以下每間都附 Google 評分、評論數與查核日期，"
+    "並註明以 Google Maps 即時顯示為準；收費、營業時間與吸煙規定以店家即時資訊為準。"
+)
+
+BAR_GUIDE_SECTIONS: list[tuple[str, list[str], list[str]]] = [
+    (
+        "「酒吧」在日本分三種，先分清楚再入去",
+        [
+            "你講「去酒吧」，日本人會先問你指邊一種——因為價錢、氣氛同規矩都唔同。"
+            "呢個專欄介紹嘅，絕大部分係第一類。",
+        ],
+        [
+            "オーセンティックバー（正統吧）：有吧檯有座位、收座位費、調酒師穿背心，多數安靜，"
+            "一杯一杯慢慢嚟。本專欄收錄的多數屬這一類。",
+            "スタンディングバー／立ち飲み（站立吧）：企位、多數免座位費、快飲快走，價錢最平。",
+            "ホテルバー（酒店吧）：景觀好、服務標準化、價位最高，適合第一次體驗日本酒吧文化。",
+        ],
+    ),
+    (
+        "座位費（チャージ）是什麼？點解一定要收？",
+        [
+            "日本正統吧普遍收「座位費」或「チャージ」，約 ¥500–1,500，"
+            "通常會包一碟小食、堅果或毛巾。呢筆錢唔係小費，係座位本身的費用，"
+            "所以你坐幾久都係收一次。本專欄每間酒吧的詳情頁都會寫明有冇座位費。",
+        ],
+        [
+            "收費名目各店唔同：チャージ／席料／テーブルチャージ／お通し，見到呢啲字就係座位費。",
+            "入座前問一句「チャージはいくらですか？」最穩陣，唔會埋單先嚇一跳。",
+            "部分店另外收 10% 服務費（例如札幌的 THE NIKKA BAR 同時收座位費、瓶費同服務費）。",
+            "日本冇小費文化，唔需要另外加錢。",
+        ],
+    ),
+    (
+        "點威士忌的基本用語",
+        [
+            "日本酒吧嘅威士忌通常以 15ml 或 30ml 計價，唔少店可以點半份（ハーフ）。"
+            "想一次試多幾款蒸餾所，點小份其實最划算。",
+        ],
+        [
+            "ストレート（straight）：純飲，唔加任何嘢。",
+            "ロック（rock）：加冰。日本多數用手鑿冰球，溶得慢。",
+            "水割り（mizuwari）：加水，通常會用同蒸餾所水源相近嘅水。",
+            "ハイボール（highball）：加蘇打水，最易入口，配炸物一流。",
+            "「ハーフで」（半份）——想試多幾款就講呢句。",
+            "「おすすめは？」（有咩推介？）——比你自己估酒單準確得多。",
+        ],
+    ),
+    (
+        "冇酒單的時候點算？",
+        [
+            "日本唔少名店根本冇酒單（例如仙台的 Le Bar Kawagoe）。呢個唔係服務差，"
+            "而係佢哋想按你嘅口味即場調。遇到呢種店，講清楚自己鍾意咩就係最好的點酒方式。",
+        ],
+        [
+            "講口味關鍵詞：smoky／peaty（煙燻泥煤）、fruity（果香）、sherry（雪莉桶）、"
+            "smooth（順口易飲）、spicy（辛口）。",
+            "講預算最實際：「予算は 5,000 円くらい」（預算大約 5,000 円）。",
+            "講「おまかせ」（交給你決定）——多數會得到當晚最好的體驗。",
+            "唔好怕問，店主一般樂意講解，甚至會拎埋酒瓶出嚟同你講產地。",
+        ],
+    ),
+    (
+        "規矩同禁忌（呢幾條最容易得罪人）",
+        [
+            "日本正統吧係安靜場所，唔係香港嘅酒吧——呢點係最多香港旅客撞板嘅位。",
+        ],
+        [
+            "唔好大聲講話、唔好講電話。正統吧當係可以靜靜飲一杯嘅地方。",
+            "部分店全店可吸煙（日本飲食店嘅吸煙規定同香港唔同），唔慣煙味入去前先問清楚。",
+            "部分店唔可以影相，見到「撮影禁止」就唔好影，包括影酒瓶。",
+            "唔好催單。一杯一杯慢慢嚟係正常節奏，催反而失禮。",
+            "唔好自備酒水，亦唔好要求調酒師做酒單以外嘅複雜嘢。",
+            "20 歲以下唔准入內（日本法定飲酒年齡），帶小朋友就唔好安排酒吧行程。",
+        ],
+    ),
+    (
+        "預約、語言同最後一班車",
+        [
+            "銀座、京都嘅高級店多數要預約，非日語客人尤其建議先訂位；"
+            "新宿、池袋、名古屋嘅小店相對容易 Walk-in，但熱門時段一樣會滿。",
+        ],
+        [
+            "預約主要靠電話，部分店用 TableCheck 等網上平台（例如東京的 Bar Benfiddich 每月 20 號開放訂位）。",
+            "最實用嘅一招：請酒店前台幫你打電話訂位，順便幫你講清楚人數同時間。",
+            "英文能力各店差異極大。池袋的 Aloha Whisky 以英語為主，"
+            "部分老牌小店店主只講日文但非常友善，用翻譯 App 都溝通得到。",
+            "日本對酒後駕駛嘅標準極嚴，而且同車乘客同供酒者一樣有責任——"
+            "飲酒就唔好開車，改搭的士或地鐵。",
+            "大城市地鐵／地下鐵多數在午夜前後收車，最後一班車時間要先查清楚，"
+            "唔好飲到興起先發現冇車返酒店。",
+        ],
+    ),
+]
+
+BAR_GUIDE_SOURCES: list[tuple[str, str]] = [
+    ("Sip Japan：京都威士忌吧指南（含 Google 評分與評論數）", "https://sipjapan.com/blog/best-whisky-bars-kyoto"),
+    ("Sip Japan：札幌威士忌吧指南（含 Google 評分與評論數）", "https://sipjapan.com/blog/best-whisky-bars-sapporo"),
+    ("Restaurant Guru：Bar Benfiddich（引用 Google 評分 4.4、934 則）", "https://restaurantguru.com/Bar-Benfiddich-Shinjuku"),
+    ("Wanderlog：各地酒吧評分與 Google 評論彙整", "https://wanderlog.com/"),
+    ("Tabelog：日本餐廳與酒吧資料庫（收費、座位數、營業時間）", "https://tabelog.com/"),
+    ("byFood：京都酒吧與雞尾酒吧指南", "https://www.byfood.com/zh-tw/blog/best-cocktail-bar-kyoto-p-749"),
+    ("Fukuoka Now：福岡酒吧介紹（座位費與吸煙規定）", "https://www.fukuoka-now.com/en/bar-oscar"),
+    ("Tokyo Deep Nightlife：東京威士忌吧導覽（15ml 計價與營業時間）", "https://tokyodeepnightlife.jp/tokyo-whisky-bar-tour/"),
+    ("GUSTO webzine：東京威士忌 flight 指南（蒸餾所收藏規模）", "https://gustowebzine.com/japanese-whisky-flights-in-tokyo-hotel-bars/"),
+]
+
+
+def load_bars() -> list[dict]:
+    if not BARS_FILE.exists():
+        return []
+    try:
+        payload = json.loads(BARS_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    out = []
+    for b in (payload.get("bars") or []):
+        if not b.get("id") or not b.get("name"):
+            continue
+        # region 一定要在 JP_REGIONS 之內，否則地區頁與導覽會出錯。
+        if b.get("region") not in JP_REGIONS:
+            print(f"  ⚠️ 酒吧 {b.get('id')} 的 region「{b.get('region')}」不在 JP_REGIONS，已略過")
+            continue
+        out.append(b)
+    return out
+
+
+def bar_region_of(b: dict) -> str:
+    return str(b.get("region") or "")
+
+
+def bar_regions_in_use(bars: list[dict]) -> list[str]:
+    present = {bar_region_of(b) for b in bars}
+    present.discard("")
+    return [k for k in JP_REGION_ORDER if k in present]
+
+
+def bar_sorted(bars: list[dict]) -> list[dict]:
+    """誠實排序：先 Google 評分、同分按評論數，全由已核實數據推導，非編輯評選。"""
+    return sorted(
+        bars,
+        key=lambda b: (-(b.get("rating") or 0), -(b.get("reviews") or 0)),
+    )
+
+
+def bar_region_pool(bars: list[dict], rkey: str) -> list[dict]:
+    return [b for b in bars if bar_region_of(b) == rkey]
+
+
+def bar_region_nav(bars: list[dict], exclude: str | None = None) -> str:
+    return "".join(
+        f'<a href="{BARS_INDEX_PATH}{esc(k)}/">🍸 {esc(JP_REGIONS[k]["name"])}'
+        f'（{len(bar_region_pool(bars, k))}）</a>'
+        for k in bar_regions_in_use(bars) if k != exclude
+    )
+
+
+def bar_rating_text(b: dict) -> str:
+    r = b.get("rating")
+    if not isinstance(r, (int, float)):
+        return "評分未列"
+    rv = b.get("reviews")
+    return f"⭐ {r:g}" + (f"（{rv:,} 則）" if isinstance(rv, int) else "")
+
+
+def bar_card(b: dict) -> str:
+    url = f"{BARS_INDEX_PATH}{esc(b['id'])}/"
+    btype = BAR_TYPE_LABEL.get(str(b.get("barType")), "🍸")
+    bullets = [str(h) for h in (b.get("highlights") or []) if str(h).strip()]
+    hl = "<ul>" + "".join(f"<li>{esc(h)}</li>" for h in bullets[:2]) + "</ul>" if bullets else ""
+    rname = JP_REGIONS[bar_region_of(b)]["name"] if bar_region_of(b) in JP_REGIONS else "日本"
+    where = "・".join(x for x in (str(b.get("city") or ""), str(b.get("area") or "")) if x)
+    return (
+        f'<article class="card bar-card" data-id="{esc(b["id"])}">'
+        '<div class="card-top">'
+        f'<span class="badge badge-bar">{esc(rname)}</span>'
+        f'<span class="badge badge-bartype">{esc(btype)}</span>'
+        '<span class="card-sticker st-bar" aria-hidden="true">🍸</span>'
+        "</div>"
+        f'<h3><a href="{url}">{esc(b["name"])}</a></h3>'
+        + (f'<p class="sub">{esc(b["nameEn"])}</p>' if b.get("nameEn") else "")
+        + f'<p class="route">📍 {esc(where)}</p>'
+        + '<div class="price-row">'
+        f'<span class="price bar-hl">{esc(bar_rating_text(b))}</span>'
+        f'<span class="save">{esc(BAR_TYPE_SHORT.get(str(b.get("barType")), ""))}</span>'
+        "</div>"
+        + (f'<p class="summary">{esc(b["blurb"])}</p>' if b.get("blurb") else "")
+        + hl
+        + f'<div class="card-foot"><span class="period">'
+        f'🥃 {esc(b.get("signature") or "以現場酒單為準")}</span>'
+        f'<span class="actions"><a class="link-btn" href="{url}">睇酒吧詳情 →</a></span></div>'
+        + "</article>"
+    )
+
+
+def bar_grid(bars: list[dict]) -> str:
+    if not bars:
+        return '<p class="empty">這個地區暫時未有收錄的酒吧。</p>'
+    return '<div class="grid">' + "".join(bar_card(b) for b in bar_sorted(bars)) + "</div>"
+
+
+def bar_related(b: dict, peers: list[dict], limit: int = 3) -> list[dict]:
+    """先同地區，唔夠再補最近的地區（按 JP_REGION_ORDER 距離），確保詳情頁有足夠站內連結。"""
+    rkey = bar_region_of(b)
+    idx = {k: i for i, k in enumerate(JP_REGION_ORDER)}
+    base = idx.get(rkey, 99)
+    others = [p for p in peers if p.get("id") != b.get("id") and bar_region_of(p) != rkey]
+    others.sort(key=lambda p: abs(idx.get(bar_region_of(p), 99) - base))
+    same = [p for p in bar_sorted(peers)
+            if p.get("id") != b.get("id") and bar_region_of(p) == rkey]
+    return (same + others)[:limit]
+
+
+def bar_fact_grid(b: dict) -> str:
+    where = "・".join(x for x in (str(b.get("city") or ""), str(b.get("area") or "")) if x)
+    facts = [
+        ("所在地區", f'{JP_REGIONS[bar_region_of(b)]["name"]}・{where}'),
+        ("類型", BAR_TYPE_SHORT.get(str(b.get("barType")), "—")),
+        ("招牌／必點", b.get("signature") or "—"),
+        ("Google 評分", f'{b.get("rating"):g}' if isinstance(b.get("rating"), (int, float)) else "—"),
+        ("評論數", f'{b.get("reviews"):,}' if isinstance(b.get("reviews"), int) else "未列"),
+        ("費用參考", b.get("priceBand") or "以現場酒單為準"),
+        ("地址", b.get("address") or "—"),
+        ("評分查核日", b.get("ratingCheckedAt") or "—"),
+    ]
+    return "".join(
+        f'<div class="deal-fact"><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in facts
+    )
+
+
+def bar_editorial_html(b: dict, peers: list[dict]) -> str:
+    blocks: list[tuple[str, list[str], list[str]]] = []
+
+    blocks.append(("呢間酒吧點解值得去", [], [str(h) for h in (b.get("highlights") or [])]))
+
+    if b.get("signature"):
+        blocks.append((
+            "入到去做咩",
+            [f"招牌／必點：{b['signature']}",
+             "日本酒吧普遍可以按你口味即場調整，唔一定跟足酒單。"
+             "如果冇酒單，直接講口味關鍵詞（smoky／fruity／sherry／smooth）最有效。"],
+            [],
+        ))
+
+    blocks.append((
+        "收費同規矩",
+        [
+            f"費用參考：{b.get('priceBand') or '以現場酒單為準'}",
+            "日本正統吧普遍收座位費（チャージ／席料），約 ¥500–1,500，通常包小食或毛巾；"
+            "日本冇小費文化，唔需要另加。",
+            "營業時間、吸煙規定與座位費各店差異大，出發前請以店家 Google 即時資訊為準。",
+        ],
+        [],
+    ))
+
+    tips = [str(t) for t in (b.get("tips") or []) if str(t).strip()]
+    if tips:
+        blocks.append(("去之前要知道", [], tips))
+
+    near = [p for p in peers if p.get("id") != b.get("id")
+            and bar_region_of(p) == bar_region_of(b)]
+    if near:
+        lines = [f"{p['name']}（{bar_rating_text(p)}・{BAR_TYPE_SHORT.get(str(p.get('barType')), '')}）"
+                 for p in bar_sorted(near)[:3]]
+        blocks.append((
+            "同地區仲有呢幾間",
+            [f"同一個地區另外收錄了 {len(near)} 間酒吧，可以一晚串兩間。"],
+            lines,
+        ))
+
+    parts = [
+        '<section class="editorial" aria-labelledby="jp-bar-ed-title">',
+        '<h2 id="jp-bar-ed-title">🧾 酒吧詳解 '
+        '<span class="ed-cat">由已核實評分與公開資料推導</span></h2>',
+    ]
+    for title, paras, bullets in blocks:
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(bl)}</li>" for bl in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁的評分與評論數由 Fly &amp; Feast HK 編輯部'
+        "根據上列來源網站引用的 Google 資料核對抄錄，查核日期見頁首。"
+        "酒吧的營業時間、收費與吸煙規定變動頻繁，一切以店家及 Google Maps 即時資訊為準。"
+        "本頁不構成任何推薦或品質保證；請理性飲酒，酒後不駕駛。未滿 20 歲不得飲酒。</p>"
+    )
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def build_bars_index(bars: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+    regions = bar_regions_in_use(bars)
+    n_whisky = sum(1 for b in bars if b.get("barType") in ("whisky", "both"))
+    n_cocktail = sum(1 for b in bars if b.get("barType") in ("cocktail", "both"))
+
+    region_nav = bar_region_nav(bars)
+    sections = ""
+    for rk in regions:
+        pool = bar_region_pool(bars, rk)
+        sections += (
+            f'<h2 class="section-h2" id="bregion-{esc(rk)}">🍸 {esc(JP_REGIONS[rk]["name"])}'
+            f'<span class="ed-cat">共 {len(pool)} 間</span></h2>'
+            + bar_grid(pool)
+        )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本酒吧", None)])
+        + '<div class="page-head">'
+        "<h1>🍸 日本各地必去威士忌與雞尾酒吧</h1>"
+        '<p class="page-lede">日本酒吧最麻煩嘅唔係冇好酒，而係「唔知門路」——'
+        "好店多數藏身大廈三樓以上、冇招牌、冇酒單、仲要收一筆唔知係咩嘅座位費。"
+        "呢個專欄按地區收錄威士忌同雞尾酒吧，每間都寫清楚三件事："
+        "Google 評分同評論數（附查核日期）、招牌係咩、收費同規矩係點。"
+        "另外仲有一頁「酒吧禮儀與點酒指南」，講齊座位費、點威士忌用語同最容易失禮嘅位。</p>"
+        f'<div class="page-meta"><span>已收錄：<b>{len(bars)}</b> 間</span>'
+        f'<span>地區：<b>{len(regions)}</b> 個</span>'
+        f'<span>威士忌專門：<b>{n_whisky}</b> 間</span>'
+        f'<span>雞尾酒專門：<b>{n_cocktail}</b> 間</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        + (f'<div class="cat-nav region-nav"><b>按地區：</b>{region_nav}</div>'
+           if region_nav else "")
+        + f'<div class="cat-nav region-nav"><b>入場前必讀：</b>'
+        f'<a href="{BARS_GUIDE_PATH}">📋 酒吧禮儀與點酒指南（座位費・點酒用語・禁忌）</a></div>'
+        '<p class="section-note">本頁按地區分組，地區內按 Google 評分排序（同分按評論數），'
+        "排序由已核實數據推導，並非編輯主觀評選。</p>"
+        "</div>"
+        + '<div class="prose">'
+        "<h2>呢個專欄點揀酒吧</h2>"
+        "<ul>"
+        "<li><b>唔用自創評分</b>：只收有公開來源明確寫出 Google 評分的店，"
+        "並標明查核日期；兩個來源評分矛盾就跳過，查不到就不收錄。</li>"
+        "<li><b>威士忌同雞尾酒都要有</b>：日本酒吧兩條線的性格差很遠——"
+        "威士忌專門店講酒藏深度，雞尾酒吧講調酒師手法同季節水果，兩種都值得去。</li>"
+        "<li><b>規矩先講清楚</b>：座位費幾多、可唔可以影相、係唔係全店吸煙，"
+        "呢啲係香港旅客最常撞板嘅位，每間詳情頁都會寫。</li>"
+        "<li><b>評分會變</b>：每筆都標明查核日期，以 Google Maps 即時顯示為準。</li>"
+        "</ul>"
+        "</div>"
+        + sections
+        + '<div class="prose"><h2>仲想睇多啲</h2><ul>'
+        f'<li><a href="{BARS_GUIDE_PATH}">酒吧禮儀與點酒指南</a>：'
+        "座位費係咩、點威士忌用語、冇酒單點算、最容易失禮嘅六件事。</li>"
+        '<li><a href="/japan/">日本美食專欄</a>：飲完想去食宵夜，呢度有各城市的高分餐廳。</li>'
+        '<li><a href="/japan/hotels/">日本酒店推介</a>：飲到夜，揀一間行得返酒店的最實際。</li>'
+        '<li><a href="/japan/drive/">日本自駕路線</a>：自駕要注意酒後駕駛規定極嚴，'
+        "飲酒當日唔好開車。</li>"
+        "</ul></div>"
+        + "</main>"
+    )
+    return layout(
+        title="日本必去威士忌與雞尾酒吧推介：按地區收錄・附 Google 評分｜Fly & Feast HK",
+        desc=f"日本各地區必去的威士忌與雞尾酒吧，現收錄 {len(bars)} 間、涵蓋 {len(regions)} 個地區。"
+             "每間附 Google 評分與評論數、查核日期、招牌酒、座位費與規矩提醒。",
+        path=BARS_INDEX_PATH,
+        body=body,
+        meta=meta,
+        active="japan-bar",
+        ld=[breadcrumb_ld([("日本酒吧", None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": "日本必去威士忌與雞尾酒吧", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_bar_region_page(rkey: str, pool: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    rname = JP_REGIONS[rkey]["name"]
+    updated = str(meta.get("updated") or "")[:10]
+    ranked = bar_sorted(pool)
+
+    other_nav = bar_region_nav(pool, exclude=rkey)
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本酒吧", BARS_INDEX_PATH), (rname, None)])
+        + '<div class="page-head">'
+        f"<h1>🍸 {rname}必去威士忌與雞尾酒吧</h1>"
+        f'<p class="page-lede">'
+        f'{esc(JP_BAR_REGION_INTRO.get(rkey, BAR_REGION_INTRO_FALLBACK))}</p>'
+        f'<div class="page-meta"><span>已收錄：<b>{len(pool)}</b> 間</span>'
+        f'<span>威士忌專門：<b>{sum(1 for b in pool if b.get("barType") in ("whisky", "both"))}</b></span>'
+        f'<span>雞尾酒專門：<b>{sum(1 for b in pool if b.get("barType") in ("cocktail", "both"))}</b></span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        f'<p class="section-note">本頁按 Google 評分排序（同分按評論數），'
+        "排序由已核實數據推導，非編輯主觀評選。</p>"
+        f'<div class="cat-nav region-nav"><b>其他地區：</b>{other_nav}'
+        f'<a href="{BARS_INDEX_PATH}">睇晒全部酒吧</a></div>'
+        "</div>"
+        + bar_grid(ranked)
+        + '<div class="prose">'
+        "<h2>入去之前請先確認</h2>"
+        "<ul>"
+        "<li><b>座位費</b>：日本正統吧普遍收約 ¥500–1,500，通常包小食或毛巾；"
+        "日本冇小費文化。詳情頁有寫明該店情況。</li>"
+        "<li><b>吸煙規定</b>：部分店全店可吸煙，日本飲食店的吸煙規定與香港不同，"
+        "唔慣煙味要先問清楚。</li>"
+        "<li><b>影相</b>：部分店禁止拍攝，見到「撮影禁止」就唔好影。</li>"
+        f'<li><b>第一次去</b>：可以先睇<a href="{BARS_GUIDE_PATH}">酒吧禮儀與點酒指南</a>，'
+        "座位費、點酒用語、冇酒單點處理都講齊。</li>"
+        "</ul>"
+        "</div>"
+        + "</main>"
+    )
+    return layout(
+        title=f"{rname}必去威士忌與雞尾酒吧推介：Google 評分・座位費提醒｜Fly & Feast HK",
+        desc=f"{rname}的日本威士忌與雞尾酒吧推介，現收錄 {len(pool)} 間，"
+             "附 Google 評分與評論數、查核日期、招牌酒與收費規矩提醒。",
+        path=f"{BARS_INDEX_PATH}{rkey}/",
+        body=body,
+        meta=meta,
+        active="japan-bar",
+        ld=[breadcrumb_ld([("日本酒吧", BARS_INDEX_PATH), (rname, None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": f"日本酒吧：{rname}", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_bar_page(b: dict, peers: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+    rkey = bar_region_of(b)
+    rname = JP_REGIONS[rkey]["name"]
+    url = f"{BARS_INDEX_PATH}{b['id']}/"
+    btype = BAR_TYPE_LABEL.get(str(b.get("barType")), "🍸")
+    related = bar_related(b, peers)
+    where = "・".join(x for x in (str(b.get("city") or ""), str(b.get("area") or "")) if x)
+
+    trail = [("日本酒吧", BARS_INDEX_PATH), (rname, f"{BARS_INDEX_PATH}{rkey}/"),
+             (b.get("name", ""), None)]
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html(trail)
+        + "<article>"
+        '<div class="deal-hero">'
+        '<div class="card-top">'
+        f'<span class="badge badge-bar">{esc(rname)}</span>'
+        f'<span class="badge badge-bartype">{esc(btype)}</span>'
+        f'<span class="badge badge-value">{esc(bar_rating_text(b))}</span>'
+        "</div>"
+        f"<h1>{esc(b.get('name'))}</h1>"
+        + (f'<p class="lede-line">{esc(b["nameEn"])}</p>' if b.get("nameEn") else "")
+        + '<div class="price-panel">'
+        f'<span class="p-now bar-hl">📍 {esc(where)}</span>'
+        '<span class="p-note">評分與評論數附來源與查核日期，以 Google Maps 即時顯示為準；'
+        "座位費、營業時間與吸煙規定請以店家即時資訊為準。</span>"
+        "</div>"
+        f'<dl class="deal-facts">{bar_fact_grid(b)}</dl>'
+        "</div>"
+        + maps_embed_html(b, kind="酒吧")
+        + (f'<h2 class="section-h2">📖 酒吧簡介</h2><p>{esc(b.get("blurb"))}</p>'
+           if b.get("blurb") else "")
+        + bar_editorial_html(b, peers)
+        + (
+            '<div class="deal-actions">'
+            f'<a class="link-btn" href="{esc(b.get("mapsUrl") or "#")}" '
+            'target="_blank" rel="noopener nofollow">睇 Google Maps 位置與即時資訊 →</a>'
+            f'<a class="btn-ghost" href="{BARS_INDEX_PATH}">睇晒全部日本酒吧</a>'
+            f'<a class="btn-ghost" href="{BARS_GUIDE_PATH}">酒吧禮儀與點酒指南</a>'
+            "</div>"
+            '<div class="source-block"><p><strong>資料來源：</strong>'
+            + (
+                f'<a href="{esc(b["sourceUrl"])}" target="_blank" rel="noopener nofollow">'
+                f'{esc(b.get("sourceLabel") or b["sourceUrl"])}</a>'
+                if b.get("sourceUrl") else esc(b.get("sourceLabel"))
+            )
+            + f"</p><p>評分與評論數於 {esc(b.get('ratingCheckedAt') or updated)} 核對抄錄，"
+            "並以 Google Maps 即時顯示為準。酒吧的營業時間、收費與吸煙規定變動頻繁，"
+            "一切以店家官方資訊為準。本頁不構成任何推薦或品質保證；"
+            "請理性飲酒，酒後不駕駛。未滿 20 歲不得飲酒。</p></div>"
+        )
+        + "</article>"
+        + (
+            '<section class="related"><h2 class="section-h2">🔎 附近仲有咩酒吧</h2>'
+            '<p class="section-note">同地區優先，唔夠再補相鄰地區。</p>'
+            + bar_grid(related)
+            + "</section>"
+            if related else ""
+        )
+        + "</main>"
+    )
+
+    ld = [
+        breadcrumb_ld(trail, site),
+        {
+            "@context": "https://schema.org",
+            "@type": "BarOrPub",
+            "name": b.get("name"),
+            "description": (b.get("blurb") or "")[:155],
+            "address": b.get("address"),
+            "inLanguage": "zh-Hant-HK",
+            "dateModified": str(meta.get("updated") or ""),
+            "mainEntityOfPage": {"@type": "WebPage", "@id": site + url},
+        },
+    ]
+    if isinstance(b.get("rating"), (int, float)):
+        ld.append({
+            "@context": "https://schema.org",
+            "@type": "AggregateRating",
+            "ratingValue": b.get("rating"),
+            "reviewCount": b.get("reviews") or 1,
+            "bestRating": 5,
+        })
+    return layout(
+        title=f"{b.get('name')}｜{rname}酒吧推介（{bar_rating_text(b)}）｜Fly & Feast HK",
+        desc=((b.get("blurb") or b.get("name") or "")[:155]),
+        path=url,
+        body=body,
+        meta=meta,
+        active="japan-bar",
+        ld=ld,
+    )
+
+
+def build_bars_guide(bars: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+
+    parts = [
+        '<main class="wrap page-main">',
+        breadcrumb_html([("日本酒吧", BARS_INDEX_PATH), ("酒吧禮儀與點酒指南", None)]),
+        '<div class="page-head">',
+        "<h1>📋 日本酒吧禮儀與點酒指南：座位費、點酒用語與禁忌</h1>",
+        '<p class="page-lede">日本酒吧同香港酒吧係兩種動物。好多人第一次去會撞板嘅唔係酒，'
+        "而係規矩：唔知點解要收座位費、冇酒單唔知點算、飲完一杯想再叫但店主唔理你。"
+        "呢頁集中講香港人去日本酒吧最常撞板嘅位，令你第一晚就識玩。"
+        "日本呢邊嘅收費同規定各店差異極大，所以本文只講通則，"
+        "個別店舖的收費、營業時間與吸煙規定一律以店家即時資訊為準。</p>",
+        f'<div class="page-meta"><span>最後核對：<b>{esc(updated)}</b></span>'
+        f'<span>收錄酒吧：<b>{len(bars)}</b> 間</span></div>',
+        "</div>",
+        '<div class="prose">',
+        "<h2>三句講完重點</h2>",
+        "<ul>",
+        "<li><b>座位費要問清楚</b>：日本正統吧普遍收 ¥500–1,500 座位費（チャージ／席料），"
+        "通常包小食；呢筆錢唔係小費，日本亦冇小費文化。</li>",
+        "<li><b>冇酒單係正常</b>：唔少名店根本冇酒單，靠你講口味即場調。"
+        "講 smoky／fruity／sherry／smooth 加預算，比你自己估更準。</li>",
+        "<li><b>安靜係規矩</b>：正統吧唔係傾大聲嘢嘅地方，唔好大聲講話、唔好講電話、"
+        "見到「撮影禁止」就唔好影。</li>",
+        "</ul>",
+        "</div>",
+        '<section class="editorial" aria-labelledby="bar-guide-title">',
+        '<h2 id="bar-guide-title">📋 逐項拆解 '
+        '<span class="ed-cat">收費與規矩各店不同，以店家為準</span></h2>',
+    ]
+    for title, paras, bullets in BAR_GUIDE_SECTIONS:
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(bl)}</li>" for bl in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁內容由 Fly &amp; Feast HK 編輯部參考日本餐飲業慣例'
+        "及各店公開收費說明整理，核對日期見頁首。"
+        "收費、營業時間、吸煙規定與入場年齡限制各店不同且會變動，"
+        "一切以店家官方及 Google Maps 即時資訊為準。"
+        "本頁不構成任何推薦或品質保證；請理性飲酒，酒後不駕駛，未滿 20 歲不得飲酒。</p>"
+    )
+    parts.append("</section>")
+
+    parts.append('<section class="sources-block"><h2 class="section-h2">🔗 評分與資料來源</h2><ul>')
+    for label, link in BAR_GUIDE_SOURCES:
+        parts.append(
+            f'<li><a href="{esc(link)}" target="_blank" rel="noopener nofollow">{esc(label)}</a></li>'
+        )
+    parts.append("</ul></section>")
+
+    if bars:
+        parts.append(
+            '<section class="related"><h2 class="section-h2">🍸 開始揀酒吧</h2>'
+            '<p class="section-note">已收錄的酒吧，全部附 Google 評分、評論數與查核日期。</p>'
+            + bar_grid(bar_sorted(bars)[:3])
+            + "</section>"
+        )
+
+    parts.append(
+        '<div class="prose"><h2>仲想睇多啲</h2><ul>'
+        f'<li><a href="{BARS_INDEX_PATH}">日本酒吧總覽</a>：按地區收錄威士忌與雞尾酒吧。</li>'
+        '<li><a href="/japan/">日本美食專欄</a>：飲完想食宵夜，呢度有各城市高分餐廳。</li>'
+        '<li><a href="/japan/hotels/">日本酒店推介</a>：飲到夜，揀一間行得返的最實際。</li>'
+        "</ul></div>"
+    )
+    parts.append("</main>")
+
+    return layout(
+        title="日本酒吧禮儀與點酒指南：座位費、點威士忌用語與禁忌｜Fly & Feast HK",
+        desc="香港人去日本酒吧的實務指南：座位費（チャージ）是什麼、威士忌點酒用語、"
+             "遇到冇酒單怎辦、最容易失禮的六件事、預約與最後一班車安排。",
+        path=BARS_GUIDE_PATH,
+        body="".join(parts),
+        meta=meta,
+        active="japan-bar",
+        ld=[breadcrumb_ld([("日本酒吧", BARS_INDEX_PATH), ("酒吧禮儀與點酒指南", None)], site),
+            {"@context": "https://schema.org", "@type": "Article",
+             "headline": "日本酒吧禮儀與點酒指南",
+             "inLanguage": "zh-Hant-HK",
+             "dateModified": str(meta.get("updated") or "")}],
+    )
+
+
 def prune_stale_japan_pages(valid_ids: set[str]) -> int:
     """同優惠頁一樣，清除已不在資料檔的孤兒頁。資料少於 5 筆時不動。
 
@@ -3403,7 +4065,8 @@ def prune_stale_japan_pages(valid_ids: set[str]) -> int:
 
 def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None,
                   japan_hotels: list[dict] | None = None,
-                  japan_routes: list[dict] | None = None) -> str:
+                  japan_routes: list[dict] | None = None,
+                  japan_bars: list[dict] | None = None) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     today = datetime.now(HK_TZ).date().isoformat()
     urls: list[tuple[str, str, str]] = [
@@ -3430,6 +4093,13 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
             urls.append((f"{DRIVE_INDEX_PATH}{rk}/", "0.7", "weekly"))
         for r in japan_routes:
             urls.append((f"{DRIVE_INDEX_PATH}{r['id']}/", "0.6", "weekly"))
+    if japan_bars:
+        urls.append((BARS_INDEX_PATH, "0.8", "weekly"))
+        urls.append((BARS_GUIDE_PATH, "0.7", "monthly"))
+        for rk in bar_regions_in_use(japan_bars):
+            urls.append((f"{BARS_INDEX_PATH}{rk}/", "0.7", "weekly"))
+        for b in japan_bars:
+            urls.append((f"{BARS_INDEX_PATH}{b['id']}/", "0.6", "weekly"))
     urls.append(("/guides/", "0.8", "weekly"))
     for g in GUIDES:
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly"))
@@ -3531,11 +4201,14 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     # 日本美食專欄 + 日本酒店專欄（同一棵 /japan/ 樹）
     eats = load_japan()
     hotels = load_hotels()
+    bars = load_bars()
     jpruned = prune_stale_japan_pages(
         {e["id"] for e in eats}
         | set(japan_regions_in_use(eats))
         | {h["id"] for h in hotels}
         | set(japan_regions_in_use(hotels))
+        | {b["id"] for b in bars}
+        | set(bar_regions_in_use(bars))
     )
     n_region_pages = 0
     if eats:
@@ -3586,19 +4259,39 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     else:
         print("  日本自駕專欄：japan-drive.json 無資料或不存在，已略過")
 
+    # 日本酒吧專欄（/japan/bars/、/japan/bars/<地區>/、/japan/bars/<id>/、/japan/bars/guide/）
+    n_bar_region_pages = 0
+    if bars:
+        write_page(PROJECT / "japan" / "bars" / "index.html",
+                   build_bars_index(bars, meta))
+        write_page(PROJECT / "japan" / "bars" / "guide" / "index.html",
+                   build_bars_guide(bars, meta))
+        for b in bars:
+            write_page(PROJECT / "japan" / "bars" / b["id"] / "index.html",
+                       build_bar_page(b, bars, meta))
+        for rkey in bar_regions_in_use(bars):
+            pool = bar_region_pool(bars, rkey)
+            write_page(PROJECT / "japan" / "bars" / rkey / "index.html",
+                       build_bar_region_page(rkey, pool, meta))
+            n_bar_region_pages += 1
+    else:
+        print("  日本酒吧專欄：japan-bars.json 無資料或不存在，已略過")
+
     write_page(PROJECT / "about" / "index.html", build_about(deals, meta))
     write_page(PROJECT / "contact" / "index.html", build_contact(deals, meta))
     write_page(PROJECT / "privacy" / "index.html", build_privacy(deals, meta))
     write_page(PROJECT / "terms" / "index.html", build_terms(deals, meta))
 
-    total = build_sitemap(deals, meta, eats, hotels, routes)
+    total = build_sitemap(deals, meta, eats, hotels, routes, bars)
     result = {
         "deals": written,
         "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats)
                  + (1 if eats else 0) + n_region_pages
                  + len(hotels) + (1 if hotels else 0) + n_hotel_region_pages
                  + len(routes) + (1 if routes else 0) + (1 if routes else 0)
-                 + n_drive_region_pages,
+                 + n_drive_region_pages
+                 + len(bars) + (1 if bars else 0) + (1 if bars else 0)
+                 + n_bar_region_pages,
         "sitemap": total,
     }
     print(
@@ -3606,6 +4299,7 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
         f"{len(eats)} 個日本美食頁（另 {n_region_pages} 個地區排行頁）、"
         f"{len(hotels)} 個日本酒店頁（另 {n_hotel_region_pages} 個地區排行頁）、"
         f"{len(routes)} 個日本自駕頁（另 {n_drive_region_pages} 個地區頁＋1 篇實務指南）、"
+        f"{len(bars)} 個日本酒吧頁（另 {n_bar_region_pages} 個地區頁＋1 篇禮儀指南）、"
         f"{len(GUIDES)} 篇攻略、4 個合規頁；"
         f"sitemap 收錄 {total} 條 URL"
         + (f"；已清除 {pruned} 個優惠孤兒頁面" if pruned else "")

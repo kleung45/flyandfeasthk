@@ -265,6 +265,15 @@
   color: var(--teal, #1f7a78);
   letter-spacing: 0;
 }
+/* 酒吧卡／詳情頁同理：借用 .price / .p-now 的版位顯示評分或地點，
+   唔應該大字紅色。特異度要高過 .price-panel .p-now。 */
+.bar-hl,
+.price-panel .p-now.bar-hl {
+  font-size: 15px;
+  font-weight: 700;
+  color: #a9762c;
+  letter-spacing: 0;
+}
 /* 排行頁的榜單：原本 .ranked-list 無樣式，令名次卡貼實一齊 */
 .ranked-list {
   display: flex;
@@ -328,4 +337,44 @@
 @media (max-width: 900px) {
   .drive-card .save { max-width: 100%; }
   .sources-block { padding: 14px 15px; }
+}
+
+/* ==========================================================================
+   日本酒吧專欄（/japan/bars/）
+   ========================================================================== */
+.badge-bar {
+  background: rgba(196, 148, 74, .16);
+  color: #a9762c;
+  border-color: rgba(196, 148, 74, .38);
+}
+.badge-bartype {
+  background: rgba(126, 87, 158, .14);
+  color: #7e579e;
+  border-color: rgba(126, 87, 158, .34);
+}
+.card-sticker.st-bar { opacity: .9; }
+
+/* 酒吧卡沿用自駕卡的排版，評分用修飾類壓住大紅字 */
+.bar-card .route { font-size: 12.5px; }
+.bar-card .save {
+  max-width: 48%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bar-card .card-foot .period {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bar-card .summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  .bar-card .save { max-width: 100%; }
 }

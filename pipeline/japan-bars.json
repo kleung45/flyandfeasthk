@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
+    "updated": "2026-09-30",
+    "minRating": 4.3,
+    "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
+    "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
+    "rotation": [
+      "沖繩",
+      "四國",
+      "中部／東海",
+      "九州",
+      "東北",
+      "關東",
+      "關西",
+      "中國／瀨戶內",
+      "北海道"
+    ]
+  },
+  "bars": [
+    {
+      "id": "jp-bar-tokyo-benfiddich",
+      "name": "Bar Benfiddich",
+      "nameEn": "Bar Benfiddich",
+      "city": "東京",
+      "area": "西新宿",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "自家農場香草調製的 Botanical Gin Fizz、苦艾酒（Absinthe）",
+      "rating": 4.4,
+      "reviews": 934,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "每人約 ¥3,000–9,000（來源列示區間，以現場為準）",
+      "address": "東京都新宿区西新宿1-13-7 大和家ビル 9F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Benfiddich%20%E8%A5%BF%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "店主嘉山裕康在東京市郊自營農場種植香草與植物，酒吧的雞尾酒走「farm-to-glass」路線，材料多數直接來自自家農地。後吧擺滿數十年前的老酒與利口酒，部分酒標已經磨蝕，店主仍能逐瓶講出來歷。",
+      "highlights": [
+        "店主自營農場直送香草與植物，屬 farm-to-glass 做法",
+        "後吧收藏大量陳年利口酒與老酒，部分酒標已磨蝕",
+        "經常被旅遊媒體列為東京必去雞尾酒吧之一"
+      ],
+      "tips": [
+        "必須預約：官方訂位每月 20 號開放，經常迅速爆滿，無預約基本上進不去",
+        "不要點 Gin & Tonic 之類基本酒——店主的季節創作才是重點，先看官方 Instagram 當季作品再決定",
+        "座位在 9 樓，大廈入口低調，先認清樓層指示牌"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.4、934 則）",
+      "sourceUrl": "https://restaurantguru.com/Bar-Benfiddich-Shinjuku",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-tokyo-aloha",
+      "name": "Aloha Whisky",
+      "nameEn": "Aloha Whisky",
+      "city": "東京",
+      "area": "西池袋",
+      "region": "kanto",
+      "barType": "whisky",
+      "signature": "秩父蒸餾所全系列、復刻版 Suntory 老瓶、個人化試飲組合（flight）",
+      "rating": 4.9,
+      "reviews": 143,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "以 15ml 為計價單位，日本威士忌約 ¥1,000／15ml 起（來源列示，以現場為準）",
+      "address": "東京都豊島区西池袋3-29-11 泉ビル 3F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aloha%20Whisky%20%E8%A5%BF%E6%B1%A0%E8%A2%8B%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "2019 年開業，店主 David Tsujimoto 在夏威夷出生，因為自己收藏的威士忌多到喝不完而開店。這裡的秩父蒸餾所系列被形容為全球最齊全之一，另有復刻版 Suntory 老瓶、單桶裝瓶與私人裝瓶；店主會按客人的口味與預算即場設計試飲組合。",
+      "highlights": [
+        "秩父蒸餾所收藏被 Whisky Magazine 形容為全球最完整之一",
+        "店主 David Tsujimoto 為 Icons of Whisky 獎項得主",
+        "以 15ml 小份計價，可以用同一價錢試多幾款不同蒸餾所",
+        "全店以英語溝通為主，另有日籍調酒師在場"
+      ],
+      "tips": [
+        "建議預約，熱門時段經常滿座",
+        "想試得多就點 15ml 小份，唔使一次過落重本",
+        "店主會按照你的口味設計 flight，唔係固定套餐——講清楚自己鍾意咩風格最有用",
+        "平日或較早時段較清靜"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.9、143 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/2567344/aloha-whisky",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-osaka-augusta",
+      "name": "Bar Augusta",
+      "nameEn": "Bar Augusta",
+      "city": "大阪",
+      "area": "中崎町",
+      "region": "kansai",
+      "barType": "whisky",
+      "signature": "店主原創的 Augusta 7、Wild Gin and Tonic",
+      "rating": 4.5,
+      "reviews": 178,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "每人約 ¥2,500–5,000；另收座位費約 ¥1,500（含佐酒小食）",
+      "address": "大阪府大阪市北区鶴野町2-3 アラカワビル 1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Augusta%20%E4%B8%AD%E5%B4%8E%E7%94%BA%20%E5%A4%A7%E9%98%AA",
+      "blurb": "位於中崎町一帶的正統吧，以日本威士忌與進口威士忌的選酒見長，空間小、木吧檯，風格安靜。店主品川氏英文流利，會逐款講解選酒；多名評論者提到這是他們在大阪最好的一晚。",
+      "highlights": [
+        "以日本威士忌與進口威士忌選酒見長，另有原創雞尾酒",
+        "店主英文流利，對外國客人友善且樂於交流",
+        "座位不多，屬小型正統吧，坐吧檯體驗最好"
+      ],
+      "tips": [
+        "約 ¥1,500 座位費（含小食），屬日本正統吧慣例",
+        "營業時間各來源略有出入，出發前請查店家 Google／Instagram 即時資訊",
+        "座位少，傍晚早段去較易有位"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.5、178 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/1073702",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-kyoto-scotch-branch",
+      "name": "Scotch & Branch",
+      "nameEn": "Scotch & Branch",
+      "city": "京都",
+      "area": "中京区・伊勢屋町",
+      "region": "kansai",
+      "barType": "both",
+      "signature": "創意酸味雞尾酒（sour）、威士忌選酒",
+      "rating": 4.9,
+      "reviews": 542,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "每人約 ¥3,000–5,000（來源列示區間，以現場為準）",
+      "address": "京都府京都市中京区伊勢屋町354-1 伽羅ビル1F（入口是紅色電話亭）",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Scotch%20%26%20Branch%20%E4%BC%8A%E5%8B%A2%E5%B1%8B%E7%94%BA%20%E4%BA%AC%E9%83%BD",
+      "blurb": "入口是一個紅色英式電話亭，要先「行入電話亭」才進得了酒吧——找店本身就是體驗的一部分。店內氣氛幽暗私密，威士忌選酒紮實，創意酸味雞尾酒是招牌，是京都評分最高的酒吧之一。",
+      "highlights": [
+        "紅色電話亭入口的 speakeasy 設計，找店本身就是一部分",
+        "威士忌選酒與創意酸味雞尾酒同時兼顧",
+        "京都評分最高的酒吧之一（4.9、542 則）"
+      ],
+      "tips": [
+        "入口就是那個紅色電話亭，見到就打電話亭的門，唔使懷疑自己行錯",
+        "15:00 開始營業，早段較清靜",
+        "客人混合旅客與本地人，氣氛國際化但保留京都味道"
+      ],
+      "sourceLabel": "Sip Japan（引用 Google 評分 4.9、542 則）",
+      "sourceUrl": "https://sipjapan.com/blog/best-whisky-bars-kyoto",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-kyoto-whisky-seven",
+      "name": "Japanese Whisky Bar Seven",
+      "nameEn": "Japanese Whisky Bar Seven",
+      "city": "京都",
+      "area": "中京区・下樵木町",
+      "region": "kansai",
+      "barType": "whisky",
+      "signature": "日本威士忌由入門到收藏級，可按杯試飲比較",
+      "rating": 4.9,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "以現場酒單為準；日本威士忌由入門款起跳，收藏級另計",
+      "address": "京都府京都市中京区下樵木町196",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japanese%20Whisky%20Bar%20Seven%20%E4%B8%8B%E6%A8%B5%E6%9C%A8%E7%94%BA%20%E4%BA%AC%E9%83%BD",
+      "blurb": "店名已經講清楚：只做日本威士忌。選酒覆蓋入門級（Suntory Toki、角瓶 highball）到中階（山崎／白州 Distiller's Reserve、Nikka From The Barrel），亦有收藏級稀有款；店主會同你逐款傾。因為空間細，同調酒師的對話就是重點。",
+      "highlights": [
+        "只做日本威士忌的專門店，選酒由入門到收藏級都有",
+        "店主會就你正在飲嘅一款講解，適合想學嘢的人",
+        "4.9 分，主要靠口碑與 Instagram 傳開"
+      ],
+      "tips": [
+        "營業時間常改，出發前一定要查官方 Instagram（@japanesewhiskybar7kyoto）",
+        "座位極少，建議早到或先確認",
+        "注意 Nikka From The Barrel 依日本洋酒酒造組合標準不算「日本威士忌」（含進口麥芽），店主一般會主動說明"
+      ],
+      "sourceLabel": "Sip Japan（引用 Google 評分 4.9）",
+      "sourceUrl": "https://sipjapan.com/blog/best-whisky-bars-kyoto",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-nagoya-kobo",
+      "name": "BAR Kobo",
+      "nameEn": "BAR Kobo",
+      "city": "名古屋",
+      "area": "名駅",
+      "region": "chubu",
+      "barType": "whisky",
+      "signature": "日本及世界各地威士忌，另有馬天尼等雞尾酒",
+      "rating": 4.3,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "以現場酒單為準",
+      "address": "愛知県名古屋市中村区名駅3-12-14 今井ビル B1",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20Kobo%20%E5%90%8D%E9%A7%85%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+      "blurb": "名古屋站走兩分鐘就到，是名古屋最方便的威士忌吧之一。威士忌選擇廣，由日本到世界各地都有，另有朗姆酒等較少見的選擇；職員友善且熟悉酒款，至少一位能以英語溝通。",
+      "highlights": [
+        "名古屋站徒步約 2 分鐘，行程中最容易插入的一站",
+        "日本與世界各地威士忌選擇廣，另有朗姆酒等選項",
+        "至少一位店員能以英語溝通，適合不懂日文的旅客"
+      ],
+      "tips": [
+        "15:00 開始營業，飯前一杯也來得及",
+        "位在地庫，要留意大廈入口的指示牌",
+        "座位數不多，繁忙時段可能要等"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.3）",
+      "sourceUrl": "https://www.wanderlog.com/zh/place/details/10730437/bar-kobo",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-fukuoka-oscar",
+      "name": "Bar Oscar",
+      "nameEn": "Bar Oscar",
+      "city": "福岡",
+      "area": "大名",
+      "region": "kyushu",
+      "barType": "cocktail",
+      "signature": "時令水果雞尾酒、加入甘王（あまおう）草莓的香檳雞尾酒",
+      "rating": 4.5,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "雞尾酒約 ¥1,000 起、威士忌約 ¥1,000 起，另設座位費（以現場為準）",
+      "address": "福岡県福岡市中央区大名1-10-29 6F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Oscar%20%E5%A4%A7%E5%90%8D%20%E7%A6%8F%E5%B2%A1",
+      "blurb": "店主長友秀一年輕時在銀座名店修行，先後在日本及國際調酒比賽獲得多個獎項。酒吧在大名一棟大廈 6 樓，燈光偏暗、播爵士樂，招牌是用福岡特產甘王草莓做的時令水果雞尾酒，亦入選 Tabelog「酒吧百名店」。",
+      "highlights": [
+        "店主長友秀一為日本及國際調酒比賽得獎者，出身銀座名店",
+        "入選 Tabelog「酒吧百名店」",
+        "時令水果雞尾酒為招牌，曾用福岡甘王草莓入酒",
+        "部分外語（英／中／韓）菜單，對外國客友善"
+      ],
+      "tips": [
+        "設座位費，屬日本正統吧慣例，落單前可以先問清楚",
+        "全店可吸煙（來源明列 Smoking permitted），唔慣煙味要留意",
+        "營業時間各來源不一，出發前查店家 Instagram 最準",
+        "在 6 樓，可望大名一帶街景"
+      ],
+      "sourceLabel": "zenDine（引用 Google 平均評分 4.5）",
+      "sourceUrl": "https://zendine.co/bar-oscar/zh-cn",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-sapporo-nikka",
+      "name": "THE NIKKA BAR",
+      "nameEn": "THE NIKKA BAR",
+      "city": "札幌",
+      "area": "すすきの（薄野）",
+      "region": "hokkaido",
+      "barType": "whisky",
+      "signature": "余市、宮城峡、竹鶴全線；威士忌浸朱古力；3 款試飲組合",
+      "rating": 4.3,
+      "reviews": 684,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "參考價約 ¥3,000–4,999（Tabelog 列示）；另收座位費約 ¥1,000、瓶費及 10% 服務費",
+      "address": "北海道札幌市中央区南4条西3-1-2 第3グリーンビル 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=THE%20NIKKA%20BAR%20%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "Nikka Whisky 直營的旗艦吧，全國多間 NIKKA BAR 之中唯一冠上「THE」。北海道是 Nikka 的發源地（余市蒸餾所 1934 年開業），這裡的余市、宮城峡、竹鶴系列，包括市面難找的陳年單一麥芽都齊；另有只在店內供應的季節原創雞尾酒。",
+      "highlights": [
+        "Nikka 直營旗艦店，全國唯一冠「THE」的分店",
+        "余市、宮城峡、竹鶴全線齊備，含稀少陳年單一麥芽",
+        "可點 3 款威士忌試飲組合，一次比較不同系列",
+        "店內長期供應威士忌浸朱古力，配酒剛好"
+      ],
+      "tips": [
+        "收座位費約 ¥1,000，另有瓶費與 10% 服務費，預算要計埋",
+        "熱門時段常滿，建議用電話預約（只接受電話訂位）",
+        "全日可吸煙，唔慣煙味要留意",
+        "すすきの站步行約 3 分鐘，就在薄野十字路口附近"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.3、684 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/2657033/davids-tea-house-restaurant-sm-baguio",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-sapporo-tasokare",
+      "name": "Whisky Bar 誰ソ彼",
+      "nameEn": "Whisky Bar Tasokare",
+      "city": "札幌",
+      "area": "すすきの（南4条西5丁目）",
+      "region": "hokkaido",
+      "barType": "whisky",
+      "signature": "以教學式品飲見稱，逐款講解產地與製程",
+      "rating": 4.9,
+      "reviews": 31,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "以現場酒單為準",
+      "address": "北海道札幌市中央区南4条西5丁目（すすきの）",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Whisky%20Bar%20%E8%AA%B0%E3%82%BD%E5%BD%BC%20%E6%9C%AD%E5%B9%8C%20%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE",
+      "blurb": "全札幌評分最高的威士忌吧之一。店名「誰ソ彼（たそがれ）」是日文古語的「黃昏」，氛圍同名一樣幽靜。店主被多名評論者形容為對威士忌來源與製程認識極深，會用慢節奏、近乎教學的方式帶你飲——適合想真正學識威士忌的人。",
+      "highlights": [
+        "札幌威士忌吧中評分最高（4.9）",
+        "店名意為「黃昏」，氛圍幽靜不吵",
+        "店主以慢節奏、講解式的品飲體驗見稱"
+      ],
+      "tips": [
+        "評論基數較小（約 31 則），評分波動會較大，宜同時參考評論內容",
+        "座位少，建議早到或先查店家社交平台",
+        "詳情頁的地址只到丁目級，導航請以 Google Maps 搜尋店名為準"
+      ],
+      "sourceLabel": "Sip Japan（引用 Google 評分 4.9、31 則）",
+      "sourceUrl": "https://sipjapan.com/blog/best-whisky-bars-sapporo",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-sendai-kawagoe",
+      "name": "Le Bar Kawagoe",
+      "nameEn": "Le Bar Kawagoe",
+      "city": "仙台",
+      "area": "国分町",
+      "region": "tohoku",
+      "barType": "cocktail",
+      "signature": "無酒單，按口味即場調製；Gimlet、Laphroaig on the rocks",
+      "rating": 4.3,
+      "reviews": 141,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "約 ¥4,000–4,999（來源列示），在正統吧中屬合理價位",
+      "address": "宮城県仙台市青葉区国分町2-10-30 FOX-Bビル 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Bar%20Kawagoe%20%E5%9B%BD%E5%88%86%E7%94%BA%20%E4%BB%99%E5%8F%B0",
+      "blurb": "仙台最具代表性的正統吧之一，入選 Tabelog「酒吧百名店」，也是全日本酒吧迷的朝聖店。創辦人川越正人 2025 年辭世，由弟子須田哲平接手。玻璃門面看似平易近人，但酒架上整齊排列的酒瓶與調酒聲一聽就知道是正宗吧。",
+      "highlights": [
+        "入選 Tabelog「酒吧百名店」",
+        "無酒單，可由調酒師按你口味即場調製",
+        "威士忌新舊酒款都齊，價位在正統吧中算合理",
+        "第二代調酒師須田哲平承接創辦人川越正人的技藝"
+      ],
+      "tips": [
+        "冇酒單係正常，直接講自己鍾意咩口味就得",
+        "建議坐吧檯，睇調酒師手法值回票價",
+        "星期五特別旺，平日去會舒服好多",
+        "國分町是東北最大娛樂街區，勾當台公園站步行數分鐘"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.3、141 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/9346930/le-bar-kawagoe",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-hiroshima-alegre",
+      "name": "Bar Alegre",
+      "nameEn": "Bar Alegre",
+      "city": "広島",
+      "area": "中区・堀川町",
+      "region": "chugoku",
+      "barType": "cocktail",
+      "signature": "時令水果雞尾酒、中式血腥瑪麗（配甜豆醬）、香蕉榛子甜點雞尾酒",
+      "rating": 4.8,
+      "reviews": 355,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "屬高級正統吧價位，以現場酒單為準",
+      "address": "広島県広島市中区堀川町1-32 コニービル 3階",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Alegre%20%E5%A0%80%E5%B7%9D%E7%94%BA%20%E5%BA%83%E5%B3%B6",
+      "blurb": "廣島中區的高級成人隱居，由前酒店首席調酒師主理。以時令水果雞尾酒與豐富的威士忌選酒見稱，亦大膽用本地食材做原創——包括配甜豆醬的中式血腥瑪麗，以及當甜點飲的香蕉榛子雞尾酒。是廣島評分最高的酒吧之一。",
+      "highlights": [
+        "前酒店首席調酒師主理",
+        "大量用本地食材的原創配方（中式血腥瑪麗配甜豆醬）",
+        "廣島評分最高酒吧之一（4.8、355 則）",
+        "時令水果雞尾酒與威士忌選酒兼備"
+      ],
+      "tips": [
+        "屬高級正統吧，衣著宜整齊一點",
+        "建議預約或早段到，晚上較多人",
+        "位置在 3 樓，大廈入口低調"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.8、355 則）",
+      "sourceUrl": "http://app.wanderlog.com/zh/list/geoCategory/1837017/%E5%B9%BF%E5%B2%9B%E5%B8%82%E7%9A%84%E5%AE%B6%E6%9C%80%E4%BD%B3%E9%85%92%E5%90%A7",
+      "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-hiroshima-gardamair",
+      "name": "BAR GARDAMAIR",
+      "nameEn": "BAR GARDAMAIR",
+      "city": "広島",
+      "area": "中区・中町",
+      "region": "chugoku",
+      "barType": "whisky",
+      "signature": "抹茶蚱蜢（Matcha Grasshopper）",
+      "rating": 4.7,
+      "reviews": 51,
+      "ratingCheckedAt": "2026-09-30",
+      "priceBand": "以現場酒單為準",
+      "address": "広島県広島市中区中町10-1 藤和仲町コープ 202",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20GARDAMAIR%20%E4%B8%AD%E7%94%BA%20%E5%BA%83%E5%B3%B6",
+      "blurb": "小型威士忌吧，店主對日本威士忌認識極廣，多名評論者提到他會主動分享特別的威士忌試飲而不另收費。除威士忌外亦有葡萄酒、香檳與日本酒。招牌是用抹茶版本的 Grasshopper（蚱蜢）。",
+      "highlights": [
+        "店主對日本威士忌認識深，常主動分享試飲而不另收費",
+        "招牌「抹茶蚱蜢」是經典 Grasshopper 的抹茶變奏",
+        "威士忌以外亦有葡萄酒、香檳與日本酒"
+      ],
+      "tips": [
+        "店主英文有限，但態度非常友善；用簡單字詞或翻譯 App 都溝通得到",
+        "小店座位有限，人多時要有心理準備",
+        "位置在「コープ」大廈 202 室，屬住宅式商廈，入口較難找"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.7、51 則）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/8073462/bar-gardamair",
+      "addedAt": "2026-09-30"
+    }
+  ]
+}
