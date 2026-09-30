@@ -286,3 +286,46 @@
 @media (max-width: 900px) {
   .maps-embed iframe { height: 240px; }
 }
+
+/* ---- 日本自駕專欄（/japan/drive/） ---- */
+.badge-drive {
+  background: var(--blue-soft, #e3edf8);
+  color: var(--blue, #2a5f9e);
+  border: 1px solid rgba(42, 95, 158, .22);
+}
+.badge-vehicle {
+  background: var(--gray-soft, #eef0f2);
+  color: var(--ink, #2b2f36);
+  border: 1px solid rgba(0, 0, 0, .08);
+}
+.st-drive { background: var(--blue-soft, #e3edf8); }
+/* 自駕卡的路線摘要用「→」分隔起終點，太長要收一行 */
+.drive-card .card-foot .period {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.drive-card .route { font-size: 12.5px; }
+.drive-card .save {
+  max-width: 48%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 實務指南的來源清單 */
+.sources-block {
+  margin: 22px 0 8px;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: var(--gray-soft, rgba(127, 127, 127, .08));
+}
+.sources-block h2 { margin-top: 0; }
+.sources-block ul { margin: 8px 0 0; padding-left: 20px; }
+.sources-block li { font-size: 13px; margin-bottom: 7px; line-height: 1.55; }
+.sources-block a { word-break: break-word; }
+@media (max-width: 900px) {
+  .drive-card .save { max-width: 100%; }
+  .sources-block { padding: 14px 15px; }
+}

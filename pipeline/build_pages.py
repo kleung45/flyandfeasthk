@@ -44,6 +44,7 @@ DATA = PROJECT / "data"
 STORE = ROOT / "store.json"
 JAPAN_FILE = ROOT / "japan.json"
 HOTELS_FILE = ROOT / "japan-hotels.json"
+DRIVE_FILE = ROOT / "japan-drive.json"
 SITEMAP = PROJECT / "sitemap.xml"
 
 # 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
@@ -89,8 +90,13 @@ JP_REGIONS = {
         "intro": "仙台牛舌、青森蘋果與秋田米鄉，山海食材豐富但觀光密度低，"
                  "係近年最多人「專程去食」的地區之一，價錢亦普遍比東京大阪親民。",
     },
+    "shikoku": {
+        "name": "四國",
+        "intro": "香川的讚岐烏冬、愛媛的鯛魚飯與高知的鰹魚たたき，加上瀨戶內的島嶼與海鮮，"
+                 "係日本最被低估的食區之一。",
+    },
 }
-JP_REGION_ORDER = ["kanto", "kansai", "chubu", "kyushu", "hokkaido", "tohoku", "chugoku", "okinawa"]
+JP_REGION_ORDER = ["kanto", "kansai", "chubu", "kyushu", "hokkaido", "tohoku", "chugoku", "shikoku", "okinawa"]
 JP_CITY_REGION = {
     "東京": "kanto", "橫濱": "kanto",
     "大阪": "kansai", "京都": "kansai", "神戶": "kansai",
@@ -129,6 +135,176 @@ HOTEL_REGION_INTRO_FALLBACK = (
     "本頁收錄此地區「評分 × 評論規模 × 車站距離 × 房型設施」同時達標嘅酒店，"
     "房價一律不寫死，請自行填日期格價。"
 )
+
+# 自駕專欄的地區簡介（第三份，與美食、酒店都不同）。
+# 自駕版要講「條路本身值唔值得開」、季節風險與車種限制。
+JP_DRIVE_REGION_INTRO = {
+    "kanto": "東京近郊的山路密度係全日本最高——由市中心出發一個多小時，就可以上到箱根、"
+             "伊豆一帶的山脊。呢區路線多數係私人經營嘅觀光收費道路，路面做得好，"
+             "但車種限制同收站時間要特別留意，唔少路段禁止 125cc 以下電單車。",
+    "chubu": "中部係自駕天堂：長野高原、靜岡伊豆、岐阜山區，海拔由海邊一路拉到近 2,000 米。"
+             "但要記住呢區有全日本最嚴嘅一條規矩——部分高山道路全年禁止私家車同電單車進入，"
+             "唔查清楚就白行一轉。",
+    "kansai": "關西的山路多數集中在京都、滋賀同兵庫北部，多為有料觀光道路，"
+              "坡度與彎道都溫和，適合新手。冬季有雪，部分路段會要求裝雪胎或鏈條。",
+    "chugoku": "中國地方最出名嘅唔係山路，而係「跨海」——瀬戸内しまなみ海道係全日本唯一"
+               "讓 125cc 以下原付都可以過海嘅本四連絡橋，對騎細車嘅人嚟講係難得嘅選項。",
+    "kyushu": "九州嘅賣點係火山地形：阿蘇一帶嘅草原同火口景觀在日本其他地方睇唔到。"
+              "呢區多數路線免費，但火口一帶通行會隨火山活動隨時封閉，出發前一定要查即時資訊。",
+    "hokkaido": "北海道係「距離感」同「季節感」最強嘅自駕區：景點之間動輒一兩個鐘，"
+                "而同一條路夏天同冬天係兩條完全唔同嘅路。呢區亦係唯一有 HEP 高速公路通行證"
+                "的地區，長途走的話值得計一計數。",
+    "tohoku": "東北自駕成本係全日本最低之一，國道車流量少、風景開揚，"
+              "適合唔想同人爭路嘅人。冬季由 11 月起就開始落雪，山區路段會封閉。",
+    "shikoku": "四國嘅山路以「窄、彎、車少」見稱，加上瀬戶内海嘅跨海大橋，"
+               "係近年在日本車友之間冒起得最快嘅自駕區。",
+    "okinawa": "沖繩係「開車先玩得到」嘅地方：公共交通覆蓋有限，景點之間靠車。"
+               "好處係路況簡單、免費大橋多；壞處係北部路燈少、距離遠，唔好安排夜間長途。",
+}
+DRIVE_REGION_INTRO_FALLBACK = (
+    "本頁收錄此地區已核實的自駕路線，包含里程、通行費、車種限制與季節封閉資訊，"
+    "所有數字都附上來源與核對日期。"
+)
+
+# 自駕實務指南（/japan/drive/guide/）。全部內容都有下方 DRIVE_GUIDE_SOURCES 的來源，
+# 數字類資料一律標明核對日期。
+DRIVE_GUIDE_SECTIONS: list[tuple[str, list[str], list[str]]] = [
+    (
+        "一、證件：香港人自駕日本要帶三份正本",
+        [
+            "日本只承認「1949 年日內瓦公約」樣式的國際駕駛許可證（IDP）。"
+            "東京警視廳寫得很清楚：即使係日內瓦公約締約國發出的 IDP，"
+            "如果樣式係按其他公約（例如 1968 年維也納公約）發出，在日本一樣唔可以駕駛。",
+            "有效期係「雙重一年」：IDP 由發出日起一年內，而且由入境日本當日起一年內。"
+            "兩個條件要同時滿足，所以唔好帶住一張就快到期嘅 IDP 出發。",
+        ],
+        [
+            "香港正式駕駛執照【正本】——影本、手機截圖一律唔接受，租車公司會直接拒租。",
+            "國際駕駛許可證（IDP，1949 日內瓦公約樣式）【正本】。",
+            "護照【正本】。",
+            "實體信用卡（用作押金與身份核對，唔可以用親屬嘅卡）。",
+        ],
+    ),
+    (
+        "二、電單車：香港人騎得到，但有三個關卡",
+        [
+            "好消息係香港人可以騎：持香港或澳門的正式電單車駕駛執照，"
+            "加上 IDP 與護照，就可以在日本租電單車。"
+            "壞消息係有三個容易中招嘅關卡，出發前一定要逐項對清楚。",
+        ],
+        [
+            "① 暫准駕駛執照（P 牌）唔接受。日本租車公司只接受正式駕駛執照，"
+            "拎 P 牌去會直接被拒。",
+            "② IDP 要「A 欄」蓋章。要騎 50cc 以上的電單車，"
+            "IDP 的 A 欄（motorcycle）必須蓋有許可章；50cc 以下就只要 B、C、D 或 E 任何一欄即可。"
+            "所以去運輸署辦 IDP 時，記得同職員講清楚要包括電單車類別。",
+            "③ 個別道路會再額外限制排氣量。例如箱根ターンパイク同伊豆スカイライン都禁止 "
+            "125cc 以下電單車、自行車及行人進入，即係話就算你證件齊全、"
+            "租到的係 125cc 小車，呢兩條路都入唔到。",
+            "年齡門檻：租車公司普遍要求 18 歲以上（部分要求 21 歲以上並持有駕照一年以上）；"
+            "電單車押金通常要 ¥20,000–50,000 的信用卡額度。",
+        ],
+    ),
+    (
+        "三、電單車「唔可以行」的路段——最值得事先知道的坑",
+        [
+            "日本有幾條在網上極出名、但實際上外國旅客根本入唔到嘅山路。"
+            "呢啲路經常出現在「日本十大最美山路」名單，但名單好少提管制，"
+            "結果每年都有旅客白行一轉。出發前對一對以下名單。",
+        ],
+        [
+            "乗鞍スカイライン（岐阜・長野）：全長 14.4 公里，由平湯峠（1,684 米）上到畳平"
+            "（2,702 米，日本道路最高點）。2003 年 5 月 15 日起全面禁止私家車與電單車，"
+            "全年適用——只有巴士、的士、自行車及獲授權車輛可以進入。"
+            "電單車在法律上屬「私家車」，一樣唔准入。",
+            "同系的乗鞍エコーライン（長野側）：三本滝以上路段同樣禁止。",
+            "富士スバルライン：2026 年 7 月 3 日至 9 月 10 日期間曾實施私家車管制，"
+            "要改乘接駁車。每年管制日期唔同，夏季去富士山五合目要先查。",
+            "志賀草津高原ルート（國道 292 號）：免費，最高點渋峠 2,172 米係日本國道最高點。"
+            "冬季封閉，2025–26 年度的封閉期為 11 月 12 日至 4 月 22 日。",
+            "記住一個通則：山岳道路嘅入口標示牌有時只用日文小字列出月份與時段，"
+            "「睇唔明就當唔准」，唔好用「冇寫明禁止」推斷可以入。",
+        ],
+    ),
+    (
+        "四、高速公路通行證：外國旅客專用的「吃到飽」",
+        [
+            "日本高速道路係按里程收費，長途走起來可以好貴，"
+            "所以針對訪日旅客有幾種定額通行證（Expressway Pass）。"
+            "重點係：通行證唔包車租，亦唔包 ETC 卡租金，兩樣都要另外俾。",
+            "購買資格只有兩種人：持非日本護照的訪日旅客，或長居海外的日本國民。"
+            "買嘅時候要出示護照同駕照，而且在租車時一次過買，唔可以中途加購或延長。",
+        ],
+        [
+            "北海道（HEP）：4／5／6／7／8 日，普通車 ¥7,700／9,600／11,600／13,500／15,400；"
+            "軽自動車等 ¥6,200／7,700／9,300／10,800／12,300。最短 4 日。",
+            "東北（TEP）：4–8 日，普通車 ¥8,500–17,000；軽自動車等 ¥6,800–13,600。"
+            "注意：官方公佈 TEP 於 2026 年 9 月 30 日結束受理，如要使用請先確認官方最新說明。",
+            "新潟（NEP）：只有 3 日一種，普通車 ¥6,200、軽自動車等 ¥4,900。"
+            "只限 Toyota Rent a Car 在新潟縣內指定分店發售。",
+            "山陰・瀬戶內・四國（SEP）：3–10 日，¥10,700–17,700（不分車型）。",
+            "九州（KEP）：2–10 日，普通車 ¥6,200–23,800（不分車型）。",
+            "已經停售：全國版 Japan Expressway Pass（JEP）同中部版 Central Nippon "
+            "Expressway Pass（CEP）都已停止提供。截至 2026 年 8 月，中部地區冇針對訪日旅客嘅定額通行證。",
+        ],
+    ),
+    (
+        "五、ETC、保險與冬季",
+        [
+            "租車公司一般可以借出 ETC 卡（收費約每日／每程小額費用，例如 ¥330 左右），"
+            "插入車上的 ETC 車載器就可以不停車過收費站，費用還車時結算。"
+            "ETC 本身有深夜與假日折扣，所以就算唔買通行證都值得借。"
+            "留意少數觀光道路只收「ETCX」（多用途 ETC）而唔收一般 ETC，伊豆スカイライン就係例子。",
+            "保險係最容易出事的一環。日本法律要求的第三者責任險已包含在租金內，"
+            "但租賃車輛本身的損害通常要自己負——除非加購 CDW（免責補償）。"
+            "更易忽略的是 NOC（營業損失費）：車輛維修期間無法出租，租車公司會按日收費，"
+            "全損則多為一筆定額。呢筆錢獨立於維修費，就算你買了 CDW 都可能要付。"
+            "所以建議直接買包含 CDW＋NOC 的全保障方案。",
+            "冬季（約 12 月至 3 月）去北海道、東北、長野、北陸一帶，要預備雪胎或鏈條；"
+            "比叡山ドライブウェイ 官方就明文要求落雪或積雪時裝雪胎或帶鏈條。"
+            "另外，租車合約一般禁止行未鋪裝道路，保險亦唔保，所以火山砂石路要避開。",
+        ],
+        [],
+    ),
+    (
+        "六、落地後最容易犯的三件事",
+        [
+            "以上都係文件層面，真正落地之後，最多人出事嘅其實係路面習慣。",
+        ],
+        [
+            "靠左行駛、右舵車。香港人本身已經靠左駛，適應上比歐美旅客著數，"
+            "但要注意日本方向燈桿與水撥桿位置與香港車相反，落雨時容易開錯。",
+            "街邊幾乎完全唔可以停車。日本對違泊係「零容忍」，"
+            "罰款可達 ¥15,000，車輛有機會在短時間內被拖走；"
+            "一定用 coin parking（投幣停車場）或酒店車位。",
+            "睇清「止まれ」標誌。日本停止標誌要求完全停定再左右確認，"
+            "唔係慢車就當做咗。另外日本高速公路限速 100km/h、一般道路 50km/h，"
+            "標誌優先，唔好靠「跟車流」判斷。",
+        ],
+    ),
+]
+
+DRIVE_GUIDE_SOURCES: list[tuple[str, str]] = [
+    ("警視庁「外国で取得した国際運転免許証で日本国内を運転するには」"
+     "（1949 日內瓦公約樣式、雙重一年有效期、3 個月規則）",
+     "https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokusaimenkyo.html"),
+    ("Rental819「The 3 Fundamental Items to ride in Japan」"
+     "（IDP 必須為 1949 日內瓦公約；A 欄蓋章才可騎 50cc 以上）",
+     "https://rental819.com/doc/3items"),
+    ("Rental819 香港站「Can I rent a motorcycle in Japan with a Hong Kong licence?」"
+     "（香港／澳門正式電單車駕照＋IDP 可租；P 牌不接受）",
+     "https://rental819.hk/en/guide/licence"),
+    ("JADO Moto「Japan Alps Motorcycle Guide」（乗鞍スカイライン／エコーライン全年禁止私家車與電單車、"
+     "志賀草津高原ルート冬季封閉期，2026 年 8 月核實）",
+     "https://www.jadomoto.com/zh-hant/blogs/guides/japan-alps-motorcycle-guide"),
+    ("JNTO（日本政府觀光局）「Expressway Passes」"
+     "（HEP／TEP／NEP／SEP／KEP 價格與購買資格；JEP 與 CEP 已停售）",
+     "https://www.japan.travel/en/au/plan/expressway-passes/"),
+    ("一般社団法人 日本観光自動車道協会（各觀光收費道路的區間與料金官方登載）",
+     "https://tourism-road.or.jp"),
+    ("比叡山ドライブウェイ 官方料金與營業時間 PDF（雪胎／鏈條要求）",
+     "https://www.hieizan.gr.jp/design/pdf/2023_2024_winter.pdf"),
+]
 
 HK_TZ = timezone(timedelta(hours=8))
 SITE_FALLBACK = "https://www.flyandfeasthk.com"
@@ -498,6 +674,7 @@ def nav_html(active: str) -> str:
         ("/deals/hotel/", "酒店優惠", "hotel"),
         ("/japan/", "日本美食", "japan"),
         ("/japan/hotels/", "日本酒店", "japan-hotel"),
+        ("/japan/drive/", "日本自駕", "japan-drive"),
         ("/guides/", "優惠攻略", "guides"),
         ("/about/", "關於本站", "about"),
     ]
@@ -537,6 +714,7 @@ def footer_html() -> str:
         '<a href="/deals/hotel/">酒店優惠</a>'
         '<a href="/japan/">日本美食</a>'
         '<a href="/japan/hotels/">日本酒店</a>'
+        '<a href="/japan/drive/">日本自駕</a>'
         '<a href="/guides/">優惠攻略</a>'
         "</div>"
         '<div class="footer-links">'
@@ -1726,7 +1904,7 @@ def maps_embed_html(e: dict, kind: str = "餐廳") -> str:
     if not src:
         return ""
     name = e.get("name") or kind
-    scene = "店面實景相" if kind == "餐廳" else "外觀與周邊實景相"
+    scene = {"餐廳": "店面實景相", "酒店": "外觀與周邊實景相"}.get(kind, "路線周邊實景與街景")
     return (
         '<figure class="maps-embed">'
         f'<iframe src="{esc(src)}" title="{esc(name)} 嘅 Google Maps 地圖與實景相片" '
@@ -2017,6 +2195,10 @@ def build_japan_index(eats: list[dict], meta: dict) -> str:
         '<div class="cat-nav region-nav"><b>住邊？</b>'
         f'<a href="{HOTEL_INDEX_PATH}">🏨 日本高性價比酒店推介（所有城市）</a>'
         "　搵到好嘢食，順手睇埋附近住邊最抵。</div>"
+        '<div class="cat-nav region-nav"><b>點去？</b>'
+        f'<a href="{DRIVE_INDEX_PATH}">🛣️ 日本自駕遊路線專欄</a>'
+        f'　<a href="{DRIVE_GUIDE_PATH}">📋 自駕實務指南（證件・電單車・ETC）</a>'
+        "　想自駕逐間掃，記得先睇證件同車種限制。</div>"
         "</div>"
         + '<div class="prose">'
         "<h2>收錄準則</h2>"
@@ -2153,7 +2335,7 @@ def build_japan_eat_page(e: dict, peers: list[dict], meta: dict) -> str:
 # 不是編輯主觀評選，亦不會自行評分。
 
 # /japan/ 之下屬於「非餐廳 id、亦非地區 key」的固定目錄；清除孤兒頁時要保留。
-JAPAN_RESERVED_DIRS = {"hotels"}
+JAPAN_RESERVED_DIRS = {"hotels", "drive"}
 
 HOTEL_INDEX_PATH = "/japan/hotels/"
 
@@ -2655,6 +2837,545 @@ def build_hotel_page(h: dict, peers: list[dict], meta: dict) -> str:
     )
 
 
+# --------------------------------------------------------------------------
+# 日本自駕專欄（/japan/drive/）
+# --------------------------------------------------------------------------
+# 資料檔 pipeline/japan-drive.json。與美食、酒店最大的分別：
+# 自駕內容的「硬事實」是里程、通行費、開放時間、車種限制與冬季封閉，
+# 全部會變，所以每筆都帶 checkedAt，頁面一律註明出發前查官方即時資訊。
+# 另設 /japan/drive/guide/ 實務指南（證件、電單車關卡、高速通行證、ETC、保險、冬季）。
+
+DRIVE_INDEX_PATH = "/japan/drive/"
+DRIVE_GUIDE_PATH = "/japan/drive/guide/"
+
+DRIVE_VEHICLE_LABEL = {
+    "car": "🚗 汽車",
+    "bike": "🏍️ 電單車",
+    "both": "🚗🏍️ 汽車／電單車",
+}
+DRIVE_VEHICLE_SHORT = {"car": "汽車", "bike": "電單車", "both": "汽車＋電單車"}
+
+
+def load_routes() -> list[dict]:
+    if not DRIVE_FILE.exists():
+        return []
+    try:
+        payload = json.loads(DRIVE_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    routes = payload.get("routes") or []
+    out = []
+    for r in routes:
+        if not r.get("id") or not r.get("name"):
+            continue
+        # region 一定要在 JP_REGIONS 之內，否則地區頁與導覽會出錯。
+        if r.get("region") not in JP_REGIONS:
+            print(f"  ⚠️ 自駕路線 {r.get('id')} 的 region「{r.get('region')}」不在 JP_REGIONS，已略過")
+            continue
+        out.append(r)
+    return out
+
+
+def drive_region_of(r: dict) -> str:
+    return str(r.get("region") or "")
+
+
+def drive_regions_in_use(routes: list[dict]) -> list[str]:
+    present = {drive_region_of(r) for r in routes}
+    present.discard("")
+    return [k for k in JP_REGION_ORDER if k in present]
+
+
+def drive_sorted(routes: list[dict]) -> list[dict]:
+    """按地區展示次序、再按里程長短排列（與評分無關，自駕路線沒有評分這回事）。"""
+    order = {k: i for i, k in enumerate(JP_REGION_ORDER)}
+    return sorted(
+        routes,
+        key=lambda r: (order.get(drive_region_of(r), 99), -(r.get("lengthKm") or 0)),
+    )
+
+
+def drive_region_pool(routes: list[dict], rkey: str) -> list[dict]:
+    return [r for r in routes if drive_region_of(r) == rkey]
+
+
+def drive_region_nav(routes: list[dict], exclude: str | None = None) -> str:
+    return "".join(
+        f'<a href="{DRIVE_INDEX_PATH}{esc(k)}/">🛣️ {esc(JP_REGIONS[k]["name"])}'
+        f'（{len(drive_region_pool(routes, k))}）</a>'
+        for k in drive_regions_in_use(routes) if k != exclude
+    )
+
+
+def drive_len_text(r: dict) -> str:
+    km = r.get("lengthKm")
+    if isinstance(km, (int, float)):
+        if km < 10:
+            # 短程（例如單一條大橋）以公尺表達更準確
+            return f"約 {km * 1000:,.0f} 公尺"
+        return f"約 {km:g} 公里"
+    return "里程未列"
+
+
+def drive_pref_text(r: dict) -> str:
+    prefs = [str(p) for p in (r.get("prefectures") or []) if str(p).strip()]
+    return "・".join(prefs)
+
+
+def drive_card(r: dict) -> str:
+    url = f"{DRIVE_INDEX_PATH}{esc(r['id'])}/"
+    veh = DRIVE_VEHICLE_LABEL.get(str(r.get("vehicle")), "🚗")
+    bullets = [str(h) for h in (r.get("highlights") or []) if str(h).strip()]
+    hl = "<ul>" + "".join(f"<li>{esc(h)}</li>" for h in bullets[:2]) + "</ul>" if bullets else ""
+    rname = JP_REGIONS[drive_region_of(r)]["name"] if drive_region_of(r) in JP_REGIONS else "日本"
+    return (
+        f'<article class="card drive-card" data-id="{esc(r["id"])}">'
+        '<div class="card-top">'
+        f'<span class="badge badge-drive">{esc(rname)}</span>'
+        f'<span class="badge badge-vehicle">{esc(veh)}</span>'
+        '<span class="card-sticker st-drive" aria-hidden="true">🛣️</span>'
+        "</div>"
+        f'<h3><a href="{url}">{esc(r["name"])}</a></h3>'
+        + (f'<p class="sub">{esc(r["nameEn"])}</p>' if r.get("nameEn") else "")
+        + f'<p class="route">{esc(drive_pref_text(r))}｜{esc(r.get("roadType") or "")}</p>'
+        + '<div class="price-row">'
+        f'<span class="price hotel-hl">📏 {esc(drive_len_text(r))}</span>'
+        f'<span class="save">{esc(r.get("season") or "全年")}</span>'
+        "</div>"
+        + (f'<p class="summary">{esc(r["blurb"])}</p>' if r.get("blurb") else "")
+        + hl
+        + f'<div class="card-foot"><span class="period">{esc(r.get("startPoint") or "")} → '
+        f'{esc(r.get("endPoint") or "")}</span>'
+        f'<span class="actions"><a class="link-btn" href="{url}">睇路線詳情 →</a></span></div>'
+        + "</article>"
+    )
+
+
+def drive_grid(routes: list[dict]) -> str:
+    if not routes:
+        return '<p class="empty">這個地區暫時未有收錄的自駕路線。</p>'
+    return '<div class="grid">' + "".join(drive_card(r) for r in drive_sorted(routes)) + "</div>"
+
+
+def drive_related(r: dict, peers: list[dict], limit: int = 3) -> list[dict]:
+    """先同地區，唔夠再補最近的地區（按 JP_REGION_ORDER 距離），確保詳情頁有足夠站內連結。"""
+    rkey = drive_region_of(r)
+    idx = {k: i for i, k in enumerate(JP_REGION_ORDER)}
+    base = idx.get(rkey, 99)
+    others = [
+        p for p in peers
+        if p.get("id") != r.get("id") and drive_region_of(p) != rkey
+    ]
+    others.sort(key=lambda p: abs(idx.get(drive_region_of(p), 99) - base))
+    same = [p for p in drive_sorted(peers)
+            if p.get("id") != r.get("id") and drive_region_of(p) == rkey]
+    return (same + others)[:limit]
+
+
+def drive_fact_grid(r: dict) -> str:
+    dl = r.get("days") or "—"
+    facts = [
+        ("所在地區", f'{JP_REGIONS[drive_region_of(r)]["name"]}・{drive_pref_text(r)}'),
+        ("適用車種", DRIVE_VEHICLE_SHORT.get(str(r.get("vehicle")), "汽車")),
+        ("道路類型", r.get("roadType") or "—"),
+        ("路線長度", drive_len_text(r)),
+        ("起點", r.get("startPoint") or "—"),
+        ("終點", r.get("endPoint") or "—"),
+        ("建議季節", r.get("season") or "—"),
+        ("建議天數", dl),
+        ("開放時間", r.get("openingHours") or "—"),
+        ("通行費", r.get("tollNote") or "以官方公佈為準"),
+    ]
+    return "".join(
+        f'<div class="deal-fact"><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in facts
+    )
+
+
+def drive_editorial_html(r: dict, peers: list[dict]) -> str:
+    blocks: list[tuple[str, list[str], list[str]]] = []
+
+    # 1) 呢條路點解值得開
+    blocks.append(("呢條路點解值得開", [], [str(h) for h in (r.get("highlights") or [])]))
+
+    # 2) 沿途停邊度
+    stops = [str(s) for s in (r.get("stops") or []) if str(s).strip()]
+    if stops:
+        blocks.append((
+            "沿途值得停低嘅位",
+            ["以下地點均在路線範圍內，可以按時間自行加減；建議先在地圖標好再出發。"],
+            stops,
+        ))
+
+    # 3) 車種同規矩限制（最易中招）
+    restr = [str(x) for x in (r.get("restrictions") or []) if str(x).strip()]
+    if restr or r.get("vehicleNote"):
+        paras = []
+        if r.get("vehicleNote"):
+            paras.append(f"車種限制：{r['vehicleNote']}")
+        paras.append("同一條路唔同季節、唔同車種嘅待遇可以差好遠，"
+                     "以下係收錄時已核實嘅限制，出發前請再對一次官方公佈。")
+        blocks.append(("車種規矩同限制", paras, restr))
+
+    # 4) 通行費同時間
+    blocks.append((
+        "通行費、開放時間與季節",
+        [
+            f"通行費：{r.get('tollNote') or '以官方公佈為準'}",
+            f"開放時間：{r.get('openingHours') or '以官方公佈為準'}",
+            f"建議季節：{r.get('season') or '全年'}　建議天數：{r.get('days') or '—'}",
+            "所有金額與時間均為收錄時抄錄，會隨政策調整；"
+            "實際以道路公司或自治體官方即時資訊為準。",
+        ],
+        [],
+    ))
+
+    # 5) 出發前貼士
+    tips = [str(t) for t in (r.get("tips") or []) if str(t).strip()]
+    if tips:
+        blocks.append(("出發前要知道", [], tips))
+
+    # 6) 附近仲有咩路線
+    near = [p for p in peers if p.get("id") != r.get("id")
+            and drive_region_of(p) == drive_region_of(r)]
+    if near:
+        lines = [f"{p['name']}（{drive_len_text(p)}・{DRIVE_VEHICLE_SHORT.get(str(p.get('vehicle')), '汽車')}）"
+                 for p in drive_sorted(near)[:3]]
+        blocks.append((
+            "同地區仲有呢啲路線",
+            [f"同一個地區另外收錄了 {len(near)} 條路線，可以考慮串成兩日行程。"],
+            lines,
+        ))
+
+    parts = [
+        '<section class="editorial" aria-labelledby="jp-drive-ed-title">',
+        '<h2 id="jp-drive-ed-title">🧾 路線詳解 '
+        '<span class="ed-cat">由官方道路資料與已核實限制推導</span></h2>',
+    ]
+    for title, paras, bullets in blocks:
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁的里程、通行費、開放時間與車種限制由 Fly &amp; Feast HK 編輯部'
+        "根據官方道路公司與自治體資料核對抄錄，核對日期見頁首。道路管制、收費與封閉期隨時變動，"
+        "出發前請以官方即時資訊為準。本頁不構成任何駕駛建議；請遵守當地交通法規，安全駕駛。</p>"
+    )
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def build_drive_index(routes: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+    regions = drive_regions_in_use(routes)
+    n_car = sum(1 for r in routes if r.get("vehicle") in ("car", "both"))
+    n_bike = sum(1 for r in routes if r.get("vehicle") in ("bike", "both"))
+
+    region_nav = drive_region_nav(routes)
+    sections = ""
+    for rk in regions:
+        pool = drive_region_pool(routes, rk)
+        sections += (
+            f'<h2 class="section-h2" id="dregion-{esc(rk)}">🛣️ {esc(JP_REGIONS[rk]["name"])}'
+            f'<span class="ed-cat">共 {len(pool)} 條</span></h2>'
+            + drive_grid(pool)
+        )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本自駕遊", None)])
+        + '<div class="page-head">'
+        "<h1>🛣️ 日本自駕遊路線專欄：汽車同電單車，揀啱條路先出發</h1>"
+        '<p class="page-lede">日本有兩種完全唔同嘅自駕體驗：一種係「跑到爽」嘅山脊線，'
+        "另一種係「停到夠」嘅田園同海岸線。呢個專欄每條路線都會講清楚四件事——"
+        "里程有幾長、通行費幾多、咩車種入得、幾時會封路。"
+        "特別係車種限制：日本唔少出名嘅觀光道路禁止 125cc 以下電單車、單車同行人，"
+        "亦有高山道路全年禁止私家車同電單車進入；唔查清楚就白行一轉。"
+        "另外仲有一頁「自駕實務指南」，講齊證件、電單車關卡、高速公路通行證同保險陷阱。</p>"
+        f'<div class="page-meta"><span>已收錄：<b>{len(routes)}</b> 條路線</span>'
+        f'<span>地區：<b>{len(regions)}</b> 個</span>'
+        f'<span>汽車適用：<b>{n_car}</b> 條</span>'
+        f'<span>電單車適用：<b>{n_bike}</b> 條</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        + (f'<div class="cat-nav region-nav"><b>按地區：</b>{region_nav}</div>'
+           if region_nav else "")
+        + f'<div class="cat-nav region-nav"><b>出發前必讀：</b>'
+        f'<a href="{DRIVE_GUIDE_PATH}">📋 日本自駕實務指南（證件・電單車・ETC・保險）</a></div>'
+        '<p class="section-note">租車格價之前，建議先睇實務指南再揀路線——'
+        "證件唔齊係租唔到車嘅，而且唔同租車公司對電單車排氣量嘅要求唔一樣。</p>"
+        "</div>"
+        + '<div class="prose">'
+        "<h2>呢個專欄點揀路線</h2>"
+        "<ul>"
+        "<li><b>唔用自創評分</b>：自駕路線冇「幾多星」呢回事。"
+        "本頁只列可核實嘅事實——里程、收費、車種限制、封閉期，然後按地區分組，"
+        "唔會排一個主觀嘅「二十大必去」。</li>"
+        "<li><b>車種限制優先講</b>：日本觀光道路嘅限制差異極大，"
+        "同一條箱根山路，126cc 以上入得、125cc 以下唔准入。"
+        "每條路線嘅詳情頁第一段就會講清楚。</li>"
+        "<li><b>貴的唔一定好</b>：日本九成道路網係免費嘅，"
+        "好多最有名嘅高原路線（例如ビーナスライン）其實早已免費開放。"
+        "本欄會標明邊條要收費、邊條免費。</li>"
+        "<li><b>數字會變</b>：通行費與封閉日期每年調整，每筆都標明核對日期，"
+        "出發前請以官方即時資訊為準。</li>"
+        "</ul>"
+        "</div>"
+        + sections
+        + '<div class="prose"><h2>仲想睇多啲</h2><ul>'
+        f'<li><a href="{DRIVE_GUIDE_PATH}">日本自駕實務指南</a>：'
+        "證件正本要求、電單車 IDP 蓋章、高速通行證價格、NOC 保險陷阱。</li>"
+        '<li><a href="/japan/">日本美食專欄</a>：沿途城市的 Google Maps 高分餐廳。</li>'
+        '<li><a href="/japan/hotels/">日本酒店推介</a>：'
+        "自駕行程通常住郊區酒店，泊車同房型要另計。</li>"
+        "</ul></div>"
+        + "</main>"
+    )
+    return layout(
+        title="日本自駕遊路線推介：汽車・電單車・里程通行費與車種限制｜Fly & Feast HK",
+        desc=f"日本自駕遊路線專欄，現收錄 {len(routes)} 條，涵蓋汽車與電單車。"
+             "每條路線附里程、起終點、通行費、車種限制、開放時間與季節封閉資訊，"
+             "全部標明來源與核對日期。",
+        path=DRIVE_INDEX_PATH,
+        body=body,
+        meta=meta,
+        active="japan-drive",
+        ld=[breadcrumb_ld([("日本自駕遊", None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": "日本自駕遊路線", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_drive_region_page(rkey: str, pool: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    rname = JP_REGIONS[rkey]["name"]
+    updated = str(meta.get("updated") or "")[:10]
+    ranked = drive_sorted(pool)
+
+    other_nav = drive_region_nav(pool, exclude=rkey)
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本自駕遊", DRIVE_INDEX_PATH), (rname, None)])
+        + '<div class="page-head">'
+        f"<h1>🛣️ {rname}自駕路線推介</h1>"
+        f'<p class="page-lede">'
+        f'{esc(JP_DRIVE_REGION_INTRO.get(rkey, DRIVE_REGION_INTRO_FALLBACK))}</p>'
+        f'<div class="page-meta"><span>已收錄：<b>{len(pool)}</b> 條路線</span>'
+        f'<span>汽車適用：<b>{sum(1 for r in pool if r.get("vehicle") in ("car", "both"))}</b></span>'
+        f'<span>電單車適用：<b>{sum(1 for r in pool if r.get("vehicle") in ("bike", "both"))}</b></span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        f'<p class="section-note">本頁按地區收錄，順序為里程由長至短，非編輯評選。</p>'
+        f'<div class="cat-nav region-nav"><b>其他地區：</b>{other_nav}'
+        f'<a href="{DRIVE_INDEX_PATH}">睇晒全部路線</a></div>'
+        "</div>"
+        + drive_grid(ranked)
+        + '<div class="prose">'
+        "<h2>出發前請先確認</h2>"
+        "<ul>"
+        "<li><b>車種限制</b>：呢一區唔少觀光道路禁止 125cc 以下電單車、自行車及行人，"
+        "亦有高山道路全年禁止私家車與電單車。逐條路線的詳情頁有列明。</li>"
+        "<li><b>季節封閉</b>：高原路線普遍在 11 月下旬至 4 月下旬封閉，"
+        "實際日期每年不同。</li>"
+        "<li><b>冬季裝備</b>：降雪地區要雪胎或鏈條，部分道路會強制要求。</li>"
+        "<li><b>證件</b>：香港駕照正本 ＋ 1949 日內瓦公約 IDP 正本 ＋ 護照正本，"
+        f'缺一不可。<a href="{DRIVE_GUIDE_PATH}">睇自駕實務指南 →</a></li>'
+        "</ul>"
+        "</div>"
+        + "</main>"
+    )
+    return layout(
+        title=f"{rname}自駕路線推介：里程・通行費・車種限制｜Fly & Feast HK",
+        desc=f"{rname}的日本自駕路線推介，現收錄 {len(pool)} 條，"
+             "包含汽車與電單車適用資訊、里程、通行費與季節封閉提醒。",
+        path=f"{DRIVE_INDEX_PATH}{rkey}/",
+        body=body,
+        meta=meta,
+        active="japan-drive",
+        ld=[breadcrumb_ld([("日本自駕遊", DRIVE_INDEX_PATH), (rname, None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": f"日本自駕路線：{rname}", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_drive_route_page(r: dict, peers: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    rkey = drive_region_of(r)
+    rname = JP_REGIONS[rkey]["name"]
+    url = f"{DRIVE_INDEX_PATH}{r['id']}/"
+    veh = DRIVE_VEHICLE_LABEL.get(str(r.get("vehicle")), "🚗")
+    related = drive_related(r, peers)
+
+    trail = [("日本自駕遊", DRIVE_INDEX_PATH), (rname, f"{DRIVE_INDEX_PATH}{rkey}/"),
+             (r.get("name", ""), None)]
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html(trail)
+        + "<article>"
+        '<div class="deal-hero">'
+        '<div class="card-top">'
+        f'<span class="badge badge-drive">{esc(rname)}</span>'
+        f'<span class="badge badge-vehicle">{esc(veh)}</span>'
+        f'<span class="badge badge-value">📏 {esc(drive_len_text(r))}</span>'
+        "</div>"
+        f"<h1>{esc(r.get('name'))}</h1>"
+        + (f'<p class="lede-line">{esc(r["nameEn"])}</p>' if r.get("nameEn") else "")
+        + '<div class="price-panel">'
+        f'<span class="p-now hotel-hl">📍 {esc(r.get("startPoint") or "")} → '
+        f'{esc(r.get("endPoint") or "")}</span>'
+        '<span class="p-note">里程、通行費、開放時間與車種限制均附官方來源與核對日期；'
+        "出發前請以官方即時資訊為準。</span>"
+        "</div>"
+        f'<dl class="deal-facts">{drive_fact_grid(r)}</dl>'
+        "</div>"
+        + maps_embed_html(r, kind="路線")
+        + (f'<h2 class="section-h2">📖 路線簡介</h2><p>{esc(r.get("blurb"))}</p>'
+           if r.get("blurb") else "")
+        + drive_editorial_html(r, peers)
+        + (
+            '<div class="deal-actions">'
+            f'<a class="link-btn" href="{esc(r.get("routeUrl") or r.get("mapsUrl") or "#")}" '
+            'target="_blank" rel="noopener nofollow">開導航路線（Google Maps）→</a>'
+            f'<a class="btn-ghost" href="{esc(r.get("mapsUrl") or "#")}" '
+            'target="_blank" rel="noopener nofollow">睇地圖同最新資訊</a>'
+            f'<a class="btn-ghost" href="{DRIVE_INDEX_PATH}">睇晒全部自駕路線</a>'
+            "</div>"
+            '<div class="source-block"><p><strong>資料來源：</strong>'
+            + (
+                f'<a href="{esc(r["sourceUrl"])}" target="_blank" rel="noopener nofollow">'
+                f'{esc(r.get("sourceLabel") or r["sourceUrl"])}</a>'
+                if r.get("sourceUrl") else esc(r.get("sourceLabel"))
+            )
+            + f"</p><p>里程、通行費、開放時間與車種限制於 "
+            f"{esc(r.get('checkedAt') or updated)} 核對抄錄，會隨政策調整；"
+            "道路管制、收費與封閉期隨時變動，一切以道路公司及自治體官方即時資訊為準。"
+            "本頁不構成任何駕駛建議。</p></div>"
+        )
+        + "</article>"
+        + (
+            '<section class="related"><h2 class="section-h2">🔎 附近仲有咩路線</h2>'
+            '<p class="section-note">同地區優先，唔夠再補相鄰地區。</p>'
+            + drive_grid(related)
+            + "</section>"
+            if related else ""
+        )
+        + "</main>"
+    )
+
+    ld = [
+        breadcrumb_ld(trail, site),
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": r.get("name"),
+            "description": (r.get("blurb") or "")[:155],
+            "inLanguage": "zh-Hant-HK",
+            "dateModified": str(meta.get("updated") or ""),
+            "author": {"@type": "Organization", "name": "Fly & Feast HK 編輯部"},
+            "publisher": {"@type": "Organization", "name": "Fly & Feast HK"},
+            "mainEntityOfPage": {"@type": "WebPage", "@id": site + url},
+        },
+    ]
+    return layout(
+        title=f"{r.get('name')}｜{rname}自駕路線（{drive_len_text(r)}）｜Fly & Feast HK",
+        desc=((r.get("blurb") or r.get("name") or "")[:155]),
+        path=url,
+        body=body,
+        meta=meta,
+        active="japan-drive",
+        ld=ld,
+    )
+
+
+def build_drive_guide(routes: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+
+    parts = [
+        '<main class="wrap page-main">',
+        breadcrumb_html([("日本自駕遊", DRIVE_INDEX_PATH), ("自駕實務指南", None)]),
+        '<div class="page-head">',
+        "<h1>📋 日本自駕實務指南：證件、電單車、ETC 與保險</h1>",
+        '<p class="page-lede">揀路線之前，先要過「租得到車」呢一關。'
+        "呢頁集中講香港人去日本自駕最常撞板嘅位："
+        "國際駕駛許可證（IDP）到底要邊一種、電單車要點樣先租得到、"
+        "高速公路通行證值唔值得買，同埋保險最貴嘅陷阱 NOC。"
+        "所有數字都標明核對日期，日本呢邊嘅規定改得幾密，出發前請再對一次官方資料。</p>",
+        f'<div class="page-meta"><span>最後核對：<b>{esc(updated)}</b></span>'
+        f'<span>資料來源：<b>警視廳・JNTO・道路公司・租車公司</b></span></div>',
+        "</div>",
+        '<div class="prose">',
+        "<h2>三句講完重點</h2>",
+        "<ul>",
+        "<li><b>證件要正本</b>：香港駕照正本 ＋ 1949 日內瓦公約 IDP 正本 ＋ 護照正本。"
+        "影本同手機照片一律唔接受，租車公司會直接拒租。</li>",
+        "<li><b>電單車要 A 欄蓋章</b>：要騎 50cc 以上，IDP 的 A 欄必須有電單車許可章；"
+        "P 牌（暫准駕駛執照）完全唔接受。</li>",
+        "<li><b>保險要包 NOC</b>：只買 CDW 唔夠，營業損失費（NOC）係另一筆錢，"
+        "建議直接買全保障方案。</li>",
+        "</ul>",
+        "</div>",
+        '<section class="editorial" aria-labelledby="drive-guide-title">',
+        '<h2 id="drive-guide-title">📋 逐項拆解 '
+        '<span class="ed-cat">全部附官方來源</span></h2>',
+    ]
+    for title, paras, bullets in DRIVE_GUIDE_SECTIONS:
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁規定與價格由 Fly &amp; Feast HK 編輯部根據日本官方機構'
+        "（警視廳、JNTO 日本政府觀光局）、道路公司（NEXCO、JB本四高速）"
+        "及租車公司官方頁面核對抄錄，核對日期見頁首。"
+        "簽證、駕駛資格與保險條款隨時變動，一切以官方最新公佈為準，本頁不構成法律或保險建議。</p>"
+    )
+    parts.append("</section>")
+
+    # 來源清單
+    parts.append('<section class="sources-block"><h2 class="section-h2">🔗 資料來源</h2><ul>')
+    for label, link in DRIVE_GUIDE_SOURCES:
+        parts.append(
+            f'<li><a href="{esc(link)}" target="_blank" rel="noopener nofollow">{esc(label)}</a></li>'
+        )
+    parts.append("</ul></section>")
+
+    # 相關路線
+    if routes:
+        parts.append(
+            '<section class="related"><h2 class="section-h2">🛣️ 開始揀路線</h2>'
+            '<p class="section-note">已收錄的路線，全部列明車種限制與季節封閉期。</p>'
+            + drive_grid(routes[:3])
+            + "</section>"
+        )
+
+    parts.append(
+        '<div class="prose"><h2>仲想睇多啲</h2><ul>'
+        f'<li><a href="{DRIVE_INDEX_PATH}">日本自駕路線總覽</a>：按地區收錄，附里程與通行費。</li>'
+        '<li><a href="/japan/">日本美食專欄</a>：沿途城市的 Google Maps 高分餐廳。</li>'
+        '<li><a href="/japan/hotels/">日本酒店推介</a>：自駕記得留意酒店有冇停車位。</li>'
+        "</ul></div>"
+    )
+    parts.append("</main>")
+
+    return layout(
+        title="日本自駕實務指南：國際駕照 IDP、電單車限制、ETC 與保險陷阱｜Fly & Feast HK",
+        desc="香港人去日本自駕的實務指南：1949 日內瓦公約 IDP 要求、電單車 A 欄蓋章與 P 牌限制、"
+             "北海道／九州等高速公路通行證價格、ETC 與 NOC 保險陷阱、冬季雪胎規定，全部附官方來源。",
+        path=DRIVE_GUIDE_PATH,
+        body="".join(parts),
+        meta=meta,
+        active="japan-drive",
+        ld=[breadcrumb_ld([("日本自駕遊", DRIVE_INDEX_PATH), ("自駕實務指南", None)], site),
+            {"@context": "https://schema.org", "@type": "Article",
+             "headline": "日本自駕實務指南",
+             "inLanguage": "zh-Hant-HK",
+             "dateModified": str(meta.get("updated") or "")}],
+    )
+
+
 def prune_stale_japan_pages(valid_ids: set[str]) -> int:
     """同優惠頁一樣，清除已不在資料檔的孤兒頁。資料少於 5 筆時不動。
 
@@ -2681,7 +3402,8 @@ def prune_stale_japan_pages(valid_ids: set[str]) -> int:
 # --------------------------------------------------------------------------
 
 def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None,
-                  japan_hotels: list[dict] | None = None) -> str:
+                  japan_hotels: list[dict] | None = None,
+                  japan_routes: list[dict] | None = None) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     today = datetime.now(HK_TZ).date().isoformat()
     urls: list[tuple[str, str, str]] = [
@@ -2701,6 +3423,13 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
             urls.append((f"{HOTEL_INDEX_PATH}{rk}/", "0.7", "weekly"))
         for h in japan_hotels:
             urls.append((f"{HOTEL_INDEX_PATH}{h['id']}/", "0.6", "weekly"))
+    if japan_routes:
+        urls.append((DRIVE_INDEX_PATH, "0.8", "weekly"))
+        urls.append((DRIVE_GUIDE_PATH, "0.7", "monthly"))
+        for rk in drive_regions_in_use(japan_routes):
+            urls.append((f"{DRIVE_INDEX_PATH}{rk}/", "0.7", "weekly"))
+        for r in japan_routes:
+            urls.append((f"{DRIVE_INDEX_PATH}{r['id']}/", "0.6", "weekly"))
     urls.append(("/guides/", "0.8", "weekly"))
     for g in GUIDES:
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly"))
@@ -2838,23 +3567,45 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     else:
         print("  日本酒店專欄：japan-hotels.json 無資料或不存在，已略過")
 
+    # 日本自駕專欄（/japan/drive/、/japan/drive/<地區>/、/japan/drive/<id>/、/japan/drive/guide/）
+    routes = load_routes()
+    n_drive_region_pages = 0
+    if routes:
+        write_page(PROJECT / "japan" / "drive" / "index.html",
+                   build_drive_index(routes, meta))
+        write_page(PROJECT / "japan" / "drive" / "guide" / "index.html",
+                   build_drive_guide(routes, meta))
+        for r in routes:
+            write_page(PROJECT / "japan" / "drive" / r["id"] / "index.html",
+                       build_drive_route_page(r, routes, meta))
+        for rkey in drive_regions_in_use(routes):
+            pool = drive_region_pool(routes, rkey)
+            write_page(PROJECT / "japan" / "drive" / rkey / "index.html",
+                       build_drive_region_page(rkey, pool, meta))
+            n_drive_region_pages += 1
+    else:
+        print("  日本自駕專欄：japan-drive.json 無資料或不存在，已略過")
+
     write_page(PROJECT / "about" / "index.html", build_about(deals, meta))
     write_page(PROJECT / "contact" / "index.html", build_contact(deals, meta))
     write_page(PROJECT / "privacy" / "index.html", build_privacy(deals, meta))
     write_page(PROJECT / "terms" / "index.html", build_terms(deals, meta))
 
-    total = build_sitemap(deals, meta, eats, hotels)
+    total = build_sitemap(deals, meta, eats, hotels, routes)
     result = {
         "deals": written,
         "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats)
                  + (1 if eats else 0) + n_region_pages
-                 + len(hotels) + (1 if hotels else 0) + n_hotel_region_pages,
+                 + len(hotels) + (1 if hotels else 0) + n_hotel_region_pages
+                 + len(routes) + (1 if routes else 0) + (1 if routes else 0)
+                 + n_drive_region_pages,
         "sitemap": total,
     }
     print(
         f"  多頁內容：{written} 個優惠詳情頁、4 個分類／總覽頁、"
         f"{len(eats)} 個日本美食頁（另 {n_region_pages} 個地區排行頁）、"
         f"{len(hotels)} 個日本酒店頁（另 {n_hotel_region_pages} 個地區排行頁）、"
+        f"{len(routes)} 個日本自駕頁（另 {n_drive_region_pages} 個地區頁＋1 篇實務指南）、"
         f"{len(GUIDES)} 篇攻略、4 個合規頁；"
         f"sitemap 收錄 {total} 條 URL"
         + (f"；已清除 {pruned} 個優惠孤兒頁面" if pruned else "")
