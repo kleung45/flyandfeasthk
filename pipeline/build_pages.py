@@ -3081,6 +3081,18 @@ def build_drive_index(routes: list[dict], meta: dict) -> str:
     n_car = sum(1 for r in routes if r.get("vehicle") in ("car", "both"))
     n_bike = sum(1 for r in routes if r.get("vehicle") in ("bike", "both"))
 
+    # 未收錄地區要老實講：唔講會令人以為係編輯漏做，其實係查唔到足夠官方料金／限制資料。
+    missing_regions = [rk for rk in JP_REGION_ORDER if rk not in regions]
+    if missing_regions:
+        miss_txt = "、".join(esc(JP_REGIONS[rk]["name"]) for rk in missing_regions)
+        coverage_note = (
+            f'<p class="section-note">暫未收錄的地區：<b>{miss_txt}</b>。'
+            "本欄每條路線都要查到官方或機構級別的里程、通行費與車種限制資料才會收錄；"
+            "呢幾個地區目前仲未湊齊可引用的官方數字，所以寧願留空，都唔會用轉載或估算數字充數。</p>"
+        )
+    else:
+        coverage_note = ""
+
     region_nav = drive_region_nav(routes)
     sections = ""
     for rk in regions:
@@ -3113,7 +3125,8 @@ def build_drive_index(routes: list[dict], meta: dict) -> str:
         f'<a href="{DRIVE_GUIDE_PATH}">📋 日本自駕實務指南（證件・電單車・ETC・保險）</a></div>'
         '<p class="section-note">租車格價之前，建議先睇實務指南再揀路線——'
         "證件唔齊係租唔到車嘅，而且唔同租車公司對電單車排氣量嘅要求唔一樣。</p>"
-        "</div>"
+        + coverage_note
+        + "</div>"
         + '<div class="prose">'
         "<h2>呢個專欄點揀路線</h2>"
         "<ul>"
@@ -3733,6 +3746,20 @@ def build_bars_index(bars: list[dict], meta: dict) -> str:
     n_whisky = sum(1 for b in bars if b.get("barType") in ("whisky", "both"))
     n_cocktail = sum(1 for b in bars if b.get("barType") in ("cocktail", "both"))
 
+    # 未收錄地區要老實講出嚟：呢啲地區因為查唔到可引用嘅 Google 評分而暫缺，
+    # 唔係漏做。唔講清楚會令人以為係編輯疏忽。
+    missing_regions = [rk for rk in JP_REGION_ORDER if rk not in regions]
+    if missing_regions:
+        miss_txt = "、".join(esc(JP_REGIONS[rk]["name"]) for rk in missing_regions)
+        coverage_note = (
+            f'<p class="section-note">暫未收錄的地區：<b>{miss_txt}</b>。'
+            "本專欄以「找得到公開可引用的 Google 評分來源」為收錄前提，"
+            "呢幾個地區目前查唔到符合門檻（4.3 分以上）而又可交叉核對的酒吧，"
+            "所以寧願留空，都唔會亂塞一間落去；查到達到門檻又對得上的，就會逐步補上。</p>"
+        )
+    else:
+        coverage_note = ""
+
     region_nav = bar_region_nav(bars)
     sections = ""
     for rk in regions:
@@ -3764,7 +3791,8 @@ def build_bars_index(bars: list[dict], meta: dict) -> str:
         f'<a href="{BARS_GUIDE_PATH}">📋 酒吧禮儀與點酒指南（座位費・點酒用語・禁忌）</a></div>'
         '<p class="section-note">本頁按地區分組，地區內按 Google 評分排序（同分按評論數），'
         "排序由已核實數據推導，並非編輯主觀評選。</p>"
-        "</div>"
+        + coverage_note
+        + "</div>"
         + '<div class="prose">'
         "<h2>呢個專欄點揀酒吧</h2>"
         "<ul>"
