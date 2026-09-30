@@ -1813,7 +1813,9 @@
         "限時",
         "今晚截止"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-fullerton-lighthouse-1off-20260929",
@@ -1845,7 +1847,9 @@
         "香港仔",
         "限量"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-lodgewood-gardenroom-flashsale-20260929",
@@ -1878,7 +1882,9 @@
         "限量",
         "10月適用"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-harbourplaza8degrees-lobster-20260929",
@@ -1911,7 +1917,9 @@
         "土瓜灣",
         "小童免費"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }

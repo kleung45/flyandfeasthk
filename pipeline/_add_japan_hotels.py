@@ -1,0 +1,342 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""一次性寫入管道：建立 pipeline/japan-hotels.json（日本高性價比酒店推介）。
+
+收錄鐵律（與日本美食專欄一致）：
+- 每間必須有可引用的來源網頁明確寫出 Google 評分；評分矛盾即跳過。
+- 地址要查到門牌級；價位只寫來源有講的，唔臆測。
+- 性價比以「可量化硬指標」判斷（評分 / 步行距離 / 評論數規模 / 房型與設施），
+  唔靠編輯主觀感覺。
+"""
+
+from __future__ import annotations
+
+import json
+import urllib.parse
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+TARGET = ROOT / "japan-hotels.json"
+TODAY = "2026-09-30"
+HK_TZ = timezone(timedelta(hours=8))
+NOW = datetime.now(HK_TZ).isoformat(timespec="seconds")
+
+
+def maps(name: str, area: str) -> str:
+    q = urllib.parse.quote(f"{name} {area}")
+    return f"https://www.google.com/maps/search/?api=1&query={q}"
+
+
+HOTELS = [
+    {
+        "id": "jp-tokyo-landabout",
+        "name": "LANDABOUT TOKYO",
+        "nameEn": "LANDABOUT TOKYO",
+        "city": "東京",
+        "area": "台東區根岸（JR 鶯谷站步行 3 分鐘）",
+        "type": "設計系商務酒店",
+        "highlight": "頂樓禪園望晴空塔",
+        "rating": 4.4,
+        "reviews": 784,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "以訂房平台即時報價為準（收錄時未見可靠公開參考價，故不列數字）",
+        "address": "東京都台東区根岸3-4-5",
+        "mapsUrl": maps("ランダバウト東京", "東京都台東区根岸3-4-5"),
+        "blurb": "距 JR 鶯谷站步行 3 分鐘的設計系酒店，客房走極簡風格，部分房型帶陽台；"
+                 "頂樓設有禪園，夜晚可望到晴空塔。住客普遍讚房間細但舒適（一個人帶兩個中型"
+                 "行李箱剛好），職員服務好，館內有洗衣設備。",
+        "valuePoints": [
+            "JR 山手線鶯谷站南口步行 3 分鐘，去上野公園步行可達，往成田／羽田方向轉車都順。",
+            "房型有相連房，來源標示屬「經濟實惠」一檔，適合家庭或一群人同行。",
+            "頂樓禪園可望晴空塔夜景——呢個景觀一般只在中高價酒店先有。",
+            "館內有洗衣設備，長住或者帶小朋友都合用。",
+            "評論數接近 800，樣本夠大，4.4 分唔會因為幾則新評價就大幅波動。",
+        ],
+        "tips": [
+            "對聲音敏感記得帶耳塞——住客反映房間之間牆身較薄，隔音一般。",
+            "雙人出行建議訂大一點的房型，標準房偏細。",
+            "酒店有免費咖啡；亦可以行去附近 24 小時營業的咖啡店食早餐，唔一定要加購酒店早餐。",
+            "酒店提供行李轉運服務，跨城市移動時可以話寄行李去下一站。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 784 則評論）",
+        "sourceUrl": "https://wanderlog.com/zh/place/details/478506/landabout-tokyo",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-tokyo-hopinn-asakusa",
+        "name": "Hop Inn 淺草",
+        "nameEn": "HOP INN Tokyo Asakusa",
+        "city": "東京",
+        "area": "台東區花川戸（淺草站步行 2 分鐘）",
+        "type": "泰系連鎖商務酒店（2024 年 1 月開幕）",
+        "highlight": "雷門、仲見世通就在旁邊",
+        "rating": 4.4,
+        "reviews": 230,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "促銷最低價約 €52／晚（2026-09-30 於 trivago 查得的「由」價，會浮動）",
+        "address": "東京都台東区花川戸1-7-8",
+        "mapsUrl": maps("HOP INN Tokyo Asakusa", "東京都台東区花川戸1-7-8"),
+        "blurb": "2024 年 1 月開幕的泰國 HOP INN 品牌酒店，共 115 間房，就在淺草寺雷門與"
+                 "仲見世通旁邊，行去隅田公園約 4 分鐘（賞櫻熱點，園內逾 500 棵櫻花）。"
+                 "開幕新、價位親民，係淺草一帶少見「新淨 + 平」的組合。",
+        "valuePoints": [
+            "淺草站步行 2 分鐘、淺草寺雷門步行約 5 分鐘，位置屬淺草核心，唔使搭車就食到玩到。",
+            "2024 年 1 月開幕，硬件新淨；同區同年份的新酒店通常貴一截。",
+            "住客評分中「性價比」一項特別高（trivago 旅客評分 Value for money 9.4／10）。",
+            "有榻榻米家庭房（約 25 平方米，兩張雙人床），適合一家人。",
+            "淺草站有直達成田機場的列車，唔使拖住行李轉車。",
+        ],
+        "tips": [
+            "酒店冇停車場，自駕要另外找車位。",
+            "外面有自助洗衣房，長住可以洗衫，行李可以帶輕啲。",
+            "標準雙人房約 12 平方米起，唔算大；行李多建議訂加大房型。",
+            "有 24 小時前台同免費行李寄存，早到或者夜機都用得着。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 230 則評論）",
+        "sourceUrl": "https://wanderlog.com/pl/place/details/8552307/hop-inn-tokyo-asakusa",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-osaka-cross-hotel",
+        "name": "Cross Hotel 大阪",
+        "nameEn": "Cross Hotel Osaka",
+        "city": "大阪",
+        "area": "中央區心齋橋筋（難波站步行約 3 分鐘）",
+        "type": "設計系 4 星酒店",
+        "highlight": "道頓堀就在旁邊，房間比同區大",
+        "rating": 4.4,
+        "reviews": 3176,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "屬心齋橋一帶中上（來源標示「房價較高，預算有限未必適合」），以訂房平台即時報價為準",
+        "address": "大阪府大阪市中央区心斎橋筋2-5-15",
+        "mapsUrl": maps("Cross Hotel Osaka クロスホテル大阪", "大阪府大阪市中央区心斎橋筋2-5-15"),
+        "blurb": "紅色玻璃外牆的設計系酒店，位於心齋橋筋，行去道頓堀、固力果招牌同"
+                 "Don Quijote 都係幾分鐘。房間面積比一般日本酒店大，浴室乾濕分離有浴缸；"
+                 "住客最常讚位置、浴室同早餐。米芝蓮指南、Fodor's 同 Lonely Planet 都"
+                 "把它列為大阪南區的設計酒店代表。",
+        "valuePoints": [
+            "位置幾乎無得輸：難波站步行幾分鐘，道頓堀約 1 分鐘，心齋橋商店街就在樓下。",
+            "房間面積「比一般日本酒店大」，浴室有浴缸加獨立淋浴間——同價位帶少見。",
+            "米芝蓮指南、Fodor's、Lonely Planet 三個權威來源都點名推薦。",
+            "評論數超過 3,000，4.4 分係經大量樣本驗證的穩定分數，唔係靠少數好評拉高。",
+            "樓層有飲品販賣機、微波爐、製冰機同飲水機，大堂有浴鹽同咖啡機可自取。",
+        ],
+        "tips": [
+            "酒店冇洗衣房，要行去外面的投幣洗衣店（可以用 Google Maps 搜）。",
+            "向大馬路的房間深夜會有改裝車噪音，淺眠建議要求較安靜的房。",
+            "酒店唔提供樽裝水，要用房內小水壺去飲水機取水；住客反映水機出水較慢。",
+            "冇衣櫃亦冇額外層架，收納空間有限，行李多要有心理準備。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 3,176 則評論）",
+        "sourceUrl": "https://wanderlog.com/ru/place/details/471105/cross-hotel-osaka",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-kyoto-resol-shijo-muromachi",
+        "name": "Hotel Resol 京都四條室町",
+        "nameEn": "Hotel Resol Kyoto Shijo Muromachi",
+        "city": "京都",
+        "area": "下京區室町通（地鐵四條站步行約 2 分鐘）",
+        "type": "和風設計商務酒店",
+        "highlight": "房內附抹茶茶具，可自己刷抹茶",
+        "rating": 4.4,
+        "reviews": 727,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "雙人房淡季參考價約 NT$1,475–2,600（來源標示，不含早餐）",
+        "address": "京都府京都市下京区室町通高辻上る山王町554",
+        "mapsUrl": maps("ホテルリソル京都 四条室町", "京都府京都市下京区室町通高辻上る山王町554"),
+        "blurb": "2018 年開幕，大廳與客房走現代京都風，用地道日式燈具同障子做裝潢，"
+                 "部分房型有榻榻米地板；房內附抹茶茶具及抹茶包，可以自己刷抹茶。"
+                 "地鐵四條站步行幾分鐘，行去錦市場、新京極、河原町都方便。",
+        "valuePoints": [
+            "地鐵四條站 6 號出口步行 2 分鐘、阪急烏丸站步行 4 分鐘，交通屬京都核心。",
+            "同區少見的榻榻米房平價選擇——想住得「有京都味」又唔想付町家旅館價錢，呢間係折衷。",
+            "房內附抹茶茶具同抹茶包，喺房自己刷抹茶，呢類體驗通常只在中高價酒店出現。",
+            "大堂有免費咖啡機，並提供可帶走的盥洗用品袋。",
+            "住客評分中「位置」一項特別高（來源標示 Location 9.5／10），每晚雙人房約 NT$2,600 屬同區平價。",
+        ],
+        "tips": [
+            "清潔服務唔係每日做——只會每日在門外掛毛巾同水，房間整理同垃圾要留意，長住要有心理準備。",
+            "訂房時人數一定要填對：只訂 1 人但實際 2 人入住，會被加收接近 50% 額外費用（兩個來源都提及）。",
+            "房間收納空間有限，冇衣櫃，行李要自己想辦法擺。",
+            "床底可能有塵、浴室間中出現排水氣味，屬住客反映；入住時可以即時向櫃檯提出。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 727 則評論）；joshuaworldtravel 亦列 4.4",
+        "sourceUrl": "https://wanderlog.com/place/details/469662",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-nagoya-dormyinn-premium-sakae",
+        "name": "Dormy Inn PREMIUM 名古屋榮",
+        "nameEn": "Dormy Inn PREMIUM Nagoya Sakae",
+        "city": "名古屋",
+        "area": "中區錦（地鐵伏見站步行約 4 分鐘）",
+        "type": "商務溫泉酒店",
+        "highlight": "市中心天然溫泉大浴場 + 免費宵夜拉麵",
+        "rating": 4.3,
+        "reviews": 2283,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "雙人房淡季參考價約 NT$2,330–3,800（來源標示差異較大）",
+        "address": "愛知県名古屋市中区錦2-20-1",
+        "mapsUrl": maps("ドーミーインPREMIUM名古屋栄", "愛知県名古屋市中区錦2-20-1"),
+        "blurb": "Dormy Inn 的 PREMIUM 系列，最大賣點係館內天然溫泉大浴場——官方資料顯示"
+                 "泉水每日由岐阜縣池田櫻溫泉運送，設高溫乾桑拿、冷水池同露天風呂。"
+                 "晚上有免費宵夜拉麵、汽水同冰棒，朝早有養樂多；早餐自助有 50 種以上"
+                 "在地菜，包括名古屋名物鰻魚飯三吃。",
+        "valuePoints": [
+            "市中心有天然溫泉大浴場，係呢個價位帶最難得的一項——同區商務酒店多數只有房內淋浴。",
+            "晚上 9:30–11:00 免費宵夜拉麵，加免費汽水同冰棒、朝早養樂多，實際住宿成本比標價低。",
+            "洗衣免費（乾衣 100 円／20 分鐘），大堂另有漫畫區，長住都唔會悶。",
+            "地鐵伏見站步行約 4 分鐘、榮站約 5 分鐘，行去榮町商圈食買都近。",
+            "早餐自助有 50 種以上在地菜，當中包括名古屋名物鰻魚飯三吃。",
+        ],
+        "tips": [
+            "停車位貴而且經常滿，自駕要預早或者用附近的機械停車場。",
+            "酒店本身冇便利店，但附近有幾間。",
+            "晚上 9 點後附近夜生活人多，會比較嘈同多醉酒行人，出入留意。",
+            "房間通風一般、浴室偏細；帶小朋友洗澡建議直接用大浴場。",
+            "官方說明入住時間 15:00 起、退房 11:00 前，大堂位於 2 樓。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.3 與 2,283 則評論）",
+        "sourceUrl": "https://wanderlog.com/pt/place/details/1727813/dormy-inn-premium-nagoya-sakae",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-fukuoka-cross-life-tenjin",
+        "name": "CROSS life 博多天神",
+        "nameEn": "CROSS life Hakata Tenjin",
+        "city": "福岡",
+        "area": "中央區春吉（地鐵天神南站步行約 5 分鐘）",
+        "type": "生活風格酒店（2022 年 10 月開幕）",
+        "highlight": "房大到可以同時開兩個大行李箱",
+        "rating": 4.4,
+        "reviews": 1186,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "每晚約 HK$750–1,100（來源標示）；訂房平台最低快照約 US$71／晚",
+        "address": "福岡県福岡市中央区春吉3-26-30",
+        "mapsUrl": maps("クロスライフ博多天神", "福岡県福岡市中央区春吉3-26-30"),
+        "blurb": "2022 年 10 月開幕的生活風格酒店。房內空間在同級日本酒店中偏大，住客實測"
+                 "可以同時攤開 28 吋同 24 吋行李箱之後仍然有位行。2 樓設大浴場（男：乾桑拿／"
+                 "女：蒸氣桑拿），智能電視可連 YouTube／Netflix，樓下行 1 分鐘有 24 小時超市。",
+        "valuePoints": [
+            "房大：住客實測可同時打開 28 吋＋24 吋行李箱仍可行走，喺日本市區同價位好少見。",
+            "設大浴場同桑拿——福岡市區同價位商務酒店少有一項。",
+            "有相連房（adjoining rooms），帶小朋友或者一家人出遊好實用。",
+            "行 1 分鐘有 24 小時美食超市；行去博多運河城、中洲、天神都在步行範圍。",
+            "早餐自助有 55 種，招牌係即製可頌同明太子法包；訂房平台平均房價亦低於同區平均。",
+        ],
+        "tips": [
+            "去最近的地鐵站有住客反映要行 10–15 分鐘（官方標示天神南站步行約 5 分鐘），拖行李要預時間。",
+            "房內只提供一個枕頭而且偏軟，需要額外枕頭要問櫃檯。",
+            "飲用水只在 2 樓提供，房內冇，可以自己煲水。",
+            "位置在春吉，附近多居酒屋同夜生活，夜晚出入留意。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 1,186 則評論）；大方 bigfang、里先生 Mr. Miles 亦列 4.4",
+        "sourceUrl": "https://wanderlog.com/nb/place/details/5011325/cross-life-hakata-tenjin",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-fukuoka-royal-park-canvas",
+        "name": "The Royal Park Canvas 福岡中洲",
+        "nameEn": "The Royal Park Canvas Fukuoka Nakasu",
+        "city": "福岡",
+        "area": "博多區中洲（地鐵中洲川端站 3 號出口步行 2 分鐘）",
+        "type": "設計系酒店（2023 年 8 月開幕）",
+        "highlight": "森林主題走廊、大浴場加天台花園",
+        "rating": 4.3,
+        "reviews": 650,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "以訂房平台即時報價為準（收錄時未見可靠公開參考價，故不列數字）",
+        "address": "福岡県福岡市博多区中洲5-6-20",
+        "mapsUrl": maps("ザ ロイヤルパーク キャンバス 福岡中洲", "福岡県福岡市博多区中洲5-6-20"),
+        "blurb": "2023 年 8 月開幕，位於中洲川端，行 2 分鐘到地鐵站。以森林為主題，走廊"
+                 "有鳥鳴背景聲。設大浴場同桑拿、天台花園同住客休息室；行去天神、中洲屋台、"
+                 "櫛田神社同博多運河城都在步行範圍，對面有 24 小時 Don Quijote。",
+        "valuePoints": [
+            "地鐵中洲川端站 3 號出口步行 2 分鐘（4 號出口有電梯），位置屬中洲核心。",
+            "2023 年開幕，硬件新；天台花園同住客休息室屬加分項。",
+            "設大浴場同桑拿——中洲一帶同價位少見。",
+            "行得到天神、中洲屋台、櫛田神社、博多運河城，唔使搭車。",
+            "對面有 24 小時 Don Quijote，購物唔使趕時間。",
+        ],
+        "tips": [
+            "酒店冇自己的停車場，會提供附近停車場優惠券（15:00 至翌日 11:00 收 ¥1,800，只收現金）。",
+            "大浴場受歡迎，繁忙時間會擠；介意人多的話避開高峰時段。",
+            "走廊用森林主題加鳥鳴背景聲，燈光偏暗——住客評價兩極，介意的人要留意。",
+            "酒店位處單程窄巷，冇正式落客區，落車搬行李會唔太方便。",
+            "有住客反映部分房間衛生細節問題（如床單污漬），已由酒店即時更換；入住發現問題應即時提出。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.3 與 650 則評論）；大方 bigfang 亦列 4.3",
+        "sourceUrl": "https://wanderlog.com/ro/place/details/6654868/the-royal-park-canvas-fukuoka-nakasu",
+        "addedAt": TODAY,
+    },
+    {
+        "id": "jp-sapporo-karaksa",
+        "name": "唐草飯店札幌",
+        "nameEn": "karaksa hotel Sapporo",
+        "city": "札幌",
+        "area": "中央區南3條西（狸小路商店街內，薄野站步行約 4 分鐘）",
+        "type": "商務酒店（附大浴場）",
+        "highlight": "後門直通狸小路有蓋商店街",
+        "rating": 4.4,
+        "reviews": 1744,
+        "ratingCheckedAt": TODAY,
+        "priceBand": "平日（週三）約 NT$3,066 起；週六約 NT$7,552 起（2026 年 9 月查 11 月房價、含稅）",
+        "address": "北海道札幌市中央区南3条西5丁目24",
+        "mapsUrl": maps("カルビーホテル札幌 からくさホテル札幌", "北海道札幌市中央区南3条西5丁目24"),
+        "blurb": "位於狸小路商店街內，後門一出就係有蓋商店街，買完嘢唔使淋雨。全房型免費"
+                 "使用 2 樓大浴場（連露天浴池），24 小時 Lounge「IRORI」有免費飲品、微波爐"
+                 "同製冰機；早餐超過 70 種，有天婦羅、北海道炸雞、海鮮同味噌拉麵。"
+                 "房間有相連房，最多可住 6 人，適合親子同朋友團。",
+        "valuePoints": [
+            "後門直通有蓋的狸小路商店街——落雨或者半夜買完嘢，都可以即刻返房放低戰利品。",
+            "大浴場（連露天浴池）不限房型全部免費，係住客最常提的「回血點」。",
+            "24 小時 Lounge 有免費飲品、微波爐、製冰機同兒童空間，退房後都可以留低等行李或等機場巴士。",
+            "有相連房，最多可住 6 人，家庭或朋友團合用。",
+            "行 4 分鐘到薄野站，機場巴士站就在附近；早餐超過 70 種。",
+        ],
+        "tips": [
+            "早餐時段排隊較長，建議避開高峰時間。",
+            "大浴場人多時會比較擠同亂，介意可以揀非繁忙時間。",
+            "冬天衣物多，但部分房型冇衣櫃，收納空間有限，行李要精簡。",
+            "大堂有自助式盥洗用品（buffet 形式）可自取。",
+            "清潔服務並非每日做——住客反映垃圾同咖啡杯未必日日清，長住要有心理準備。",
+        ],
+        "sourceLabel": "Wanderlog（引用 Google 評分 4.4 與 1,744 則評論）；dorarichlife 亦列 4.4",
+        "sourceUrl": "https://wanderlog.com/place/details/962422/karakusa-hotel-sapporo",
+        "addedAt": TODAY,
+    },
+]
+
+META = {
+    "note": "日本高性價比酒店推介資料庫。收錄鐵律：(1) 每間必須有可引用的來源網頁明確寫出 "
+            "Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，"
+            "絕不自行評分或估算。(2) 地址須為門牌級。(3) 價位只寫來源有講的數字並標明"
+            "查價日期；酒店房價浮動，頁面一律註明以訂房平台即時報價為準。"
+            "(4)「性價比」以可量化硬指標判斷（Google 評分／距車站步行時間／評論數規模／"
+            "房型與設施亮點），非編輯主觀評選。評分會浮動，ratingCheckedAt 記錄核對日期，"
+            "出發前請以 Google Map 即時顯示為準。與 store.json（優惠）、japan.json（美食）"
+            "分開管理，由 build_pages.py 讀取產生 /japan/hotels/ 專欄。",
+    "updated": TODAY,
+    "minRating": 4.3,
+    "rotation": ["橫濱", "神戶", "沖繩", "廣島", "仙台", "金澤", "東京", "大阪", "京都", "名古屋", "福岡", "札幌"],
+    "pricePolicy": "價格一律標示「參考價＋查價日期」，並註明以訂房平台即時報價為準；"
+                   "未見可靠公開參考價者，不列數字，只寫「以訂房平台即時報價為準」。",
+}
+
+payload = {
+    "meta": META,
+    "hotels": HOTELS,
+}
+
+TARGET.write_text(
+    json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+)
+
+ids = [h["id"] for h in HOTELS]
+assert len(ids) == len(set(ids)), "重複 id"
+print(f"已寫入 {TARGET}")
+print(f"酒店數：{len(HOTELS)}")
+for h in HOTELS:
+    print(f"  {h['id']:42s} {h['city']:4s} {h['rating']} ({h['reviews']})  {h['name']}")

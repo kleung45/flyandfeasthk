@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-29T10:50:54+08:00",
+    "updated": "2026-09-30T17:38:45+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-29T10:50:32+08:00",
@@ -12,80 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 59,
-      "active": 25,
-      "ending": 9,
-      "expired": 34,
+      "active": 23,
+      "ending": 7,
+      "expired": 36,
       "flight": 6,
       "dining": 53,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-hkexpress-thailand-flashsale-20260929",
-      "category": "flight",
-      "title": "HK Express 泰國快閃：曼谷、清邁、布吉單程 HK$88 起",
-      "subtitle": "來回連稅 HK$1,511 起 · 10/8–12/20 出發 · 今晚 23:45 截飛",
-      "route": "香港出發 · 曼谷／清邁／布吉（香港快運官網或手機 App 預訂）",
-      "priceLabel": "「輕便飛」單程低至 HK$88（包 1 件隨身物品），來回連稅 HK$1,511 起；「經濟飛」單程低至 HK$118（加 1 件登機行李）；「隨心飛」單程低至 HK$188（加 1 件 20kg 寄艙行李），來回連稅 HK$1,711 起。票價不含稅項及附加費",
-      "priceValue": 1511,
-      "originalLabel": "以香港快運官網結算顯示為準；優惠票價不含稅項及附加費",
-      "endsAt": "2026-09-29T23:45:00+08:00",
-      "period": "預訂期：即時至 2026-09-29 23:45；旅遊日期：2026-10-08 至 2026-12-20",
-      "summary": "香港快運泰國限時快閃，曼谷、清邁、布吉三個航點單程低至 HK$88（「輕便飛」，包 1 件隨身物品），實測來回連稅 HK$1,511 起；要寄艙行李的話揀「隨心飛」單程 HK$188 起，來回連稅 HK$1,711。10 至 12 月是泰國全年天氣最靚的檔期——曼谷湄南河光影節、清邁素貼山雲海、布吉斯米蘭群島 10 月中重開。預訂期只到今晚 11:45pm。",
-      "highlights": [
-        "香港 ↔ 曼谷、清邁、布吉單程低至 HK$88（「輕便飛」包 1 件隨身物品）",
-        "來回連稅 HK$1,511 起；加 20kg 寄艙行李「隨心飛」單程 HK$188 起，來回連稅 HK$1,711 起",
-        "預訂期：即時至 2026-09-29 23:45；旅遊日期：2026-10-08 至 12-20",
-        "只適用於初次預訂由香港出發的來回機票（包括多城市行程），不適用於單程機票",
-        "10 月中斯米蘭群島重開，12 月水底能見度可達 25–30 米"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/th_flashsale_20260928",
-      "sourceLabel": "香港快運官網（泰國快閃 2026-09-28）· MeetHK 旅遊情報網",
-      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/th_flashsale_20260928",
-      "tags": [
-        "廉航",
-        "泰國",
-        "單程$88",
-        "限時",
-        "今晚截止"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-momocafe-shatin-20260910",
-      "category": "dining",
-      "title": "東南亞風味巡禮自助晚餐 買一送一，人均 HK$443",
-      "subtitle": "沙田萬怡酒店 MoMo Café",
-      "venue": "香港沙田萬怡酒店 MoMo Café · 沙田",
-      "priceLabel": "HK$886 / 2 位",
-      "priceValue": 443,
-      "originalLabel": "原價 HK$1,624 / 2 位",
-      "discountPct": 45,
-      "endsAt": "2026-09-29T23:59:00+08:00",
-      "period": "適用日期：即日起至 2026-09-29（主題供應至 2026-09-30）",
-      "summary": "沙田萬怡酒店 MoMo Café 於 Klook 推出「夏日抵 Deal」快閃買一送一，兩位同行原價 HK$1,624，折後 HK$886，人均 HK$443。即開生蠔與香煎鴨肝無間斷供應，另包酒水無限暢飲。",
-      "highlights": [
-        "須經 Klook 平台預訂，數量有限、額滿即止",
-        "主題「東南亞風味巡禮」供應期為 7 月 1 日至 9 月 30 日",
-        "菜式包括印尼參巴醬烤盲鰽魚柳、馬來肉骨茶、泰式椰子雞湯、大頭蝦冬蔭功",
-        "地址：新界沙田安平街 1 號香港沙田萬怡酒店 2 樓"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/20516-momo-cafe-courtyard-marriott-hong-kong/",
-      "sourceLabel": "Klook 活動頁 · 星島頭條報導",
-      "sourceUrl": "https://www.stheadline.com/food/3612478/%E6%B2%99%E7%94%B0%E8%90%AC%E6%80%A1%E9%85%92%E5%BA%97%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0%E4%BA%BA%E5%9D%87443%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94%E9%B4%A8%E8%82%9D%E5%A4%A7%E9%A0%AD%E8%9D%A6%E5%86%AC%E8%94%AD%E5%8A%9F",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "沙田"
-      ],
-      "sample": false,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-mrsteak-wanchai-20260912",
       "category": "dining",
@@ -118,7 +53,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -154,7 +89,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -186,7 +121,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -221,7 +156,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -255,7 +190,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -290,7 +225,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -325,7 +260,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -359,7 +294,9 @@ window.DEAL_DATA = {
         "限量"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -394,7 +331,9 @@ window.DEAL_DATA = {
         "10月適用"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -429,7 +368,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -464,7 +403,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -498,7 +437,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -533,7 +472,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -568,7 +507,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -603,7 +542,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -639,7 +578,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -670,7 +609,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 62,
+      "daysLeft": 61,
       "status": "active"
     },
     {
@@ -701,7 +640,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 62,
+      "daysLeft": 61,
       "status": "active"
     },
     {
@@ -732,7 +671,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 62,
+      "daysLeft": 61,
       "status": "active"
     },
     {
@@ -762,7 +701,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 62,
+      "daysLeft": 61,
       "status": "active"
     },
     {
@@ -797,7 +736,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 62,
+      "daysLeft": 61,
       "status": "active"
     },
     {
@@ -832,7 +771,9 @@ window.DEAL_DATA = {
         "小童免費"
       ],
       "sample": false,
-      "daysLeft": 75,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 74,
       "status": "active"
     },
     {
@@ -867,7 +808,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 80,
+      "daysLeft": 79,
       "status": "active"
     },
     {
@@ -2037,6 +1978,73 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-thailand-flashsale-20260929",
+      "category": "flight",
+      "title": "HK Express 泰國快閃：曼谷、清邁、布吉單程 HK$88 起",
+      "subtitle": "來回連稅 HK$1,511 起 · 10/8–12/20 出發 · 今晚 23:45 截飛",
+      "route": "香港出發 · 曼谷／清邁／布吉（香港快運官網或手機 App 預訂）",
+      "priceLabel": "「輕便飛」單程低至 HK$88（包 1 件隨身物品），來回連稅 HK$1,511 起；「經濟飛」單程低至 HK$118（加 1 件登機行李）；「隨心飛」單程低至 HK$188（加 1 件 20kg 寄艙行李），來回連稅 HK$1,711 起。票價不含稅項及附加費",
+      "priceValue": 1511,
+      "originalLabel": "以香港快運官網結算顯示為準；優惠票價不含稅項及附加費",
+      "endsAt": "2026-09-29T23:45:00+08:00",
+      "period": "預訂期：即時至 2026-09-29 23:45；旅遊日期：2026-10-08 至 2026-12-20",
+      "summary": "香港快運泰國限時快閃，曼谷、清邁、布吉三個航點單程低至 HK$88（「輕便飛」，包 1 件隨身物品），實測來回連稅 HK$1,511 起；要寄艙行李的話揀「隨心飛」單程 HK$188 起，來回連稅 HK$1,711。10 至 12 月是泰國全年天氣最靚的檔期——曼谷湄南河光影節、清邁素貼山雲海、布吉斯米蘭群島 10 月中重開。預訂期只到今晚 11:45pm。",
+      "highlights": [
+        "香港 ↔ 曼谷、清邁、布吉單程低至 HK$88（「輕便飛」包 1 件隨身物品）",
+        "來回連稅 HK$1,511 起；加 20kg 寄艙行李「隨心飛」單程 HK$188 起，來回連稅 HK$1,711 起",
+        "預訂期：即時至 2026-09-29 23:45；旅遊日期：2026-10-08 至 12-20",
+        "只適用於初次預訂由香港出發的來回機票（包括多城市行程），不適用於單程機票",
+        "10 月中斯米蘭群島重開，12 月水底能見度可達 25–30 米"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/th_flashsale_20260928",
+      "sourceLabel": "香港快運官網（泰國快閃 2026-09-28）· MeetHK 旅遊情報網",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/th_flashsale_20260928",
+      "tags": [
+        "廉航",
+        "泰國",
+        "單程$88",
+        "限時",
+        "今晚截止"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-momocafe-shatin-20260910",
+      "category": "dining",
+      "title": "東南亞風味巡禮自助晚餐 買一送一，人均 HK$443",
+      "subtitle": "沙田萬怡酒店 MoMo Café",
+      "venue": "香港沙田萬怡酒店 MoMo Café · 沙田",
+      "priceLabel": "HK$886 / 2 位",
+      "priceValue": 443,
+      "originalLabel": "原價 HK$1,624 / 2 位",
+      "discountPct": 45,
+      "endsAt": "2026-09-29T23:59:00+08:00",
+      "period": "適用日期：即日起至 2026-09-29（主題供應至 2026-09-30）",
+      "summary": "沙田萬怡酒店 MoMo Café 於 Klook 推出「夏日抵 Deal」快閃買一送一，兩位同行原價 HK$1,624，折後 HK$886，人均 HK$443。即開生蠔與香煎鴨肝無間斷供應，另包酒水無限暢飲。",
+      "highlights": [
+        "須經 Klook 平台預訂，數量有限、額滿即止",
+        "主題「東南亞風味巡禮」供應期為 7 月 1 日至 9 月 30 日",
+        "菜式包括印尼參巴醬烤盲鰽魚柳、馬來肉骨茶、泰式椰子雞湯、大頭蝦冬蔭功",
+        "地址：新界沙田安平街 1 號香港沙田萬怡酒店 2 樓"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/20516-momo-cafe-courtyard-marriott-hong-kong/",
+      "sourceLabel": "Klook 活動頁 · 星島頭條報導",
+      "sourceUrl": "https://www.stheadline.com/food/3612478/%E6%B2%99%E7%94%B0%E8%90%AC%E6%80%A1%E9%85%92%E5%BA%97%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E5%84%AA%E6%83%A0%E4%BA%BA%E5%9D%87443%E4%BB%BB%E9%A3%9F%E7%94%9F%E8%A0%94%E9%B4%A8%E8%82%9D%E5%A4%A7%E9%A0%AD%E8%9D%A6%E5%86%AC%E8%94%AD%E5%8A%9F",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "沙田"
+      ],
+      "sample": false,
       "postedThreads": true,
       "daysLeft": 0,
       "status": "expired"

@@ -43,6 +43,7 @@ PROJECT = ROOT.parent
 DATA = PROJECT / "data"
 STORE = ROOT / "store.json"
 JAPAN_FILE = ROOT / "japan.json"
+HOTELS_FILE = ROOT / "japan-hotels.json"
 SITEMAP = PROJECT / "sitemap.xml"
 
 # 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
@@ -83,17 +84,51 @@ JP_REGIONS = {
         "name": "沖繩",
         "intro": "琉球料理自成一格：沖繩麵、豬肉料理與塔可飯，混雜美式與亞洲風味，係日本最「唔日本」又最有趣嘅食區。",
     },
+    "tohoku": {
+        "name": "東北",
+        "intro": "仙台牛舌、青森蘋果與秋田米鄉，山海食材豐富但觀光密度低，"
+                 "係近年最多人「專程去食」的地區之一，價錢亦普遍比東京大阪親民。",
+    },
 }
-JP_REGION_ORDER = ["kanto", "kansai", "chubu", "kyushu", "hokkaido", "chugoku", "okinawa"]
+JP_REGION_ORDER = ["kanto", "kansai", "chubu", "kyushu", "hokkaido", "tohoku", "chugoku", "okinawa"]
 JP_CITY_REGION = {
     "東京": "kanto", "橫濱": "kanto",
     "大阪": "kansai", "京都": "kansai", "神戶": "kansai",
-    "名古屋": "chubu",
+    "名古屋": "chubu", "金澤": "chubu",
     "福岡": "kyushu",
     "札幌": "hokkaido",
+    "仙台": "tohoku",
     "廣島": "chugoku",
     "沖繩": "okinawa",
 }
+
+# 酒店專欄的地區簡介與美食版分開寫：美食版講食風，酒店版要講住宿成本、
+# 季節浮動與「住邊抵」的實際考量，直接沿用美食文案會完全離題。
+JP_HOTEL_REGION_INTRO = {
+    "kanto": "東京住宿貴而且房細，但揀對位置同房型，一樣有「唔肉赤又有質素」嘅選擇。"
+             "關東一帶的高分酒店集中在山手線沿線，以及淺草、上野等舊區——"
+             "本頁只收錄行去車站夠近、評論樣本夠大嘅一類。",
+    "kansai": "大阪市中心房價比東京親民；京都就要看季節，賞楓賞櫻期間全城加價。"
+              "關西最值得計嘅係「位置分」：心齋橋、四條步行圈內嘅酒店，"
+              "省落嘅交通時間同車費就係實際回報。",
+    "chubu": "名古屋係被低估嘅住宿城市：同級酒店價錢通常比東京大阪低一截，"
+             "而且唔少酒店附設天然溫泉大浴場。市中心榮、伏見一帶步行距離短，"
+             "商務同觀光都合用。",
+    "kyushu": "福岡機場距離市中心只需地鐵兩個站，係全日本最方便嘅入境城市之一，"
+              "所以「住市中心」嘅性價比特別高——博多、天神一帶行得到就唔使買地鐵日票。",
+    "hokkaido": "札幌住宿最大嘅變數係雪季同週末：同一間房閒日同週六可以差一倍以上。"
+                "揀狸小路、薄野一帶有蓋商店街旁邊嘅酒店，落雪天出入都唔使捱風。",
+    "tohoku": "東北係全日本住宿最親民嘅地區之一，仙台市中心商務酒店價位通常只及東京一半。"
+              "本頁優先收錄近仙台站、設大浴場嘅一類。",
+    "chugoku": "廣島、岡山一帶酒店價錢平穩，適合以廣島為基地往返宮島、尾道。"
+               "留意近路面電車站嘅選擇，出入比想像中方便。",
+    "okinawa": "沖繩住宿要分「那霸市區」同「度假區」兩種玩法：市區酒店近單軌電車、"
+               "價錢平；度假區房價高但設施多。本頁會講清楚你買緊邊種。",
+}
+HOTEL_REGION_INTRO_FALLBACK = (
+    "本頁收錄此地區「評分 × 評論規模 × 車站距離 × 房型設施」同時達標嘅酒店，"
+    "房價一律不寫死，請自行填日期格價。"
+)
 
 HK_TZ = timezone(timedelta(hours=8))
 SITE_FALLBACK = "https://www.flyandfeasthk.com"
@@ -462,6 +497,7 @@ def nav_html(active: str) -> str:
         ("/deals/dining/", "餐廳優惠", "dining"),
         ("/deals/hotel/", "酒店優惠", "hotel"),
         ("/japan/", "日本美食", "japan"),
+        ("/japan/hotels/", "日本酒店", "japan-hotel"),
         ("/guides/", "優惠攻略", "guides"),
         ("/about/", "關於本站", "about"),
     ]
@@ -500,6 +536,7 @@ def footer_html() -> str:
         '<a href="/deals/dining/">餐廳優惠</a>'
         '<a href="/deals/hotel/">酒店優惠</a>'
         '<a href="/japan/">日本美食</a>'
+        '<a href="/japan/hotels/">日本酒店</a>'
         '<a href="/guides/">優惠攻略</a>'
         "</div>"
         '<div class="footer-links">'
@@ -1684,16 +1721,17 @@ def maps_embed_src(e: dict) -> str | None:
     return f"https://www.google.com/maps?q={q}&output=embed&hl=zh-HK"
 
 
-def maps_embed_html(e: dict) -> str:
+def maps_embed_html(e: dict, kind: str = "餐廳") -> str:
     src = maps_embed_src(e)
     if not src:
         return ""
-    name = e.get("name") or "餐廳"
+    name = e.get("name") or kind
+    scene = "店面實景相" if kind == "餐廳" else "外觀與周邊實景相"
     return (
         '<figure class="maps-embed">'
         f'<iframe src="{esc(src)}" title="{esc(name)} 嘅 Google Maps 地圖與實景相片" '
         'loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>'
-        '<figcaption class="jp-note">地圖卡由 Google Maps 官方嵌入，可直接睇到店面實景相、'
+        f'<figcaption class="jp-note">地圖卡由 Google Maps 官方嵌入，可直接睇到{scene}、'
         "評分同街景；以 Google Map 即時顯示為準。</figcaption>"
         "</figure>"
     )
@@ -1976,6 +2014,9 @@ def build_japan_index(eats: list[dict], meta: dict) -> str:
         + (f'<div class="cat-nav region-nav"><b>地區排行：</b>{region_nav}</div>'
            if region_nav else "")
         + f'<div class="cat-nav">{city_nav}</div>'
+        '<div class="cat-nav region-nav"><b>住邊？</b>'
+        f'<a href="{HOTEL_INDEX_PATH}">🏨 日本高性價比酒店推介（所有城市）</a>'
+        "　搵到好嘢食，順手睇埋附近住邊最抵。</div>"
         "</div>"
         + '<div class="prose">'
         "<h2>收錄準則</h2>"
@@ -2102,17 +2143,534 @@ def build_japan_eat_page(e: dict, peers: list[dict], meta: dict) -> str:
     )
 
 
+# --------------------------------------------------------------------------
+# 日本酒店專欄（/japan/hotels/）
+# --------------------------------------------------------------------------
+# 與日本美食分開一份資料檔（pipeline/japan-hotels.json）。
+# 酒店房價浮動極大，所以本欄一律不寫死價錢：只寫來源明確講過的參考價並標明
+# 查價日期，其餘一律「以訂房平台即時報價為準」；「性價比」全部由可量化硬指標
+# 推導（Google 評分、評論規模、車站步行分鐘、房型與設施亮點），
+# 不是編輯主觀評選，亦不會自行評分。
+
+# /japan/ 之下屬於「非餐廳 id、亦非地區 key」的固定目錄；清除孤兒頁時要保留。
+JAPAN_RESERVED_DIRS = {"hotels"}
+
+HOTEL_INDEX_PATH = "/japan/hotels/"
+
+
+def load_hotels() -> list[dict]:
+    if not HOTELS_FILE.exists():
+        return []
+    try:
+        payload = json.loads(HOTELS_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    hotels = payload.get("hotels") or []
+    return [h for h in hotels if h.get("id") and h.get("name")]
+
+
+def hotel_walk_minutes(h: dict) -> int | None:
+    """由 area 文字抽取「步行 N 分鐘」——可量化、可查證的性價比訊號。"""
+    area = str(h.get("area") or "")
+    m = re.search(r"步行\s*約?\s*(\d+)\s*分鐘", area)
+    if not m:
+        m = re.search(r"(\d+)\s*分鐘", area)
+    return int(m.group(1)) if m else None
+
+
+def _has_price_number(h: dict) -> bool:
+    band = str(h.get("priceBand") or "")
+    if not band or "未見可靠公開參考價" in band:
+        return False
+    return bool(re.search(r"(?:HK\$|NT\$|US\$|€|¥|JPY|約\s*\d|\d[\d,]{2,})", band))
+
+
+def hotel_rating_tier(rating) -> str:
+    try:
+        r = float(rating)
+    except (TypeError, ValueError):
+        return "評分資料未齊，建議以 Google Maps 即時顯示為準。"
+    if r >= 4.5:
+        return ("4.5 分以上喺酒店嚟講屬極少數——酒店每日要處理大量住客、清潔、"
+                "隔音同前檯服務，任何一環長期失手都會拖低分數，"
+                "所以呢個分數本身就係最強嘅品質保證。")
+    if r >= 4.3:
+        return ("4.3 分以上已經爬得過 Google 上大量酒店嘅平均線；酒店評論通常集中講"
+                "位置、清潔同床褥，而且評論愈多愈難拉高，代表水準長期穩定，"
+                "唔係靠幾則好評撐出嚟。")
+    return "4.2 分以上已屬良好，配合評論數量同位置一併睇更有參考價值。"
+
+
+def hotel_review_signal(h: dict) -> str:
+    n = h.get("reviews")
+    if not n:
+        return "評論總數未有可靠數字，建議訂之前直接喺 Google Maps 睇最新評價分佈。"
+    if n >= 2000:
+        return (f"評論數超過 {n:,} 則，係同級酒店中樣本極大嘅一類；"
+                "分數唔會因為幾則新評價就大幅波動，參考價值最高。")
+    if n >= 800:
+        return (f"約 {n:,} 則評論，樣本屬中大規模；建議順手睇埋近半年嘅評價，"
+                "確認翻新或換管理後狀態有冇回落。")
+    if n >= 300:
+        return (f"約 {n:,} 則評論，樣本中等，分數有參考性，但要留意淡旺季嘅落差。")
+    return (f"約 {n:,} 則評論，樣本有限（多數係新開幕酒店），"
+            "分數浮動會較大，訂之前記得覆核一次。")
+
+
+def hotel_value_signal(h: dict) -> str:
+    """性價比拆成三條可查證嘅線，唔用一個自創嘅「性價比分」。"""
+    bits = []
+    if isinstance(h.get("rating"), (int, float)):
+        bits.append(f"Google 評分 {h['rating']:.1f}")
+    if h.get("reviews"):
+        bits.append(f"{h['reviews']:,} 則評論")
+    walk = hotel_walk_minutes(h)
+    if walk is not None:
+        bits.append(f"車站步行約 {walk} 分鐘")
+    core = "、".join(bits) if bits else "已核實嘅公開資料"
+    if _has_price_number(h):
+        tail = ("呢三項加埋價位一齊睇，先叫「性價比」——"
+                "本頁嘅價位參考已標明查價日期，落單前請再格一次價。")
+    else:
+        tail = ("本頁刻意唔填價錢：同一間酒店淡旺季可以差兩三倍，"
+                "寫死一個數字反而會誤導。請直接喺訂房平台輸入實際日期格價，"
+                "再同呢三項訊號對照。")
+    return f"本站對「性價比」嘅定義係：{core}，三者同時達標。{tail}"
+
+
+def hotel_price_signal(h: dict) -> str:
+    band = str(h.get("priceBand") or "").strip()
+    if not _has_price_number(h):
+        if band:
+            return f"價位說明：{band}。酒店房價浮動極大，落單前請以訂房平台即時報價為準。"
+        return ("房價浮動極大，收錄時未見可靠嘅公開參考價，所以本頁刻意不列數字。"
+                "請直接喺訂房平台輸入實際入住日期格價。")
+    return (f"價位參考：{band}。以上係收錄時抄錄嘅數字，只作預算參考；"
+            "酒店房價隨時浮動，一律以訂房平台即時報價為準。")
+
+
+def hotel_region_pool(hotels: list[dict], rkey: str) -> list[dict]:
+    return [h for h in hotels if region_key_of(h) == rkey]
+
+
+def hotel_region_nav(hotels: list[dict], exclude: str | None = None) -> str:
+    return "".join(
+        f'<a href="{HOTEL_INDEX_PATH}{esc(k)}/">🏨 {esc(JP_REGIONS[k]["name"])}'
+        f'（{len(hotel_region_pool(hotels, k))}）</a>'
+        for k in japan_regions_in_use(hotels) if k != exclude
+    )
+
+
+def hotel_card(h: dict) -> str:
+    url = f"{HOTEL_INDEX_PATH}{esc(h['id'])}/"
+    star = f"{h.get('rating'):.1f}" if isinstance(h.get("rating"), (int, float)) else "—"
+    reviews = f" · {h['reviews']:,} 則評論" if h.get("reviews") else ""
+    walk = hotel_walk_minutes(h)
+    bullets = [str(v) for v in (h.get("valuePoints") or []) if str(v).strip()]
+    hl = "<ul>" + "".join(f"<li>{esc(v)}</li>" for v in bullets[:2]) + "</ul>" if bullets else ""
+    walk_badge = (f'<span class="badge badge-value">🚉 步行 {walk} 分鐘</span>'
+                  if walk is not None else "")
+    return (
+        f'<article class="card" data-id="{esc(h["id"])}">'
+        '<div class="card-top">'
+        f'<span class="badge badge-hotel">{esc(h.get("city") or "日本")}</span>'
+        f'<span class="badge badge-rating" aria-label="Google 評分">{esc(star + " Google")}</span>'
+        + walk_badge +
+        '<span class="card-sticker st-hotel" aria-hidden="true">🏨</span>'
+        "</div>"
+        f'<h3><a href="{url}">{esc(h["name"])}</a></h3>'
+        + (f'<p class="sub">{esc(h["nameEn"])}</p>' if h.get("nameEn") else "")
+        + f'<p class="route">{esc(h.get("type") or "")}｜{esc(h.get("area") or "")}</p>'
+        + '<div class="price-row">'
+        f'<span class="price hotel-hl">💡 {esc(h.get("highlight") or "性價比之選")}</span>'
+        f'<span class="save">★ {esc(star + reviews)}</span>'
+        "</div>"
+        + (f'<p class="summary">{esc(h["blurb"])}</p>' if h.get("blurb") else "")
+        + hl
+        + f'<div class="card-foot"><span class="period">{esc(rating_line(h))}</span>'
+        f'<span class="actions"><a class="link-btn" href="{url}">睇詳情 →</a></span></div>'
+        + "</article>"
+    )
+
+
+def hotel_grid(hotels: list[dict]) -> str:
+    if not hotels:
+        return '<p class="empty">這個地區暫時未有收錄的酒店。</p>'
+    return '<div class="grid">' + "".join(hotel_card(h) for h in hotels) + "</div>"
+
+
+def hotel_related(h: dict, peers: list[dict], limit: int = 3) -> list[dict]:
+    """先同城，唔夠再補其他城市的高分選擇，確保詳情頁有足夠站內連結。"""
+    same = [p for p in peers
+            if p.get("id") != h.get("id") and p.get("city") == h.get("city")]
+    same.sort(key=lambda p: abs((p.get("rating") or 0) - (h.get("rating") or 0)))
+    out = same[:limit]
+    if len(out) < limit:
+        rest = [p for p in japan_ranked(peers)
+                if p.get("id") != h.get("id") and p not in out]
+        out += rest[:limit - len(out)]
+    return out
+
+
+def hotel_editorial_blocks(h: dict, peers: list[dict]) -> list[tuple[str, list[str], list[str]]]:
+    blocks: list[tuple[str, list[str], list[str]]] = []
+
+    # 1) 評分點解讀
+    paras = [hotel_rating_tier(h.get("rating")), hotel_review_signal(h)]
+    paras.append("評分與評論數會隨時間浮動，以上為收錄時抄錄的數字；訂房前請以 Google Map 即時顯示為準。")
+    blocks.append(("評分點解讀", paras, []))
+
+    # 2) 性價比點解成立
+    blocks.append(("性價比點解成立", [hotel_value_signal(h)], []))
+
+    # 3) 房型與設施亮點
+    vp = [str(v) for v in (h.get("valuePoints") or []) if str(v).strip()]
+    if vp:
+        blocks.append(("點解揀呢間（硬指標）", 
+                       ["以下每一點都對應一個可查證嘅事實（位置、房型、設施或評論規模），唔係形容詞。"],
+                       vp))
+
+    # 4) 價位與落單
+    blocks.append(("價位與落單", [hotel_price_signal(h)], []))
+
+    # 5) 去之前要知道
+    tips = [str(t) for t in (h.get("tips") or []) if str(t).strip()]
+    if not tips:
+        tips = ["暫時未有特別注意事項，建議訂房前以酒店及訂房平台公佈為準。"]
+    blocks.append(("去之前要知道", [], tips))
+
+    # 6) 同城／同區點揀
+    same = [p for p in peers
+            if p.get("id") != h.get("id") and p.get("city") == h.get("city")]
+    if same:
+        same.sort(key=lambda p: -(p.get("rating") or 0))
+        lines = [f"{p['name']}（{p.get('rating'):.1f} 分 · {p.get('highlight') or '—'}）"
+                 for p in same[:3]]
+        blocks.append(("同城仲有呢啲選擇",
+                       [f"同一個城市收錄了 {len(same)} 間同樣達標的酒店，"
+                        "分數與位置最接近的如下，行程排得埋就值得一併比較。"], lines))
+    return blocks
+
+
+def hotel_editorial_html(h: dict, peers: list[dict]) -> str:
+    parts = [
+        '<section class="editorial" aria-labelledby="jp-hotel-ed-title">',
+        '<h2 id="jp-hotel-ed-title">🧾 編輯觀點 <span class="ed-cat">由評分、位置與收錄資料推導</span></h2>',
+    ]
+    for title, paras, bullets in hotel_editorial_blocks(h, peers):
+        parts.append(f"<h3>{esc(title)}</h3>")
+        for p in paras:
+            parts.append(f"<p>{esc(p)}</p>")
+        if bullets:
+            parts.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
+    parts.append(
+        '<p class="ed-foot">本頁評分、地址與注意事項由 Fly &amp; Feast HK 編輯部根據公開來源核對抄錄，'
+        "最後核對日期見頁首資料。酒店房價、設施與供應隨時變動，"
+        "一切以酒店及訂房平台即時資訊為準。本頁不構成任何訂房建議。</p>"
+    )
+    parts.append("</section>")
+    return "".join(parts)
+
+
+def build_hotels_index(hotels: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    updated = str(meta.get("updated") or "")[:10]
+    ranked = japan_ranked(hotels)
+    cities: list[str] = []
+    for h in hotels:
+        c = str(h.get("city") or "其他")
+        if c not in cities:
+            cities.append(c)
+    cities.sort(key=lambda c: (JAPAN_CITY_ORDER.index(c) if c in JAPAN_CITY_ORDER else 99))
+
+    region_nav = hotel_region_nav(hotels)
+    city_nav = "".join(
+        f'<a href="#hcity-{i}">{esc(c)}（{sum(1 for h in hotels if h.get("city") == c)}）</a>'
+        for i, c in enumerate(cities)
+    )
+    sections = ""
+    for i, c in enumerate(cities):
+        pool = [h for h in hotels if h.get("city") == c]
+        pool.sort(key=lambda h: (-(h.get("rating") or 0), -(h.get("reviews") or 0)))
+        sections += (
+            f'<h2 class="section-h2" id="hcity-{i}">🏨 {esc(c)}'
+            f'<span class="ed-cat">共 {len(pool)} 間</span></h2>'
+            + hotel_grid(pool)
+        )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本酒店推介", None)])
+        + '<div class="page-head">'
+        "<h1>🏨 日本高性價比酒店推介：高分 × 近車站 × 唔靠包裝</h1>"
+        '<p class="page-lede">日本酒店價錢浮動得誇張——同一間房淡季同旺季可以差兩三倍，'
+        "所以這個專欄刻意唔寫死價錢，改為只收錄「硬指標同時達標」嘅酒店："
+        "Google 評分夠高、評論樣本夠大、行去車站夠近、房型或設施有實質賣點。"
+        "每間酒店有獨立詳情頁，講清楚評分點解讀、性價比點成立、落單前要注意咩，"
+        "並附上資料來源——你只需要填日期格價，唔使再逐間爬評論。</p>"
+        f'<div class="page-meta"><span>已收錄：<b>{len(hotels)}</b> 間</span>'
+        f'<span>城市：<b>{len(cities)}</b> 個</span>'
+        f'<span>地區：<b>{len(japan_regions_in_use(hotels))}</b> 個</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        + (f'<div class="cat-nav region-nav"><b>地區排行：</b>{region_nav}</div>'
+           if region_nav else "")
+        + (f'<div class="cat-nav">{city_nav}</div>' if city_nav else "")
+        + "</div>"
+        + '<div class="prose">'
+        "<h2>「性價比高」係點定義</h2>"
+        "<p>「性價比」係一個好易講、但好難驗證嘅詞。本欄唔靠形容詞，"
+        "只用四條可以逐項查證嘅線去判斷，四項同時達標才收錄：</p>"
+        "<ul>"
+        "<li><b>Google 評分</b>：需有公開來源明確寫出評分，並優先收錄 4.3 分以上；"
+        "兩個來源評分有矛盾就唔收錄。</li>"
+        "<li><b>評論規模</b>：評論數太少，分數容易浮動。同級之下，樣本愈大愈可信。</li>"
+        "<li><b>車站距離</b>：由酒店步行至最近車站嘅分鐘數（取自來源描述），"
+        "直接影響每日來回同搬行李嘅成本。</li>"
+        "<li><b>房型與設施</b>：例如大浴場、免費宵夜、洗衣設備、行李轉運等"
+        "——呢啲通常係「同價位入面幫你慳返一筆」嘅實質賣點。</li>"
+        "</ul>"
+        "<h2>點解唔寫實價</h2>"
+        "<p>酒店房價隨日期浮動，寫死一個數字只會誤導。"
+        "所以本欄嘅價位一律標明「參考價＋查價日期」，並註明以訂房平台即時報價為準；"
+        "查不到可靠公開參考價嘅，索性唔填數字。"
+        "你落單前請自己填日期格一次價——呢一步冇人可以代你做。</p>"
+        "<h2>收錄準則與更新</h2>"
+        "<ul>"
+        "<li><b>唔自行評分</b>：所有分數都係抄錄自可引用嘅公開來源，並附出處連結；"
+        "本站唔會「我覺得有 4.6 分」。</li>"
+        "<li><b>評分會浮動</b>：每筆標明核對日期，訂房前請以 Google Map 即時顯示為準。</li>"
+        "<li><b>持續更新</b>：每次加入幾個城市，優先補未覆蓋嘅地區，逐步覆蓋全日本。</li>"
+        "<li><b>利益申報</b>：本頁可能包含聯盟連結，若你透過連結訂房，"
+        "本站或會獲得佣金，但不會影響收錄與排序準則。</li>"
+        "</ul>"
+        "</div>"
+        + sections
+        + '<div class="prose"><h2>仲想睇多啲</h2>'
+        '<ul><li><a href="/japan/">日本美食專欄</a>：同一個城市的 Google Maps 高分餐廳排行。</li>'
+        '<li><a href="/guides/">優惠攻略</a>：落單前的條款檢查表與比價方法。</li></ul></div>'
+        + "</main>"
+    )
+    return layout(
+        title="日本高性價比酒店推介：高分 × 近車站 × 附資料來源｜Fly & Feast HK",
+        desc=f"日本高性價比酒店推介專欄，現收錄 {len(hotels)} 間，"
+             "每間附 Google 評分解讀、車站步行時間、房型與設施賣點、價位說明及資料來源，"
+             "按已核實數據排序，唔寫死價錢，持續更新。",
+        path="/japan/hotels/",
+        body=body,
+        meta=meta,
+        active="japan-hotel",
+        ld=[breadcrumb_ld([("日本酒店推介", None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": "日本高性價比酒店推介", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_hotel_region_page(rkey: str, pool: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    info = JP_REGIONS[rkey]
+    rname = info["name"]
+    updated = str(meta.get("updated") or "")[:10]
+    ranked = japan_ranked(pool)
+    top, rest = ranked[:10], ranked[10:]
+    is_top10 = len(ranked) >= 10
+    heading = (f"🏨 {rname}高性價比酒店十大排行" if is_top10
+               else f"🏨 {rname}高性價比酒店推介")
+    heading_note = (
+        f"已收錄 {len(ranked)} 間，排行按 Google 評分（同分按評論數）自動排序，非編輯評選；"
+        "滿 10 間後此頁會自動成為「地區十大」。"
+        if not is_top10 else
+        f"已收錄 {len(ranked)} 間，頭十名按 Google 評分（同分按評論數）自動排序，非編輯評選；"
+        "排名每星期隨收錄與評分核對更新。"
+    )
+
+    def ranked_card(i: int, h: dict) -> str:
+        medal = {1: "🥇", 2: "🥈", 3: "🥉"}.get(i, "　")
+        return (
+            '<div class="ranked-item">'
+            f'<div class="rank-tag" aria-label="第 {i} 位">{"#" if i > 3 else medal}'
+            f'{"" if i <= 3 else i}</div>'
+            + hotel_card(h)
+            + "</div>"
+        )
+
+    sections = "".join(ranked_card(i, h) for i, h in enumerate(top, 1))
+    if rest:
+        sections += (
+            f'<h2 class="section-h2">更多收錄（第 {len(top) + 1} 位起）</h2>'
+            + hotel_grid(rest)
+        )
+
+    other_nav = hotel_region_nav(pool, exclude=rkey)
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("日本酒店推介", HOTEL_INDEX_PATH), (rname, None)])
+        + '<div class="page-head">'
+        f"<h1>{heading}</h1>"
+        f'<p class="page-lede">'
+        f'{esc(JP_HOTEL_REGION_INTRO.get(rkey, HOTEL_REGION_INTRO_FALLBACK))}</p>'
+        f'<div class="page-meta"><span>已收錄：<b>{len(ranked)}</b> 間</span>'
+        f'<span>城市：<b>{len({h.get("city") for h in pool})}</b> 個</span>'
+        f'<span>最後更新：<b>{esc(updated)}</b></span></div>'
+        f'<p class="section-note">{esc(heading_note)}</p>'
+        f'<div class="cat-nav region-nav"><b>其他地區：</b>{other_nav}'
+        f'<a href="{HOTEL_INDEX_PATH}">睇晒全部</a></div>'
+        + "</div>"
+        + '<div class="ranked-list">' + sections + "</div>"
+        + '<div class="prose">'
+        "<h2>呢個排行點睇</h2>"
+        "<ul>"
+        "<li><b>排法係透明的</b>：先按 Google 評分，同分再按評論數，"
+        "全由已核實的公開數據推導，我們不會憑喜好調位。</li>"
+        "<li><b>高分 ≠ 最啱你</b>：設有大浴場、房內洗衣設備或近地鐵出口，"
+        "對唔同行程嘅價值差好遠。每間嘅詳情頁有房型與設施賣點，落單前睇一睇。</li>"
+        "<li><b>價錢一定要自己格</b>：本頁刻意唔寫死價位，同一間酒店淡旺季可以差幾倍，"
+        "請輸入實際入住日期再比較。</li>"
+        "<li><b>利益申報</b>：本頁可能包含聯盟連結，我們或會獲得佣金，"
+        "但不影響收錄門檻與排序準則。</li>"
+        "</ul>"
+        "</div>"
+        + "</main>"
+    )
+    return layout(
+        title=f"{rname}高性價比酒店{'十大排行' if is_top10 else '推介'}"
+              f"：Google 高分 × 近車站｜Fly & Feast HK",
+        desc=f"{rname}地區的日本高性價比酒店推介，現收錄 {len(ranked)} 間，"
+             "按已核實的 Google 評分與評論數排序，附車站步行時間、房型設施賣點與價位說明。",
+        path=f"{HOTEL_INDEX_PATH}{rkey}/",
+        body=body,
+        meta=meta,
+        active="japan-hotel",
+        ld=[breadcrumb_ld([("日本酒店推介", HOTEL_INDEX_PATH), (rname, None)], site),
+            {"@context": "https://schema.org", "@type": "CollectionPage",
+             "name": f"日本酒店推介：{rname}", "inLanguage": "zh-Hant-HK"}],
+    )
+
+
+def build_hotel_page(h: dict, peers: list[dict], meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    city = str(h.get("city") or "日本")
+    rkey = region_key_of(h)
+    rname = JP_REGIONS[rkey]["name"] if rkey else ""
+    url = f"{HOTEL_INDEX_PATH}{h['id']}/"
+    updated = str(meta.get("updated") or "")[:10]
+    star = f"{h.get('rating'):.1f}" if isinstance(h.get("rating"), (int, float)) else "—"
+    walk = hotel_walk_minutes(h)
+
+    facts = [
+        ("城市／地區", f"{city} · {h.get('area') or '—'}"),
+        ("酒店類型", h.get("type") or "—"),
+        ("最大賣點", h.get("highlight") or "—"),
+        ("Google 評分", rating_line(h)),
+        ("價位參考", h.get("priceBand") or "以訂房平台即時報價為準"),
+        ("地址", h.get("address") or "—"),
+    ]
+    facts_html = "".join(
+        f'<div class="deal-fact"><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in facts
+    )
+
+    tier_badges = "".join([
+        f'<span class="badge badge-rating">★ {esc(star)} Google</span>',
+        (f'<span class="badge badge-value">🚉 車站步行 {walk} 分鐘</span>'
+         if walk is not None else ""),
+        (f'<span class="badge badge-hotel">{h["reviews"]:,} 則評論</span>'
+         if h.get("reviews") else ""),
+    ])
+
+    related = hotel_related(h, peers)
+
+    trail = ([("日本酒店推介", HOTEL_INDEX_PATH)] + ([ (rname, f"{HOTEL_INDEX_PATH}{rkey}/")] if rkey and rname else [])
+             + [(h.get("name", ""), None)])
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html(trail)
+        + '<article>'
+        '<div class="deal-hero">'
+        '<div class="card-top">'
+        f'<span class="badge badge-hotel">日本酒店推介</span>'
+        + tier_badges +
+        "</div>"
+        f"<h1>{esc(h.get('name'))}</h1>"
+        + (f'<p class="lede-line">{esc(h["nameEn"])}</p>' if h.get("nameEn") else "")
+        + '<div class="price-panel">'
+        f'<span class="p-now hotel-hl">💡 {esc(h.get("highlight") or "性價比之選")}</span>'
+        '<span class="p-note">價位一律標明參考價與查價日期，以訂房平台即時報價為準。'
+        "本頁不構成訂房建議。</span>"
+        "</div>"
+        f'<dl class="deal-facts">{facts_html}</dl>'
+        "</div>"
+        + maps_embed_html(h, kind="酒店")
+        + (f'<h2 class="section-h2">📖 編輯簡介</h2><p>{esc(h.get("blurb"))}</p>'
+           if h.get("blurb") else "")
+        + hotel_editorial_html(h, peers)
+        + (
+            '<div class="deal-actions">'
+            f'<a class="link-btn" href="{esc(h.get("mapsUrl") or "#")}" target="_blank" rel="noopener nofollow">'
+            "在 Google Maps 打開（導航／睇最新評價）→</a>"
+            f'<a class="btn-ghost" href="{HOTEL_INDEX_PATH}">睇晒全部日本酒店推介</a>'
+            "</div>"
+            '<div class="source-block"><p><strong>評分與資料來源：</strong>'
+            + (
+                f'<a href="{esc(h["sourceUrl"])}" target="_blank" rel="noopener nofollow">'
+                f'{esc(h.get("sourceLabel") or h["sourceUrl"])}</a>'
+                if h.get("sourceUrl") else esc(h.get("sourceLabel"))
+            )
+            + f"</p><p>評分與評論數於 {esc(h.get('ratingCheckedAt') or updated)} 核對抄錄，"
+            "會隨時間浮動；房價、設施與供應隨時變動，一切以酒店及訂房平台即時資訊為準。</p></div>"
+        )
+        + "</article>"
+        + (
+            '<section class="related"><h2 class="section-h2">🔎 仲有咩選擇</h2>'
+            '<p class="section-note">同城優先，唔夠再補其他城市的高分酒店。</p>'
+            + hotel_grid(related)
+            + "</section>"
+            if related else ""
+        )
+        + "</main>"
+    )
+
+    ld = [
+        breadcrumb_ld(trail, site),
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": h.get("name"),
+            "description": (h.get("blurb") or "")[:155],
+            "inLanguage": "zh-Hant-HK",
+            "dateModified": str(meta.get("updated") or ""),
+            "author": {"@type": "Organization", "name": "Fly & Feast HK 編輯部"},
+            "publisher": {"@type": "Organization", "name": "Fly & Feast HK"},
+            "mainEntityOfPage": {"@type": "WebPage", "@id": site + url},
+        },
+    ]
+    return layout(
+        title=f"{h.get('name')}｜{city}高性價比酒店推介（Google {star} 分）｜Fly & Feast HK",
+        desc=((h.get("blurb") or h.get("name") or "")[:155]),
+        path=url,
+        body=body,
+        meta=meta,
+        active="japan-hotel",
+        ld=ld,
+    )
+
+
 def prune_stale_japan_pages(valid_ids: set[str]) -> int:
-    """同優惠頁一樣，清除已不在 japan.json 的孤兒頁。資料少於 5 筆時不動。"""
+    """同優惠頁一樣，清除已不在資料檔的孤兒頁。資料少於 5 筆時不動。
+
+    注意：JAPAN_RESERVED_DIRS（例如 hotels）一定要在 valid_ids 之內，
+    否則 /japan/hotels/ 整個專欄會被當成孤兒頁刪走（無錯誤訊息，極難察覺）。
+    """
     MIN_SIZE = 5
     if len(valid_ids) < MIN_SIZE:
         return 0
     base = PROJECT / "japan"
     if not base.exists():
         return 0
+    keep = set(valid_ids) | set(JAPAN_RESERVED_DIRS)
     removed = 0
     for child in base.iterdir():
-        if child.is_dir() and child.name not in valid_ids:
+        if child.is_dir() and child.name not in keep:
             shutil.rmtree(child, ignore_errors=True)
             removed += 1
     return removed
@@ -2122,7 +2680,8 @@ def prune_stale_japan_pages(valid_ids: set[str]) -> int:
 # sitemap
 # --------------------------------------------------------------------------
 
-def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None) -> str:
+def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None,
+                  japan_hotels: list[dict] | None = None) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     today = datetime.now(HK_TZ).date().isoformat()
     urls: list[tuple[str, str, str]] = [
@@ -2136,6 +2695,12 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
         urls.append((f"/japan/{rk}/", "0.7", "weekly"))
     for e in (japan_eats or []):
         urls.append((f"/japan/{e['id']}/", "0.6", "weekly"))
+    if japan_hotels:
+        urls.append((HOTEL_INDEX_PATH, "0.8", "weekly"))
+        for rk in japan_regions_in_use(japan_hotels):
+            urls.append((f"{HOTEL_INDEX_PATH}{rk}/", "0.7", "weekly"))
+        for h in japan_hotels:
+            urls.append((f"{HOTEL_INDEX_PATH}{h['id']}/", "0.6", "weekly"))
     urls.append(("/guides/", "0.8", "weekly"))
     for g in GUIDES:
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly"))
@@ -2234,10 +2799,14 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
         write_page(PROJECT / "guides" / g["slug"] / "index.html",
                    build_guide_page(g["slug"], deals, meta))
 
-    # 日本美食專欄
+    # 日本美食專欄 + 日本酒店專欄（同一棵 /japan/ 樹）
     eats = load_japan()
+    hotels = load_hotels()
     jpruned = prune_stale_japan_pages(
-        {e["id"] for e in eats} | set(japan_regions_in_use(eats))
+        {e["id"] for e in eats}
+        | set(japan_regions_in_use(eats))
+        | {h["id"] for h in hotels}
+        | set(japan_regions_in_use(hotels))
     )
     n_region_pages = 0
     if eats:
@@ -2253,25 +2822,43 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     else:
         print("  日本美食專欄：japan.json 無資料或不存在，已略過")
 
+    # 日本酒店專欄（/japan/hotels/、/japan/hotels/<地區>/、/japan/hotels/<id>/）
+    n_hotel_region_pages = 0
+    if hotels:
+        write_page(PROJECT / "japan" / "hotels" / "index.html",
+                   build_hotels_index(hotels, meta))
+        for h in hotels:
+            write_page(PROJECT / "japan" / "hotels" / h["id"] / "index.html",
+                       build_hotel_page(h, hotels, meta))
+        for rkey in japan_regions_in_use(hotels):
+            pool = [h for h in hotels if region_key_of(h) == rkey]
+            write_page(PROJECT / "japan" / "hotels" / rkey / "index.html",
+                       build_hotel_region_page(rkey, pool, meta))
+            n_hotel_region_pages += 1
+    else:
+        print("  日本酒店專欄：japan-hotels.json 無資料或不存在，已略過")
+
     write_page(PROJECT / "about" / "index.html", build_about(deals, meta))
     write_page(PROJECT / "contact" / "index.html", build_contact(deals, meta))
     write_page(PROJECT / "privacy" / "index.html", build_privacy(deals, meta))
     write_page(PROJECT / "terms" / "index.html", build_terms(deals, meta))
 
-    total = build_sitemap(deals, meta, eats)
+    total = build_sitemap(deals, meta, eats, hotels)
     result = {
         "deals": written,
         "pages": written + 4 + 3 + 1 + len(GUIDES) + 4 + len(eats)
-                 + (1 if eats else 0) + n_region_pages,
+                 + (1 if eats else 0) + n_region_pages
+                 + len(hotels) + (1 if hotels else 0) + n_hotel_region_pages,
         "sitemap": total,
     }
     print(
         f"  多頁內容：{written} 個優惠詳情頁、4 個分類／總覽頁、"
         f"{len(eats)} 個日本美食頁（另 {n_region_pages} 個地區排行頁）、"
+        f"{len(hotels)} 個日本酒店頁（另 {n_hotel_region_pages} 個地區排行頁）、"
         f"{len(GUIDES)} 篇攻略、4 個合規頁；"
         f"sitemap 收錄 {total} 條 URL"
         + (f"；已清除 {pruned} 個優惠孤兒頁面" if pruned else "")
-        + (f"；已清除 {jpruned} 個日本美食孤兒頁面" if jpruned else "")
+        + (f"；已清除 {jpruned} 個日本孤兒頁面" if jpruned else "")
     )
     return result
 
