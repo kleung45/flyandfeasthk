@@ -1950,7 +1950,9 @@
         "合肥",
         "廉航"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-kowloonhotel-crabfeast-bogo-20261001",
@@ -1985,7 +1987,9 @@
         "尖沙咀",
         "大閘蟹"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-leewinghin-dimsun-dduck-buffet-20261001",
@@ -2021,7 +2025,9 @@
         "九龍灣",
         "大閘蟹"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-yuanweixiaoji-crab-lobster-steam-20261001",
@@ -2056,7 +2062,9 @@
         "旺角",
         "觀塘"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-parkhotel-parkcafe-halloween-bogo-20261001",
@@ -2090,7 +2098,9 @@
         "尖沙咀",
         "蟹腳"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }
