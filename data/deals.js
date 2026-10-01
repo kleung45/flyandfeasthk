@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-09-30T21:05:01+08:00",
+    "updated": "2026-10-01T10:36:06+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-29T10:50:32+08:00",
@@ -12,222 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 59,
-      "active": 23,
-      "ending": 7,
-      "expired": 36,
+      "active": 17,
+      "ending": 2,
+      "expired": 42,
       "flight": 6,
       "dining": 53,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-mrsteak-wanchai-20260912",
-      "category": "dining",
-      "title": "成人買一送一＋長者半價，自助午餐人均 HK$205 起",
-      "subtitle": "灣仔 Mr. Steak a la minute · KKday 獨家快閃",
-      "venue": "Mr. Steak a la minute · 灣仔",
-      "priceLabel": "平日自助午餐 HK$615／3 位（人均 HK$205 起）",
-      "priceValue": 205,
-      "originalLabel": "原價平日 HK$410／位（現場另收三位成人計算之原價 10% 服務費）",
-      "discountPct": 50,
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "使用日期：2026-09-01 至 2026-09-30；快閃名額有限、售完即止",
-      "summary": "灣仔 Mr. Steak a la minute 於 KKday 推出獨家快閃：每組「2 位成人＋1 位長者」成人買一送一、長者半價，平日自助午餐 3 人 HK$615，人均低至 HK$205（原價 HK$410／位）；週末及公眾假期人均 HK$255 起。另有「1 位成人 6 折＋1 位長者半價」方案，平日人均 HK$225.5 起。自助餐供應環球海鮮、美國燒牛肉及雪花蟹腳。",
-      "highlights": [
-        "成人買一送一＋1 位長者半價：平日 HK$615／3 位（人均 HK$205），週末及假日 HK$765／3 位（人均 HK$255）",
-        "1 位成人 6 折＋1 位長者半價：平日 HK$451／2 位（人均 HK$225.5），週末及假日 HK$561／2 位（人均 HK$280.5）",
-        "長者優惠適用 65 歲或以上，現場須出示有效身份證明文件",
-        "另收按人數計算之原價 10% 服務費，餐廳只接受電子支付",
-        "使用日期 2026-09-01 至 09-30；週末加設即開生蠔，須經 KKday 預訂"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/279547",
-      "sourceLabel": "KKday 產品頁（Mr. Steak a la minute 自助餐）",
-      "sourceUrl": "https://www.kkday.com/zh-hk/product/279547",
-      "tags": [
-        "自助餐",
-        "買一送一",
-        "灣仔",
-        "長者優惠"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-naneisuisan-tst-20260912",
-      "category": "dining",
-      "title": "主菜 7 折＋指定食品半價＋啤酒買一送一",
-      "subtitle": "尖沙咀 Nan Ei Sui San · OpenRice 優惠券",
-      "venue": "Nan Ei Sui San 南永水產 · 尖沙咀金馬倫道 3A-3C 貝麗大廈 5 樓",
-      "priceLabel": "晚市主菜餐牌正價 7 折；黑松露鰻魚卷 HK$238 → HK$119",
-      "priceValue": 119,
-      "originalLabel": "黑松露鰻魚卷原價 HK$238、花魚一夜干 HK$188 → HK$94",
-      "discountPct": 30,
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "優惠有效期：2026-09-01 至 2026-09-30（只限堂食，加一服務費以原價計算）",
-      "summary": "尖沙咀日式餐廳 Nan Ei Sui San 透過 OpenRice 優惠券推出 9 月堂食優惠：憑券晚市主菜餐牌享正價 7 折，指定食品半價（黑松露鰻魚卷 HK$238 減至 HK$119、花魚一夜干 HK$188 減至 HK$94、雪魚乾 HK$78 減至 HK$39），啤酒、燒酌及無酒精飲品買一送一，雪糕亦買一送一。優惠有效期至 9 月 30 日，堂食適用。",
-      "highlights": [
-        "晚市主菜餐牌 7 折；啤酒、燒酌、無酒精飲品及雪糕買一送一",
-        "半價食品：黑松露鰻魚卷 HK$119、花魚一夜干 HK$94、雪魚乾 HK$39、黑松露鰻魚釜飯 HK$114、溫泉蛋和牛釜飯 HK$114",
-        "用餐前向餐廳職員出示優惠券或列印本即可使用",
-        "不適用於其他折扣優惠；服務費以原價計算；只限堂食及每枱使用一次",
-        "地址：尖沙咀金馬倫道 3A-3C 貝麗大廈 5 樓；優惠有效期 9 月 1 日至 9 月 30 日"
-      ],
-      "url": "https://s.openrice.com/QrKx03nW600",
-      "sourceLabel": "OpenRice 優惠券頁面（Nan Ei Sui San）",
-      "sourceUrl": "https://s.openrice.com/QrKx03nW600",
-      "tags": [
-        "OpenRice 優惠券",
-        "7 折",
-        "半價",
-        "買一送一",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-playt-cwb-20260913",
-      "category": "dining",
-      "title": "「安記海味」平日自助午餐買二送一，人均 HK$351 起",
-      "subtitle": "PLAYT（銅鑼灣柏寧酒店）· 9 月限定聯乘",
-      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
-      "priceLabel": "KKday 買二送一 HK$1,053 / 3 位（已包加一）",
-      "priceValue": 351,
-      "originalLabel": "3 位只付 2 位價（-33%）",
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "「安記海味」聯乘自助餐供應 2026-09-01 至 09-30；平日自助午餐星期一至五 12:00–14:30",
-      "summary": "柏寧酒店 PLAYT 9 月聯乘老字號安記海味，KKday 平日自助午餐買二送一，3 位 HK$1,053（人均 HK$351 起）。安記紅燒 6 頭鮑魚、蟹粉鮑魚兩面黃、海參濃湯蒸蛋白，再加生蠔刺身雪蟹腳，秋日進補回本位。",
-      "highlights": [
-        "安記海味限定：紅燒 6 頭鮑魚配花寸菇鴨掌、蟹粉鮑魚兩面黃",
-        "叉燒鮑魚蜜糖意大利雪糕等創意甜品",
-        "雪蟹腳、即製沙律、燒西冷扒、無限暢飲果汁特飲",
-        "KKday 預訂，晚餐方案最早可訂 9/14（人均 HK$604 起）"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/128971",
-      "sourceLabel": "KKday 官方商品頁",
-      "sourceUrl": "https://www.kkday.com/zh-hk/product/128971-hotel-buffet-playt-buffet-at-the-park-lane-hong-kong",
-      "tags": [
-        "酒店自助餐",
-        "銅鑼灣",
-        "鮑魚"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-foodstudio-oyster-lunch-20260915",
-      "category": "dining",
-      "title": "蠔賞·海鮮自助午餐 OpenRice 獨家 5 折，週末 HK$210 / 位（已連服務費）",
-      "subtitle": "Food Studio（香港萬麗海景酒店）· 週末及公眾假期午市",
-      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
-      "priceLabel": "OpenRice 獨家 5 折 HK$210 / 1 位（已連服務費）",
-      "priceValue": 210,
-      "originalLabel": "原價 HK$383 / 位（-45%）",
-      "discountPct": 50,
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "OpenRice 訂座優惠，適用星期六、日及公眾假期自助午餐；實際可供預訂日期以 OpenRice 頁面顯示為準",
-      "summary": "灣仔萬麗海景酒店 Food Studio 經 OpenRice 訂座，週末及公眾假期「蠔賞·海鮮自助午餐」獨家 5 折，HK$210/位已連服務費（原價 HK$383）。酒店級自助餐返到人均兩百樓下，海鮮控週末回本之選。",
-      "highlights": [
-        "OpenRice 獨家 5 折，適用星期六、日及公眾假期自助午餐，已連服務費",
-        "須經 OpenRice 會員網上訂座並選用此優惠",
-        "同期供應「鮮」聲奪人青口自助盛薈（至 10/15）",
-        "同場另有平日鮑魚海鮮盛宴半自助晚餐 55 折 HK$221 起（已連服務費）",
-        "OpenRice 訂座優惠名額有限，價格與可供日期以 OpenRice 頁面為準"
-      ],
-      "url": "https://www.openrice.com/info/booking/buffet",
-      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio）",
-      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
-      "tags": [
-        "酒店自助餐",
-        "5 折",
-        "灣仔",
-        "生蠔"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-savvy-lunch-tst-20260915",
-      "category": "dining",
-      "title": "平日半自助午餐買二送一，人均 HK$251 起（已連服務費）",
-      "subtitle": "尖沙咀太子酒店 SAVVY · OpenRice 訂座",
-      "venue": "SAVVY · 尖沙咀東部麼地道 20 號太子酒店 M 層",
-      "priceLabel": "OpenRice 買2送1 HK$754 / 3 位（人均 HK$251，已連服務費）",
-      "priceValue": 251,
-      "originalLabel": "原價 HK$1,082 / 3 位（約 7 折）",
-      "discountPct": 30,
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "OpenRice 訂座優惠，適用星期一至五午市；周末海鮮早午自助餐買2送1 HK$1,237 / 3 位；實際可供日期以 OpenRice 頁面為準",
-      "summary": "尖沙咀東太子酒店 SAVVY 經 OpenRice 訂座，平日半自助午餐買二送一，3 位 HK$754 已連服務費，人均 HK$251（原價 HK$1,082/3 位）。尖沙咀東區酒店午市呢個價好罕有，仲有周末海鮮早午自助餐同帝王蟹龍蝦晚餐買二送一。",
-      "highlights": [
-        "平日（一至五）半自助午餐買2送1：HK$754 / 3 位已連服務費",
-        "周末海鮮早午自助餐買2送1：HK$1,237 / 3 位（原價 $1,775）",
-        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐買2送1：HK$1,789 / 3 位（原價 $2,567）",
-        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
-        "地址：尖沙咀東部麼地道 20 號太子酒店；價格以 OpenRice 頁面為準"
-      ],
-      "url": "https://www.openrice.com/info/booking/buffet",
-      "sourceLabel": "OpenRice 自助餐訂座優惠頁（SAVVY）",
-      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
-      "tags": [
-        "酒店自助餐",
-        "買二送一",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-hotelease-eatease-flash-20260927",
-      "category": "dining",
-      "title": "旭逸酒店荃灣快閃 56 折，半自助午餐 HK$98 一位",
-      "subtitle": "任食即開生蠔晚餐 55 折 HK$158 · 01空間限時快閃",
-      "venue": "旭逸酒店·荃灣 1 樓 Eat@ease（葵涌圳邊街 15-19 號，葵興站步行約 15 分鐘或酒店免費接駁巴士）",
-      "priceLabel": "饗樂悠閒半自助午餐每位 HK$98（原價 HK$173.8，56 折）；「和洋の味」生蠔半自助晚餐每位 HK$158（原價 HK$283.8，55 折）；現場另收加一服務費",
-      "priceValue": 98,
-      "originalLabel": "原價 HK$173.8/位（午餐）、HK$283.8/位（生蠔晚餐）",
-      "discountPct": 44,
-      "endsAt": "2026-09-30T23:59:00+08:00",
-      "period": "01空間限時快閃，頁面未列明確結束日（以 01空間 頁面為準）；午餐每日 11:30-14:00，生蠔晚餐每日 18:00-21:30（9/25-27 除外）",
-      "summary": "荃灣旭逸酒店 Eat@ease 工業風餐廳限時快閃：半自助午餐 56 折每位 HK$98（自選主菜如海南雞、澳洲肉眼扒），生蠔半自助晚餐 55 折每位 HK$158 任食即開生蠔＋冰鎮海鮮。01空間售票，確認後不可取消或更改。",
-      "highlights": [
-        "半自助午餐 56 折每位 HK$98：沙律吧、餐湯、甜品、飲品吧任食＋自選主菜",
-        "生蠔半自助晚餐 55 折每位 HK$158：任食即開生蠔＋冰鎮海鮮（9/25-27 除外）",
-        "主菜可補差價升級澳洲肉眼扒、羊鞍扒、黑毛豬柳等",
-        "01空間售票，不可取消／更改；節日及其前夕不適用，以 01空間 為準"
-      ],
-      "url": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
-      "sourceLabel": "香港01活動空間（01空間）",
-      "sourceUrl": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
-      "tags": [
-        "自助餐",
-        "生蠔",
-        "半自助",
-        "快閃",
-        "荃灣"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-parkhotel-parkcafe-bogo-20260921",
       "category": "dining",
@@ -260,7 +53,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -296,8 +89,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-lodgewood-gardenroom-flashsale-20260929",
@@ -333,7 +126,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -368,7 +161,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -403,7 +196,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -437,7 +230,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -472,7 +265,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -507,7 +300,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -542,7 +335,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -578,7 +371,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -609,7 +402,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 61,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -640,7 +433,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 61,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -671,7 +464,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 61,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -701,7 +494,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 61,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -736,7 +529,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 61,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -773,7 +566,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 74,
+      "daysLeft": 73,
       "status": "active"
     },
     {
@@ -808,7 +601,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 79,
+      "daysLeft": 78,
       "status": "active"
     },
     {
@@ -2045,6 +1838,213 @@ window.DEAL_DATA = {
         "沙田"
       ],
       "sample": false,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-mrsteak-wanchai-20260912",
+      "category": "dining",
+      "title": "成人買一送一＋長者半價，自助午餐人均 HK$205 起",
+      "subtitle": "灣仔 Mr. Steak a la minute · KKday 獨家快閃",
+      "venue": "Mr. Steak a la minute · 灣仔",
+      "priceLabel": "平日自助午餐 HK$615／3 位（人均 HK$205 起）",
+      "priceValue": 205,
+      "originalLabel": "原價平日 HK$410／位（現場另收三位成人計算之原價 10% 服務費）",
+      "discountPct": 50,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "使用日期：2026-09-01 至 2026-09-30；快閃名額有限、售完即止",
+      "summary": "灣仔 Mr. Steak a la minute 於 KKday 推出獨家快閃：每組「2 位成人＋1 位長者」成人買一送一、長者半價，平日自助午餐 3 人 HK$615，人均低至 HK$205（原價 HK$410／位）；週末及公眾假期人均 HK$255 起。另有「1 位成人 6 折＋1 位長者半價」方案，平日人均 HK$225.5 起。自助餐供應環球海鮮、美國燒牛肉及雪花蟹腳。",
+      "highlights": [
+        "成人買一送一＋1 位長者半價：平日 HK$615／3 位（人均 HK$205），週末及假日 HK$765／3 位（人均 HK$255）",
+        "1 位成人 6 折＋1 位長者半價：平日 HK$451／2 位（人均 HK$225.5），週末及假日 HK$561／2 位（人均 HK$280.5）",
+        "長者優惠適用 65 歲或以上，現場須出示有效身份證明文件",
+        "另收按人數計算之原價 10% 服務費，餐廳只接受電子支付",
+        "使用日期 2026-09-01 至 09-30；週末加設即開生蠔，須經 KKday 預訂"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/279547",
+      "sourceLabel": "KKday 產品頁（Mr. Steak a la minute 自助餐）",
+      "sourceUrl": "https://www.kkday.com/zh-hk/product/279547",
+      "tags": [
+        "自助餐",
+        "買一送一",
+        "灣仔",
+        "長者優惠"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-naneisuisan-tst-20260912",
+      "category": "dining",
+      "title": "主菜 7 折＋指定食品半價＋啤酒買一送一",
+      "subtitle": "尖沙咀 Nan Ei Sui San · OpenRice 優惠券",
+      "venue": "Nan Ei Sui San 南永水產 · 尖沙咀金馬倫道 3A-3C 貝麗大廈 5 樓",
+      "priceLabel": "晚市主菜餐牌正價 7 折；黑松露鰻魚卷 HK$238 → HK$119",
+      "priceValue": 119,
+      "originalLabel": "黑松露鰻魚卷原價 HK$238、花魚一夜干 HK$188 → HK$94",
+      "discountPct": 30,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "優惠有效期：2026-09-01 至 2026-09-30（只限堂食，加一服務費以原價計算）",
+      "summary": "尖沙咀日式餐廳 Nan Ei Sui San 透過 OpenRice 優惠券推出 9 月堂食優惠：憑券晚市主菜餐牌享正價 7 折，指定食品半價（黑松露鰻魚卷 HK$238 減至 HK$119、花魚一夜干 HK$188 減至 HK$94、雪魚乾 HK$78 減至 HK$39），啤酒、燒酌及無酒精飲品買一送一，雪糕亦買一送一。優惠有效期至 9 月 30 日，堂食適用。",
+      "highlights": [
+        "晚市主菜餐牌 7 折；啤酒、燒酌、無酒精飲品及雪糕買一送一",
+        "半價食品：黑松露鰻魚卷 HK$119、花魚一夜干 HK$94、雪魚乾 HK$39、黑松露鰻魚釜飯 HK$114、溫泉蛋和牛釜飯 HK$114",
+        "用餐前向餐廳職員出示優惠券或列印本即可使用",
+        "不適用於其他折扣優惠；服務費以原價計算；只限堂食及每枱使用一次",
+        "地址：尖沙咀金馬倫道 3A-3C 貝麗大廈 5 樓；優惠有效期 9 月 1 日至 9 月 30 日"
+      ],
+      "url": "https://s.openrice.com/QrKx03nW600",
+      "sourceLabel": "OpenRice 優惠券頁面（Nan Ei Sui San）",
+      "sourceUrl": "https://s.openrice.com/QrKx03nW600",
+      "tags": [
+        "OpenRice 優惠券",
+        "7 折",
+        "半價",
+        "買一送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-playt-cwb-20260913",
+      "category": "dining",
+      "title": "「安記海味」平日自助午餐買二送一，人均 HK$351 起",
+      "subtitle": "PLAYT（銅鑼灣柏寧酒店）· 9 月限定聯乘",
+      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
+      "priceLabel": "KKday 買二送一 HK$1,053 / 3 位（已包加一）",
+      "priceValue": 351,
+      "originalLabel": "3 位只付 2 位價（-33%）",
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "「安記海味」聯乘自助餐供應 2026-09-01 至 09-30；平日自助午餐星期一至五 12:00–14:30",
+      "summary": "柏寧酒店 PLAYT 9 月聯乘老字號安記海味，KKday 平日自助午餐買二送一，3 位 HK$1,053（人均 HK$351 起）。安記紅燒 6 頭鮑魚、蟹粉鮑魚兩面黃、海參濃湯蒸蛋白，再加生蠔刺身雪蟹腳，秋日進補回本位。",
+      "highlights": [
+        "安記海味限定：紅燒 6 頭鮑魚配花寸菇鴨掌、蟹粉鮑魚兩面黃",
+        "叉燒鮑魚蜜糖意大利雪糕等創意甜品",
+        "雪蟹腳、即製沙律、燒西冷扒、無限暢飲果汁特飲",
+        "KKday 預訂，晚餐方案最早可訂 9/14（人均 HK$604 起）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/128971",
+      "sourceLabel": "KKday 官方商品頁",
+      "sourceUrl": "https://www.kkday.com/zh-hk/product/128971-hotel-buffet-playt-buffet-at-the-park-lane-hong-kong",
+      "tags": [
+        "酒店自助餐",
+        "銅鑼灣",
+        "鮑魚"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-foodstudio-oyster-lunch-20260915",
+      "category": "dining",
+      "title": "蠔賞·海鮮自助午餐 OpenRice 獨家 5 折，週末 HK$210 / 位（已連服務費）",
+      "subtitle": "Food Studio（香港萬麗海景酒店）· 週末及公眾假期午市",
+      "venue": "Food Studio · 灣仔港灣道 1 號香港萬麗海景酒店",
+      "priceLabel": "OpenRice 獨家 5 折 HK$210 / 1 位（已連服務費）",
+      "priceValue": 210,
+      "originalLabel": "原價 HK$383 / 位（-45%）",
+      "discountPct": 50,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期六、日及公眾假期自助午餐；實際可供預訂日期以 OpenRice 頁面顯示為準",
+      "summary": "灣仔萬麗海景酒店 Food Studio 經 OpenRice 訂座，週末及公眾假期「蠔賞·海鮮自助午餐」獨家 5 折，HK$210/位已連服務費（原價 HK$383）。酒店級自助餐返到人均兩百樓下，海鮮控週末回本之選。",
+      "highlights": [
+        "OpenRice 獨家 5 折，適用星期六、日及公眾假期自助午餐，已連服務費",
+        "須經 OpenRice 會員網上訂座並選用此優惠",
+        "同期供應「鮮」聲奪人青口自助盛薈（至 10/15）",
+        "同場另有平日鮑魚海鮮盛宴半自助晚餐 55 折 HK$221 起（已連服務費）",
+        "OpenRice 訂座優惠名額有限，價格與可供日期以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（Food Studio）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "5 折",
+        "灣仔",
+        "生蠔"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-savvy-lunch-tst-20260915",
+      "category": "dining",
+      "title": "平日半自助午餐買二送一，人均 HK$251 起（已連服務費）",
+      "subtitle": "尖沙咀太子酒店 SAVVY · OpenRice 訂座",
+      "venue": "SAVVY · 尖沙咀東部麼地道 20 號太子酒店 M 層",
+      "priceLabel": "OpenRice 買2送1 HK$754 / 3 位（人均 HK$251，已連服務費）",
+      "priceValue": 251,
+      "originalLabel": "原價 HK$1,082 / 3 位（約 7 折）",
+      "discountPct": 30,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "OpenRice 訂座優惠，適用星期一至五午市；周末海鮮早午自助餐買2送1 HK$1,237 / 3 位；實際可供日期以 OpenRice 頁面為準",
+      "summary": "尖沙咀東太子酒店 SAVVY 經 OpenRice 訂座，平日半自助午餐買二送一，3 位 HK$754 已連服務費，人均 HK$251（原價 HK$1,082/3 位）。尖沙咀東區酒店午市呢個價好罕有，仲有周末海鮮早午自助餐同帝王蟹龍蝦晚餐買二送一。",
+      "highlights": [
+        "平日（一至五）半自助午餐買2送1：HK$754 / 3 位已連服務費",
+        "周末海鮮早午自助餐買2送1：HK$1,237 / 3 位（原價 $1,775）",
+        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐買2送1：HK$1,789 / 3 位（原價 $2,567）",
+        "須經 OpenRice 會員網上訂座並選用此優惠，名額有限",
+        "地址：尖沙咀東部麼地道 20 號太子酒店；價格以 OpenRice 頁面為準"
+      ],
+      "url": "https://www.openrice.com/info/booking/buffet",
+      "sourceLabel": "OpenRice 自助餐訂座優惠頁（SAVVY）",
+      "sourceUrl": "https://www.openrice.com/info/booking/buffet",
+      "tags": [
+        "酒店自助餐",
+        "買二送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-hotelease-eatease-flash-20260927",
+      "category": "dining",
+      "title": "旭逸酒店荃灣快閃 56 折，半自助午餐 HK$98 一位",
+      "subtitle": "任食即開生蠔晚餐 55 折 HK$158 · 01空間限時快閃",
+      "venue": "旭逸酒店·荃灣 1 樓 Eat@ease（葵涌圳邊街 15-19 號，葵興站步行約 15 分鐘或酒店免費接駁巴士）",
+      "priceLabel": "饗樂悠閒半自助午餐每位 HK$98（原價 HK$173.8，56 折）；「和洋の味」生蠔半自助晚餐每位 HK$158（原價 HK$283.8，55 折）；現場另收加一服務費",
+      "priceValue": 98,
+      "originalLabel": "原價 HK$173.8/位（午餐）、HK$283.8/位（生蠔晚餐）",
+      "discountPct": 44,
+      "endsAt": "2026-09-30T23:59:00+08:00",
+      "period": "01空間限時快閃，頁面未列明確結束日（以 01空間 頁面為準）；午餐每日 11:30-14:00，生蠔晚餐每日 18:00-21:30（9/25-27 除外）",
+      "summary": "荃灣旭逸酒店 Eat@ease 工業風餐廳限時快閃：半自助午餐 56 折每位 HK$98（自選主菜如海南雞、澳洲肉眼扒），生蠔半自助晚餐 55 折每位 HK$158 任食即開生蠔＋冰鎮海鮮。01空間售票，確認後不可取消或更改。",
+      "highlights": [
+        "半自助午餐 56 折每位 HK$98：沙律吧、餐湯、甜品、飲品吧任食＋自選主菜",
+        "生蠔半自助晚餐 55 折每位 HK$158：任食即開生蠔＋冰鎮海鮮（9/25-27 除外）",
+        "主菜可補差價升級澳洲肉眼扒、羊鞍扒、黑毛豬柳等",
+        "01空間售票，不可取消／更改；節日及其前夕不適用，以 01空間 為準"
+      ],
+      "url": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
+      "sourceLabel": "香港01活動空間（01空間）",
+      "sourceUrl": "https://space.hk01.com/event/6a3b8ddff826183b6c80652c",
+      "tags": [
+        "自助餐",
+        "生蠔",
+        "半自助",
+        "快閃",
+        "荃灣"
+      ],
+      "sample": false,
+      "postedFacebook": true,
       "postedThreads": true,
       "daysLeft": 0,
       "status": "expired"
