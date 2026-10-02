@@ -40,7 +40,9 @@ jobs:
           # （2026-09-24 曾因漏了 deals/ guides/ about/ contact/ privacy/ terms/
           #   而全部子頁 404，首頁卻正常，極易誤判為部署成功）。
           SITE_ITEMS="index.html assets data robots.txt sitemap.xml CNAME ads.txt
-                      deals guides about contact privacy terms japan"
+                      404.html deals guides about contact privacy terms japan"
+          # 註：404.html 由 build_pages.py 產生，GitHub Pages 會自動用它回應未知網址；
+          #     唔加落白名單的話，線上 404 會 fallback 去 GitHub 預設頁（無導覽、無入口）。
           missing=""
           for item in $SITE_ITEMS; do
             [ -e "$item" ] || missing="$missing $item"

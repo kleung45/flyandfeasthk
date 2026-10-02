@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-01T10:48:46+08:00",
+    "updated": "2026-10-02T21:33:11+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-09-29T10:50:32+08:00",
@@ -12,50 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 64,
-      "active": 22,
+      "active": 21,
       "ending": 3,
-      "expired": 42,
+      "expired": 43,
       "flight": 7,
       "dining": 57,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-parkhotel-parkcafe-bogo-20260921",
-      "category": "dining",
-      "title": "越法風味自助午餐買一送一，人均 HK$190.8（已含加一）",
-      "subtitle": "尖沙咀百樂酒店 Park Café · 官網直接預訂最抵",
-      "venue": "Park Café · 尖沙咀漆咸道南 61-65 號百樂酒店 4 樓（尖沙咀站 P3 出口）",
-      "priceLabel": "官網買1送1（每位付 HK$100 訂金）：平日自助午餐 2 位 HK$381.6（人均 HK$190.8，已含加一）",
-      "priceValue": 190.8,
-      "originalLabel": "自助午餐原價平日成人 HK$318／位、週末及公眾假期 HK$348／位（另收加一）；晚餐買1送1 折後人均 HK$370.8 起",
-      "discountPct": 50,
-      "endsAt": "2026-10-01T23:59:00+08:00",
-      "period": "官網買一送一優惠至 2026-10-01；自助午餐供應 2026-07-03 至 10-01（12:00–14:30）；須網上預訂並付每位 HK$100 訂金、提前 1 小時預訂",
-      "summary": "尖沙咀百樂酒店 Park Café 官網推「邂逅越法滋味」自助午餐買一送一（星期一至五）：每人付 HK$100 訂金，2 位 HK$381.6、人均 HK$190.8 已含加一。主打越式燒豬頸肉濱海、越南蔗蝦、法式紅酒燴雞腿、法式蝦多士、即焗芝士蛋白撻。同場自助晚餐（一至日）及週末下午茶自助餐亦同步買一送一。",
-      "highlights": [
-        "平日自助午餐買一送一：2 位 HK$381.6，人均 HK$190.8（已含加一）",
-        "晚餐買一送一折後每位低至 HK$370.8 起；週末下午茶自助餐同樣買一送一",
-        "焦點：越式燒豬頸肉濱海、越南蔗蝦、法式紅酒燴雞腿、法式蝦多士、即焗芝士蛋白撻",
-        "果汁、咖啡、茶無限暢飲",
-        "須於酒店官網預訂並付每位 HK$100 訂金，提前 1 小時預訂；優惠至 10/1"
-      ],
-      "url": "https://www.parkhotelgroup.com/park-hotel-hong-kong/offers/savouring-viet-n-french-lunch-buffet",
-      "sourceLabel": "百樂酒店官網優惠頁 · GroupBuya 報導",
-      "sourceUrl": "https://www.groupbuya.com/jetso/554515",
-      "tags": [
-        "酒店自助餐",
-        "買一送一",
-        "尖沙咀",
-        "越法"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "flight-hkexpress-china-flashsale-20261001",
       "category": "flight",
@@ -86,7 +51,9 @@ window.DEAL_DATA = {
         "廉航"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -122,7 +89,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -159,8 +126,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-yuanweixiaoji-crab-lobster-steam-20261001",
@@ -196,7 +163,9 @@ window.DEAL_DATA = {
         "觀塘"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -231,7 +200,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -266,7 +235,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -304,7 +273,9 @@ window.DEAL_DATA = {
         "大閘蟹"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -341,7 +312,9 @@ window.DEAL_DATA = {
         "大閘蟹"
       ],
       "sample": false,
-      "daysLeft": 7,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -375,7 +348,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -410,7 +383,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -445,7 +418,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -480,7 +453,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -516,7 +489,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -552,7 +525,9 @@ window.DEAL_DATA = {
         "蟹腳"
       ],
       "sample": false,
-      "daysLeft": 30,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -583,7 +558,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -614,7 +589,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -645,7 +620,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -675,7 +650,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -710,7 +685,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -747,7 +722,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 73,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -782,7 +757,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 78,
+      "daysLeft": 77,
       "status": "active"
     },
     {
@@ -2223,6 +2198,41 @@ window.DEAL_DATA = {
         "半自助",
         "快閃",
         "荃灣"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-parkhotel-parkcafe-bogo-20260921",
+      "category": "dining",
+      "title": "越法風味自助午餐買一送一，人均 HK$190.8（已含加一）",
+      "subtitle": "尖沙咀百樂酒店 Park Café · 官網直接預訂最抵",
+      "venue": "Park Café · 尖沙咀漆咸道南 61-65 號百樂酒店 4 樓（尖沙咀站 P3 出口）",
+      "priceLabel": "官網買1送1（每位付 HK$100 訂金）：平日自助午餐 2 位 HK$381.6（人均 HK$190.8，已含加一）",
+      "priceValue": 190.8,
+      "originalLabel": "自助午餐原價平日成人 HK$318／位、週末及公眾假期 HK$348／位（另收加一）；晚餐買1送1 折後人均 HK$370.8 起",
+      "discountPct": 50,
+      "endsAt": "2026-10-01T23:59:00+08:00",
+      "period": "官網買一送一優惠至 2026-10-01；自助午餐供應 2026-07-03 至 10-01（12:00–14:30）；須網上預訂並付每位 HK$100 訂金、提前 1 小時預訂",
+      "summary": "尖沙咀百樂酒店 Park Café 官網推「邂逅越法滋味」自助午餐買一送一（星期一至五）：每人付 HK$100 訂金，2 位 HK$381.6、人均 HK$190.8 已含加一。主打越式燒豬頸肉濱海、越南蔗蝦、法式紅酒燴雞腿、法式蝦多士、即焗芝士蛋白撻。同場自助晚餐（一至日）及週末下午茶自助餐亦同步買一送一。",
+      "highlights": [
+        "平日自助午餐買一送一：2 位 HK$381.6，人均 HK$190.8（已含加一）",
+        "晚餐買一送一折後每位低至 HK$370.8 起；週末下午茶自助餐同樣買一送一",
+        "焦點：越式燒豬頸肉濱海、越南蔗蝦、法式紅酒燴雞腿、法式蝦多士、即焗芝士蛋白撻",
+        "果汁、咖啡、茶無限暢飲",
+        "須於酒店官網預訂並付每位 HK$100 訂金，提前 1 小時預訂；優惠至 10/1"
+      ],
+      "url": "https://www.parkhotelgroup.com/park-hotel-hong-kong/offers/savouring-viet-n-french-lunch-buffet",
+      "sourceLabel": "百樂酒店官網優惠頁 · GroupBuya 報導",
+      "sourceUrl": "https://www.groupbuya.com/jetso/554515",
+      "tags": [
+        "酒店自助餐",
+        "買一送一",
+        "尖沙咀",
+        "越法"
       ],
       "sample": false,
       "postedFacebook": true,

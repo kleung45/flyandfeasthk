@@ -378,3 +378,25 @@
 @media (max-width: 900px) {
   .bar-card .save { max-width: 100%; }
 }
+
+/* ── 已結束優惠提示（2026-10-02）────────────────────────────────────────
+   過期詳情頁頂部橫幅：講清楚呢頁只係紀錄，同時導流去現行優惠，
+   避免審核或訪客誤以為係現行報價。 */
+.notice-expired {
+  margin: 18px 0 0;
+  padding: 14px 18px;
+  border: 1px solid var(--line-strong);
+  border-left: 4px solid var(--muted);
+  border-radius: var(--radius-sm);
+  background: var(--gray-soft);
+  color: var(--muted);
+}
+.notice-expired strong { display: block; color: var(--text); font-size: 1rem; }
+.notice-expired p { margin: 6px 0 0; font-size: .9rem; line-height: 1.65; }
+.notice-expired a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.notice-expired a:hover { text-decoration: underline; }

@@ -759,6 +759,56 @@ def breadcrumb_ld(trail: list[tuple[str, str]], site: str) -> dict:
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
 
 
+def parse_dt(value: str | None) -> datetime | None:
+    """寬鬆解析 ISO 日期字串；解析不到回 None。"""
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=HK_TZ)
+
+
+def published_date(deal: dict) -> str | None:
+    """由 id 尾綴的 YYYYMMDD 推出上架日期；推不出就回 None。
+
+    id 命名慣例：<類型>-<商戶>-<目的地或餐廳>-<YYYYMMDD>
+    """
+    m = re.search(r"(\d{8})$", str(deal.get("id") or ""))
+    if not m:
+        return None
+    raw = m.group(1)
+    try:
+        return datetime.strptime(raw, "%Y%m%d").date().isoformat()
+    except ValueError:
+        return None
+
+
+# 過期超過此日數的優惠頁轉 noindex,follow（保留頁面供站內導覽，但不再佔索引額度）
+EXPIRED_NOINDEX_DAYS = 60
+
+
+def deal_lastmod(deal: dict, meta: dict) -> str:
+    """優惠頁的真實最後更新日。
+
+    頁面內容只在兩個時點變動：上架當日（寫入文案）與優惠結束當日
+    （狀態由「進行中」轉「已結束」、加已結束橫幅）。所以：
+      未結束 → 上架日；已結束 → 結束日。
+    **不可用 meta.updated**（每次建置都會寫成當下時間），也不可用未來的
+    endsAt —— lastmod 出現未來日期，Google 會判定整份 sitemap 不可信。
+    """
+    pub = published_date(deal)
+    if deal.get("status") == "expired":
+        end_dt = parse_dt(deal.get("endsAt"))
+        if end_dt:
+            return end_dt.date().isoformat()
+    if pub:
+        return pub
+    fallback = str(meta.get("updated") or "")[:10]
+    return fallback or datetime.now(HK_TZ).date().isoformat()
+
+
 def layout(
     *,
     title: str,
@@ -768,6 +818,8 @@ def layout(
     meta: dict,
     active: str = "",
     ld: list[dict] | None = None,
+    robots: str | None = None,
+    og_type: str = "website",
 ) -> str:
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     canonical = site + path
@@ -807,13 +859,18 @@ def layout(
         f"<title>{esc(title)}</title>\n"
         f'<meta name="description" content="{esc(desc)}">\n'
         f'<link rel="canonical" href="{esc(canonical)}">\n'
-        '<meta property="og:type" content="website">\n'
+        '<meta name="theme-color" content="#E5484D">\n'
+        + (f'<meta name="robots" content="{esc(robots)}">\n' if robots else "")
+        + f'<meta property="og:type" content="{esc(og_type)}">\n'
         '<meta property="og:site_name" content="Fly &amp; Feast HK">\n'
+        '<meta property="og:locale" content="zh_HK">\n'
         f'<meta property="og:title" content="{esc(title)}">\n'
         f'<meta property="og:description" content="{esc(desc)}">\n'
         f'<meta property="og:url" content="{esc(canonical)}">\n'
         '<meta property="og:image" content="' + site + '/assets/og-cover.png">\n'
+        '<meta property="og:image:alt" content="Fly &amp; Feast HK 標誌：鴨嘴獸揸飛機去搵食">\n'
         '<meta name="twitter:card" content="summary_large_image">\n'
+        '<meta name="twitter:image" content="' + site + '/assets/og-cover.png">\n'
         '<link rel="icon" type="image/png" href="/assets/logo-mark.png">\n'
         '<link rel="stylesheet" href="/assets/style.css">\n'
         '<link rel="stylesheet" href="/assets/pages.css">\n'
@@ -895,6 +952,12 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
     updated = str(meta.get("updated") or "")[:10]
     pv = per_head(deal)
     plat = detect_platform(deal)
+
+    is_expired = deal.get("status") == "expired"
+    end_dt = parse_dt(deal.get("endsAt"))
+    stale_days = (datetime.now(HK_TZ).date() - end_dt.date()).days if (is_expired and end_dt) else 0
+    # 過期超過 EXPIRED_NOINDEX_DAYS 日：保留頁面（站內紀錄與導流），但請 Google 唔好再收錄
+    stale = is_expired and stale_days > EXPIRED_NOINDEX_DAYS
 
     # 相關優惠：同類 + 標籤相近 + 價位接近，排除自己
     same = [p for p in peers
@@ -985,16 +1048,31 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
             "未經任何加工。優惠隨時變動或售罄，一切以商戶官方公佈為準。</p></div>"
         )
 
+    expired_notice = ""
+    if is_expired:
+        expired_notice = (
+            '<aside class="notice-expired" role="note">'
+            f'<strong>⚠️ 此優惠已於 {esc(ends_text(deal))} 結束</strong>'
+            "<p>本頁只作紀錄，價格與名額可能已經失效，請勿照此頁落單。"
+            f'<a href="/deals/{esc(cat_slug)}/">睇現行{esc(cat_label)} →</a></p>'
+            "</aside>"
+        )
+
     body = (
         '<main class="wrap page-main">'
         + breadcrumb_html([("全部優惠", "/deals/"), (cat_label, f"/deals/{cat_slug}/"), (deal.get("title", ""), None)])
+        + expired_notice
         + '<article>'
         '<div class="deal-hero">'
         f'<div class="card-top"><span class="badge badge-{esc(cat_slug)}">{esc(cat_label)}</span>'
         + (
             f'<span class="badge badge-urgent">{esc(status_chip(deal))}</span>'
             if deal.get("status") == "ending"
-            else ""
+            else (
+                f'<span class="badge badge-expired">{esc(status_chip(deal))}</span>'
+                if is_expired
+                else ""
+            )
         )
         + "</div>"
         f"<h1>{esc(deal.get('title'))}</h1>"
@@ -1031,6 +1109,7 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
             "headline": deal.get("title"),
             "description": deal.get("summary") or deal.get("subtitle") or "",
             "inLanguage": "zh-Hant-HK",
+            "datePublished": published_date(deal) or str(meta.get("updated") or "")[:10],
             "dateModified": str(meta.get("updated") or ""),
             "author": {"@type": "Organization", "name": "Fly & Feast HK 編輯部"},
             "publisher": {"@type": "Organization", "name": "Fly & Feast HK"},
@@ -1045,9 +1124,13 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
             "url": deal.get("url"),
             "price": deal.get("priceValue"),
             "priceCurrency": "HKD",
-            "availabilityEnds": deal.get("endsAt"),
+            # priceValidUntil 才是 Offer 的標準欄位；已結束的標 Discontinued，
+            # 避免 Google 把過期價錢當成現行報價。
+            "availability": "https://schema.org/Discontinued" if is_expired else "https://schema.org/InStock",
             "seller": {"@type": "Organization", "name": deal.get("sourceLabel") or "商戶"},
         }
+        if end_dt:
+            offer["priceValidUntil"] = end_dt.date().isoformat()
         ld.append(offer)
 
     return layout(
@@ -1058,6 +1141,8 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
         meta=meta,
         active=cat_slug,
         ld=ld,
+        robots="noindex, follow" if stale else None,
+        og_type="article",
     )
 
 
@@ -1852,6 +1937,54 @@ def build_terms(deals: list[dict], meta: dict) -> str:
         body=body,
         meta=meta,
         active="about",
+    )
+
+
+# --------------------------------------------------------------------------
+# 404 頁（GitHub Pages 會自動用根目錄的 404.html 回應未知網址）
+# --------------------------------------------------------------------------
+
+def build_404(deals: list[dict], meta: dict) -> str:
+    live = [d for d in deals if d.get("status") != "expired"]
+    # 用折扣最深又未結束的幾筆接住迷路訪客，避免直接跳出
+    hot = sorted(live, key=lambda d: (-(d.get("discountPct") or 0), d.get("endsAt") or ""))[:6]
+    quick = [
+        ("全部優惠", "/deals/"),
+        ("機票特價", "/deals/flight/"),
+        ("餐廳優惠", "/deals/dining/"),
+        ("酒店優惠", "/deals/hotel/"),
+        ("日本美食", "/japan/"),
+        ("優惠攻略", "/guides/"),
+    ]
+    body = (
+        '<main class="wrap page-main">'
+        '<section class="hero">'
+        "<h1>404 · 搵唔到呢一頁</h1>"
+        '<p class="lede-line">條連結可能已經改咗名，或者個優惠已經落架。下面可以行返出去。</p>'
+        '<div class="deal-actions">'
+        '<a class="link-btn" href="/deals/">睇今日優惠 →</a>'
+        '<a class="btn-ghost" href="/">返首頁</a>'
+        "</div></section>"
+        '<section class="wrap" aria-label="站內導覽">'
+        '<p class="section-note">'
+        + " · ".join(f'<a href="{href}">{label}</a>' for label, href in quick)
+        + "</p></section>"
+        + (
+            '<section class="related"><h2 class="section-h2">🔥 而家最抵嘅幾筆</h2>'
+            '<p class="section-note">截至最新一次核價，尚未結束的優惠。</p>'
+            + grid_html(hot)
+            + "</section>"
+            if hot else ""
+        )
+        + "</main>"
+    )
+    return layout(
+        title="404 搵唔到頁面｜Fly & Feast HK 飛嚐香港",
+        desc="呢條連結搵唔到對應頁面，可能已經改路或優惠已結束。可以喺呢度直接入去睇最新機票同餐廳優惠。",
+        path="/404.html",
+        body=body,
+        meta=meta,
+        robots="noindex, follow",
     )
 
 
@@ -4091,69 +4224,105 @@ def prune_stale_japan_pages(valid_ids: set[str]) -> int:
 # sitemap
 # --------------------------------------------------------------------------
 
+def _mtime_date(path: Path) -> str | None:
+    """內容來源檔（JSON）的修改日，用作該專欄頁面的真實 lastmod。"""
+    if not path.exists():
+        return None
+    return datetime.fromtimestamp(path.stat().st_mtime, HK_TZ).date().isoformat()
+
+
 def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None = None,
                   japan_hotels: list[dict] | None = None,
                   japan_routes: list[dict] | None = None,
                   japan_bars: list[dict] | None = None) -> str:
+    """產生 sitemap.xml。
+
+    lastmod 用真實更新日期，唔再一律寫今日 —— 全部頁面都寫今日的話，
+    Google 會判定 lastmod 不可信而整個忽略。另外會剔除已標 noindex 的
+    過期優惠頁，避免收錄一堆已失效內容。
+    """
     site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
     today = datetime.now(HK_TZ).date().isoformat()
-    urls: list[tuple[str, str, str]] = [
-        ("/", "1.0", "daily"),
-        ("/deals/", "0.9", "daily"),
+    jp_eat_date = _mtime_date(JAPAN_FILE) or today
+    jp_hotel_date = _mtime_date(HOTELS_FILE) or today
+    jp_drive_date = _mtime_date(DRIVE_FILE) or today
+    jp_bar_date = _mtime_date(BARS_FILE) or today
+    # 合規頁內容固定，只有實際改過才應更新 lastmod
+    legal_date = "2026-09-24"
+    # 首頁與優惠總覽頁的 lastmod = 最新一筆優惠的上架日（真的加了新內容才算更新）
+    deal_dates = [d for d in (published_date(x) for x in deals) if d]
+    index_date = max(
+        deal_dates + [jp_eat_date, jp_hotel_date, jp_drive_date, jp_bar_date],
+        default=today,
+    )
+
+    urls: list[tuple[str, str, str, str]] = [
+        ("/", "1.0", "daily", index_date),
+        ("/deals/", "0.9", "daily", max(deal_dates, default=today)),
     ]
     for c in ("flight", "dining", "hotel"):
-        urls.append((f"/deals/{CAT_SLUG[c]}/", "0.9", "daily"))
-    urls.append(("/japan/", "0.8", "weekly"))
+        urls.append((f"/deals/{CAT_SLUG[c]}/", "0.9", "daily", max(deal_dates, default=today)))
+    urls.append(("/japan/", "0.8", "weekly", jp_eat_date))
     for rk in japan_regions_in_use(japan_eats or []):
-        urls.append((f"/japan/{rk}/", "0.7", "weekly"))
+        urls.append((f"/japan/{rk}/", "0.7", "weekly", jp_eat_date))
     for e in (japan_eats or []):
-        urls.append((f"/japan/{e['id']}/", "0.6", "weekly"))
+        urls.append((f"/japan/{e['id']}/", "0.6", "weekly", jp_eat_date))
     if japan_hotels:
-        urls.append((HOTEL_INDEX_PATH, "0.8", "weekly"))
+        urls.append((HOTEL_INDEX_PATH, "0.8", "weekly", jp_hotel_date))
         for rk in japan_regions_in_use(japan_hotels):
-            urls.append((f"{HOTEL_INDEX_PATH}{rk}/", "0.7", "weekly"))
+            urls.append((f"{HOTEL_INDEX_PATH}{rk}/", "0.7", "weekly", jp_hotel_date))
         for h in japan_hotels:
-            urls.append((f"{HOTEL_INDEX_PATH}{h['id']}/", "0.6", "weekly"))
+            urls.append((f"{HOTEL_INDEX_PATH}{h['id']}/", "0.6", "weekly", jp_hotel_date))
     if japan_routes:
-        urls.append((DRIVE_INDEX_PATH, "0.8", "weekly"))
-        urls.append((DRIVE_GUIDE_PATH, "0.7", "monthly"))
+        urls.append((DRIVE_INDEX_PATH, "0.8", "weekly", jp_drive_date))
+        urls.append((DRIVE_GUIDE_PATH, "0.7", "monthly", jp_drive_date))
         for rk in drive_regions_in_use(japan_routes):
-            urls.append((f"{DRIVE_INDEX_PATH}{rk}/", "0.7", "weekly"))
+            urls.append((f"{DRIVE_INDEX_PATH}{rk}/", "0.7", "weekly", jp_drive_date))
         for r in japan_routes:
-            urls.append((f"{DRIVE_INDEX_PATH}{r['id']}/", "0.6", "weekly"))
+            urls.append((f"{DRIVE_INDEX_PATH}{r['id']}/", "0.6", "weekly", jp_drive_date))
     if japan_bars:
-        urls.append((BARS_INDEX_PATH, "0.8", "weekly"))
-        urls.append((BARS_GUIDE_PATH, "0.7", "monthly"))
+        urls.append((BARS_INDEX_PATH, "0.8", "weekly", jp_bar_date))
+        urls.append((BARS_GUIDE_PATH, "0.7", "monthly", jp_bar_date))
         for rk in bar_regions_in_use(japan_bars):
-            urls.append((f"{BARS_INDEX_PATH}{rk}/", "0.7", "weekly"))
+            urls.append((f"{BARS_INDEX_PATH}{rk}/", "0.7", "weekly", jp_bar_date))
         for b in japan_bars:
-            urls.append((f"{BARS_INDEX_PATH}{b['id']}/", "0.6", "weekly"))
-    urls.append(("/guides/", "0.8", "weekly"))
+            urls.append((f"{BARS_INDEX_PATH}{b['id']}/", "0.6", "weekly", jp_bar_date))
+    urls.append(("/guides/", "0.8", "weekly", index_date))
     for g in GUIDES:
-        urls.append((f"/guides/{g['slug']}/", "0.7", "weekly"))
+        urls.append((f"/guides/{g['slug']}/", "0.7", "weekly", index_date))
+
+    skipped = 0
+    now_dt = datetime.now(HK_TZ)
     for d in deals:
-        urls.append((f"/deals/{d['id']}/", "0.6", "weekly"))
+        if d.get("status") == "expired":
+            end_dt = parse_dt(d.get("endsAt"))
+            if end_dt and (now_dt.date() - end_dt.date()).days > EXPIRED_NOINDEX_DAYS:
+                skipped += 1
+                continue
+        urls.append((f"/deals/{d['id']}/", "0.6", "weekly", deal_lastmod(d, meta)))
     urls += [
-        ("/about/", "0.6", "monthly"),
-        ("/contact/", "0.5", "monthly"),
-        ("/privacy/", "0.3", "yearly"),
-        ("/terms/", "0.3", "yearly"),
+        ("/about/", "0.6", "monthly", legal_date),
+        ("/contact/", "0.5", "monthly", legal_date),
+        ("/privacy/", "0.3", "yearly", legal_date),
+        ("/terms/", "0.3", "yearly", legal_date),
     ]
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
-    for path, prio, freq in urls:
+    for path, prio, freq, lastmod in urls:
         parts += [
             "  <url>",
             f"    <loc>{site}{path}</loc>",
-            f"    <lastmod>{today}</lastmod>",
+            f"    <lastmod>{lastmod}</lastmod>",
             f"    <changefreq>{freq}</changefreq>",
             f"    <priority>{prio}</priority>",
             "  </url>",
         ]
     parts.append("</urlset>")
     SITEMAP.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    if skipped:
+        print(f"  sitemap：已剔除 {skipped} 個逾 {EXPIRED_NOINDEX_DAYS} 日的過期優惠頁")
     return str(len(urls))
 
 
@@ -4309,6 +4478,7 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     write_page(PROJECT / "contact" / "index.html", build_contact(deals, meta))
     write_page(PROJECT / "privacy" / "index.html", build_privacy(deals, meta))
     write_page(PROJECT / "terms" / "index.html", build_terms(deals, meta))
+    write_page(PROJECT / "404.html", build_404(deals, meta))
 
     total = build_sitemap(deals, meta, eats, hotels, routes, bars)
     result = {
