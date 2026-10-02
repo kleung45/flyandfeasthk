@@ -785,8 +785,30 @@ def published_date(deal: dict) -> str | None:
         return None
 
 
-# 過期超過此日數的優惠頁轉 noindex,follow（保留頁面供站內導覽，但不再佔索引額度）
-EXPIRED_NOINDEX_DAYS = 60
+# 過期超過此日數的優惠頁轉 noindex,follow（保留頁面供站內導覽，但不再佔索引額度）。
+# 可用 store.json 的 meta.expiredNoindexDays 覆寫（7–365）。
+# 定 30 日的理由：本站每日新增約 5 筆，60 日的話過期頁會累積到 ~300 條，
+# 索引內「已失效」內容佔比過高，反而拖低整體質素判斷；過期優惠本身亦無搜尋價值。
+EXPIRED_NOINDEX_DAYS = 30
+
+
+def expired_noindex_days(meta: dict) -> int:
+    """讀 meta.expiredNoindexDays（7–365），無效值一律回預設。"""
+    raw = (meta or {}).get("expiredNoindexDays")
+    try:
+        return max(7, min(365, int(raw)))
+    except (TypeError, ValueError):
+        return EXPIRED_NOINDEX_DAYS
+
+
+def is_stale_expired(deal: dict, meta: dict) -> bool:
+    """已結束且超過門檻日數 → 應該 noindex 並移出 sitemap。"""
+    if deal.get("status") != "expired":
+        return False
+    end_dt = parse_dt(deal.get("endsAt"))
+    if not end_dt:
+        return False
+    return (datetime.now(HK_TZ).date() - end_dt.date()).days > expired_noindex_days(meta)
 
 
 def deal_lastmod(deal: dict, meta: dict) -> str:
@@ -955,9 +977,8 @@ def build_deal_page(deal: dict, peers: list[dict], meta: dict) -> str:
 
     is_expired = deal.get("status") == "expired"
     end_dt = parse_dt(deal.get("endsAt"))
-    stale_days = (datetime.now(HK_TZ).date() - end_dt.date()).days if (is_expired and end_dt) else 0
-    # 過期超過 EXPIRED_NOINDEX_DAYS 日：保留頁面（站內紀錄與導流），但請 Google 唔好再收錄
-    stale = is_expired and stale_days > EXPIRED_NOINDEX_DAYS
+    # 過期超過門檻日數：保留頁面（站內紀錄與導流），但請 Google 唔好再收錄
+    stale = is_stale_expired(deal, meta)
 
     # 相關優惠：同類 + 標籤相近 + 價位接近，排除自己
     same = [p for p in peers
@@ -4292,13 +4313,10 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly", index_date))
 
     skipped = 0
-    now_dt = datetime.now(HK_TZ)
     for d in deals:
-        if d.get("status") == "expired":
-            end_dt = parse_dt(d.get("endsAt"))
-            if end_dt and (now_dt.date() - end_dt.date()).days > EXPIRED_NOINDEX_DAYS:
-                skipped += 1
-                continue
+        if is_stale_expired(d, meta):
+            skipped += 1
+            continue
         urls.append((f"/deals/{d['id']}/", "0.6", "weekly", deal_lastmod(d, meta)))
     urls += [
         ("/about/", "0.6", "monthly", legal_date),
@@ -4322,7 +4340,7 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
     parts.append("</urlset>")
     SITEMAP.write_text("\n".join(parts) + "\n", encoding="utf-8")
     if skipped:
-        print(f"  sitemap：已剔除 {skipped} 個逾 {EXPIRED_NOINDEX_DAYS} 日的過期優惠頁")
+        print(f"  sitemap：已剔除 {skipped} 個逾 {expired_noindex_days(meta)} 日的過期優惠頁")
     return str(len(urls))
 
 
