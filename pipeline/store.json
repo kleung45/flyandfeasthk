@@ -2135,7 +2135,9 @@
         "灣仔",
         "4小時"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-royalpark-palatial-octbogo-20261002",
@@ -2169,7 +2171,9 @@
         "大閘蟹",
         "沙田"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     },
     {
       "id": "dining-harbourgrand-cafe-octbogo-20261002",
@@ -2202,7 +2206,9 @@
         "日韓",
         "北角"
       ],
-      "sample": false
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true
     }
   ]
 }

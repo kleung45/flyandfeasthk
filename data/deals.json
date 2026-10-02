@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-02T21:59:49+08:00",
+    "updated": "2026-10-02T22:11:27+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -350,6 +350,8 @@
         "4小時"
       ],
       "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
       "daysLeft": 9,
       "status": "active"
     },
@@ -599,6 +601,8 @@
         "沙田"
       ],
       "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
       "daysLeft": 29,
       "status": "active"
     },
@@ -634,6 +638,8 @@
         "北角"
       ],
       "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
       "daysLeft": 29,
       "status": "active"
     },
