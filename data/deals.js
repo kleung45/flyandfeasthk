@@ -4,19 +4,19 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-02T22:11:27+08:00",
+    "updated": "2026-10-03T10:46:53+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
-      "total": 67,
-      "active": 24,
-      "ending": 3,
+      "total": 69,
+      "active": 26,
+      "ending": 5,
       "expired": 43,
       "flight": 7,
-      "dining": 60,
+      "dining": 62,
       "hotel": 0
     }
   },
@@ -53,7 +53,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -89,7 +89,43 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
+      "status": "ending"
+    },
+    {
+      "id": "dining-chefzone-tst-koreanbuffet-kkday-20261003",
+      "category": "dining",
+      "title": "尖沙咀 CHEF ZONE 韓式自助餐 KKday 旅展快閃，平日午市人均 HK$88",
+      "subtitle": "醬油醃蟹＋烤頂級無骨牛肋排＋人參雞湯 · 晚餐買一送一人均 HK$164 起 · 10/4 23:59 截",
+      "venue": "尖沙咀加拿芬道 20 號加拿芬廣場 3 樓 CHEF ZONE",
+      "priceLabel": "KKday 線上旅展快閃：60 分鐘韓式自助餐（平日午市）HK$176/2 位（人均 HK$88，原價 HK$188/位，低至 47 折）；120 分鐘韓式自助午餐買一送一 HK$278/2 位（人均 HK$139 起）；90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位（人均 HK$164 起）；現場另收原價加一服務費",
+      "priceValue": 88,
+      "originalLabel": "60 分鐘平日午市自助餐原價 HK$188/位；午市自助午餐原價 HK$278/位起、自助晚餐原價 HK$328/位起（買一送一折合半價）",
+      "discountPct": 47,
+      "endsAt": "2026-10-04T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-09-28 15:00 至 2026-10-04 23:59；使用日期：2026-10-01 至 10-31；餐廳營業 12:00–23:00；60 分鐘快閃方案只限星期一至五午市，每次最少購買 2 位",
+      "summary": "尖沙咀 CHEF ZONE 全港首個大規模韓國料理自助餐殿堂，佔地逾 10,000 平方呎、250 個雅座、16 個美食專區，超過 100 款韓式料理任食。KKday 線上旅展快閃 10 月 4 日 23:59 截：平日午市 60 分鐘自助餐兩位只要 HK$176，人均 HK$88（47 折）；自助午餐買一送一人均 HK$139 起、自助晚餐買一送一人均 HK$164 起。必食烤五花腩、烤頂級無骨牛肋排、藥膳風味牛腸、甜辣及醬油韓式炸雞、醬油醃蟹、醃鮑魚、人參雞湯、莞島鮑魚粥，仲有逾 50 款壽司軍艦同韓式雪糕刨冰。",
+      "highlights": [
+        "平日午市 60 分鐘自助餐 HK$176/2 位，人均 HK$88（原價 HK$188/位，47 折）",
+        "120 分鐘韓式自助午餐買一送一 HK$278/2 位，人均 HK$139 起",
+        "90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位，人均 HK$164 起",
+        "逾 100 款韓式料理：醬油醃蟹、烤無骨牛肋排、人參雞湯、莞島鮑魚粥、逾 50 款壽司軍艦",
+        "全港首個大規模韓國料理自助餐殿堂：10,000 平方呎、250 雅座、16 個美食專區",
+        "預訂期 10/4 23:59 截，使用期至 10/31；現場另收原價加一"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/579555",
+      "sourceLabel": "KKday 線上旅展（產品 579555）· GroupBuya 著數",
+      "sourceUrl": "https://www.groupbuya.com/jetso/555441-KKday-9%E6%9C%8828%E6%97%A512?fromsearch=KKday",
+      "tags": [
+        "自助餐",
+        "韓國料理",
+        "醬油蟹",
+        "買一送一",
+        "尖沙咀",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -126,7 +162,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -165,8 +201,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-admiralty-20260911",
@@ -200,7 +236,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -235,7 +271,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -275,7 +311,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -314,7 +350,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -353,7 +389,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -387,7 +423,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -422,7 +458,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -457,7 +493,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -492,7 +528,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -528,7 +564,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -566,7 +602,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -604,7 +640,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -641,7 +677,42 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 28,
+      "status": "active"
+    },
+    {
+      "id": "dining-cafemarco-tst-chaoshan-kkday-20261003",
+      "title": "尖沙咀馬哥孛羅 Cafe Marco「尋味潮州」自助餐，週末下午茶低至 5 折 HK$221",
+      "subtitle": "自助午餐 6 折 HK$286 起 · 自助晚餐 6 折 HK$482 起 · 滷水鵝＋蠔烙＋即煮黑松露意粉",
+      "category": "dining",
+      "venue": "尖沙咀海港城馬哥孛羅香港酒店 1 樓 Cafe Marco 馬哥孛羅咖啡廳",
+      "priceLabel": "KKday：週末下午茶自助餐低至 5 折 HK$221/位；自助午餐低至 6 折 HK$286/位起；自助晚餐低至 6 折 HK$482/位起（原價以餐廳及 KKday 頁面即時公佈為準）",
+      "priceValue": 221,
+      "originalLabel": "週末下午茶自助餐原價約 HK$442/位（5 折折後 HK$221）；午市／晚市原價以餐廳公佈為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-31T23:59:00+08:00",
+      "period": "10 月「尋味潮州」自助晚餐主題期間適用；「可可咖啡雙重奏」週末下午茶 15:15–17:15；自助午餐 12:00–14:30；自助晚餐 18:30–22:00。優惠未列明截止日，以 KKday 頁面即時價為準",
+      "summary": "尖沙咀馬哥孛羅香港酒店 Cafe Marco 10 月推出「尋味潮州」自助晚餐，主廚把經典潮州打冷功夫菜帶入自助餐：香濃滷水鴨件、香脆蠔烙、普寧豆醬焗蝦，熱葷有紅酒汁燴牛仔骨同現場即煮黑松露巴馬臣芝士意粉。KKday 週末下午茶自助餐低至 5 折 HK$221/位，自助午餐 6 折 HK$286 起、自助晚餐 6 折 HK$482 起，同場仲有「可可咖啡雙重奏」週末下午茶，冰鎮海鮮、環球美饌及即切烤肉齊備。",
+      "highlights": [
+        "週末下午茶自助餐低至 5 折 HK$221/位",
+        "自助午餐低至 6 折 HK$286 起；自助晚餐低至 6 折 HK$482 起",
+        "10 月「尋味潮州」主題：滷水鴨件、香脆蠔烙、普寧豆醬焗蝦等潮州打冷功夫菜",
+        "現場即煮黑松露巴馬臣芝士意粉；紅酒汁燴牛仔骨",
+        "「可可咖啡雙重奏」週末下午茶：朱古力與咖啡主題甜品＋冰鎮海鮮＋即切烤肉",
+        "優惠未列明截止日，以 KKday 頁面即時價為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/101419",
+      "sourceLabel": "U Lifestyle 港生活 10 月酒店自助餐精選 · KKday（產品 101419）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20037042/",
+      "tags": [
+        "自助餐",
+        "潮州菜",
+        "打冷",
+        "下午茶",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -672,7 +743,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -703,7 +774,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -734,7 +805,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -764,7 +835,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -799,7 +870,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -836,7 +907,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 72,
+      "daysLeft": 71,
       "status": "active"
     },
     {
@@ -871,7 +942,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 77,
+      "daysLeft": 76,
       "status": "active"
     },
     {
