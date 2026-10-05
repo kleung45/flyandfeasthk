@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-03T10:46:53+08:00",
+    "updated": "2026-10-05T11:11:57+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,122 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 69,
-      "active": 26,
-      "ending": 5,
-      "expired": 43,
+      "active": 23,
+      "ending": 6,
+      "expired": 46,
       "flight": 7,
       "dining": 62,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-hkexpress-china-flashsale-20261001",
-      "category": "flight",
-      "title": "HK Express 內地全線快閃：合肥新航點，來回票價低至 HK$77",
-      "subtitle": "輕便飛來回低至 HK$77（未連稅）· 連稅約 HK$936 起 · 10/4 23:45 截飛",
-      "route": "香港出發 · 合肥（12/3 開航）／北京（大興）／寧波／無錫／常州／義烏／三亞",
-      "priceLabel": "『輕便飛』來回票價低至 HK$77（未連稅，包 1 件隨身物品）、『經濟飛』來回低至 HK$99（包隨身物品＋1 件登機行李）；旅遊情報網 MeetHK 綜合來回連稅約 HK$936 起。票價不含燃油附加費、稅項及其他收費，以官網即時結算為準",
-      "priceValue": 936,
-      "originalLabel": "官方優惠票價未連稅；優惠票價不適用於單程機票，只適用於初次預訂由香港出發的來回航班",
-      "endsAt": "2026-10-04T23:45:00+08:00",
-      "period": "預訂期：2026-09-30 10:00 至 2026-10-04 23:45；旅遊日期：北京（大興）／寧波／無錫／常州／義烏／三亞 2026-10-09 至 2027-03-27；合肥 2026-12-03 至 2027-03-27",
-      "summary": "香港快運今日做緊中國內地全線快閃，7 個內地航點『輕便飛』來回票價低至 HK$77（未連稅），加埋稅項大約 HK$936 起就可以來回。今次同時宣布 12 月 3 日開辦合肥航線，每星期四班。北京（大興）、三亞、寧波、常州、義烏、無錫由 10 月 9 日飛到明年 3 月 27 日；合肥 12 月 3 日起。想平飛內地探親、短線旅行就快手，10 月 4 日 23:45 截飛。",
-      "highlights": [
-        "香港 ↔ 合肥、北京（大興）、寧波、無錫、常州、義烏、三亞來回票價低至 HK$77（未連稅，『輕便飛』包 1 件隨身物品）",
-        "『經濟飛』來回低至 HK$99，包隨身物品＋1 件登機行李；寄艙行李需另購（20kg／32kg 按件計）",
-        "旅遊情報網綜合來回連稅約 HK$936 起（票價不含稅項及附加費，以官網結算為準）",
-        "合肥為全新航點，2026-12-03 首航，每星期最多 4 班來回",
-        "預訂期至 2026-10-04 23:45；優惠票價只適用於來回機票，不適用於單程"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/cm_flashsale_20260930",
-      "sourceLabel": "香港快運官網（合肥新航點快閃 2026-09-30）· MeetHK 旅遊情報網",
-      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/cm_flashsale_20260930",
-      "tags": [
-        "機票",
-        "中國",
-        "快閃",
-        "合肥",
-        "廉航"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-fullerton-lighthouse-1off-20260929",
-      "category": "dining",
-      "title": "富麗敦海洋公園酒店星耀廳 1 折，自助午餐 HK$98、晚餐 HK$168",
-      "subtitle": "南中國海海景 · 秋冬燒烤滋味盛宴 · 10 月底前歎足",
-      "venue": "香港仔海洋徑 3 號 香港富麗敦海洋公園酒店大堂樓層 星耀廳 Lighthouse Café",
-      "priceLabel": "KKday 限量 1 折：自助午餐 HK$98/位（原價 HK$537 起）、自助晚餐 HK$168/位（原價 HK$922 起），已包原價加一服務費；另有「加 $18 歎第二位」午餐 HK$555/2 位（人均 HK$278）、晚餐 HK$940/2 位（人均 HK$470），以及「買一送一＋加 $199 歎第三位」午餐人均 HK$262、晚餐人均 HK$402",
-      "priceValue": 98,
-      "originalLabel": "原價自助午餐 HK$537 起／自助晚餐 HK$922 起（已包原價加一服務費）",
-      "discountPct": 82,
-      "endsAt": "2026-10-04T23:59:00+08:00",
-      "period": "KKday 開搶：2026-09-28 12:00 至 10-04 23:59；使用日期 2026-09-29 至 10-31（1 折午餐限星期一至五 12:00-14:30、1 折晚餐限星期一至四 18:00-21:30）",
-      "summary": "富麗敦海洋公園酒店星耀廳 KKday 快閃，自助餐 1 折：午餐 HK$98/位、晚餐 HK$168/位，已包加一服務費，價錢直逼茶餐廳。10 月 1 日起轉新主題「秋冬燒烤滋味盛宴」，任食燒乳豬、羊扒、燒原隻大頭蝦、即席烤溶拉可雷特芝士，仲有臘味煲仔飯專區；冰鎮海鮮有雪蟹腳、麵包蟹、鮑魚，星期五至日加推加拿大龍蝦。落地玻璃望南中國海，名額限量、售完即止。",
-      "highlights": [
-        "KKday 限量 1 折：自助午餐 HK$98/位（原價 HK$537 起）、晚餐 HK$168/位（原價 HK$922 起），已包加一",
-        "「加 $18 歎第二位」：午餐人均 HK$278、晚餐人均 HK$470；「買一送一＋加 $199 歎第三位」：午餐人均 HK$262、晚餐人均 HK$402",
-        "10/1–11/30 新主題「秋冬燒烤滋味盛宴」：燒乳豬、羊扒、燒原隻大頭蝦、即席烤溶拉可雷特芝士、臘味煲仔飯",
-        "冰鎮海鮮：雪蟹腳、麵包蟹、鮑魚、青口；星期五至日供應加拿大龍蝦",
-        "每位送星耀廊蛋糕正價 8 折優惠碼；預訂期至 10/4 23:59，使用期 9/29–10/31"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/136602",
-      "sourceLabel": "U Lifestyle 港生活 · KKday",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111407/",
-      "tags": [
-        "自助餐",
-        "1折",
-        "海景",
-        "香港仔",
-        "限量"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-chefzone-tst-koreanbuffet-kkday-20261003",
-      "category": "dining",
-      "title": "尖沙咀 CHEF ZONE 韓式自助餐 KKday 旅展快閃，平日午市人均 HK$88",
-      "subtitle": "醬油醃蟹＋烤頂級無骨牛肋排＋人參雞湯 · 晚餐買一送一人均 HK$164 起 · 10/4 23:59 截",
-      "venue": "尖沙咀加拿芬道 20 號加拿芬廣場 3 樓 CHEF ZONE",
-      "priceLabel": "KKday 線上旅展快閃：60 分鐘韓式自助餐（平日午市）HK$176/2 位（人均 HK$88，原價 HK$188/位，低至 47 折）；120 分鐘韓式自助午餐買一送一 HK$278/2 位（人均 HK$139 起）；90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位（人均 HK$164 起）；現場另收原價加一服務費",
-      "priceValue": 88,
-      "originalLabel": "60 分鐘平日午市自助餐原價 HK$188/位；午市自助午餐原價 HK$278/位起、自助晚餐原價 HK$328/位起（買一送一折合半價）",
-      "discountPct": 47,
-      "endsAt": "2026-10-04T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-09-28 15:00 至 2026-10-04 23:59；使用日期：2026-10-01 至 10-31；餐廳營業 12:00–23:00；60 分鐘快閃方案只限星期一至五午市，每次最少購買 2 位",
-      "summary": "尖沙咀 CHEF ZONE 全港首個大規模韓國料理自助餐殿堂，佔地逾 10,000 平方呎、250 個雅座、16 個美食專區，超過 100 款韓式料理任食。KKday 線上旅展快閃 10 月 4 日 23:59 截：平日午市 60 分鐘自助餐兩位只要 HK$176，人均 HK$88（47 折）；自助午餐買一送一人均 HK$139 起、自助晚餐買一送一人均 HK$164 起。必食烤五花腩、烤頂級無骨牛肋排、藥膳風味牛腸、甜辣及醬油韓式炸雞、醬油醃蟹、醃鮑魚、人參雞湯、莞島鮑魚粥，仲有逾 50 款壽司軍艦同韓式雪糕刨冰。",
-      "highlights": [
-        "平日午市 60 分鐘自助餐 HK$176/2 位，人均 HK$88（原價 HK$188/位，47 折）",
-        "120 分鐘韓式自助午餐買一送一 HK$278/2 位，人均 HK$139 起",
-        "90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位，人均 HK$164 起",
-        "逾 100 款韓式料理：醬油醃蟹、烤無骨牛肋排、人參雞湯、莞島鮑魚粥、逾 50 款壽司軍艦",
-        "全港首個大規模韓國料理自助餐殿堂：10,000 平方呎、250 雅座、16 個美食專區",
-        "預訂期 10/4 23:59 截，使用期至 10/31；現場另收原價加一"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/579555",
-      "sourceLabel": "KKday 線上旅展（產品 579555）· GroupBuya 著數",
-      "sourceUrl": "https://www.groupbuya.com/jetso/555441-KKday-9%E6%9C%8828%E6%97%A512?fromsearch=KKday",
-      "tags": [
-        "自助餐",
-        "韓國料理",
-        "醬油蟹",
-        "買一送一",
-        "尖沙咀",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-lodgewood-gardenroom-flashsale-20260929",
       "category": "dining",
@@ -162,7 +55,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -201,7 +94,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -236,8 +129,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-isl-lunch-b2g2-20260927",
@@ -271,8 +164,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-leewinghin-dimsun-dduck-buffet-20261001",
@@ -311,8 +204,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-kowloonhotel-crabfeast-bogo-20261001",
@@ -350,8 +243,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-lemenu-wanchai-autumnfeast-kkday-20261002",
@@ -389,7 +282,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -423,7 +316,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -458,7 +351,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -493,7 +386,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -528,7 +421,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -564,7 +457,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -602,7 +495,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -640,7 +533,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -677,7 +570,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -712,7 +605,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 28,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -743,7 +636,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 58,
+      "daysLeft": 56,
       "status": "active"
     },
     {
@@ -774,7 +667,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 58,
+      "daysLeft": 56,
       "status": "active"
     },
     {
@@ -805,7 +698,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 58,
+      "daysLeft": 56,
       "status": "active"
     },
     {
@@ -835,7 +728,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 58,
+      "daysLeft": 56,
       "status": "active"
     },
     {
@@ -870,7 +763,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 58,
+      "daysLeft": 56,
       "status": "active"
     },
     {
@@ -907,7 +800,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 71,
+      "daysLeft": 69,
       "status": "active"
     },
     {
@@ -942,7 +835,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 76,
+      "daysLeft": 74,
       "status": "active"
     },
     {
@@ -2422,6 +2315,113 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-china-flashsale-20261001",
+      "category": "flight",
+      "title": "HK Express 內地全線快閃：合肥新航點，來回票價低至 HK$77",
+      "subtitle": "輕便飛來回低至 HK$77（未連稅）· 連稅約 HK$936 起 · 10/4 23:45 截飛",
+      "route": "香港出發 · 合肥（12/3 開航）／北京（大興）／寧波／無錫／常州／義烏／三亞",
+      "priceLabel": "『輕便飛』來回票價低至 HK$77（未連稅，包 1 件隨身物品）、『經濟飛』來回低至 HK$99（包隨身物品＋1 件登機行李）；旅遊情報網 MeetHK 綜合來回連稅約 HK$936 起。票價不含燃油附加費、稅項及其他收費，以官網即時結算為準",
+      "priceValue": 936,
+      "originalLabel": "官方優惠票價未連稅；優惠票價不適用於單程機票，只適用於初次預訂由香港出發的來回航班",
+      "endsAt": "2026-10-04T23:45:00+08:00",
+      "period": "預訂期：2026-09-30 10:00 至 2026-10-04 23:45；旅遊日期：北京（大興）／寧波／無錫／常州／義烏／三亞 2026-10-09 至 2027-03-27；合肥 2026-12-03 至 2027-03-27",
+      "summary": "香港快運今日做緊中國內地全線快閃，7 個內地航點『輕便飛』來回票價低至 HK$77（未連稅），加埋稅項大約 HK$936 起就可以來回。今次同時宣布 12 月 3 日開辦合肥航線，每星期四班。北京（大興）、三亞、寧波、常州、義烏、無錫由 10 月 9 日飛到明年 3 月 27 日；合肥 12 月 3 日起。想平飛內地探親、短線旅行就快手，10 月 4 日 23:45 截飛。",
+      "highlights": [
+        "香港 ↔ 合肥、北京（大興）、寧波、無錫、常州、義烏、三亞來回票價低至 HK$77（未連稅，『輕便飛』包 1 件隨身物品）",
+        "『經濟飛』來回低至 HK$99，包隨身物品＋1 件登機行李；寄艙行李需另購（20kg／32kg 按件計）",
+        "旅遊情報網綜合來回連稅約 HK$936 起（票價不含稅項及附加費，以官網結算為準）",
+        "合肥為全新航點，2026-12-03 首航，每星期最多 4 班來回",
+        "預訂期至 2026-10-04 23:45；優惠票價只適用於來回機票，不適用於單程"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/cm_flashsale_20260930",
+      "sourceLabel": "香港快運官網（合肥新航點快閃 2026-09-30）· MeetHK 旅遊情報網",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/cm_flashsale_20260930",
+      "tags": [
+        "機票",
+        "中國",
+        "快閃",
+        "合肥",
+        "廉航"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-fullerton-lighthouse-1off-20260929",
+      "category": "dining",
+      "title": "富麗敦海洋公園酒店星耀廳 1 折，自助午餐 HK$98、晚餐 HK$168",
+      "subtitle": "南中國海海景 · 秋冬燒烤滋味盛宴 · 10 月底前歎足",
+      "venue": "香港仔海洋徑 3 號 香港富麗敦海洋公園酒店大堂樓層 星耀廳 Lighthouse Café",
+      "priceLabel": "KKday 限量 1 折：自助午餐 HK$98/位（原價 HK$537 起）、自助晚餐 HK$168/位（原價 HK$922 起），已包原價加一服務費；另有「加 $18 歎第二位」午餐 HK$555/2 位（人均 HK$278）、晚餐 HK$940/2 位（人均 HK$470），以及「買一送一＋加 $199 歎第三位」午餐人均 HK$262、晚餐人均 HK$402",
+      "priceValue": 98,
+      "originalLabel": "原價自助午餐 HK$537 起／自助晚餐 HK$922 起（已包原價加一服務費）",
+      "discountPct": 82,
+      "endsAt": "2026-10-04T23:59:00+08:00",
+      "period": "KKday 開搶：2026-09-28 12:00 至 10-04 23:59；使用日期 2026-09-29 至 10-31（1 折午餐限星期一至五 12:00-14:30、1 折晚餐限星期一至四 18:00-21:30）",
+      "summary": "富麗敦海洋公園酒店星耀廳 KKday 快閃，自助餐 1 折：午餐 HK$98/位、晚餐 HK$168/位，已包加一服務費，價錢直逼茶餐廳。10 月 1 日起轉新主題「秋冬燒烤滋味盛宴」，任食燒乳豬、羊扒、燒原隻大頭蝦、即席烤溶拉可雷特芝士，仲有臘味煲仔飯專區；冰鎮海鮮有雪蟹腳、麵包蟹、鮑魚，星期五至日加推加拿大龍蝦。落地玻璃望南中國海，名額限量、售完即止。",
+      "highlights": [
+        "KKday 限量 1 折：自助午餐 HK$98/位（原價 HK$537 起）、晚餐 HK$168/位（原價 HK$922 起），已包加一",
+        "「加 $18 歎第二位」：午餐人均 HK$278、晚餐人均 HK$470；「買一送一＋加 $199 歎第三位」：午餐人均 HK$262、晚餐人均 HK$402",
+        "10/1–11/30 新主題「秋冬燒烤滋味盛宴」：燒乳豬、羊扒、燒原隻大頭蝦、即席烤溶拉可雷特芝士、臘味煲仔飯",
+        "冰鎮海鮮：雪蟹腳、麵包蟹、鮑魚、青口；星期五至日供應加拿大龍蝦",
+        "每位送星耀廊蛋糕正價 8 折優惠碼；預訂期至 10/4 23:59，使用期 9/29–10/31"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/136602",
+      "sourceLabel": "U Lifestyle 港生活 · KKday",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111407/",
+      "tags": [
+        "自助餐",
+        "1折",
+        "海景",
+        "香港仔",
+        "限量"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-chefzone-tst-koreanbuffet-kkday-20261003",
+      "category": "dining",
+      "title": "尖沙咀 CHEF ZONE 韓式自助餐 KKday 旅展快閃，平日午市人均 HK$88",
+      "subtitle": "醬油醃蟹＋烤頂級無骨牛肋排＋人參雞湯 · 晚餐買一送一人均 HK$164 起 · 10/4 23:59 截",
+      "venue": "尖沙咀加拿芬道 20 號加拿芬廣場 3 樓 CHEF ZONE",
+      "priceLabel": "KKday 線上旅展快閃：60 分鐘韓式自助餐（平日午市）HK$176/2 位（人均 HK$88，原價 HK$188/位，低至 47 折）；120 分鐘韓式自助午餐買一送一 HK$278/2 位（人均 HK$139 起）；90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位（人均 HK$164 起）；現場另收原價加一服務費",
+      "priceValue": 88,
+      "originalLabel": "60 分鐘平日午市自助餐原價 HK$188/位；午市自助午餐原價 HK$278/位起、自助晚餐原價 HK$328/位起（買一送一折合半價）",
+      "discountPct": 47,
+      "endsAt": "2026-10-04T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-09-28 15:00 至 2026-10-04 23:59；使用日期：2026-10-01 至 10-31；餐廳營業 12:00–23:00；60 分鐘快閃方案只限星期一至五午市，每次最少購買 2 位",
+      "summary": "尖沙咀 CHEF ZONE 全港首個大規模韓國料理自助餐殿堂，佔地逾 10,000 平方呎、250 個雅座、16 個美食專區，超過 100 款韓式料理任食。KKday 線上旅展快閃 10 月 4 日 23:59 截：平日午市 60 分鐘自助餐兩位只要 HK$176，人均 HK$88（47 折）；自助午餐買一送一人均 HK$139 起、自助晚餐買一送一人均 HK$164 起。必食烤五花腩、烤頂級無骨牛肋排、藥膳風味牛腸、甜辣及醬油韓式炸雞、醬油醃蟹、醃鮑魚、人參雞湯、莞島鮑魚粥，仲有逾 50 款壽司軍艦同韓式雪糕刨冰。",
+      "highlights": [
+        "平日午市 60 分鐘自助餐 HK$176/2 位，人均 HK$88（原價 HK$188/位，47 折）",
+        "120 分鐘韓式自助午餐買一送一 HK$278/2 位，人均 HK$139 起",
+        "90／120 分鐘韓式自助晚餐買一送一 HK$328/2 位，人均 HK$164 起",
+        "逾 100 款韓式料理：醬油醃蟹、烤無骨牛肋排、人參雞湯、莞島鮑魚粥、逾 50 款壽司軍艦",
+        "全港首個大規模韓國料理自助餐殿堂：10,000 平方呎、250 雅座、16 個美食專區",
+        "預訂期 10/4 23:59 截，使用期至 10/31；現場另收原價加一"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/579555",
+      "sourceLabel": "KKday 線上旅展（產品 579555）· GroupBuya 著數",
+      "sourceUrl": "https://www.groupbuya.com/jetso/555441-KKday-9%E6%9C%8828%E6%97%A512?fromsearch=KKday",
+      "tags": [
+        "自助餐",
+        "韓國料理",
+        "醬油蟹",
+        "買一送一",
+        "尖沙咀",
+        "快閃"
+      ],
+      "sample": false,
       "daysLeft": 0,
       "status": "expired"
     }

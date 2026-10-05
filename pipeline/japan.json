@@ -1,10 +1,10 @@
 {
   "meta": {
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-    "updated": "2026-10-01",
+    "updated": "2026-10-05",
     "minRating": 4.2,
     "rotation": [
-      "仙台",
+      "高松",
       "金澤",
       "橫濱",
       "名古屋",
@@ -15,7 +15,8 @@
       "沖繩",
       "福岡",
       "札幌",
-      "東京"
+      "東京",
+      "仙台"
     ]
   },
   "eats": [
@@ -554,6 +555,81 @@
       "sourceLabel": "曼活日本（標明 Google 評分 4.4 分）＋ Wanderlog 廣島餐廳清單（4.4／1,556 則）",
       "sourceUrl": "https://mandyinjp.com/miyajima/",
       "addedAt": "2026-10-01"
+    },
+    {
+      "id": "jp-sendai-kaku-burandom",
+      "name": "牛たん料理 閣 ブランドーム本店",
+      "nameEn": "Gyutan Ryori Kaku Burandom Honten",
+      "city": "仙台",
+      "area": "青葉區一番町（地下鐵廣瀨通站西4號出口步行約 3 分鐘，一番町拱廊地庫）",
+      "cuisine": "牛舌",
+      "signature": "炭烤厚切牛舌定食（たん焼き定食）、炙燒牛舌韃靼（たんタタキ）、牛舌刺身、牛舌咖喱",
+      "rating": 4.5,
+      "reviews": 2281,
+      "ratingCheckedAt": "2026-10-05",
+      "priceRange": "¥2,000–5,000（たん焼き定食約 ¥2,280、特選炭燒約 ¥5,000）",
+      "address": "宮城県仙台市青葉区一番町3-8-14 スズキアバンティビル B1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%81%9F%E3%82%93%E6%96%99%E7%90%86%20%E9%96%A3%20%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BC%E3%83%A0%E6%9C%AC%E5%BA%97%20%E4%BB%99%E5%8F%B0%E5%B8%82%E9%9D%92%E8%91%89%E5%8C%BA%E4%B8%80%E7%95%AA%E7%94%BA3-8-14",
+      "blurb": "1988 年創業、只喺仙台市內開店嘅牛舌專門店，曾獲米芝蓮必比登推薦。佢係少數同時做「炭烤牛舌」同「炙燒牛舌韃靼」嘅店——定食只有一款，唔使諗厚切定薄切；招牌韃靼用半生熟手法上碟，厚切但軟到幾乎咬唔到筋。喺仙台一眾牛舌名店中，佢係本地人與識食旅客交叉票選得最前嘅一間。",
+      "tips": [
+        "唔接受訂位。平日開店前 15 分鐘到可以趕到第一輪，開店後人龍會好長，假日更要預一個鐘。",
+        "炙燒牛舌韃靼（たんタタキ）係呢度嘅必點，套餐可加配或單點；注意韃靼只做晚市時段。",
+        "「お通し」（座位小菜）要留意：只點定食唔收，但一叫酒或單品就會收 ¥418–500，會附一小碟燉牛舌。",
+        "位置喺一番町拱廊地庫（地址寫作「スズキアバンティビル B1F」，舊稱鈴喜陶器店），唔熟路就用 Google Maps 帶路。"
+      ],
+      "sourceLabel": "Bigfang 仙台牛舌推薦排名表（列明 Google 評分 4.5／2,281 則，2026 年 3 月快照）；OMAKASE JapanEatinerary 亦列為仙台代表店家",
+      "sourceUrl": "https://www.bigfang.tw/blog/post/sendai-gyutan",
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "jp-sendai-zenjiro-ekimae",
+      "name": "たんや善治郎 仙台駅前本店",
+      "nameEn": "Tanya Zenjiro Sendai Ekimae Honten",
+      "city": "仙台",
+      "area": "青葉區中央（JR 仙台站西口步行約 2 分鐘，AK 大廈 3F）",
+      "cuisine": "牛舌",
+      "signature": "上撰極厚真中たん定食（每時段限量）、牛舌香腸、牛尾湯配麥飯",
+      "rating": 4.3,
+      "reviews": 3108,
+      "ratingCheckedAt": "2026-10-05",
+      "priceRange": "¥2,000–4,500（真中たん定食約 ¥3,500–3,960）",
+      "address": "宮城県仙台市青葉区中央1-8-38 AKビル 3F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E3%82%84%E5%96%84%E6%B2%BB%E9%83%8E%20%E4%BB%99%E5%8F%B0%E9%A7%85%E5%89%8D%E6%9C%AC%E5%BA%97%20%E4%BB%99%E5%8F%B0%E5%B8%82%E9%9D%92%E8%91%89%E5%8C%BA%E4%B8%AD%E5%A4%AE1-8-38",
+      "blurb": "仙台牛舌兩大巨頭之一，站前本店出西口過天橋就到，係幾間分店中品質最穩定嘅一間。招牌「真中たん」取牛舌最厚嘅中段，切到接近一吋，咬落超軟、幾乎冇筋；全店只做鹽烤，唔靠醬汁遮味，所以肉味同炭香都食得出。餐牌仲有牛舌咖喱、牛舌餃子等變化，一家大細都啱。",
+      "tips": [
+        "唔接受訂位。先抽號碼牌，再用手機掃 QR 睇叫號進度，可以行去隔籬百貨商場逛住等。",
+        "想食最靚部位就點「真中たん」，屬每時段限量，賣完就冇；午市同晚市高峰動輒等一個鐘以上。",
+        "車站 3 樓「牛たん通り」分店座位只有廿幾個、排隊可以超過兩小時；行多兩分鐘去本店座位較多、更抵。",
+        "可信用卡付款；麥飯通常可以免費添一碗，牛尾湯係標準配菜。"
+      ],
+      "sourceLabel": "Bigfang 仙台牛舌推薦排名表（列明 Google 評分 4.3／3,108 則，2026 年 3 月快照）",
+      "sourceUrl": "https://www.bigfang.tw/blog/post/sendai-gyutan",
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "jp-sendai-tsukasa-higashiguchi",
+      "name": "牛タン焼専門店 司 東口店（ダイワロイネットホテル店）",
+      "nameEn": "Gyutan Yaki Senmonten Tsukasa Higashiguchi",
+      "city": "仙台",
+      "area": "宮城野區榴岡（JR 仙台站東口步行約 3–5 分鐘，Daiwa Roynet 酒店仙台 1F）",
+      "cuisine": "牛舌",
+      "signature": "牛舌定食（只分 2 枚4切／3 枚6切／4 枚8切）、牛舌漢堡扒咖喱",
+      "rating": 4.3,
+      "reviews": 2255,
+      "ratingCheckedAt": "2026-10-05",
+      "priceRange": "¥2,000–4,000",
+      "address": "宮城県仙台市宮城野区榴岡1-2-37 ダイワロイネットホテル仙台 1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E3%82%BF%E3%83%B3%E7%84%BC%E5%B0%82%E9%96%80%E5%BA%97%20%E5%8F%B8%20%E6%9D%B1%E5%8F%A3%E5%BA%97%20%E4%BB%99%E5%8F%B0%E5%B8%82%E5%AE%AE%E5%9F%8E%E9%87%8E%E5%8C%BA%E6%A6%B4%E5%B2%A11-2-37",
+      "blurb": "仙台牛舌「司」嘅東口店，開喺 Daiwa Roynet 酒店仙台一樓、Yodobashi 電器對面。佢唔玩厚切／牛舌芯／極上嘅花款——定食只有一款，淨係揀份量，靠澳洲最高級牛舌配特製醬汁醃足三日，再用日本產櫟炭燒到外脆內嫩。翻枱快、本地客多，行程趕嘅一餐最啱。",
+      "tips": [
+        "入口唔喺酒店正門，要繞到酒店側邊先見到店門；跟 Google Maps 行到最後一段要留意。",
+        "冇外文菜單，唔識日文就跟圖片點最基本嘅「牛舌定食」，唔使煩惱揀部位。",
+        "午市 11:00–14:00、晚市 17:00–22:30（L.O. 22:30），不定休；可信用卡付款。",
+        "想加菜可以點山藥泥拌麥飯，或者牛舌漢堡扒咖喱（唔辣）。"
+      ],
+      "sourceLabel": "Bigfang 仙台牛舌推薦排名表（列明 Google 評分 4.3／2,255 則，2026 年 3 月快照）；Tabelog 店頁確認地址為 Daiwa Roynet 酒店仙台 1F",
+      "sourceUrl": "https://www.bigfang.tw/blog/post/sendai-gyutan",
+      "addedAt": "2026-10-05"
     }
   ]
 }

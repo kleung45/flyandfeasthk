@@ -49,7 +49,7 @@ BARS_FILE = ROOT / "japan-bars.json"
 SITEMAP = PROJECT / "sitemap.xml"
 
 # 日本美食專欄：城市顯示次序（未列出的城市按首次出現排在後面）
-JAPAN_CITY_ORDER = ["東京", "大阪", "京都", "神戶", "名古屋", "橫濱", "福岡", "札幌", "沖繩"]
+JAPAN_CITY_ORDER = ["東京", "大阪", "京都", "神戶", "名古屋", "橫濱", "福岡", "札幌", "沖繩", "仙台"]
 
 # 地區歸納：城市 → 地區頁（/japan/<key>/）。收錄新城市時，把城市加進對應地區即可；
 # 新地區要同時在 JP_REGIONS 加條目（名稱與簡介），地區頁與 sitemap 會自動生成。
@@ -105,6 +105,7 @@ JP_CITY_REGION = {
     "福岡": "kyushu",
     "札幌": "hokkaido",
     "仙台": "tohoku",
+    "高松": "shikoku",
     "廣島": "chugoku",
     "沖繩": "okinawa",
 }
