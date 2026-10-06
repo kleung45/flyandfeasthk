@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-05T13:59:32+08:00",
+    "updated": "2026-10-06T11:10:41+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,52 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 73,
-      "active": 27,
-      "ending": 7,
-      "expired": 46,
+      "active": 26,
+      "ending": 6,
+      "expired": 47,
       "flight": 8,
       "dining": 65,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-lodgewood-gardenroom-flashsale-20260929",
-      "category": "dining",
-      "title": "尖沙咀龍堡國際園林閣自助午餐 HK$88，晚餐買一送二",
-      "subtitle": "KKday 線上旅展快閃 · 今日 15:00 開搶 · 10 月任食",
-      "venue": "尖沙咀柯士甸道 8 號 龍堡國際閣樓 園林閣咖啡室",
-      "priceLabel": "自助午餐（星期一至五）KKday 旅展限定 HK$88/位（原價 HK$317）；買一送二 HK$345/3 位（人均 HK$115）；買一送一 HK$346/2 位（人均 HK$173）。自助晚餐買一送二 HK$585/3 位（人均 HK$195，買 1 位成人送 1 位成人＋1 位 10 歲或以下小童）、買一送一 HK$586/2 位（人均 HK$293）；晚餐原價 HK$537/位",
-      "priceValue": 88,
-      "originalLabel": "自助午餐原價 HK$317/位、自助晚餐原價 HK$537/位",
-      "discountPct": 72,
-      "endsAt": "2026-10-05T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-09-29 15:00 至 10-05 23:59；使用日期 2026-10-01 至 10-31（午餐 12:00-14:30、晚餐 18:00-21:00）",
-      "summary": "尖沙咀龍堡國際園林閣咖啡室 KKday 線上旅展快閃，今日下午 15:00 開搶：平日自助午餐 HK$88/位（原價 HK$317），買一送二 3 位 HK$345（人均 HK$115）；「味聚東南亞」自助晚餐買一送二 3 位 HK$585（人均 HK$195），晚餐每位送「上湯蟹肉素翅灌湯餃」一客，成人仲可以無限暢飲精選紅白酒。餐廳就在九龍公園旁，開揚綠蔭景致，10 月全月適用。",
-      "highlights": [
-        "自助午餐（星期一至五）HK$88/位，原價 HK$317／位",
-        "午餐買一送二 3 位 HK$345（人均 HK$115）；買一送一 2 位 HK$346（人均 HK$173）",
-        "晚餐買一送二 3 位 HK$585（人均 HK$195）；買一送一 2 位 HK$586（人均 HK$293）",
-        "晚餐每位送「上湯蟹肉素翅灌湯餃」一客，成人無限暢飲精選紅、白餐酒",
-        "自助午餐有即煮紅燒牛肉麵、刺身壽司、麵包蟹；晚餐有雪花蟹爪、鐵板燒香煎牛舌、Mövenpick 雪糕",
-        "預訂期 9/29 15:00 至 10/5 23:59，使用期 10/1–10/31"
-      ],
-      "url": "https://hk.ulifestyle.com.hk/activity/detail/20111757/",
-      "sourceLabel": "U Lifestyle 港生活 · KKday 線上旅展",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111757/",
-      "tags": [
-        "自助餐",
-        "買一送二",
-        "尖沙咀",
-        "限量",
-        "10月適用"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-yuanweixiaoji-crab-lobster-steam-20261001",
       "category": "dining",
@@ -94,7 +57,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -128,7 +91,7 @@ window.DEAL_DATA = {
         "香港出發"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -163,7 +126,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -198,7 +161,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -238,7 +201,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -277,7 +240,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -316,7 +279,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -351,7 +314,7 @@ window.DEAL_DATA = {
         "限時搶購"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -385,7 +348,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -420,7 +383,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -455,7 +418,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -490,7 +453,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -526,7 +489,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -564,7 +527,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -602,7 +565,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -639,7 +602,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -674,7 +637,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -709,7 +672,7 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -740,7 +703,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -771,7 +734,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -802,7 +765,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -832,7 +795,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -867,7 +830,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -902,7 +865,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 56,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -939,7 +902,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 69,
+      "daysLeft": 68,
       "status": "active"
     },
     {
@@ -974,7 +937,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 74,
+      "daysLeft": 73,
       "status": "active"
     },
     {
@@ -2561,6 +2524,43 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-lodgewood-gardenroom-flashsale-20260929",
+      "category": "dining",
+      "title": "尖沙咀龍堡國際園林閣自助午餐 HK$88，晚餐買一送二",
+      "subtitle": "KKday 線上旅展快閃 · 今日 15:00 開搶 · 10 月任食",
+      "venue": "尖沙咀柯士甸道 8 號 龍堡國際閣樓 園林閣咖啡室",
+      "priceLabel": "自助午餐（星期一至五）KKday 旅展限定 HK$88/位（原價 HK$317）；買一送二 HK$345/3 位（人均 HK$115）；買一送一 HK$346/2 位（人均 HK$173）。自助晚餐買一送二 HK$585/3 位（人均 HK$195，買 1 位成人送 1 位成人＋1 位 10 歲或以下小童）、買一送一 HK$586/2 位（人均 HK$293）；晚餐原價 HK$537/位",
+      "priceValue": 88,
+      "originalLabel": "自助午餐原價 HK$317/位、自助晚餐原價 HK$537/位",
+      "discountPct": 72,
+      "endsAt": "2026-10-05T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-09-29 15:00 至 10-05 23:59；使用日期 2026-10-01 至 10-31（午餐 12:00-14:30、晚餐 18:00-21:00）",
+      "summary": "尖沙咀龍堡國際園林閣咖啡室 KKday 線上旅展快閃，今日下午 15:00 開搶：平日自助午餐 HK$88/位（原價 HK$317），買一送二 3 位 HK$345（人均 HK$115）；「味聚東南亞」自助晚餐買一送二 3 位 HK$585（人均 HK$195），晚餐每位送「上湯蟹肉素翅灌湯餃」一客，成人仲可以無限暢飲精選紅白酒。餐廳就在九龍公園旁，開揚綠蔭景致，10 月全月適用。",
+      "highlights": [
+        "自助午餐（星期一至五）HK$88/位，原價 HK$317／位",
+        "午餐買一送二 3 位 HK$345（人均 HK$115）；買一送一 2 位 HK$346（人均 HK$173）",
+        "晚餐買一送二 3 位 HK$585（人均 HK$195）；買一送一 2 位 HK$586（人均 HK$293）",
+        "晚餐每位送「上湯蟹肉素翅灌湯餃」一客，成人無限暢飲精選紅、白餐酒",
+        "自助午餐有即煮紅燒牛肉麵、刺身壽司、麵包蟹；晚餐有雪花蟹爪、鐵板燒香煎牛舌、Mövenpick 雪糕",
+        "預訂期 9/29 15:00 至 10/5 23:59，使用期 10/1–10/31"
+      ],
+      "url": "https://hk.ulifestyle.com.hk/activity/detail/20111757/",
+      "sourceLabel": "U Lifestyle 港生活 · KKday 線上旅展",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111757/",
+      "tags": [
+        "自助餐",
+        "買一送二",
+        "尖沙咀",
+        "限量",
+        "10月適用"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
       "daysLeft": 0,
       "status": "expired"
     }
