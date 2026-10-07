@@ -1,11 +1,9 @@
 {
   "meta": {
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-    "updated": "2026-10-05",
+    "updated": "2026-10-07",
     "minRating": 4.2,
     "rotation": [
-      "高松",
-      "金澤",
       "橫濱",
       "名古屋",
       "神戶",
@@ -16,7 +14,9 @@
       "福岡",
       "札幌",
       "東京",
-      "仙台"
+      "仙台",
+      "高松",
+      "金澤"
     ]
   },
   "eats": [
@@ -630,6 +630,56 @@
       "sourceLabel": "Bigfang 仙台牛舌推薦排名表（列明 Google 評分 4.3／2,255 則，2026 年 3 月快照）；Tabelog 店頁確認地址為 Daiwa Roynet 酒店仙台 1F",
       "sourceUrl": "https://www.bigfang.tw/blog/post/sendai-gyutan",
       "addedAt": "2026-10-05"
+    },
+    {
+      "id": "jp-takamatsu-ueharaya-honten",
+      "name": "讚岐烏龍麵 上原屋本店",
+      "nameEn": "Sanuki Udon Ueharaya Honten",
+      "city": "高松",
+      "area": "栗林町（栗林公園東側；琴電栗林公園站步行約 5 分鐘、路線巴士「室北口」站步行約 3 分鐘）",
+      "cuisine": "讚岐烏龍麵（自助式）",
+      "signature": "生醬油烏龍、冷かけ烏龍、釜玉烏龍、現炸天婦羅（じゃこかつ、高野豆腐天）、關東煮",
+      "rating": 4.3,
+      "reviews": 2932,
+      "ratingCheckedAt": "2026-10-07",
+      "priceRange": "¥300–1,000（烏龍麵約 ¥300 起，天婦羅與關東煮逐件另計）",
+      "address": "香川県高松市栗林町1-18-8",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AE%83%E5%B2%90%E3%81%86%E3%81%A9%E3%82%93%20%E4%B8%8A%E5%8E%9F%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E9%A6%99%E5%B7%9D%E7%9C%8C%E9%AB%98%E6%9D%BE%E5%B8%82%E6%A0%97%E6%9E%97%E7%94%BA1-18-8",
+      "blurb": "栗林公園東門外、行完米芝蓮三星庭園就到的自助烏龍麵老店，在高松市內屬「幾乎冇一刻唔排隊」的一批。流程好簡單：先拎托盤夾天婦羅同關東煮，再到櫃檯講玉數拎麵，最後自己加湯加蔥。湯頭每朝用沙丁魚同醬油熬，清得見底但鮮味足；天婦羅係現炸，じゃこかつ同高野豆腐天係熟客指定。Google 4.3 分、接近三千則評論，係四國烏龍麵店中樣本數最大的一批。",
+      "tips": [
+        "自助流程：入門取托盤 → 揀天婦羅／關東煮 → 到櫃檯講玉數（小／中／大）→ 自己加湯、蔥、天かす → 最後付款。牆上有圖示，第一次去都唔會亂。",
+        "營業時間各來源寫法唔一致（09:00–16:00 或 09:30–14:30），共通點係「麵或湯賣完即收」，實際以店家當日公佈為準，太晏去有機會扑空。",
+        "定休日為星期四及星期日（以店家公佈為準）；星期日休息係旅客最常中招的一點。",
+        "店旁有約 18 個免費車位但午市經常爆滿；唔開車可由琴電栗林公園站行約 5 分鐘，或路線巴士「室北口」站行約 3 分鐘。"
+      ],
+      "sourceLabel": "Wanderlog 地點頁（引用 Google 評分 4.3 與 2,932 則評論）＋ yenYus Diary（列明 Google 4.3 星、2,000 多則評論；Tabelog 3.77）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/2668553/sanuki-udon-ueharaya",
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-kanazawa-menya-taiga",
+      "name": "麺屋大河",
+      "nameEn": "Menya Taiga",
+      "city": "金澤",
+      "area": "堀川町（JR 金澤站東口步行約 4–5 分鐘）",
+      "cuisine": "拉麵",
+      "signature": "特製味噌拉麵（赤白味噌混合湯底）、能登豚炭火吊燒叉燒、能登豚叉燒丼、蝦湯／烏賊墨口味",
+      "rating": 4.4,
+      "reviews": 3470,
+      "ratingCheckedAt": "2026-10-07",
+      "priceRange": "¥1,000 以內（拉麵大多 ¥1,000 內，叉燒丼另計）",
+      "address": "石川県金沢市堀川町6-3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E5%B1%8B%E5%A4%A7%E6%B2%B3%20%E7%9F%B3%E5%B7%9D%E7%9C%8C%E9%87%91%E6%B2%A2%E5%B8%82%E5%A0%80%E5%B7%9D%E7%94%BA6-3",
+      "blurb": "金澤拉麵界最有名的一碗，離 JR 金澤站東口只係行四、五分鐘，車站酒店圈步行可達。招牌濃厚味噌用赤、白味噌混合再加動物系湯底，入口醇厚但尾韻有淡淡柚香；麵係中太縮麵、彈牙掛湯，配能登豚炭火吊燒叉燒。入座會送一杯免費生薑汁。有中英文菜單。開店前已經有人排，想唔排就 11:30 前到。",
+      "tips": [
+        "開店前已有人龍：午市 11:00 開門、晚市 17:30 開始，兩段都要排；想避人潮就 11:30 前到。",
+        "有中文／英文菜單，唔識日文都點得到；點餐採飯後結帳，可用現金與 PayPay 等無現金方式。",
+        "招牌係特製味噌拉麵，另可試蝦湯或烏賊墨等限定口味；食量大的可以加點能登豚叉燒丼。",
+        "全年無休（以店家公佈為準）；營業時間各來源寫法略有出入，出發前先查店家最新公佈。"
+      ],
+      "sourceLabel": "Wanderlog 地點頁（引用 Google 評分 4.4 與 3,470 則評論）＋ Yuku Japan（Google 4.4／3,411 則）；Retty match score 4.41",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/1184365/ramen-taiga",
+      "addedAt": "2026-10-07"
     }
   ]
 }

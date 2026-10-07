@@ -1,20 +1,20 @@
 {
   "meta": {
     "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-    "updated": "2026-09-30",
+    "updated": "2026-10-07",
     "minRating": 4.3,
     "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
     "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
     "rotation": [
-      "沖繩",
-      "四國",
       "中部／東海",
       "九州",
       "東北",
       "關東",
       "關西",
       "中國／瀨戶內",
-      "北海道"
+      "北海道",
+      "沖繩",
+      "四國"
     ]
   },
   "bars": [
@@ -383,6 +383,106 @@
       "sourceLabel": "Wanderlog（引用 Google 評分 4.7、51 則）",
       "sourceUrl": "https://wanderlog.com/zh/place/details/8073462/bar-gardamair",
       "addedAt": "2026-09-30"
+    },
+    {
+      "id": "jp-bar-takamatsu-shamrock",
+      "name": "shamrock（三葉草）",
+      "nameEn": "shamrock",
+      "city": "高松",
+      "area": "南新町",
+      "region": "shikoku",
+      "barType": "whisky",
+      "signature": "約 4,000 款威士忌收藏（選桶偏 refill sherry 與 bourbon cask）；同一蒸餾所不同年份的垂直試飲",
+      "rating": 4.7,
+      "reviews": 187,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "店內冇公開價目表，以現場酒單為準；建議入座前先講預算",
+      "address": "香川県高松市南新町10-1 木内ビル 2F（商店街側）",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=shamrock%20%E5%8D%97%E6%96%B0%E7%94%BA%20%E9%AB%98%E6%9D%BE",
+      "blurb": "高松市中心一間樓上小店，店面細但酒架驚人——約 4,000 款威士忌，選桶方向以 refill sherry 同 bourbon cask 見長，亦有大路品牌、雞尾酒同 highball。店主長居英國多年、英語流利，會先問你嘅口味同打算飲幾杯，再逐款拎瓶出嚟講。多名外國客人形容呢度係「蘇格蘭以外最難忘嘅威士忌體驗」。",
+      "highlights": [
+        "約 4,000 款威士忌收藏，被外國客人形容為「威士忌博物館」",
+        "選桶偏 refill sherry 與 bourbon cask，亦供應大路品牌、雞尾酒與 highball",
+        "店主長居英國多年、英語流利，會按你口味同預算逐款介紹",
+        "可以試同一蒸餾所唔同年份（vertical tasting），比較酒廠風格變化"
+      ],
+      "tips": [
+        "週日、週一、週二休息；營業日約 19:00 開始，週末常滿，建議平日或早段去",
+        "店內冇公開價目表，入座前先講預算（例如講「予算 5,000 円」）最穩陣",
+        "座位費（チャージ）各店不同，呢度以現場為準，入座前可以問一句",
+        "位置在商店街側大廈 2 樓，用 Google Maps 搜店名比搜地址易找",
+        "小店座位少、氣氛安靜，唔好大聲講話"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.7、187 則）",
+      "sourceUrl": "https://app.wanderlog.com/place/details/2657883",
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-bar-takamatsu-tabishiki",
+      "name": "BAR 足袋（Bar Tabishiki）",
+      "nameEn": "Bar Tabishiki",
+      "city": "高松",
+      "area": "瓦町",
+      "region": "shikoku",
+      "barType": "cocktail",
+      "signature": "季節水果與香草雞尾酒（用瀨戶內、四國食材配自家製糖漿）",
+      "rating": 4.6,
+      "reviews": 283,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "每人約 ¥3,000–7,000（來源列示區間，以現場為準）",
+      "address": "香川県高松市瓦町1-4-12 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20%E8%B6%B3%E8%A2%8B%20%E7%93%A6%E7%94%BA%20%E9%AB%98%E6%9D%BE",
+      "blurb": "藏在高松瓦町石板小巷盡頭，門口細到似茶室入口，行過幾次都會錯過。推門入去係一張用 2,000 年古木做嘅吧檯，加一整幅酒牆。雞尾酒主打瀨戶內同四國食材、配自家製糖漿，季節一變酒單就跟住變；裝潢講究但價位合理，營業到凌晨，適合做夜晚行程最後一站。",
+      "highlights": [
+        "茶室式小巷入口，找店本身就係體驗嘅一部分",
+        "吧檯用 2,000 年古木，後吧一整幅酒牆",
+        "雞尾酒用瀨戶內、四國食材配自家製糖漿，可按口味即場調製",
+        "部分店員英語可通，營業至凌晨",
+        "裝潢走高級路線，但價位相對合理"
+      ],
+      "tips": [
+        "入口極隱蔽，藏在瓦町石板小巷內；跟 Google Maps 座標行到底，見到細細嘅茶室式門口就係",
+        "部分店員英語可通，可以直接講自己鍾意咩口味（fruity／smoky 等）",
+        "營業時間約 19:00 至翌日 4:00（來源列示），深夜一樣有得飲",
+        "座位費與服務費以現場為準，埋單前可先問清楚",
+        "附近就係高松最旺嘅食街，可以食完再嚟"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.6、283 則）；Restaurant Guru 同列 4.6／279",
+      "sourceUrl": "https://wanderlog.com/place/details/7306324/bar-tabishiki",
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-bar-naha-ellequio",
+      "name": "El Lequio",
+      "nameEn": "El Lequio",
+      "city": "那覇",
+      "area": "安里",
+      "region": "okinawa",
+      "barType": "cocktail",
+      "signature": "以泡盛等琉球食材入酒的雞尾酒，混合拉丁美洲風味",
+      "rating": 4.4,
+      "reviews": 225,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "每人約 ¥2,000–6,000（來源列示區間，以現場為準）",
+      "address": "沖縄県那覇市安里1-3-3 1F-A",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=El%20Lequio%20%E5%AE%89%E9%87%8C%20%E9%82%A3%E8%A6%87",
+      "blurb": "那霸安里嘅雞尾酒吧，同一集團旗下多間店都攞過獎。室內走殖民地混合琉球風格，燈光偏暖，重現 1920 年代氣氛。雞尾酒用泡盛等本地食材做基底，混拉丁美洲風味，招牌包括島果、香草類嘅創作；調酒師英語流利，會問清楚你嘅口味再落手。",
+      "highlights": [
+        "用泡盛等琉球食材入酒，混合拉丁美洲風味的原創雞尾酒",
+        "殖民地×琉球風內裝，暖色燈光，屬成熟系酒吧",
+        "調酒師英語流利，同客人傾得埋",
+        "與同一集團其他店同時獲獎，屬那霸得獎酒吧之一"
+      ],
+      "tips": [
+        "位於路面層 1F-A 室，ゆいレール（單軌）安里站徒步約 3 分鐘",
+        "網上評分兩極（5 星 158 個、1 星 13 個），服務評價不一；一開始就講清楚自己想要咩口味最實際",
+        "座位費（チャージ）與服務費以現場為準，入座前問一句「チャージはいくらですか？」最穩",
+        "20:00–02:00 營業，夜深時段最旺",
+        "行完國際通可以直接行過去，唔使搭車"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.4、225 則）；Restaurant Guru 同列 4.4／210",
+      "sourceUrl": "https://www.wanderlog.com/zh/place/details/5363280/el-lequio",
+      "addedAt": "2026-10-07"
     }
   ]
 }

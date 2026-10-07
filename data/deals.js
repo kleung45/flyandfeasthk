@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-06T11:10:41+08:00",
+    "updated": "2026-10-07T10:07:58+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,54 +12,15 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "stats": {
       "total": 73,
-      "active": 26,
-      "ending": 6,
-      "expired": 47,
+      "active": 25,
+      "ending": 5,
+      "expired": 48,
       "flight": 8,
       "dining": 65,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-yuanweixiaoji-crab-lobster-steam-20261001",
-      "category": "dining",
-      "title": "原味小聚大閘蟹龍蝦蒸鍋餐買一送一，人均 HK$269",
-      "subtitle": "150 分鐘海鮮蒸鍋 · 預訂至 10/6 · 使用期 10/1–12/15",
-      "venue": "旺角原味小聚／觀塘原味小聚",
-      "priceLabel": "KKday 獨家：買一送一 $538/2 位（人均 $269，原價 $538/位）、買二送二 $1,076/4 位（人均 $269）；另有低至 56 折單人方案 $298/位。每位另收醬油及加一服務費 $38，現場以現金支付",
-      "priceValue": 269,
-      "originalLabel": "原價 $538/位（150 分鐘經典大閘蟹龍蝦海鮮蒸鍋餐）",
-      "discountPct": 50,
-      "endsAt": "2026-10-06T23:59:00+08:00",
-      "period": "KKday 開搶：2026-09-30 15:00 至 2026-10-06 23:59；使用日期 2026-10-01 至 2026-12-15；買一送一專享時段為 19:30 前結帳離座或 21:00 後入座、買二送二及 56 折方案任何時段（12:00–23:30）；須以 2 的倍數購買",
-      "summary": "蒸氣鍋專門店「原味小聚」新推 150 分鐘「經典大閘蟹龍蝦海鮮蒸鍋餐」，每位有江蘇大閘蟹 2 隻、生猛龍蝦半隻、鮮鮑魚 1 隻、生蠔 1 隻及時令貝類，仲有安格斯牛、牛丸王同大蝦蒸陳村粉，最後食埋馬拉糕。KKday 買一送一 $538 兩位，人均 $269（原價 $538/位），使用期長到 12 月 15 日，秋天食蟹最啱。每位另收 $38 醬油及加一，現場現金。",
-      "highlights": [
-        "買一送一 $538/2 位，人均 $269（原價 $538/位，等於半價）；買二送二同價人均 $269",
-        "每位內容：江蘇大閘蟹 2 隻、龍蝦半隻、鮮鮑魚 1 隻、生蠔 1 隻、時令貝類 1 份",
-        "另有安格斯牛、牛丸王、大蝦蒸陳村粉、高山娃娃菜、有機金菇菜及馬拉糕",
-        "買一送一專享時段：19:30 前結帳離座 或 21:00 後入座；買二送二適用任何時段",
-        "每位另收醬油及加一服務費 $38（現場現金支付）；須以 2 的倍數購買",
-        "使用期 2026-10-01 至 12-15，橫跨整個大閘蟹季"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/126204",
-      "sourceLabel": "KKday（產品 126204）· U Lifestyle 港生活",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111905/",
-      "tags": [
-        "蒸氣鍋",
-        "大閘蟹",
-        "龍蝦",
-        "買一送一",
-        "5折",
-        "旺角",
-        "觀塘"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "flight-hkexpress-japan-flashsale-20261005",
       "category": "flight",
@@ -91,7 +52,7 @@ window.DEAL_DATA = {
         "香港出發"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -126,7 +87,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -161,7 +122,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -201,7 +162,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -240,7 +201,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -279,7 +240,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -314,7 +275,7 @@ window.DEAL_DATA = {
         "限時搶購"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -348,7 +309,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -383,7 +344,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -418,7 +379,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -453,7 +414,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -489,7 +450,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -527,7 +488,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -565,7 +526,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -602,7 +563,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -637,7 +598,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -672,7 +633,7 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -703,7 +664,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -734,7 +695,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -765,7 +726,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -795,7 +756,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -830,7 +791,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -865,7 +826,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -902,7 +863,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -937,7 +898,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 73,
+      "daysLeft": 72,
       "status": "active"
     },
     {
@@ -2557,6 +2518,45 @@ window.DEAL_DATA = {
         "尖沙咀",
         "限量",
         "10月適用"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-yuanweixiaoji-crab-lobster-steam-20261001",
+      "category": "dining",
+      "title": "原味小聚大閘蟹龍蝦蒸鍋餐買一送一，人均 HK$269",
+      "subtitle": "150 分鐘海鮮蒸鍋 · 預訂至 10/6 · 使用期 10/1–12/15",
+      "venue": "旺角原味小聚／觀塘原味小聚",
+      "priceLabel": "KKday 獨家：買一送一 $538/2 位（人均 $269，原價 $538/位）、買二送二 $1,076/4 位（人均 $269）；另有低至 56 折單人方案 $298/位。每位另收醬油及加一服務費 $38，現場以現金支付",
+      "priceValue": 269,
+      "originalLabel": "原價 $538/位（150 分鐘經典大閘蟹龍蝦海鮮蒸鍋餐）",
+      "discountPct": 50,
+      "endsAt": "2026-10-06T23:59:00+08:00",
+      "period": "KKday 開搶：2026-09-30 15:00 至 2026-10-06 23:59；使用日期 2026-10-01 至 2026-12-15；買一送一專享時段為 19:30 前結帳離座或 21:00 後入座、買二送二及 56 折方案任何時段（12:00–23:30）；須以 2 的倍數購買",
+      "summary": "蒸氣鍋專門店「原味小聚」新推 150 分鐘「經典大閘蟹龍蝦海鮮蒸鍋餐」，每位有江蘇大閘蟹 2 隻、生猛龍蝦半隻、鮮鮑魚 1 隻、生蠔 1 隻及時令貝類，仲有安格斯牛、牛丸王同大蝦蒸陳村粉，最後食埋馬拉糕。KKday 買一送一 $538 兩位，人均 $269（原價 $538/位），使用期長到 12 月 15 日，秋天食蟹最啱。每位另收 $38 醬油及加一，現場現金。",
+      "highlights": [
+        "買一送一 $538/2 位，人均 $269（原價 $538/位，等於半價）；買二送二同價人均 $269",
+        "每位內容：江蘇大閘蟹 2 隻、龍蝦半隻、鮮鮑魚 1 隻、生蠔 1 隻、時令貝類 1 份",
+        "另有安格斯牛、牛丸王、大蝦蒸陳村粉、高山娃娃菜、有機金菇菜及馬拉糕",
+        "買一送一專享時段：19:30 前結帳離座 或 21:00 後入座；買二送二適用任何時段",
+        "每位另收醬油及加一服務費 $38（現場現金支付）；須以 2 的倍數購買",
+        "使用期 2026-10-01 至 12-15，橫跨整個大閘蟹季"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/126204",
+      "sourceLabel": "KKday（產品 126204）· U Lifestyle 港生活",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111905/",
+      "tags": [
+        "蒸氣鍋",
+        "大閘蟹",
+        "龍蝦",
+        "買一送一",
+        "5折",
+        "旺角",
+        "觀塘"
       ],
       "sample": false,
       "postedFacebook": true,

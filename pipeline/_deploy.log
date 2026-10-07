@@ -1,0 +1,17 @@
+== 重建網站資料 ==
+主資料庫 67 筆，草稿新增 6 筆
+完成：D:\Work_buddy_Project\2026-09-10-14-41-48\hk-deals\data\deals.json / D:\Work_buddy_Project\2026-09-10-14-41-48\hk-deals\data\deals.js
+  進行中 25 筆（當中 5 筆 3 日內結束）、已結束 48 筆
+  機票 8 / 餐飲 65 / 酒店 0
+  靜態預渲染 25 筆優惠卡片 + ItemList 結構化資料已寫入 index.html
+  sitemap.xml 已更新（lastmod 2026-10-07）
+  GA4 gtag 已注入（G-83BHD7MNDL）
+  GTM 已注入（head script + body noscript，GTM-KQVGKZTS）
+  多頁內容：73 個優惠詳情頁、4 個分類／總覽頁、27 個日本美食頁（另 9 個地區排行頁）、15 個日本酒店頁（另 8 個地區排行頁）、10 個日本自駕頁（另 9 個地區頁＋1 篇實務指南）、15 個日本酒吧頁（另 9 個地區頁＋1 篇禮儀指南）、3 篇攻略、4 個合規頁；sitemap 收錄 194 條 URL
+
+== 產生社群文案 ==
+完成：D:\Work_buddy_Project\2026-09-10-14-41-48\hk-deals\outbox\2026-10-07
+  貼文 25 筆 + 1 則速報，社群文案 4 份（FB／Threads／IG／小紅書），manifest.json 已產生
+
+
+== 推送並部署 ==

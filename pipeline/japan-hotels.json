@@ -1,10 +1,9 @@
 {
   "meta": {
     "note": "日本高性價比酒店推介資料庫。收錄鐵律：(1) 每間必須有可引用的來源網頁明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，絕不自行評分或估算。(2) 地址須為門牌級。(3) 價位只寫來源有講的數字並標明查價日期；酒店房價浮動，頁面一律註明以訂房平台即時報價為準。(4)「性價比」以可量化硬指標判斷（Google 評分／距車站步行時間／評論數規模／房型與設施亮點），非編輯主觀評選。評分會浮動，ratingCheckedAt 記錄核對日期，出發前請以 Google Map 即時顯示為準。與 store.json（優惠）、japan.json（美食）分開管理，由 build_pages.py 讀取產生 /japan/hotels/ 專欄。",
-    "updated": "2026-10-05",
+    "updated": "2026-10-07",
     "minRating": 4.3,
     "rotation": [
-      "橫濱",
       "神戶",
       "金澤",
       "大阪",
@@ -15,7 +14,8 @@
       "廣島",
       "東京",
       "福岡",
-      "仙台"
+      "仙台",
+      "橫濱"
     ],
     "pricePolicy": "價格一律標示「參考價＋查價日期」，並註明以訂房平台即時報價為準；未見可靠公開參考價者，不列數字，只寫「以訂房平台即時報價為準」。"
   },
@@ -406,6 +406,105 @@
       "sourceLabel": "Wanderlog 地點頁（列明來自 Google 4.3 分／3,450 則評論）＋ Google 酒店實體頁（4.3／3,452 則）",
       "sourceUrl": "https://wanderlog.com/place/details/842669",
       "addedAt": "2026-10-05"
+    },
+    {
+      "id": "jp-yokohama-bay-hotel-tokyu",
+      "name": "橫濱灣東急大飯店",
+      "nameEn": "The Yokohama Bay Hotel Tokyu",
+      "city": "橫濱",
+      "area": "西區港未來（港未來線港未來站步行約 1 分鐘，與 Queen's Square 商場直結）",
+      "type": "港未來地標 4 星酒店（1997 年開業）",
+      "highlight": "港未來區唯一全房型附陽台，房內直望摩天輪與海灣",
+      "rating": 4.4,
+      "reviews": 6197,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "以訂房平台即時報價為準（收錄時未見可靠公開參考價，故不列數字）",
+      "address": "神奈川県横浜市西区みなとみらい2-3-7",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%AA%E6%B5%9C%E3%83%99%E3%82%A4%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E6%80%A5%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E8%A5%BF%E5%8C%BA%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%842-3-7",
+      "blurb": "港未來站正上方的老牌地標酒店，行出閘一分鐘、穿過 Queen's Square 商場就到，落雨都唔使開遮。全館最大賣點係「港未來區唯一全房型都有陽台」——陽台正面對住 Cosmo Clock 摩天輪同海灣，夜景係同區其他酒店換唔到的。館內有 4 間餐廳、spa 同健身室；自助早餐的鮮榨橙汁同鮮果係住客最常提的一項。Google 4.4 分、逾六千則評論，樣本數在橫濱港未來一帶數一數二。",
+      "valuePoints": [
+        "港未來站步行約 1 分鐘，並與 Queen's Square 商場室內直結；去 Landmark Tower、Pacifico 會議中心、紅磚倉庫全部步行範圍。",
+        "港未來區唯一全房型附陽台：陽台正望摩天輪與海灣夜景，同區同級酒店冇呢個配置。",
+        "Google 4.4 分、6,197 則評論，係橫濱港未來一帶樣本數最大的酒店之一，分數唔會因為幾則新評價就大上大落。",
+        "館內設 4 間餐廳、spa 與健身室；自助早餐有即榨橙汁與鮮果，屬房價內已包的加分項。",
+        "酒店 1997 年開業，部分住客反映裝潢風格偏舊，但房間面積與景觀在港未來一帶仍屬前段。"
+      ],
+      "tips": [
+        "部分房型窗戶唔開得；對通風有要求就入住時同櫃檯講，請職員協助。",
+        "館內冇自助洗衣房，長住或帶小朋友要留意。",
+        "每年草莓甜品自助（Strawberry Buffet）一開放預約就滿，想食要早訂。",
+        "大堂在 2 樓；的士落客後如冇人手即時幫手搬行李，可以主動請職員協助寄存。",
+        "評分與評論數為第三方引用快照，出發前請以 Google Map 即時顯示為準。"
+      ],
+      "sourceLabel": "Wanderlog 地點頁（引用 Google 評分 4.4 與 6,197 則評論；Tripadvisor 3.8／43 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/120399/the-yokohama-bay-hotel-tokyu",
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-yokohama-sotetsu-splaisir",
+      "name": "相鐵飯店 THE SPLAISIR 橫濱",
+      "nameEn": "SOTETSU HOTELS THE SPLAISIR YOKOHAMA",
+      "city": "橫濱",
+      "area": "神奈川區鶴屋町（THE YOKOHAMA FRONT 4F；JR 橫濱站北西口步行約 3 分鐘，有天橋接駁）",
+      "type": "公寓式 4 星酒店（2024 年 6 月開業）",
+      "highlight": "2024 新開，房內附廚房與獨立洗衣機，橫濱站步行 3 分鐘",
+      "rating": 4.6,
+      "reviews": 427,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "以訂房平台即時報價為準（收錄時未見可靠公開參考價，故不列數字）",
+      "address": "神奈川県横浜市神奈川区鶴屋町1-41 THE YOKOHAMA FRONT 4F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9B%B8%E9%89%84%E3%83%9B%E3%83%86%E3%83%AB%E3%82%BA%20%E3%82%B6%E3%83%BB%E3%82%B9%E3%83%97%E3%83%A9%E3%82%B8%E3%83%BC%E3%83%AB%20%E6%A8%AA%E6%B5%9C%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E7%A5%9E%E5%A5%88%E5%B7%9D%E5%8C%BA%E9%B6%B4%E5%B1%8B%E7%94%BA1-41",
+      "blurb": "2024 年 6 月開幕、開在橫濱站北西口 THE YOKOHAMA FRONT 商場 4 樓的新酒店，主打公寓式房型：部分房間有廚房（kitchenette）同房內獨立洗衣機，長住或帶小朋友嘅實際方便程度同區無人比。4.6 分係橫濱站周邊酒店中少見的高分（同區多數落在 4.2–4.4）；館內另有健身室、投幣洗衣、麵包店同餐廳，行李可用 IC 卡自助寄存，入住退房一律自助機，唔使排隊。",
+      "valuePoints": [
+        "JR 橫濱站北西口步行約 3 分鐘，並有天橋／商場通道接駁，拖行李唔使行馬路。",
+        "2024 年 6 月開業，硬件全新；同區同年份的新酒店房價通常貴一截。",
+        "公寓式房型：部分房間附廚房（kitchenette）與房內獨立洗衣機，長住或帶小朋友最實用——橫濱站周邊商務酒店少見。",
+        "Google 4.6 分、427 則評論；4.6 明顯高於橫濱站周邊酒店平均（多數 4.2–4.4）。",
+        "館內設健身室、投幣洗衣、麵包店與餐廳；行李用 IC 卡自助寄存，check-in／check-out 用自助機，效率高。"
+      ],
+      "tips": [
+        "非營業時間使用健身室要行側門、上四層樓梯，訂之前留意。",
+        "房內空調約 30 分鐘後會重設為預設設定，介意自己控溫要留意。",
+        "酒店在 THE YOKOHAMA FRONT 商場 4 樓，樓上樓下都有餐廳同店舖，落雨可以直接在樓內解決食買。",
+        "評分與評論數為第三方引用快照，出發前請以 Google Map 即時顯示為準。"
+      ],
+      "sourceLabel": "Wanderlog 地點頁（引用 Google 評分 4.6 與 427 則評論）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/9675745/sotetsu-hotels-the-splaisir-yokohama",
+      "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-yokohama-mitsui-garden-minatomirai",
+      "name": "三井花園飯店橫濱港未來普米爾",
+      "nameEn": "Mitsui Garden Hotel Yokohama Minatomirai PREMIER",
+      "city": "橫濱",
+      "area": "西區港未來（港未來站步行約 5 分鐘；櫻木町站約 750 米）",
+      "type": "設計系 4 星酒店（2023 年 5 月開業）",
+      "highlight": "20 樓大堂連戶外露台，天台室內外泳池加按摩池",
+      "rating": 4.4,
+      "reviews": 1036,
+      "ratingCheckedAt": "2026-10-07",
+      "priceBand": "以訂房平台即時報價為準（收錄時未見可靠公開參考價，故不列數字）",
+      "address": "神奈川県横浜市西区みなとみらい3-3-3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E4%BA%95%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB%E6%A8%AA%E6%B5%9C%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%84%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E8%A5%BF%E5%8C%BA%E3%81%BF%E3%81%AA%E3%81%A8%E3%81%BF%E3%82%89%E3%81%843-3-3",
+      "blurb": "2023 年 5 月開業的設計系酒店，賣點集中在頂樓：20 樓大堂連戶外露台，可以一路望住富士山方向同港未來天際線；天台有室內外加熱泳池同按摩池，喺呢個價位帶嘅橫濱酒店入面屬罕見配置。房間由 25 平方米起，對日本市區酒店算偏大，部分房型天氣好可以望到富士山。地點在港未來核心，行去 Cosmo World、杯麵博物館同紅磚倉庫都在步行圈。",
+      "valuePoints": [
+        "港未來站步行約 5 分鐘、櫻木町站約 750 米；去 Cosmo World、杯麵博物館、紅磚倉庫全部行得到。",
+        "2023 年 5 月開業，硬件新；20 樓大堂連戶外露台係住客最常提的打卡位。",
+        "天台設室內外加熱泳池與按摩池——同區同價位帶酒店極少見；另設住客免費健身室。",
+        "房間由 25 平方米起，對日本市區酒店屬偏大；部分房型晴天可望富士山。",
+        "Google 4.4 分、1,036 則評論，樣本足夠，屬穩定高分而非開幕虛高。",
+        "2 樓有 Lawson，附近有 7-11 同 FamilyMart，宵夜唔使周圍搵。"
+      ],
+      "tips": [
+        "館內冇大浴場／溫泉，想泡湯要另揀有溫泉的酒店。",
+        "重視私隱的話，訂房時要求唔好訂面向公共區域或窗戶有遮擋的房型。",
+        "位置在辦公區一帶，夜晚較靜；如果主要行程在 Pacifico 會議中心，留意步行距離。",
+        "早餐自助評價「選擇充足但變化唔多」，唔一定要加購。",
+        "評分與評論數為第三方引用快照，出發前請以 Google Map 即時顯示為準。"
+      ],
+      "sourceLabel": "Wanderlog 地點頁（引用 Google 評分 4.4 與 1,036 則評論）",
+      "sourceUrl": "https://wanderlog.com/place/details/6303448",
+      "addedAt": "2026-10-07"
     }
   ]
 }
