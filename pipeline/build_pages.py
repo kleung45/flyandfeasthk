@@ -866,6 +866,16 @@ def layout(
             f"f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','{gtm}');</script>\n"
         )
 
+    # Google AdSense（Auto Ads）：客戶端 ID 在 store.json 的 meta.adsenseClientId 設定；
+    # 未設定或格式不符則不注入。只放載入腳本，不放 <ins> 廣告單元——單元 ID 由 AdSense
+    # 後台建立，Auto Ads 會自行擺位，切勿自創 slot ID。
+    adsense = (meta.get("adsenseClientId") or "").strip()
+    if adsense and re.match(r"^ca-pub-\d{10,20}$", adsense, re.IGNORECASE):
+        head_extra += (
+            "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/"
+            f"adsbygoogle.js?client={esc(adsense)}\"\ncrossorigin=\"anonymous\"></script>\n"
+        )
+
     ld_html = ""
     for item in (ld or []):
         ld_html += (

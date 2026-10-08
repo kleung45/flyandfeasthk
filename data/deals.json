@@ -3,167 +3,24 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-07T10:58:01+08:00",
+    "updated": "2026-10-08T14:11:49+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
     "ga4MeasurementId": "G-83BHD7MNDL",
     "gtmContainerId": "GTM-KQVGKZTS",
+    "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 78,
-      "active": 30,
-      "ending": 5,
-      "expired": 48,
+      "active": 26,
+      "ending": 3,
+      "expired": 52,
       "flight": 8,
       "dining": 70,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-hkexpress-japan-flashsale-20261005",
-      "category": "flight",
-      "title": "HK Express 日本 6 大航線快閃：單程 HK$198 起，沖繩來回連稅 HK$1,578 起",
-      "subtitle": "東京／大阪／福岡／名古屋／沖繩 · 訂票至 10/7 23:45 · 出發 10/21–1/31",
-      "route": "香港出發 · 東京（成田／羽田）、大阪、名古屋、福岡、沖繩",
-      "priceLabel": "『輕便飛』單程 HK$198 起（只包一件隨身物品）；『經濟飛』單程 HK$248 起（包一件隨身物品＋一件登機行李）。來回連稅參考：沖繩 HK$1,578 起、名古屋 HK$1,680 起、福岡 HK$1,713 起、東京羽田 HK$1,734 起、東京成田 HK$1,745 起（未連寄艙行李；以航空公司系統即時報價為準）",
-      "priceValue": 198,
-      "originalLabel": "官方標示單程票價低至 HK$198，不包括燃油附加費、稅項及其他收費",
-      "endsAt": "2026-10-07T23:45:00+08:00",
-      "period": "訂票期：2026-10-05 10:00 至 2026-10-07 23:45；旅遊日期：2026-10-21 至 2027-01-31；優惠只適用於由香港出發的初次預訂（包括多城市行程），官方列明不適用於單程機票；機位有限、售完即止",
-      "summary": "HK Express 今日起推出日本線限時快閃，東京（成田／羽田）、大阪、名古屋、福岡及沖繩六大航點『輕便飛』單程票價低至 HK$198、『經濟飛』低至 HK$248，訂票期只有三日（10 月 5 日 10:00 至 10 月 7 日 23:45），旅遊日期由 10 月 21 日至明年 1 月 31 日，橫跨初秋紅葉到冬季雪季。以媒體整理嘅連稅參考價，沖繩來回連稅約 HK$1,578 起、名古屋 HK$1,680 起、福岡 HK$1,713 起、東京約 HK$1,734–1,745 起、大阪 HK$1,769 起。留意呢個價只包一件隨身物品，要手提行李就每程加約 HK$50，寄艙行李另按件收費。",
-      "highlights": [
-        "『輕便飛』單程 HK$198 起（只包一件隨身物品）；『經濟飛』單程 HK$248 起（包一件登機行李）",
-        "沖繩來回連稅約 HK$1,578 起，係今輪最平嘅日本線（參考價，以系統即時報價為準）",
-        "訂票期只有三日：10/5 10:00 至 10/7 23:45",
-        "旅遊日期 2026-10-21 至 2027-01-31，紅葉季與雪季都覆蓋",
-        "官方列明優惠只適用於由香港出發的初次預訂，不適用於單程機票",
-        "行李另計：手提行李每程約加 HK$50，寄艙行李按件收費"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/flashsale_20261005",
-      "sourceLabel": "HK Express 官方優惠頁（flashsale_20261005）· MeetHK 旅遊情報網",
-      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/flashsale_20261005",
-      "tags": [
-        "機票",
-        "日本",
-        "限時快閃",
-        "廉航",
-        "香港出發"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-cafetoo-admiralty-20260911",
-      "category": "dining",
-      "title": "「金秋豐盛海鮮蟹宴」自助餐買二送二，人均 HK$284 起",
-      "subtitle": "港島香格里拉 cafe TOO · 網店限定預售",
-      "venue": "港島香格里拉 cafe TOO · 金鐘太古廣場 7 樓",
-      "priceLabel": "自助午餐每位 HK$568 起（買二送二後人均 HK$284 起）",
-      "priceValue": 284,
-      "originalLabel": "原價自助午餐成人每位 HK$568 起、自助晚餐每位 HK$868 起",
-      "discountPct": 50,
-      "endsAt": "2026-10-07T23:59:00+08:00",
-      "period": "網店預售期：2026-10-01 至 10-07（第二輪）／2026-09-07 至 09-09（第一輪，已結束）；用餐期：2026-10-12 至 10-28（第二輪）／2026-09-23 至 10-31（第一輪）",
-      "summary": "港島香格里拉 cafe TOO 推出「金秋豐盛海鮮蟹宴」自助餐，9 月 23 日至 10 月 31 日供應。晚市每位賓客獲贈一隻約 3.5 至 4 両的清蒸大閘蟹，另有蜘蛛蟹、貴妃蟹、花雕蛋白蒸蟹、胡椒肉蟹煲、泰式咖喱炒蟹等十多款蟹饌。經酒店網店於指定預售期預購，星期一至四（公眾假期除外）自助午餐及晚餐可享買二送二：午餐成人每位 HK$568 起，除開人均 HK$284 起；晚餐每位 HK$868 起，除開人均 HK$434 起。",
-      "highlights": [
-        "買二送二：星期一至四（公眾假期除外）自助午餐及晚餐，須經酒店網店預售期購買",
-        "另有買二送一及第二位成人半價：星期一至日（公眾假期除外）",
-        "香格里拉會會員專屬：9 月 8 折、10 月 85 折（星期一至日，公眾假期除外）",
-        "預售分兩輪：9 月 7 至 9 日（用餐期 9 月 23 日至 10 月 31 日）、10 月 1 至 7 日（用餐期 10 月 12 至 28 日）",
-        "自助午餐 12:00 起、自助晚餐 18:30 起；地址：金鐘太古廣場港島香格里拉 7 樓"
-      ],
-      "url": "https://www.shangri-la.com/hongkong/islandshangrila/dining/restaurants/cafe-too/",
-      "sourceLabel": "港島香格里拉官網 · U Food／etnet 經濟通報導",
-      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20108238/%E6%B8%AF%E5%B3%B6%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%9C%8B%E6%85%B6%E4%B8%AD%E7%A7%8B%E5%84%AA%E6%83%A0-%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7-%E9%80%81-%E7%B1%B3%E8%8A%9D%E8%93%AE%E4%B8%AD%E8%8F%9C-%E6%8A%98",
-      "tags": [
-        "酒店自助餐",
-        "買二送二",
-        "大閘蟹",
-        "金鐘"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-cafetoo-isl-lunch-b2g2-20260927",
-      "category": "dining",
-      "title": "港島香格里拉 cafe TOO 國慶快閃，自助午餐買二送二",
-      "subtitle": "金秋海鮮蟹宴 · 10/1 香格里拉精品店限量開售",
-      "venue": "金鐘太古廣場港島香格里拉 7 樓 cafe TOO",
-      "priceLabel": "自助午餐買二送二限量套票（10/1 上午 10 時起於香格里拉精品店開售，售完即止）；餐牌平日自助午餐原價每位 HK$568 起",
-      "priceValue": 284,
-      "originalLabel": "餐牌平日自助午餐每位 HK$568 起（買二送二即變相半價）",
-      "discountPct": 50,
-      "endsAt": "2026-10-07T23:59:00+08:00",
-      "period": "香格里拉精品店開售 2026-10-01 至 10-07；換領用餐 2026-10-12 至 10-28（星期一至四午市，10/19 不適用），售完即止",
-      "summary": "港島香格里拉 cafe TOO 國慶快閃：10/1 起 7 日內於香格里拉精品店搶購限量「自助午餐買二送二」套票，10/12–10/28 逢週一至四午市換領。金秋海鮮蟹宴主題，晚市仲有清蒸大閘蟹同龍蝦。限量發售，搶唔到就冇。",
-      "highlights": [
-        "自助午餐買二送二限量套票，10/1 上午 10 時精品店開售",
-        "換領用餐 10/12–10/28 週一至四午市（10/19 不適用）",
-        "金秋豐盛海鮮蟹宴主題：晚市限定清蒸大閘蟹、蜘蛛蟹、清蒸新鮮龍蝦",
-        "售完即止；以港島香格里拉官方公佈為準"
-      ],
-      "url": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
-      "sourceLabel": "港島香格里拉官方 · Trip.com 國慶優惠懶人包",
-      "sourceUrl": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
-      "tags": [
-        "自助餐",
-        "買二送二",
-        "國慶",
-        "蟹宴",
-        "金鐘"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-leewinghin-dimsun-dduck-buffet-20261001",
-      "category": "dining",
-      "title": "利榮軒等 3 店 180 分鐘點心片皮鴨放題，每位 HK$88",
-      "subtitle": "限量 45 折 · 預訂至 10/7 · 使用期 10/2–10/31",
-      "venue": "屯門利榮軒／柴灣金溏宮／九龍灣利龍軒（利東集團）",
-      "priceLabel": "KKday 快閃：成人 $88/位（原價 $198/位，約 45 折）、小童 $60/位；加送大閘蟹方案 $148/位（原價 $248/位，約 6 折，每位送約三兩重江蘇大閘蟹一隻）。兩個方案另收每位原價加一服務費（$12.8／$24.8）及茶芥 $15",
-      "priceValue": 88,
-      "originalLabel": "午市堂食原價成人 $198/位（限量 $88 方案）／$248/位（送大閘蟹方案）",
-      "discountPct": 55,
-      "endsAt": "2026-10-07T23:59:00+08:00",
-      "period": "KKday 開搶：2026-09-30 15:00 至 2026-10-07 23:59；使用日期 2026-10-02 至 2026-10-31；供應時段午市 11:30–15:00（最後截單 14:50）、最遲 13:00 入座；每次最少購 2 位",
-      "summary": "利東集團旗下屯門利榮軒、柴灣金溏宮、九龍灣利龍軒三個品牌一齊做 180 分鐘懷舊點心片皮鴨放題，成人限量 HK$88 一位（原價 $198）。放題無限任食金陵片皮鴨，鴨皮上台仲熱脆；即叫即蒸的手工點心有筍尖鮮蝦餃、蟹籽燒賣皇、香麻流沙包，大廚小菜如生炒骨、椒鹽生蝦即叫即製，每位仲送原隻鮑魚佛跳牆灌湯餃一盅。想食大閘蟹可以揀 $148 方案，每位送約三兩重一隻。記住另收加一同茶芥。",
-      "highlights": [
-        "限量成人 $88/位（原價 $198/位，約 45 折），小童 $60/位",
-        "加 $60 可選 $148/位方案，每位送約三兩重江蘇大閘蟹一隻（原價 $248/位）",
-        "180 分鐘任食金陵片皮鴨＋即叫即蒸手工點心＋即製大廚小菜",
-        "每位敬送原隻鮑魚佛跳牆灌湯餃一盅",
-        "另收每位原價加一服務費（$12.8／$24.8）及每位茶芥 $15；每次最少購 2 位",
-        "預訂期至 2026-10-07 23:59；使用期 2026-10-02 至 10-31（午市 11:30–15:00，最遲 13:00 入座）"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/547080",
-      "sourceLabel": "KKday（產品 547080）· U Lifestyle 港生活",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111905/",
-      "tags": [
-        "放題",
-        "點心",
-        "片皮鴨",
-        "45折",
-        "屯門",
-        "柴灣",
-        "九龍灣",
-        "大閘蟹"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-kowloonhotel-crabfeast-bogo-20261001",
       "category": "dining",
@@ -200,7 +57,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -239,8 +96,8 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-kyotorestaurant-hairycrab-duck-buffet-20261005",
@@ -274,8 +131,8 @@
         "限時搶購"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-sheraton-tst-cafe-lunch-bogo-20261007",
@@ -309,7 +166,7 @@
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -344,7 +201,7 @@
         "優惠碼"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -378,7 +235,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -413,7 +270,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -447,7 +304,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -482,7 +339,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -517,7 +374,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -552,7 +409,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -588,7 +445,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -626,7 +483,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -664,7 +521,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -701,7 +558,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -736,7 +593,7 @@
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -771,7 +628,7 @@
         "親子"
       ],
       "sample": false,
-      "daysLeft": 24,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -802,7 +659,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -833,7 +690,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -864,7 +721,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -894,7 +751,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -929,7 +786,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -964,7 +821,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -999,7 +856,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -1036,7 +893,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -1071,7 +928,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 72,
+      "daysLeft": 71,
       "status": "active"
     },
     {
@@ -2730,6 +2587,150 @@
         "5折",
         "旺角",
         "觀塘"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-japan-flashsale-20261005",
+      "category": "flight",
+      "title": "HK Express 日本 6 大航線快閃：單程 HK$198 起，沖繩來回連稅 HK$1,578 起",
+      "subtitle": "東京／大阪／福岡／名古屋／沖繩 · 訂票至 10/7 23:45 · 出發 10/21–1/31",
+      "route": "香港出發 · 東京（成田／羽田）、大阪、名古屋、福岡、沖繩",
+      "priceLabel": "『輕便飛』單程 HK$198 起（只包一件隨身物品）；『經濟飛』單程 HK$248 起（包一件隨身物品＋一件登機行李）。來回連稅參考：沖繩 HK$1,578 起、名古屋 HK$1,680 起、福岡 HK$1,713 起、東京羽田 HK$1,734 起、東京成田 HK$1,745 起（未連寄艙行李；以航空公司系統即時報價為準）",
+      "priceValue": 198,
+      "originalLabel": "官方標示單程票價低至 HK$198，不包括燃油附加費、稅項及其他收費",
+      "endsAt": "2026-10-07T23:45:00+08:00",
+      "period": "訂票期：2026-10-05 10:00 至 2026-10-07 23:45；旅遊日期：2026-10-21 至 2027-01-31；優惠只適用於由香港出發的初次預訂（包括多城市行程），官方列明不適用於單程機票；機位有限、售完即止",
+      "summary": "HK Express 今日起推出日本線限時快閃，東京（成田／羽田）、大阪、名古屋、福岡及沖繩六大航點『輕便飛』單程票價低至 HK$198、『經濟飛』低至 HK$248，訂票期只有三日（10 月 5 日 10:00 至 10 月 7 日 23:45），旅遊日期由 10 月 21 日至明年 1 月 31 日，橫跨初秋紅葉到冬季雪季。以媒體整理嘅連稅參考價，沖繩來回連稅約 HK$1,578 起、名古屋 HK$1,680 起、福岡 HK$1,713 起、東京約 HK$1,734–1,745 起、大阪 HK$1,769 起。留意呢個價只包一件隨身物品，要手提行李就每程加約 HK$50，寄艙行李另按件收費。",
+      "highlights": [
+        "『輕便飛』單程 HK$198 起（只包一件隨身物品）；『經濟飛』單程 HK$248 起（包一件登機行李）",
+        "沖繩來回連稅約 HK$1,578 起，係今輪最平嘅日本線（參考價，以系統即時報價為準）",
+        "訂票期只有三日：10/5 10:00 至 10/7 23:45",
+        "旅遊日期 2026-10-21 至 2027-01-31，紅葉季與雪季都覆蓋",
+        "官方列明優惠只適用於由香港出發的初次預訂，不適用於單程機票",
+        "行李另計：手提行李每程約加 HK$50，寄艙行李按件收費"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/flashsale_20261005",
+      "sourceLabel": "HK Express 官方優惠頁（flashsale_20261005）· MeetHK 旅遊情報網",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/flashsale_20261005",
+      "tags": [
+        "機票",
+        "日本",
+        "限時快閃",
+        "廉航",
+        "香港出發"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cafetoo-admiralty-20260911",
+      "category": "dining",
+      "title": "「金秋豐盛海鮮蟹宴」自助餐買二送二，人均 HK$284 起",
+      "subtitle": "港島香格里拉 cafe TOO · 網店限定預售",
+      "venue": "港島香格里拉 cafe TOO · 金鐘太古廣場 7 樓",
+      "priceLabel": "自助午餐每位 HK$568 起（買二送二後人均 HK$284 起）",
+      "priceValue": 284,
+      "originalLabel": "原價自助午餐成人每位 HK$568 起、自助晚餐每位 HK$868 起",
+      "discountPct": 50,
+      "endsAt": "2026-10-07T23:59:00+08:00",
+      "period": "網店預售期：2026-10-01 至 10-07（第二輪）／2026-09-07 至 09-09（第一輪，已結束）；用餐期：2026-10-12 至 10-28（第二輪）／2026-09-23 至 10-31（第一輪）",
+      "summary": "港島香格里拉 cafe TOO 推出「金秋豐盛海鮮蟹宴」自助餐，9 月 23 日至 10 月 31 日供應。晚市每位賓客獲贈一隻約 3.5 至 4 両的清蒸大閘蟹，另有蜘蛛蟹、貴妃蟹、花雕蛋白蒸蟹、胡椒肉蟹煲、泰式咖喱炒蟹等十多款蟹饌。經酒店網店於指定預售期預購，星期一至四（公眾假期除外）自助午餐及晚餐可享買二送二：午餐成人每位 HK$568 起，除開人均 HK$284 起；晚餐每位 HK$868 起，除開人均 HK$434 起。",
+      "highlights": [
+        "買二送二：星期一至四（公眾假期除外）自助午餐及晚餐，須經酒店網店預售期購買",
+        "另有買二送一及第二位成人半價：星期一至日（公眾假期除外）",
+        "香格里拉會會員專屬：9 月 8 折、10 月 85 折（星期一至日，公眾假期除外）",
+        "預售分兩輪：9 月 7 至 9 日（用餐期 9 月 23 日至 10 月 31 日）、10 月 1 至 7 日（用餐期 10 月 12 至 28 日）",
+        "自助午餐 12:00 起、自助晚餐 18:30 起；地址：金鐘太古廣場港島香格里拉 7 樓"
+      ],
+      "url": "https://www.shangri-la.com/hongkong/islandshangrila/dining/restaurants/cafe-too/",
+      "sourceLabel": "港島香格里拉官網 · U Food／etnet 經濟通報導",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20108238/%E6%B8%AF%E5%B3%B6%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%9C%8B%E6%85%B6%E4%B8%AD%E7%A7%8B%E5%84%AA%E6%83%A0-%E8%87%AA%E5%8A%A9%E9%A4%90%E8%B2%B7-%E9%80%81-%E7%B1%B3%E8%8A%9D%E8%93%AE%E4%B8%AD%E8%8F%9C-%E6%8A%98",
+      "tags": [
+        "酒店自助餐",
+        "買二送二",
+        "大閘蟹",
+        "金鐘"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cafetoo-isl-lunch-b2g2-20260927",
+      "category": "dining",
+      "title": "港島香格里拉 cafe TOO 國慶快閃，自助午餐買二送二",
+      "subtitle": "金秋海鮮蟹宴 · 10/1 香格里拉精品店限量開售",
+      "venue": "金鐘太古廣場港島香格里拉 7 樓 cafe TOO",
+      "priceLabel": "自助午餐買二送二限量套票（10/1 上午 10 時起於香格里拉精品店開售，售完即止）；餐牌平日自助午餐原價每位 HK$568 起",
+      "priceValue": 284,
+      "originalLabel": "餐牌平日自助午餐每位 HK$568 起（買二送二即變相半價）",
+      "discountPct": 50,
+      "endsAt": "2026-10-07T23:59:00+08:00",
+      "period": "香格里拉精品店開售 2026-10-01 至 10-07；換領用餐 2026-10-12 至 10-28（星期一至四午市，10/19 不適用），售完即止",
+      "summary": "港島香格里拉 cafe TOO 國慶快閃：10/1 起 7 日內於香格里拉精品店搶購限量「自助午餐買二送二」套票，10/12–10/28 逢週一至四午市換領。金秋海鮮蟹宴主題，晚市仲有清蒸大閘蟹同龍蝦。限量發售，搶唔到就冇。",
+      "highlights": [
+        "自助午餐買二送二限量套票，10/1 上午 10 時精品店開售",
+        "換領用餐 10/12–10/28 週一至四午市（10/19 不適用）",
+        "金秋豐盛海鮮蟹宴主題：晚市限定清蒸大閘蟹、蜘蛛蟹、清蒸新鮮龍蝦",
+        "售完即止；以港島香格里拉官方公佈為準"
+      ],
+      "url": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
+      "sourceLabel": "港島香格里拉官方 · Trip.com 國慶優惠懶人包",
+      "sourceUrl": "https://www.shangri-la.com/cn/hongkong/islandshangrila/offer-detail/dining/isl-petrus-fireworks-dinner-2026",
+      "tags": [
+        "自助餐",
+        "買二送二",
+        "國慶",
+        "蟹宴",
+        "金鐘"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-leewinghin-dimsun-dduck-buffet-20261001",
+      "category": "dining",
+      "title": "利榮軒等 3 店 180 分鐘點心片皮鴨放題，每位 HK$88",
+      "subtitle": "限量 45 折 · 預訂至 10/7 · 使用期 10/2–10/31",
+      "venue": "屯門利榮軒／柴灣金溏宮／九龍灣利龍軒（利東集團）",
+      "priceLabel": "KKday 快閃：成人 $88/位（原價 $198/位，約 45 折）、小童 $60/位；加送大閘蟹方案 $148/位（原價 $248/位，約 6 折，每位送約三兩重江蘇大閘蟹一隻）。兩個方案另收每位原價加一服務費（$12.8／$24.8）及茶芥 $15",
+      "priceValue": 88,
+      "originalLabel": "午市堂食原價成人 $198/位（限量 $88 方案）／$248/位（送大閘蟹方案）",
+      "discountPct": 55,
+      "endsAt": "2026-10-07T23:59:00+08:00",
+      "period": "KKday 開搶：2026-09-30 15:00 至 2026-10-07 23:59；使用日期 2026-10-02 至 2026-10-31；供應時段午市 11:30–15:00（最後截單 14:50）、最遲 13:00 入座；每次最少購 2 位",
+      "summary": "利東集團旗下屯門利榮軒、柴灣金溏宮、九龍灣利龍軒三個品牌一齊做 180 分鐘懷舊點心片皮鴨放題，成人限量 HK$88 一位（原價 $198）。放題無限任食金陵片皮鴨，鴨皮上台仲熱脆；即叫即蒸的手工點心有筍尖鮮蝦餃、蟹籽燒賣皇、香麻流沙包，大廚小菜如生炒骨、椒鹽生蝦即叫即製，每位仲送原隻鮑魚佛跳牆灌湯餃一盅。想食大閘蟹可以揀 $148 方案，每位送約三兩重一隻。記住另收加一同茶芥。",
+      "highlights": [
+        "限量成人 $88/位（原價 $198/位，約 45 折），小童 $60/位",
+        "加 $60 可選 $148/位方案，每位送約三兩重江蘇大閘蟹一隻（原價 $248/位）",
+        "180 分鐘任食金陵片皮鴨＋即叫即蒸手工點心＋即製大廚小菜",
+        "每位敬送原隻鮑魚佛跳牆灌湯餃一盅",
+        "另收每位原價加一服務費（$12.8／$24.8）及每位茶芥 $15；每次最少購 2 位",
+        "預訂期至 2026-10-07 23:59；使用期 2026-10-02 至 10-31（午市 11:30–15:00，最遲 13:00 入座）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/547080",
+      "sourceLabel": "KKday（產品 547080）· U Lifestyle 港生活",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20111905/",
+      "tags": [
+        "放題",
+        "點心",
+        "片皮鴨",
+        "45折",
+        "屯門",
+        "柴灣",
+        "九龍灣",
+        "大閘蟹"
       ],
       "sample": false,
       "postedFacebook": true,
