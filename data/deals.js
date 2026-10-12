@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-11T10:46:44+08:00",
+    "updated": "2026-10-12T14:53:15+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,125 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 86,
-      "active": 33,
-      "ending": 11,
-      "expired": 53,
+      "active": 30,
+      "ending": 9,
+      "expired": 56,
       "flight": 9,
       "dining": 77,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-hkexpress-hsbc-flashsale-20261011",
-      "category": "flight",
-      "title": "香港快運 × 滙豐信用卡快閃，濟州／高雄來回連稅 HK$1,305 起（票價高達 7 折）",
-      "subtitle": "優惠碼 HSBCUO26 · 訂票期 10/9 10:00 至 10/11 23:45 · 出發期 10/18 至 12/31 · 須以指定滙豐信用卡付款",
-      "venue": "香港快運官網及手機應用程式（不適用於微信小程序）",
-      "priceLabel": "濟州／高雄來回連稅 HK$1,305 起、曼谷來回連稅 HK$1,476 起（單程未連稅：高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起）。寧波、高雄票價高達 30% 折扣；義烏、濟州、名古屋、東京（羽田）、吉隆坡（梳邦）、克拉克、曼谷高達 20% 折扣。連稅金額為媒體參考價，未計匯率變動，最終以香港快運購票系統即時顯示為準",
-      "priceValue": 1305,
-      "originalLabel": "票價折扣高達 30%（高雄／寧波）；其餘指定航點高達 20%",
-      "discountPct": 30,
-      "endsAt": "2026-10-11T23:45:00+08:00",
-      "period": "訂票期：2026-10-09 10:00 至 2026-10-11 23:45（香港時間）；出發期：2026-10-18 至 2026-12-31（各航點或有所不同，機票有效期 2–14 日）",
-      "summary": "香港快運聯乘滙豐信用卡推出限時快閃：於官網或 App 先在「優惠代碼」欄輸入【HSBCUO26】，再以指定滙豐信用卡付款，寧波及高雄航線票價高達 30% 折扣，義烏、濟州、名古屋、東京（羽田）、吉隆坡（梳邦）、克拉克及曼谷高達 20% 折扣。以連稅總價計，濟州及高雄來回連稅約 HK$1,305 起、曼谷約 HK$1,476 起（單程未連稅高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起）。訂票期只到今日 10 月 11 日晚上 11 時 45 分，出發期為 10 月 18 日至 12 月 31 日。優惠只適用於初次預訂由香港出發的機票，必須使用指定滙豐信用卡結算（不包括銀聯及扣賬卡），只限指定票價種類，不包括任何附加服務、稅項或附加費。",
-      "highlights": [
-        "優惠碼【HSBCUO26】，須以指定滙豐信用卡付款（不適用銀聯及扣賬卡）",
-        "濟州／高雄來回連稅約 HK$1,305 起，曼谷約 HK$1,476 起",
-        "寧波、高雄票價高達 30% 折扣；濟州、名古屋、東京羽田、曼谷等 7 個航點高達 20% 折扣",
-        "單程未連稅參考價：高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起",
-        "訂票期至 10/11 23:45，出發期 10/18 至 12/31",
-        "只適用於初次預訂由香港出發的機票，限指定票價種類"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/hsbc_flashsale_20261009",
-      "sourceLabel": "香港快運官方優惠頁（2026-10-11 查核）＋ MeetHK 旅遊情報網（連稅參考價）",
-      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/hsbc_flashsale_20261009",
-      "tags": [
-        "機票",
-        "快閃",
-        "滙豐",
-        "廉航",
-        "日本",
-        "韓國"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-lemenu-wanchai-autumnfeast-kkday-20261002",
-      "category": "dining",
-      "title": "灣仔六國酒店 Le Menu 秋日盛宴自助晚餐，成人 HK$498 任食足 4 小時",
-      "subtitle": "波士頓龍蝦＋花膠＋富貴雞 · 獨家升級無限暢飲 · 10/5 15:00 開搶",
-      "venue": "灣仔告士打道 72 號六國酒店 1 樓 Le Menu",
-      "priceLabel": "KKday 快閃（秋日盛宴自助晚餐．4 小時）：成人 HK$498/位（原價 HK$1,041/位）、長者 HK$398/位（原價 HK$931）、小童 HK$308/位（原價 HK$722）；果漾花語下午茶自助餐二人同行 HK$399/2 位（人均 HK$199.5，原價 HK$766/2 位）；半自助晚餐連無限暢飲 HK$258/位；美式自助早餐 HK$146/位（原價 HK$217）",
-      "priceValue": 498,
-      "originalLabel": "秋日盛宴自助晚餐原價 HK$1,041/位（長者 HK$931、小童 HK$722）；下午茶二人同行原價 HK$766/2 位",
-      "discountPct": 52,
-      "endsAt": "2026-10-11T23:59:00+08:00",
-      "period": "KKday 開搶：2026-10-05 15:00 至 2026-10-11 23:59；使用期 2026-10-06 至 11-30（秋日盛宴自助晚餐主題供應至 11-29）；自助晚餐 星期五至日及公眾假期 18:00–22:00；下午茶自助餐 星期六至日 13:00–17:00；美式自助早餐 每日 07:00–10:30",
-      "summary": "灣仔六國酒店 Le Menu 推全新秋日餐飲優惠，10 月 5 日下午 3 點於 KKday 開搶。焦點「秋日盛宴自助晚餐」成人 HK$498/位、長者 HK$398/位、小童 HK$308/位，原本 2 小時晚餐加碼變足 4 小時（18:00 食到 22:00），KKday 預訂仲獨家升級無限暢飲汽水、凍果汁、啤酒、紅白酒同氣泡酒。菜式有波士頓龍蝦、加拿大雪花蟹腳、麵包蟹、鮑汁燴花膠、香煎鴨肝、酥炸生蠔、片皮鵝，仲有即席富貴雞同火焰雪山表演。二人同行下午茶每人平均只需 HK$199.5。",
-      "highlights": [
-        "秋日盛宴自助晚餐成人 HK$498/位（原價 HK$1,041）、長者 HK$398/位、小童 HK$308/位，加長至 4 小時任食",
-        "KKday 預訂獨家升級無限暢飲：汽水、凍果汁、啤酒、紅白酒及氣泡酒",
-        "果漾花語下午茶自助餐二人同行 HK$399/2 位（人均 HK$199.5，原價 HK$766/2 位）",
-        "每晚四場即席烹調表演：18:45 富貴雞、19:15 火焰雪山及橙酒班戟；另有法式海鮮酥皮盒每位一客",
-        "冰鎮海鮮有波士頓龍蝦、加拿大雪花蟹腳、麵包蟹；熟食有鮑汁燴花膠、香煎鴨肝、片皮鵝",
-        "生日月份惠顧送迷你蛋糕一個；惠顧自助晚餐可免費泊車（18:00–22:00）"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/121621",
-      "sourceLabel": "KKday（產品 121621）· U Lifestyle 港生活",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20112308/",
-      "tags": [
-        "自助餐",
-        "龍蝦",
-        "花膠",
-        "富貴雞",
-        "無限暢飲",
-        "灣仔",
-        "4小時"
-      ],
-      "sample": false,
-      "postedFacebook": true,
-      "postedThreads": true,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-kyotorestaurant-hairycrab-duck-buffet-20261005",
-      "category": "dining",
-      "title": "京都大酒樓・京都薈 120 分鐘大閘蟹＋片皮鴨放題，37 折每位 HK$298",
-      "subtitle": "清蒸／花雕蒸／鹽油焗大閘蟹任食 · 每位送六頭鮑魚 · 10/5 18:00 開搶至 10/11",
-      "venue": "京都大酒樓（黃大仙龍翔道 110 號豪苑商場 2 樓 1A-B 舖）／京都大酒樓（大埔安慈路 4 號昌運中心 1 樓）／京都薈（美孚百老匯街 73 號美孚新邨 4 期地舖及 1 樓）",
-      "priceLabel": "37 折 HK$298/位（原價 HK$798/位）；另設 46 折 HK$368/位、5 折 HK$398/位；「買兩大送一小」HK$996/3 位（平均 HK$332/位）。每次最少購買 2 位、大小同價；另須現場支付茶芥（黃大仙／美孚 HK$15/位、大埔 HK$16/位），已包加一服務費",
-      "priceValue": 298,
-      "originalLabel": "原價 HK$798/位（37 折後 HK$298/位）",
-      "discountPct": 63,
-      "endsAt": "2026-10-11T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-10-05 18:00 至 2026-10-11 23:59；最早可使用日 2026-10-01；用餐時間由入座起計 120 分鐘；黃大仙、大埔、美孚三店同步供應",
-      "summary": "秋風起，京都大酒樓同京都薈推出 120 分鐘大閘蟹＋片皮鴨放題，KKday 今晚 6 點開搶：37 折每位 HK$298（原價 HK$798）。大閘蟹有三種做法任食 — 清蒸、花雕蒸、鹽油焗；片皮鴨連皮帶肉即場片，配薄餅、青瓜同甜麵醬。仲有太史燴蛇羹、雞煲、籠仔蒸海蝦、臘味糯米飯無限追加，每位再送冰鎮或蠔皇六頭鮑魚一隻，指定啤酒汽水任飲。黃大仙、大埔、美孚三店同步，每次最少兩位、大小同價。",
-      "highlights": [
-        "37 折每位 HK$298（原價 HK$798/位），另有 46 折 HK$368、5 折 HK$398 檔位",
-        "大閘蟹三食任食：清蒸、花雕蒸、鹽油焗",
-        "京式片皮鴨即場片皮，配薄餅、青瓜及甜麵醬",
-        "每位尊享冰鎮或蠔皇六頭鮑魚一隻，指定啤酒汽水任飲",
-        "放題 120 分鐘，另包太史燴蛇羹、雞煲、籠仔蒸海蝦、臘味糯米飯",
-        "預訂期 10/5 18:00 至 10/11 23:59，最早可使用日 10/1；三店同步"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/530327",
-      "sourceLabel": "星島頭條飲食（2026-10-05 13:37 更新）· KKday 產品 530327",
-      "sourceUrl": "https://www.stheadline.com/food/3622112/",
-      "tags": [
-        "放題",
-        "大閘蟹",
-        "片皮鴨",
-        "酒樓",
-        "限時搶購"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-sheraton-tst-cafe-lunch-bogo-20261007",
       "category": "dining",
@@ -164,7 +54,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -199,7 +89,7 @@ window.DEAL_DATA = {
         "優惠碼"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -233,7 +123,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -268,7 +158,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -303,7 +193,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -338,7 +228,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -373,7 +263,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -408,7 +298,7 @@ window.DEAL_DATA = {
         "點心放題"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -444,8 +334,8 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-foodstudio-wanchai-12anniv-20261011",
@@ -479,7 +369,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -513,7 +403,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -548,7 +438,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -583,7 +473,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -618,7 +508,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -654,7 +544,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -692,7 +582,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -730,7 +620,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -767,7 +657,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -802,7 +692,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -837,7 +727,7 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 19,
       "status": "active"
     },
     {
@@ -872,7 +762,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 35,
+      "daysLeft": 34,
       "status": "active"
     },
     {
@@ -903,7 +793,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -934,7 +824,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -965,7 +855,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -995,7 +885,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -1030,7 +920,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -1065,7 +955,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -1100,7 +990,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 50,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -1137,7 +1027,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 63,
+      "daysLeft": 62,
       "status": "active"
     },
     {
@@ -1172,7 +1062,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 68,
+      "daysLeft": 67,
       "status": "active"
     },
     {
@@ -3018,6 +2908,116 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-hsbc-flashsale-20261011",
+      "category": "flight",
+      "title": "香港快運 × 滙豐信用卡快閃，濟州／高雄來回連稅 HK$1,305 起（票價高達 7 折）",
+      "subtitle": "優惠碼 HSBCUO26 · 訂票期 10/9 10:00 至 10/11 23:45 · 出發期 10/18 至 12/31 · 須以指定滙豐信用卡付款",
+      "venue": "香港快運官網及手機應用程式（不適用於微信小程序）",
+      "priceLabel": "濟州／高雄來回連稅 HK$1,305 起、曼谷來回連稅 HK$1,476 起（單程未連稅：高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起）。寧波、高雄票價高達 30% 折扣；義烏、濟州、名古屋、東京（羽田）、吉隆坡（梳邦）、克拉克、曼谷高達 20% 折扣。連稅金額為媒體參考價，未計匯率變動，最終以香港快運購票系統即時顯示為準",
+      "priceValue": 1305,
+      "originalLabel": "票價折扣高達 30%（高雄／寧波）；其餘指定航點高達 20%",
+      "discountPct": 30,
+      "endsAt": "2026-10-11T23:45:00+08:00",
+      "period": "訂票期：2026-10-09 10:00 至 2026-10-11 23:45（香港時間）；出發期：2026-10-18 至 2026-12-31（各航點或有所不同，機票有效期 2–14 日）",
+      "summary": "香港快運聯乘滙豐信用卡推出限時快閃：於官網或 App 先在「優惠代碼」欄輸入【HSBCUO26】，再以指定滙豐信用卡付款，寧波及高雄航線票價高達 30% 折扣，義烏、濟州、名古屋、東京（羽田）、吉隆坡（梳邦）、克拉克及曼谷高達 20% 折扣。以連稅總價計，濟州及高雄來回連稅約 HK$1,305 起、曼谷約 HK$1,476 起（單程未連稅高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起）。訂票期只到今日 10 月 11 日晚上 11 時 45 分，出發期為 10 月 18 日至 12 月 31 日。優惠只適用於初次預訂由香港出發的機票，必須使用指定滙豐信用卡結算（不包括銀聯及扣賬卡），只限指定票價種類，不包括任何附加服務、稅項或附加費。",
+      "highlights": [
+        "優惠碼【HSBCUO26】，須以指定滙豐信用卡付款（不適用銀聯及扣賬卡）",
+        "濟州／高雄來回連稅約 HK$1,305 起，曼谷約 HK$1,476 起",
+        "寧波、高雄票價高達 30% 折扣；濟州、名古屋、東京羽田、曼谷等 7 個航點高達 20% 折扣",
+        "單程未連稅參考價：高雄 HK$40 起、曼谷 HK$72 起、濟州 HK$80 起",
+        "訂票期至 10/11 23:45，出發期 10/18 至 12/31",
+        "只適用於初次預訂由香港出發的機票，限指定票價種類"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/hsbc_flashsale_20261009",
+      "sourceLabel": "香港快運官方優惠頁（2026-10-11 查核）＋ MeetHK 旅遊情報網（連稅參考價）",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/Plan/Special-Offers/Promotions/hsbc_flashsale_20261009",
+      "tags": [
+        "機票",
+        "快閃",
+        "滙豐",
+        "廉航",
+        "日本",
+        "韓國"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-lemenu-wanchai-autumnfeast-kkday-20261002",
+      "category": "dining",
+      "title": "灣仔六國酒店 Le Menu 秋日盛宴自助晚餐，成人 HK$498 任食足 4 小時",
+      "subtitle": "波士頓龍蝦＋花膠＋富貴雞 · 獨家升級無限暢飲 · 10/5 15:00 開搶",
+      "venue": "灣仔告士打道 72 號六國酒店 1 樓 Le Menu",
+      "priceLabel": "KKday 快閃（秋日盛宴自助晚餐．4 小時）：成人 HK$498/位（原價 HK$1,041/位）、長者 HK$398/位（原價 HK$931）、小童 HK$308/位（原價 HK$722）；果漾花語下午茶自助餐二人同行 HK$399/2 位（人均 HK$199.5，原價 HK$766/2 位）；半自助晚餐連無限暢飲 HK$258/位；美式自助早餐 HK$146/位（原價 HK$217）",
+      "priceValue": 498,
+      "originalLabel": "秋日盛宴自助晚餐原價 HK$1,041/位（長者 HK$931、小童 HK$722）；下午茶二人同行原價 HK$766/2 位",
+      "discountPct": 52,
+      "endsAt": "2026-10-11T23:59:00+08:00",
+      "period": "KKday 開搶：2026-10-05 15:00 至 2026-10-11 23:59；使用期 2026-10-06 至 11-30（秋日盛宴自助晚餐主題供應至 11-29）；自助晚餐 星期五至日及公眾假期 18:00–22:00；下午茶自助餐 星期六至日 13:00–17:00；美式自助早餐 每日 07:00–10:30",
+      "summary": "灣仔六國酒店 Le Menu 推全新秋日餐飲優惠，10 月 5 日下午 3 點於 KKday 開搶。焦點「秋日盛宴自助晚餐」成人 HK$498/位、長者 HK$398/位、小童 HK$308/位，原本 2 小時晚餐加碼變足 4 小時（18:00 食到 22:00），KKday 預訂仲獨家升級無限暢飲汽水、凍果汁、啤酒、紅白酒同氣泡酒。菜式有波士頓龍蝦、加拿大雪花蟹腳、麵包蟹、鮑汁燴花膠、香煎鴨肝、酥炸生蠔、片皮鵝，仲有即席富貴雞同火焰雪山表演。二人同行下午茶每人平均只需 HK$199.5。",
+      "highlights": [
+        "秋日盛宴自助晚餐成人 HK$498/位（原價 HK$1,041）、長者 HK$398/位、小童 HK$308/位，加長至 4 小時任食",
+        "KKday 預訂獨家升級無限暢飲：汽水、凍果汁、啤酒、紅白酒及氣泡酒",
+        "果漾花語下午茶自助餐二人同行 HK$399/2 位（人均 HK$199.5，原價 HK$766/2 位）",
+        "每晚四場即席烹調表演：18:45 富貴雞、19:15 火焰雪山及橙酒班戟；另有法式海鮮酥皮盒每位一客",
+        "冰鎮海鮮有波士頓龍蝦、加拿大雪花蟹腳、麵包蟹；熟食有鮑汁燴花膠、香煎鴨肝、片皮鵝",
+        "生日月份惠顧送迷你蛋糕一個；惠顧自助晚餐可免費泊車（18:00–22:00）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/121621",
+      "sourceLabel": "KKday（產品 121621）· U Lifestyle 港生活",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20112308/",
+      "tags": [
+        "自助餐",
+        "龍蝦",
+        "花膠",
+        "富貴雞",
+        "無限暢飲",
+        "灣仔",
+        "4小時"
+      ],
+      "sample": false,
+      "postedFacebook": true,
+      "postedThreads": true,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-kyotorestaurant-hairycrab-duck-buffet-20261005",
+      "category": "dining",
+      "title": "京都大酒樓・京都薈 120 分鐘大閘蟹＋片皮鴨放題，37 折每位 HK$298",
+      "subtitle": "清蒸／花雕蒸／鹽油焗大閘蟹任食 · 每位送六頭鮑魚 · 10/5 18:00 開搶至 10/11",
+      "venue": "京都大酒樓（黃大仙龍翔道 110 號豪苑商場 2 樓 1A-B 舖）／京都大酒樓（大埔安慈路 4 號昌運中心 1 樓）／京都薈（美孚百老匯街 73 號美孚新邨 4 期地舖及 1 樓）",
+      "priceLabel": "37 折 HK$298/位（原價 HK$798/位）；另設 46 折 HK$368/位、5 折 HK$398/位；「買兩大送一小」HK$996/3 位（平均 HK$332/位）。每次最少購買 2 位、大小同價；另須現場支付茶芥（黃大仙／美孚 HK$15/位、大埔 HK$16/位），已包加一服務費",
+      "priceValue": 298,
+      "originalLabel": "原價 HK$798/位（37 折後 HK$298/位）",
+      "discountPct": 63,
+      "endsAt": "2026-10-11T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-10-05 18:00 至 2026-10-11 23:59；最早可使用日 2026-10-01；用餐時間由入座起計 120 分鐘；黃大仙、大埔、美孚三店同步供應",
+      "summary": "秋風起，京都大酒樓同京都薈推出 120 分鐘大閘蟹＋片皮鴨放題，KKday 今晚 6 點開搶：37 折每位 HK$298（原價 HK$798）。大閘蟹有三種做法任食 — 清蒸、花雕蒸、鹽油焗；片皮鴨連皮帶肉即場片，配薄餅、青瓜同甜麵醬。仲有太史燴蛇羹、雞煲、籠仔蒸海蝦、臘味糯米飯無限追加，每位再送冰鎮或蠔皇六頭鮑魚一隻，指定啤酒汽水任飲。黃大仙、大埔、美孚三店同步，每次最少兩位、大小同價。",
+      "highlights": [
+        "37 折每位 HK$298（原價 HK$798/位），另有 46 折 HK$368、5 折 HK$398 檔位",
+        "大閘蟹三食任食：清蒸、花雕蒸、鹽油焗",
+        "京式片皮鴨即場片皮，配薄餅、青瓜及甜麵醬",
+        "每位尊享冰鎮或蠔皇六頭鮑魚一隻，指定啤酒汽水任飲",
+        "放題 120 分鐘，另包太史燴蛇羹、雞煲、籠仔蒸海蝦、臘味糯米飯",
+        "預訂期 10/5 18:00 至 10/11 23:59，最早可使用日 10/1；三店同步"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/530327",
+      "sourceLabel": "星島頭條飲食（2026-10-05 13:37 更新）· KKday 產品 530327",
+      "sourceUrl": "https://www.stheadline.com/food/3622112/",
+      "tags": [
+        "放題",
+        "大閘蟹",
+        "片皮鴨",
+        "酒樓",
+        "限時搶購"
+      ],
+      "sample": false,
       "daysLeft": 0,
       "status": "expired"
     }
