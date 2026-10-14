@@ -137,34 +137,50 @@ def api(token: str, path: str, method: str = "GET", payload: dict | None = None)
     raise SystemExit(f"{method} {path} 重試 {RETRIES} 次仍失敗：{last}")
 
 
-def staged_files() -> list[tuple[str, str]]:
-    """回傳 [(相對路徑, git 模式)]。
+def staged_files() -> list[tuple[str, str, str]]:
+    """回傳 [(相對路徑, git 模式, index 內的 blob sha)]。
 
     先執行 `git add -A`，讓 git 依 .gitattributes 對換行做正規化；
     之後一律從 index 取內容，避免把 Windows 的 CRLF 原始位元組直接寫進遠端。
+    這裡一併回傳 blob sha，好在推送前比對遠端——內容一樣的檔案唔需要重新上傳。
     """
     git("add", "-A")
     out = git("ls-files", "-s")
-    seen: dict[str, str] = {}
+    seen: dict[str, tuple[str, str]] = {}
     for line in out.splitlines():
         if not line.strip() or "\t" not in line:
             continue
         meta, _, path = line.partition("\t")
         parts = meta.split()
         mode = parts[0] if parts and parts[0] in VALID_MODES else "100644"
+        sha = parts[1] if len(parts) > 1 else ""
         if path:
-            seen[path] = mode
-    return sorted(seen.items())
+            seen[path] = (mode, sha)
+    return sorted((p, m, s) for p, (m, s) in seen.items())
 
 
-def remote_blobs(token: str, tree_sha: str) -> set[str]:
-    """遞迴列出遠端某個 tree 內所有 blob 路徑。
+def remote_blobs(token: str, tree_sha: str) -> dict[str, str]:
+    """遞迴列出遠端某個 tree 內所有 blob：{路徑: blobs sha}。
 
-    用途：偵測「本機已刪除但遠端仍在」的檔案。Git Data API 建立 tree 時若只用
+    用途一：偵測「本機已刪除但遠端仍在」的檔案。Git Data API 建立 tree 時若只用
     base_tree + 本機檔案，行為是純增量的——刪除永遠不會傳到遠端
     （2026-09-24 踩過：.workbuddy 內部筆記從索引移除後，仍留在公開 repo 內）。
+    用途二：同本機 index 的 blob sha 比對，內容無變的檔案唔使重新上傳——
+    2026-10-14 踩過：489 個檔案一次過建 tree 會被 GitHub 以 422
+    「input was too large to process」擋下。
     """
-    paths: set[str] = set()
+    paths: dict[str, str] = {}
+    # 先用 recursive=1 一次取回整棵 tree（repo 有幾百個目錄，逐層走會慢十倍以上）
+    try:
+        full = api(token, f"/git/trees/{tree_sha}?recursive=1")
+    except SystemExit:
+        full = {}
+    if full.get("tree"):
+        for item in full["tree"]:
+            if item.get("type") == "blob":
+                paths[f"{item['path']}"] = item.get("sha", "")
+        return paths
+
     pending: list[tuple[str, str]] = [("", tree_sha)]
     while pending:
         prefix, sha = pending.pop()
@@ -172,10 +188,23 @@ def remote_blobs(token: str, tree_sha: str) -> set[str]:
         for item in data.get("tree", []):
             path = f"{prefix}{item['path']}"
             if item.get("type") == "blob":
-                paths.add(path)
+                paths[path] = item.get("sha", "")
             elif item.get("type") == "tree" and item.get("sha"):
                 pending.append((path + "/", item["sha"]))
     return paths
+
+
+def build_tree(token: str, base_tree: str, entries: list[dict], chunk: int = 80) -> str:
+    """分批建立 tree，避免一次過提交太多 entry 被 GitHub 拒收。
+
+    Git Data API 支援以 base_tree 逐層疊加，所以可以安全地切細提交。
+    """
+    tree = base_tree
+    for i in range(0, len(entries), chunk):
+        tree = api(
+            token, "/git/trees", "POST", {"base_tree": tree, "tree": entries[i : i + chunk]}
+        )["sha"]
+    return tree
 
 
 def main() -> None:
@@ -217,22 +246,31 @@ def main() -> None:
     files = staged_files()
     if not files:
         raise SystemExit("沒有可推送的檔案。")
-    print(f"準備推送 {len(files)} 個檔案到 {REPO}@{BRANCH}")
+    print(f"本機追蹤檔案 {len(files)} 個，目標 {REPO}@{BRANCH}")
 
     token = get_token()
     head = api(token, f"/git/ref/heads/{BRANCH}")["object"]["sha"]
     base_tree = api(token, f"/git/commits/{head}")["tree"]["sha"]
     print(f"遠端目前 HEAD：{head[:9]}")
 
-    # 處理刪除：遠端有、本機索引沒有的檔案，要在 tree 內以 sha=null 移除，
-    # 否則刪除不會生效（Git Data API 的 base_tree 是純增量語意）。
-    # 這一步放在上傳 blob 之前，好讓 --dry-run 也能快速看到會刪什麼。
+    # 取遠端檔案清單（路徑 → blob sha）：
+    #   1. 遠端有、本機沒有的檔案要以 sha=null 移除，否則刪除不會生效
+    #      （Git Data API 的 base_tree 是純增量語意）
+    #   2. 內容（blob sha）與遠端一致的檔案唔需要重新上傳，只留在 base_tree 內即可
     try:
-        remote_paths = remote_blobs(token, base_tree)
-        deletions = sorted(remote_paths - {path for path, _ in files})
+        remote_map = remote_blobs(token, base_tree)
     except SystemExit as exc:
-        print(f"注意：未能讀取遠端檔案清單，本次略過刪除處理（{exc}）")
+        print(f"注意：未能讀取遠端檔案清單，本次略過刪除處理並全量上傳（{exc}）")
+        remote_map = {}
+
+    if remote_map:
+        local_paths = {path for path, _, _ in files}
+        deletions = sorted(set(remote_map) - local_paths)
+        to_upload = [f for f in files if remote_map.get(f[0]) != f[2]]
+    else:
         deletions = []
+        to_upload = list(files)
+
     if deletions:
         print(f"將移除遠端 {len(deletions)} 個檔案：")
         for path in deletions[:20]:
@@ -240,8 +278,10 @@ def main() -> None:
         if len(deletions) > 20:
             print(f"  …（其餘 {len(deletions) - 20} 個）")
 
+    print(f"內容有變、需要上傳：{len(to_upload)} 個（其餘 {len(files) - len(to_upload)} 個沿用遠端）")
+
     entries = []
-    for path, mode in files:
+    for path, mode, _ in to_upload:
         # 從 index 取內容（已套用 .gitattributes 的換行正規化），而非磁碟原始位元組
         content = git_bytes("cat-file", "blob", f":{path}")
         blob = api(
@@ -253,10 +293,15 @@ def main() -> None:
         entries.append({"path": path, "mode": mode, "type": "blob", "sha": blob})
     for path in deletions:
         entries.append({"path": path, "mode": "100644", "type": "blob", "sha": None})
-    print(f"已上傳 {len(entries) - len(deletions)} 個 blob"
-          + (f"，並移除 {len(deletions)} 個檔案" if deletions else ""))
+    print(
+        f"已上傳 {len(entries) - len(deletions)} 個 blob"
+        + (f"，並移除 {len(deletions)} 個檔案" if deletions else "")
+    )
 
-    tree = api(token, "/git/trees", "POST", {"base_tree": base_tree, "tree": entries})["sha"]
+    if not entries:
+        print("遠端內容與本機一致，無需提交。")
+        return
+    tree = build_tree(token, base_tree, entries)
     if tree == base_tree:
         print("遠端內容與本機一致，無需提交。")
         return

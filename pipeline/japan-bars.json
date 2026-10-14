@@ -1,20 +1,20 @@
 {
   "meta": {
     "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-    "updated": "2026-10-07",
+    "updated": "2026-10-14",
     "minRating": 4.3,
     "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
     "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
     "rotation": [
+      "關西",
+      "中國／瀨戶內",
+      "北海道",
+      "四國",
       "中部／東海",
       "九州",
       "東北",
       "關東",
-      "關西",
-      "中國／瀨戶內",
-      "北海道",
-      "沖繩",
-      "四國"
+      "沖繩"
     ]
   },
   "bars": [
@@ -483,6 +483,244 @@
       "sourceLabel": "Wanderlog（引用 Google 評分 4.4、225 則）；Restaurant Guru 同列 4.4／210",
       "sourceUrl": "https://www.wanderlog.com/zh/place/details/5363280/el-lequio",
       "addedAt": "2026-10-07"
+    },
+    {
+      "id": "jp-bar-nagoya-ancestor",
+      "name": "Ancestor（アンセスター）",
+      "nameEn": "The ANCESTOR Nagoya",
+      "city": "名古屋",
+      "area": "名駅",
+      "region": "chubu",
+      "barType": "both",
+      "signature": "店主私人裝瓶（private bottling）日本威士忌；抹茶版 Grasshopper、Silver Bullet 等原創雞尾酒",
+      "rating": 4.9,
+      "reviews": 90,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；貴價瓶可要求半杯（half）",
+      "address": "愛知県名古屋市中村区名駅2-35-5 K.R.T bldg. 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ancestor%20%E5%90%8D%E9%A7%85%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+      "blurb": "名古屋站一帶商廈 2 樓的小型正統吧，只有 8 個吧檯位加一個四人卡座，店主福手進介（Shinsuke Fukute）親自落場。這裡沒有固定酒單——店主會先同你傾，再由後吧的私人裝瓶日本威士忌裡揀合你口味嘅款；貴價瓶可以只要半杯，方便控制預算。雞尾酒同樣認真，有客人話這裡嘅 Negroni、Martini 同 Gin & Tonic 係佢飲過最好。",
+      "highlights": [
+        "後吧藏有店主私人裝瓶（private bottling）日本威士忌，一般酒鋪買唔到",
+        "店主與店員英文可通，會按你口味同預算逐款建議",
+        "Negroni、Martini、Gin & Tonic 出名調得好，另有用抹茶代替青瓜的 Grasshopper",
+        "只有 8 個吧檯位加 1 個四人卡座，屬小型店，出名坐得舒服"
+      ],
+      "tips": [
+        "座位只有 8 個吧檯位加 1 個四人卡座，建議避開剛開門嘅時段或先訂位",
+        "貴價瓶可以問「ハーフ（half）」——半杯價錢，方便一次試多幾款而唔爆預算",
+        "開店時間與休息日各來源略有出入（官方網站列週一至五 16:00–24:00、週六 15:00 開，週日及公眾假期休息），出發前請查官方網站 theancestor-nagoya.com",
+        "座位費（チャージ）與吸煙規定以現場為準，入座前問一句最穩",
+        "由名古屋站／酒店區步行可到，行程中間插入一杯都夠方便"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.9、90 則）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/11755586",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-nagoya-curacao",
+      "name": "BAR Curacao",
+      "nameEn": "BAR Curacao",
+      "city": "名古屋",
+      "area": "錦（榮一帶）",
+      "region": "chubu",
+      "barType": "cocktail",
+      "signature": "時令鮮果雞尾酒；Gin & Tonic（No.10）、八朔雞尾酒、Martini",
+      "rating": 4.5,
+      "reviews": 108,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；另收お通し（座位費性質的小食），有客人提及約 ¥550",
+      "address": "愛知県名古屋市中区錦3-9-24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20Curacao%20%E9%8C%A6%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
+      "blurb": "名古屋錦一帶的雞尾酒吧，店主小池先生親自調酒，出名用時令鮮果做雞尾酒，經典同原創都做得細緻。店內走古典裝潢、播輕鬆音樂，屬成熟系、唔吵嘅小店；客人以常客為主，服務親切，店主會記得你想飲咩。",
+      "highlights": [
+        "店主小池先生親自調酒，以時令鮮果雞尾酒見稱",
+        "Gin & Tonic（No.10）、八朔雞尾酒、Martini 都是客人常點",
+        "古典裝潢配輕鬆音樂，屬成熟系、唔吵嘅酒吧",
+        "位於名古屋錦／榮商圈，購物區行過去就到"
+      ],
+      "tips": [
+        "座位不多、常客多，建議先訂位",
+        "設お通し（座位費性質的小食），有客人提及約 ¥550；金額與做法以現場為準",
+        "營業至深夜（約 18:00–翌日 2:00，來源列示），適合做完一日行程後去",
+        "位置在錦／榮商圈，唔難找；酒後唔好揸車",
+        "座位費與吸煙規定以現場為準，入座前問一句最穩"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.5、108 則）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/8300250/bar-curacao",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-sendai-sendaizaka",
+      "name": "Sendaizaka",
+      "nameEn": "Sendaizaka",
+      "city": "仙台",
+      "area": "泉区・泉中央",
+      "region": "tohoku",
+      "barType": "both",
+      "signature": "威士忌與利口酒收藏；店主自家木桶熟成的威士忌／氈酒；自家製薑汁啤酒莫斯科騾子",
+      "rating": 4.4,
+      "reviews": 81,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；另收お通し（座位費性質的小食）",
+      "address": "宮城県仙台市泉区泉中央1-14-9 大泉ビル 1階（北側）",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sendaizaka%20%E6%B3%89%E4%B8%AD%E5%A4%AE%20%E4%BB%99%E5%8F%B0",
+      "blurb": "2001 年開業的正統吧，位於仙台市泉中央、地鐵南北線泉中央站一帶。出名威士忌同利口酒收藏廣，2019 年起引入大量 Whisky Society 裝瓶商（bottlers）出品；店主更自己買入木桶，在店內熟成威士忌同氈酒，屬少見做法。食物水準同樣出名，お通し（隨酒附上的小食）同三款芝士拼盤係常客推介，自家製薑汁啤酒調嘅 Moscow Mule 亦係招牌。",
+      "highlights": [
+        "威士忌與利口酒收藏廣，2019 年起引入大量 Whisky Society 裝瓶商出品",
+        "店主自備木桶在店內熟成威士忌與氈酒，屬少見做法",
+        "食物水準高，お通し與三款芝士拼盤獲常客推介",
+        "自家製薑汁啤酒調的 Moscow Mule 是招牌之一",
+        "2001 年開業，屬泉中央一帶少有嘅正統吧"
+      ],
+      "tips": [
+        "星期日休息，平日約 18:00 至翌日凌晨 2:00（來源列示，以現場為準）",
+        "位置在泉中央，唔係仙台站市中心——要搭地鐵南北線去泉中央站，行程要預留時間",
+        "平日去較鬆動，週末會較多人",
+        "設お通し（座位費性質的小食）；吸煙規定與可否影相以現場為準",
+        "Google Maps 上以「Sendaizaka」搜尋最準（店名英文串法各處略有出入）"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.4、81 則）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/11995260/sendaizaka",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-fukuoka-nanashima",
+      "name": "ニッカバー 七島（Nikka Bar Nanashima）",
+      "nameEn": "Nikka Bar Nanashima",
+      "city": "福岡",
+      "area": "中洲",
+      "region": "kyushu",
+      "barType": "whisky",
+      "signature": "余市、宮城峡等 Nikka 蒸餾廠特色裝瓶；威士忌 highball、Gin Martini",
+      "rating": 4.3,
+      "reviews": 290,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "每人約 ¥2,000–4,000（來源列示區間，以現場為準）；另設座位費",
+      "address": "福岡県福岡市博多区中洲4-2-18 水上ビル",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%83%E3%82%AB%E3%83%90%E3%83%BC%20%E4%B8%83%E5%B3%B6%20%E4%B8%AD%E6%B4%B2%20%E7%A6%8F%E5%B2%A1",
+      "blurb": "創業超過 65 年的 Nikka 直系威士忌吧，就在中洲川端站步行數分鐘的中洲鬧市。木系裝潢加安靜背景音樂，吧檯位闊落，一個人嚟都坐得舒服。這裡可以飲到余市、宮城峡的蒸餾廠特色裝瓶（distillery specials），同一般市售版本唔同；招牌係威士忌 highball，亦供應大量雞尾酒同日本酒。入選 Tabelog Bar Awards 2022 酒吧百大。",
+      "highlights": [
+        "創業超過 65 年的 Nikka 威士忌吧，可飲余市、宮城峡蒸餾廠特色裝瓶",
+        "入選 Tabelog Bar Awards 2022 百大酒吧",
+        "木系裝潢、背景音樂安靜，吧檯位闊落，一個人去都自在",
+        "除威士忌外亦有雞尾酒與日本酒，同行唔飲威士忌都有選擇",
+        "中洲川端站步行約 4–5 分鐘，就在中洲鬧市中心"
+      ],
+      "tips": [
+        "全店可吸煙，唔慣煙味要留意（有客人明確提到）。吸煙規定以現場為準",
+        "設座位費；價位偏貴（有客人形容比一般日本酒吧貴），入座前問一句「チャージはいくらですか？」最穩",
+        "英文程度有限，但態度友善；用簡單字詞或翻譯 App 都溝通得到",
+        "各來源對休息日講法不一（Restaurant Guru 列週一休息、zenDine 列每日營業），出發前請查 Tabelog 或 Google 即時資訊",
+        "就在中洲鬧市，行完中洲食街可以直接行過去；酒後唔好揸車"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.3，頁面列 290 votes；2026-10-14 查核）；zenDine 同列 Google 平均評分 4.3",
+      "sourceUrl": "https://restaurantguru.com/amp/%E3%83%8B%E3%83%83%E3%82%AB%E3%83%90%E3%83%BC-%E4%B8%83%E5%B3%B6-Fukuoka",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-tokyo-apollo",
+      "name": "APOLLO BAR GINZA",
+      "nameEn": "Apollo Bar Ginza",
+      "city": "東京",
+      "area": "銀座（コリドー街）",
+      "region": "kanto",
+      "barType": "both",
+      "signature": "冰磚即場現雕的威士忌 highball、自家製梳打水；Gin Fizz、Espresso Martini、自家製 tonic water 調的 Gin & Tonic",
+      "rating": 4.8,
+      "reviews": 188,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；有客人提及入場費約 ¥1,000，亦有客人列人均 ¥10,000 以上（來源列示，以現場為準）",
+      "address": "東京都中央区銀座8-2-15 MEIKO BLDG.（明光ビル）地下1階",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=APOLLO%20BAR%20GINZA%20%E9%8A%80%E5%BA%A7%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "銀座コリドー街地庫的隱藏酒吧，店名取自紐約哈林區的 Apollo Theater。店主小松秀典（Hidenori Komatsu）1987 年入行，曾在 Suntory 工作超過二十年，2013 年開這間店，全店由他一人落場。店內極暗，進門要跟店主要一支電筒，背景音樂清一色 Tom Waits。招牌是威士忌 highball——冰塊即場雕成長條形，梳打水用天然水自家製作，氣泡細緻；Gin Fizz、Moscow Mule、Espresso Martini 亦出名，Gin & Tonic 用自家製 tonic water。後吧有一批年份與稀有威士忌。",
+      "highlights": [
+        "店主小松秀典曾任職 Suntory 超過二十年，1987 年入行至今專注調酒",
+        "招牌威士忌 highball：冰磚即場雕成長條形，梳打水以天然水自家製作",
+        "後吧有年份與稀有威士忌收藏，可同時比較日本與蘇格蘭威士忌",
+        "全店極暗、只播 Tom Waits，店主一人落場，屬一個人去都自在的小型吧",
+        "位於銀座コリドー街地庫，銀座站、新橋站步行數分鐘可到"
+      ],
+      "tips": [
+        "座位極少、只有店主一人落場，開門時段到或避開繁忙時間最穩",
+        "有客人提及入場／座位費約 ¥1,000，亦有客人列人均 ¥10,000 以上；收費以現場為準，入座前問一句「チャージはいくらですか？」最穩",
+        "店內非常暗，店主會提供電筒；想睇酒標或怕黑要預咗",
+        "英文溝通有限，但店主會用翻譯 App 同客人傾，慢慢講都溝通得到",
+        "營業時間各來源略有出入（部分列週日休息），出發前請查店家 Google 即時資訊；吸煙規定以現場為準",
+        "酒後唔好揸車，銀座站／新橋站步行可到"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.8、188 則）；Restaurant Guru 同列 Google 4.8（187 票）",
+      "sourceUrl": "https://wanderlog.com/place/details/472249/apollo-bar-ginza",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-tokyo-zoetrope",
+      "name": "shot bar ZOETROPE（ゾートロープ）",
+      "nameEn": "Shot Bar Zoetrope",
+      "city": "東京",
+      "area": "西新宿",
+      "region": "kanto",
+      "barType": "whisky",
+      "signature": "常備 300 款以上日本威士忌（另有秩父、Mars、厚岸、靜岡等 craft 蒸餾廠）；無酒單，按口味與預算逐款推介",
+      "rating": 4.3,
+      "reviews": 373,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；有客人提及每杯平均約 ¥2,000、3 杯 premium 約 ¥5,000–10,000（來源列示）；另有客人提到不設座位費",
+      "address": "東京都新宿区西新宿7-10-14 ガイアビル4 3F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=shot%20bar%20ZOETROPE%20%E8%A5%BF%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "2006 年開業，位於西新宿一棟大廈 3 樓、門口沒有明顯招牌，是東京最專注日本威士忌的酒吧之一。店主堀上篤（Atsushi Horigami）也是默片迷，店內長播默片，店名取自電影量測工具。常備 300 款以上日本威士忌，覆蓋 Suntory、Nikka 等大廠，亦有秩父、Mars（駒ヶ岳）、厚岸、靜岡等 craft 蒸餾廠，不時出現已停產稀有瓶與店主私人裝瓶。店內沒有酒單也沒有標價——講清楚自己喜歡的風格與預算，店主會逐款推介，連「點飲」（straight／on the rocks／水割り／highball）都會給建議。",
+      "highlights": [
+        "常備 300 款以上日本威士忌，另有秩父、Mars、厚岸、靜岡等 craft 蒸餾廠",
+        "不時出現已停產稀有瓶與店主私人裝瓶，部分在一般酒鋪買不到",
+        "沒有酒單與標價，講清楚口味與預算，店主會逐款推介並建議飲法",
+        "全店禁煙，只有約 16 個位，最多只招待 4 人一組",
+        "默片長播、氣氛安靜，屬認真飲威士忌的店，唔係傾大計嘅場"
+      ],
+      "tips": [
+        "不設訂位（部分平台列有訂位費，說法不一），座位有限，開門前後到最穩",
+        "全店禁煙（多個來源一致），怕煙味的旅客可以放心",
+        "店內規矩較嚴：不可以聞酒瓶、不催單、不要只要「大路推介」——講清楚自己飲開咩風格最實際",
+        "除威士忌外有少量 craft 氈酒、冧酒、啤酒，同行唔飲威士忌都有選擇",
+        "有客人提到不設座位費，惟收費與營業時間（約 17:00–23:45）以現場為準",
+        "位於西新宿大廈 3 樓，沒有明顯招牌，找唔到就睇大廈指示牌搭電梯；酒後唔好揸車"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.3、373 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/387220",
+      "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-naha-sakanashi",
+      "name": "Bar The Authentic 坂梨",
+      "nameEn": "Bar The Authentic Sakanashi",
+      "city": "那覇",
+      "area": "久茂地",
+      "region": "okinawa",
+      "barType": "both",
+      "signature": "用日本各地時令水果調製的雞尾酒；威士忌與雪茄配搭（例如 Yamazaki 12 年配雪茄）",
+      "rating": 4.5,
+      "reviews": 166,
+      "ratingCheckedAt": "2026-10-14",
+      "priceBand": "以現場酒單為準；落座附送芝士與果仁拼盤（有客人提及），另設座位費／服務費以現場為準",
+      "address": "沖縄県那覇市久茂地3-16-17 エステート久茂地Ⅱ 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20The%20Authentic%20%E5%9D%82%E6%A2%A8%20%E4%B9%85%E8%8C%82%E5%9C%B0%20%E9%82%A3%E8%A6%87",
+      "blurb": "那霸久茂地的正統雞尾酒吧，位於國際通旁商廈 2 樓。皮革座椅、燈光偏暗，客人形容有種「銀座 feel」。招牌是用日本各地時令水果即場調製的雞尾酒，水果隨季節轉換；威士忌與雪茄選擇同樣出名，客人可以直接在吧檯抽雪茄，有人推薦用 Yamazaki 12 年配雪茄。落座會附送芝士與果仁拼盤，調酒師細心，會按你口味調整酒單上沒有的創作。",
+      "highlights": [
+        "用日本各地時令水果調製的雞尾酒，水果隨季節轉換",
+        "威士忌與雪茄選擇出名，可在吧檯抽雪茄（有客人明確提到）",
+        "皮革座椅、燈光偏暗，客人形容有「銀座 feel」，屬成熟系酒吧",
+        "落座附送芝士與果仁拼盤，調酒師細心、會按口味即場調整",
+        "位於久茂地，國際通旁，ゆいレール県庁前站步行可到"
+      ],
+      "tips": [
+        "店內可以抽雪茄（有客人明確提到），唔慣煙味要留意；吸煙規定以現場為準",
+        "威士忌與雞尾酒收費以現場酒單為準，另設座位費／服務費；入座前問一句最穩",
+        "有客人提到用 Yamazaki 12 年配雪茄是招牌配搭之一，想試可以問一問",
+        "營業時間各來源略有出入（約 17:00 至翌日 1:00，週日 19:00 開），出發前請查店家官網 bar-sakanashi-lp.com",
+        "位於商廈 2 樓，Google Maps 上以「Bar The Authentic 坂梨」搜尋最準；酒後唔好揸車，單軌列車是最實際的回程選擇"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.5、166 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/3543875/bar-the-authentic-%E5%9D%82%E6%A2%A8",
+      "addedAt": "2026-10-14"
     }
   ]
 }
