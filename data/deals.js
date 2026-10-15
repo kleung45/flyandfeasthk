@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-14T11:03:56+08:00",
+    "updated": "2026-10-15T10:50:45+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,120 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 93,
-      "active": 32,
-      "ending": 4,
-      "expired": 61,
+      "active": 29,
+      "ending": 2,
+      "expired": 64,
       "flight": 9,
       "dining": 84,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-savvy-tst-halfprice-20261009",
-      "category": "dining",
-      "title": "尖沙咀太子酒店 SAVVY 自助餐限時 5 折，平日半自助午餐 HK$120／位（KKday 12 歲生日慶）",
-      "subtitle": "優惠碼 KKDBDSVY／12BDSVY · 預訂期 10/8 12:00 至 10/14 23:59 · 使用期 10/9 至 11/30 · 已包原價加一服務費",
-      "venue": "九龍尖沙咀海港城 太子酒店 3 樓 SAVVY",
-      "priceLabel": "平日半自助午餐：優惠碼【KKDBDSVY】HK$120／位（原價 HK$361／位，約 33 折，已包原價加一服務費）；同款 5 折價 HK$197／位，輸入【12BDSVY】無門檻減 HK$50 後 HK$147／位。海鮮週末自助早午餐：HK$323／位，輸入【12BDSVY】後 HK$273／位（原價 HK$592／位）。炙燒阿拉斯加帝王蟹龍蝦自助晚餐：HK$467／位，輸入【12BDSVY】後 HK$417／位（原價 HK$856／位）。優惠碼數量有限、售完即止，一切以 KKday 頁面即時公佈為準",
-      "priceValue": 120,
-      "originalLabel": "原價平日半自助午餐 HK$361／位（折後 HK$120／位）",
-      "discountPct": 67,
-      "endsAt": "2026-10-14T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-10-08 12:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30。平日半自助午餐時段為星期一至五 12:00–15:00（公眾假期除外）；週末自助早午餐為星期六、日及公眾假期 11:30–15:00；自助晚餐為星期三至六及公眾假期前夕 18:30–22:00",
-      "summary": "KKday 12 歲生日慶殺入尖沙咀海港城太子酒店 SAVVY：預訂時輸入優惠碼【KKDBDSVY】，平日半自助午餐每位只需 HK$120（原價 HK$361／位、已包原價加一服務費），等於約 33 折；用另一組 5 折優惠碼【12BDSVY】再減 HK$50，海鮮週末自助早午餐可低至 HK$273／位（原價 HK$592／位），炙燒阿拉斯加帝王蟹龍蝦自助晚餐低至 HK$417／位（原價 HK$856／位）。半自助午餐有 31 款主菜任揀一款，包括印式羊肉咖喱拼盤配烤餅、鐵板鱸魚扒定食、香葉蘿蔔炆牛肋條及日式鰻魚定食，並奉送精選自助頭盤及茗茶；週末早午餐供應麵包蟹、雪蟹、海螺、青口及刺身；晚餐主打烤阿拉斯加帝王蟹、鐵板燒龍蝦鉗、日式清酒牛油烤鮑魚。",
-      "highlights": [
-        "優惠碼【KKDBDSVY】平日半自助午餐 HK$120／位（原價 HK$361／位，約 33 折，已包加一）",
-        "5 折碼【12BDSVY】無門檻減 HK$50：平日半自助午餐 HK$147／位",
-        "海鮮週末自助早午餐 HK$273／位（原價 HK$592／位，已包加一）",
-        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐 HK$417／位（原價 HK$856／位）",
-        "半自助午餐 31 款主菜任揀一款，奉送自助頭盤及茗茶",
-        "KKday 預訂期 10/8 12:00 至 10/14 23:59；使用期 10/9 至 11/30"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/128727",
-      "sourceLabel": "U Lifestyle 港生活（2026-10-09，引 KKday 產品 128727）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20112868",
-      "tags": [
-        "自助餐",
-        "半價",
-        "尖沙咀",
-        "優惠碼",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourplaza-tsw-newyork-chaozhou-20261009",
-      "category": "dining",
-      "title": "天水圍嘉湖海逸酒店 紐約紐約餐廳「鮮味潮行」潮州自助餐，午餐 HK$155／位（約 40 折）",
-      "subtitle": "KKday 快閃 10/8 18:00 開搶至 10/14 23:59 · 使用期 10/9 至 11/30（週六、日及公眾假期）· 買一送一人均 HK$209",
-      "venue": "新界天水圍天恩路 18 號嘉湖海逸酒店二期 紐約紐約餐廳",
-      "priceLabel": "「鮮味潮行」潮州主題自助午餐（12:00–14:30）：HK$155／位（原價 HK$383／位，已包原價加一服務費，約 40 折）；買一送一 HK$418／2 位（人均 HK$209）；親子方案成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5。「鮮味潮行」自助晚餐（18:30–21:30）：買二送二 HK$1,412／4 位（人均 HK$353，免費升級送精選紅酒乙支）、買一送一 HK$706／2 位（人均 HK$353）；親子方案 4 位同行人均低至 HK$176.5。名額及價格以 KKday 頁面公佈為準",
-      "priceValue": 155,
-      "originalLabel": "原價自助午餐 HK$383／位（HK$155／位），自助晚餐原價 HK$598／位起",
-      "discountPct": 60,
-      "endsAt": "2026-10-14T23:59:00+08:00",
-      "period": "KKday 快閃預訂期：2026-10-08 18:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30（星期六、日及公眾假期）；自助午餐 12:00–14:30、自助晚餐 18:30–21:30",
-      "summary": "天水圍嘉湖海逸酒店二期紐約紐約餐廳推出「鮮味潮行」潮州主題自助餐，KKday 快閃 10/8 傍晚 6 時開搶。自助午餐每位 HK$155（原價 HK$383／位、已包加一），約 40 折；買一送一 2 位 HK$418（人均 HK$209）；帶小朋友的話，成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5。晚餐買二送二 4 位 HK$1,412（人均 HK$353）並免費升級送精選紅酒乙支。菜式有醉鮑魚、凍蝦、海蜆、藍青口、潮式煎蠔餅、潮式鹵水鵝、避風塘炒蟹件、菜膽花膠雞、潮式烏頭魚；晚餐加碼潮式凍蟹、加拿大雪花蟹腳、冬瓜盅、燒牛肉眼扒及無限暢飲 Stella 生啤。使用期為星期六、日及公眾假期。",
-      "highlights": [
-        "潮州主題自助午餐 HK$155／位（原價 HK$383／位，約 40 折，已包加一）",
-        "午餐買一送一 HK$418／2 位（人均 HK$209）",
-        "親子方案：成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5",
-        "晚餐買二送二 HK$1,412／4 位（人均 HK$353）送精選紅酒乙支",
-        "任食醉鮑魚、潮式鹵水鵝、避風塘炒蟹件、菜膽花膠雞等潮州功夫菜",
-        "使用期 10/9 至 11/30（星期六、日及公眾假期），預訂期至 10/14 23:59"
-      ],
-      "url": "https://www.kkday.com/zh-hk/",
-      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-09）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/555929-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
-      "tags": [
-        "自助餐",
-        "潮州菜",
-        "天水圍",
-        "買一送一",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourplaza-np-yilungxuan-crab-20261009",
-      "category": "dining",
-      "title": "北角海逸酒店 逸龍軒大閘蟹自助晚餐買二送二，人均 HK$299；午市點心放題 63 折 HK$188",
-      "subtitle": "KKday 12 歲生日慶 10/8 15:00 開搶至 10/14 23:59 · 使用期 10/9 至 11/30 · 晚市每位到奉江蘇大閘蟹三隻",
-      "venue": "香港北角英皇道 665 號北角海逸酒店 3 樓 逸龍軒",
-      "priceLabel": "大閘蟹自助晚餐「買二送二」：4 位共 HK$1,196（人均 HK$299／位，原價 HK$598／位，已包座位費及加一服務費）；大閘蟹自助晚餐「第二位加 HK$120」：2 位共 HK$718（人均 HK$359）；午市點心放題 63 折：HK$188／位（原價 HK$298／位，2 位起）。小童身高 100cm 以下免費，長者需持有樂悠咭。名額及價格以 KKday 頁面公佈為準",
-      "priceValue": 299,
-      "originalLabel": "原價自助晚餐 HK$598／位（買二送二後人均 HK$299）；午市點心放題原價 HK$298／位",
-      "discountPct": 50,
-      "endsAt": "2026-10-14T23:59:00+08:00",
-      "period": "KKday 快閃預訂期：2026-10-08 15:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30。午市 12:00–15:00（最後落單 14:45）、晚市 18:00 起（最後落單 21:00），3 小時放題",
-      "summary": "北角海逸酒店逸龍軒推出大閘蟹季 KKday 快閃：自助晚餐買二送二，4 位共 HK$1,196（人均 HK$299／位，原價 HK$598／位），5 折入手；唔夠人可以揀「第二位加 HK$120」方案，2 位共 HK$718（人均 HK$359）。晚市每位到奉江蘇大閘蟹三隻、原隻鮑魚扣花菇、紅燒竹笙海皇翅及蒜蓉銀絲蒸生蠔，另有逾 30 款小菜任食任點、嘉士伯啤酒任飲，3 小時放題。午市同步推出點心放題 63 折 HK$188／位（原價 HK$298／位、2 位起）。價格已包括座位費及加一服務費，小童身高 100cm 以下免費。",
-      "highlights": [
-        "大閘蟹自助晚餐買二送二 4 位共 HK$1,196（人均 HK$299，原價 HK$598／位）",
-        "「第二位加 HK$120」2 位共 HK$718（人均 HK$359）",
-        "午市點心放題 63 折 HK$188／位（原價 HK$298／位，2 位起）",
-        "晚市每位到奉江蘇大閘蟹三隻＋原隻鮑魚扣花菇＋紅燒竹笙海皇翅＋蒜蓉銀絲蒸生蠔",
-        "逾 30 款小菜任食任點、嘉士伯啤酒任飲，3 小時放題",
-        "已包座位費及加一服務費；小童身高 100cm 以下免費"
-      ],
-      "url": "https://www.kkday.com/zh-hk/",
-      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-09）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/555929-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
-      "tags": [
-        "自助餐",
-        "大閘蟹",
-        "北角",
-        "買二送二",
-        "點心放題"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-yunhaihui-xq-crabduck-buffet-20261011",
       "category": "dining",
@@ -160,7 +55,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -195,8 +90,8 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-langham-tst-foodgallery-flash-20261013",
@@ -231,7 +126,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -265,7 +160,7 @@ window.DEAL_DATA = {
         "時令"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -301,7 +196,7 @@ window.DEAL_DATA = {
         "5折"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -339,7 +234,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -375,7 +270,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -409,7 +304,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -444,7 +339,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -479,7 +374,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -514,7 +409,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -550,7 +445,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -588,7 +483,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -626,7 +521,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -663,7 +558,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -698,7 +593,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -733,7 +628,7 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -770,7 +665,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -808,7 +703,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -843,7 +738,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -874,7 +769,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -905,7 +800,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -936,7 +831,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -966,7 +861,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -1001,7 +896,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -1036,7 +931,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -1071,7 +966,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 47,
+      "daysLeft": 46,
       "status": "active"
     },
     {
@@ -1108,7 +1003,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -1143,7 +1038,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 65,
+      "daysLeft": 64,
       "status": "active"
     },
     {
@@ -3271,6 +3166,111 @@ window.DEAL_DATA = {
         "尖沙咀",
         "龍蝦",
         "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-savvy-tst-halfprice-20261009",
+      "category": "dining",
+      "title": "尖沙咀太子酒店 SAVVY 自助餐限時 5 折，平日半自助午餐 HK$120／位（KKday 12 歲生日慶）",
+      "subtitle": "優惠碼 KKDBDSVY／12BDSVY · 預訂期 10/8 12:00 至 10/14 23:59 · 使用期 10/9 至 11/30 · 已包原價加一服務費",
+      "venue": "九龍尖沙咀海港城 太子酒店 3 樓 SAVVY",
+      "priceLabel": "平日半自助午餐：優惠碼【KKDBDSVY】HK$120／位（原價 HK$361／位，約 33 折，已包原價加一服務費）；同款 5 折價 HK$197／位，輸入【12BDSVY】無門檻減 HK$50 後 HK$147／位。海鮮週末自助早午餐：HK$323／位，輸入【12BDSVY】後 HK$273／位（原價 HK$592／位）。炙燒阿拉斯加帝王蟹龍蝦自助晚餐：HK$467／位，輸入【12BDSVY】後 HK$417／位（原價 HK$856／位）。優惠碼數量有限、售完即止，一切以 KKday 頁面即時公佈為準",
+      "priceValue": 120,
+      "originalLabel": "原價平日半自助午餐 HK$361／位（折後 HK$120／位）",
+      "discountPct": 67,
+      "endsAt": "2026-10-14T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-10-08 12:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30。平日半自助午餐時段為星期一至五 12:00–15:00（公眾假期除外）；週末自助早午餐為星期六、日及公眾假期 11:30–15:00；自助晚餐為星期三至六及公眾假期前夕 18:30–22:00",
+      "summary": "KKday 12 歲生日慶殺入尖沙咀海港城太子酒店 SAVVY：預訂時輸入優惠碼【KKDBDSVY】，平日半自助午餐每位只需 HK$120（原價 HK$361／位、已包原價加一服務費），等於約 33 折；用另一組 5 折優惠碼【12BDSVY】再減 HK$50，海鮮週末自助早午餐可低至 HK$273／位（原價 HK$592／位），炙燒阿拉斯加帝王蟹龍蝦自助晚餐低至 HK$417／位（原價 HK$856／位）。半自助午餐有 31 款主菜任揀一款，包括印式羊肉咖喱拼盤配烤餅、鐵板鱸魚扒定食、香葉蘿蔔炆牛肋條及日式鰻魚定食，並奉送精選自助頭盤及茗茶；週末早午餐供應麵包蟹、雪蟹、海螺、青口及刺身；晚餐主打烤阿拉斯加帝王蟹、鐵板燒龍蝦鉗、日式清酒牛油烤鮑魚。",
+      "highlights": [
+        "優惠碼【KKDBDSVY】平日半自助午餐 HK$120／位（原價 HK$361／位，約 33 折，已包加一）",
+        "5 折碼【12BDSVY】無門檻減 HK$50：平日半自助午餐 HK$147／位",
+        "海鮮週末自助早午餐 HK$273／位（原價 HK$592／位，已包加一）",
+        "炙燒阿拉斯加帝王蟹龍蝦自助晚餐 HK$417／位（原價 HK$856／位）",
+        "半自助午餐 31 款主菜任揀一款，奉送自助頭盤及茗茶",
+        "KKday 預訂期 10/8 12:00 至 10/14 23:59；使用期 10/9 至 11/30"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/128727",
+      "sourceLabel": "U Lifestyle 港生活（2026-10-09，引 KKday 產品 128727）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20112868",
+      "tags": [
+        "自助餐",
+        "半價",
+        "尖沙咀",
+        "優惠碼",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourplaza-tsw-newyork-chaozhou-20261009",
+      "category": "dining",
+      "title": "天水圍嘉湖海逸酒店 紐約紐約餐廳「鮮味潮行」潮州自助餐，午餐 HK$155／位（約 40 折）",
+      "subtitle": "KKday 快閃 10/8 18:00 開搶至 10/14 23:59 · 使用期 10/9 至 11/30（週六、日及公眾假期）· 買一送一人均 HK$209",
+      "venue": "新界天水圍天恩路 18 號嘉湖海逸酒店二期 紐約紐約餐廳",
+      "priceLabel": "「鮮味潮行」潮州主題自助午餐（12:00–14:30）：HK$155／位（原價 HK$383／位，已包原價加一服務費，約 40 折）；買一送一 HK$418／2 位（人均 HK$209）；親子方案成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5。「鮮味潮行」自助晚餐（18:30–21:30）：買二送二 HK$1,412／4 位（人均 HK$353，免費升級送精選紅酒乙支）、買一送一 HK$706／2 位（人均 HK$353）；親子方案 4 位同行人均低至 HK$176.5。名額及價格以 KKday 頁面公佈為準",
+      "priceValue": 155,
+      "originalLabel": "原價自助午餐 HK$383／位（HK$155／位），自助晚餐原價 HK$598／位起",
+      "discountPct": 60,
+      "endsAt": "2026-10-14T23:59:00+08:00",
+      "period": "KKday 快閃預訂期：2026-10-08 18:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30（星期六、日及公眾假期）；自助午餐 12:00–14:30、自助晚餐 18:30–21:30",
+      "summary": "天水圍嘉湖海逸酒店二期紐約紐約餐廳推出「鮮味潮行」潮州主題自助餐，KKday 快閃 10/8 傍晚 6 時開搶。自助午餐每位 HK$155（原價 HK$383／位、已包加一），約 40 折；買一送一 2 位 HK$418（人均 HK$209）；帶小朋友的話，成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5。晚餐買二送二 4 位 HK$1,412（人均 HK$353）並免費升級送精選紅酒乙支。菜式有醉鮑魚、凍蝦、海蜆、藍青口、潮式煎蠔餅、潮式鹵水鵝、避風塘炒蟹件、菜膽花膠雞、潮式烏頭魚；晚餐加碼潮式凍蟹、加拿大雪花蟹腳、冬瓜盅、燒牛肉眼扒及無限暢飲 Stella 生啤。使用期為星期六、日及公眾假期。",
+      "highlights": [
+        "潮州主題自助午餐 HK$155／位（原價 HK$383／位，約 40 折，已包加一）",
+        "午餐買一送一 HK$418／2 位（人均 HK$209）",
+        "親子方案：成人買 1 送 1 再送最多 2 位 6 歲以下小童，4 位同行人均低至 HK$104.5",
+        "晚餐買二送二 HK$1,412／4 位（人均 HK$353）送精選紅酒乙支",
+        "任食醉鮑魚、潮式鹵水鵝、避風塘炒蟹件、菜膽花膠雞等潮州功夫菜",
+        "使用期 10/9 至 11/30（星期六、日及公眾假期），預訂期至 10/14 23:59"
+      ],
+      "url": "https://www.kkday.com/zh-hk/",
+      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-09）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/555929-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "潮州菜",
+        "天水圍",
+        "買一送一",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourplaza-np-yilungxuan-crab-20261009",
+      "category": "dining",
+      "title": "北角海逸酒店 逸龍軒大閘蟹自助晚餐買二送二，人均 HK$299；午市點心放題 63 折 HK$188",
+      "subtitle": "KKday 12 歲生日慶 10/8 15:00 開搶至 10/14 23:59 · 使用期 10/9 至 11/30 · 晚市每位到奉江蘇大閘蟹三隻",
+      "venue": "香港北角英皇道 665 號北角海逸酒店 3 樓 逸龍軒",
+      "priceLabel": "大閘蟹自助晚餐「買二送二」：4 位共 HK$1,196（人均 HK$299／位，原價 HK$598／位，已包座位費及加一服務費）；大閘蟹自助晚餐「第二位加 HK$120」：2 位共 HK$718（人均 HK$359）；午市點心放題 63 折：HK$188／位（原價 HK$298／位，2 位起）。小童身高 100cm 以下免費，長者需持有樂悠咭。名額及價格以 KKday 頁面公佈為準",
+      "priceValue": 299,
+      "originalLabel": "原價自助晚餐 HK$598／位（買二送二後人均 HK$299）；午市點心放題原價 HK$298／位",
+      "discountPct": 50,
+      "endsAt": "2026-10-14T23:59:00+08:00",
+      "period": "KKday 快閃預訂期：2026-10-08 15:00 至 2026-10-14 23:59；使用期：2026-10-09 至 2026-11-30。午市 12:00–15:00（最後落單 14:45）、晚市 18:00 起（最後落單 21:00），3 小時放題",
+      "summary": "北角海逸酒店逸龍軒推出大閘蟹季 KKday 快閃：自助晚餐買二送二，4 位共 HK$1,196（人均 HK$299／位，原價 HK$598／位），5 折入手；唔夠人可以揀「第二位加 HK$120」方案，2 位共 HK$718（人均 HK$359）。晚市每位到奉江蘇大閘蟹三隻、原隻鮑魚扣花菇、紅燒竹笙海皇翅及蒜蓉銀絲蒸生蠔，另有逾 30 款小菜任食任點、嘉士伯啤酒任飲，3 小時放題。午市同步推出點心放題 63 折 HK$188／位（原價 HK$298／位、2 位起）。價格已包括座位費及加一服務費，小童身高 100cm 以下免費。",
+      "highlights": [
+        "大閘蟹自助晚餐買二送二 4 位共 HK$1,196（人均 HK$299，原價 HK$598／位）",
+        "「第二位加 HK$120」2 位共 HK$718（人均 HK$359）",
+        "午市點心放題 63 折 HK$188／位（原價 HK$298／位，2 位起）",
+        "晚市每位到奉江蘇大閘蟹三隻＋原隻鮑魚扣花菇＋紅燒竹笙海皇翅＋蒜蓉銀絲蒸生蠔",
+        "逾 30 款小菜任食任點、嘉士伯啤酒任飲，3 小時放題",
+        "已包座位費及加一服務費；小童身高 100cm 以下免費"
+      ],
+      "url": "https://www.kkday.com/zh-hk/",
+      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-09）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/555929-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "大閘蟹",
+        "北角",
+        "買二送二",
+        "點心放題"
       ],
       "sample": false,
       "daysLeft": 0,
