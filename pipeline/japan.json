@@ -1,24 +1,24 @@
 {
   "meta": {
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "minRating": 4.2,
     "rotation": [
+      "金澤",
       "高松",
-      "大阪",
       "京都",
+      "橫濱",
       "沖繩",
       "福岡",
       "札幌",
       "東京",
       "仙台",
-      "金澤",
-      "橫濱",
       "名古屋",
       "廣島",
-      "神戶"
+      "神戶",
+      "大阪"
     ],
-    "rotationNote": "2026-10-15：神戶（關西，美食 1→3）完成，移至末位；現時美食各地區收錄：關東 7／關西 7（神戶 +2）／中部 4／九州 3／北海道 4／東北 3／中國 5／四國 1／沖繩 3。下輪首位為大阪（關西，現有 2 筆），下一位為京都（關西，現有 2 筆）。"
+    "rotationNote": "2026-10-16：大阪（關西，美食 2→6）完成，移至末位；現時美食各地區收錄：關東 7／關西 11（大阪 +4）／中部 4／九州 3／北海道 4／東北 3／中國 5／四國 1／沖繩 3。下輪首位為金澤（中部，現有 1 筆），下一位為高松（四國，現有 1 筆）——四國與中部收錄最少，優先補。"
   },
   "eats": [
     {
@@ -933,6 +933,106 @@
       "sourceLabel": "Wanderlog（引用 Google 評分 4.8 與 2,197 評論）",
       "sourceUrl": "https://wanderlog.com/place/details/418110",
       "addedAt": "2026-10-15"
+    },
+    {
+      "id": "jp-osaka-yakiniku-daibokujo-dotonbori",
+      "name": "焼肉屋 大牧場 道頓堀店",
+      "nameEn": "Yakinikuya Daibokujo Dotonbori",
+      "city": "大阪",
+      "area": "道頓堀（固力果跑跑人地標旁）",
+      "cuisine": "燒肉／和牛放題",
+      "signature": "黑毛和牛放題、神戶牛寶盒、厚切牛舌",
+      "rating": 4.8,
+      "reviews": 4777,
+      "ratingCheckedAt": "2026-10-16",
+      "priceRange": "放題約 ¥5,000–9,000（視方案；飲品放題另加約 ¥1,000）",
+      "address": "大阪府大阪市中央区道頓堀1-6-15 コムラード・ドウトンビル5F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E5%B1%8B%20%E5%A4%A7%E7%89%A7%E5%A0%B4%20%E9%81%93%E9%A0%93%E5%A0%80%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%81%93%E9%A0%93%E5%A0%801-6-15",
+      "blurb": "道頓堀地標旁的燒肉放題，黑毛和牛、神戶牛任食，Google 評分 4.8、評論近 4,800 則，係大阪燒肉名單入面樣本最大嘅一間。行完心齋橋、道頓堀直接上樓食得，唔使特地搭車。",
+      "tips": [
+        "人氣高，晚市幾乎一定要預約；或者提早到或者避開 6–8 點高峰。",
+        "想試神戶牛要揀 Premium 或神戶牛方案，普通方案只有黑毛和牛。",
+        "放題有時間限制（約兩小時），落單節奏要自己掌握。",
+        "同一棟樓在固力果跑跑人正對面，認住 5 樓就係。"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.8 與 4,777 則評論）；另見 restaurantguru（Google 4.8／5,361 票）與 Japan Food Guide（4.8）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/2686200/烧肉屋-大牧场-道頓堀店",
+      "addedAt": "2026-10-16"
+    },
+    {
+      "id": "jp-osaka-yakiniku-lab-namba",
+      "name": "焼肉Lab 難波店",
+      "nameEn": "Yakiniku Lab Namba",
+      "city": "大阪",
+      "area": "難波（難波站 11 號出口步行 1 分鐘）",
+      "cuisine": "燒肉／和牛放題",
+      "signature": "黑毛和牛 120 分鐘暢食暢飲、生和牛他他伴海膽",
+      "rating": 4.7,
+      "reviews": 1855,
+      "ratingCheckedAt": "2026-10-16",
+      "priceRange": "和牛放題約 ¥8,500／位（飲品放題另加約 ¥1,000）",
+      "address": "大阪府大阪市中央区難波3-7-22 中野ビル2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89Lab%20%E9%9B%A3%E6%B3%A2%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%9B%A3%E6%B3%A23-7-22",
+      "blurb": "主打黑毛和牛 120 分鐘暢食暢飲，菜色多達 130 種，距離難波站 11 號出口只需一分鐘。Google 評分 4.7、評論 1,800 則以上，連生和牛他他拌海膽都收在放題範圍，係難波一帶性價比極高的燒肉選擇。",
+      "tips": [
+        "放題分不同等級，想食海膽牛肉、牛舌、橫隔膜要揀「極套餐」。",
+        "唔食牛都可以點海鮮、豬、雞，同行有素食或唔食牛嘅人一樣食得。",
+        "營業時間：平日 17:00–23:00，週末 12:00–23:00，午市只限週末。",
+        "可信用卡付款，但不能用電子錢包或 QR 支付碼。"
+      ],
+      "sourceLabel": "restaurantguru（引用 Google 4.7／5 與 1,855 票）；另見 japanzerolag（Google 4.7）與 Tabelog 3.48",
+      "sourceUrl": "https://restaurantguru.com/%E5%A4%A7%E9%98%AA%E7%84%BC%E8%82%89-%E7%84%BC%E8%82%89Lab-%E9%9B%A3%E6%B3%A2%E5%BA%97-Osaka-Osaka-Prefecture",
+      "addedAt": "2026-10-16"
+    },
+    {
+      "id": "jp-osaka-tori-soba-zagin-honten",
+      "name": "鶏Soba 座銀 本店",
+      "nameEn": "Tori Soba ZAGIN Main Shop",
+      "city": "大阪",
+      "area": "西区江戸堀（四つ橋線肥後橋站 8 號出口步行約 2 分鐘）",
+      "cuisine": "拉麵（泡系雞白湯）",
+      "signature": "雞白湯拉麵、炸牛蒡、海鮮沾麵",
+      "rating": 4.5,
+      "reviews": 2631,
+      "ratingCheckedAt": "2026-10-16",
+      "priceRange": "¥1,000–1,500",
+      "address": "大阪府大阪市西区江戸堀1-19-2",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B6%8FSoba%20%E5%BA%A7%E9%8A%80%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E8%A5%BF%E5%8C%BA%E6%B1%9F%E6%88%B8%E5%A0%801-19-2",
+      "blurb": "大阪泡系雞白湯拉麵的代表店，湯頭打至細緻泡沫、入口柔順，配上炸牛蒡。Google 評分 4.5、評論 2,600 則以上，係大阪拉麵圈長年排隊名店；本店喺西區江戸堀，唔好同心齋橋分店搞亂。",
+      "tips": [
+        "長期要排隊，建議預留至少一個鐘；開店前到會快啲。",
+        "只收現金（接受一千円紙幣），記得帶夠現金。",
+        "先在門口自動售票機落單，再入座。",
+        "位置喺商廈區，夜晚同週末人流較少，想避開人龍可以揀呢啲時段。"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.5 與 2,631 則評論）；另見 zendine／docentpro（4.5，2,558 則）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/1302579/tori-soba-zagin-main-shop",
+      "addedAt": "2026-10-16"
+    },
+    {
+      "id": "jp-osaka-nikusho-gyuko-shinsaibashi",
+      "name": "肉匠 牛虎 心齋橋店",
+      "nameEn": "Nikushoh Gyuko Shinsaibashi",
+      "city": "大阪",
+      "area": "南船場（心齋橋站步行約 5 分鐘／Crysta 長堀北 7 號出口 1 分鐘）",
+      "cuisine": "燒肉／和牛",
+      "signature": "牛虎特製牛舌五種拼盤、側腹橫肌六種拼盤、和牛壽司",
+      "rating": 4.5,
+      "reviews": 457,
+      "ratingCheckedAt": "2026-10-16",
+      "priceRange": "午市約 ¥900 起；晚市人均約 ¥4,500 起",
+      "address": "大阪府大阪市中央区南船場3-4-22 地下1階",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E5%8C%A0%20%E7%89%9B%E8%99%8E%20%E5%BF%83%E9%BD%8B%E6%A9%8B%E5%BA%97%20%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%97%E8%88%B9%E5%A0%B43-4-22",
+      "blurb": "精肉店直營的燒肉店，用佐賀、宮崎和牛，以專業刀法處理，稀有部位選擇多。Google 評分 4.5，午市定食約 ¥900 起，係心齋橋一帶「食好肉又唔傷荷包」嘅代表；座位 80 個，有包廂同中文菜單。",
+      "tips": [
+        "午市套餐比晚市抵食好多，想食和牛又控制預算就揀午市。",
+        "餐廳喺地庫，地面入口有樓梯落去，唔好行過龍。",
+        "有中文（簡體）菜單同中文店員，唔識日文都冇問題。",
+        "旺日建議預約，尤其係想坐包廂。"
+      ],
+      "sourceLabel": "SAVOR JAPAN 品味日本（引用 Google 評分 4.5 與 457 則評論）；另見 retty（4.50）與 gurunavi",
+      "sourceUrl": "https://tw.savorjapan.com/0031502326/menus",
+      "addedAt": "2026-10-16"
     }
   ]
 }

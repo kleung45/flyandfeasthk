@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-15T10:56:44+08:00",
+    "updated": "2026-10-16T10:58:39+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,52 +12,16 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 93,
-      "active": 29,
-      "ending": 2,
-      "expired": 64,
-      "flight": 9,
-      "dining": 84,
+      "total": 97,
+      "active": 32,
+      "ending": 5,
+      "expired": 65,
+      "flight": 10,
+      "dining": 87,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-yunhaihui-xq-crabduck-buffet-20261011",
-      "category": "dining",
-      "title": "深水埗雲海匯 × 囍慶 120 分鐘大閘蟹＋北京片皮鴨放題，囍慶顯徑限量 HK$120／位",
-      "subtitle": "KKday 12 週年快閃 · 預訂期 10/9 15:00 至 10/15 23:59 · 用餐期 10/10 至 10/31 · 深水埗／沙田科學園／大圍三店",
-      "venue": "深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑（三店不設調店）",
-      "priceLabel": "囍慶顯徑限時快閃價 HK$120／位（原價 HK$688／位，約 17 折，限量）；三店平日 2 位同行 HK$548／2 位（人均 HK$274／位，低至 39 折）；1 位成人＋1 位長者平日 HK$548／2 位、週末及公眾假期 HK$578／2 位。現場另收原價加一服務費 HK$68.8／位、茶芥 HK$15／位及酸菜 HK$15／碟，每次最少購買 2 位。名額及價格以 KKday 頁面公佈為準",
-      "priceValue": 120,
-      "originalLabel": "原價 HK$688／位（囍慶顯徑快閃 HK$120／位）",
-      "discountPct": 83,
-      "endsAt": "2026-10-15T23:59:00+08:00",
-      "period": "KKday 快閃預訂期：2026-10-09 15:00 至 2026-10-15 23:59；用餐期：2026-10-10 至 2026-10-31；120 分鐘放題，入座時段 18:00–19:30，由入座起計 120 分鐘",
-      "summary": "為慶祝品牌 12 週年，深水埗雲海匯聯同沙田囍慶科學園及大圍囍慶顯徑推出秋季快閃放題：每位低至 HK$120（囍慶顯徑限量快閃價，原價 HK$688／位），即可 120 分鐘無限量任食清蒸及花彫蒸大閘蟹，以及北京片皮鴨。三店平日 2 位同行 HK$548（人均 HK$274／位、低至 39 折）。每位入座奉送雲南野菌燉響螺 1 盅及手工蟹粉小籠包 2 隻，另有麻辣口水雞、生炒糯米飯等隨餐小菜，預訂指定方案每檯加送古法羊腩煲。飲品方面紅白餐酒、啤酒、汽水及驅寒薑茶無限任飲。預訂期至 10 月 15 日，用餐期 10 月 10 日至 10 月 31 日。",
-      "highlights": [
-        "囍慶顯徑限量快閃價 HK$120／位（原價 HK$688／位，限量供應）",
-        "三店平日 2 位同行 HK$548／2 位（人均 HK$274，低至 39 折）",
-        "1 位成人＋1 位長者平日 HK$548／2 位、週末及公眾假期 HK$578／2 位",
-        "120 分鐘任食清蒸／花彫蒸大閘蟹＋北京片皮鴨",
-        "每位奉送雲南野菌燉響螺 1 盅及蟹粉小籠包 2 隻，指定方案每檯加送古法羊腩煲",
-        "紅白餐酒、啤酒、汽水及薑茶無限任飲；預訂期至 10/15 23:59"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/547080",
-      "sourceLabel": "星島頭條（2026-10-09）＋ GroupBuya 著數網「KKday 12 週年慶快閃」",
-      "sourceUrl": "http://www.stheadline.com/food/3623903/",
-      "tags": [
-        "自助餐",
-        "大閘蟹",
-        "片皮鴨",
-        "放題",
-        "深水埗",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-foodstudio-wanchai-12anniv-20261011",
       "category": "dining",
@@ -90,7 +54,42 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
+      "status": "ending"
+    },
+    {
+      "id": "flight-peach-hk-osaka-flashsale-20261016",
+      "category": "flight",
+      "title": "樂桃航空 Peach 香港–大阪（關西）限時促銷，單程 HK$400 起、來回連稅約 HK$1,390",
+      "subtitle": "Peach Special Sale · 發售 10/15 12:00 至 10/18 23:59（HKT） · 出發 10/20 至 2027/1/31",
+      "route": "香港（HKG）↔ 大阪關西（KIX）",
+      "priceLabel": "來回連稅約 HK$1,390 起（官方 Minimum Promo 單程 HK$400 起／Standard Promo 單程 HK$780 起，加機場稅後約此數）",
+      "priceValue": 1390,
+      "originalLabel": "Minimum Promo 每位單程 HK$400 起（指定日期及航班 MM064）；其餘航班單程 HK$550 起",
+      "endsAt": "2026-10-18T23:59:00+08:00",
+      "period": "發售期：2026-10-15 12:00 至 10-18 23:59（HKT）；出發期：2026-10-20 至 2027-01-31（不適用日期 12/23–1/3；MM064 優惠日 11/30–1/11 之週一至四）",
+      "summary": "樂桃航空 Peach 推出香港出發限時促銷，香港–大阪關西單程最低 HK$400 起（指定航班 MM064、11/30 至 1/11 之週一至四），其餘全航班單程 HK$550 起，Standard Promo 票種單程 HK$780 起；以上為每位單程未連機場稅的促銷票價，加上機場服務費等費用後，來回連稅約 HK$1,390 起。發售期為 2026 年 10 月 15 日 12:00 至 10 月 18 日 23:59（香港時間），出發期 2026 年 10 月 20 日至 2027 年 1 月 31 日，12 月 23 日至 1 月 3 日不適用。Minimum Promo 票價不含託運行李及預選座位，須另行加購。價格、名額及適用航班以 Peach 官方網站即時顯示為準。",
+      "highlights": [
+        "香港–大阪關西單程 HK$400 起（指定航班 MM064、11/30–1/11 週一至四）",
+        "全航班單程 HK$550 起；Standard Promo 單程 HK$780 起",
+        "來回連稅約 HK$1,390 起（未計託運行李與選位）",
+        "發售 10/15 12:00–10/18 23:59（HKT），出發 10/20–2027/1/31",
+        "Peach 不另收燃油附加費；Minimum Promo 不含託運行李、不可選 Fast Area"
+      ],
+      "url": "https://booking.flypeach.com/hk/",
+      "sourceLabel": "Peach 樂桃航空官方香港網站 Special Sale 頁（2026-10-15 12:00 起發售）＋ MeetHK《樂桃航空 香港–大阪來回連稅 HK$1,390 起》",
+      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale",
+      "tags": [
+        "機票",
+        "廉航",
+        "樂桃航空",
+        "Peach",
+        "大阪",
+        "關西",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -126,8 +125,8 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-wingleewai-hairycrab-bogo-20261013",
@@ -160,8 +159,8 @@ window.DEAL_DATA = {
         "時令"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-teppanyaki-chun-on-20261013",
@@ -196,8 +195,8 @@ window.DEAL_DATA = {
         "5折"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-hangfong-windowcafe-2nd12-seafood-20261014",
@@ -234,7 +233,43 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-playt-cwb-goldencrab-flashsale-20261016",
+      "category": "dining",
+      "title": "柏寧酒店 PLAYT「金秋蟹宴」大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位）",
+      "subtitle": "KKday 12 週年快閃 · 開搶 10/14 12:00 至 10/20 23:59 · 使用期 10/15 至 11/30 · PayMe 碼後人均低至 HK$575",
+      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
+      "priceLabel": "「金秋蟹宴」大閘蟹自助晚餐（一至四）：第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，已包原價加一）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折＋PayMe 碼【PMPLAYT】減 HK$80 後人均 HK$575 起。平日自助午餐第二位 HK$122，HK$684／2 位（人均 HK$342，原價 HK$515／位）；週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）",
+      "priceValue": 590,
+      "originalLabel": "大閘蟹自助晚餐原價 HK$878／位起（已包原價加一服務費）",
+      "discountPct": 67,
+      "endsAt": "2026-10-20T23:59:00+08:00",
+      "period": "預訂期：2026-10-14 12:00 至 10-20 23:59；使用期：2026-10-15 至 11-30",
+      "summary": "銅鑼灣香港柏寧酒店 PLAYT 於 KKday 12 週年快閃推出「金秋蟹宴」大閘蟹自助晚餐（供應期 10/12–11/30）：星期一至四第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，約 67 折）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折並以 PayMe 付款輸入優惠碼【PMPLAYT】可減 HK$80，人均低至 HK$575 起。每位成人奉送兩隻約 4 両重清蒸大閘蟹（小童一隻），另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯、蟹粉忌廉汁意大利粉等蟹粉創意菜，以及即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排。同場平日自助午餐第二位 HK$122（HK$684／2 位，人均 HK$342，原價 HK$515／位）、週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）。全部價格已包括原價加一服務費；價格、名額與可訂日子以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位起，約 67 折）",
+        "PayMe 付款輸碼【PMPLAYT】再減 HK$80，人均低至 HK$575 起",
+        "每位成人奉送兩隻約 4 両清蒸大閘蟹（小童一隻）",
+        "蟹粉鮑魚兩面黃、蟹粉茶碗蒸、即開生蠔、冰鎮龍蝦、鱈蟹腳",
+        "預訂期 10/14 12:00–10/20 23:59，使用期 10/15–11/30（供應期 10/12 起）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/128971",
+      "sourceLabel": "U Lifestyle（UHK 港生活）《柏寧酒店大閘蟹自助餐第2位$222》（2026-10-14）＋ Yahoo 新聞《2026大閘蟹優惠推介》（BuffetGang）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20113600",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "大閘蟹",
+        "銅鑼灣",
+        "柏寧酒店",
+        "PLAYT",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -268,6 +303,78 @@ window.DEAL_DATA = {
         "旺角",
         "康得思",
         "酒店"
+      ],
+      "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-lungting-teppanyaki-12anniv-20261016",
+      "category": "dining",
+      "title": "龍亭鐵板燒 12 歲生日慶快閃，限量盛宴 HK$120／位（原價 HK$976／位起）",
+      "subtitle": "KKday 12 週年生日慶 · 開搶 10/15 18:00 至 10/21 23:59 · 使用期 10/16 至 12/15",
+      "venue": "龍亭鐵板燒 · 尖沙咀／佐敦／中環／大埔／元朗（現場另收原價加一服務費）",
+      "priceLabel": "限量 HK$120／位：「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」原價 HK$976／位、「尊貴魚子醬松本和牛花龍蝦盛宴」原價 HK$1,188／位；【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起；【重陽長幼專享】1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起；【長幼專享半價】日式特選套餐 HK$188／位（原價 HK$376／位）",
+      "priceValue": 120,
+      "originalLabel": "金沙龍蝦拖羅鵝肝和牛盛宴（十三品）原價 HK$976／位；尊貴魚子醬松本和牛花龍蝦盛宴原價 HK$1,188／位",
+      "discountPct": 12,
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "預訂期：2026-10-15 18:00 至 10-21 23:59；使用期：2026-10-16 至 12-15（特別日子除外）",
+      "summary": "龍亭鐵板燒乘 KKday 12 週年生日慶推出快閃優惠，10 月 15 日傍晚 6 時開搶：限量「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」及「尊貴魚子醬松本和牛花龍蝦盛宴」各 HK$120／位（原價分別 HK$976／位及 HK$1,188／位，約 12 折）；另有【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起、重陽節長幼專享（1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起）及長幼專享半價日式特選套餐 HK$188／位（原價 HK$376／位）。菜單包括原罐魚子醬伴鐵板鱈魚脆片、煙燻稻草燒拖羅、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、鐵板 A5 松本和牛薄燒、黑松露海鮮炒飯；每單 6 位以上送鐵板金沙帝王蟹（約 3 斤）及魚子醬蛋糕。分店：尖沙咀／佐敦／中環／大埔／元朗；現場另收原價加一服務費。名額有限、售完即止，價格與名額以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "限量盛宴 HK$120／位（原價 HK$976／位十三品、HK$1,188／位魚子醬松本和牛，約 12 折）",
+        "第 1 位 5 折＋第 2 位 HK$120，人均 HK$304 起",
+        "重陽長幼專享：1 位成人 5 折＋1 位 65 歲或以上長者 HK$120",
+        "菜單含原罐魚子醬、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、A5 松本和牛薄燒",
+        "開搶 10/15 18:00–10/21 23:59，使用 10/16–12/15；每單 6 位以上送金沙帝王蟹及魚子醬蛋糕"
+      ],
+      "url": "https://www.kkday.com/zh-hk/",
+      "sourceLabel": "Yahoo 新聞《鐵板燒優惠｜龍亭鐵板燒快閃 HK$120 歎花龍蝦、松本和牛及拖羅十三品盛宴》（2026-10-15）＋ GroupBuya《KKday 龍亭鐵板燒 12 歲生日慶快閃》（2026-10-16 更新）",
+      "sourceUrl": "https://hk.news.yahoo.com/%E9%90%B5%E6%9D%BF%E7%87%92%E5%84%AA%E6%83%A0-%E9%BE%8D%E4%BA%AD%E9%90%B5%E6%9D%BF%E7%87%92%E5%BF%AB%E9%96%83hk-120%E6%AD%8E%E8%8A%B1%E9%BE%8D%E8%9D%A6-%E6%9D%BE%E6%9C%AC%E5%92%8C%E7%89%9B%E5%8F%8A%E6%8B%96%E7%BE%85%E5%8D%81%E4%B8%89%E5%93%81%E7%9B%9B%E5%AE%B4-142016368.html",
+      "tags": [
+        "鐵板燒",
+        "快閃",
+        "龍蝦",
+        "和牛",
+        "尖沙咀",
+        "龍亭",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-teahouse-alaskancrab-flashsale-20261016",
+      "category": "dining",
+      "title": "茶皇殿／茶皇漁港 阿拉斯加長腳蟹快閃，指定日子 HK$188／斤（原價 HK$338／斤）；6 位餐人均 HK$198",
+      "subtitle": "KKday 獨家快閃 · 開搶 10/16 15:00 至 10/22 23:59 · 使用期 10/17 至 11/30",
+      "venue": "茶皇殿（8 間分店）／茶皇漁港（屯門）",
+      "priceLabel": "自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤）；全日 HK$198／斤、4 斤 HK$792。6 位用「阿拉斯加蟹＋金奬經典乳鴿餐」茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）、茶皇殿／茶皇漁港 HK$1,308／6 位（人均 HK$218）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888）／HK$1,664／8 位（人均 HK$208）",
+      "priceValue": 188,
+      "originalLabel": "阿拉斯加長腳蟹原價 HK$338／斤；6 位餐原價 HK$2,288、8 位餐原價 HK$2,888",
+      "discountPct": 56,
+      "endsAt": "2026-10-22T23:59:00+08:00",
+      "period": "預訂期：2026-10-16 15:00 至 10-22 23:59；使用期：4 斤起方案 10-17 至 11-30（指定日子）、美食大賞限定方案 10-19 至 10-31",
+      "summary": "茶皇殿（8 間分店）及茶皇漁港（屯門）於 KKday 推出獨家快閃，主打自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折），全日價 HK$198／斤；清蒸或日式凍食任揀、即撈即蒸。另設 6 位用「阿拉斯加蟹＋金奬經典乳鴿餐連燉湯」，茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888），含薑蔥焗台山蠔、清蒸東星斑、西蘭花花枝帶子。入座需 6 位或以上，另須額外惠顧最少 2 份小菜，現場另收原價加一服務費及茶芥（10/31 前土瓜灣分店全日免加一）。價格、名額與適用日子以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折）",
+        "6 位用蟹＋乳鴿餐 茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）",
+        "8 位用 Chill 值海鮮餐 HK$1,504／8 位（人均 HK$188，原價 HK$2,888）",
+        "開搶 10/16 15:00–10/22 23:59，使用 10/17–11/30",
+        "必需 6 位或以上用餐，另須額外惠顧最少 2 份小菜；現場另收原價加一及茶芥"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/163725",
+      "sourceLabel": "GroupBuya《KKday 獨家快閃 茶皇殿阿拉斯加長腳蟹優惠》（KKday，2026-10-16 更新）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "長腳蟹",
+        "酒家",
+        "茶皇殿",
+        "屯門",
+        "KKday"
       ],
       "sample": false,
       "daysLeft": 6,
@@ -304,7 +411,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -339,7 +446,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -374,7 +481,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -409,7 +516,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -445,7 +552,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -483,7 +590,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -521,7 +628,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -558,7 +665,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -593,7 +700,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -628,7 +735,7 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -665,7 +772,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -703,7 +810,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -738,7 +845,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -769,7 +876,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -800,7 +907,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -831,7 +938,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -861,7 +968,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -896,7 +1003,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -931,7 +1038,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -966,7 +1073,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -1003,7 +1110,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -1038,7 +1145,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 64,
+      "daysLeft": 63,
       "status": "active"
     },
     {
@@ -3271,6 +3378,42 @@ window.DEAL_DATA = {
         "北角",
         "買二送二",
         "點心放題"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-yunhaihui-xq-crabduck-buffet-20261011",
+      "category": "dining",
+      "title": "深水埗雲海匯 × 囍慶 120 分鐘大閘蟹＋北京片皮鴨放題，囍慶顯徑限量 HK$120／位",
+      "subtitle": "KKday 12 週年快閃 · 預訂期 10/9 15:00 至 10/15 23:59 · 用餐期 10/10 至 10/31 · 深水埗／沙田科學園／大圍三店",
+      "venue": "深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑（三店不設調店）",
+      "priceLabel": "囍慶顯徑限時快閃價 HK$120／位（原價 HK$688／位，約 17 折，限量）；三店平日 2 位同行 HK$548／2 位（人均 HK$274／位，低至 39 折）；1 位成人＋1 位長者平日 HK$548／2 位、週末及公眾假期 HK$578／2 位。現場另收原價加一服務費 HK$68.8／位、茶芥 HK$15／位及酸菜 HK$15／碟，每次最少購買 2 位。名額及價格以 KKday 頁面公佈為準",
+      "priceValue": 120,
+      "originalLabel": "原價 HK$688／位（囍慶顯徑快閃 HK$120／位）",
+      "discountPct": 83,
+      "endsAt": "2026-10-15T23:59:00+08:00",
+      "period": "KKday 快閃預訂期：2026-10-09 15:00 至 2026-10-15 23:59；用餐期：2026-10-10 至 2026-10-31；120 分鐘放題，入座時段 18:00–19:30，由入座起計 120 分鐘",
+      "summary": "為慶祝品牌 12 週年，深水埗雲海匯聯同沙田囍慶科學園及大圍囍慶顯徑推出秋季快閃放題：每位低至 HK$120（囍慶顯徑限量快閃價，原價 HK$688／位），即可 120 分鐘無限量任食清蒸及花彫蒸大閘蟹，以及北京片皮鴨。三店平日 2 位同行 HK$548（人均 HK$274／位、低至 39 折）。每位入座奉送雲南野菌燉響螺 1 盅及手工蟹粉小籠包 2 隻，另有麻辣口水雞、生炒糯米飯等隨餐小菜，預訂指定方案每檯加送古法羊腩煲。飲品方面紅白餐酒、啤酒、汽水及驅寒薑茶無限任飲。預訂期至 10 月 15 日，用餐期 10 月 10 日至 10 月 31 日。",
+      "highlights": [
+        "囍慶顯徑限量快閃價 HK$120／位（原價 HK$688／位，限量供應）",
+        "三店平日 2 位同行 HK$548／2 位（人均 HK$274，低至 39 折）",
+        "1 位成人＋1 位長者平日 HK$548／2 位、週末及公眾假期 HK$578／2 位",
+        "120 分鐘任食清蒸／花彫蒸大閘蟹＋北京片皮鴨",
+        "每位奉送雲南野菌燉響螺 1 盅及蟹粉小籠包 2 隻，指定方案每檯加送古法羊腩煲",
+        "紅白餐酒、啤酒、汽水及薑茶無限任飲；預訂期至 10/15 23:59"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/547080",
+      "sourceLabel": "星島頭條（2026-10-09）＋ GroupBuya 著數網「KKday 12 週年慶快閃」",
+      "sourceUrl": "http://www.stheadline.com/food/3623903/",
+      "tags": [
+        "自助餐",
+        "大閘蟹",
+        "片皮鴨",
+        "放題",
+        "深水埗",
+        "快閃"
       ],
       "sample": false,
       "daysLeft": 0,
