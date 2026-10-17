@@ -49,6 +49,9 @@ def countdown(deal: dict) -> str:
     if days == 1:
         return "明日結束"
     if isinstance(days, int):
+        # 視窗太長（例如機票票價期、半年期官網折扣）唔算「快閃」，唔加倒數以免製造假緊迫感
+        if days > 45:
+            return ""
         return f"剩 {days} 日"
     return ""
 
