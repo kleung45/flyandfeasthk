@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-19T10:46:13+08:00",
+    "updated": "2026-10-19T10:57:13+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,12 +12,12 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 100,
-      "active": 33,
-      "ending": 10,
+      "total": 102,
+      "active": 35,
+      "ending": 11,
       "expired": 67,
       "flight": 11,
-      "dining": 89,
+      "dining": 91,
       "hotel": 0
     }
   },
@@ -339,6 +339,39 @@ window.DEAL_DATA = {
         "買一送一",
         "快閃",
         "Klook"
+      ],
+      "sample": false,
+      "daysLeft": 2,
+      "status": "ending"
+    },
+    {
+      "id": "dining-harbourplaza8degrees-mango-tea-bogo-20261019",
+      "category": "dining",
+      "title": "土瓜灣 8 度海逸酒店「金芒晶選」下午茶買一送一，2 位 HK$198（人均 HK$99）",
+      "subtitle": "KKday 快閃 · 預訂至 10/21 · 適用 10/16–11/30 下午 3 至 5 時",
+      "venue": "土瓜灣九龍城道 199 號 8 度海逸酒店 8 度餐廳",
+      "priceLabel": "KKday 快閃買一送一：2 位 HK$198（人均 HK$99），已包下午茶套餐及無限量咖啡或茶；現場另收以原價計算的服務費。價格以 KKday 頁面即時公佈為準",
+      "priceValue": 99,
+      "originalLabel": "買一送一即第二位免費，折合約 5 折；原價單人下午茶以酒店及 KKday 頁面為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "預訂期：2026-10-15 15:00 至 10-21；適用日期：2026-10-16 至 11-30，每日 15:00–17:00；現場另收以原價計算的服務費",
+      "summary": "土瓜灣 8 度海逸酒店 8 度餐廳推出「金芒晶選」芒果主題下午茶買一送一，2 位 HK$198、人均 HK$99，已包無限量咖啡或茶。鹹點有芒果洋蔥柚子沙律伴叄巴醬、芒果牛油果三文魚芝麻反卷、黑松露燒汁芝士焗薯蓉、醬燒京蔥雞肉串；甜點有芒果拿破崙、芒果芝士班戟、芒果熱情果意大利芝士蛋糕及牛油鬆餅。KKday 預訂期由 10 月 15 日下午 3 時至 10 月 21 日，適用 10 月 16 日至 11 月 30 日每日下午 3 至 5 時，現場另收以原價計算的服務費。",
+      "highlights": [
+        "2 位 HK$198、人均 HK$99（買一送一，約 5 折）",
+        "包無限量咖啡或茶；現場另收以原價計算服務費",
+        "鹹甜點各 4 款：芒果拿破崙、芒果芝士班戟、黑松露焗薯蓉、醬燒京蔥雞肉串",
+        "預訂期 10/15 15:00–10/21；適用 10/16–11/30 每日 15:00–17:00"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/119704",
+      "sourceLabel": "RunHotel 2026-10-15 報道 · KKday 產品 119704",
+      "sourceUrl": "https://www.runhotel.hk/8-degree-tea/",
+      "tags": [
+        "下午茶",
+        "買一送一",
+        "土瓜灣",
+        "8度海逸",
+        "KKday"
       ],
       "sample": false,
       "daysLeft": 2,
@@ -808,6 +841,42 @@ window.DEAL_DATA = {
         "旺角",
         "陶源酒家",
         "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 12,
+      "status": "active"
+    },
+    {
+      "id": "dining-fullerton-lighthouse-halloween-bogo-20261019",
+      "category": "dining",
+      "title": "富麗敦海洋公園酒店星耀廳萬聖節自助餐買一送一，平日午餐人均 HK$293",
+      "subtitle": "酒店官網 eShop 買一送一 · 萬聖節主題菜式 10/17–10/31 · 平日第三位加 HK$208",
+      "venue": "香港仔海洋徑 3 號香港富麗敦海洋公園酒店 1 樓星耀廳（Lighthouse Café）",
+      "priceLabel": "官網 eShop 買一送一：平日自助午餐成人 2 位 HK$586（人均 HK$293）、星期六日及公眾假期 2 位 HK$766（人均 HK$383）；自助晚餐平日 2 位 HK$1,006（人均 HK$503）、星期五至日及公眾假期 2 位 HK$1,114（人均 HK$557）；平日第三位加 HK$208（3 位共 HK$1,214，人均約 HK$405）。實際價格以酒店官網即時報價為準",
+      "priceValue": 293,
+      "originalLabel": "買一送一即第二位免費，折合約 5 折；原價單人以酒店官網餐牌為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-31T23:59:00+08:00",
+      "period": "官網 eShop 優惠須於用餐日期前最少 1 日購買，不接受即日預訂；萬聖節主題菜式於 2026-10-17 至 10-31 期間輪流供應（10/17、10/24、10/31 更加設充氣彈床樂園、兒童糖果巡遊及面部彩繪）；官網未列明買一送一截止日，以官網即時供應為準",
+      "summary": "香港富麗敦海洋公園酒店星耀廳（Lighthouse Café）於官網 eShop 推出自助餐買一送一：平日自助午餐成人 2 位 HK$586、人均 HK$293；星期六日及公眾假期 2 位 HK$766、人均 HK$383。自助晚餐平日 2 位 HK$1,006、人均 HK$503，星期五至日及公眾假期 2 位 HK$1,114、人均 HK$557。平日更設第三位加 HK$208 的組合，3 位共 HK$1,214。10 月 17 至 31 日期間餐廳供應萬聖節主題菜式，包括魔鬼南瓜湯、茄汁怪獸肉丸、女巫魔髮海鮮墨魚汁意粉、科學怪人泡芙等；10 月 17、24、31 三個星期六，享用自助餐的客人可免費參加充氣彈床樂園、兒童糖果巡遊、面部彩繪及現場音樂。優惠須於用餐前最少一日在官網購買。",
+      "highlights": [
+        "官網 eShop 買一送一：平日午餐 2 位 HK$586（人均 HK$293）",
+        "週末及公眾假期午餐 2 位 HK$766（人均 HK$383）；晚餐 2 位 HK$1,006 起（人均 HK$503）",
+        "平日第三位加 HK$208，3 位共 HK$1,214（人均約 HK$405）",
+        "萬聖節主題菜式 10/17–10/31：魔鬼南瓜湯、怪獸肉丸、海鮮墨魚汁意粉、科學怪人泡芙",
+        "10/17、10/24、10/31 免費充氣彈床樂園、兒童糖果巡遊、面部彩繪",
+        "須於用餐日期前最少 1 日於官網購買，不接受即日預訂"
+      ],
+      "url": "https://hkshop.fullertonhotels.com/tc/lighthouse_cafe_runhotel_offer/",
+      "sourceLabel": "香港富麗敦海洋公園酒店官方網店「星耀廳買一送一」· RunHotel 2026-10-13 報道",
+      "sourceUrl": "https://www.runhotel.hk/fullerton-hong-kong-halloween-buffet-2026/",
+      "tags": [
+        "自助餐",
+        "買一送一",
+        "萬聖節",
+        "親子",
+        "香港仔",
+        "富麗敦"
       ],
       "sample": false,
       "daysLeft": 12,
