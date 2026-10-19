@@ -1,10 +1,9 @@
 {
   "meta": {
     "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-    "updated": "2026-10-16",
+    "updated": "2026-10-19",
     "minRating": 4.2,
     "rotation": [
-      "金澤",
       "高松",
       "京都",
       "橫濱",
@@ -16,9 +15,10 @@
       "名古屋",
       "廣島",
       "神戶",
-      "大阪"
+      "大阪",
+      "金澤"
     ],
-    "rotationNote": "2026-10-16：大阪（關西，美食 2→6）完成，移至末位；現時美食各地區收錄：關東 7／關西 11（大阪 +4）／中部 4／九州 3／北海道 4／東北 3／中國 5／四國 1／沖繩 3。下輪首位為金澤（中部，現有 1 筆），下一位為高松（四國，現有 1 筆）——四國與中部收錄最少，優先補。"
+    "rotationNote": "2026-10-19：金澤（中部，美食 1→4）完成，移至末位；現時美食各地區收錄：關東 7／關西 11／中部 7／九州 3／北海道 4／東北 3／中國 5／四國 1／沖繩 3。下輪首位為高松（四國，現有 1 筆，全站最少），其後為京都（關西）。"
   },
   "eats": [
     {
@@ -1033,6 +1033,81 @@
       "sourceLabel": "SAVOR JAPAN 品味日本（引用 Google 評分 4.5 與 457 則評論）；另見 retty（4.50）與 gurunavi",
       "sourceUrl": "https://tw.savorjapan.com/0031502326/menus",
       "addedAt": "2026-10-16"
+    },
+    {
+      "id": "jp-kanazawa-tile",
+      "name": "TILE（タイル）",
+      "nameEn": "TILE",
+      "city": "金澤",
+      "area": "此花町（JR 金澤站東口步行約 5 分鐘）",
+      "cuisine": "海鮮丼／自選配料",
+      "signature": "金澤藥味海鮮丼（約 30 款配料自選）、紅醋醋飯、素食藥味撰丼",
+      "rating": 4.6,
+      "reviews": 1232,
+      "ratingCheckedAt": "2026-10-19",
+      "priceRange": "午市套餐約 ¥3,000 起；海鮮丼套餐 ¥4,250（TableCheck 標價，2026-10-19 查閱）",
+      "address": "石川県金沢市此花町4-18",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TILE%20%E3%82%BF%E3%82%A4%E3%83%AB%20%E7%9F%B3%E5%B7%9D%E7%9C%8C%E9%87%91%E6%B2%A2%E5%B8%82%E6%AD%A4%E8%8A%B1%E7%94%BA4-18",
+      "blurb": "110 年町家改建的海鮮丼專門店，2021 年開業，離金澤站東口只是 5 分鐘。玩法是自己砌丼：約 30 款配料（北陸海鮮、昆布漬、烤牛肉，也有蔬菜與素配料）任揀，配白飯或紅醋飯，賣相像寶石箱。Google 評分 4.6、1,232 則評論，是金澤海鮮丼一級戰區裡樣本最大的一間。",
+      "tips": [
+        "入店要在官網取得密碼，出發前先開官網確認。",
+        "週末人多，建議至少 3 日前在 TableCheck 訂位。",
+        "可以揀白醋飯或紅醋飯，紅醋版本味道較濃，配油脂重嘅魚較好。",
+        "有素食（藥味撰丼）與無麩質選項，同行有茹素者都食得。"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.6 與 1,232 票）；地址與營業時間見好運日本行 gltjp 店舖頁、價錢見 TableCheck 訂位頁",
+      "sourceUrl": "https://restaurantguru.com/Tile-Kanazawa",
+      "addedAt": "2026-10-19"
+    },
+    {
+      "id": "jp-kanazawa-aenokoto",
+      "name": "あえのこと（AENOKOTO）",
+      "nameEn": "Aenokoto",
+      "city": "金澤",
+      "area": "片町（とりやんせ金沢 2F，香林坊徒步圈）",
+      "cuisine": "喉黑丼專門店",
+      "signature": "生喉黑丼（每日限 5 份）、炭火燒喉黑丼、半半喉黑丼",
+      "rating": 4.7,
+      "reviews": 524,
+      "ratingCheckedAt": "2026-10-19",
+      "priceRange": "人均約 ¥3,000–4,000（餐廳頁所列平均消費）",
+      "address": "石川県金沢市片町2-23-6 とりやんせ金沢 2F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%88%E3%81%AE%E3%81%93%E3%81%A8%20AENOKOTO%20%E7%9F%B3%E5%B7%9D%E7%9C%8C%E9%87%91%E6%B2%A2%E5%B8%82%E7%89%87%E7%94%BA2-23-6",
+      "blurb": "全店只做喉黑（赤鯥）丼，把「白身魚之王」拆成三種食法：生的、炭火燒的、半生半燒。招牌生喉黑丼每日只做 5 份，用山中漆器與九谷燒上桌。Google 評分 4.7、524 則，是金澤喉黑專門店入面評分最高的一批；Tripadvisor 亦給予 4.9。",
+      "tips": [
+        "生喉黑丼每日限 5 份，想食要早去或先問店家。",
+        "配料有 12 款可加（鮭魚卵、松露鹽、柚子胡椒等），第一次建議先食原味。",
+        "食到最後可加高湯做茶泡飯，一碗兩食。",
+        "店在 2 樓，入口在とりやんせ金澤屋台村內，唔好行過龍。"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.7 與 524 票）；另見 Tripadvisor 4.9／129 則（不同平台，非 Google 評分）",
+      "sourceUrl": "https://restaurantguru.com/Aenokoto-Kanazawa",
+      "addedAt": "2026-10-19"
+    },
+    {
+      "id": "jp-kanazawa-otome-sushi",
+      "name": "乙女寿司",
+      "nameEn": "Otome Sushi",
+      "city": "金澤",
+      "area": "木倉町（片町飲食街內，香林坊徒步約 5 分鐘）",
+      "cuisine": "江戶前壽司",
+      "signature": "握壽司 omakase、喉黑、蟹、鰻",
+      "rating": 4.6,
+      "reviews": 515,
+      "ratingCheckedAt": "2026-10-19",
+      "priceRange": "人均約 ¥10,000（晚市，餐廳頁所列平均消費）",
+      "address": "石川県金沢市木倉町4-10",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%99%E5%A5%B3%E5%AF%BF%E5%8F%B8%20%E7%9F%B3%E5%B7%9D%E7%9C%8C%E9%87%91%E6%B2%A2%E5%B8%82%E6%9C%A8%E5%80%89%E7%94%BA4-10",
+      "blurb": "金澤壽司的代表店之一，米芝蓮二星。食材全部來自日本海，握功與溫度控制是強項，喉黑、蟹、鰻都是常客；午市與晚市各做兩小時，座位少。Google 評分 4.6、515 則，係金澤高級壽司入面評分與樣本都夠紮實的一間。",
+      "tips": [
+        "週三與週日休息，午市 12:00–14:00、晚市 17:00–21:00，出發前先確認。",
+        "必須預約，臨場 walk-in 基本上無位。",
+        "預算有限可考慮午市，價錢比晚市 omakase 親民。",
+        "店內座位少、節奏慢，唔適合趕行程。"
+      ],
+      "sourceLabel": "Restaurant Guru（引用 Google 評分 4.6 與 515 票）；米芝蓮二星與地址見 MagicalTrip 金澤午餐特集",
+      "sourceUrl": "https://restaurantguru.com/Otome-Sushi-Kanazawa",
+      "addedAt": "2026-10-19"
     }
   ]
 }

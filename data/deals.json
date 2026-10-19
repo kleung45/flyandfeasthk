@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-17T10:38:37+08:00",
+    "updated": "2026-10-19T10:46:13+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,85 +12,15 @@
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 100,
-      "active": 35,
-      "ending": 7,
-      "expired": 65,
+      "active": 33,
+      "ending": 10,
+      "expired": 67,
       "flight": 11,
       "dining": 89,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-foodstudio-wanchai-12anniv-20261011",
-      "category": "dining",
-      "title": "灣仔萬麗海景 Food Studio 12 週年快閃，「蟹域尋珍」自助餐人均 HK$306 起（約 65 折）",
-      "subtitle": "KKday 12 週年 10/12 12:00 開搶至 10/18 23:59 · 使用期 10/13 至 11/25 · 每次最少購買 2 位",
-      "venue": "灣仔港灣道 1 號香港萬麗海景酒店閣樓 Food Studio",
-      "priceLabel": "自助午餐 HK$612／2 位起（人均 HK$306 起，原價平日 HK$471／位起，約 65 折，已包加一服務費）；自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價平日 HK$933／位起，已包加一服務費）。每次最少購買 2 位；食物輪流供應，名額及價格以 KKday 頁面公佈為準",
-      "priceValue": 306,
-      "originalLabel": "原價平日自助午餐 HK$471／位起、自助晚餐 HK$933／位起",
-      "discountPct": 35,
-      "endsAt": "2026-10-18T23:59:00+08:00",
-      "period": "KKday 快閃預訂期：2026-10-12 12:00 至 2026-10-18 23:59；使用期：2026-10-13 至 2026-11-25（「蟹域尋珍」主題自 2026-10-16 起供應）；自助午餐 12:00–14:30、自助晚餐 18:30–21:30",
-      "summary": "灣仔香港萬麗海景酒店 Food Studio 加入 KKday 12 週年快閃：自助午餐 HK$612／2 位起（人均 HK$306 起，原價平日 HK$471／位起），自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價平日 HK$933／位起），兩者同約 65 折並已包加一服務費，每次最少購買 2 位。10 月 16 日起轉入「蟹域尋珍」主題，晚餐加推清蒸大閘蟹（每位一隻）、新鮮蒸焗龍蝦、烤和牛、海膽魚子醬紫菜塔可、烤帝王蟹腳及鴨肝、避風塘炒蟹、帝王蟹腳伊麵；午餐有龍蝦喇沙、龍蝦意大利薄餅、蟹肉海膽茶碗蒸、芝士蟹肉雲吞等，另無限暢飲橙汁、汽水、咖啡及茶，晚餐另供精選啤酒。",
-      "highlights": [
-        "自助午餐 HK$612／2 位起（人均 HK$306 起，原價 HK$471／位起，約 65 折）",
-        "自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價 HK$933／位起）",
-        "價格已包加一服務費；每次最少購買 2 位",
-        "10/16 起「蟹域尋珍」主題：清蒸大閘蟹每位一隻、蒸焗龍蝦、烤和牛、帝王蟹腳伊麵",
-        "午餐有龍蝦喇沙、龍蝦意大利薄餅、蟹肉海膽茶碗蒸",
-        "KKday 預訂期 10/12 12:00 至 10/18 23:59，使用期 10/13 至 11/25"
-      ],
-      "url": "https://www.kkday.com/zh-hk/",
-      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-11）＋ Klook 產品頁（主題供應期）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556005-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
-      "tags": [
-        "自助餐",
-        "灣仔",
-        "龍蝦",
-        "蟹",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "flight-peach-hk-osaka-flashsale-20261016",
-      "category": "flight",
-      "title": "樂桃航空 Peach 香港–大阪（關西）限時促銷，單程 HK$400 起、來回連稅約 HK$1,390",
-      "subtitle": "Peach Special Sale · 發售 10/15 12:00 至 10/18 23:59（HKT） · 出發 10/20 至 2027/1/31",
-      "route": "香港（HKG）↔ 大阪關西（KIX）",
-      "priceLabel": "來回連稅約 HK$1,390 起（官方 Minimum Promo 單程 HK$400 起／Standard Promo 單程 HK$780 起，加機場稅後約此數）",
-      "priceValue": 1390,
-      "originalLabel": "Minimum Promo 每位單程 HK$400 起（指定日期及航班 MM064）；其餘航班單程 HK$550 起",
-      "endsAt": "2026-10-18T23:59:00+08:00",
-      "period": "發售期：2026-10-15 12:00 至 10-18 23:59（HKT）；出發期：2026-10-20 至 2027-01-31（不適用日期 12/23–1/3；MM064 優惠日 11/30–1/11 之週一至四）",
-      "summary": "樂桃航空 Peach 推出香港出發限時促銷，香港–大阪關西單程最低 HK$400 起（指定航班 MM064、11/30 至 1/11 之週一至四），其餘全航班單程 HK$550 起，Standard Promo 票種單程 HK$780 起；以上為每位單程未連機場稅的促銷票價，加上機場服務費等費用後，來回連稅約 HK$1,390 起。發售期為 2026 年 10 月 15 日 12:00 至 10 月 18 日 23:59（香港時間），出發期 2026 年 10 月 20 日至 2027 年 1 月 31 日，12 月 23 日至 1 月 3 日不適用。Minimum Promo 票價不含託運行李及預選座位，須另行加購。價格、名額及適用航班以 Peach 官方網站即時顯示為準。",
-      "highlights": [
-        "香港–大阪關西單程 HK$400 起（指定航班 MM064、11/30–1/11 週一至四）",
-        "全航班單程 HK$550 起；Standard Promo 單程 HK$780 起",
-        "來回連稅約 HK$1,390 起（未計託運行李與選位）",
-        "發售 10/15 12:00–10/18 23:59（HKT），出發 10/20–2027/1/31",
-        "Peach 不另收燃油附加費；Minimum Promo 不含託運行李、不可選 Fast Area"
-      ],
-      "url": "https://booking.flypeach.com/hk/",
-      "sourceLabel": "Peach 樂桃航空官方香港網站 Special Sale 頁（2026-10-15 12:00 起發售）＋ MeetHK《樂桃航空 香港–大阪來回連稅 HK$1,390 起》",
-      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale",
-      "tags": [
-        "機票",
-        "廉航",
-        "樂桃航空",
-        "Peach",
-        "大阪",
-        "關西",
-        "快閃"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-langham-tst-foodgallery-flash-20261013",
       "category": "dining",
@@ -124,7 +54,7 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -158,7 +88,7 @@
         "時令"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -194,7 +124,7 @@
         "5折"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -232,7 +162,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -268,7 +198,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -304,8 +234,8 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-lungting-teppanyaki-12anniv-20261016",
@@ -340,8 +270,8 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-harbourplaza-np-green-afternoon-bogo-20261017",
@@ -375,8 +305,8 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-momocafe-shatin-second12-20261017",
@@ -410,8 +340,8 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-teahouse-alaskancrab-flashsale-20261016",
@@ -446,8 +376,8 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-kowloonhotel-tst-20260912",
@@ -480,7 +410,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -515,7 +445,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -550,7 +480,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -585,7 +515,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -621,7 +551,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -659,7 +589,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -697,7 +627,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -734,7 +664,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -769,7 +699,7 @@
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -804,7 +734,7 @@
         "親子"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -841,7 +771,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -879,7 +809,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -914,7 +844,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 29,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -945,7 +875,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -976,7 +906,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1007,7 +937,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1037,7 +967,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1072,7 +1002,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1107,7 +1037,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1142,7 +1072,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 44,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1179,7 +1109,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 57,
+      "daysLeft": 55,
       "status": "active"
     },
     {
@@ -1214,7 +1144,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 62,
+      "daysLeft": 60,
       "status": "active"
     },
     {
@@ -1250,7 +1180,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 106,
+      "daysLeft": 104,
       "status": "active"
     },
     {
@@ -3518,6 +3448,76 @@
         "片皮鴨",
         "放題",
         "深水埗",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-foodstudio-wanchai-12anniv-20261011",
+      "category": "dining",
+      "title": "灣仔萬麗海景 Food Studio 12 週年快閃，「蟹域尋珍」自助餐人均 HK$306 起（約 65 折）",
+      "subtitle": "KKday 12 週年 10/12 12:00 開搶至 10/18 23:59 · 使用期 10/13 至 11/25 · 每次最少購買 2 位",
+      "venue": "灣仔港灣道 1 號香港萬麗海景酒店閣樓 Food Studio",
+      "priceLabel": "自助午餐 HK$612／2 位起（人均 HK$306 起，原價平日 HK$471／位起，約 65 折，已包加一服務費）；自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價平日 HK$933／位起，已包加一服務費）。每次最少購買 2 位；食物輪流供應，名額及價格以 KKday 頁面公佈為準",
+      "priceValue": 306,
+      "originalLabel": "原價平日自助午餐 HK$471／位起、自助晚餐 HK$933／位起",
+      "discountPct": 35,
+      "endsAt": "2026-10-18T23:59:00+08:00",
+      "period": "KKday 快閃預訂期：2026-10-12 12:00 至 2026-10-18 23:59；使用期：2026-10-13 至 2026-11-25（「蟹域尋珍」主題自 2026-10-16 起供應）；自助午餐 12:00–14:30、自助晚餐 18:30–21:30",
+      "summary": "灣仔香港萬麗海景酒店 Food Studio 加入 KKday 12 週年快閃：自助午餐 HK$612／2 位起（人均 HK$306 起，原價平日 HK$471／位起），自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價平日 HK$933／位起），兩者同約 65 折並已包加一服務費，每次最少購買 2 位。10 月 16 日起轉入「蟹域尋珍」主題，晚餐加推清蒸大閘蟹（每位一隻）、新鮮蒸焗龍蝦、烤和牛、海膽魚子醬紫菜塔可、烤帝王蟹腳及鴨肝、避風塘炒蟹、帝王蟹腳伊麵；午餐有龍蝦喇沙、龍蝦意大利薄餅、蟹肉海膽茶碗蒸、芝士蟹肉雲吞等，另無限暢飲橙汁、汽水、咖啡及茶，晚餐另供精選啤酒。",
+      "highlights": [
+        "自助午餐 HK$612／2 位起（人均 HK$306 起，原價 HK$471／位起，約 65 折）",
+        "自助晚餐 HK$1,212／2 位起（人均 HK$606 起，原價 HK$933／位起）",
+        "價格已包加一服務費；每次最少購買 2 位",
+        "10/16 起「蟹域尋珍」主題：清蒸大閘蟹每位一隻、蒸焗龍蝦、烤和牛、帝王蟹腳伊麵",
+        "午餐有龍蝦喇沙、龍蝦意大利薄餅、蟹肉海膽茶碗蒸",
+        "KKday 預訂期 10/12 12:00 至 10/18 23:59，使用期 10/13 至 11/25"
+      ],
+      "url": "https://www.kkday.com/zh-hk/",
+      "sourceLabel": "GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-11）＋ Klook 產品頁（主題供應期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556005-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "灣仔",
+        "龍蝦",
+        "蟹",
+        "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-peach-hk-osaka-flashsale-20261016",
+      "category": "flight",
+      "title": "樂桃航空 Peach 香港–大阪（關西）限時促銷，單程 HK$400 起、來回連稅約 HK$1,390",
+      "subtitle": "Peach Special Sale · 發售 10/15 12:00 至 10/18 23:59（HKT） · 出發 10/20 至 2027/1/31",
+      "route": "香港（HKG）↔ 大阪關西（KIX）",
+      "priceLabel": "來回連稅約 HK$1,390 起（官方 Minimum Promo 單程 HK$400 起／Standard Promo 單程 HK$780 起，加機場稅後約此數）",
+      "priceValue": 1390,
+      "originalLabel": "Minimum Promo 每位單程 HK$400 起（指定日期及航班 MM064）；其餘航班單程 HK$550 起",
+      "endsAt": "2026-10-18T23:59:00+08:00",
+      "period": "發售期：2026-10-15 12:00 至 10-18 23:59（HKT）；出發期：2026-10-20 至 2027-01-31（不適用日期 12/23–1/3；MM064 優惠日 11/30–1/11 之週一至四）",
+      "summary": "樂桃航空 Peach 推出香港出發限時促銷，香港–大阪關西單程最低 HK$400 起（指定航班 MM064、11/30 至 1/11 之週一至四），其餘全航班單程 HK$550 起，Standard Promo 票種單程 HK$780 起；以上為每位單程未連機場稅的促銷票價，加上機場服務費等費用後，來回連稅約 HK$1,390 起。發售期為 2026 年 10 月 15 日 12:00 至 10 月 18 日 23:59（香港時間），出發期 2026 年 10 月 20 日至 2027 年 1 月 31 日，12 月 23 日至 1 月 3 日不適用。Minimum Promo 票價不含託運行李及預選座位，須另行加購。價格、名額及適用航班以 Peach 官方網站即時顯示為準。",
+      "highlights": [
+        "香港–大阪關西單程 HK$400 起（指定航班 MM064、11/30–1/11 週一至四）",
+        "全航班單程 HK$550 起；Standard Promo 單程 HK$780 起",
+        "來回連稅約 HK$1,390 起（未計託運行李與選位）",
+        "發售 10/15 12:00–10/18 23:59（HKT），出發 10/20–2027/1/31",
+        "Peach 不另收燃油附加費；Minimum Promo 不含託運行李、不可選 Fast Area"
+      ],
+      "url": "https://booking.flypeach.com/hk/",
+      "sourceLabel": "Peach 樂桃航空官方香港網站 Special Sale 頁（2026-10-15 12:00 起發售）＋ MeetHK《樂桃航空 香港–大阪來回連稅 HK$1,390 起》",
+      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale",
+      "tags": [
+        "機票",
+        "廉航",
+        "樂桃航空",
+        "Peach",
+        "大阪",
+        "關西",
         "快閃"
       ],
       "sample": false,
