@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-19T10:57:13+08:00",
+    "updated": "2026-10-20T10:34:59+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,121 +12,15 @@
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 102,
-      "active": 35,
-      "ending": 11,
-      "expired": 67,
+      "active": 32,
+      "ending": 8,
+      "expired": 70,
       "flight": 11,
       "dining": 91,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-langham-tst-foodgallery-flash-20261013",
-      "category": "dining",
-      "title": "尖沙咀香港朗廷酒店 The Food Gallery 自助餐快閃，平日自助午餐每位 HK$120（原價 HK$592）",
-      "subtitle": "KKday 12 週年快閃 · 開搶 10/13 12:00 至 10/19 23:59 · 使用期 10/14 至 11/30 · 第二位 +HK$12 或買一送一",
-      "venue": "尖沙咀香港朗廷酒店 The Food Gallery（尖沙咀北京道 8 號）",
-      "priceLabel": "平日自助午餐 HK$120／位（原價 HK$592／位，已包加一）；第二位 +HK$12：HK$604／2 位起（人均 HK$302 起）；買一送一（週末及公眾假期）HK$646／2 位起（人均 HK$323 起）；買一送一＋小童或長者 HK$88：午餐 3 位平均 HK$245／位起；自助晚餐第二位 +HK$12：HK$900／2 位起（人均 HK$450 起）；自助晚餐買一送一 HK$970／2 位起（人均 HK$485 起）",
-      "priceValue": 120,
-      "originalLabel": "自助午餐原價 HK$592／位（已包加一）",
-      "discountPct": 80,
-      "endsAt": "2026-10-19T23:59:00+08:00",
-      "period": "開搶期：2026-10-13 12:00 至 10-19 23:59；使用期：2026-10-14 至 11-30",
-      "summary": "尖沙咀香港朗廷酒店 The Food Gallery 於 10 月 13 日中午 12 時推出 KKday 12 週年快閃自助餐優惠：平日自助午餐每位 HK$120（原價 HK$592／位，已包加一），第二位只需 +HK$12（HK$604／2 位起，人均 HK$302 起）；亦可選週末及公眾假期買一送一 HK$646／2 位起（人均 HK$323 起），或買一送一再加小童／長者 HK$88（3 位平均 HK$245／位起）。自助晚餐第二位 +HK$12 為 HK$900／2 位起（人均 HK$450 起），買一送一為 HK$970／2 位起（人均 HK$485 起），晚餐 3 位（2 大 1 小／長者）平均 HK$353／位起。自助午餐焦點包括威靈頓牛柳、脆炸生蠔（只限平日）、長腳蟹、麵包蟹及 Mövenpick 雪糕，並無限暢飲指定飲品；10 月「蟹」逅自助晚餐供應蒜蓉粉絲蒸波士頓龍蝦、酥皮焗干邑龍蝦濃湯、新加坡辣椒蟹、避風塘炒蟹、籠仔蒸陳年花雕蟹等。開搶期為 10 月 13 日中午 12 時至 10 月 19 日，使用期為 10 月 14 日至 11 月 30 日。另 PayMe 用戶滿 HK$1,000 輸入【262PAY75】減 HK$75、滿 HK$500 輸入【262PAY30】減 HK$30、滿 HK$300 輸入【262PAY20】減 HK$20。",
-      "highlights": [
-        "平日自助午餐 HK$120／位（原價 HK$592／位，已包加一）",
-        "第二位 +HK$12：HK$604／2 位起（人均 HK$302 起）",
-        "週末及公眾假期買一送一：HK$646／2 位起（人均 HK$323 起）",
-        "自助晚餐買一送一 HK$970／2 位起（人均 HK$485 起）",
-        "開搶 10/13 12:00 至 10/19 23:59，使用 10/14 至 11/30",
-        "PayMe 優惠碼 262PAY75／262PAY30／262PAY20 可再減"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "KKday",
-        "尖沙咀",
-        "朗廷",
-        "酒店"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-wingleewai-hairycrab-bogo-20261013",
-      "category": "dining",
-      "title": "上環永利威江蘇大閘蟹買一送一，蟹乸 4.8–5.3 兩平均 HK$109／隻",
-      "subtitle": "KKday 獨家快閃 · 開搶 10/13 15:00 至 10/19 23:59 · 使用期 10/15 至 12/19 · 門市自取或順豐冷運（運費自付）",
-      "venue": "上環永利威（門市自取，詳細地址以 KKday 訂單頁為準）",
-      "priceLabel": "蟹乸（約 4.8–5.3 兩）HK$218／2 隻（平均 HK$109／隻，原價 HK$218／隻）；蟹乸（約 5.4–6.2 兩）HK$328／2 隻；蟹公（約 5.5–6.2 兩）HK$218／2 隻；蟹公（約 6.3–7.2 兩）HK$348／2 隻。以上為 KKday 快閃價，蟹價隨市況浮動，以 KKday 活動頁即時報價為準",
-      "priceValue": 109,
-      "originalLabel": "原價 HK$218／隻（蟹乸 4.8–5.3 兩），買一送一",
-      "discountPct": 50,
-      "endsAt": "2026-10-19T23:59:00+08:00",
-      "period": "開搶期：2026-10-13 15:00 至 10-19 23:59；使用期：2026-10-15 至 12-19",
-      "summary": "KKday 12 週年慶推出上環永利威江蘇養殖場大閘蟹獨家買一送一快閃，蟹乸（約 4.8–5.3 兩）HK$218／2 隻（平均 HK$109／隻，原價 HK$218／隻）；蟹乸（約 5.4–6.2 兩）HK$328／2 隻；蟹公（約 5.5–6.2 兩）HK$218／2 隻；蟹公（約 6.3–7.2 兩）HK$348／2 隻。開搶期為 10 月 13 日下午 3 時至 10 月 19 日晚上 11 時 59 分，使用期為 10 月 15 日至 12 月 19 日，可門市自取或順豐冷運（運費自付）。大閘蟹價格隨市況及規格浮動，下單前請以 KKday 活動頁即時報價為準。",
-      "highlights": [
-        "買一送一：蟹乸 4.8–5.3 兩 HK$218／2 隻（平均 HK$109／隻）",
-        "蟹公 5.5–6.2 兩 HK$218／2 隻；6.3–7.2 兩 HK$348／2 隻",
-        "蟹乸 5.4–6.2 兩 HK$328／2 隻",
-        "開搶 10/13 15:00 至 10/19 23:59",
-        "使用期 10/15 至 12/19，門市自取或順豐冷運（運費自付）"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "tags": [
-        "大閘蟹",
-        "買一送一",
-        "KKday",
-        "上環",
-        "時令"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-teppanyaki-chun-on-20261013",
-      "category": "dining",
-      "title": "尖沙咀春・鐵板燒／大埔安・鐵板燒放題低至 5 折，午餐每位 HK$199 起",
-      "subtitle": "KKday 獨家快閃 · 開搶 10/13 15:00 至 10/19 23:59 · 使用期 10/14 至 12/31 · 送 1–2 小時指定酒水暢飲",
-      "venue": "尖沙咀春・鐵板燒、大埔安・鐵板燒",
-      "priceLabel": "初嘗午餐 HK$398／2 位起（平均 HK$199／位起）；初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）；夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）。送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛。實際菜單與價格以 KKday 活動頁為準",
-      "priceValue": 199,
-      "originalLabel": "KKday 標示低至 5 折",
-      "discountPct": 50,
-      "endsAt": "2026-10-19T23:59:00+08:00",
-      "period": "開搶期：2026-10-13 15:00 至 10-19 23:59；使用期：2026-10-14 至 12-31",
-      "summary": "KKday 12 週年慶推出尖沙咀春・鐵板燒及大埔安・鐵板燒獨家低至 5 折放題優惠：初嘗午餐 HK$398／2 位起（平均 HK$199／位起）；初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）；夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）。套餐並送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛。開搶期為 10 月 13 日下午 3 時至 10 月 19 日晚上 11 時 59 分，使用期為 10 月 14 日至 12 月 31 日。鐵板燒食材與菜單會隨季節調整，訂座前請以 KKday 活動頁及餐廳公佈為準。",
-      "highlights": [
-        "初嘗午餐 HK$398／2 位起（平均 HK$199／位起）",
-        "初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）",
-        "夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）",
-        "送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛",
-        "開搶 10/13 15:00 至 10/19 23:59，使用 10/14 至 12/31",
-        "尖沙咀春・鐵板燒、大埔安・鐵板燒兩店適用"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
-      "tags": [
-        "鐵板燒",
-        "放題",
-        "KKday",
-        "尖沙咀",
-        "大埔",
-        "5折"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-hangfong-windowcafe-2nd12-seafood-20261014",
       "category": "dining",
@@ -162,7 +56,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -198,7 +92,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -234,7 +128,7 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -270,7 +164,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -305,7 +199,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -340,7 +234,7 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -373,7 +267,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -409,7 +303,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -443,7 +337,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -478,7 +372,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -513,7 +407,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -548,7 +442,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -584,7 +478,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -622,7 +516,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -660,7 +554,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -697,7 +591,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -732,7 +626,7 @@
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -767,7 +661,7 @@
         "親子"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -804,7 +698,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -842,7 +736,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -878,7 +772,7 @@
         "富麗敦"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -913,7 +807,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 27,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -944,7 +838,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -975,7 +869,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1006,7 +900,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1036,7 +930,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1071,7 +965,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1106,7 +1000,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1141,7 +1035,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1178,7 +1072,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 55,
+      "daysLeft": 54,
       "status": "active"
     },
     {
@@ -1213,7 +1107,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 60,
+      "daysLeft": 59,
       "status": "active"
     },
     {
@@ -1249,7 +1143,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 104,
+      "daysLeft": 103,
       "status": "active"
     },
     {
@@ -3588,6 +3482,112 @@
         "大阪",
         "關西",
         "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-langham-tst-foodgallery-flash-20261013",
+      "category": "dining",
+      "title": "尖沙咀香港朗廷酒店 The Food Gallery 自助餐快閃，平日自助午餐每位 HK$120（原價 HK$592）",
+      "subtitle": "KKday 12 週年快閃 · 開搶 10/13 12:00 至 10/19 23:59 · 使用期 10/14 至 11/30 · 第二位 +HK$12 或買一送一",
+      "venue": "尖沙咀香港朗廷酒店 The Food Gallery（尖沙咀北京道 8 號）",
+      "priceLabel": "平日自助午餐 HK$120／位（原價 HK$592／位，已包加一）；第二位 +HK$12：HK$604／2 位起（人均 HK$302 起）；買一送一（週末及公眾假期）HK$646／2 位起（人均 HK$323 起）；買一送一＋小童或長者 HK$88：午餐 3 位平均 HK$245／位起；自助晚餐第二位 +HK$12：HK$900／2 位起（人均 HK$450 起）；自助晚餐買一送一 HK$970／2 位起（人均 HK$485 起）",
+      "priceValue": 120,
+      "originalLabel": "自助午餐原價 HK$592／位（已包加一）",
+      "discountPct": 80,
+      "endsAt": "2026-10-19T23:59:00+08:00",
+      "period": "開搶期：2026-10-13 12:00 至 10-19 23:59；使用期：2026-10-14 至 11-30",
+      "summary": "尖沙咀香港朗廷酒店 The Food Gallery 於 10 月 13 日中午 12 時推出 KKday 12 週年快閃自助餐優惠：平日自助午餐每位 HK$120（原價 HK$592／位，已包加一），第二位只需 +HK$12（HK$604／2 位起，人均 HK$302 起）；亦可選週末及公眾假期買一送一 HK$646／2 位起（人均 HK$323 起），或買一送一再加小童／長者 HK$88（3 位平均 HK$245／位起）。自助晚餐第二位 +HK$12 為 HK$900／2 位起（人均 HK$450 起），買一送一為 HK$970／2 位起（人均 HK$485 起），晚餐 3 位（2 大 1 小／長者）平均 HK$353／位起。自助午餐焦點包括威靈頓牛柳、脆炸生蠔（只限平日）、長腳蟹、麵包蟹及 Mövenpick 雪糕，並無限暢飲指定飲品；10 月「蟹」逅自助晚餐供應蒜蓉粉絲蒸波士頓龍蝦、酥皮焗干邑龍蝦濃湯、新加坡辣椒蟹、避風塘炒蟹、籠仔蒸陳年花雕蟹等。開搶期為 10 月 13 日中午 12 時至 10 月 19 日，使用期為 10 月 14 日至 11 月 30 日。另 PayMe 用戶滿 HK$1,000 輸入【262PAY75】減 HK$75、滿 HK$500 輸入【262PAY30】減 HK$30、滿 HK$300 輸入【262PAY20】減 HK$20。",
+      "highlights": [
+        "平日自助午餐 HK$120／位（原價 HK$592／位，已包加一）",
+        "第二位 +HK$12：HK$604／2 位起（人均 HK$302 起）",
+        "週末及公眾假期買一送一：HK$646／2 位起（人均 HK$323 起）",
+        "自助晚餐買一送一 HK$970／2 位起（人均 HK$485 起）",
+        "開搶 10/13 12:00 至 10/19 23:59，使用 10/14 至 11/30",
+        "PayMe 優惠碼 262PAY75／262PAY30／262PAY20 可再減"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "KKday",
+        "尖沙咀",
+        "朗廷",
+        "酒店"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-wingleewai-hairycrab-bogo-20261013",
+      "category": "dining",
+      "title": "上環永利威江蘇大閘蟹買一送一，蟹乸 4.8–5.3 兩平均 HK$109／隻",
+      "subtitle": "KKday 獨家快閃 · 開搶 10/13 15:00 至 10/19 23:59 · 使用期 10/15 至 12/19 · 門市自取或順豐冷運（運費自付）",
+      "venue": "上環永利威（門市自取，詳細地址以 KKday 訂單頁為準）",
+      "priceLabel": "蟹乸（約 4.8–5.3 兩）HK$218／2 隻（平均 HK$109／隻，原價 HK$218／隻）；蟹乸（約 5.4–6.2 兩）HK$328／2 隻；蟹公（約 5.5–6.2 兩）HK$218／2 隻；蟹公（約 6.3–7.2 兩）HK$348／2 隻。以上為 KKday 快閃價，蟹價隨市況浮動，以 KKday 活動頁即時報價為準",
+      "priceValue": 109,
+      "originalLabel": "原價 HK$218／隻（蟹乸 4.8–5.3 兩），買一送一",
+      "discountPct": 50,
+      "endsAt": "2026-10-19T23:59:00+08:00",
+      "period": "開搶期：2026-10-13 15:00 至 10-19 23:59；使用期：2026-10-15 至 12-19",
+      "summary": "KKday 12 週年慶推出上環永利威江蘇養殖場大閘蟹獨家買一送一快閃，蟹乸（約 4.8–5.3 兩）HK$218／2 隻（平均 HK$109／隻，原價 HK$218／隻）；蟹乸（約 5.4–6.2 兩）HK$328／2 隻；蟹公（約 5.5–6.2 兩）HK$218／2 隻；蟹公（約 6.3–7.2 兩）HK$348／2 隻。開搶期為 10 月 13 日下午 3 時至 10 月 19 日晚上 11 時 59 分，使用期為 10 月 15 日至 12 月 19 日，可門市自取或順豐冷運（運費自付）。大閘蟹價格隨市況及規格浮動，下單前請以 KKday 活動頁即時報價為準。",
+      "highlights": [
+        "買一送一：蟹乸 4.8–5.3 兩 HK$218／2 隻（平均 HK$109／隻）",
+        "蟹公 5.5–6.2 兩 HK$218／2 隻；6.3–7.2 兩 HK$348／2 隻",
+        "蟹乸 5.4–6.2 兩 HK$328／2 隻",
+        "開搶 10/13 15:00 至 10/19 23:59",
+        "使用期 10/15 至 12/19，門市自取或順豐冷運（運費自付）"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "tags": [
+        "大閘蟹",
+        "買一送一",
+        "KKday",
+        "上環",
+        "時令"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-teppanyaki-chun-on-20261013",
+      "category": "dining",
+      "title": "尖沙咀春・鐵板燒／大埔安・鐵板燒放題低至 5 折，午餐每位 HK$199 起",
+      "subtitle": "KKday 獨家快閃 · 開搶 10/13 15:00 至 10/19 23:59 · 使用期 10/14 至 12/31 · 送 1–2 小時指定酒水暢飲",
+      "venue": "尖沙咀春・鐵板燒、大埔安・鐵板燒",
+      "priceLabel": "初嘗午餐 HK$398／2 位起（平均 HK$199／位起）；初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）；夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）。送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛。實際菜單與價格以 KKday 活動頁為準",
+      "priceValue": 199,
+      "originalLabel": "KKday 標示低至 5 折",
+      "discountPct": 50,
+      "endsAt": "2026-10-19T23:59:00+08:00",
+      "period": "開搶期：2026-10-13 15:00 至 10-19 23:59；使用期：2026-10-14 至 12-31",
+      "summary": "KKday 12 週年慶推出尖沙咀春・鐵板燒及大埔安・鐵板燒獨家低至 5 折放題優惠：初嘗午餐 HK$398／2 位起（平均 HK$199／位起）；初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）；夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）。套餐並送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛。開搶期為 10 月 13 日下午 3 時至 10 月 19 日晚上 11 時 59 分，使用期為 10 月 14 日至 12 月 31 日。鐵板燒食材與菜單會隨季節調整，訂座前請以 KKday 活動頁及餐廳公佈為準。",
+      "highlights": [
+        "初嘗午餐 HK$398／2 位起（平均 HK$199／位起）",
+        "初嘗晚餐 HK$598／2 位起（平均 HK$299／位起）",
+        "夕晚餐（龍蝦、鮑魚）HK$998／2 位起（平均 HK$499／位起）",
+        "送 1–2 小時指定酒水暢飲，可加價升級 A5 和牛",
+        "開搶 10/13 15:00 至 10/19 23:59，使用 10/14 至 12/31",
+        "尖沙咀春・鐵板燒、大埔安・鐵板燒兩店適用"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "sourceLabel": "GroupBuya 著數網（2026-10-13 更新，KKday 12 週年慶快閃）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556067-KKday-12%E9%80%B1%E5%B9%B4%E6%85%B6",
+      "tags": [
+        "鐵板燒",
+        "放題",
+        "KKday",
+        "尖沙咀",
+        "大埔",
+        "5折"
       ],
       "sample": false,
       "daysLeft": 0,
