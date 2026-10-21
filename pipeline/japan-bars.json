@@ -1,12 +1,11 @@
 {
   "meta": {
     "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-    "updated": "2026-10-14",
+    "updated": "2026-10-21",
     "minRating": 4.3,
     "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
     "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
     "rotation": [
-      "關西",
       "中國／瀨戶內",
       "北海道",
       "四國",
@@ -14,7 +13,8 @@
       "九州",
       "東北",
       "關東",
-      "沖繩"
+      "沖繩",
+      "關西"
     ]
   },
   "bars": [
@@ -721,6 +721,108 @@
       "sourceLabel": "Wanderlog（引用 Google 評分 4.5、166 則）",
       "sourceUrl": "https://wanderlog.com/place/details/3543875/bar-the-authentic-%E5%9D%82%E6%A2%A8",
       "addedAt": "2026-10-14"
+    },
+    {
+      "id": "jp-bar-kyoto-high-central",
+      "name": "bar HIGH CENTRAL",
+      "nameEn": "Bar High Central",
+      "city": "京都",
+      "area": "七条（京都駅徒步約 3 分鐘）",
+      "region": "kansai",
+      "barType": "both",
+      "signature": "玄米 Gin & Tonic（烤玄米浸京都「季の美」氈酒）、手切冰塊調的 Negroni 與 Old Fashioned；日本威士忌有山崎 12 年、白州 12 年、響 Japanese Harmony、伊知郎's Malt",
+      "rating": 4.9,
+      "reviews": 531,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "每人約 ¥3,000–5,000（Sip Japan 列作參考價，以現場酒單為準）；有客人指比京都一般酒吧略貴",
+      "address": "京都府京都市下京区槇町211 K.Up七条ビル3F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=bar%20HIGH%20CENTRAL%20%E4%B8%83%E6%9D%A1%20%E4%BA%AC%E9%83%BD",
+      "blurb": "京都駅徒步三分鐘，K.Up 七条大樓三樓。店主贏過多個日本國內與國際調酒比賽，吧檯後有一批在香港不易見到的日本威士忌——山崎 12 年、白州 12 年、響 Japanese Harmony、伊知郎's Malt 都在列。裝潢走華麗現代風，吧檯之外有以窗簾間隔的半私人座位，兩三個人想安靜傾偈都坐得舒服。招牌是玄米 Gin & Tonic：用烤過的玄米浸京都「季の美」氈酒，入口有米香與柚子調；雞尾酒會用當造水果、香草與香料，手切冰塊是基本動作。",
+      "highlights": [
+        "京都駅徒步約 3 分鐘，行程最後一晚或落機第一晚都夠方便",
+        "店主為多個國內外調酒比賽得獎者，吧檯手勢與選酒都有水準",
+        "後吧有山崎 12 年、白州 12 年、響、伊知郎's Malt 等難找的日本威士忌",
+        "招牌玄米 Gin & Tonic 用烤玄米浸「季の美」氈酒，係香港少見的配法",
+        "有窗簾間隔的半私人座位，適合兩三個人而不必全程正襟危坐"
+      ],
+      "tips": [
+        "店在商廈三樓，地面只有細小招牌，跟 Google Maps 到門口再搭電梯最穩",
+        "有英文 QR 菜單連相片，唔識日文都點得到；想飲無酒單特調就直接講口味",
+        "休息日各來源講法不一（有來源寫星期日、有寫星期一），出發前務必查 Google 即時資訊或店家 IG",
+        "座位不多，繁忙時段與週末建議先訂位",
+        "座位費與收費以現場為準，入座前問一句「チャージはいくらですか？」最穩"
+      ],
+      "sourceLabel": "Wanderlog（引用 Google 評分 4.9、531 則）；Sip Japan 同列 4.9 星（453 則，快照較早）",
+      "sourceUrl": "https://wanderlog.com/zh/place/details/8882455/bar-high-central-%E4%BA%AC%E9%83%BD%E7%AB%99-%E5%A8%81%E5%A3%AB%E5%BF%8C%EF%BC%86%E9%9B%9E%E5%B0%BE%E9%85%92-%E9%85%92%E5%90%A7",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-osaka-around-the-world",
+      "name": "Bar Around the World",
+      "nameEn": "Bar Around the World Osaka",
+      "city": "大阪",
+      "area": "難波",
+      "region": "kansai",
+      "barType": "both",
+      "signature": "無酒單，按口味即場調；威士忌抹茶雞尾酒、當造水果雞尾酒（如柿子）",
+      "rating": 4.6,
+      "reviews": 141,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "以現場酒單為準；有客人提及 2 杯威士忌＋5 杯雞尾酒連座位費合共約 ¥12,500（來源未講明人數，僅作參考）",
+      "address": "大阪府大阪市中央区難波3-7-3 若松治産ビル1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Around%20the%20World%20%E9%9B%A3%E6%B3%A2%20%E5%A4%A7%E9%98%AA",
+      "blurb": "難波站徒步約 5 分鐘，藏在 Namba Marui 後巷一幢大廈地庫一樓。店內以黑色為主調、打綠色燈，走昭和復古路線，吧檯之外有枱座與半私人空間。這裡沒有酒單——坐低講你喜歡的味道（煙燻、果香、偏乾、威士忌底），調酒師就即場調；評論反覆提到威士忌抹茶與當造水果（如柿子）兩款最得人心。威士忌選酒比一般雞尾酒吧闊，想試日本威士忌又不想去正統吧的人可以考慮。",
+      "highlights": [
+        "完全無酒單，講口味與預算即場調，適合唔想研究酒單的人",
+        "威士忌選酒比一般雞尾酒吧闊，同時有扎實的雞尾酒",
+        "15:00 開門，係少數可以飯前、甚至下晝就入去的酒吧",
+        "黑色配綠色燈的昭和復古裝潢，吧檯、枱座與半私人空間都有",
+        "調酒師可以用英文溝通，遊客為主的難波區亦唔會尷尬"
+      ],
+      "tips": [
+        "無酒單，最實用的講法係「smoky」、「fruity」、「whisky base」加一句預算，調酒師就會接手",
+        "15:00 開門（星期日 18:00 開），24:00 打烊，趕尾班車前想飲一杯都夠時間",
+        "座位唔多，繁忙時間可能要等；想坐吧檯睇調酒就早少少到",
+        "收費與座位費以現場為準，入座前先問清楚，避免結帳時有落差",
+        "大廈入口唔起眼，跟 Google Maps 到地址後找「若松治産ビル」招牌"
+      ],
+      "sourceLabel": "Wanderlog（頁面明列 Review score 4.6／5、141 則，From Google）",
+      "sourceUrl": "https://wanderlog.com/place/details/8053236/bar-around-the-world-osaka",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-osaka-nayuta",
+      "name": "Bar Nayuta",
+      "nameEn": "Bar Nayuta",
+      "city": "大阪",
+      "area": "西心斎橋（アメリカ村）",
+      "region": "kansai",
+      "barType": "cocktail",
+      "signature": "無酒單即場調的招牌雞尾酒、經典改編與 tasting flights",
+      "rating": 4.6,
+      "reviews": 1330,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "Tabelog 列人均預算 ¥3,000–3,999（參考，以現場酒單為準）",
+      "address": "大阪府大阪市中央区西心斎橋1-6-17 マリオビル5F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Nayuta%20%E8%A5%BF%E5%BF%83%E6%96%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA",
+      "blurb": "美國村 MARIO 大樓五樓，出電梯左邊一道細門，只有十個座位——開門前到，否則多數要等。店內冇酒單，你講喜歡的風格（例如「少少辣、唔太甜、酒精低」），調酒師即場調，過程就在你面前發生。曾打入 Asia's 50 Best Bars 名單（第 100 位），係大阪最常被點名的雞尾酒吧之一；客人以外國人為主，職員英文流利。適合兩三個人、或者一個人坐吧檯。",
+      "highlights": [
+        "曾入選 Asia's 50 Best Bars 名單（第 100 位），大阪雞尾酒圈長期熱門",
+        "只有 10 個座位，全部對著吧檯，睇調酒就係重點",
+        "無酒單，按你講的口味即場調，經典與原創都有",
+        "店員英文流利，外國客人佔多數，一個人去都唔會尷尬",
+        "樓上舖、細門入口，搵得到就係體驗的一部分"
+      ],
+      "tips": [
+        "不接受預約，開門（17:00）前到最穩；遲了要有排隊的心理準備",
+        "只有 10 個座位，唔適合大班人；兩三個人已是上限",
+        "Tabelog 列全店可吸煙，怕煙味要有準備",
+        "在 MARIO ビル五樓，出電梯後左手邊的細門；入口唔起眼，跟地址慢慢搵",
+        "座位費與最低消費以現場為準，點酒前問一句最穩"
+      ],
+      "sourceLabel": "50 Best Bar（列 Google 評分 4.6／5、1,330 則）",
+      "sourceUrl": "https://www.50bestbar.com/bar/bar-nayuta-osaka",
+      "addedAt": "2026-10-21"
     }
   ]
 }
