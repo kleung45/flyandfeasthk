@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-20T10:34:59+08:00",
+    "updated": "2026-10-21T10:55:50+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,90 +11,16 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 102,
-      "active": 32,
-      "ending": 8,
-      "expired": 70,
-      "flight": 11,
-      "dining": 91,
+      "total": 105,
+      "active": 33,
+      "ending": 7,
+      "expired": 72,
+      "flight": 12,
+      "dining": 93,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-hangfong-windowcafe-2nd12-seafood-20261014",
-      "category": "dining",
-      "title": "恆豐酒店紅煙窗「紐西蘭『蠔』華盛宴」海鮮自助晚餐第二位 HK$12，人均 HK$374（KKday 12 週年快閃）",
-      "subtitle": "KKday 12 週年快閃 · 開搶 10/14 15:00 至 10/20 23:59 · 使用期 10/15 至 11/17 · 買一送一人均 HK$401 起、2 大 1 小套票低至 4 折",
-      "venue": "尖沙咀彌敦道 222 號恆豐酒店 2 樓 紅煙窗餐廳（The Window Café）",
-      "priceLabel": "海鮮自助晚餐（18:00–21:00）：第二位 HK$12，星期一至四 HK$748／2 位（人均 HK$374）；買一送一星期一至四 HK$802／2 位（人均 HK$401）；2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）；海鮮自助午餐（12:00–14:30）低至 58 折，星期一至五成人 HK$268／位、小童 HK$220／位、長者 HK$248／位起。以上已包原價加一服務費；實際價格、名額與可訂日子以 KKday 活動頁即時顯示為準",
-      "priceValue": 374,
-      "originalLabel": "自助晚餐原價約 HK$802／位（按買一送一方案換算，已包加一服務費）",
-      "discountPct": 53,
-      "endsAt": "2026-10-20T23:59:00+08:00",
-      "period": "開搶期：2026-10-14 15:00 至 10-20 23:59；使用期：2026-10-15 至 11-17（12 週年快閃）",
-      "summary": "尖沙咀恆豐酒店紅煙窗餐廳於 10 月 14 日下午 3 時推出 KKday 12 週年快閃自助餐優惠：「紐西蘭『蠔』華盛宴」海鮮自助晚餐第二位只需 HK$12，星期一至四 HK$748／2 位（人均 HK$374），亦設買一送一 HK$802／2 位（人均 HK$401）；2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）；海鮮自助午餐低至 58 折，星期一至五成人 HK$268／位、小童 HK$220／位、長者 HK$248／位起（以上已包原價加一服務費）。自助晚餐無限量供應紐西蘭生蠔、法國麵包蟹、鱈場蟹腳，熱葷有燒原條澳洲和牛西冷、香草燒羊扒、薑蔥炒龍蝦球、香煎法國鴨肝伴多士，甜品有榴槤巴斯克芝士蛋糕、芒果拿破崙及 Häagen-Dazs 與 Mövenpick 雪糕；自助午餐設港式車仔即煮麵檔及燒美國肉眼扒，週末及公眾假期加設法國麵包蟹。訂購期為 10 月 14 日下午 3 時至 10 月 20 日，使用期為 10 月 15 日至 11 月 17 日。價格與名額以商戶官方公佈為準。",
-      "highlights": [
-        "海鮮自助晚餐第二位 HK$12：星期一至四 HK$748／2 位（人均 HK$374）",
-        "買一送一：星期一至四 HK$802／2 位（人均 HK$401）",
-        "2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）",
-        "海鮮自助午餐低至 58 折：平日成人 HK$268／位起",
-        "開搶期 10/14 15:00–10/20 23:59，使用期 10/15–11/17",
-        "佐敦／尖沙咀彌敦道 222 號恆豐酒店 2 樓，法國藍帶美食協會榮譽會員勳章"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/284215",
-      "sourceLabel": "GroupBuya《KKday 12週年慶快閃 10月14日15:00開搶 第二位HK$12紐西蘭蠔華盛宴》（KKday，2026-10-14）＋ 星島頭條《佐敦星級酒店海鮮自助晚餐第二位$12！人均$374起》（2026-10-14）",
-      "sourceUrl": "https://www.stheadline.com/food/3625689/",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "第二位$12",
-        "買一送一",
-        "尖沙咀",
-        "恆豐酒店",
-        "紅煙窗",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-playt-cwb-goldencrab-flashsale-20261016",
-      "category": "dining",
-      "title": "柏寧酒店 PLAYT「金秋蟹宴」大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位）",
-      "subtitle": "KKday 12 週年快閃 · 開搶 10/14 12:00 至 10/20 23:59 · 使用期 10/15 至 11/30 · PayMe 碼後人均低至 HK$575",
-      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
-      "priceLabel": "「金秋蟹宴」大閘蟹自助晚餐（一至四）：第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，已包原價加一）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折＋PayMe 碼【PMPLAYT】減 HK$80 後人均 HK$575 起。平日自助午餐第二位 HK$122，HK$684／2 位（人均 HK$342，原價 HK$515／位）；週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）",
-      "priceValue": 590,
-      "originalLabel": "大閘蟹自助晚餐原價 HK$878／位起（已包原價加一服務費）",
-      "discountPct": 67,
-      "endsAt": "2026-10-20T23:59:00+08:00",
-      "period": "預訂期：2026-10-14 12:00 至 10-20 23:59；使用期：2026-10-15 至 11-30",
-      "summary": "銅鑼灣香港柏寧酒店 PLAYT 於 KKday 12 週年快閃推出「金秋蟹宴」大閘蟹自助晚餐（供應期 10/12–11/30）：星期一至四第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，約 67 折）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折並以 PayMe 付款輸入優惠碼【PMPLAYT】可減 HK$80，人均低至 HK$575 起。每位成人奉送兩隻約 4 両重清蒸大閘蟹（小童一隻），另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯、蟹粉忌廉汁意大利粉等蟹粉創意菜，以及即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排。同場平日自助午餐第二位 HK$122（HK$684／2 位，人均 HK$342，原價 HK$515／位）、週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）。全部價格已包括原價加一服務費；價格、名額與可訂日子以 KKday 活動頁即時公佈為準。",
-      "highlights": [
-        "大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位起，約 67 折）",
-        "PayMe 付款輸碼【PMPLAYT】再減 HK$80，人均低至 HK$575 起",
-        "每位成人奉送兩隻約 4 両清蒸大閘蟹（小童一隻）",
-        "蟹粉鮑魚兩面黃、蟹粉茶碗蒸、即開生蠔、冰鎮龍蝦、鱈蟹腳",
-        "預訂期 10/14 12:00–10/20 23:59，使用期 10/15–11/30（供應期 10/12 起）"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/128971",
-      "sourceLabel": "U Lifestyle（UHK 港生活）《柏寧酒店大閘蟹自助餐第2位$222》（2026-10-14）＋ Yahoo 新聞《2026大閘蟹優惠推介》（BuffetGang）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20113600",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "大閘蟹",
-        "銅鑼灣",
-        "柏寧酒店",
-        "PLAYT",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-cordis-mongkok-place-12off-20261013",
       "category": "dining",
@@ -128,7 +54,7 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -164,7 +90,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -199,7 +125,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -234,7 +160,7 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -265,6 +191,42 @@
         "土瓜灣",
         "8度海逸",
         "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "ending"
+    },
+    {
+      "id": "flight-hkexpress-klook-taiwan-7off-20261021",
+      "category": "flight",
+      "title": "香港快運 × Klook 台北／台中／高雄 7 折，來回連稅 HK$967 起",
+      "subtitle": "優惠碼 UOFUN26 · 訂票至 10/22 23:45 · 出發 11/1 至 2027/1/31 · 包 20kg 來回 HK$1,167 起",
+      "venue": "香港國際機場 → 台北／台中／高雄（香港快運官網或手機 App 輸入優惠碼）",
+      "priceLabel": "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（單程票價 $62／$77 起，只包一件隨身物品）；「隨心飛」包 20kg 寄艙行李來回連稅 HK$1,167 起。票價浮動，以香港快運官網即時報價為準",
+      "priceValue": 967,
+      "originalLabel": "官網標示票價高達 7 折（即最多 30% off），連稅價較一般票價再低約 HK$50",
+      "discountPct": 70,
+      "endsAt": "2026-10-22T23:45:00+08:00",
+      "period": "訂票期：2026-10-20 15:00 至 10-22 23:45（香港時間）；出發期：2026-11-01 至 2027-01-31；只限官網或 App 首次預訂由香港出發的來回機票（包括多城市行程），每名用戶限用優惠碼一次",
+      "summary": "香港快運與 Klook 合作推出三日限時優惠，於官網或手機 App 輸入優惠碼【UOFUN26】，預訂由香港出發前往台北、台中或高雄的指定來回航班可享高達 7 折。連稅參考價：台北／高雄來回 HK$967 起、台中 HK$998 起；單程票價低至 $62（台北／高雄）及 $77（台中），惟基本票價只包一件隨身物品。「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起。訂票期至 10 月 22 日晚上 11 時 45 分，出發期為 11 月 1 日至 2027 年 1 月 31 日，並可作 open jaw 安排。完成訂票後可於 10 月 22 日或之前到 Klook 活動頁參加抽獎，有機會獲得新台幣 5,000 元旅遊金及酒店半價優惠。",
+      "highlights": [
+        "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（7 折後）",
+        "單程票價 $62 起（台北／高雄）、$77 起（台中），只包一件隨身物品",
+        "「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起",
+        "訂票期 10/20 15:00 至 10/22 23:45；出發期 11/1 至 2027/1/31",
+        "可作 open jaw；每名用戶限用優惠碼一次",
+        "10/22 前完成訂票可參加 Klook 抽獎：新台幣 5,000 元旅遊金、酒店低至半價"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
+      "sourceLabel": "香港快運官方「香港快運 × Klook 限時優惠」頁面 · MeetHK 2026-10-20 連稅參考價",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
+      "tags": [
+        "機票",
+        "香港快運",
+        "台北",
+        "台中",
+        "高雄",
+        "7折"
       ],
       "sample": false,
       "daysLeft": 1,
@@ -303,8 +265,83 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
+    },
+    {
+      "id": "dining-bendian-olympian-hotpot-buffet-20261021",
+      "category": "dining",
+      "title": "犇殿台灣火鍋一人鍋放題，午市 HK$99／位、晚市 HK$120／位（原價 HK$248）",
+      "subtitle": "KKday 雙11 早鳥 · 預訂 10/20 18:00 至 10/26 23:59 · 使用 10/20 至 11/8 · 奧海城",
+      "venue": "大角咀奧海城 犇殿台灣火鍋（一人鍋 × 鐵板燒）",
+      "priceLabel": "午市「上選赤身牛肉」放題：星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（一至五）、HK$130（週末，原價 HK$248／$258）；「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起）；「極黑美濃和牛」晚市 6 折 HK$185 起、「澳洲 M9 和牛」6 折 HK$239 起。售價未含以原價計算的 10% 服務費，現場以電子支付",
+      "priceValue": 99,
+      "originalLabel": "晚市 HK$120 對原價 HK$248，約 48 折；午市 HK$99 對原價 HK$148，約 67 折",
+      "discountPct": 48,
+      "endsAt": "2026-10-26T23:59:00+08:00",
+      "period": "預訂期：2026-10-20 18:00 至 10-26 23:59；使用期：2026-10-20 至 11-08；100 分鐘放題、八款湯底任選；晚市需兩位起",
+      "summary": "KKday 雙11 早鳥快閃推出大角咀奧海城「犇殿台灣火鍋」一人鍋 × 鐵板燒放題：午市「上選赤身牛肉」放題星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（星期一至五）、HK$130（週末及公眾假期，原價 HK$248／$258）。另設「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤和牛），「極黑美濃和牛」及「澳洲 M9 和牛」晚市低至 6 折，分別 HK$185 及 HK$239 起。放題 100 分鐘，八款湯底任選。預訂期由 10 月 20 日下午 6 時至 10 月 26 日，使用期 10 月 20 日至 11 月 8 日；售價未含以原價計算的 10% 服務費。",
+      "highlights": [
+        "午市放題 HK$99／位（一至五）、HK$109（週末），原價 HK$148 起",
+        "晚市 HK$120／位（一至五）、HK$130（週末），原價 HK$248 起，約 48 折",
+        "日本北海道和牛晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤）",
+        "極黑美濃和牛 6 折 HK$185 起、澳洲 M9 和牛 6 折 HK$239 起",
+        "100 分鐘放題、八款湯底任選",
+        "預訂 10/20 18:00 至 10/26；使用 10/20 至 11/8"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
+      "sourceLabel": "GroupBuya 著數網 2026-10-19（更新 10-20）KKday 雙11 早鳥快閃合集",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
+      "tags": [
+        "火鍋",
+        "放題",
+        "和牛",
+        "KKday",
+        "雙11",
+        "大角咀",
+        "奧海城"
+      ],
+      "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-xiheyayuan-crab-duck-buffet-20261021",
+      "category": "dining",
+      "title": "羲和雅苑大閘蟹＋北京烤鴨 120 分鐘放題，限量 HK$111／位（原價 HK$888）",
+      "subtitle": "KKday 雙11 · 開搶 10/21 15:00 至 10/27 23:59 · 使用 10/22 至 12/15 · 尖沙咀／中環／東涌",
+      "venue": "尖沙咀海港城海運大廈 2 樓 OTE203 號舖／中環皇后大道中 139 號 The L. Place 1 樓／東涌東薈城名店倉 4 樓 417 號舖",
+      "priceLabel": "限量 HK$111／位（原價 HK$888／位，約 12 折），只限尖沙咀及中環、星期一至五；第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5；1 位成人（41 折）＋1 位 65 歲或以上長者 HK$111，東涌平日人均低至 HK$229.5。另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算的加一服務費，現場支付。以 KKday 頁面為準",
+      "priceValue": 111,
+      "originalLabel": "限量方案 HK$111 對原價 HK$888，約 12 折；二人組合人均 HK$239.5（約 27 折）",
+      "discountPct": 12,
+      "endsAt": "2026-10-27T23:59:00+08:00",
+      "period": "開搶及預訂期：2026-10-21 15:00 至 10-27 23:59；使用期：2026-10-22 至 12-15；限量方案只限星期一至五（公眾假期除外）、需 2 位起訂",
+      "summary": "KKday 雙11 推出羲和雅苑「精品大閘蟹北京烤鴨 120 分鐘放題」，限量 HK$111／位（原價 HK$888），只限尖沙咀及中環分店、星期一至五。另設第 1 位 HK$368＋第 2 位 HK$111 的二人組合，人均 HK$239.5；1 位成人配 1 位 65 歲或以上長者同為 HK$111，東涌平日人均低至 HK$229.5。放題包括前菜（每兩位三選一）、每位一份小米海參、120 分鐘任食招牌烤鴨及大閘蟹、精品小菜（每兩位四選一）、黃金蟹粉撈稻庭烏冬及甜品。烤鴨以「會跳舞的烤鴨」聞名，可試鴨胸脆皮蘸跳跳糖、鴨胸嫩肉配芥末醬及鴨腿配八寶盒三種食法。另收茶位費及以原價計算的加一服務費，須現場支付。",
+      "highlights": [
+        "限量 HK$111／位（原價 HK$888），尖沙咀及中環、星期一至五",
+        "第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5",
+        "1 成人＋1 長者（65 歲或以上）HK$111，東涌平日人均低至 HK$229.5",
+        "120 分鐘任食招牌烤鴨及大閘蟹，每位送小米海參",
+        "預訂 10/21 15:00 至 10/27；使用 10/22 至 12/15",
+        "另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算加一，現場支付"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/270417",
+      "sourceLabel": "GroupBuya 著數網 2026-10-21（KKday 雙11 開搶詳情）· U Lifestyle 2026-10-21 報道",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556350-KKday-%E9%9B%9911",
+      "tags": [
+        "大閘蟹",
+        "片皮鴨",
+        "放題",
+        "KKday",
+        "雙11",
+        "尖沙咀",
+        "中環",
+        "東涌"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
     },
     {
       "id": "dining-kowloonhotel-tst-20260912",
@@ -337,7 +374,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -372,7 +409,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -407,7 +444,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -442,7 +479,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -478,7 +515,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -516,7 +553,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -554,7 +591,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -591,7 +628,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -626,7 +663,7 @@
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -661,7 +698,7 @@
         "親子"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -698,7 +735,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -736,7 +773,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -772,7 +809,7 @@
         "富麗敦"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -807,7 +844,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -838,7 +875,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -869,7 +906,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -900,7 +937,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -930,7 +967,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -965,7 +1002,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -1000,7 +1037,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -1035,7 +1072,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -1072,7 +1109,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 54,
+      "daysLeft": 53,
       "status": "active"
     },
     {
@@ -1107,7 +1144,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 59,
+      "daysLeft": 58,
       "status": "active"
     },
     {
@@ -1143,7 +1180,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 103,
+      "daysLeft": 102,
       "status": "active"
     },
     {
@@ -3588,6 +3625,80 @@
         "尖沙咀",
         "大埔",
         "5折"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-hangfong-windowcafe-2nd12-seafood-20261014",
+      "category": "dining",
+      "title": "恆豐酒店紅煙窗「紐西蘭『蠔』華盛宴」海鮮自助晚餐第二位 HK$12，人均 HK$374（KKday 12 週年快閃）",
+      "subtitle": "KKday 12 週年快閃 · 開搶 10/14 15:00 至 10/20 23:59 · 使用期 10/15 至 11/17 · 買一送一人均 HK$401 起、2 大 1 小套票低至 4 折",
+      "venue": "尖沙咀彌敦道 222 號恆豐酒店 2 樓 紅煙窗餐廳（The Window Café）",
+      "priceLabel": "海鮮自助晚餐（18:00–21:00）：第二位 HK$12，星期一至四 HK$748／2 位（人均 HK$374）；買一送一星期一至四 HK$802／2 位（人均 HK$401）；2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）；海鮮自助午餐（12:00–14:30）低至 58 折，星期一至五成人 HK$268／位、小童 HK$220／位、長者 HK$248／位起。以上已包原價加一服務費；實際價格、名額與可訂日子以 KKday 活動頁即時顯示為準",
+      "priceValue": 374,
+      "originalLabel": "自助晚餐原價約 HK$802／位（按買一送一方案換算，已包加一服務費）",
+      "discountPct": 53,
+      "endsAt": "2026-10-20T23:59:00+08:00",
+      "period": "開搶期：2026-10-14 15:00 至 10-20 23:59；使用期：2026-10-15 至 11-17（12 週年快閃）",
+      "summary": "尖沙咀恆豐酒店紅煙窗餐廳於 10 月 14 日下午 3 時推出 KKday 12 週年快閃自助餐優惠：「紐西蘭『蠔』華盛宴」海鮮自助晚餐第二位只需 HK$12，星期一至四 HK$748／2 位（人均 HK$374），亦設買一送一 HK$802／2 位（人均 HK$401）；2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）；海鮮自助午餐低至 58 折，星期一至五成人 HK$268／位、小童 HK$220／位、長者 HK$248／位起（以上已包原價加一服務費）。自助晚餐無限量供應紐西蘭生蠔、法國麵包蟹、鱈場蟹腳，熱葷有燒原條澳洲和牛西冷、香草燒羊扒、薑蔥炒龍蝦球、香煎法國鴨肝伴多士，甜品有榴槤巴斯克芝士蛋糕、芒果拿破崙及 Häagen-Dazs 與 Mövenpick 雪糕；自助午餐設港式車仔即煮麵檔及燒美國肉眼扒，週末及公眾假期加設法國麵包蟹。訂購期為 10 月 14 日下午 3 時至 10 月 20 日，使用期為 10 月 15 日至 11 月 17 日。價格與名額以商戶官方公佈為準。",
+      "highlights": [
+        "海鮮自助晚餐第二位 HK$12：星期一至四 HK$748／2 位（人均 HK$374）",
+        "買一送一：星期一至四 HK$802／2 位（人均 HK$401）",
+        "2 大 1 小親子套票低至 4 折 HK$1,100／組（人均 HK$367）",
+        "海鮮自助午餐低至 58 折：平日成人 HK$268／位起",
+        "開搶期 10/14 15:00–10/20 23:59，使用期 10/15–11/17",
+        "佐敦／尖沙咀彌敦道 222 號恆豐酒店 2 樓，法國藍帶美食協會榮譽會員勳章"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/284215",
+      "sourceLabel": "GroupBuya《KKday 12週年慶快閃 10月14日15:00開搶 第二位HK$12紐西蘭蠔華盛宴》（KKday，2026-10-14）＋ 星島頭條《佐敦星級酒店海鮮自助晚餐第二位$12！人均$374起》（2026-10-14）",
+      "sourceUrl": "https://www.stheadline.com/food/3625689/",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "第二位$12",
+        "買一送一",
+        "尖沙咀",
+        "恆豐酒店",
+        "紅煙窗",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-playt-cwb-goldencrab-flashsale-20261016",
+      "category": "dining",
+      "title": "柏寧酒店 PLAYT「金秋蟹宴」大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位）",
+      "subtitle": "KKday 12 週年快閃 · 開搶 10/14 12:00 至 10/20 23:59 · 使用期 10/15 至 11/30 · PayMe 碼後人均低至 HK$575",
+      "venue": "PLAYT · 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓",
+      "priceLabel": "「金秋蟹宴」大閘蟹自助晚餐（一至四）：第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，已包原價加一）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折＋PayMe 碼【PMPLAYT】減 HK$80 後人均 HK$575 起。平日自助午餐第二位 HK$122，HK$684／2 位（人均 HK$342，原價 HK$515／位）；週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）",
+      "priceValue": 590,
+      "originalLabel": "大閘蟹自助晚餐原價 HK$878／位起（已包原價加一服務費）",
+      "discountPct": 67,
+      "endsAt": "2026-10-20T23:59:00+08:00",
+      "period": "預訂期：2026-10-14 12:00 至 10-20 23:59；使用期：2026-10-15 至 11-30",
+      "summary": "銅鑼灣香港柏寧酒店 PLAYT 於 KKday 12 週年快閃推出「金秋蟹宴」大閘蟹自助晚餐（供應期 10/12–11/30）：星期一至四第二位 HK$222，HK$1,180／2 位（人均 HK$590，原價 HK$878／位起，約 67 折）；買二送一 HK$1,836／3 位起（人均 HK$612）；2 人同行 67 折並以 PayMe 付款輸入優惠碼【PMPLAYT】可減 HK$80，人均低至 HK$575 起。每位成人奉送兩隻約 4 両重清蒸大閘蟹（小童一隻），另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯、蟹粉忌廉汁意大利粉等蟹粉創意菜，以及即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排。同場平日自助午餐第二位 HK$122（HK$684／2 位，人均 HK$342，原價 HK$515／位）、週末自助早午餐買二送一 HK$1,422／3 位起（人均 HK$474，原價 HK$680／位）。全部價格已包括原價加一服務費；價格、名額與可訂日子以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "大閘蟹自助晚餐第二位 HK$222，人均 HK$590（原價 HK$878／位起，約 67 折）",
+        "PayMe 付款輸碼【PMPLAYT】再減 HK$80，人均低至 HK$575 起",
+        "每位成人奉送兩隻約 4 両清蒸大閘蟹（小童一隻）",
+        "蟹粉鮑魚兩面黃、蟹粉茶碗蒸、即開生蠔、冰鎮龍蝦、鱈蟹腳",
+        "預訂期 10/14 12:00–10/20 23:59，使用期 10/15–11/30（供應期 10/12 起）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/128971",
+      "sourceLabel": "U Lifestyle（UHK 港生活）《柏寧酒店大閘蟹自助餐第2位$222》（2026-10-14）＋ Yahoo 新聞《2026大閘蟹優惠推介》（BuffetGang）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20113600",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "大閘蟹",
+        "銅鑼灣",
+        "柏寧酒店",
+        "PLAYT",
+        "KKday"
       ],
       "sample": false,
       "daysLeft": 0,
