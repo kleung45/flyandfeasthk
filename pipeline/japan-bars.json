@@ -12,10 +12,11 @@
       "中部／東海",
       "九州",
       "東北",
-      "關東",
       "沖繩",
-      "關西"
-    ]
+      "關西",
+      "關東"
+    ],
+    "updatedAt": "2026-10-21"
   },
   "bars": [
     {
@@ -822,6 +823,210 @@
       ],
       "sourceLabel": "50 Best Bar（列 Google 評分 4.6／5、1,330 則）",
       "sourceUrl": "https://www.50bestbar.com/bar/bar-nayuta-osaka",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-star-bar",
+      "name": "Star Bar Ginza（スタア・バー・ギンザ）",
+      "nameEn": "Star Bar Ginza",
+      "city": "東京",
+      "area": "銀座1丁目",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "季節水果雞尾酒、Martini；店主岸久的「忍者冰」（Ninja Ice）冰雕",
+      "rating": 4.3,
+      "reviews": 466,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "每人約 ¥3,000–8,000，另加座位費約 ¥1,100（來源列示，以現場為準）",
+      "address": "東京都中央区銀座1-5-13 MODERNS GINZA B1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Star%20Bar%20Ginza%20%E9%8A%80%E5%BA%A71%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "銀座正統吧的老字號之一，店主岸久（Hisashi Kishi）係世界調酒大賽冠軍，獎座就擺在吧檯後的架上。酒單以季節水果雞尾酒為核心——當造的梨、巨峰、柑橘即場調，長飲短飲都有；想直接睇手藝就點 Martini 或 Gimlet。地庫入口只有一個低調黑招牌，落樓梯先見到門，全店約二十個位。",
+      "highlights": [
+        "店主岸久為世界調酒大賽冠軍，獎座陳列於吧檯後",
+        "季節水果雞尾酒按當造水果轉換，並非固定酒單",
+        "招牌「忍者冰」冰雕，一杯酒的冰塊都當表演看",
+        "全店約 20 個座位，以吧檯為主"
+      ],
+      "tips": [
+        "座位費約 ¥1,100／人（來源評論提及，以現場為準）",
+        "全店禁煙",
+        "訂位安排各來源說法不一，建議先致電 +81 3-3535-8005 確認",
+        "位於地庫，認住銀座 1 丁目的黑色招牌落樓梯；導航請直接搜尋店名",
+        "職員可用英語溝通"
+      ],
+      "sourceLabel": "Restaurant Guru（Google 4.3、466 則）＋ Wanderlog（4.3、481 則）",
+      "sourceUrl": "https://restaurantguru.com/Star-Bar-Ginza-Tokyo-2",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-high-five",
+      "name": "Bar High Five（バー ハイファイブ）",
+      "nameEn": "Bar High Five",
+      "city": "東京",
+      "area": "銀座5丁目",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "無酒單，按客人口味即場調；Martini、Gimlet 與「Japanese hard shake」手法",
+      "rating": 4.8,
+      "reviews": 1200,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "以現場酒單為準（來源未列固定價位）",
+      "address": "東京都中央区銀座5-4-15 Efflore Ginza5 Bldg B1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20High%20Five%20%E9%8A%80%E5%BA%A75%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "銀座最具國際知名度的雞尾酒吧之一，店主上野秀嗣（Hidetsugu Ueno）以「Japanese hard shake」聞名——搖酒時冰塊撞擊金屬壺的節奏，係全店最出名的一幕。店內冇酒單，坐低講你想飲咩味道、幾濃，調酒師就即場調；第一次去可以話「想試你嘅 Martini」。吧檯只有十多個位，外國客人比例高，曾入選 Asia's 50 Best Bars 第 6 位。",
+      "highlights": [
+        "店主上野秀嗣以「Japanese hard shake」搖酒手法聞名國際",
+        "完全冇酒單，按客人口味即場調配",
+        "2019 年 Asia's 50 Best Bars 第 6 位",
+        "吧檯座位為主，外國客人比例高"
+      ],
+      "tips": [
+        "官網明言 2015 年起不接受預約，只可到店前打電話確認有無位",
+        "2020 年 4 月起全店禁煙（官網公告）",
+        "座位費以現場為準，坐低前先問清楚",
+        "位於地庫，入口要繞到大廈側面；導航請直接搜尋店名",
+        "店主及職員英語流利，唔識日文都冇問題"
+      ],
+      "sourceLabel": "50 Best Bar（Google 4.8、1,200 則）",
+      "sourceUrl": "https://50bestbar.com/bar/bar-high-five-tokyo",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-mori-bar",
+      "name": "MORI BAR（モリ バー）",
+      "nameEn": "MORI BAR",
+      "city": "東京",
+      "area": "銀座7丁目",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "Mori Martini；以店主編寫的雞尾酒書代替酒單",
+      "rating": 4.1,
+      "reviews": 314,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "每人約 ¥5,000–6,000，另加座位費 ¥1,900（Tabelog 店方資料，以現場為準）",
+      "address": "東京都中央区銀座7-5-4 ラヴィアーレ銀座ビル 7F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MORI%20BAR%20%E9%8A%80%E5%BA%A77%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "銀座另一位傳奇調酒師毛利隆雄的店，2022 年入選 Tabelog 酒吧百名店。店內冇獨立酒單，而係一本由店主編寫的雞尾酒書——你翻書揀酒，調酒師會順便講每杯的來歷，呢個「睇書點酒」的儀式本身就係賣點。招牌 Mori Martini 屬厚身、冰鎮徹底的類型；木飾牆身、燈光調暗，客路以本地熟客為主。",
+      "highlights": [
+        "2022 年入選 Tabelog 酒吧百名店",
+        "以店主編寫的雞尾酒書代替酒單，翻書點酒",
+        "招牌 Mori Martini，由毛利隆雄親自傳授手法",
+        "店內約 30 座，木飾牆身、燈光昏暗"
+      ],
+      "tips": [
+        "座位費 ¥1,900（Tabelog 店方資料，以現場為準）",
+        "全店可吸煙，唔食煙要留意",
+        "不接受預約，只可現場排隊",
+        "星期日及公眾假期休息",
+        "店主年事已高，未必每晚在店內（來源評論提及）",
+        "位於大廈 7 樓，入口低調；導航請直接搜尋店名"
+      ],
+      "sourceLabel": "Wanderlog（Google 4.1、314 則）＋ Restaurant Guru（4.1、311 則）",
+      "sourceUrl": "https://wanderlog.com/place/details/472253",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-mixology-salon",
+      "name": "MIXOLOGY SALON（ミクソロジー サロン）",
+      "nameEn": "Mixology Salon",
+      "city": "東京",
+      "area": "銀座6丁目（GINZA SIX 13F）",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "茶葉雞尾酒：Tieguanyin Sazerac（鐵觀音）、Gyokuro Highball（玉露）",
+      "rating": 4.5,
+      "reviews": 602,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "飲品約 ¥1,800–2,200，另加座位費 ¥500（來源列示，以現場為準）",
+      "address": "東京都中央区銀座6-10-1 GINZA SIX 13F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mixology%20Salon%20%E9%8A%80%E5%BA%A76%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "銀座新一代的茶雞尾酒吧，由調酒師南雲主稅（Shuzo Nagumo）主理，2018、2019 連續兩年入選 Asia's 50 Best Bars。做法係每杯酒只用一款茶做骨架——玉露、焙茶、台灣鐵觀音——即場浸、沖，或者用茶洗酒，所以味道同一般雞尾酒吧完全兩套語言。空間只有十四個位左右，白色配淺木，似茶室多過酒吧。",
+      "highlights": [
+        "以單一茶葉為每杯雞尾酒的骨架，即場浸茶、洗酒",
+        "招牌 Tieguanyin Sazerac 自 2017 年一直在酒單上",
+        "2018 年第 40 位、2019 年第 49 位入選 Asia's 50 Best Bars",
+        "約 14 個座位，白色配淺木的茶室風格"
+      ],
+      "tips": [
+        "座位費 ¥500／人，附一小碟小食（來源列明，以現場為準）",
+        "全店禁煙",
+        "周末必須預約，經 GINZA SIX 13 樓餐廳層的訂位系統，最早可提前 30 日",
+        "由 GINZA SIX 商場搭電梯上 13 樓，穿過麵檔後方無標示的門",
+        "周末晚電梯要排十幾分鐘，預早出發",
+        "集團 2026 年 9 月於八重洲另開旗艦店，去前先確認你想去邊間"
+      ],
+      "sourceLabel": "Wanderlog（Google 4.5、602 則）＋ En Primeur Club（4.5、510 則）",
+      "sourceUrl": "https://app.wanderlog.com/zh/place/details/381087/mixology-salon",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-tender",
+      "name": "Ginza Tender（銀座 テンダー）",
+      "nameEn": "Ginza Tender",
+      "city": "東京",
+      "area": "銀座6丁目",
+      "region": "kanto",
+      "barType": "cocktail",
+      "signature": "Hard Shake 搖法調的 Martini 與 Gimlet；原創 Kings Valley、Fantastic Leman",
+      "rating": 4.2,
+      "reviews": 173,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "雞尾酒約 ¥2,200 起，另加座位費 ¥2,200；兩人兩杯可逾 ¥10,000（來源列示，以現場為準）",
+      "address": "東京都中央区銀座6-5-16 三楽ビル 9F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Tender%20%E9%8A%80%E5%BA%A76%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "上田和男（Kazuo Ueda）的店，被稱為「Hard Shake」之父——搖酒時手腕快速甩動，做出細密泡沫同更圓潤的口感。店內只有六個吧檯位加一張兩人小桌，全程安靜，冇背景音樂蓋過對話。原創雞尾酒 Kings Valley、Fantastic Leman 都係比賽得獎作品；想睇手藝就點一杯 Gimlet，睇佢由取冰到倒酒的一分半鐘。",
+      "highlights": [
+        "店主上田和男為「Hard Shake」搖法代表人物",
+        "只有 6 個吧檯位加 1 張兩人小桌，全店最多 8 人",
+        "原創雞尾酒 Kings Valley、Fantastic Leman 為比賽得獎作",
+        "2025 年獲 Pearl Recommended Bar"
+      ],
+      "tips": [
+        "座位費 ¥2,200／人，屬銀座較高的一檔（來源列明，以現場為準）",
+        "不接受預約，只可現場排隊，8 個位滿了就要等",
+        "全店禁煙",
+        "只可以影自己杯酒；影店內、職員或調酒過程一律不准",
+        "有服裝要求：男士穿短褲或涼鞋會被拒入場",
+        "英語溝通有限，最好準備好酒名或圖片",
+        "位於三楽ビル 9 樓，銀座站 C2 出口步行約 2 分鐘"
+      ],
+      "sourceLabel": "En Primeur Club（Google 4.2、173 則）",
+      "sourceUrl": "https://www.enprimeurclub.com/bars/tender-bar",
+      "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-tokyo-liquor-museum-akasaka",
+      "name": "お酒の美術館 赤坂店（Osake no Bijutsukan）",
+      "nameEn": "Osake no Bijutsukan Akasaka",
+      "city": "東京",
+      "area": "赤坂3丁目",
+      "region": "kanto",
+      "barType": "whisky",
+      "signature": "單杯 ¥500 起的老瓶威士忌、highball；自家調和威士忌",
+      "rating": 4.6,
+      "reviews": 28,
+      "ratingCheckedAt": "2026-10-21",
+      "priceBand": "飲品 ¥500 起，人均約 ¥1,000–5,000（來源列示，以現場為準）",
+      "address": "東京都港区赤坂3-16-4 DMK赤坂ビル 1F A",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%85%92%E3%81%AE%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E8%B5%A4%E5%9D%82%E5%BA%97%20%E8%B5%A4%E5%9D%823%E4%B8%81%E7%9B%AE%20%E6%9D%B1%E4%BA%AC",
+      "blurb": "「洋酒博物館」係連鎖立飲式威士忌吧，全國過百間分店，多數開在便利店隔籬或車站附近。赤坂店只有十幾個位，吧檯後一排排老瓶——包括停產多年的日本威士忌同乾邑，全部以單杯 ¥500 起供應，免座位費。想用最低成本試多幾款老酒，呢類店比正統吧實際得多；缺點係氣氛較 casual，唔會有調酒表演。",
+      "highlights": [
+        "單杯 ¥500 起，免座位費，可以低成本試多款老瓶",
+        "後吧陳列大量停產日本威士忌、乾邑同白蘭地",
+        "連鎖在全國過百間分店，多數鄰近車站或便利店",
+        "店內只有十幾個座位，以立飲為主"
+      ],
+      "tips": [
+        "免座位費（連鎖政策，以現場為準）",
+        "全店禁煙",
+        "座位少、多數係立飲，唔適合長時間坐",
+        "星期日休息；平日約 17:00–24:00（以現場為準）",
+        "職員可用簡單英語溝通，設英文酒單",
+        "連鎖部分分店歡迎自攜便利店小食並代為加熱，各店做法不同，入座前問一聲",
+        "分店眾多（新宿、中野、神田等），以上評分只代表赤坂店"
+      ],
+      "sourceLabel": "Restaurant Guru（Google 4.6、28 則）",
+      "sourceUrl": "https://restaurantguru.com/%E3%81%8A%E9%85%92%E3%81%AE%E7%BE%8E%E8%A1%93%E9%A4%A8-%E8%B5%A4%E5%9D%82%E5%BA%97-Osake-no-Bijutsukan-Akasaka-Minato",
       "addedAt": "2026-10-21"
     }
   ]
