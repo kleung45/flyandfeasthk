@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-21T10:55:50+08:00",
+    "updated": "2026-10-22T14:05:18+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,190 +12,15 @@
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 105,
-      "active": 33,
-      "ending": 7,
-      "expired": 72,
+      "active": 28,
+      "ending": 2,
+      "expired": 77,
       "flight": 12,
       "dining": 93,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-cordis-mongkok-place-12off-20261013",
-      "category": "dining",
-      "title": "旺角香港康得思酒店 The Place 自助餐獨家快閃 12 折，午餐每位 HK$88（已連服務費）",
-      "subtitle": "Klook 獨家快閃 · 開售期 10/15 21:00 至 10/21 · 適用期 10/16 至 11/30 · 12 折名額有限，售完轉自助晚餐買一送一",
-      "venue": "香港康得思酒店 The Place（旺角上海街 555 號）",
-      "priceLabel": "自助午餐 12 折後每位 HK$88（已連服務費）；「味遊亞洲·海鮮盛典」自助晚餐 12 折後每位 HK$173（已連服務費）；12 折名額有限，搶完可轉自助晚餐買一送一 HK$958／2 位（人均 HK$479，已連服務費）。實際折扣與名額以 Klook 活動頁即時顯示為準",
-      "priceValue": 88,
-      "originalLabel": "12 折獨家快閃（原價請參閱 Klook 活動頁價目表）",
-      "discountPct": 88,
-      "endsAt": "2026-10-21T23:59:00+08:00",
-      "period": "開售期：2026-10-15 21:00 至 10-21；適用期：2026-10-16 至 11-30",
-      "summary": "旺角香港康得思酒店 The Place 於 10 月 15 日晚上 9 時推出自助午餐及自助晚餐 12 折獨家快閃優惠，自助午餐折後每位 HK$88（已連服務費），「味遊亞洲·海鮮盛典」主題自助晚餐折後每位 HK$173（已連服務費）。12 折名額估計有限，售完系統會轉為自助晚餐買一送一優惠，2 位 HK$958（人均 HK$479，已連服務費）。自助晚餐菜式包括鱈場蟹腳、鐵板香煎鵝肝、時令環球冰鎮海鮮、刺身、蕉葉焗森巴蒜香海鮮、古法鹽焗鱘蟹、孜然風味烤羊架、36 吋長單一產地黑朱古力拿破崙，以及十款 MÖVENPICK 雪糕；朗廷卓逸會會員用餐期間可無限暢飲指定紅酒、白酒、生啤酒、汽水及果汁。開售期為 10 月 15 日晚上 9 時至 10 月 21 日，適用期為 10 月 16 日至 11 月 30 日，經 Klook 活動頁預訂。",
-      "highlights": [
-        "自助午餐 12 折後每位 HK$88（已連服務費）",
-        "自助晚餐 12 折後每位 HK$173（已連服務費）",
-        "12 折售完可轉自助晚餐買一送一：HK$958／2 位（人均 HK$479）",
-        "開售期 10/15 21:00–10/21，適用期 10/16–11/30",
-        "旺角康得思酒店 The Place，8,600 平方呎，設開放式廚房",
-        "10–11 月主題為「味遊亞洲·海鮮盛典」"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/54415-the-place-cordis-hong-kong",
-      "sourceLabel": "RunHotel 搵酒店《自助餐買一送一優惠 2026 年 10 月》（2026-10-12 更新）＋ Klook 活動頁 54415",
-      "sourceUrl": "https://www.runhotel.hk/all-hotel-buffet",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "12折",
-        "旺角",
-        "康得思",
-        "酒店"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-lungting-teppanyaki-12anniv-20261016",
-      "category": "dining",
-      "title": "龍亭鐵板燒 12 歲生日慶快閃，限量盛宴 HK$120／位（原價 HK$976／位起）",
-      "subtitle": "KKday 12 週年生日慶 · 開搶 10/15 18:00 至 10/21 23:59 · 使用期 10/16 至 12/15",
-      "venue": "龍亭鐵板燒 · 尖沙咀／佐敦／中環／大埔／元朗（現場另收原價加一服務費）",
-      "priceLabel": "限量 HK$120／位：「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」原價 HK$976／位、「尊貴魚子醬松本和牛花龍蝦盛宴」原價 HK$1,188／位；【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起；【重陽長幼專享】1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起；【長幼專享半價】日式特選套餐 HK$188／位（原價 HK$376／位）",
-      "priceValue": 120,
-      "originalLabel": "金沙龍蝦拖羅鵝肝和牛盛宴（十三品）原價 HK$976／位；尊貴魚子醬松本和牛花龍蝦盛宴原價 HK$1,188／位",
-      "discountPct": 12,
-      "endsAt": "2026-10-21T23:59:00+08:00",
-      "period": "預訂期：2026-10-15 18:00 至 10-21 23:59；使用期：2026-10-16 至 12-15（特別日子除外）",
-      "summary": "龍亭鐵板燒乘 KKday 12 週年生日慶推出快閃優惠，10 月 15 日傍晚 6 時開搶：限量「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」及「尊貴魚子醬松本和牛花龍蝦盛宴」各 HK$120／位（原價分別 HK$976／位及 HK$1,188／位，約 12 折）；另有【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起、重陽節長幼專享（1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起）及長幼專享半價日式特選套餐 HK$188／位（原價 HK$376／位）。菜單包括原罐魚子醬伴鐵板鱈魚脆片、煙燻稻草燒拖羅、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、鐵板 A5 松本和牛薄燒、黑松露海鮮炒飯；每單 6 位以上送鐵板金沙帝王蟹（約 3 斤）及魚子醬蛋糕。分店：尖沙咀／佐敦／中環／大埔／元朗；現場另收原價加一服務費。名額有限、售完即止，價格與名額以 KKday 活動頁即時公佈為準。",
-      "highlights": [
-        "限量盛宴 HK$120／位（原價 HK$976／位十三品、HK$1,188／位魚子醬松本和牛，約 12 折）",
-        "第 1 位 5 折＋第 2 位 HK$120，人均 HK$304 起",
-        "重陽長幼專享：1 位成人 5 折＋1 位 65 歲或以上長者 HK$120",
-        "菜單含原罐魚子醬、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、A5 松本和牛薄燒",
-        "開搶 10/15 18:00–10/21 23:59，使用 10/16–12/15；每單 6 位以上送金沙帝王蟹及魚子醬蛋糕"
-      ],
-      "url": "https://www.kkday.com/zh-hk/",
-      "sourceLabel": "Yahoo 新聞《鐵板燒優惠｜龍亭鐵板燒快閃 HK$120 歎花龍蝦、松本和牛及拖羅十三品盛宴》（2026-10-15）＋ GroupBuya《KKday 龍亭鐵板燒 12 歲生日慶快閃》（2026-10-16 更新）",
-      "sourceUrl": "https://hk.news.yahoo.com/%E9%90%B5%E6%9D%BF%E7%87%92%E5%84%AA%E6%83%A0-%E9%BE%8D%E4%BA%AD%E9%90%B5%E6%9D%BF%E7%87%92%E5%BF%AB%E9%96%83hk-120%E6%AD%8E%E8%8A%B1%E9%BE%8D%E8%9D%A6-%E6%9D%BE%E6%9C%AC%E5%92%8C%E7%89%9B%E5%8F%8A%E6%8B%96%E7%BE%85%E5%8D%81%E4%B8%89%E5%93%81%E7%9B%9B%E5%AE%B4-142016368.html",
-      "tags": [
-        "鐵板燒",
-        "快閃",
-        "龍蝦",
-        "和牛",
-        "尖沙咀",
-        "龍亭",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourplaza-np-green-afternoon-bogo-20261017",
-      "category": "dining",
-      "title": "北角海逸酒店 綠怡咖啡廳「金秋蟹饗」下午茶自助買一送一，人均 HK$167",
-      "subtitle": "KKday 12 週年快閃 · 開售 10/15 15:00 至 10/21 · 適用 10/16 至 11/30",
-      "route": "北角英皇道 665 號北角海逸酒店",
-      "priceLabel": "下午茶自助買一送一 HK$334／2 位（人均 HK$167，原價 HK$306／位）；自助早午餐買二送二 HK$1,148／4 位（人均 HK$287）",
-      "priceValue": 167,
-      "originalLabel": "下午茶原價 HK$306／位，買一送一後 55 折；以上已包加一服務費（以原價計算）",
-      "endsAt": "2026-10-21T23:59:00+08:00",
-      "period": "開售期：2026-10-15 15:00 至 10-21 23:59；適用期：2026-10-16 至 11-30",
-      "summary": "北角海逸酒店綠怡咖啡廳推出「金秋蟹饗」下午茶自助買一送一：2 位 HK$334，人均 HK$167（原價每位 HK$306，即 55 折），價錢已包括以原價計算的加一服務費。同場另有自助早午餐買二送二 HK$1,148／4 位（人均 HK$287）、自助晚餐第二位 +HK$1 即 HK$900／2 位（人均 HK$450，原價 HK$812／位）。開售期 2026 年 10 月 15 日 15:00 至 10 月 21 日，適用期 10 月 16 日至 11 月 30 日。名額及價格以 KKday 活動頁即時顯示為準。",
-      "highlights": [
-        "下午茶自助買一送一 HK$334／2 位，人均 HK$167（55 折）",
-        "自助早午餐買二送二 HK$1,148／4 位，人均 HK$287",
-        "自助晚餐第二位 +HK$1，2 位 HK$900（人均 HK$450）",
-        "開售 10/15 15:00–10/21，適用 10/16–11/30",
-        "已包加一服務費，蟹季主題點心及熱葷輪流供應"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
-      "sourceLabel": "GroupBuya《KKday 獨家快閃》文章（2026-10-16 更新，載 KKday 10/15 15:00 場次價格表）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
-      "tags": [
-        "自助餐",
-        "北角",
-        "北角海逸酒店",
-        "綠怡咖啡廳",
-        "下午茶",
-        "買一送一",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-momocafe-shatin-second12-20261017",
-      "category": "dining",
-      "title": "沙田萬怡酒店 MoMo Café 自助餐第二位 HK$12，2 位 HK$450、人均 HK$225",
-      "subtitle": "Klook 快閃 · 開售 10/15 12:00 至 10/21 · 適用 10/16 至 11/30",
-      "route": "沙田安平街 1 號 2 樓",
-      "priceLabel": "自助午餐 2 位 HK$450（人均 HK$225，已連服務費）；自助晚餐 3 位 HK$1,222（人均 HK$408）",
-      "priceValue": 225,
-      "originalLabel": "第二位只收 HK$12，等同買一送一；另設低至 6 折及 7 折方案",
-      "endsAt": "2026-10-21T23:59:00+08:00",
-      "period": "開售期：2026-10-15 12:00 至 10-21 23:59；適用期：2026-10-16 至 11-30",
-      "summary": "沙田萬怡酒店 MoMo Café 推出 10 月快閃：自助午餐買一位、第二位只需 HK$12，兩位合共 HK$450（已連服務費），人均 HK$225；自助晚餐 3 位 HK$1,222、人均 HK$408，設酒水任飲。10 月至 11 月主題為「歐陸風情」，午餐供應生蠔、時令冰鎮海鮮、德國鹹豬手、德國燒雞、黑森林蛋糕等；晚餐加推鴨肝。開售期 2026 年 10 月 15 日 12:00 至 10 月 21 日，適用期 10 月 16 日至 11 月 30 日。名額及價格以 Klook 活動頁即時顯示為準。",
-      "highlights": [
-        "自助午餐 2 位 HK$450，人均 HK$225（第二位 HK$12）",
-        "自助晚餐 3 位 HK$1,222，人均 HK$408，酒水任飲",
-        "10–11 月「歐陸風情」主題：生蠔、冰鎮海鮮、德國鹹豬手",
-        "開售 10/15 12:00–10/21，適用 10/16–11/30",
-        "已包加一服務費，名額有限、售完即止"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/20516-momo-cafe-courtyard-marriott-hong-kong/",
-      "sourceLabel": "RunHotel《自助餐買一送一優惠 2026 年 10 月》合集（10/12 更新）＋ Klook 活動頁 20516",
-      "sourceUrl": "https://www.runhotel.hk/all-hotel-buffet",
-      "tags": [
-        "自助餐",
-        "沙田",
-        "萬怡酒店",
-        "MoMo Café",
-        "買一送一",
-        "快閃",
-        "Klook"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourplaza8degrees-mango-tea-bogo-20261019",
-      "category": "dining",
-      "title": "土瓜灣 8 度海逸酒店「金芒晶選」下午茶買一送一，2 位 HK$198（人均 HK$99）",
-      "subtitle": "KKday 快閃 · 預訂至 10/21 · 適用 10/16–11/30 下午 3 至 5 時",
-      "venue": "土瓜灣九龍城道 199 號 8 度海逸酒店 8 度餐廳",
-      "priceLabel": "KKday 快閃買一送一：2 位 HK$198（人均 HK$99），已包下午茶套餐及無限量咖啡或茶；現場另收以原價計算的服務費。價格以 KKday 頁面即時公佈為準",
-      "priceValue": 99,
-      "originalLabel": "買一送一即第二位免費，折合約 5 折；原價單人下午茶以酒店及 KKday 頁面為準",
-      "discountPct": 50,
-      "endsAt": "2026-10-21T23:59:00+08:00",
-      "period": "預訂期：2026-10-15 15:00 至 10-21；適用日期：2026-10-16 至 11-30，每日 15:00–17:00；現場另收以原價計算的服務費",
-      "summary": "土瓜灣 8 度海逸酒店 8 度餐廳推出「金芒晶選」芒果主題下午茶買一送一，2 位 HK$198、人均 HK$99，已包無限量咖啡或茶。鹹點有芒果洋蔥柚子沙律伴叄巴醬、芒果牛油果三文魚芝麻反卷、黑松露燒汁芝士焗薯蓉、醬燒京蔥雞肉串；甜點有芒果拿破崙、芒果芝士班戟、芒果熱情果意大利芝士蛋糕及牛油鬆餅。KKday 預訂期由 10 月 15 日下午 3 時至 10 月 21 日，適用 10 月 16 日至 11 月 30 日每日下午 3 至 5 時，現場另收以原價計算的服務費。",
-      "highlights": [
-        "2 位 HK$198、人均 HK$99（買一送一，約 5 折）",
-        "包無限量咖啡或茶；現場另收以原價計算服務費",
-        "鹹甜點各 4 款：芒果拿破崙、芒果芝士班戟、黑松露焗薯蓉、醬燒京蔥雞肉串",
-        "預訂期 10/15 15:00–10/21；適用 10/16–11/30 每日 15:00–17:00"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/119704",
-      "sourceLabel": "RunHotel 2026-10-15 報道 · KKday 產品 119704",
-      "sourceUrl": "https://www.runhotel.hk/8-degree-tea/",
-      "tags": [
-        "下午茶",
-        "買一送一",
-        "土瓜灣",
-        "8度海逸",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "flight-hkexpress-klook-taiwan-7off-20261021",
       "category": "flight",
@@ -229,7 +54,7 @@
         "7折"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -265,7 +90,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -302,7 +127,7 @@
         "奧海城"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -340,7 +165,7 @@
         "東涌"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -374,7 +199,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -409,7 +234,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -444,7 +269,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -479,7 +304,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -515,7 +340,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -553,7 +378,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -591,7 +416,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -628,7 +453,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -663,7 +488,7 @@
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -698,7 +523,7 @@
         "親子"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -735,7 +560,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -773,7 +598,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -809,7 +634,7 @@
         "富麗敦"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -844,7 +669,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -875,7 +700,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -906,7 +731,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -937,7 +762,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -967,7 +792,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1002,7 +827,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1037,7 +862,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1072,7 +897,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1109,7 +934,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 53,
+      "daysLeft": 52,
       "status": "active"
     },
     {
@@ -1144,7 +969,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 58,
+      "daysLeft": 57,
       "status": "active"
     },
     {
@@ -1180,7 +1005,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 102,
+      "daysLeft": 101,
       "status": "active"
     },
     {
@@ -3698,6 +3523,181 @@
         "銅鑼灣",
         "柏寧酒店",
         "PLAYT",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-cordis-mongkok-place-12off-20261013",
+      "category": "dining",
+      "title": "旺角香港康得思酒店 The Place 自助餐獨家快閃 12 折，午餐每位 HK$88（已連服務費）",
+      "subtitle": "Klook 獨家快閃 · 開售期 10/15 21:00 至 10/21 · 適用期 10/16 至 11/30 · 12 折名額有限，售完轉自助晚餐買一送一",
+      "venue": "香港康得思酒店 The Place（旺角上海街 555 號）",
+      "priceLabel": "自助午餐 12 折後每位 HK$88（已連服務費）；「味遊亞洲·海鮮盛典」自助晚餐 12 折後每位 HK$173（已連服務費）；12 折名額有限，搶完可轉自助晚餐買一送一 HK$958／2 位（人均 HK$479，已連服務費）。實際折扣與名額以 Klook 活動頁即時顯示為準",
+      "priceValue": 88,
+      "originalLabel": "12 折獨家快閃（原價請參閱 Klook 活動頁價目表）",
+      "discountPct": 88,
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "開售期：2026-10-15 21:00 至 10-21；適用期：2026-10-16 至 11-30",
+      "summary": "旺角香港康得思酒店 The Place 於 10 月 15 日晚上 9 時推出自助午餐及自助晚餐 12 折獨家快閃優惠，自助午餐折後每位 HK$88（已連服務費），「味遊亞洲·海鮮盛典」主題自助晚餐折後每位 HK$173（已連服務費）。12 折名額估計有限，售完系統會轉為自助晚餐買一送一優惠，2 位 HK$958（人均 HK$479，已連服務費）。自助晚餐菜式包括鱈場蟹腳、鐵板香煎鵝肝、時令環球冰鎮海鮮、刺身、蕉葉焗森巴蒜香海鮮、古法鹽焗鱘蟹、孜然風味烤羊架、36 吋長單一產地黑朱古力拿破崙，以及十款 MÖVENPICK 雪糕；朗廷卓逸會會員用餐期間可無限暢飲指定紅酒、白酒、生啤酒、汽水及果汁。開售期為 10 月 15 日晚上 9 時至 10 月 21 日，適用期為 10 月 16 日至 11 月 30 日，經 Klook 活動頁預訂。",
+      "highlights": [
+        "自助午餐 12 折後每位 HK$88（已連服務費）",
+        "自助晚餐 12 折後每位 HK$173（已連服務費）",
+        "12 折售完可轉自助晚餐買一送一：HK$958／2 位（人均 HK$479）",
+        "開售期 10/15 21:00–10/21，適用期 10/16–11/30",
+        "旺角康得思酒店 The Place，8,600 平方呎，設開放式廚房",
+        "10–11 月主題為「味遊亞洲·海鮮盛典」"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/54415-the-place-cordis-hong-kong",
+      "sourceLabel": "RunHotel 搵酒店《自助餐買一送一優惠 2026 年 10 月》（2026-10-12 更新）＋ Klook 活動頁 54415",
+      "sourceUrl": "https://www.runhotel.hk/all-hotel-buffet",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "12折",
+        "旺角",
+        "康得思",
+        "酒店"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-lungting-teppanyaki-12anniv-20261016",
+      "category": "dining",
+      "title": "龍亭鐵板燒 12 歲生日慶快閃，限量盛宴 HK$120／位（原價 HK$976／位起）",
+      "subtitle": "KKday 12 週年生日慶 · 開搶 10/15 18:00 至 10/21 23:59 · 使用期 10/16 至 12/15",
+      "venue": "龍亭鐵板燒 · 尖沙咀／佐敦／中環／大埔／元朗（現場另收原價加一服務費）",
+      "priceLabel": "限量 HK$120／位：「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」原價 HK$976／位、「尊貴魚子醬松本和牛花龍蝦盛宴」原價 HK$1,188／位；【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起；【重陽長幼專享】1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起；【長幼專享半價】日式特選套餐 HK$188／位（原價 HK$376／位）",
+      "priceValue": 120,
+      "originalLabel": "金沙龍蝦拖羅鵝肝和牛盛宴（十三品）原價 HK$976／位；尊貴魚子醬松本和牛花龍蝦盛宴原價 HK$1,188／位",
+      "discountPct": 12,
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "預訂期：2026-10-15 18:00 至 10-21 23:59；使用期：2026-10-16 至 12-15（特別日子除外）",
+      "summary": "龍亭鐵板燒乘 KKday 12 週年生日慶推出快閃優惠，10 月 15 日傍晚 6 時開搶：限量「金沙龍蝦拖羅鵝肝和牛盛宴（十三品）」及「尊貴魚子醬松本和牛花龍蝦盛宴」各 HK$120／位（原價分別 HK$976／位及 HK$1,188／位，約 12 折）；另有【第 1 位 5 折＋第 2 位 HK$120】人均 HK$304 起、重陽節長幼專享（1 位成人 5 折＋1 位 65 歲或以上長者 HK$120，人均 HK$304 起）及長幼專享半價日式特選套餐 HK$188／位（原價 HK$376／位）。菜單包括原罐魚子醬伴鐵板鱈魚脆片、煙燻稻草燒拖羅、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、鐵板 A5 松本和牛薄燒、黑松露海鮮炒飯；每單 6 位以上送鐵板金沙帝王蟹（約 3 斤）及魚子醬蛋糕。分店：尖沙咀／佐敦／中環／大埔／元朗；現場另收原價加一服務費。名額有限、售完即止，價格與名額以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "限量盛宴 HK$120／位（原價 HK$976／位十三品、HK$1,188／位魚子醬松本和牛，約 12 折）",
+        "第 1 位 5 折＋第 2 位 HK$120，人均 HK$304 起",
+        "重陽長幼專享：1 位成人 5 折＋1 位 65 歲或以上長者 HK$120",
+        "菜單含原罐魚子醬、慢煮溏心鮑魚、鐵板原隻野生花龍蝦、A5 松本和牛薄燒",
+        "開搶 10/15 18:00–10/21 23:59，使用 10/16–12/15；每單 6 位以上送金沙帝王蟹及魚子醬蛋糕"
+      ],
+      "url": "https://www.kkday.com/zh-hk/",
+      "sourceLabel": "Yahoo 新聞《鐵板燒優惠｜龍亭鐵板燒快閃 HK$120 歎花龍蝦、松本和牛及拖羅十三品盛宴》（2026-10-15）＋ GroupBuya《KKday 龍亭鐵板燒 12 歲生日慶快閃》（2026-10-16 更新）",
+      "sourceUrl": "https://hk.news.yahoo.com/%E9%90%B5%E6%9D%BF%E7%87%92%E5%84%AA%E6%83%A0-%E9%BE%8D%E4%BA%AD%E9%90%B5%E6%9D%BF%E7%87%92%E5%BF%AB%E9%96%83hk-120%E6%AD%8E%E8%8A%B1%E9%BE%8D%E8%9D%A6-%E6%9D%BE%E6%9C%AC%E5%92%8C%E7%89%9B%E5%8F%8A%E6%8B%96%E7%BE%85%E5%8D%81%E4%B8%89%E5%93%81%E7%9B%9B%E5%AE%B4-142016368.html",
+      "tags": [
+        "鐵板燒",
+        "快閃",
+        "龍蝦",
+        "和牛",
+        "尖沙咀",
+        "龍亭",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourplaza-np-green-afternoon-bogo-20261017",
+      "category": "dining",
+      "title": "北角海逸酒店 綠怡咖啡廳「金秋蟹饗」下午茶自助買一送一，人均 HK$167",
+      "subtitle": "KKday 12 週年快閃 · 開售 10/15 15:00 至 10/21 · 適用 10/16 至 11/30",
+      "route": "北角英皇道 665 號北角海逸酒店",
+      "priceLabel": "下午茶自助買一送一 HK$334／2 位（人均 HK$167，原價 HK$306／位）；自助早午餐買二送二 HK$1,148／4 位（人均 HK$287）",
+      "priceValue": 167,
+      "originalLabel": "下午茶原價 HK$306／位，買一送一後 55 折；以上已包加一服務費（以原價計算）",
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "開售期：2026-10-15 15:00 至 10-21 23:59；適用期：2026-10-16 至 11-30",
+      "summary": "北角海逸酒店綠怡咖啡廳推出「金秋蟹饗」下午茶自助買一送一：2 位 HK$334，人均 HK$167（原價每位 HK$306，即 55 折），價錢已包括以原價計算的加一服務費。同場另有自助早午餐買二送二 HK$1,148／4 位（人均 HK$287）、自助晚餐第二位 +HK$1 即 HK$900／2 位（人均 HK$450，原價 HK$812／位）。開售期 2026 年 10 月 15 日 15:00 至 10 月 21 日，適用期 10 月 16 日至 11 月 30 日。名額及價格以 KKday 活動頁即時顯示為準。",
+      "highlights": [
+        "下午茶自助買一送一 HK$334／2 位，人均 HK$167（55 折）",
+        "自助早午餐買二送二 HK$1,148／4 位，人均 HK$287",
+        "自助晚餐第二位 +HK$1，2 位 HK$900（人均 HK$450）",
+        "開售 10/15 15:00–10/21，適用 10/16–11/30",
+        "已包加一服務費，蟹季主題點心及熱葷輪流供應"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
+      "sourceLabel": "GroupBuya《KKday 獨家快閃》文章（2026-10-16 更新，載 KKday 10/15 15:00 場次價格表）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "北角",
+        "北角海逸酒店",
+        "綠怡咖啡廳",
+        "下午茶",
+        "買一送一",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-momocafe-shatin-second12-20261017",
+      "category": "dining",
+      "title": "沙田萬怡酒店 MoMo Café 自助餐第二位 HK$12，2 位 HK$450、人均 HK$225",
+      "subtitle": "Klook 快閃 · 開售 10/15 12:00 至 10/21 · 適用 10/16 至 11/30",
+      "route": "沙田安平街 1 號 2 樓",
+      "priceLabel": "自助午餐 2 位 HK$450（人均 HK$225，已連服務費）；自助晚餐 3 位 HK$1,222（人均 HK$408）",
+      "priceValue": 225,
+      "originalLabel": "第二位只收 HK$12，等同買一送一；另設低至 6 折及 7 折方案",
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "開售期：2026-10-15 12:00 至 10-21 23:59；適用期：2026-10-16 至 11-30",
+      "summary": "沙田萬怡酒店 MoMo Café 推出 10 月快閃：自助午餐買一位、第二位只需 HK$12，兩位合共 HK$450（已連服務費），人均 HK$225；自助晚餐 3 位 HK$1,222、人均 HK$408，設酒水任飲。10 月至 11 月主題為「歐陸風情」，午餐供應生蠔、時令冰鎮海鮮、德國鹹豬手、德國燒雞、黑森林蛋糕等；晚餐加推鴨肝。開售期 2026 年 10 月 15 日 12:00 至 10 月 21 日，適用期 10 月 16 日至 11 月 30 日。名額及價格以 Klook 活動頁即時顯示為準。",
+      "highlights": [
+        "自助午餐 2 位 HK$450，人均 HK$225（第二位 HK$12）",
+        "自助晚餐 3 位 HK$1,222，人均 HK$408，酒水任飲",
+        "10–11 月「歐陸風情」主題：生蠔、冰鎮海鮮、德國鹹豬手",
+        "開售 10/15 12:00–10/21，適用 10/16–11/30",
+        "已包加一服務費，名額有限、售完即止"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/20516-momo-cafe-courtyard-marriott-hong-kong/",
+      "sourceLabel": "RunHotel《自助餐買一送一優惠 2026 年 10 月》合集（10/12 更新）＋ Klook 活動頁 20516",
+      "sourceUrl": "https://www.runhotel.hk/all-hotel-buffet",
+      "tags": [
+        "自助餐",
+        "沙田",
+        "萬怡酒店",
+        "MoMo Café",
+        "買一送一",
+        "快閃",
+        "Klook"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourplaza8degrees-mango-tea-bogo-20261019",
+      "category": "dining",
+      "title": "土瓜灣 8 度海逸酒店「金芒晶選」下午茶買一送一，2 位 HK$198（人均 HK$99）",
+      "subtitle": "KKday 快閃 · 預訂至 10/21 · 適用 10/16–11/30 下午 3 至 5 時",
+      "venue": "土瓜灣九龍城道 199 號 8 度海逸酒店 8 度餐廳",
+      "priceLabel": "KKday 快閃買一送一：2 位 HK$198（人均 HK$99），已包下午茶套餐及無限量咖啡或茶；現場另收以原價計算的服務費。價格以 KKday 頁面即時公佈為準",
+      "priceValue": 99,
+      "originalLabel": "買一送一即第二位免費，折合約 5 折；原價單人下午茶以酒店及 KKday 頁面為準",
+      "discountPct": 50,
+      "endsAt": "2026-10-21T23:59:00+08:00",
+      "period": "預訂期：2026-10-15 15:00 至 10-21；適用日期：2026-10-16 至 11-30，每日 15:00–17:00；現場另收以原價計算的服務費",
+      "summary": "土瓜灣 8 度海逸酒店 8 度餐廳推出「金芒晶選」芒果主題下午茶買一送一，2 位 HK$198、人均 HK$99，已包無限量咖啡或茶。鹹點有芒果洋蔥柚子沙律伴叄巴醬、芒果牛油果三文魚芝麻反卷、黑松露燒汁芝士焗薯蓉、醬燒京蔥雞肉串；甜點有芒果拿破崙、芒果芝士班戟、芒果熱情果意大利芝士蛋糕及牛油鬆餅。KKday 預訂期由 10 月 15 日下午 3 時至 10 月 21 日，適用 10 月 16 日至 11 月 30 日每日下午 3 至 5 時，現場另收以原價計算的服務費。",
+      "highlights": [
+        "2 位 HK$198、人均 HK$99（買一送一，約 5 折）",
+        "包無限量咖啡或茶；現場另收以原價計算服務費",
+        "鹹甜點各 4 款：芒果拿破崙、芒果芝士班戟、黑松露焗薯蓉、醬燒京蔥雞肉串",
+        "預訂期 10/15 15:00–10/21；適用 10/16–11/30 每日 15:00–17:00"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/119704",
+      "sourceLabel": "RunHotel 2026-10-15 報道 · KKday 產品 119704",
+      "sourceUrl": "https://www.runhotel.hk/8-degree-tea/",
+      "tags": [
+        "下午茶",
+        "買一送一",
+        "土瓜灣",
+        "8度海逸",
         "KKday"
       ],
       "sample": false,
