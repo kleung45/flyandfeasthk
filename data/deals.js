@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-10-22T14:05:18+08:00",
+    "updated": "2026-10-30T02:19:39+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,162 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 105,
-      "active": 28,
-      "ending": 2,
-      "expired": 77,
+      "active": 24,
+      "ending": 13,
+      "expired": 81,
       "flight": 12,
       "dining": 93,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "flight-hkexpress-klook-taiwan-7off-20261021",
-      "category": "flight",
-      "title": "香港快運 × Klook 台北／台中／高雄 7 折，來回連稅 HK$967 起",
-      "subtitle": "優惠碼 UOFUN26 · 訂票至 10/22 23:45 · 出發 11/1 至 2027/1/31 · 包 20kg 來回 HK$1,167 起",
-      "venue": "香港國際機場 → 台北／台中／高雄（香港快運官網或手機 App 輸入優惠碼）",
-      "priceLabel": "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（單程票價 $62／$77 起，只包一件隨身物品）；「隨心飛」包 20kg 寄艙行李來回連稅 HK$1,167 起。票價浮動，以香港快運官網即時報價為準",
-      "priceValue": 967,
-      "originalLabel": "官網標示票價高達 7 折（即最多 30% off），連稅價較一般票價再低約 HK$50",
-      "discountPct": 70,
-      "endsAt": "2026-10-22T23:45:00+08:00",
-      "period": "訂票期：2026-10-20 15:00 至 10-22 23:45（香港時間）；出發期：2026-11-01 至 2027-01-31；只限官網或 App 首次預訂由香港出發的來回機票（包括多城市行程），每名用戶限用優惠碼一次",
-      "summary": "香港快運與 Klook 合作推出三日限時優惠，於官網或手機 App 輸入優惠碼【UOFUN26】，預訂由香港出發前往台北、台中或高雄的指定來回航班可享高達 7 折。連稅參考價：台北／高雄來回 HK$967 起、台中 HK$998 起；單程票價低至 $62（台北／高雄）及 $77（台中），惟基本票價只包一件隨身物品。「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起。訂票期至 10 月 22 日晚上 11 時 45 分，出發期為 11 月 1 日至 2027 年 1 月 31 日，並可作 open jaw 安排。完成訂票後可於 10 月 22 日或之前到 Klook 活動頁參加抽獎，有機會獲得新台幣 5,000 元旅遊金及酒店半價優惠。",
-      "highlights": [
-        "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（7 折後）",
-        "單程票價 $62 起（台北／高雄）、$77 起（台中），只包一件隨身物品",
-        "「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起",
-        "訂票期 10/20 15:00 至 10/22 23:45；出發期 11/1 至 2027/1/31",
-        "可作 open jaw；每名用戶限用優惠碼一次",
-        "10/22 前完成訂票可參加 Klook 抽獎：新台幣 5,000 元旅遊金、酒店低至半價"
-      ],
-      "url": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
-      "sourceLabel": "香港快運官方「香港快運 × Klook 限時優惠」頁面 · MeetHK 2026-10-20 連稅參考價",
-      "sourceUrl": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
-      "tags": [
-        "機票",
-        "香港快運",
-        "台北",
-        "台中",
-        "高雄",
-        "7折"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-teahouse-alaskancrab-flashsale-20261016",
-      "category": "dining",
-      "title": "茶皇殿／茶皇漁港 阿拉斯加長腳蟹快閃，指定日子 HK$188／斤（原價 HK$338／斤）；6 位餐人均 HK$198",
-      "subtitle": "KKday 獨家快閃 · 開搶 10/16 15:00 至 10/22 23:59 · 使用期 10/17 至 11/30",
-      "venue": "茶皇殿（8 間分店）／茶皇漁港（屯門）",
-      "priceLabel": "自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤）；全日 HK$198／斤、4 斤 HK$792。6 位用「阿拉斯加蟹＋金奬經典乳鴿餐」茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）、茶皇殿／茶皇漁港 HK$1,308／6 位（人均 HK$218）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888）／HK$1,664／8 位（人均 HK$208）",
-      "priceValue": 188,
-      "originalLabel": "阿拉斯加長腳蟹原價 HK$338／斤；6 位餐原價 HK$2,288、8 位餐原價 HK$2,888",
-      "discountPct": 56,
-      "endsAt": "2026-10-22T23:59:00+08:00",
-      "period": "預訂期：2026-10-16 15:00 至 10-22 23:59；使用期：4 斤起方案 10-17 至 11-30（指定日子）、美食大賞限定方案 10-19 至 10-31",
-      "summary": "茶皇殿（8 間分店）及茶皇漁港（屯門）於 KKday 推出獨家快閃，主打自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折），全日價 HK$198／斤；清蒸或日式凍食任揀、即撈即蒸。另設 6 位用「阿拉斯加蟹＋金奬經典乳鴿餐連燉湯」，茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888），含薑蔥焗台山蠔、清蒸東星斑、西蘭花花枝帶子。入座需 6 位或以上，另須額外惠顧最少 2 份小菜，現場另收原價加一服務費及茶芥（10/31 前土瓜灣分店全日免加一）。價格、名額與適用日子以 KKday 活動頁即時公佈為準。",
-      "highlights": [
-        "指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折）",
-        "6 位用蟹＋乳鴿餐 茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）",
-        "8 位用 Chill 值海鮮餐 HK$1,504／8 位（人均 HK$188，原價 HK$2,888）",
-        "開搶 10/16 15:00–10/22 23:59，使用 10/17–11/30",
-        "必需 6 位或以上用餐，另須額外惠顧最少 2 份小菜；現場另收原價加一及茶芥"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/163725",
-      "sourceLabel": "GroupBuya《KKday 獨家快閃 茶皇殿阿拉斯加長腳蟹優惠》（KKday，2026-10-16 更新）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "長腳蟹",
-        "酒家",
-        "茶皇殿",
-        "屯門",
-        "KKday"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-bendian-olympian-hotpot-buffet-20261021",
-      "category": "dining",
-      "title": "犇殿台灣火鍋一人鍋放題，午市 HK$99／位、晚市 HK$120／位（原價 HK$248）",
-      "subtitle": "KKday 雙11 早鳥 · 預訂 10/20 18:00 至 10/26 23:59 · 使用 10/20 至 11/8 · 奧海城",
-      "venue": "大角咀奧海城 犇殿台灣火鍋（一人鍋 × 鐵板燒）",
-      "priceLabel": "午市「上選赤身牛肉」放題：星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（一至五）、HK$130（週末，原價 HK$248／$258）；「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起）；「極黑美濃和牛」晚市 6 折 HK$185 起、「澳洲 M9 和牛」6 折 HK$239 起。售價未含以原價計算的 10% 服務費，現場以電子支付",
-      "priceValue": 99,
-      "originalLabel": "晚市 HK$120 對原價 HK$248，約 48 折；午市 HK$99 對原價 HK$148，約 67 折",
-      "discountPct": 48,
-      "endsAt": "2026-10-26T23:59:00+08:00",
-      "period": "預訂期：2026-10-20 18:00 至 10-26 23:59；使用期：2026-10-20 至 11-08；100 分鐘放題、八款湯底任選；晚市需兩位起",
-      "summary": "KKday 雙11 早鳥快閃推出大角咀奧海城「犇殿台灣火鍋」一人鍋 × 鐵板燒放題：午市「上選赤身牛肉」放題星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（星期一至五）、HK$130（週末及公眾假期，原價 HK$248／$258）。另設「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤和牛），「極黑美濃和牛」及「澳洲 M9 和牛」晚市低至 6 折，分別 HK$185 及 HK$239 起。放題 100 分鐘，八款湯底任選。預訂期由 10 月 20 日下午 6 時至 10 月 26 日，使用期 10 月 20 日至 11 月 8 日；售價未含以原價計算的 10% 服務費。",
-      "highlights": [
-        "午市放題 HK$99／位（一至五）、HK$109（週末），原價 HK$148 起",
-        "晚市 HK$120／位（一至五）、HK$130（週末），原價 HK$248 起，約 48 折",
-        "日本北海道和牛晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤）",
-        "極黑美濃和牛 6 折 HK$185 起、澳洲 M9 和牛 6 折 HK$239 起",
-        "100 分鐘放題、八款湯底任選",
-        "預訂 10/20 18:00 至 10/26；使用 10/20 至 11/8"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
-      "sourceLabel": "GroupBuya 著數網 2026-10-19（更新 10-20）KKday 雙11 早鳥快閃合集",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
-      "tags": [
-        "火鍋",
-        "放題",
-        "和牛",
-        "KKday",
-        "雙11",
-        "大角咀",
-        "奧海城"
-      ],
-      "sample": false,
-      "daysLeft": 4,
-      "status": "active"
-    },
-    {
-      "id": "dining-xiheyayuan-crab-duck-buffet-20261021",
-      "category": "dining",
-      "title": "羲和雅苑大閘蟹＋北京烤鴨 120 分鐘放題，限量 HK$111／位（原價 HK$888）",
-      "subtitle": "KKday 雙11 · 開搶 10/21 15:00 至 10/27 23:59 · 使用 10/22 至 12/15 · 尖沙咀／中環／東涌",
-      "venue": "尖沙咀海港城海運大廈 2 樓 OTE203 號舖／中環皇后大道中 139 號 The L. Place 1 樓／東涌東薈城名店倉 4 樓 417 號舖",
-      "priceLabel": "限量 HK$111／位（原價 HK$888／位，約 12 折），只限尖沙咀及中環、星期一至五；第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5；1 位成人（41 折）＋1 位 65 歲或以上長者 HK$111，東涌平日人均低至 HK$229.5。另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算的加一服務費，現場支付。以 KKday 頁面為準",
-      "priceValue": 111,
-      "originalLabel": "限量方案 HK$111 對原價 HK$888，約 12 折；二人組合人均 HK$239.5（約 27 折）",
-      "discountPct": 12,
-      "endsAt": "2026-10-27T23:59:00+08:00",
-      "period": "開搶及預訂期：2026-10-21 15:00 至 10-27 23:59；使用期：2026-10-22 至 12-15；限量方案只限星期一至五（公眾假期除外）、需 2 位起訂",
-      "summary": "KKday 雙11 推出羲和雅苑「精品大閘蟹北京烤鴨 120 分鐘放題」，限量 HK$111／位（原價 HK$888），只限尖沙咀及中環分店、星期一至五。另設第 1 位 HK$368＋第 2 位 HK$111 的二人組合，人均 HK$239.5；1 位成人配 1 位 65 歲或以上長者同為 HK$111，東涌平日人均低至 HK$229.5。放題包括前菜（每兩位三選一）、每位一份小米海參、120 分鐘任食招牌烤鴨及大閘蟹、精品小菜（每兩位四選一）、黃金蟹粉撈稻庭烏冬及甜品。烤鴨以「會跳舞的烤鴨」聞名，可試鴨胸脆皮蘸跳跳糖、鴨胸嫩肉配芥末醬及鴨腿配八寶盒三種食法。另收茶位費及以原價計算的加一服務費，須現場支付。",
-      "highlights": [
-        "限量 HK$111／位（原價 HK$888），尖沙咀及中環、星期一至五",
-        "第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5",
-        "1 成人＋1 長者（65 歲或以上）HK$111，東涌平日人均低至 HK$229.5",
-        "120 分鐘任食招牌烤鴨及大閘蟹，每位送小米海參",
-        "預訂 10/21 15:00 至 10/27；使用 10/22 至 12/15",
-        "另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算加一，現場支付"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/270417",
-      "sourceLabel": "GroupBuya 著數網 2026-10-21（KKday 雙11 開搶詳情）· U Lifestyle 2026-10-21 報道",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556350-KKday-%E9%9B%9911",
-      "tags": [
-        "大閘蟹",
-        "片皮鴨",
-        "放題",
-        "KKday",
-        "雙11",
-        "尖沙咀",
-        "中環",
-        "東涌"
-      ],
-      "sample": false,
-      "daysLeft": 5,
-      "status": "active"
-    },
     {
       "id": "dining-kowloonhotel-tst-20260912",
       "category": "dining",
@@ -200,8 +53,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-harbourplaza-metropolis-bogo-20260917",
@@ -235,8 +88,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-oceanpark-marriott-bogo-20260917",
@@ -270,8 +123,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-harbourplaza-northpoint-bogo-20260922",
@@ -305,8 +158,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-royalgarden-greenery-65off-20260927",
@@ -341,8 +194,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-parkhotel-parkcafe-halloween-bogo-20261001",
@@ -379,8 +232,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-royalpark-palatial-octbogo-20261002",
@@ -417,8 +270,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-harbourgrand-cafe-octbogo-20261002",
@@ -454,8 +307,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-cafemarco-tst-chaoshan-kkday-20261003",
@@ -489,8 +342,8 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-mrsteak-cwb-oct-bogo-20261005",
@@ -524,8 +377,8 @@ window.DEAL_DATA = {
         "親子"
       ],
       "sample": false,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-hongweihin-tst-crabduck-buffet-20261014",
@@ -561,8 +414,8 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-toyuen-hairycrab-buffet-20261014",
@@ -599,8 +452,8 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-fullerton-lighthouse-halloween-bogo-20261019",
@@ -635,8 +488,8 @@ window.DEAL_DATA = {
         "富麗敦"
       ],
       "sample": false,
-      "daysLeft": 9,
-      "status": "active"
+      "daysLeft": 1,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-admiralty-crabseafood-kkday-20261011",
@@ -670,7 +523,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 24,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -701,7 +554,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -732,7 +585,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -763,7 +616,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -793,7 +646,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -828,7 +681,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -863,7 +716,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -898,7 +751,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -935,7 +788,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 52,
+      "daysLeft": 44,
       "status": "active"
     },
     {
@@ -970,7 +823,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 57,
+      "daysLeft": 49,
       "status": "active"
     },
     {
@@ -1006,7 +859,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 101,
+      "daysLeft": 93,
       "status": "active"
     },
     {
@@ -3700,6 +3553,153 @@ window.DEAL_DATA = {
         "土瓜灣",
         "8度海逸",
         "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-hkexpress-klook-taiwan-7off-20261021",
+      "category": "flight",
+      "title": "香港快運 × Klook 台北／台中／高雄 7 折，來回連稅 HK$967 起",
+      "subtitle": "優惠碼 UOFUN26 · 訂票至 10/22 23:45 · 出發 11/1 至 2027/1/31 · 包 20kg 來回 HK$1,167 起",
+      "venue": "香港國際機場 → 台北／台中／高雄（香港快運官網或手機 App 輸入優惠碼）",
+      "priceLabel": "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（單程票價 $62／$77 起，只包一件隨身物品）；「隨心飛」包 20kg 寄艙行李來回連稅 HK$1,167 起。票價浮動，以香港快運官網即時報價為準",
+      "priceValue": 967,
+      "originalLabel": "官網標示票價高達 7 折（即最多 30% off），連稅價較一般票價再低約 HK$50",
+      "discountPct": 70,
+      "endsAt": "2026-10-22T23:45:00+08:00",
+      "period": "訂票期：2026-10-20 15:00 至 10-22 23:45（香港時間）；出發期：2026-11-01 至 2027-01-31；只限官網或 App 首次預訂由香港出發的來回機票（包括多城市行程），每名用戶限用優惠碼一次",
+      "summary": "香港快運與 Klook 合作推出三日限時優惠，於官網或手機 App 輸入優惠碼【UOFUN26】，預訂由香港出發前往台北、台中或高雄的指定來回航班可享高達 7 折。連稅參考價：台北／高雄來回 HK$967 起、台中 HK$998 起；單程票價低至 $62（台北／高雄）及 $77（台中），惟基本票價只包一件隨身物品。「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起。訂票期至 10 月 22 日晚上 11 時 45 分，出發期為 11 月 1 日至 2027 年 1 月 31 日，並可作 open jaw 安排。完成訂票後可於 10 月 22 日或之前到 Klook 活動頁參加抽獎，有機會獲得新台幣 5,000 元旅遊金及酒店半價優惠。",
+      "highlights": [
+        "台北／高雄來回連稅 HK$967 起、台中 HK$998 起（7 折後）",
+        "單程票價 $62 起（台北／高雄）、$77 起（台中），只包一件隨身物品",
+        "「隨心飛」包 20kg 寄艙行李，來回連稅 HK$1,167 起",
+        "訂票期 10/20 15:00 至 10/22 23:45；出發期 11/1 至 2027/1/31",
+        "可作 open jaw；每名用戶限用優惠碼一次",
+        "10/22 前完成訂票可參加 Klook 抽獎：新台幣 5,000 元旅遊金、酒店低至半價"
+      ],
+      "url": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
+      "sourceLabel": "香港快運官方「香港快運 × Klook 限時優惠」頁面 · MeetHK 2026-10-20 連稅參考價",
+      "sourceUrl": "https://www.hkexpress.com/zh-HK/offers/promotions/twklook_flashsale_20261020",
+      "tags": [
+        "機票",
+        "香港快運",
+        "台北",
+        "台中",
+        "高雄",
+        "7折"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-teahouse-alaskancrab-flashsale-20261016",
+      "category": "dining",
+      "title": "茶皇殿／茶皇漁港 阿拉斯加長腳蟹快閃，指定日子 HK$188／斤（原價 HK$338／斤）；6 位餐人均 HK$198",
+      "subtitle": "KKday 獨家快閃 · 開搶 10/16 15:00 至 10/22 23:59 · 使用期 10/17 至 11/30",
+      "venue": "茶皇殿（8 間分店）／茶皇漁港（屯門）",
+      "priceLabel": "自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤）；全日 HK$198／斤、4 斤 HK$792。6 位用「阿拉斯加蟹＋金奬經典乳鴿餐」茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）、茶皇殿／茶皇漁港 HK$1,308／6 位（人均 HK$218）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888）／HK$1,664／8 位（人均 HK$208）",
+      "priceValue": 188,
+      "originalLabel": "阿拉斯加長腳蟹原價 HK$338／斤；6 位餐原價 HK$2,288、8 位餐原價 HK$2,888",
+      "discountPct": 56,
+      "endsAt": "2026-10-22T23:59:00+08:00",
+      "period": "預訂期：2026-10-16 15:00 至 10-22 23:59；使用期：4 斤起方案 10-17 至 11-30（指定日子）、美食大賞限定方案 10-19 至 10-31",
+      "summary": "茶皇殿（8 間分店）及茶皇漁港（屯門）於 KKday 推出獨家快閃，主打自撈鮮活阿拉斯加長腳蟹（4 斤起）：指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折），全日價 HK$198／斤；清蒸或日式凍食任揀、即撈即蒸。另設 6 位用「阿拉斯加蟹＋金奬經典乳鴿餐連燉湯」，茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）；8 位用「Chill 值海鮮餐」HK$1,504／8 位（人均 HK$188，原價 HK$2,888），含薑蔥焗台山蠔、清蒸東星斑、西蘭花花枝帶子。入座需 6 位或以上，另須額外惠顧最少 2 份小菜，現場另收原價加一服務費及茶芥（10/31 前土瓜灣分店全日免加一）。價格、名額與適用日子以 KKday 活動頁即時公佈為準。",
+      "highlights": [
+        "指定日子 HK$188／斤、4 斤 HK$752（原價 HK$338／斤，約 56 折）",
+        "6 位用蟹＋乳鴿餐 茶皇漁港 HK$1,188／6 位（人均 HK$198，原價 HK$2,288）",
+        "8 位用 Chill 值海鮮餐 HK$1,504／8 位（人均 HK$188，原價 HK$2,888）",
+        "開搶 10/16 15:00–10/22 23:59，使用 10/17–11/30",
+        "必需 6 位或以上用餐，另須額外惠顧最少 2 份小菜；現場另收原價加一及茶芥"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/163725",
+      "sourceLabel": "GroupBuya《KKday 獨家快閃 茶皇殿阿拉斯加長腳蟹優惠》（KKday，2026-10-16 更新）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556181-KKday-%E7%8D%A8%E5%AE%B6%E5%BF%AB%E9%96%83",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "長腳蟹",
+        "酒家",
+        "茶皇殿",
+        "屯門",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-bendian-olympian-hotpot-buffet-20261021",
+      "category": "dining",
+      "title": "犇殿台灣火鍋一人鍋放題，午市 HK$99／位、晚市 HK$120／位（原價 HK$248）",
+      "subtitle": "KKday 雙11 早鳥 · 預訂 10/20 18:00 至 10/26 23:59 · 使用 10/20 至 11/8 · 奧海城",
+      "venue": "大角咀奧海城 犇殿台灣火鍋（一人鍋 × 鐵板燒）",
+      "priceLabel": "午市「上選赤身牛肉」放題：星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（一至五）、HK$130（週末，原價 HK$248／$258）；「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起）；「極黑美濃和牛」晚市 6 折 HK$185 起、「澳洲 M9 和牛」6 折 HK$239 起。售價未含以原價計算的 10% 服務費，現場以電子支付",
+      "priceValue": 99,
+      "originalLabel": "晚市 HK$120 對原價 HK$248，約 48 折；午市 HK$99 對原價 HK$148，約 67 折",
+      "discountPct": 48,
+      "endsAt": "2026-10-26T23:59:00+08:00",
+      "period": "預訂期：2026-10-20 18:00 至 10-26 23:59；使用期：2026-10-20 至 11-08；100 分鐘放題、八款湯底任選；晚市需兩位起",
+      "summary": "KKday 雙11 早鳥快閃推出大角咀奧海城「犇殿台灣火鍋」一人鍋 × 鐵板燒放題：午市「上選赤身牛肉」放題星期一至五 HK$99／位、週末及公眾假期 HK$109（原價 HK$148／$158）；晚市兩位起 HK$120／位（星期一至五）、HK$130（週末及公眾假期，原價 HK$248／$258）。另設「日本北海道和牛」晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤和牛），「極黑美濃和牛」及「澳洲 M9 和牛」晚市低至 6 折，分別 HK$185 及 HK$239 起。放題 100 分鐘，八款湯底任選。預訂期由 10 月 20 日下午 6 時至 10 月 26 日，使用期 10 月 20 日至 11 月 8 日；售價未含以原價計算的 10% 服務費。",
+      "highlights": [
+        "午市放題 HK$99／位（一至五）、HK$109（週末），原價 HK$148 起",
+        "晚市 HK$120／位（一至五）、HK$130（週末），原價 HK$248 起，約 48 折",
+        "日本北海道和牛晚市買一送一 HK$578／2 位（人均 HK$289 起，每兩位半公斤）",
+        "極黑美濃和牛 6 折 HK$185 起、澳洲 M9 和牛 6 折 HK$239 起",
+        "100 分鐘放題、八款湯底任選",
+        "預訂 10/20 18:00 至 10/26；使用 10/20 至 11/8"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
+      "sourceLabel": "GroupBuya 著數網 2026-10-19（更新 10-20）KKday 雙11 早鳥快閃合集",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556290-KKday-10%E6%9C%8820%E6%97%A518",
+      "tags": [
+        "火鍋",
+        "放題",
+        "和牛",
+        "KKday",
+        "雙11",
+        "大角咀",
+        "奧海城"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-xiheyayuan-crab-duck-buffet-20261021",
+      "category": "dining",
+      "title": "羲和雅苑大閘蟹＋北京烤鴨 120 分鐘放題，限量 HK$111／位（原價 HK$888）",
+      "subtitle": "KKday 雙11 · 開搶 10/21 15:00 至 10/27 23:59 · 使用 10/22 至 12/15 · 尖沙咀／中環／東涌",
+      "venue": "尖沙咀海港城海運大廈 2 樓 OTE203 號舖／中環皇后大道中 139 號 The L. Place 1 樓／東涌東薈城名店倉 4 樓 417 號舖",
+      "priceLabel": "限量 HK$111／位（原價 HK$888／位，約 12 折），只限尖沙咀及中環、星期一至五；第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5；1 位成人（41 折）＋1 位 65 歲或以上長者 HK$111，東涌平日人均低至 HK$229.5。另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算的加一服務費，現場支付。以 KKday 頁面為準",
+      "priceValue": 111,
+      "originalLabel": "限量方案 HK$111 對原價 HK$888，約 12 折；二人組合人均 HK$239.5（約 27 折）",
+      "discountPct": 12,
+      "endsAt": "2026-10-27T23:59:00+08:00",
+      "period": "開搶及預訂期：2026-10-21 15:00 至 10-27 23:59；使用期：2026-10-22 至 12-15；限量方案只限星期一至五（公眾假期除外）、需 2 位起訂",
+      "summary": "KKday 雙11 推出羲和雅苑「精品大閘蟹北京烤鴨 120 分鐘放題」，限量 HK$111／位（原價 HK$888），只限尖沙咀及中環分店、星期一至五。另設第 1 位 HK$368＋第 2 位 HK$111 的二人組合，人均 HK$239.5；1 位成人配 1 位 65 歲或以上長者同為 HK$111，東涌平日人均低至 HK$229.5。放題包括前菜（每兩位三選一）、每位一份小米海參、120 分鐘任食招牌烤鴨及大閘蟹、精品小菜（每兩位四選一）、黃金蟹粉撈稻庭烏冬及甜品。烤鴨以「會跳舞的烤鴨」聞名，可試鴨胸脆皮蘸跳跳糖、鴨胸嫩肉配芥末醬及鴨腿配八寶盒三種食法。另收茶位費及以原價計算的加一服務費，須現場支付。",
+      "highlights": [
+        "限量 HK$111／位（原價 HK$888），尖沙咀及中環、星期一至五",
+        "第 1 位 HK$368＋第 2 位 HK$111，人均 HK$239.5",
+        "1 成人＋1 長者（65 歲或以上）HK$111，東涌平日人均低至 HK$229.5",
+        "120 分鐘任食招牌烤鴨及大閘蟹，每位送小米海參",
+        "預訂 10/21 15:00 至 10/27；使用 10/22 至 12/15",
+        "另收茶位費（尖沙咀 $22／中環及東涌 $14）及以原價計算加一，現場支付"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/270417",
+      "sourceLabel": "GroupBuya 著數網 2026-10-21（KKday 雙11 開搶詳情）· U Lifestyle 2026-10-21 報道",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556350-KKday-%E9%9B%9911",
+      "tags": [
+        "大閘蟹",
+        "片皮鴨",
+        "放題",
+        "KKday",
+        "雙11",
+        "尖沙咀",
+        "中環",
+        "東涌"
       ],
       "sample": false,
       "daysLeft": 0,

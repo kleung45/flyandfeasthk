@@ -105,7 +105,7 @@ JP_CITY_REGION = {
     "福岡": "kyushu",
     "札幌": "hokkaido",
     "仙台": "tohoku",
-    "高松": "shikoku",
+    "高松": "shikoku", "松山": "shikoku",
     "廣島": "chugoku",
     "沖繩": "okinawa",
 }
