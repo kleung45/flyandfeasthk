@@ -1,22 +1,22 @@
 {
   "meta": {
     "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-    "updated": "2026-10-21",
+    "updated": "2026-10-30",
     "minRating": 4.3,
     "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
     "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
     "rotation": [
-      "中國／瀨戶內",
-      "北海道",
       "四國",
       "中部／東海",
       "九州",
       "東北",
       "沖繩",
       "關西",
-      "關東"
+      "關東",
+      "北海道",
+      "中國／瀨戶內"
     ],
-    "updatedAt": "2026-10-21"
+    "updatedAt": "2026-10-30"
   },
   "bars": [
     {
@@ -1028,6 +1028,118 @@
       "sourceLabel": "Restaurant Guru（Google 4.6、28 則）",
       "sourceUrl": "https://restaurantguru.com/%E3%81%8A%E9%85%92%E3%81%AE%E7%BE%8E%E8%A1%93%E9%A4%A8-%E8%B5%A4%E5%9D%82%E5%BA%97-Osake-no-Bijutsukan-Akasaka-Minato",
       "addedAt": "2026-10-21"
+    },
+    {
+      "id": "jp-bar-okayama-utena",
+      "name": "Utena Bar",
+      "nameEn": "Utena Bar",
+      "city": "岡山",
+      "area": "錦町（西川河畔）",
+      "region": "chugoku",
+      "barType": "both",
+      "signature": "威士忌／波本／蘇格蘭單一麥為主，配以 mixology 手法調的經典雞尾酒；岡山白桃 Bellini",
+      "rating": 4.5,
+      "reviews": 72,
+      "ratingCheckedAt": "2026-10-30",
+      "priceBand": "人均約 ¥3,000–4,000（Restaurant Guru 列示，以現場酒單為準）",
+      "address": "岡山県岡山市北区錦町8-11 フェリスビル 3F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Utena%20Bar%20%E9%8C%A6%E7%94%BA%20%E5%B2%A1%E5%B1%B1",
+      "blurb": "1997 年開業，由父子兩代接力經營，只有 11 個座位，櫸木吧檯、店內播古典音樂，三樓窗口正對西川綠道公園。酒以威士忌、波本同蘇格蘭單一麥為骨幹，但雞尾酒一樣做得講究——招牌係用岡山清水白桃做的 Bellini。因為只供應飲品、唔做正餐，晚上想靜靜飲一杯、順便同店主傾兩句，呢度好合適；大廈入口只有一塊小指示牌，要搭電梯上三樓。",
+      "highlights": [
+        "父子兩代經營，1997 年開業，屬岡山少有嘅老牌正統吧",
+        "只有 11 個座位，櫸木原木吧檯，店內播古典音樂",
+        "三樓窗口正對西川綠道公園，夜晚可以望住河景飲",
+        "威士忌、波本、蘇格蘭單一麥齊備，雞尾酒以 mixology 手法調配",
+        "招牌岡山清水白桃 Bellini，用本地水果",
+        "只供應飲品，冇正餐，適合飲一杯就走"
+      ],
+      "tips": [
+        "來源明言毋須預約（no reservations），直接行入去就得，但只有 11 個位，滿座要等",
+        "只做飲品，唔供應正餐；想食嘢請先食飽再嚟",
+        "座位費（チャージ）嘅銀碼未見可靠來源寫明，入座前最好問一句「チャージはいくらですか？」",
+        "吸煙規定未見可靠來源，入座前先問清楚（日本正統吧好多仍然全店可吸煙）",
+        "位於フェリスビル 3F，地面只有大廈指示牌，要搭電梯上樓，唔好行過龍",
+        "店主以日語為主，英語有限，用翻譯 App 講口味同預算最實際",
+        "人均約 ¥3,000–4,000（來源列示），只收現金與信用卡嘅情況以現場為準",
+        "由岡山駅徒步約 10 分鐘，或搭路面電車到「西川緑道公園」站再行 5 分鐘"
+      ],
+      "sourceLabel": "Restaurant Guru（Google 4.5）＋evendo（Google 4.5、72 則）",
+      "sourceUrl": "https://restaurantguru.com/Utena-Bar-Okayama",
+      "addedAt": "2026-10-30"
+    },
+    {
+      "id": "jp-bar-kurashiki-capri",
+      "name": "Kurashiki capri",
+      "nameEn": "Kurashiki capri",
+      "city": "倉敷",
+      "area": "阿知1丁目（倉敷駅前）",
+      "region": "chugoku",
+      "barType": "cocktail",
+      "signature": "Capri Blue（荔枝香甜酒系自家雞尾酒）、即烤薄餅",
+      "rating": 4.4,
+      "reviews": 45,
+      "ratingCheckedAt": "2026-10-30",
+      "priceBand": "人均約 ¥2,000–3,000（Restaurant Guru 列示，以現場酒單為準）",
+      "address": "岡山県倉敷市阿知1-14-23",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kurashiki%20capri%20%E9%98%BF%E7%9F%A5%20%E5%80%89%E6%95%B7",
+      "blurb": "倉敷駅前嘅閣樓小酒吧，行出車站過條馬路就到，行程尾聲想飲一杯唔需要特地搭車。店內走復古路線，木樓梯上閣樓座位，燈光偏暗、音樂輕，一個人嚟都唔會尷尬。招牌 Capri Blue 以荔枝香甜酒做底，甜香帶氣泡，易入口；肚餓可以叫即烤薄餅。價位係今輪收錄嘅酒吧中最親民嘅一批，適合美觀地區（倉敷美觀）睇完夜燈之後落腳。",
+      "highlights": [
+        "倉敷駅前徒步即到，唔需要特地搭車",
+        "招牌 Capri Blue：荔枝香甜酒做底，甜香帶氣泡",
+        "閣樓座位＋復古裝潢，適合約會或一個人嚟",
+        "有即烤薄餅等小食，唔止飲酒",
+        "價位親民，人均約 ¥2,000–3,000",
+        "可訂位（Restaurant Guru 列 Booking）"
+      ],
+      "tips": [
+        "可以訂位，人多或週末建議先訂",
+        "每日約 19:00–01:00（來源列示，以店家即時資訊為準）",
+        "座位費（チャージ）未見可靠來源寫明，埋單前問清楚",
+        "吸煙規定未見可靠來源，入座前先問",
+        "店名喺 Google Maps 係細楷「Kurashiki capri」，用大楷搜尋有時搵唔到",
+        "由倉敷駅南口出，行去阿知 1 丁目方向約 3 分鐘",
+        "人均約 ¥2,000–3,000（來源列示），以現場酒單為準"
+      ],
+      "sourceLabel": "Restaurant Guru（Google 4.4）＋Wanderlog（Google 4.4、45 則）",
+      "sourceUrl": "https://restaurantguru.com/Kurashiki-capri-Kurashiki",
+      "addedAt": "2026-10-30"
+    },
+    {
+      "id": "jp-bar-sapporo-mizunara",
+      "name": "BAR みずなら（BAR Mizunara）",
+      "nameEn": "BAR Mizunara",
+      "city": "札幌",
+      "area": "すすきの（南3条西3丁目）",
+      "region": "hokkaido",
+      "barType": "whisky",
+      "signature": "200 款以上日本威士忌；水楢木吧檯；厚岸、靜岡 Gaia Flow 等罕見瓶",
+      "rating": 4.8,
+      "reviews": 56,
+      "ratingCheckedAt": "2026-10-30",
+      "priceBand": "座位費 ¥500、免服務費（來源列示）；單杯一般 ¥800–1,200、人均約 ¥3,000–5,000（Sip Japan 札幌行情，以現場酒單為準）",
+      "address": "北海道札幌市中央区南3条西3-1-1 サンスリービル 1F",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20%E3%81%BF%E3%81%9A%E3%81%AA%E3%82%89%20%E3%81%99%E3%81%99%E3%81%8D%E3%81%AE%20%E6%9C%AD%E5%B9%8C",
+      "blurb": "店名取自水楢木——吧檯本身就係用日本水楢原木做，全店只做日本威士忌，櫃上 200 款以上，由 Nikka、Suntory 到秩父、厚岸、靜岡 Gaia Flow 都有。只有 16 個座位（8 個吧檯位＋兩張四人桌），由一對男女拍檔打理，對外國客人友善、英語可通。最特別係部分稀有瓶照定價賣（例如 Nikka 九十週年 Nine Decades），唔似其他地方會炒高幾倍——想用合理價錢試到平時飲唔到嘅瓶，呢度係札幌最實際嘅一站。",
+      "highlights": [
+        "200 款以上日本威士忌，橫跨 Nikka、Suntory、秩父、厚岸、靜岡 Gaia Flow",
+        "吧檯以水楢原木製成，同店名呼應",
+        "只有 16 個座位（8 吧檯＋2×4 桌），空間細但唔逼",
+        "部分罕見瓶照定價供應，例如 Nikka 九十週年 Nine Decades",
+        "一對男女拍檔經營，待客熱情，英語可通",
+        "開到凌晨 2:30–3:00，宵夜時段都有得飲"
+      ],
+      "tips": [
+        "全店可吸煙（來源明確列明全席喫煙可），唔慣煙味要留意",
+        "座位費 ¥500、免服務費（來源列示，以現場為準）",
+        "可以訂位；星期五、六夜晚人多，建議先訂",
+        "收信用卡、交通系電子錢包同 QR 支付，唔一定要現金",
+        "英語可通，Sip Japan 明言呢間慣接外國客人",
+        "位於サンスリービル 1F，喺南3条西3丁目、36 号線以北一個街區，門口有菜單牌",
+        "營業時間來源有兩種講法（約 17:00–02:30 或 –03:00），以店家即時資訊為準"
+      ],
+      "sourceLabel": "Sip Japan（Google 4.8、56 則）＋Restaurant Guru（Google 4.8）",
+      "sourceUrl": "https://sipjapan.com/blog/best-whisky-bars-sapporo",
+      "addedAt": "2026-10-30"
     }
   ]
 }
