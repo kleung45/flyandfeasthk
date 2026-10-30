@@ -1177,6 +1177,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-mira-yamm-dinner-b2g1-20261030/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-promenade-metropolis-double11-20261030/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1233,6 +1239,12 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-goldcoast-cafelagoon-bogo-20261007/</loc>
     <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-momocafe-shatin-double11-20261030/</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
