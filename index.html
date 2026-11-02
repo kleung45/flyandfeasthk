@@ -24,8 +24,11 @@
 <link rel="stylesheet" href="assets/pages.css">
 
 <!-- Google AdSense（Auto Ads）：2026-10-08 啟用。廣告單元由 AdSense 後台自動擺位。 -->
+<!-- 同意流程：預設非個人化（NPA=1），必須在廣告請求前設定，故用 inline script 先行寫入。 -->
+<script>window.adsbygoogle=window.adsbygoogle||[];(function(){try{var c=JSON.parse(localStorage.getItem("ff_consent_v1")||"null");window.adsbygoogle.requestNonPersonalizedAds=(c&&c.choice==="granted")?0:1;}catch(e){window.adsbygoogle.requestNonPersonalizedAds=1;}})();</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1777376842974340"
 crossorigin="anonymous"></script>
+<script defer src="assets/consent.js"></script>
 
 <script type="application/ld+json">
 {
@@ -116,7 +119,7 @@ crossorigin="anonymous"></script>
   "@type": "ItemList",
   "name": "香港出發機票特價與餐廳優惠（進行中）",
   "description": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
-  "numberOfItems": 16,
+  "numberOfItems": 18,
   "itemListOrder": "https://schema.org/ItemListOrderDescending",
   "itemListElement": [
     {
@@ -176,6 +179,42 @@ crossorigin="anonymous"></script>
     {
       "@type": "ListItem",
       "position": 4,
+      "name": "銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起",
+      "item": {
+        "@type": "Offer",
+        "name": "銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起",
+        "url": "https://www.klook.com/zh-HK/activity/82950-park-lane-playt-buffet/",
+        "price": 240,
+        "priceCurrency": "HKD",
+        "category": "餐飲",
+        "availabilityEnds": "2026-11-13T23:59:00+08:00",
+        "seller": {
+          "@type": "Organization",
+          "name": "Klook 柏寧酒店 PLAYT 自助餐商品頁 · Finance01 雙11 優惠整合（2026-11-02 查價）"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起",
+      "item": {
+        "@type": "Offer",
+        "name": "灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起",
+        "url": "https://www.finance01.com/double-11",
+        "price": 420,
+        "priceCurrency": "HKD",
+        "category": "餐飲",
+        "availabilityEnds": "2026-11-13T23:59:00+08:00",
+        "seller": {
+          "@type": "Organization",
+          "name": "Finance01 雙11 優惠整合（2026-11-02 查價）· Klook 活動"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
       "name": "金鐘港島香格里拉 cafe TOO「金秋豐盛海鮮蟹宴」，自助晚餐 HK$1,212／2 位（人均 HK$606，約 61 折）",
       "item": {
         "@type": "Offer",
@@ -193,7 +232,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 7,
       "name": "尖東海景嘉福洲際 Café on M 秋日蟹宴自助晚餐 7 折，連加一每位 HK$694.4",
       "item": {
         "@type": "Offer",
@@ -211,13 +250,13 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 8,
       "name": "「黃金蟹宴」自助晚餐開鑼，預付優惠碼低至 5 折",
       "url": "https://ritzyhongkong.com/hairy-crab-season-guide-2026"
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 9,
       "name": "「Hairy Crab Feed Me!」大閘蟹季節套餐 HK$628 / 位",
       "item": {
         "@type": "Offer",
@@ -235,7 +274,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 10,
       "name": "蠔海鮮自助晚餐 55 折，HK$369 起（已包加一）",
       "item": {
         "@type": "Offer",
@@ -253,13 +292,13 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 11,
       "name": "尖沙咀海景自助午餐 7 折，兩位起用得",
       "url": "https://www.openrice.com/zh-cn/hongkong/offer/%E6%83%A0%E9%A1%A7%E8%87%AA%E5%8A%A9%E5%8D%88%E9%A4%90%E5%8F%AF%E4%BA%AB7%E6%8A%98%E5%84%AA%E6%83%A0-o392316"
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 12,
       "name": "KITCHEN 自助晚餐買一送一，人均 HK$563 起（已連服務費）",
       "item": {
         "@type": "Offer",
@@ -277,7 +316,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 13,
       "name": "尖沙咀 The Mira Yamm 自助午餐買一送一，逢星期一至四",
       "item": {
         "@type": "Offer",
@@ -295,7 +334,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 14,
       "name": "屯門黃金海岸酒店 聆渢咖啡廳快閃買一送一，自助午餐人均 HK$245",
       "item": {
         "@type": "Offer",
@@ -313,7 +352,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 15,
       "name": "沙田萬怡 MoMo Café 雙11 第 2 位 HK$11，自助午餐人均 HK$224",
       "item": {
         "@type": "Offer",
@@ -331,7 +370,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 16,
       "name": "8度海逸 8 度餐廳龍蝦海鮮自助晚餐半價，成人 HK$334 起",
       "item": {
         "@type": "Offer",
@@ -349,7 +388,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 17,
       "name": "深海「蟹」逅自助餐酒店官網 7 折，平日午餐成人 HK$299.6 起",
       "item": {
         "@type": "Offer",
@@ -367,7 +406,7 @@ crossorigin="anonymous"></script>
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 18,
       "name": "香港快運下調燃油附加費，台北／高雄／台中單程 HK$88 起、來回連稅 HK$1,020 起",
       "item": {
         "@type": "Offer",
@@ -493,6 +532,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <article class="card" data-id="dining-mira-yamm-dinner-b2g1-20261030"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="badge badge-urgent">今日結束</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-mira-yamm-dinner-b2g1-20261030/">尖沙咀美麗華 Yamm 自助晚餐買二送一，3 位 HK$1,835 人均 HK$612</a></h3><p class="sub">Klook 快閃 · 開售 10/27 21:00 至 11/2 · 適用 10/28–11/30 · 蟹逅生蠔主題 3.5 小時</p><p class="route">尖沙咀彌敦道 118–130 號 Mira Place 美麗華酒店地下大堂 Yamm</p><div class="price-row"><span class="price">自助晚餐 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐買一送一 2 位 HK$586（人均 HK$293，原價 HK$1,074，約 55 折）。折扣價已包加一服務費，實際以 Klook 頁面即時報價為準</span><span class="price-was">自助晚餐原價 3 位 HK$2,633（每位約 HK$877.7）、自助午餐原價 2 位 HK$1,074</span><span class="save">省 70%</span></div><p class="summary">美麗華酒店 Yamm 推出「蟹逅生蠔」主題自助晚餐，Klook 快閃價 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐同時做買一送一，2 位 HK$586（人均 HK$293）。晚餐主打法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、牛油檸檬鹽燒帝王蟹腳、泰式瑪莎曼咖喱炒蟹、避風塘軟殼蟹、焗俄羅斯生蠔及北京片皮鴨，用餐時間 3.5 小時；生日月份惠顧可獲贈生日蛋糕（須符合條款）。午餐每週輪換主題——泰越、星馬、地中海、絲路，每場都有冰鎮海鮮及即切北京烤鴨。開售期至 11 月 2 日，用餐期至 11 月 30 日。</p><ul><li>晚餐買二送一：3 位 HK$1,835，人均 HK$611.7（原價 3 位 HK$2,633，約 7 折）</li><li>午餐買一送一：2 位 HK$586，人均 HK$293（約 55 折）</li><li>法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、燒帝王蟹腳、避風塘軟殼蟹</li><li>晚餐用餐時間 3.5 小時（18:30–22:00），適合多人聚會</li><li>午餐每週輪換泰越／星馬／地中海／絲路主題，均有即切北京烤鴨</li><li>開售至 11/2，用餐期至 11/30；折扣價已包加一服務費</li></ul><div class="card-foot"><span class="period">開售期：2026-10-27 21:00 至 11-02；適用用餐期：2026-10-28 至 11-30；自助晚餐 18:30–22:00（3.5 小時）、自助午餐 12:00–14:30；須經 Klook 預訂，買二送一每次須訂 3 位</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-mira-yamm-dinner-b2g1-20261030">分享</button><a class="link-btn" href="deals/dining-mira-yamm-dinner-b2g1-20261030/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://hk.ulifestyle.com.hk/activity/detail/20115376/" target="_blank" rel="noopener nofollow">U Lifestyle 2026-10-27（Klook 開售期、適用期及價格）· RunHotel 自助餐合集（人均價交叉核實）</a></p></article>
 <article class="card" data-id="dining-promenade-metropolis-double11-20261030"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="badge badge-urgent">剩 2 日</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-promenade-metropolis-double11-20261030/">紅磡都會海逸西餐廳「雙11」第 2 位 HK$11，自助午餐人均 HK$292 起</a></h3><p class="sub">官網 eShop 預購 · 預訂 10/29 12:00 至 11/4 23:59 · 用餐 11/1–11/30 · 11/1–15 晚餐每位送大閘蟹</p><p class="route">九龍紅磡都會道 7 號都會海逸酒店 7 樓西餐廳 Promenade（港鐵紅磡站 C2 出口）</p><div class="price-row"><span class="price">自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一，約 61 折）；自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一，約 61 折）。已包以原價計算的加一服務費，實際價錢以酒店 eShop 即時公佈為準</span><span class="price-was">自助午餐原價 HK$478／位、自助晚餐原價 HK$778／位（另加一服務費）</span><span class="save">省 61%</span></div><p class="summary">都會海逸酒店西餐廳 Promenade 推出 11 月「雙11」eShop 限定優惠：預購 1 位成人自助餐，即可以 HK$11 為第 2 位成人加購同一盛宴。自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一），自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一），兩者均約 61 折，已包以原價計算的加一服務費。11 月自助晚餐主題為「歲暮蟹香」，有酥炸鱈場蟹肉棒、酥皮蟹肉龍蝦湯杯、薑蔥松葉蟹腳及泰式羅勒葉炒麵包蟹，即開生蠔、冰鎮熟龍蝦及雪花蟹腳輪流供應；11 月 1 至 15 日每位成人再送清蒸大閘蟹一隻。午餐亮點為雪花蟹腳、刺身、香草燒羊架、燒牛肉及 8 至 10 款 Mövenpick 雪糕，另任飲汽水、咖啡及紅茶。</p><ul><li>第 2 位成人只需 HK$11（經酒店 eShop 全費預購 1 位）</li><li>自助午餐人均 HK$292.3 起（原價每位 HK$478 另加一，約 61 折）</li><li>自助晚餐人均 HK$472.3 起（原價每位 HK$778 另加一，約 61 折）</li><li>已包以原價計算的加一服務費，毋須另外加一</li><li>11/1–15 惠顧自助晚餐每位成人送約 3.5 兩清蒸大閘蟹一隻</li><li>11 月晚餐主題「歲暮蟹香」，即開生蠔、冰鎮熟龍蝦、雪花蟹腳輪流供應</li><li>消費滿 HK$400 可享 3 小時免費代客泊車（每檯一輛，名額有限）</li></ul><div class="card-foot"><span class="period">預訂期：2026-10-29 12:00 至 2026-11-04 23:59；用餐期：2026-11-01 至 11-30；只限經酒店官方 eShop 全費預購指定日子；11 月 1 至 15 日惠顧自助晚餐，每位成人送約 3.5 兩清蒸大閘蟹一隻</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-promenade-metropolis-double11-20261030">分享</button><a class="link-btn" href="deals/dining-promenade-metropolis-double11-20261030/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://eshop.harbour-plaza.com/metropolis/zh/promenade-lunch-buffet-double11-2026" target="_blank" rel="noopener nofollow">都會海逸酒店官方 eShop 雙11 自助午餐／晚餐頁面 · 星島頭條 2026-10-29 預訂期</a></p></article>
 <article class="card" data-id="dining-oceanpark-marriott-pier-thaibbq-20261101"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-oceanpark-marriott-pier-thaibbq-20261101/">海洋公園萬豪 Pier 酒廊 泰式海鮮燒烤自助晚餐 限量 HK$111/位，原價 $757</a></h3><p class="sub">11/2 12:00 開搶，預訂至 11/8 · 逢五、六、日晚上供應 · 最早 11/6 用餐</p><p class="route">黃竹坑黃竹坑道 180 號香港海洋公園萬豪酒店 Pier Lounge &amp; Pier Bar（戶外池畔）</p><div class="price-row"><span class="price">限量 HK$111/位（原價 HK$757/位，已包原價加一服務費，約 15 折）；另設買一送一 2 位 HK$826（人均 HK$413）、買二送一 3 位 HK$1,581（人均 HK$527）。限量名額售完即止，價格以預訂平台頁面即時公佈為準</span><span class="price-was">原價 HK$757/位（已包原價加一服務費）</span><span class="save">省 15%</span></div><p class="summary">海洋公園萬豪酒店池畔的 Pier Lounge &amp; Pier Bar 逢星期五、六、日晚上做泰式海鮮燒烤自助晚餐，11 月 2 日中午 12 時開搶限量 HK$111/位，對照原價 $757/位（已包加一）等於約 15 折。菜式以泰式香料為主：前菜有泰式青木瓜蝦沙律、泰式鳳爪沙律、配馬來花生醬的炸豆腐；主菜有招牌波士頓龍蝦、羅望子烤大蝦、參巴醬魔鬼魚、辣酒煮花螺；烤肉區有西班牙原隻乳豬與孜然燒羊髀，另設即煮泰式船麵、壽司刺身及甜品。餐廳是寵物友善的戶外池畔位置，天氣好時氣氛一流，適合一家大細或朋友聚會。預訂期 11 月 2 日中午至 11 月 8 日，最早可訂 11 月 6 日用餐。</p><ul><li>限量 HK$111/位，原價 HK$757/位（已包加一），約 15 折</li><li>11 月 2 日 12:00 開搶，預訂至 11 月 8 日 23:59</li><li>逢五、六 18:30–22:00、星期日 18:00–22:00 供應，最早 11 月 6 日用餐</li><li>泰式主題：波士頓龍蝦、羅望子烤大蝦、參巴醬魔鬼魚、辣酒煮花螺</li><li>烤肉區有西班牙原隻乳豬、孜然燒羊髀，另有即煮泰式船麵</li><li>買一送一 2 位 $826（人均 $413）；買二送一 3 位 $1,581（人均 $527）</li><li>戶外池畔、寵物友善（狗隻友善區座位有限，需提前向餐廳安排）</li></ul><div class="card-foot"><span class="period">預訂期：2026-11-02 12:00 至 2026-11-08 23:59；使用期：2026-11-03 至 2026-11-30（逢星期五、六 18:30–22:00；星期日 18:00–22:00）；最早可預訂日 2026-11-06；限量發售，售完即止</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-oceanpark-marriott-pier-thaibbq-20261101">分享</button><a class="link-btn" href="deals/dining-oceanpark-marriott-pier-thaibbq-20261101/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://gostudy.hk/43056/%e8%a6%aa%e5%ad%90%e6%b4%bb%e5%8b%95/%e8%a6%aa%e5%ad%90%e6%b4%bb%e5%8b%95%ef%bd%9c%e9%a6%99%e6%b8%af%e6%b5%b7%e6%b4%8b%e5%85%ac%e5%9c%92%e8%90%ac%e8%b1%aa%e9%85%92%e5%ba%97%e6%b5%b7%e7%81%a3%e9%a4%90%e5%bb%b3%e8%87%aa%e5%8a%a9%e9%a4%90/" target="_blank" rel="noopener nofollow">學好啲 GoStudy（引 KKday 11 月快閃方案）</a></p></article>
+<article class="card" data-id="dining-parklane-playt-double11bogo-20261102"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-parklane-playt-double11bogo-20261102/">銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起</a></h3><p class="sub">Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶 · 同場加推大閘蟹自助晚餐至 11/30</p><p class="route">銅鑼灣告士打道 310 號香港柏寧酒店 1 樓 PLAYT</p><div class="price-row"><span class="price">Klook 雙11 自助餐買一送一，自助午餐折後人均約 HK$240 起（媒體 2026-11-02 查價）；原價、適用餐期與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止</span><span class="price-was">自助午餐原價以 Klook 活動頁即時顯示為準</span><span class="save">省 50%</span></div><p class="summary">銅鑼灣柏寧酒店的 PLAYT 在 Klook 雙11 旅展期間做自助餐買一送一，自助午餐折後人均約 HK$240 起，等於約五折。餐廳以開放式「Kitchen Theatre」廚房劇院設計，即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排、壽司刺身與中式點心齊備；10 月 12 日至 11 月 30 日同場加推「金秋蟹宴」大閘蟹自助晚餐，每位包兩隻約四両清蒸大閘蟹，另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯。買一送一屬限量名額，每日中午 12:00 開搶，落單前先確認想去的日子仍有位。</p><ul><li>自助午餐買一送一，折後人均約 HK$240 起（媒體 2026-11-02 查價，以 Klook 即時價為準）</li><li>雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶，名額有限</li><li>金秋蟹宴大閘蟹自助晚餐 10/12–11/30：每位兩隻約四両大閘蟹（小童一隻）</li><li>海鮮吧即開生蠔、冰鎮龍蝦、鱈蟹腳；熱盤有安格斯帶骨牛排、即蒸點心</li><li>位於銅鑼灣告士打道，港鐵銅鑼灣站步行約 5 分鐘</li><li>餐券使用期以商品頁有效期為準，買券後仍須向餐廳訂位</li></ul><div class="card-foot"><span class="period">預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期以 Klook 商品頁「有效期」為準；另 PLAYT「金秋蟹宴」大閘蟹自助晚餐供應期為 2026-10-12 至 11-30，每位兩隻約四両清蒸大閘蟹（小童一隻）</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-parklane-playt-double11bogo-20261102">分享</button><a class="link-btn" href="deals/dining-parklane-playt-double11bogo-20261102/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://www.finance01.com/double-11" target="_blank" rel="noopener nofollow">Klook 柏寧酒店 PLAYT 自助餐商品頁 · Finance01 雙11 優惠整合（2026-11-02 查價）</a></p></article>
+<article class="card" data-id="dining-renaissance-cafe-double11bogo-20261102"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-renaissance-cafe-double11bogo-20261102/">灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起</a></h3><p class="sub">生蠔龍蝦自助晚餐 · Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶</p><p class="route">灣仔港灣道 1 號香港萬麗海景酒店 大堂 萬麗咖啡室</p><div class="price-row"><span class="price">Klook 雙11 自助餐買一送一，生蠔龍蝦自助晚餐折後人均約 HK$420 起（媒體 2026-11-02 查價）；原價與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止</span><span class="price-was">自助晚餐原價以 Klook 活動頁即時顯示為準</span><span class="save">省 50%</span></div><p class="summary">灣仔萬麗海景酒店的萬麗咖啡室（Café Mira）在 Klook 雙11 旅展做自助餐買一送一，主打生蠔與龍蝦的自助晚餐折後人均約 HK$420 起。酒店位於會展中心上蓋，海景與地點是主要賣點；自助餐以冰鎮海鮮、即切烤肉與甜品檯為骨幹。買一送一屬限量名額，每日中午 12:00 開搶，熱門日子（週五至日、假日前夕）通常最快售完。留意價錢未計加一服務費的情況，實際結帳以平台與餐廳公佈為準。</p><ul><li>生蠔龍蝦自助晚餐買一送一，折後人均約 HK$420 起（媒體 2026-11-02 查價）</li><li>雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶</li><li>酒店位於灣仔會展中心上蓋，港鐵灣仔站步行約 10 分鐘</li><li>買券不等於訂位，落單後仍須向餐廳確認日期與時段</li><li>週五至日及假日前夕名額最快售完，建議開搶即落單</li><li>服務費與不適用日期以 Klook 商品頁及餐廳公佈為準</li></ul><div class="card-foot"><span class="period">預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期、可訂時段與不適用日期以 Klook 商品頁為準</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-renaissance-cafe-double11bogo-20261102">分享</button><a class="link-btn" href="deals/dining-renaissance-cafe-double11bogo-20261102/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://www.finance01.com/double-11" target="_blank" rel="noopener nofollow">Finance01 雙11 優惠整合（2026-11-02 查價）· Klook 活動</a></p></article>
 <article class="card" data-id="dining-cafetoo-admiralty-crabseafood-kkday-20261011"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-cafetoo-admiralty-crabseafood-kkday-20261011/">金鐘港島香格里拉 cafe TOO「金秋豐盛海鮮蟹宴」，自助晚餐 HK$1,212／2 位（人均 HK$606，約 61 折）</a></h3><p class="sub">KKday 12 週年快閃 10/10 12:00 開搶 · 菜式供應期至 11/15 · 晚市每位奉送清蒸大閘蟹乙隻</p><p class="route">金鐘法院道 1 號港島香格里拉 5 樓 cafe TOO（港鐵金鐘站 F 出口）</p><div class="price-row"><span class="price">平日自助晚餐 HK$1,212／2 位（人均 HK$606／位，原價 HK$988／位，約 61 折）；晚市每位奉送清蒸大閘蟹乙隻（約 3.5–4 両）。名額及價格以 KKday 頁面即時公佈為準</span><span class="price-was">原價自助晚餐 HK$988／位（折後人均 HK$606／位）</span><span class="save">省 39%</span></div><p class="summary">金鐘港島香格里拉 cafe TOO 推出秋季主題「金秋豐盛海鮮蟹宴」，並以 KKday 12 週年快閃價登場：平日自助晚餐 HK$1,212／2 位（人均 HK$606／位，原價 HK$988／位，約 61 折），晚市每位奉送清蒸大閘蟹乙隻（約 3.5–4 両）。冰鎮海鮮區有蜘蛛蟹、貴妃蟹、麵包蟹、花蟹及雪蟹腳；熱盤輪流供應胡椒肉蟹／花蟹煲、花雕蛋白蒸蟹、泰式咖喱炒蟹、蟹粉小籠包及清蒸新鮮龍蝦，指定晚市時段更供應大拖羅及中拖羅刺身、三文魚籽丼，另設花旗參紅棗蒜頭燉雞湯。菜式供應期至 11 月 15 日。同酒店夏宮、茗悅及灘萬亦同步推出蟹饌，惟未見折扣，故只收錄 cafe TOO 快閃。</p><ul><li>平日自助晚餐 HK$1,212／2 位（人均 HK$606／位，原價 HK$988／位，約 61 折）</li><li>晚市每位奉送清蒸大閘蟹乙隻（約 3.5–4 両）</li><li>冰鎮海鮮：蜘蛛蟹、貴妃蟹、麵包蟹、花蟹、雪蟹腳</li><li>指定晚市時段供應大拖羅及中拖羅刺身、三文魚籽丼</li><li>KKday 12 週年快閃 10/10 12:00 開搶，菜式供應期至 11/15</li><li>酒店官方來源：港島香格里拉「金秋蟹逅」四大餐廳蟹宴（夏宮、茗悅、灘萬、cafe TOO）</li></ul><div class="card-foot"><span class="period">KKday 12 週年快閃 2026-10-10 12:00 開搶；菜式供應期至 2026-11-15（自助晚餐 18:30–21:30）；實際預訂及用餐日期以 KKday 頁面即時公佈為準</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-cafetoo-admiralty-crabseafood-kkday-20261011">分享</button><a class="link-btn" href="deals/dining-cafetoo-admiralty-crabseafood-kkday-20261011/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://hk.ulifestyle.com.hk/activity/detail/20113142" target="_blank" rel="noopener nofollow">GroupBuya 著數網「KKday 12 週年慶快閃」（2026-10-11）＋ U Lifestyle 港生活（2026-10-09，來源：港島香格里拉）</a></p></article>
 <article class="card" data-id="dining-cafeonm-tst-crabfeast-30off-20261030"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-cafeonm-tst-crabfeast-30off-20261030/">尖東海景嘉福洲際 Café on M 秋日蟹宴自助晚餐 7 折，連加一每位 HK$694.4</a></h3><p class="sub">限定 10/30–31 及 11/27–28 四晚 · 每位 2 隻大閘蟹＋即點即製皇帝蟹腳 · 官網網上商店 7 折</p><p class="route">尖沙咀東麼地道 70 號香港海景嘉福洲際酒店 M 層 Café on M（海景咖啡廊）</p><div class="price-row"><span class="price">官網網上商店 7 折：成人每位 HK$694.4（原價 HK$868 另加一，連服務費 HK$954.8）、小童 4–11 歲每位 HK$422.4（原價 HK$528 另加一，連服務費 HK$580.8），7 折價已包加一服務費；Signature Club 會員 65 折（以酒店確認為準）。價格以酒店網上商店即時公佈為準</span><span class="price-was">成人原價每位 HK$868（另加一，連服務費 HK$954.8）</span><span class="save">省 70%</span></div><p class="summary">香港海景嘉福洲際酒店海景咖啡廊 Café on M 推出「秋日蟹之盛宴」自助晚餐，只在 10 月 30、31 日及 11 月 27、28 日四晚供應。酒店網上商店提供 7 折優惠，成人每位 HK$694.4（原價 HK$868 另加一，即 HK$954.8）、4 至 11 歲小童每位 HK$422.4，折後價已包加一服務費。每位賓客可享 2 隻約 3 両清蒸大閘蟹，即點即製區有蒜香牛油烤阿拉斯加皇帝蟹腳，冰鎮海鮮有加拿大鱈場蟹腳、麵包蟹及日本北海道栗蟹，熱葷包括新加坡黑胡椒蟹、芝士蟹黃海鮮焗飯及海鮮焗釀蟹蓋，另有冰鎮波士頓龍蝦、刺身、壽司、清酒煮鮑魚、烤羊架及燒鴨。餐廳位於酒店 M 層，可眺望維多利亞港。</p><ul><li>官網網上商店 7 折：成人每位 HK$694.4（原價連服務費 HK$954.8），已包加一</li><li>4–11 歲小童每位 HK$422.4；4 歲以下免費</li><li>每位賓客 2 隻約 3 両清蒸大閘蟹（非任食，按人頭配額）</li><li>即點即製蒜香牛油烤阿拉斯加皇帝蟹腳、冰鎮鱈場蟹腳、麵包蟹、北海道栗蟹</li><li>熱葷：新加坡黑胡椒蟹、芝士蟹黃海鮮焗飯、海鮮焗釀蟹蓋</li><li>只限 10/30、10/31、11/27、11/28 四晚；須最少提前一日於官網網上商店預訂</li></ul><div class="card-foot"><span class="period">用餐日期：2026-10-30、10-31、11-27、11-28（四晚限定，18:30–22:00，共 3.5 小時）；須於酒店官方網上商店最少提前一日預訂，訂單確認後不可退款；7 折只適用於餐費部分，服務費以原價計算</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-cafeonm-tst-crabfeast-30off-20261030">分享</button><a class="link-btn" href="deals/dining-cafeonm-tst-crabfeast-30off-20261030/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://www.hongkong.intercontinental.com/zh-hant/dining/cafe-on-m" target="_blank" rel="noopener nofollow">香港海景嘉福洲際酒店官網（供應日期及原價）· 酒店網上商店 7 折價 · KONGGOK 2026-10-29 價格計算</a></p></article>
 <article class="card" data-id="dining-wmhotel-goldencrab-20260913"><div class="card-top"><span class="badge badge-dining">餐飲</span><span class="card-sticker st-dining" aria-hidden="true">🍜</span></div><h3><a href="deals/dining-wmhotel-goldencrab-20260913/">「黃金蟹宴」自助晚餐開鑼，預付優惠碼低至 5 折</a></h3><p class="sub">將軍澳 WM Hotel Café@WM · 9 至 11 月限定</p><p class="route">WM Hotel Café@WM · 將軍澳（大埔仔，近科大）</p><div class="price-row"><span class="price">自助晚餐預付優惠碼低至 5 折</span></div><p class="summary">將軍澳 WM Hotel「Café@WM」推出黃金蟹宴自助晚餐：釀蟹蓋、蒸大閘蟹、加拿大雪蟹腳、法國食用蟹任食，另有明太子蟹撻、墨西哥蟹肉 Quesadilla、蟹膏餃、鹹蛋黃蟹肉天使麵等主廚菜式，配即開生蠔同海鮮冰鎮盤，預付訂購用優惠碼可低至 5 折。</p><ul><li>任食蟹類四重奏：釀蟹蓋、蒸大閘蟹、加拿大雪蟹腳、法國食用蟹</li><li>主廚蟹料理：明太子蟹酥盒、蟹膏雲吞、鹹蛋黃蟹肉天使麵</li><li>即開生蠔＋海鮮冰鎮盤同步供應</li><li>須預付訂購並輸入指定優惠碼，折扣上限 5 折</li><li>供應期至 11 月底，中秋檔期建議提早訂</li></ul><div class="card-foot"><span class="period">供應期：2026-09 至 2026-11；預付優惠碼折扣至名額用完為止</span><span class="actions"><button class="icon-btn" type="button" data-share="dining-wmhotel-goldencrab-20260913">分享</button><a class="link-btn" href="deals/dining-wmhotel-goldencrab-20260913/">睇詳情與條款 →</a></span></div><p class="source">來源：<a href="https://ritzyhongkong.com/hairy-crab-season-guide-2026" target="_blank" rel="noopener nofollow">Ritzy Hong Kong 蟹季指南（引官方公佈）</a></p></article>
