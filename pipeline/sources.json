@@ -1,5 +1,12 @@
 {
-  "_note": "情報源清單。mode=rss 由 fetch_deals.py 自動抓取；mode=agent 由智能體用網頁搜尋／瀏覽方式查核；mode=api 需填寫聯盟金鑰後才啟用。",
+  "_note": "情報源清單。mode=rss 由 fetch_deals.py 自動抓取；mode=agent 由 fetch_agent_sources.py 抓頁面產生待審候選（價格與期限仍須人手／智能體核實後才可收錄）；mode=api 需填寫聯盟金鑰後才啟用。所有 url 於 2026-11-02 逐一實測，verifiedHttp 為當時狀態碼。",
+  "_workflow": [
+    "python pipeline/fetch_deals.py --days 4        # RSS 線，產出 raw/YYYY-MM-DD.json",
+    "python pipeline/fetch_agent_sources.py        # agent 線，產出 raw/agent-YYYY-MM-DD.json 待審候選",
+    "python pipeline/fetch_agent_sources.py --check  # 每月一次來源健康檢查，產出 raw/source-health.json",
+    "候選必須回到原始頁核實價格、期限、條款，通過後才寫入 pipeline/drafts/<日期>.json"
+  ],
+  "_knownLimitation": "Klook／Mira／Eaton／香格里拉／香港航空 等頁面由 JS 渲染，行切法抽不到內容（輸出會標 yieldHint=low）。這批仍要人手或瀏覽器開頁查看，腳本只負責提醒你去哪一頁。",
   "sources": [
     {
       "id": "secretflying",
@@ -7,9 +14,11 @@
       "mode": "rss",
       "category": "flight",
       "url": "https://www.secretflying.com/feed/",
-      "enabled": true,
+      "enabled": false,
       "weight": 8,
-      "note": "全球錯誤票價與閃促，需自行篩出香港出發"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "2026-11-02 實測：HTTP 200 但回傳是 HTML 攔截頁而非 RSS，parse 會失敗。停用，待有瀏覽器會話時再議。"
     },
     {
       "id": "fly4free",
@@ -17,9 +26,11 @@
       "mode": "rss",
       "category": "flight",
       "url": "https://www.fly4free.com/feed/",
-      "enabled": true,
+      "enabled": false,
       "weight": 7,
-      "note": "歐洲出發為主，偶有亞洲線"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 403,
+      "note": "2026-11-02 實測 403（Cloudflare）。歐洲出發為主，與香港讀者相關度低，直接停用。"
     },
     {
       "id": "headforpoints",
@@ -29,27 +40,33 @@
       "url": "https://www.headforpoints.com/feed/",
       "enabled": true,
       "weight": 6,
-      "note": "英式里數與酒店玩法，方法論可參考"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "唯一仍可用的 RSS（400KB）。英國里數博客，與香港直接相關度低，但方法論與酒店玩法可作選題參考。"
     },
     {
       "id": "hkexpress_promo",
-      "name": "HK Express 優惠頁",
+      "name": "HK Express 香港快運",
       "mode": "agent",
       "category": "flight",
-      "url": "https://www.hkexpress.com/zh-hk/promotions",
+      "url": "https://www.hkexpress.com/zh-hk/",
       "enabled": true,
       "weight": 10,
-      "note": "香港市場最核心的廉航情報源，每週查核"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "香港市場最核心的廉航情報源。/zh-hk/promotions 已 404，官網首頁的優惠卡才是現行入口。"
     },
     {
       "id": "greaterbay_promo",
-      "name": "大灣區航空 優惠頁",
+      "name": "大灣區航空",
       "mode": "agent",
       "category": "flight",
-      "url": "https://www.greaterbay-airlines.com/",
+      "url": "https://www.greaterbay-airlines.com/hk/zh_HK.html",
       "enabled": true,
       "weight": 9,
-      "note": "包行李價，家庭客群"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "包行李價，家庭客群。價格多數要入訂票流程才見到，首頁只作選題提示。"
     },
     {
       "id": "cathay_offers",
@@ -59,47 +76,81 @@
       "url": "https://www.cathaypacific.com/cx/zh_HK/offers.html",
       "enabled": true,
       "weight": 9,
-      "note": "官網限定價與里數位子"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "官網限定價與里數位子。頁面 344KB，能抽到優惠標題與部分價格。"
     },
     {
       "id": "hka_offers",
-      "name": "香港航空 優惠",
+      "name": "香港航空",
       "mode": "agent",
       "category": "flight",
-      "url": "https://www.hongkongairlines.com/",
+      "url": "https://www.hongkongairlines.com/zh_HK/homepage",
       "enabled": true,
       "weight": 7,
-      "note": "短線為主"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "短線為主。頁面較輕（3.6KB），多數內容由 JS 載入，候選產出偏低。"
     },
     {
       "id": "scoot_promo",
-      "name": "酷航 Scoot 促銷",
+      "name": "酷航 Scoot",
       "mode": "agent",
       "category": "flight",
       "url": "https://www.flyscoot.com/zh/promotions",
-      "enabled": true,
+      "enabled": false,
       "weight": 6,
-      "note": "東南亞線"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 403,
+      "note": "2026-11-02 實測 403，機器訪問被擋。東南亞線可改用 Klook／Agoda 活動頁間接覆蓋。"
+    },
+    {
+      "id": "agoda_deals",
+      "name": "Agoda 香港優惠",
+      "mode": "agent",
+      "category": "hotel",
+      "url": "https://www.agoda.com/zh-hk/deals",
+      "enabled": false,
+      "weight": 8,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "2026-11-02 實測：HTTP 200 但整頁由 JS 渲染，只抽到 1 行可讀文字，機器抓取無用。要酒店價請走 Booking 或聯盟 API。"
+    },
+    {
+      "id": "booking_deals",
+      "name": "Booking.com 優惠",
+      "mode": "agent",
+      "category": "hotel",
+      "url": "https://www.booking.com/dealspage.zh-hk.html",
+      "enabled": true,
+      "weight": 7,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "Genius 與季節優惠。房價同樣浮動。"
     },
     {
       "id": "openrice_promo",
       "name": "OpenRice 優惠專區",
       "mode": "agent",
       "category": "dining",
-      "url": "https://www.openrice.com/zh/hongkong/promotions",
+      "url": "https://www.openrice.com/zh/hongkong/offers",
       "enabled": true,
-      "weight": 9,
-      "note": "香港餐廳優惠最集中的入口"
+      "weight": 10,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "回報最高的一條：實測直接抽到「星期一晚市主菜買一送一」「平日午市套餐第二份半價」等可核實標題。/promotions 已 404，正確路徑是 /offers。"
     },
     {
       "id": "klook_dining",
-      "name": "Klook 餐飲優惠",
+      "name": "Klook 香港優惠",
       "mode": "agent",
       "category": "dining",
-      "url": "https://www.klook.com/zh-HK/",
+      "url": "https://www.klook.com/zh-HK/deals",
       "enabled": true,
       "weight": 8,
-      "note": "酒店自助餐券、現金券，自帶聯盟計劃"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "酒店自助餐券、現金券與支付折扣，自帶聯盟計劃。首頁 /zh-HK/ 會 403，要用 /deals。"
     },
     {
       "id": "hotel_icon",
@@ -109,17 +160,69 @@
       "url": "https://www.hotel-icon.com/",
       "enabled": true,
       "weight": 7,
-      "note": "自助餐情報"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "自助餐情報。實測命中率低（424 行只有 1 條價格），主要靠人手看餐飲頁。"
     },
     {
       "id": "shangrila_dining",
-      "name": "香格里拉 餐飲優惠",
+      "name": "香格里拉 餐飲",
       "mode": "agent",
       "category": "dining",
-      "url": "https://www.shangri-la.com/",
+      "url": "https://www.shangri-la.com/hongkong/islandshangrila/dining/",
       "enabled": true,
       "weight": 7,
-      "note": "酒店自助餐與買一送一"
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "頁面僅 3.8KB，內容由 JS 載入，抽不到東西。保留作選題入口，實際價格要開餐廳頁核。"
+    },
+    {
+      "id": "mira_dining",
+      "name": "美麗華酒店 餐飲",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.themirahotel.com/dining/",
+      "enabled": true,
+      "weight": 6,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "新增。酒店餐廳促銷，常見節慶套餐。"
+    },
+    {
+      "id": "harbourplaza_dining",
+      "name": "海逸國際 餐飲",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.harbour-plaza.com/hpmm/zh-hk/dining/",
+      "enabled": true,
+      "weight": 6,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "新增。海逸／都會海逸自助餐優惠，常與信用卡推廣疊加。"
+    },
+    {
+      "id": "eaton_dining",
+      "name": "逸東酒店 Eaton",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.eatonworkshop.com/",
+      "enabled": true,
+      "weight": 5,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "新增。普慶餐廳自助餐與文化活動，促銷期較短。"
+    },
+    {
+      "id": "hsbc_offers",
+      "name": "滙豐信用卡優惠",
+      "mode": "agent",
+      "category": "dining",
+      "url": "https://www.hsbc.com.hk/zh-hk/credit-cards/offers/",
+      "enabled": true,
+      "weight": 6,
+      "verifiedAt": "2026-11-02",
+      "verifiedHttp": 200,
+      "note": "新增。銀行卡餐飲與酒店優惠，可與商戶優惠疊加比較。其他銀行（恒生／渣打／花旗／中銀）相關頁面實測全部 404 或需登入，未收。"
     },
     {
       "id": "agoda_affiliate",
@@ -147,7 +250,8 @@
       "只抓取公開的促銷頁、RSS 與聯盟資料；不繞過反爬機制，不破解任何登入牆。",
       "每篇文章必須附上原始來源連結，讓讀者可自行核實。",
       "價格與名額會變動，所有輸出必須帶免責聲明。",
-      "聯盟連結需明確標示，遵守各地廣告揭露規定。"
+      "聯盟連結需明確標示，遵守各地廣告揭露規定。",
+      "agent 候選一律標記 needsVerification，未核實不得寫入 store.json 或 drafts。"
     ]
   }
 }
