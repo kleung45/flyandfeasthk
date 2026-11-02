@@ -167,11 +167,25 @@ def score_line(line: str) -> int:
     return score
 
 
+# 商戶名樣式：'Bistro La Baie (將軍澳)'、'港島香格里拉（金鐘）'
+MERCHANT_RE = re.compile(r"^[^。，,]{2,28}[（(][^）)]{1,10}[）)]$")
+
+
+def nearby_merchant(lines: list[str], idx: int) -> str | None:
+    """優惠標題旁邊常夾著商戶名。OpenRice 是「標題 → 商戶名」，酒店頁多數相反，兩邊都看。"""
+    for j in (idx + 1, idx - 1):
+        if 0 <= j < len(lines):
+            line = lines[j]
+            if MERCHANT_RE.match(line) and not PRICE_RE.search(line) and score_line(line) < 2:
+                return line
+    return None
+
+
 def extract_candidates(lines: list[str], source: dict, min_score: int, limit: int) -> list[dict]:
     category = source.get("category", "flight")
     seen: set[str] = set()
-    scored: list[tuple[int, str]] = []
-    for line in lines:
+    scored: list[tuple[int, str, int]] = []
+    for idx, line in enumerate(lines):
         if not matches_category(line, category):
             continue
         key = re.sub(r"\W+", "", line)[:40]
@@ -180,16 +194,20 @@ def extract_candidates(lines: list[str], source: dict, min_score: int, limit: in
         seen.add(key)
         s = score_line(line)
         if s >= min_score:
-            scored.append((s, line))
+            scored.append((s, line, idx))
     scored.sort(key=lambda t: (-t[0], -len(t[1])))
     out = []
-    for s, line in scored[:limit]:
+    for s, line, idx in scored[:limit]:
+        merchant = nearby_merchant(lines, idx)
+        price = PRICE_RE.search(line)
+        date_hint = DATE_RE.search(line)
         out.append(
             {
                 "text": line,
+                "merchant": merchant,
                 "score": s,
-                "price": (PRICE_RE.search(line).group(0) if PRICE_RE.search(line) else None),
-                "dateHint": (DATE_RE.search(line).group(0) if DATE_RE.search(line) else None),
+                "price": (price.group(0) if price else None),
+                "dateHint": (date_hint.group(0) if date_hint else None),
                 "sourceId": source["id"],
                 "sourceName": source["name"],
                 "category": source.get("category", "flight"),
