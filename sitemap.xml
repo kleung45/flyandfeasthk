@@ -1159,6 +1159,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.flyandfeasthk.com/guides/japan-hidden-spots/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-mira-yamm-dinner-b2g1-20261030/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -1173,6 +1179,24 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-oceanpark-marriott-pier-thaibbq-20261101/</loc>
     <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-harbourgrandkowloon-hoiyuntin-crabduck-20261102/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-dragoncastle-lungboon-dinner-111-20261102/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-oceanpark-marriott-marinakitchen-111-20261102/</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
