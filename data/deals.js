@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-02T21:21:46+08:00",
+    "updated": "2026-11-03T10:34:56+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,51 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 117,
-      "active": 21,
-      "ending": 2,
-      "expired": 96,
+      "active": 20,
+      "ending": 1,
+      "expired": 97,
       "flight": 13,
       "dining": 104,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-mira-yamm-dinner-b2g1-20261030",
-      "category": "dining",
-      "title": "尖沙咀美麗華 Yamm 自助晚餐買二送一，3 位 HK$1,835 人均 HK$612",
-      "subtitle": "Klook 快閃 · 開售 10/27 21:00 至 11/2 · 適用 10/28–11/30 · 蟹逅生蠔主題 3.5 小時",
-      "venue": "尖沙咀彌敦道 118–130 號 Mira Place 美麗華酒店地下大堂 Yamm",
-      "priceLabel": "自助晚餐 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐買一送一 2 位 HK$586（人均 HK$293，原價 HK$1,074，約 55 折）。折扣價已包加一服務費，實際以 Klook 頁面即時報價為準",
-      "priceValue": 612,
-      "originalLabel": "自助晚餐原價 3 位 HK$2,633（每位約 HK$877.7）、自助午餐原價 2 位 HK$1,074",
-      "discountPct": 70,
-      "endsAt": "2026-11-02T23:59:00+08:00",
-      "period": "開售期：2026-10-27 21:00 至 11-02；適用用餐期：2026-10-28 至 11-30；自助晚餐 18:30–22:00（3.5 小時）、自助午餐 12:00–14:30；須經 Klook 預訂，買二送一每次須訂 3 位",
-      "summary": "美麗華酒店 Yamm 推出「蟹逅生蠔」主題自助晚餐，Klook 快閃價 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐同時做買一送一，2 位 HK$586（人均 HK$293）。晚餐主打法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、牛油檸檬鹽燒帝王蟹腳、泰式瑪莎曼咖喱炒蟹、避風塘軟殼蟹、焗俄羅斯生蠔及北京片皮鴨，用餐時間 3.5 小時；生日月份惠顧可獲贈生日蛋糕（須符合條款）。午餐每週輪換主題——泰越、星馬、地中海、絲路，每場都有冰鎮海鮮及即切北京烤鴨。開售期至 11 月 2 日，用餐期至 11 月 30 日。",
-      "highlights": [
-        "晚餐買二送一：3 位 HK$1,835，人均 HK$611.7（原價 3 位 HK$2,633，約 7 折）",
-        "午餐買一送一：2 位 HK$586，人均 HK$293（約 55 折）",
-        "法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、燒帝王蟹腳、避風塘軟殼蟹",
-        "晚餐用餐時間 3.5 小時（18:30–22:00），適合多人聚會",
-        "午餐每週輪換泰越／星馬／地中海／絲路主題，均有即切北京烤鴨",
-        "開售至 11/2，用餐期至 11/30；折扣價已包加一服務費"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/57436-yamm-the-mira-hong-kong",
-      "sourceLabel": "U Lifestyle 2026-10-27（Klook 開售期、適用期及價格）· RunHotel 自助餐合集（人均價交叉核實）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20115376/",
-      "tags": [
-        "自助餐",
-        "尖沙咀",
-        "美麗華",
-        "Yamm",
-        "買二送一",
-        "生蠔"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-promenade-metropolis-double11-20261030",
       "category": "dining",
@@ -92,7 +56,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -128,7 +92,7 @@ window.DEAL_DATA = {
         "黃竹坑"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -165,7 +129,7 @@ window.DEAL_DATA = {
         "雙11"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -200,7 +164,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -235,7 +199,7 @@ window.DEAL_DATA = {
         "海南菜"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -272,7 +236,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -309,7 +273,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -344,7 +308,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -380,7 +344,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -411,7 +375,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -442,7 +406,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -473,7 +437,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -503,7 +467,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -538,7 +502,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -573,7 +537,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -608,7 +572,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -644,7 +608,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -681,7 +645,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -716,7 +680,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 46,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -752,7 +716,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 90,
+      "daysLeft": 89,
       "status": "active"
     },
     {
@@ -4133,6 +4097,42 @@ window.DEAL_DATA = {
         "海景",
         "燒烤",
         "黃竹坑"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-mira-yamm-dinner-b2g1-20261030",
+      "category": "dining",
+      "title": "尖沙咀美麗華 Yamm 自助晚餐買二送一，3 位 HK$1,835 人均 HK$612",
+      "subtitle": "Klook 快閃 · 開售 10/27 21:00 至 11/2 · 適用 10/28–11/30 · 蟹逅生蠔主題 3.5 小時",
+      "venue": "尖沙咀彌敦道 118–130 號 Mira Place 美麗華酒店地下大堂 Yamm",
+      "priceLabel": "自助晚餐 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐買一送一 2 位 HK$586（人均 HK$293，原價 HK$1,074，約 55 折）。折扣價已包加一服務費，實際以 Klook 頁面即時報價為準",
+      "priceValue": 612,
+      "originalLabel": "自助晚餐原價 3 位 HK$2,633（每位約 HK$877.7）、自助午餐原價 2 位 HK$1,074",
+      "discountPct": 70,
+      "endsAt": "2026-11-02T23:59:00+08:00",
+      "period": "開售期：2026-10-27 21:00 至 11-02；適用用餐期：2026-10-28 至 11-30；自助晚餐 18:30–22:00（3.5 小時）、自助午餐 12:00–14:30；須經 Klook 預訂，買二送一每次須訂 3 位",
+      "summary": "美麗華酒店 Yamm 推出「蟹逅生蠔」主題自助晚餐，Klook 快閃價 3 位 HK$1,835（人均 HK$611.7，原價 3 位 HK$2,633，約 7 折）；自助午餐同時做買一送一，2 位 HK$586（人均 HK$293）。晚餐主打法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、牛油檸檬鹽燒帝王蟹腳、泰式瑪莎曼咖喱炒蟹、避風塘軟殼蟹、焗俄羅斯生蠔及北京片皮鴨，用餐時間 3.5 小時；生日月份惠顧可獲贈生日蛋糕（須符合條款）。午餐每週輪換主題——泰越、星馬、地中海、絲路，每場都有冰鎮海鮮及即切北京烤鴨。開售期至 11 月 2 日，用餐期至 11 月 30 日。",
+      "highlights": [
+        "晚餐買二送一：3 位 HK$1,835，人均 HK$611.7（原價 3 位 HK$2,633，約 7 折）",
+        "午餐買一送一：2 位 HK$586，人均 HK$293（約 55 折）",
+        "法國即開 Spéciale de Claires 生蠔、波士頓龍蝦、燒帝王蟹腳、避風塘軟殼蟹",
+        "晚餐用餐時間 3.5 小時（18:30–22:00），適合多人聚會",
+        "午餐每週輪換泰越／星馬／地中海／絲路主題，均有即切北京烤鴨",
+        "開售至 11/2，用餐期至 11/30；折扣價已包加一服務費"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/57436-yamm-the-mira-hong-kong",
+      "sourceLabel": "U Lifestyle 2026-10-27（Klook 開售期、適用期及價格）· RunHotel 自助餐合集（人均價交叉核實）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20115376/",
+      "tags": [
+        "自助餐",
+        "尖沙咀",
+        "美麗華",
+        "Yamm",
+        "買二送一",
+        "生蠔"
       ],
       "sample": false,
       "daysLeft": 0,
