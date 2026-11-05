@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-05T14:54:09+08:00",
+    "updated": "2026-11-05T22:32:36+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,12 +11,12 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 120,
-      "active": 21,
-      "ending": 6,
+      "total": 125,
+      "active": 26,
+      "ending": 8,
       "expired": 99,
-      "flight": 13,
-      "dining": 107,
+      "flight": 15,
+      "dining": 110,
       "hotel": 0
     }
   },
@@ -55,6 +55,42 @@
       "postedFacebook": false,
       "postedThreads": false,
       "daysLeft": 0,
+      "status": "ending"
+    },
+    {
+      "id": "dining-conrad-gardencafe-lunch111-20261105",
+      "category": "dining",
+      "title": "金鐘港麗酒店咖啡園／樂聚廊自助午餐快閃 HK$111 位，原價 HK$548 起",
+      "subtitle": "Klook 11/5 11:00 開搶 · 雙11 11 月 5–6 日快閃檔 · 約 20 折",
+      "venue": "金鐘法院道太古廣場香港港麗酒店咖啡園 Garden Café（樂聚廊 Lobby Lounge 同場適用）",
+      "priceLabel": "快閃自助午餐每位 HK$111（原價 HK$548 起，約 20 折）；名額限量、售完即止，實際價格以 Klook 商品頁即時顯示為準",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$548 起/位",
+      "discountPct": 80,
+      "endsAt": "2026-11-06T23:59:00+08:00",
+      "period": "Klook 快閃：2026-11-05 11:00 開搶（11 月 5–6 日快閃檔，售完即止）；用餐日期以 Klook 頁面為準",
+      "summary": "金鐘港麗酒店嘅雙11 快閃，咖啡園（Garden Café）自助午餐每位 HK$111，對比原價 HK$548 起等於約 20 折，屬今輪雙11 最抵嘅酒店自助午餐之一。咖啡園走環球自助路線，海鮮、刺身、即切烤肉、甜品齊備，太古廣場地點就腳，食完可以直接行金鐘廊。快閃屬 11 月 5–6 日限定檔，名額有限，通常開賣好快清，落手要快。留意買券後仍須向餐廳訂位，用餐日期以 Klook 頁面為準。",
+      "highlights": [
+        "自助午餐快閃每位 HK$111，原價 HK$548 起（約 20 折）",
+        "11 月 5 日 11:00 開搶，11 月 5–6 日快閃檔、售完即止",
+        "咖啡園 Garden Café 環球自助，太古廣場地點就腳",
+        "名額限量，買券後仍須向餐廳訂位",
+        "PayMe 碼 PM26NOV40 滿 $888 減 $40（Klook 推廣期至 11/30）"
+      ],
+      "url": "https://www.klook.com/zh-HK/deals/",
+      "sourceLabel": "GroupBuya Klook 11 月 5–6 日餐飲快閃整理（2026-11-05，列明 HK$111/位、原價 HK$548 起、開搶時間）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556962-Klook-%E9%A6%99%E6%B8%AF5%E5%A4%A7%E9%85%92%E5%BA%97%E7%B4%BASPA",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "快閃",
+        "金鐘",
+        "酒店"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -241,6 +277,78 @@
       "status": "ending"
     },
     {
+      "id": "flight-gba-taipei-okinawa-20261105",
+      "category": "flight",
+      "title": "大灣區航空限時優惠：台北來回連稅 HK$1,294 起、沖繩 HK$1,465 起",
+      "subtitle": "官網訂購至 11/8 · 出發 11/9–12/17 · 包 20kg 寄艙行李",
+      "route": "香港出發 · 台北／沖繩（大阪 85 折碼後 HK$1,894 超標僅供參考）",
+      "priceLabel": "台北來回連稅 HK$1,294 起、沖繩來回連稅 HK$1,465 起，包 20kg 寄艙行李；實際票價隨航班浮動，以大灣區航空官網即時顯示為準",
+      "priceValue": 1294,
+      "originalLabel": "官網限時票價，非長期價格",
+      "endsAt": "2026-11-08T23:59:00+08:00",
+      "period": "優惠期：即日起至 2026-11-08；出發日期：2026-11-09 至 2026-12-17；機票有效期 2–7 日",
+      "summary": "大灣區航空限時優惠，台北來回連稅 HK$1,294 起、沖繩 HK$1,465 起，仲包 20kg 寄艙行李，出發期由 11 月 9 日至 12 月 17 日。台北班次可以揀早機去晚機返，玩盡一日夜市；沖繩就有早機去午機返嘅組合，最平日子集中喺 11 月中下旬同 12 月初。留意優惠 11 月 8 日截止，平飛日子唔多，想飛就要快手。",
+      "highlights": [
+        "台北來回連稅 HK$1,294 起，包 20kg 寄艙行李",
+        "沖繩來回連稅 HK$1,465 起，早機去午機返",
+        "出發期 11/9–12/17，機票有效期 2–7 日",
+        "優惠 11/8 截止，平飛日子集中 11 月尾同 12 月初",
+        "直接上大灣區航空官網訂購，票價以官網即時顯示為準"
+      ],
+      "url": "https://www.greaterbay-airlines.com/hk/zh_HK.html",
+      "sourceLabel": "MeetHK 2026-11-02／11-04 報導（連稅價、訂票期、出發期與官網直訂）",
+      "sourceUrl": "https://www.meethk.com/",
+      "tags": [
+        "機票",
+        "台北",
+        "沖繩",
+        "大灣區航空",
+        "限時"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 3,
+      "status": "ending"
+    },
+    {
+      "id": "dining-playt-cwb-double11-second111-20261105",
+      "category": "dining",
+      "title": "銅鑼灣柏寧 PLAYT 雙11：自助午餐第 2 位 HK$111、人均 HK$337",
+      "subtitle": "KKday 11/5 12:00 開搶至 11/11 · 供應至 11/30（金秋蟹宴）",
+      "venue": "銅鑼灣告士打道 310 號香港柏寧酒店 PLAYT",
+      "priceLabel": "平日自助午餐第 2 位 HK$111：2 位 HK$674（人均 HK$337，已包原價加一）；星期一至四海鮮自助晚餐第 2 位 HK$211：2 位 HK$1,170（人均 HK$585，已包原價加一）。實際價格以 KKday 商品頁為準",
+      "priceValue": 337,
+      "originalLabel": "10 月金秋蟹宴自助晚餐原價 HK$878/位（已包加一，供對比）；午餐原價以 KKday 頁面為準",
+      "discountPct": 38,
+      "endsAt": "2026-11-11T23:59:00+08:00",
+      "period": "預訂期：2026-11-05 12:00 至 11-11 23:59；供應期至 2026-11-30（11/30 前晚餐有「金秋蟹宴」，成人每位兩隻約 4 両清蒸大閘蟹）",
+      "summary": "銅鑼灣柏寧酒店 PLAYT 嘅雙11 快閃返嚟喇：平日自助午餐第 2 位只需 HK$111，2 位 HK$674、人均 HK$337，可以歎冰鎮鱈蟹腳、原隻鮑魚同慢烤西冷牛扒；星期一至四自助晚餐第 2 位 HK$211、人均 HK$585，11 月 30 日前仲有「金秋蟹宴」，每位成人送兩隻約 4 両清蒸大閘蟹，配即開生蠔、冰鎮龍蝦同多款蟹粉菜式。以上價錢已包括原價加一服務費。開放預訂期 11 月 5 日中午 12 時至 11 月 11 日 23:59，名額限量售完即止。",
+      "highlights": [
+        "平日自助午餐第 2 位 HK$111，2 位 HK$674、人均 HK$337（已包加一）",
+        "一至四自助晚餐第 2 位 HK$211，人均 HK$585",
+        "11/30 前晚餐有金秋蟹宴：每位成人兩隻約 4 両大閘蟹",
+        "預訂期 11/5 12:00–11/11 23:59，供應期至 11/30",
+        "午餐有冰鎮鱈蟹腳、原隻鮑魚、慢烤西冷牛扒"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
+      "sourceLabel": "RunHotel 2026-11-04 報導（價格、開售期、供應期）＋ HKET 2026-11-05 ＋ U Life 11 月 Buffet 精選 20037042 交叉核實",
+      "sourceUrl": "https://www.runhotel.hk/latest-posts/",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "銅鑼灣",
+        "酒店",
+        "蟹宴",
+        "海鮮"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
       "id": "dining-parklane-playt-double11bogo-20261102",
       "category": "dining",
       "title": "銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起",
@@ -347,6 +455,42 @@
       ],
       "sample": false,
       "daysLeft": 10,
+      "status": "active"
+    },
+    {
+      "id": "dining-parkhotel-parkcafe-xmas-earlybird-20261105",
+      "category": "dining",
+      "title": "尖沙咀百樂酒店 Park Café 聖誕自助餐早鳥 65 折，平安夜午餐約 HK$297 位",
+      "subtitle": "11/20 前預訂聖誕自助餐享 65 折 · 12/5 前預訂除夕自助餐享 65 折",
+      "venue": "尖沙咀漆咸道南 61-65 號香港百樂酒店 Park Café",
+      "priceLabel": "早鳥 65 折後：12/24 平安夜自助午餐成人約 HK$297.7（原價 HK$458）、自助晚餐約 HK$473.2（原價 HK$728）；12/25 聖誕自助午餐約 HK$323.7（原價 HK$498）、晚餐約 HK$460.2（原價 HK$708）；小童同折。須於指定日期前預訂並繳費，實際以酒店公佈為準",
+      "priceValue": 297,
+      "originalLabel": "平安夜午餐原價 HK$458/位、晚餐 HK$728/位；聖誕日午餐 HK$498、晚餐 HK$708",
+      "discountPct": 35,
+      "endsAt": "2026-11-20T23:59:00+08:00",
+      "period": "早鳥預訂：聖誕自助餐（12/24–26）2026-11-20 或之前、除夕自助餐（12/31）2026-12-05 或之前；用餐日期為 12 月 24 至 26 日及 12 月 31 日",
+      "summary": "尖沙咀百樂酒店 Park Café 推出「冬日白色聖誕盛宴」自助餐，德韓主題加經典聖誕美饌：韓式牛仔骨、德國脆皮咸豬手，12 月 14 至 31 日仲有楓糖菠蘿焗金門火腿、慢煮聖誕果香火雞，12 月 24 至 25 日晚餐加推燒和牛斧頭扒、威靈頓豬柳同燒羊腿。提早預訂最抵：11 月 20 日前預訂聖誕自助餐、12 月 5 日前預訂除夕自助餐，可享 65 折早鳥價，平安夜晚餐折後約 HK$473 位。另有長者 65 折、12 月生日免費等優惠。預訂要繳全費，名額有限。",
+      "highlights": [
+        "聖誕自助餐 11/20 前預訂享 65 折；除夕自助餐 12/5 前預訂享 65 折",
+        "平安夜自助晚餐原價 HK$728，折後約 HK$473 位（已按 65 折計）",
+        "德韓主題：韓式牛仔骨、德國脆皮咸豬手，聖誕限定燒和牛斧頭扒",
+        "12/1–20 生日賓客 4 位同行免費；65 歲或以上長者 65 折",
+        "經網上或親臨預訂並繳全費，名額有限"
+      ],
+      "url": "https://www.parkhotelgroup.com/en/park-hotel-hong-kong",
+      "sourceLabel": "U Life 港生活 2026-11-03 報導（資料來源：香港百樂酒店；列明原價、早鳥折扣期與用餐日期）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116008/",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "尖沙咀",
+        "酒店",
+        "早鳥"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -646,6 +790,41 @@
         "第2位優惠"
       ],
       "sample": false,
+      "daysLeft": 25,
+      "status": "active"
+    },
+    {
+      "id": "flight-sunphuquoc-phuquoc-lastminute-20261105",
+      "category": "flight",
+      "title": "太陽富國航空：富國島來回連稅 HK$971 起，包 23kg＋送纜車票",
+      "subtitle": "優惠至 11/30 · 出發至 11/30 · 官網直訂 HK$971 起",
+      "route": "香港出發 · 富國島",
+      "priceLabel": "香港直飛富國島來回連稅 HK$971 起（太陽富國航空官網）；Trip.com 用碼 TRAVELERHK26F 98 折後約 HK$953 起；包 23kg 寄艙行李。實際票價以官網／Trip.com 即時顯示為準",
+      "priceValue": 953,
+      "originalLabel": "官網限時票價，非長期價格",
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "優惠期與出發期：即日起至 2026-11-30；送太陽世界香島跨海纜車車票（適用至 2026-11-22）",
+      "summary": "太陽富國航空嘅 last minute 平飛，香港直飛富國島來回連稅 HK$971 起，包 23kg 寄艙行李，喺官網直訂就係官方價；經 Trip.com 用優惠碼 TRAVELERHK26F 打 98 折更平，約 HK$953 起。仲送太陽世界香島跨海纜車車票（11 月 22 日前適用）。平飛日子集中喺 11 月 8 至 30 日，去程 9G501/9G503、回程 9G502/9G504。優惠同出發期都係 11 月 30 日截止，想去海島放空就要快手。",
+      "highlights": [
+        "富國島來回連稅 HK$971 起（官網直訂）",
+        "Trip.com 碼 TRAVELERHK26F 98 折後約 HK$953 起",
+        "包 23kg 寄艙行李",
+        "送香島跨海纜車票（適用至 11/22）",
+        "優惠及出發期均至 11/30，平飛日子集中 11 月 8–30 日"
+      ],
+      "url": "https://www.sunphuquocairways.com/hk/tw",
+      "sourceLabel": "MeetHK 2026-11-04 報導（官網價 HK$971 起、Trip.com 碼價 HK$953 起、航班時間與優惠期）",
+      "sourceUrl": "https://www.meethk.com/",
+      "tags": [
+        "機票",
+        "富國島",
+        "越南",
+        "限時",
+        "海島"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
       "daysLeft": 25,
       "status": "active"
     },
