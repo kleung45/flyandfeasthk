@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-03T10:50:30+08:00",
+    "updated": "2026-11-05T14:54:09+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,88 +12,15 @@
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 120,
-      "active": 23,
-      "ending": 3,
-      "expired": 97,
+      "active": 21,
+      "ending": 6,
+      "expired": 99,
       "flight": 13,
       "dining": 107,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-promenade-metropolis-double11-20261030",
-      "category": "dining",
-      "title": "紅磡都會海逸西餐廳「雙11」第 2 位 HK$11，自助午餐人均 HK$292 起",
-      "subtitle": "官網 eShop 預購 · 預訂 10/29 12:00 至 11/4 23:59 · 用餐 11/1–11/30 · 11/1–15 晚餐每位送大閘蟹",
-      "venue": "九龍紅磡都會道 7 號都會海逸酒店 7 樓西餐廳 Promenade（港鐵紅磡站 C2 出口）",
-      "priceLabel": "自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一，約 61 折）；自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一，約 61 折）。已包以原價計算的加一服務費，實際價錢以酒店 eShop 即時公佈為準",
-      "priceValue": 292,
-      "originalLabel": "自助午餐原價 HK$478／位、自助晚餐原價 HK$778／位（另加一服務費）",
-      "discountPct": 61,
-      "endsAt": "2026-11-04T23:59:00+08:00",
-      "period": "預訂期：2026-10-29 12:00 至 2026-11-04 23:59；用餐期：2026-11-01 至 11-30；只限經酒店官方 eShop 全費預購指定日子；11 月 1 至 15 日惠顧自助晚餐，每位成人送約 3.5 兩清蒸大閘蟹一隻",
-      "summary": "都會海逸酒店西餐廳 Promenade 推出 11 月「雙11」eShop 限定優惠：預購 1 位成人自助餐，即可以 HK$11 為第 2 位成人加購同一盛宴。自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一），自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一），兩者均約 61 折，已包以原價計算的加一服務費。11 月自助晚餐主題為「歲暮蟹香」，有酥炸鱈場蟹肉棒、酥皮蟹肉龍蝦湯杯、薑蔥松葉蟹腳及泰式羅勒葉炒麵包蟹，即開生蠔、冰鎮熟龍蝦及雪花蟹腳輪流供應；11 月 1 至 15 日每位成人再送清蒸大閘蟹一隻。午餐亮點為雪花蟹腳、刺身、香草燒羊架、燒牛肉及 8 至 10 款 Mövenpick 雪糕，另任飲汽水、咖啡及紅茶。",
-      "highlights": [
-        "第 2 位成人只需 HK$11（經酒店 eShop 全費預購 1 位）",
-        "自助午餐人均 HK$292.3 起（原價每位 HK$478 另加一，約 61 折）",
-        "自助晚餐人均 HK$472.3 起（原價每位 HK$778 另加一，約 61 折）",
-        "已包以原價計算的加一服務費，毋須另外加一",
-        "11/1–15 惠顧自助晚餐每位成人送約 3.5 兩清蒸大閘蟹一隻",
-        "11 月晚餐主題「歲暮蟹香」，即開生蠔、冰鎮熟龍蝦、雪花蟹腳輪流供應",
-        "消費滿 HK$400 可享 3 小時免費代客泊車（每檯一輛，名額有限）"
-      ],
-      "url": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-lunch-buffet-double11-2026",
-      "sourceLabel": "都會海逸酒店官方 eShop 雙11 自助午餐／晚餐頁面 · 星島頭條 2026-10-29 預訂期",
-      "sourceUrl": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-lunch-buffet-double11-2026",
-      "tags": [
-        "自助餐",
-        "雙11",
-        "紅磡",
-        "都會海逸",
-        "大閘蟹",
-        "第2位優惠"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-ymca-salisbury-haven-lunch111-20261103",
-      "category": "dining",
-      "title": "尖沙咀港青酒店再臨閣雙11 自助午餐 HK$111 位，原價 HK$361",
-      "subtitle": "KKday 雙11 快閃預訂至 11/4 23:59 · 用餐期至 12/6",
-      "venue": "尖沙咀梳士巴利道 41 號香港基督教青年會港青酒店再臨閣",
-      "priceLabel": "平日自助午餐 HK$111/位（原價 HK$361/位，約 31 折）；長者午餐買一送一 HK$394/2 位（人均 HK$197）。價格以 KKday 商品頁即時顯示為準",
-      "priceValue": 111,
-      "originalLabel": "原價 HK$361/位",
-      "discountPct": 69,
-      "endsAt": "2026-11-04T23:59:00+08:00",
-      "period": "預訂期：2026-10-29 12:00 至 11-04 23:59；用餐期：2026-10-29 至 12-06",
-      "summary": "尖沙咀港青酒店（The Salisbury - YMCA）再臨閣的雙11 快閃，平日自助午餐每位 HK$111，對比原價 HK$361 位等於約 31 折，是今輪少見的「兩位數」酒店自助午餐。再臨閣走親民路線，海鮮、沙律、熱葷、甜品齊備，落地玻璃望住尖沙咀東部一帶，地點就腳，行完海旁或者睇完展直接上去食。長者同行有買一送一，2 位 HK$394、人均 HK$197。預訂期只到 11 月 4 日 23:59，用餐期就拉到 12 月 6 日，買完可以慢慢揀日子。",
-      "highlights": [
-        "平日自助午餐 HK$111/位，原價 HK$361/位（約 31 折）",
-        "長者午餐買一送一：2 位 HK$394、人均 HK$197",
-        "預訂期至 11/4 23:59，用餐期長至 12/6，買完可慢慢訂位",
-        "位於尖沙咀梳士巴利道，港鐵尖東站步行數分鐘",
-        "名額限量，售完即止；買券後仍須向餐廳訂位"
-      ],
-      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
-      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-10-31，列明價格、原價、預訂期與用餐期）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556724-KKday-%E9%9B%9911",
-      "tags": [
-        "自助餐",
-        "雙11",
-        "尖沙咀",
-        "酒店",
-        "長者優惠"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-wingleewai-double11-crab-20261103",
       "category": "dining",
@@ -127,7 +54,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -163,8 +90,8 @@
         "黃竹坑"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-harbourgrandkowloon-hoiyuntin-crabduck-20261102",
@@ -200,8 +127,8 @@
         "雙11"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-dragoncastle-lungboon-dinner-111-20261102",
@@ -235,8 +162,8 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-oceanpark-marriott-marinakitchen-111-20261102",
@@ -270,8 +197,8 @@
         "海南菜"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-sheraton-tungchung-cafelantau-double11-20261103",
@@ -310,8 +237,8 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-parklane-playt-double11bogo-20261102",
@@ -347,7 +274,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 10,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -384,7 +311,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 10,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -419,7 +346,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -455,7 +382,7 @@
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -486,7 +413,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -517,7 +444,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -548,7 +475,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -578,7 +505,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -613,7 +540,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -648,7 +575,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -683,7 +610,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -719,7 +646,7 @@
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 27,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -756,7 +683,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 40,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -791,7 +718,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 45,
+      "daysLeft": 43,
       "status": "active"
     },
     {
@@ -827,7 +754,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 89,
+      "daysLeft": 87,
       "status": "active"
     },
     {
@@ -4246,6 +4173,79 @@
         "生蠔"
       ],
       "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-promenade-metropolis-double11-20261030",
+      "category": "dining",
+      "title": "紅磡都會海逸西餐廳「雙11」第 2 位 HK$11，自助午餐人均 HK$292 起",
+      "subtitle": "官網 eShop 預購 · 預訂 10/29 12:00 至 11/4 23:59 · 用餐 11/1–11/30 · 11/1–15 晚餐每位送大閘蟹",
+      "venue": "九龍紅磡都會道 7 號都會海逸酒店 7 樓西餐廳 Promenade（港鐵紅磡站 C2 出口）",
+      "priceLabel": "自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一，約 61 折）；自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一，約 61 折）。已包以原價計算的加一服務費，實際價錢以酒店 eShop 即時公佈為準",
+      "priceValue": 292,
+      "originalLabel": "自助午餐原價 HK$478／位、自助晚餐原價 HK$778／位（另加一服務費）",
+      "discountPct": 61,
+      "endsAt": "2026-11-04T23:59:00+08:00",
+      "period": "預訂期：2026-10-29 12:00 至 2026-11-04 23:59；用餐期：2026-11-01 至 11-30；只限經酒店官方 eShop 全費預購指定日子；11 月 1 至 15 日惠顧自助晚餐，每位成人送約 3.5 兩清蒸大閘蟹一隻",
+      "summary": "都會海逸酒店西餐廳 Promenade 推出 11 月「雙11」eShop 限定優惠：預購 1 位成人自助餐，即可以 HK$11 為第 2 位成人加購同一盛宴。自助午餐 2 位 HK$584.6 起（人均 HK$292.3，原價每位 HK$478 另加一），自助晚餐 2 位 HK$944.6 起（人均 HK$472.3，原價每位 HK$778 另加一），兩者均約 61 折，已包以原價計算的加一服務費。11 月自助晚餐主題為「歲暮蟹香」，有酥炸鱈場蟹肉棒、酥皮蟹肉龍蝦湯杯、薑蔥松葉蟹腳及泰式羅勒葉炒麵包蟹，即開生蠔、冰鎮熟龍蝦及雪花蟹腳輪流供應；11 月 1 至 15 日每位成人再送清蒸大閘蟹一隻。午餐亮點為雪花蟹腳、刺身、香草燒羊架、燒牛肉及 8 至 10 款 Mövenpick 雪糕，另任飲汽水、咖啡及紅茶。",
+      "highlights": [
+        "第 2 位成人只需 HK$11（經酒店 eShop 全費預購 1 位）",
+        "自助午餐人均 HK$292.3 起（原價每位 HK$478 另加一，約 61 折）",
+        "自助晚餐人均 HK$472.3 起（原價每位 HK$778 另加一，約 61 折）",
+        "已包以原價計算的加一服務費，毋須另外加一",
+        "11/1–15 惠顧自助晚餐每位成人送約 3.5 兩清蒸大閘蟹一隻",
+        "11 月晚餐主題「歲暮蟹香」，即開生蠔、冰鎮熟龍蝦、雪花蟹腳輪流供應",
+        "消費滿 HK$400 可享 3 小時免費代客泊車（每檯一輛，名額有限）"
+      ],
+      "url": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-lunch-buffet-double11-2026",
+      "sourceLabel": "都會海逸酒店官方 eShop 雙11 自助午餐／晚餐頁面 · 星島頭條 2026-10-29 預訂期",
+      "sourceUrl": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-lunch-buffet-double11-2026",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "紅磡",
+        "都會海逸",
+        "大閘蟹",
+        "第2位優惠"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-ymca-salisbury-haven-lunch111-20261103",
+      "category": "dining",
+      "title": "尖沙咀港青酒店再臨閣雙11 自助午餐 HK$111 位，原價 HK$361",
+      "subtitle": "KKday 雙11 快閃預訂至 11/4 23:59 · 用餐期至 12/6",
+      "venue": "尖沙咀梳士巴利道 41 號香港基督教青年會港青酒店再臨閣",
+      "priceLabel": "平日自助午餐 HK$111/位（原價 HK$361/位，約 31 折）；長者午餐買一送一 HK$394/2 位（人均 HK$197）。價格以 KKday 商品頁即時顯示為準",
+      "priceValue": 111,
+      "originalLabel": "原價 HK$361/位",
+      "discountPct": 69,
+      "endsAt": "2026-11-04T23:59:00+08:00",
+      "period": "預訂期：2026-10-29 12:00 至 11-04 23:59；用餐期：2026-10-29 至 12-06",
+      "summary": "尖沙咀港青酒店（The Salisbury - YMCA）再臨閣的雙11 快閃，平日自助午餐每位 HK$111，對比原價 HK$361 位等於約 31 折，是今輪少見的「兩位數」酒店自助午餐。再臨閣走親民路線，海鮮、沙律、熱葷、甜品齊備，落地玻璃望住尖沙咀東部一帶，地點就腳，行完海旁或者睇完展直接上去食。長者同行有買一送一，2 位 HK$394、人均 HK$197。預訂期只到 11 月 4 日 23:59，用餐期就拉到 12 月 6 日，買完可以慢慢揀日子。",
+      "highlights": [
+        "平日自助午餐 HK$111/位，原價 HK$361/位（約 31 折）",
+        "長者午餐買一送一：2 位 HK$394、人均 HK$197",
+        "預訂期至 11/4 23:59，用餐期長至 12/6，買完可慢慢訂位",
+        "位於尖沙咀梳士巴利道，港鐵尖東站步行數分鐘",
+        "名額限量，售完即止；買券後仍須向餐廳訂位"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-10-31，列明價格、原價、預訂期與用餐期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556724-KKday-%E9%9B%9911",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "尖沙咀",
+        "酒店",
+        "長者優惠"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
       "daysLeft": 0,
       "status": "expired"
     }
