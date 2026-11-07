@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.flyandfeasthk.com/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/flight/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/hotel/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1148,87 +1148,75 @@
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/hotel-buffet-bogo/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/hk-departure-flights/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/deal-terms-checklist/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-self-drive/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-ryokan-booking/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-izakaya-cost/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/hotel-direct-vs-ota/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-rail-vs-drive/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-onsen-etiquette/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/dining-booking-rules/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/guides/japan-hidden-spots/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-wingleewai-double11-crab-20261103/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-conrad-gardencafe-lunch111-20261105/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-oceanpark-marriott-pier-thaibbq-20261101/</loc>
@@ -1267,8 +1255,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-fullerton-lighthouse-flash111-nov-20261107/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-playt-cwb-double11-second111-20261105/</loc>
     <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-kowloonhotel-harbourview-double11-20261107/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-xiqing-duckbuffet-111-20261107/</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1281,6 +1287,12 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-renaissance-cafe-double11bogo-20261102/</loc>
     <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-ngoudaaisou-mongkok-hotpot-20261107/</loc>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1369,38 +1381,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-sunsetgrill-tungchung-xmas-bogo-20261107/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.flyandfeasthk.com/deals/flight-hkexpress-taiwan-fuelcut-20261017/</loc>
     <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-yuanweixiaoji-crab-lobster-steam-20261001/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/flight-hkexpress-japan-flashsale-20261005/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-cafetoo-admiralty-20260911/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-cafetoo-isl-lunch-b2g2-20260927/</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-leewinghin-dimsun-dduck-buffet-20261001/</loc>
-    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1683,6 +1671,18 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-ymca-salisbury-haven-lunch111-20261103/</loc>
     <lastmod>2026-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-wingleewai-double11-crab-20261103/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-conrad-gardencafe-lunch111-20261105/</loc>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

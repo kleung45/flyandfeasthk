@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-05T22:32:36+08:00",
+    "updated": "2026-11-07T17:30:47+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,88 +11,16 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 125,
-      "active": 26,
-      "ending": 8,
-      "expired": 99,
+      "total": 130,
+      "active": 29,
+      "ending": 7,
+      "expired": 101,
       "flight": 15,
-      "dining": 110,
+      "dining": 115,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-wingleewai-double11-crab-20261103",
-      "category": "dining",
-      "title": "上環永利威雙11 大閘蟹：蟹公 HK$11/隻、蟹乸 HK$111/隻",
-      "subtitle": "KKday 預訂至 11/5 23:59 · 換領期至 12/19 · 門市自取或送貨",
-      "venue": "上環永利威（門市自取／送貨，換領期至 12 月 19 日）",
-      "priceLabel": "蟹公 HK$11/隻（原價 HK$218/隻）；蟹乸 HK$111/隻（原價 HK$328/隻）。價格與貨量以 KKday 商品頁及商戶即時公佈為準，售完即止",
-      "priceValue": 11,
-      "originalLabel": "蟹公原價 HK$218/隻、蟹乸原價 HK$328/隻",
-      "discountPct": 95,
-      "endsAt": "2026-11-05T23:59:00+08:00",
-      "period": "預訂期：2026-10-30 15:00 至 11-05 23:59；換領期：2026-10-30 至 12-19",
-      "summary": "上環老字號永利威的雙11 蟹券，蟹公每隻 HK$11（原價 HK$218）、蟹乸每隻 HK$111（原價 HK$328），屬限量搶購，售完即止。適逢大閘蟹當造，買券後可於 12 月 19 日前到門市自取或安排送貨，比逐隻現買平一大截。留意 $11 蟹公數量極少，通常開賣即清，落單前先確認規格、隻數與換領安排；蟹的實際重量與供應會隨季節浮動，以商戶當日公佈為準。",
-      "highlights": [
-        "蟹公 HK$11/隻，原價 HK$218/隻（限量，售完即止）",
-        "蟹乸 HK$111/隻，原價 HK$328/隻",
-        "預訂期至 11/5 23:59，換領期長至 12/19",
-        "門市自取或送貨，買券後可分次換領",
-        "蟹隻重量與貨量隨季節浮動，以商戶當日公佈為準"
-      ],
-      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
-      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-10-31，列明蟹公／蟹乸價格、原價與換領期）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556724-KKday-%E9%9B%9911",
-      "tags": [
-        "大閘蟹",
-        "雙11",
-        "上環",
-        "海鮮",
-        "限量"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-conrad-gardencafe-lunch111-20261105",
-      "category": "dining",
-      "title": "金鐘港麗酒店咖啡園／樂聚廊自助午餐快閃 HK$111 位，原價 HK$548 起",
-      "subtitle": "Klook 11/5 11:00 開搶 · 雙11 11 月 5–6 日快閃檔 · 約 20 折",
-      "venue": "金鐘法院道太古廣場香港港麗酒店咖啡園 Garden Café（樂聚廊 Lobby Lounge 同場適用）",
-      "priceLabel": "快閃自助午餐每位 HK$111（原價 HK$548 起，約 20 折）；名額限量、售完即止，實際價格以 Klook 商品頁即時顯示為準",
-      "priceValue": 111,
-      "originalLabel": "自助午餐原價 HK$548 起/位",
-      "discountPct": 80,
-      "endsAt": "2026-11-06T23:59:00+08:00",
-      "period": "Klook 快閃：2026-11-05 11:00 開搶（11 月 5–6 日快閃檔，售完即止）；用餐日期以 Klook 頁面為準",
-      "summary": "金鐘港麗酒店嘅雙11 快閃，咖啡園（Garden Café）自助午餐每位 HK$111，對比原價 HK$548 起等於約 20 折，屬今輪雙11 最抵嘅酒店自助午餐之一。咖啡園走環球自助路線，海鮮、刺身、即切烤肉、甜品齊備，太古廣場地點就腳，食完可以直接行金鐘廊。快閃屬 11 月 5–6 日限定檔，名額有限，通常開賣好快清，落手要快。留意買券後仍須向餐廳訂位，用餐日期以 Klook 頁面為準。",
-      "highlights": [
-        "自助午餐快閃每位 HK$111，原價 HK$548 起（約 20 折）",
-        "11 月 5 日 11:00 開搶，11 月 5–6 日快閃檔、售完即止",
-        "咖啡園 Garden Café 環球自助，太古廣場地點就腳",
-        "名額限量，買券後仍須向餐廳訂位",
-        "PayMe 碼 PM26NOV40 滿 $888 減 $40（Klook 推廣期至 11/30）"
-      ],
-      "url": "https://www.klook.com/zh-HK/deals/",
-      "sourceLabel": "GroupBuya Klook 11 月 5–6 日餐飲快閃整理（2026-11-05，列明 HK$111/位、原價 HK$548 起、開搶時間）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556962-Klook-%E9%A6%99%E6%B8%AF5%E5%A4%A7%E9%85%92%E5%BA%97%E7%B4%BASPA",
-      "tags": [
-        "自助餐",
-        "雙11",
-        "快閃",
-        "金鐘",
-        "酒店"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-oceanpark-marriott-pier-thaibbq-20261101",
       "category": "dining",
@@ -126,7 +54,7 @@
         "黃竹坑"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -163,7 +91,7 @@
         "雙11"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -198,7 +126,7 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -233,7 +161,7 @@
         "海南菜"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -273,7 +201,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -308,7 +236,39 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
+      "status": "ending"
+    },
+    {
+      "id": "dining-fullerton-lighthouse-flash111-nov-20261107",
+      "category": "dining",
+      "title": "黃竹坑富麗敦海洋公園酒店星耀廳 Klook 快閃新輪：自助午／晚每位 HK$111，原價 HK$537／HK$922",
+      "subtitle": "Klook 快閃 · 11/3 21:00 起發售至 11/9 · 約 21 折／12 折",
+      "venue": "黃竹坑海洋徑3號香港富麗敦海洋公園酒店1樓星耀廳（Lighthouse Café）",
+      "priceLabel": "自助午餐每位 HK$111（原價 HK$537，約 21 折）；自助晚餐每位 HK$111（原價 HK$922，約 12 折）；晚餐買一送一＋第3位 HK$218、人均 HK$408 起",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$537/位、自助晚餐原價 HK$922/位",
+      "discountPct": 88,
+      "endsAt": "2026-11-09T23:59:00+08:00",
+      "period": "Klook 發售期：2026-11-03 21:00 至 2026-11-09；適用日期：2026-11-04 至 2027-01-01（快閃名額有限，以 Klook 頁面為準）",
+      "summary": "富麗敦海洋公園酒店星耀廳「秋冬燒烤滋味盛宴」快閃開新輪：自助午餐或晚餐人均低至 HK$111，3.5 小時任食即席燒烤同海鮮刺身。晚市限定慢燒美國頂級和牛肩胛肉、香烤羊扒、燒原隻大頭蝦，逢星期五至日加映皮脆肉嫩燒乳豬，熱葷仲有臘味煲仔飯同泰式滷豬手。快閃名額有限，落手要快；價格以 Klook 頁面即時顯示為準。",
+      "highlights": [
+        "自助午／晚每位 HK$111（原價 HK$537／HK$922）",
+        "3.5 小時任食，現場燒烤專區即席炮製",
+        "晚市限定：和牛肩胛肉、烤羊扒、燒大頭蝦；週五至日加映燒乳豬",
+        "晚餐買一送一 HK$1,006/2 位，或買一送一＋第3位 HK$218 人均 HK$408",
+        "新輪發售期 11/3 21:00–11/9，適用至 2027/1/1"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/85072-hotel-buffet-the-fullerton-ocean-park-hotel-lighthouse-cafe",
+      "sourceLabel": "U Lifestyle 2026-11-03（引 Klook 85072 官方方案表）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116415",
+      "tags": [
+        "快閃",
+        "自助餐",
+        "燒烤"
+      ],
+      "sample": false,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -345,7 +305,73 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 6,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-kowloonhotel-harbourview-double11-20261107",
+      "category": "dining",
+      "title": "尖沙咀九龍酒店倚窗閣雙11快閃：自助午餐每位 HK$111，原價 HK$526",
+      "subtitle": "KKday 雙11 快閃 · 11/6 12:00 開搶至 11/12 · 約 21 折",
+      "venue": "尖沙咀彌敦道19-21號九龍酒店2樓倚窗閣（Window Café）",
+      "priceLabel": "自助午餐每位 HK$111（原價 HK$526 已包原價加一，約 21 折）；「蟹逅海洋」自助晚餐買一送一碼後人均 HK$430 起（原價 HK$834，約 52 折）；聖誕除夕節慶自助餐低至 6 折",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$526/位、自助晚餐原價 HK$834/位（已包原價加一服務費）",
+      "discountPct": 79,
+      "endsAt": "2026-11-12T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-06 12:00 至 2026-11-12 23:59；使用期：2026-11-06 至 12-31（各方案適用日子不同；聖誕除夕節慶餐 12/24–26、12/31 供應，部分方案節慶日不適用）",
+      "summary": "一向少出優惠嘅九龍酒店倚窗閣，今次同 KKday 推雙11 快閃：輸入優惠碼【DB11KL】自助午餐低至 HK$111/位（原價 HK$526 已包加一），其他方案用碼【DB11KL50】減 HK$50。「蟹逅海洋」自助晚餐任食雪花蟹腳、麵包蟹、三點蟹，熱葷有香煎鵝肝、日本 A5 和牛、北京片皮鴨，買一送一碼後人均 HK$430 起。連 12 月聖誕及除夕節慶自助餐都一齊開賣，低至 6 折。每張訂單及每名會員限用一組優惠碼，價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "優惠碼【DB11KL】：自助午餐每位 HK$111（原價 HK$526，約 21 折，已包原價加一）",
+        "優惠碼【DB11KL50】：其他方案減 HK$50，晚餐買一送一碼後人均 HK$430 起",
+        "「蟹逅海洋」晚餐任食雪花蟹腳／麵包蟹／三點蟹＋A5 和牛／煎鵝肝／片皮鴨",
+        "聖誕「北歐冬日」節慶晚餐低至 6 折 HK$549/位起、節慶午餐低至 7 折 HK$340/位起",
+        "3.5 小時任食，無限暢飲指定啤酒、汽水及果汁"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/120782",
+      "sourceLabel": "U Lifestyle 2026-11-06（引 KKday 官方方案表）＋myTV SUPER 交叉核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116931",
+      "tags": [
+        "雙11",
+        "快閃",
+        "買一送一",
+        "自助餐"
+      ],
+      "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-xiqing-duckbuffet-111-20261107",
+      "category": "dining",
+      "title": "雲海匯／囍慶片皮鴨放題 KKday 雙11限量快閃 HK$11/位，原價 HK$368",
+      "subtitle": "KKday 雙11 快閃 · 11/6 15:00 開搶至 11/12 · 約 3 折限量",
+      "venue": "深水埗雲海匯／沙田囍慶科學園／大圍囍慶顯徑（三店適用）",
+      "priceLabel": "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位（原價 HK$368/位）；第1位 HK$168＋第2位 HK$111、人均 HK$139.5；長者或小童第2位 HK$111、平日 HK$279/2 位",
+      "priceValue": 11,
+      "originalLabel": "片皮鴨放題原價 HK$368/位",
+      "discountPct": 97,
+      "endsAt": "2026-11-12T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-06 15:00 至 2026-11-12 23:59；使用日期：2026-11-07 至 2026-12-16",
+      "summary": "雙11 快閃又一個限量筍價：囍慶科學園片皮鴨 3 小時放題，星期一至五限量 HK$11/位（原價 HK$368），深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑三店都有份。冇搶到 $11 都唔緊要，第1位 HK$168＋第2位 HK$111 方案人均都係百幾蚊，45 款美食 3 小時任叫，紅白餐酒及生力啤酒任飲。限量快閃售完即止，價格以 KKday 頁面為準。",
+      "highlights": [
+        "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位，原價 HK$368",
+        "第1位 HK$168＋第2位 HK$111，人均約 HK$139.5（星期一至五）",
+        "45 款美食 3 小時無限任叫，紅白餐酒及生力啤酒任飲",
+        "每位送茄汁煎焗大虎蝦、雲南野菌燉響螺湯、蠔皇 6 頭鮮鮑魚",
+        "另收茶芥 HK$15/位、加一服務費及酸菜 HK$15/碟"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07，列明 HK$11/位、原價 HK$368、預訂／使用期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "快閃",
+        "限量",
+        "放題"
+      ],
+      "sample": false,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -382,7 +408,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 8,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -419,7 +445,40 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 8,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-ngoudaaisou-mongkok-hotpot-20261107",
+      "category": "dining",
+      "title": "旺角牛大帥天天鮮牛肉火鍋 KKday 雙11：潮汕牛肉放題宵夜買一送一人均 HK$149 起",
+      "subtitle": "KKday 雙11 快閃 · 11/8 12:00 開搶至 11/14 · 原價 HK$338/位",
+      "venue": "旺角彌敦道700號 T.O.P This is Our Place 地庫 R1 號舖（香港首店）",
+      "priceLabel": "宵夜時段（21:00 後入座）買一送一：星期日至四 HK$298/2 位、人均 HK$149（原價 HK$338/位，約 44 折）；自助晚餐第2位 HK$111、人均 HK$225；三人同行買二送一 HK$596/3 位、人均 HK$199；全日火鍋定食 HK$88/位（原價 HK$139）",
+      "priceValue": 149,
+      "originalLabel": "120 分鐘放題原價 HK$338/位",
+      "discountPct": 56,
+      "endsAt": "2026-11-14T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-08 12:00 至 2026-11-14 23:59；使用日期：2026-11-09 至 2026-12-31",
+      "summary": "牛大帥香港首店登陸旺角 T.O.P：一人一鍋 120 分鐘潮汕手切牛肉任食任飲，8 款牛肉（嫩牛肉、匙仁、雙層肉、匙柄、吊龍、牛胸油、牛舌等）任叫，每位送清蒸江蘇大閘蟹一隻（先到先得）。雙11 快閃最抵係宵夜場買一送一，人均 HK$149 平過北上食潮汕火鍋。留意另收每位醬料費 HK$18 及 10% 服務費，價格以 KKday 頁面為準。",
+      "highlights": [
+        "宵夜買一送一（21:00 後入座）：日日至四人均 HK$149、五六人均 HK$159",
+        "自助晚餐第 2 位 HK$111，人均 HK$225；三人買二送一人均 HK$199",
+        "全日火鍋定食 HK$88/位（原價 HK$139），免醬料費",
+        "每位送清蒸江蘇大閘蟹一隻（先到先得、送完即止）",
+        "另收每位醬料費 HK$18 及 10% 服務費"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/569461",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07）＋KKday 產品頁／官方 Blog 交叉核實",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "快閃",
+        "買一送一",
+        "火鍋放題"
+      ],
+      "sample": false,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -454,7 +513,7 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -490,7 +549,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 15,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -526,7 +585,7 @@
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 23,
+      "daysLeft": 21,
       "status": "active"
     },
     {
@@ -557,7 +616,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -588,7 +647,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -619,7 +678,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -649,7 +708,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -684,7 +743,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -719,7 +778,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -754,7 +813,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -790,7 +849,7 @@
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -825,7 +884,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 25,
+      "daysLeft": 23,
       "status": "active"
     },
     {
@@ -862,7 +921,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -897,6 +956,38 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
+      "daysLeft": 41,
+      "status": "active"
+    },
+    {
+      "id": "dining-sunsetgrill-tungchung-xmas-bogo-20261107",
+      "category": "dining",
+      "title": "東涌喜來登海岸扒房聖誕節日早午餐買一送一 HK$592.8 起，原價 HK$1,086.8 起",
+      "subtitle": "酒店網店預訂 · 約 55 折 · 12 月 19–20、27 日供應",
+      "venue": "東涌喜來登酒店19樓海岸扒房（Sunset Grill，景觀餐廳）",
+      "priceLabel": "節日早午餐（12/19、20、27）買一送一 HK$592.8 起（原價 HK$1,086.8 起，約 55 折）；12/25–26 早午餐 6 折 HK$691.6 起；節日晚餐（12/24–25）8 折 HK$1,168.2 起",
+      "priceValue": 592.8,
+      "originalLabel": "節日早午餐原價 HK$1,086.8 起",
+      "discountPct": 45,
+      "endsAt": "2026-12-20T23:59:00+08:00",
+      "period": "酒店網店預訂：即日起（官方未列明截止日，以網店為準）；供應日期：2026-12-19、20、27（早午餐買一送一）；12/25–26 為 6 折早午餐、12/24–25 為 8 折晚餐",
+      "summary": "東涌喜來登 19 樓海岸扒房推出聖誕節日盛宴，網店預訂節日早午餐買一送一，HK$592.8 起（原價 HK$1,086.8 起，約 55 折），仲有大廚即席料理火焰戴安娜牛扒，歎住 19 樓景觀食聖誕 Brunch。同期仲有節日晚餐 8 折同聖誕外賣套餐 8 折（30 天乾式熟成 T 骨牛扒）。買一送一名額有限，建議提早網店預訂；價格以酒店網店即時公佈為準。",
+      "highlights": [
+        "節日早午餐買一送一 HK$592.8 起（原價 HK$1,086.8 起，約 55 折）",
+        "大廚即席料理火焰戴安娜牛扒，19 樓景觀",
+        "12/25–26 早午餐 6 折 HK$691.6 起；12/24–25 晚餐 8 折 HK$1,168.2 起",
+        "節日外賣套餐（3–4 位）8 折 HK$1,590.4，主菜 30 天乾式熟成 T 骨牛扒（須 48 小時前預訂）",
+        "同場：嶼坊聖誕自助餐網店 7 折起（12/24–26）"
+      ],
+      "url": "https://hk.ulifestyle.com.hk/activity/detail/20116848",
+      "sourceLabel": "U Lifestyle 2026-11-05（引香港東涌喜來登酒店官方稿，列明買一送一價、原價與供應日）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116848",
+      "tags": [
+        "聖誕",
+        "買一送一",
+        "早午餐"
+      ],
+      "sample": false,
       "daysLeft": 43,
       "status": "active"
     },
@@ -933,7 +1024,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 87,
+      "daysLeft": 85,
       "status": "active"
     },
     {
@@ -4421,6 +4512,78 @@
         "尖沙咀",
         "酒店",
         "長者優惠"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-wingleewai-double11-crab-20261103",
+      "category": "dining",
+      "title": "上環永利威雙11 大閘蟹：蟹公 HK$11/隻、蟹乸 HK$111/隻",
+      "subtitle": "KKday 預訂至 11/5 23:59 · 換領期至 12/19 · 門市自取或送貨",
+      "venue": "上環永利威（門市自取／送貨，換領期至 12 月 19 日）",
+      "priceLabel": "蟹公 HK$11/隻（原價 HK$218/隻）；蟹乸 HK$111/隻（原價 HK$328/隻）。價格與貨量以 KKday 商品頁及商戶即時公佈為準，售完即止",
+      "priceValue": 11,
+      "originalLabel": "蟹公原價 HK$218/隻、蟹乸原價 HK$328/隻",
+      "discountPct": 95,
+      "endsAt": "2026-11-05T23:59:00+08:00",
+      "period": "預訂期：2026-10-30 15:00 至 11-05 23:59；換領期：2026-10-30 至 12-19",
+      "summary": "上環老字號永利威的雙11 蟹券，蟹公每隻 HK$11（原價 HK$218）、蟹乸每隻 HK$111（原價 HK$328），屬限量搶購，售完即止。適逢大閘蟹當造，買券後可於 12 月 19 日前到門市自取或安排送貨，比逐隻現買平一大截。留意 $11 蟹公數量極少，通常開賣即清，落單前先確認規格、隻數與換領安排；蟹的實際重量與供應會隨季節浮動，以商戶當日公佈為準。",
+      "highlights": [
+        "蟹公 HK$11/隻，原價 HK$218/隻（限量，售完即止）",
+        "蟹乸 HK$111/隻，原價 HK$328/隻",
+        "預訂期至 11/5 23:59，換領期長至 12/19",
+        "門市自取或送貨，買券後可分次換領",
+        "蟹隻重量與貨量隨季節浮動，以商戶當日公佈為準"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-10-31，列明蟹公／蟹乸價格、原價與換領期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556724-KKday-%E9%9B%9911",
+      "tags": [
+        "大閘蟹",
+        "雙11",
+        "上環",
+        "海鮮",
+        "限量"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-conrad-gardencafe-lunch111-20261105",
+      "category": "dining",
+      "title": "金鐘港麗酒店咖啡園／樂聚廊自助午餐快閃 HK$111 位，原價 HK$548 起",
+      "subtitle": "Klook 11/5 11:00 開搶 · 雙11 11 月 5–6 日快閃檔 · 約 20 折",
+      "venue": "金鐘法院道太古廣場香港港麗酒店咖啡園 Garden Café（樂聚廊 Lobby Lounge 同場適用）",
+      "priceLabel": "快閃自助午餐每位 HK$111（原價 HK$548 起，約 20 折）；名額限量、售完即止，實際價格以 Klook 商品頁即時顯示為準",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$548 起/位",
+      "discountPct": 80,
+      "endsAt": "2026-11-06T23:59:00+08:00",
+      "period": "Klook 快閃：2026-11-05 11:00 開搶（11 月 5–6 日快閃檔，售完即止）；用餐日期以 Klook 頁面為準",
+      "summary": "金鐘港麗酒店嘅雙11 快閃，咖啡園（Garden Café）自助午餐每位 HK$111，對比原價 HK$548 起等於約 20 折，屬今輪雙11 最抵嘅酒店自助午餐之一。咖啡園走環球自助路線，海鮮、刺身、即切烤肉、甜品齊備，太古廣場地點就腳，食完可以直接行金鐘廊。快閃屬 11 月 5–6 日限定檔，名額有限，通常開賣好快清，落手要快。留意買券後仍須向餐廳訂位，用餐日期以 Klook 頁面為準。",
+      "highlights": [
+        "自助午餐快閃每位 HK$111，原價 HK$548 起（約 20 折）",
+        "11 月 5 日 11:00 開搶，11 月 5–6 日快閃檔、售完即止",
+        "咖啡園 Garden Café 環球自助，太古廣場地點就腳",
+        "名額限量，買券後仍須向餐廳訂位",
+        "PayMe 碼 PM26NOV40 滿 $888 減 $40（Klook 推廣期至 11/30）"
+      ],
+      "url": "https://www.klook.com/zh-HK/deals/",
+      "sourceLabel": "GroupBuya Klook 11 月 5–6 日餐飲快閃整理（2026-11-05，列明 HK$111/位、原價 HK$548 起、開搶時間）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556962-Klook-%E9%A6%99%E6%B8%AF5%E5%A4%A7%E9%85%92%E5%BA%97%E7%B4%BASPA",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "快閃",
+        "金鐘",
+        "酒店"
       ],
       "sample": false,
       "postedFacebook": false,
