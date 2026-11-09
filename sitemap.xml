@@ -8,25 +8,25 @@
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/flight/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyandfeasthk.com/deals/hotel/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1255,6 +1255,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-langham-foodgallery-second11-20261109/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-playt-cwb-double11-second111-20261105/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1293,6 +1299,12 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-cafetoo-admiralty-crabseafood-kkday-20261011/</loc>
     <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-wmhotel-kkday-second11-20261109/</loc>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1359,6 +1371,12 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/flight-sunphuquoc-phuquoc-lastminute-20261105/</loc>
     <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-oceanpark-marriott-marinakitchen-bogo-nov-20261109/</loc>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

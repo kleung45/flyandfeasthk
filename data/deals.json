@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-09T15:37:05+08:00",
+    "updated": "2026-11-09T15:58:03+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,12 +11,12 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 130,
-      "active": 23,
-      "ending": 4,
+      "total": 133,
+      "active": 26,
+      "ending": 5,
       "expired": 107,
       "flight": 15,
-      "dining": 115,
+      "dining": 118,
       "hotel": 0
     }
   },
@@ -51,6 +51,40 @@
       ],
       "sample": false,
       "daysLeft": 0,
+      "status": "ending"
+    },
+    {
+      "id": "dining-langham-foodgallery-second11-20261109",
+      "category": "dining",
+      "title": "尖沙咀朗廷酒店 The Food Gallery 第二位 +HK$11，平日自助午餐 2 位 HK$602",
+      "subtitle": "KKday 雙11 · 預訂至 11/10 · 使用期 11/5 至 11/30 · 約 51 折",
+      "venue": "尖沙咀北京道8號香港朗廷酒店 The Food Gallery",
+      "priceLabel": "第二位 +HK$11：平日自助午餐 2 位 HK$602（人均 HK$301）、週末及公眾假期 2 位 HK$778（人均 HK$389）；買一送一＋第三位 HK$111：平日 3 位 HK$756（人均 HK$252）；自助晚餐（一至四）2 位 HK$900（人均 HK$450），以上已包原價加一服務費",
+      "priceValue": 602,
+      "originalLabel": "自助午餐原價每位 HK$592 起、自助晚餐原價每位 HK$900 起（已包原價加一）",
+      "discountPct": 49,
+      "endsAt": "2026-11-10T23:59:00+08:00",
+      "period": "KKday 預訂期至 2026-11-10 23:59；使用期：2026-11-05 至 2026-11-30",
+      "summary": "朗廷酒店 The Food Gallery 的雙11 方案做到「第二位 +HK$11」：平日自助午餐 2 位 HK$602（人均 HK$301，原價每位 HK$592 起），週末及假期 2 位 HK$778；三人同行可揀買一送一＋第三位 HK$111，平日 3 位 HK$756、人均 HK$252。午餐連無限暢飲指定飲品，時段星期一至五 12:00–14:30、週末 11:30–15:00。預訂期只剩至 11 月 10 日，使用期至 11 月 30 日。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "平日自助午餐第二位 +HK$11：2 位 HK$602，人均 HK$301（原價每位 HK$592 起）",
+        "買一送一＋第三位 HK$111：平日 3 位 HK$756，人均 HK$252",
+        "自助晚餐（一至四）第二位 +HK$11：2 位 HK$900，人均 HK$450",
+        "午餐已包無限暢飲指定飲品，價錢已含原價加一服務費",
+        "預訂期至 11/10，使用期至 11/30，適合 11 月聚餐"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
+      "sourceLabel": "GroupBuya／KKday 雙11 方案表 ＋ RunHotel（2026-11 自助餐合集，核對預訂及適用期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "第二位優惠",
+        "買一送一",
+        "自助餐",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -293,6 +327,40 @@
         "金鐘",
         "海鮮",
         "快閃"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-wmhotel-kkday-second11-20261109",
+      "category": "dining",
+      "title": "西貢 WM 酒店 WM 咖啡廳雙11：第二位 +HK$11，平日半自助午餐人均 HK$247",
+      "subtitle": "KKday 雙11 快閃 · 11/9 12:00 開搶至 11/15 · 11/10 起可用至 2027/1/1",
+      "venue": "西貢惠民路28號 WM 酒店 LG 樓層 WM 咖啡廳",
+      "priceLabel": "第二位 +HK$11：平日半自助午餐 2 位 HK$493（人均 HK$247）、週末自助早午餐 2 位 HK$603（人均 HK$302）、自助晚餐（一至四）2 位 HK$779（人均 HK$390）、自助晚餐（五至日）2 位 HK$989（人均 HK$495，每位成人送 4.5 兩大閘蟹），以上已包加一服務費",
+      "priceValue": 493,
+      "originalLabel": "平日半自助午餐原價每位 HK$493 起、自助晚餐原價每位 HK$779 起（已包加一）",
+      "discountPct": 50,
+      "endsAt": "2026-11-15T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-09 12:00 至 2026-11-15 23:59；使用期：2026-11-10 至 2027-01-01；每次需購買 2 位，優惠適用不多於 12 位",
+      "summary": "西貢 WM 酒店 WM 咖啡廳加入 KKday 雙11 快閃，11 月 9 日中午 12 時開搶：第二位只加 HK$11，等於兩個人食一個價錢多一點。平日半自助午餐 2 位 HK$493（人均 HK$247）、週末自助早午餐 2 位 HK$603（人均 HK$302）、自助晚餐一至四 2 位 HK$779（人均 HK$390）。「金秋蟹宴」主題有即開生蠔、松葉蟹腳、法國麵包蟹、蟹粉小籠包；五至日晚市每位成人再送 4.5 兩大閘蟹，亦有 2 位 HK$1,111 送氣泡酒方案。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "第二位 +HK$11：平日半自助午餐 2 位 HK$493，人均 HK$247（已包加一）",
+        "自助晚餐（一至四）2 位 HK$779，人均 HK$390；五至日 2 位 HK$989，每位成人送 4.5 兩大閘蟹",
+        "「金秋蟹宴」：即開生蠔、松葉蟹腳、法國麵包蟹、蟹粉小籠包",
+        "2 位 HK$1,111 方案送精選氣泡酒一瓶；聖誕新年節日自助晚餐 HK$719/位",
+        "使用期長達 2027-01-01，跨聖誕新年都適用（節慶日供應以餐廳公佈為準）"
+      ],
+      "url": "https://www.groupbuya.com/jetso/557135-KKday-%E9%9B%9911",
+      "sourceLabel": "GroupBuya 2026-11-09（轉載 KKday 雙11 官方方案及預訂期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557135-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "快閃",
+        "第二位優惠",
+        "自助餐",
+        "西貢"
       ],
       "sample": false,
       "daysLeft": 6,
@@ -666,6 +734,40 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
+      "daysLeft": 21,
+      "status": "active"
+    },
+    {
+      "id": "dining-oceanpark-marriott-marinakitchen-bogo-nov-20261109",
+      "category": "dining",
+      "title": "黃竹坑海洋公園萬豪海灣餐廳 11 月快閃：成人買一送一，自助午餐人均 HK$311 起",
+      "subtitle": "KKday 快閃 · 11 月限定 · PayMe 碼再減 HK$80",
+      "venue": "黃竹坑黃竹坑道180號香港海洋公園萬豪酒店海灣餐廳（Marina Kitchen）",
+      "priceLabel": "成人買一送一：自助午餐人均 HK$311 起、自助晚餐人均 HK$479 起；成人買二送一：午餐人均 HK$397 起、晚餐人均 HK$612 起；PayMe 預訂用碼【PMOPM】額外減 HK$80，65 折後午餐 HK$389 起、晚餐 HK$599 起（單人價，毋須湊夠兩位）",
+      "priceValue": 311,
+      "originalLabel": "買一送一即第二位免費，折合約 5 折；原價以 KKday 頁面原價欄為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "11 月限定；買一送一及各方案供應日子、名額以 KKday 頁面即時顯示為準",
+      "summary": "海洋公園萬豪海灣餐廳 11 月推新一輪快閃：成人買一送一，自助午餐人均 HK$311 起、自助晚餐人均 HK$479 起；三人或以上可揀買二送一。用 PayMe 付款並輸入優惠碼【PMOPM】可再減 HK$80，65 折方案午餐 HK$389 起、晚餐 HK$599 起。10 至 11 月限定「海南風情自助晚餐」，由三亞兩間萬豪系酒店客席主廚主理，重點有文昌雞芒果沙律、海南粉肉蒸膏蟹、海鮮糟粕醋粉；同行小朋友可免費玩兒童遊樂天地。價格以平台即時報價為準。",
+      "highlights": [
+        "成人買一送一：自助午餐人均 HK$311 起、自助晚餐人均 HK$479 起",
+        "PayMe 優惠碼【PMOPM】額外減 HK$80，65 折後午餐 HK$389 起",
+        "10–11 月限定「海南風情自助晚餐」：文昌雞芒果沙律、海南粉肉蒸膏蟹、海鮮糟粕醋粉",
+        "同行小童免費使用兒童遊樂天地（09:00–21:00，毋須預約）",
+        "餐廳設室內狗隻友善區，攜寵物須提前訂座（週末及公眾假期不適用）"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/141238",
+      "sourceLabel": "U Lifestyle 2026-11-08（引 KKday 官方方案價目表）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20037042",
+      "tags": [
+        "快閃",
+        "買一送一",
+        "自助餐",
+        "黃竹坑",
+        "PayMe"
+      ],
+      "sample": false,
       "daysLeft": 21,
       "status": "active"
     },
