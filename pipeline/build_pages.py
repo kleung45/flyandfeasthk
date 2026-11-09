@@ -319,9 +319,9 @@ SITE_FALLBACK = "https://www.flyandfeasthk.com"
 # 對外聯絡資料：如要更改，只改這裡。
 CONTACT = {
     "brand": "Fly & Feast HK 飛嚐香港",
-    "whatsapp": "+852 5545 1490",
-    "whatsapp_url": "https://wa.me/85255451490",
-    "email": "keith@ooowls.com",
+    "whatsapp": "+852 9549 4526",
+    "whatsapp_url": "https://wa.me/85295494526",
+    "email": "hello@flyandfeasthk.com",
     "facebook": "https://www.facebook.com/profile.php?id=1281889241677837",
     "facebook_label": "Flyandfeasthk",
 }
