@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-09T16:29:58+08:00",
+    "updated": "2026-11-10T15:10:18+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,47 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 133,
-      "active": 26,
-      "ending": 5,
-      "expired": 107,
+      "active": 25,
+      "ending": 6,
+      "expired": 108,
       "flight": 15,
       "dining": 118,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-fullerton-lighthouse-flash111-nov-20261107",
-      "category": "dining",
-      "title": "黃竹坑富麗敦海洋公園酒店星耀廳 Klook 快閃新輪：自助午／晚每位 HK$111，原價 HK$537／HK$922",
-      "subtitle": "Klook 快閃 · 11/3 21:00 起發售至 11/9 · 約 21 折／12 折",
-      "venue": "黃竹坑海洋徑3號香港富麗敦海洋公園酒店1樓星耀廳（Lighthouse Café）",
-      "priceLabel": "自助午餐每位 HK$111（原價 HK$537，約 21 折）；自助晚餐每位 HK$111（原價 HK$922，約 12 折）；晚餐買一送一＋第3位 HK$218、人均 HK$408 起",
-      "priceValue": 111,
-      "originalLabel": "自助午餐原價 HK$537/位、自助晚餐原價 HK$922/位",
-      "discountPct": 88,
-      "endsAt": "2026-11-09T23:59:00+08:00",
-      "period": "Klook 發售期：2026-11-03 21:00 至 2026-11-09；適用日期：2026-11-04 至 2027-01-01（快閃名額有限，以 Klook 頁面為準）",
-      "summary": "富麗敦海洋公園酒店星耀廳「秋冬燒烤滋味盛宴」快閃開新輪：自助午餐或晚餐人均低至 HK$111，3.5 小時任食即席燒烤同海鮮刺身。晚市限定慢燒美國頂級和牛肩胛肉、香烤羊扒、燒原隻大頭蝦，逢星期五至日加映皮脆肉嫩燒乳豬，熱葷仲有臘味煲仔飯同泰式滷豬手。快閃名額有限，落手要快；價格以 Klook 頁面即時顯示為準。",
-      "highlights": [
-        "自助午／晚每位 HK$111（原價 HK$537／HK$922）",
-        "3.5 小時任食，現場燒烤專區即席炮製",
-        "晚市限定：和牛肩胛肉、烤羊扒、燒大頭蝦；週五至日加映燒乳豬",
-        "晚餐買一送一 HK$1,006/2 位，或買一送一＋第3位 HK$218 人均 HK$408",
-        "新輪發售期 11/3 21:00–11/9，適用至 2027/1/1"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/85072-hotel-buffet-the-fullerton-ocean-park-hotel-lighthouse-cafe",
-      "sourceLabel": "U Lifestyle 2026-11-03（引 Klook 85072 官方方案表）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116415",
-      "tags": [
-        "快閃",
-        "自助餐",
-        "燒烤"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-langham-foodgallery-second11-20261109",
       "category": "dining",
@@ -85,7 +53,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -122,7 +90,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -155,7 +123,7 @@ window.DEAL_DATA = {
         "自助餐"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -188,7 +156,7 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -225,8 +193,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-renaissance-cafe-double11bogo-20261102",
@@ -262,8 +230,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-ngoudaaisou-mongkok-hotpot-20261107",
@@ -295,7 +263,7 @@ window.DEAL_DATA = {
         "火鍋放題"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -330,7 +298,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -364,7 +332,7 @@ window.DEAL_DATA = {
         "西貢"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -400,7 +368,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -436,7 +404,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 19,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -467,7 +435,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -498,7 +466,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -529,7 +497,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -559,7 +527,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -594,7 +562,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -629,7 +597,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -664,7 +632,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -700,7 +668,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -735,7 +703,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -769,7 +737,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -806,7 +774,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -841,7 +809,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -873,7 +841,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 41,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -909,7 +877,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 83,
+      "daysLeft": 82,
       "status": "active"
     },
     {
@@ -4691,6 +4659,38 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-fullerton-lighthouse-flash111-nov-20261107",
+      "category": "dining",
+      "title": "黃竹坑富麗敦海洋公園酒店星耀廳 Klook 快閃新輪：自助午／晚每位 HK$111，原價 HK$537／HK$922",
+      "subtitle": "Klook 快閃 · 11/3 21:00 起發售至 11/9 · 約 21 折／12 折",
+      "venue": "黃竹坑海洋徑3號香港富麗敦海洋公園酒店1樓星耀廳（Lighthouse Café）",
+      "priceLabel": "自助午餐每位 HK$111（原價 HK$537，約 21 折）；自助晚餐每位 HK$111（原價 HK$922，約 12 折）；晚餐買一送一＋第3位 HK$218、人均 HK$408 起",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$537/位、自助晚餐原價 HK$922/位",
+      "discountPct": 88,
+      "endsAt": "2026-11-09T23:59:00+08:00",
+      "period": "Klook 發售期：2026-11-03 21:00 至 2026-11-09；適用日期：2026-11-04 至 2027-01-01（快閃名額有限，以 Klook 頁面為準）",
+      "summary": "富麗敦海洋公園酒店星耀廳「秋冬燒烤滋味盛宴」快閃開新輪：自助午餐或晚餐人均低至 HK$111，3.5 小時任食即席燒烤同海鮮刺身。晚市限定慢燒美國頂級和牛肩胛肉、香烤羊扒、燒原隻大頭蝦，逢星期五至日加映皮脆肉嫩燒乳豬，熱葷仲有臘味煲仔飯同泰式滷豬手。快閃名額有限，落手要快；價格以 Klook 頁面即時顯示為準。",
+      "highlights": [
+        "自助午／晚每位 HK$111（原價 HK$537／HK$922）",
+        "3.5 小時任食，現場燒烤專區即席炮製",
+        "晚市限定：和牛肩胛肉、烤羊扒、燒大頭蝦；週五至日加映燒乳豬",
+        "晚餐買一送一 HK$1,006/2 位，或買一送一＋第3位 HK$218 人均 HK$408",
+        "新輪發售期 11/3 21:00–11/9，適用至 2027/1/1"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/85072-hotel-buffet-the-fullerton-ocean-park-hotel-lighthouse-cafe",
+      "sourceLabel": "U Lifestyle 2026-11-03（引 Klook 85072 官方方案表）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116415",
+      "tags": [
+        "快閃",
+        "自助餐",
+        "燒烤"
+      ],
+      "sample": false,
       "daysLeft": 0,
       "status": "expired"
     }
