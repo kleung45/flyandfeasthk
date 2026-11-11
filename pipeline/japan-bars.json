@@ -1,12 +1,11 @@
 {
  "meta": {
   "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-  "updated": "2026-11-04",
+  "updated": "2026-11-11",
   "minRating": 4.3,
   "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
   "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
   "rotation": [
-   "九州",
    "東北",
    "沖繩",
    "關西",
@@ -14,9 +13,10 @@
    "北海道",
    "中國／瀨戶內",
    "四國",
-   "中部／東海"
+   "中部／東海",
+   "九州"
   ],
-  "updatedAt": "2026-11-04"
+  "updatedAt": "2026-11-11"
  },
  "bars": [
   {
@@ -1248,6 +1248,106 @@
    "sourceLabel": "Wanderlog（引用 Google 4.8、284 則）",
    "sourceUrl": "https://wanderlog.com/place/details/746557",
    "addedAt": "2026-11-04"
+  },
+  {
+   "id": "jp-bar-kumamoto-hirata",
+   "name": "Bar Hirata（バー ヒラタ）",
+   "nameEn": "Bar Hirata",
+   "city": "熊本",
+   "area": "下通（市中心商店街）",
+   "region": "kyushu",
+   "barType": "both",
+   "signature": "威士忌與經典雞尾酒（Restaurant Guru 分類列 Cocktail bars、評論常提 Whiskey）",
+   "rating": 4.6,
+   "reviews": 36,
+   "ratingCheckedAt": "2026-11-11",
+   "priceBand": "人均約 ¥2,000–4,000（Restaurant Guru 列示，以現場酒單為準）",
+   "address": "熊本県熊本市中央区下通1-5-23",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Hirata%20%E4%B8%8B%E9%80%9A%20%E7%86%8A%E6%9C%AC",
+   "blurb": "熊本市中心下通商店街一帶的正統吧，規模不大、氣氛安靜，收信用卡、可訂位。酒以威士忌同雞尾酒為主幹，多則評論提到店員服務有禮、調酒有水準；亦屬「可以順便食少少嘢」嘅店。開到凌晨三點，係熊本夜生活嘅收尾站之一。",
+   "highlights": [
+    "熊本下通一帶少有的正統吧，評論常提威士忌與雞尾酒兩項",
+    "可訂位、收信用卡（Restaurant Guru 列示）",
+    "營業至凌晨 3 點，適合做熊本夜晚行程最後一站",
+    "評分 4.6，屬熊本評分最高的一批酒吧"
+   ],
+   "tips": [
+    "星期日休息；週一至六 20:00–03:00（Restaurant Guru 列示，以店家即時資訊為準）",
+    "公開來源地址只到丁目級（下通1-5-23），無大廈樓層資料——導航請直接以 Google Maps 搜尋店名為準",
+    "座位費（チャージ）與吸煙規定未見可靠來源寫明，入座前問一句最穩",
+    "可訂位，週末想坐吧檯建議先訂",
+    "位於下通商店街內，行街完直接插入行程好方便；酒後唔好揸車"
+   ],
+   "sourceLabel": "Restaurant Guru（引用 Google 評分 4.6、36 則；2026-11-11 查核）",
+   "sourceUrl": "https://restaurantguru.com/Bar-Hirata-Kumamoto",
+   "addedAt": "2026-11-11"
+  },
+  {
+   "id": "jp-bar-kagoshima-cre8yuragi",
+   "name": "Cocktail Cre8 ゆらぎ",
+   "nameEn": "Cocktail Cre8 Yuragi",
+   "city": "鹿兒島",
+   "area": "千日町（天文館旁）",
+   "region": "kyushu",
+   "barType": "cocktail",
+   "signature": "用屋久島タンカン橙、種子島安納芋等鹿兒島時令食材入酒的雞尾酒；自家製生巧克力；稀有威士忌與陳年舊瓶；可配雪茄",
+   "rating": 4.7,
+   "reviews": 139,
+   "ratingCheckedAt": "2026-11-11",
+   "priceBand": "人均約 ¥5,000（鹿兒島市官方觀光網列示）；座位費有客人提及 ¥600（Google 評論，以現場為準）",
+   "address": "鹿児島県鹿児島市千日町9-5 公園ビル 1F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cocktail%20Cre8%20%E3%82%86%E3%82%89%E3%81%8E%20%E5%8D%83%E6%97%A5%E7%94%BA%20%E9%B9%BF%E5%85%90%E5%B3%B6",
+   "blurb": "天文館旁千日町的 speakeasy 風正統吧，長長的單板木吧檯、暖色燈光，被鹿兒島市官方觀光網點名推介。雞尾酒用鹿兒島本地時令食材——屋久島的タンカン橙、種子島的安納芋都入過酒；後吧藏有稀有威士忌與陳年舊瓶，店內可以抽雪茄，配自家製生巧克力。店主石堂（Ishido）與店員 Sakurai 被外國客人反覆點名讚 service 細心，多名評論者形容這是「鹿兒島最喜歡的正統吧」。",
+   "highlights": [
+    "鹿兒島市官方觀光網點名推介的「成年人隱密酒吧」",
+    "雞尾酒用鹿兒島時令食材（屋久島タンカン橙、種子島安納芋），季節一變酒單就變",
+    "稀有威士忌與陳年舊瓶齊備，店內可以抽雪茄",
+    "座位費約 ¥600（Google 評論提及），在日本正統吧中算親民",
+    "評分 4.7／139 則，屬鹿兒島評分最高的酒吧之一"
+   ],
+   "tips": [
+    "星期一休息；官方列 18:00–翌日 03:00（週日及假期至翌日 02:00），Google 資料另顯示部分日子有午間時段——出發前以店家 Google 即時資訊為準",
+    "全店可吸煙（有客人明確提到店內允許吸煙、雪茄在內），唔慣煙味要留意",
+    "官方列毋須預約，但座位有限，評論提醒去前先確認有無位",
+    "官方列有英語應對、收信用卡；座位費與收費細節以現場為準",
+    "位於天文館商圈旁的公園ビル 1 樓，行街完步行可到；酒後唔好揸車"
+   ],
+   "sourceLabel": "Wanderlog（引用 Google 評分 4.7、139 則，頁面明列「來自Google」）；地址、營業時間、收費另經鹿兒島市官方觀光網 kagoshima-yokanavi.jp 核實",
+   "sourceUrl": "https://wanderlog.com/zh/place/details/11995286/cocktail-cre8-%E3%82%86%E3%82%89%E3%81%8E",
+   "addedAt": "2026-11-11"
+  },
+  {
+   "id": "jp-bar-kagoshima-highbridge",
+   "name": "High Bridge（ハイブリッジ）",
+   "nameEn": "High Bridge",
+   "city": "鹿兒島",
+   "area": "山之口町（天文館旁）",
+   "region": "kyushu",
+   "barType": "both",
+   "signature": "威士忌選擇廣（來源明言 wide selection of whiskey）；得獎調酒師的經典雞尾酒；瓶裝標價透明",
+   "rating": 4.5,
+   "reviews": 108,
+   "ratingCheckedAt": "2026-11-11",
+   "priceBand": "人均約 ¥4,000–5,000（Restaurant Guru 列示，以現場酒單為準）",
+   "address": "鹿児島県鹿児島市山之口町6-8 畠田ビル",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=High%20Bridge%20%E5%B1%B1%E4%B9%8B%E5%8F%A3%E7%94%BA%20%E9%B9%BF%E5%85%90%E5%B3%B6",
+   "blurb": "天文館旁山之口町的昭和風老舖，開業三十多年，店主是得獎調酒師、入行超過 34 年（Wanderlog 介紹）。店內保留昭和年代的裝潢與傢俬，氣氛屬懷舊成熟系；威士忌選擇係招牌，雞尾酒同樣有水準，有評論特別提到瓶裝標價透明、唔使怕落錯重本。客人評論多讚店員細心，適合想喺天文館行完之後安靜飲兩杯的人。",
+   "highlights": [
+    "開業三十多年的昭和風老舖，店主為得獎調酒師（入行 34 年以上，Wanderlog 介紹）",
+    "威士忌選擇廣是招牌，雞尾酒亦有口碑",
+    "瓶裝標價透明（來源評論提及），預算好控制",
+    "評分 4.5／108 則，屬鹿兒島口碑穩定的一間"
+   ],
+   "tips": [
+    "星期日休息（Restaurant Guru 列示；evendo 另列週日傍晚有營業，說法不一——出發前請查店家 Google 即時資訊）",
+    "週一、三營業至 01:00，其餘日子至 02:00（Restaurant Guru 列示，以現場為準）",
+    "座位費（チャージ）未見可靠來源寫明，入座前問一句最穩",
+    "吸煙規定未見可靠來源，入座前先問清楚",
+    "位於畠田ビル內（山之口町6-8），天文館商圈步行可到；酒後唔好揸車"
+   ],
+   "sourceLabel": "Restaurant Guru（引用 Google 評分 4.5、108 則；2026-11-11 查核）；evendo 同列 4.5（頁面未標來源，僅作旁證）",
+   "sourceUrl": "https://restaurantguru.com/High-Bridge-Kagoshima-2",
+   "addedAt": "2026-11-11"
   }
  ]
 }
