@@ -1,10 +1,9 @@
 {
  "meta": {
   "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "minRating": 4.2,
   "rotation": [
-   "橫濱",
    "名古屋",
    "札幌",
    "東京",
@@ -18,9 +17,10 @@
    "高松",
    "京都",
    "沖繩",
-   "仙台"
+   "仙台",
+   "橫濱"
   ],
-  "rotationNote": "2026-11-05：沖繩新增 2 間（沖繩 3→5），沖繩移至末位。現時美食各地區收錄：關東 7／關西 11／中部 7／九州 6／北海道 4／東北 3／中國 5／四國 5／沖繩 5。下輪首選仙台（東北，僅 3 筆，全站最少）；橫濱（2 筆）亦可加深。註：沖繩 4.3+ 店不少但評分來源常有 0.1 分落差（琉球の牛 4.7 vs 4.8、肉屋ししや 4.3 vs 4.4），已按鐵律跳過。"
+  "rotationNote": "2026-11-12：橫濱新增 3 間（橫濱 2→5、關東 7→10），橫濱移至末位。現時美食各地區收錄：關東 10／關西 11／中部 7／九州 6／北海道 4／東北 6／中國 5／四國 5／沖繩 5。下輪首選北海道（札幌，全站最少地區之一）；東北／沖繩／四國亦可加深。註：招福門 Wanderlog 4.5 vs tanotim（Google 快照）4.7、兩源矛盾已跳過；謝甜記 Google 4.2、馬さんの店 3.8、中華街大飯店 3.7 未達門檻。"
  },
  "eats": [
   {
@@ -1412,6 +1412,78 @@
    "sourceLabel": "Wanderlog 地點頁（明示 Google 4.3／1,659 則）＋Google 地圖店家頁 4.3（1,675 則）",
    "sourceUrl": "https://wanderlog.com/zh/place/details/1427130/sushi-tetsu",
    "addedAt": "2026-11-09"
+  },
+  {
+   "id": "jp-yokohama-konanjinka",
+   "name": "湖南人家",
+   "nameEn": "Konanjinka",
+   "city": "橫濱",
+   "area": "中區山下町（中華街香港路；元町・中華街站步行約 5 分鐘）",
+   "cuisine": "湖南・四川料理",
+   "signature": "剁椒魚頭、麻婆豆腐、湖南臘肉炒飯",
+   "rating": 4.7,
+   "reviews": 891,
+   "ratingCheckedAt": "2026-11-12",
+   "priceRange": "午市套餐約 ¥780 起；人均約 ¥2,000–3,000",
+   "address": "神奈川県横浜市中区山下町147",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%96%E5%8D%97%E4%BA%BA%E5%AE%B6%20%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E5%B1%B1%E4%B8%8B%E7%94%BA147",
+   "blurb": "2022 年開業、中華街內少有的正宗湘菜專門店，老闆與廚師都是中國人，本地華人客都幫襯。剁椒魚頭用新鮮鯛魚，麻婆豆腐花椒同豆豉香並重；豆腐與臘肉自家晾製，菜量大、價錢實惠，識食辣嘅人在中華街的第一選擇。",
+   "tips": [
+    "主打辣味，唔食辣要預先同店員講，店員會幫你揀唔辣的菜。",
+    "午市套餐最抵（麻婆豆腐套餐約 ¥780，附杏仁豆腐），平日至午市前人流較少。",
+    "位於中華街香港路窄巷內，招牌色彩鮮豔好易認；元町・中華街站 2 號出口行約 5 分鐘。"
+   ],
+   "sourceLabel": "Wanderlog 地點頁（明示 From Google 4.7／891 則）＋Google Maps 實體頁 4.7／909",
+   "sourceUrl": "https://wanderlog.com/place/details/7078230",
+   "addedAt": "2026-11-12"
+  },
+  {
+   "id": "jp-yokohama-manchinro",
+   "name": "萬珍樓 本店",
+   "nameEn": "Manchinro Honten",
+   "city": "橫濱",
+   "area": "中區山下町（中華街大通り；元町・中華街站步行約 6 分鐘）",
+   "cuisine": "廣東料理",
+   "signature": "北京烤鴨（現場片皮）、飲茶點心、麻婆豆腐",
+   "rating": 4.4,
+   "reviews": 2720,
+   "ratingCheckedAt": "2026-11-12",
+   "priceRange": "午市約 ¥4,000–5,000；晚市約 ¥10,000–15,000",
+   "address": "神奈川県横浜市中区山下町153",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E7%8F%8D%E6%A8%93%20%E6%9C%AC%E5%BA%97%20%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E5%B1%B1%E4%B8%8B%E7%94%BA153",
+   "blurb": "1892 年創業、橫濱中華街現存最古老的粵菜館，中國宮廷風獨棟建築好搶眼。北京烤鴨喺你面前即場片皮包好，點心不用化學調味料、以瑤柱等優質食材吊出湯底鮮味；晚市有二胡／琵琶現場演奏，屬中華街最體面的宴客之選。",
+   "tips": [
+    "建議預約（官網或電話），春節等旺季更是一桌難求。",
+    "點心午市比晚市抵；想試北京烤鴨建議湊夠人數叫半隻起。",
+    "門口可買肉包外賣；想平食點心可以改去隔籬的萬珍樓點心舗（山下町156）。"
+   ],
+   "sourceLabel": "Wanderlog 地點頁（明示 From Google 4.4／2,720 則）＋Wander Atlas Guides 列 Google 4.4",
+   "sourceUrl": "https://www.wanderlog.com/place/details/900975/manchinro",
+   "addedAt": "2026-11-12"
+  },
+  {
+   "id": "jp-yokohama-gyuzaburo-motomachi",
+   "name": "焼肉牛三郎 横浜元町店",
+   "nameEn": "Gyuzaburo Yokohama Motomachi",
+   "city": "橫濱",
+   "area": "中區元町（元町商店街內；石川町站步行約 5 分鐘）",
+   "cuisine": "燒肉",
+   "signature": "A5 黑毛和牛炭火燒、牛肉咖喱",
+   "rating": 4.3,
+   "reviews": 130,
+   "ratingCheckedAt": "2026-11-12",
+   "priceRange": "約 ¥2,000–8,000",
+   "address": "神奈川県横浜市中区元町1-31（2階）",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E7%89%9B%E4%B8%89%E9%83%8E%20%E6%A8%AA%E6%B5%9C%E5%85%83%E7%94%BA%E5%BA%97%20%E6%A8%AA%E6%B5%9C%E5%B8%82%E4%B8%AD%E5%8C%BA%E5%85%83%E7%94%BA1-31",
+   "blurb": "元町商店街內的炭火燒肉店，整頭採購 A5 級黑毛和牛，部位選擇多，炭火令肉香更突出；午市牛肉咖喱係隱藏人氣項。價錢比高級燒肉店親民，行完元町／山下公園順路就到。",
+   "tips": [
+    "星期四休息；午市 11:30–14:30、晚市 17:00–22:30。",
+    "午市牛肉咖喱抵食，純燒肉人均約 ¥5,000–8,000。",
+    "座位唔多，旺季晚市建議先喺官網或電話訂位。"
+   ],
+   "sourceLabel": "Google Maps 實體頁 4.3／130 則＋Restaurant Guru（明示 Google 4.3）",
+   "sourceUrl": "https://restaurantguru.com/%E7%84%BC%E8%82%89%E7%89%9B%E4%B8%89%E9%83%8E-%E6%A8%AA%E6%B5%9C%E5%85%83%E7%94%BA%E5%BA%97-Yokohama-2",
+   "addedAt": "2026-11-12"
   }
  ]
 }

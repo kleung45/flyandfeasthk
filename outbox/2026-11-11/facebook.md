@@ -1,0 +1,490 @@
+## digest
+
+🔥【今日香港抵嘢速報】
+
+🍽️ 銅鑼灣告士打道 310 號香港柏寧酒店 PLAYT｜平日自助午餐第 2 位 HK$111：2 位 HK$674（人均 HK$337，已包原價加一）；星期一至四海鮮自助晚餐第 2 位 HK$211：2 位 HK$1,170（人均 HK$585，已包原價加一）。實際價格以 KKday 商品頁為準
+🍽️ 尖沙咀彌敦道19-21號九龍酒店2樓倚窗閣（Window Café）｜自助午餐每位 HK$111（原價 HK$526 已包原價加一，約 21 折）；「蟹逅海洋」自助晚餐買一送一碼後人均 HK$430 起（原價 HK$834，約 52 折）；聖誕除夕節慶自助餐低至 6 折
+🍽️ 深水埗雲海匯／沙田囍慶科學園／大圍囍慶顯徑（三店適用）｜囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位（原價 HK$368/位）；第1位 HK$168＋第2位 HK$111、人均 HK$139.5；長者或小童第2位 HK$111、平日 HK$279/2 位
+🍽️ 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓 PLAYT｜Klook 雙11 自助餐買一送一，自助午餐折後人均約 HK$240 起（媒體 2026-11-02 查價）；原價、適用餐期與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止
+🍽️ 灣仔港灣道 1 號香港萬麗海景酒店 大堂 萬麗咖啡室｜Klook 雙11 自助餐買一送一，生蠔龍蝦自助晚餐折後人均約 HK$420 起（媒體 2026-11-02 查價）；原價與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止
+🍽️ 旺角彌敦道700號 T.O.P This is Our Place 地庫 R1 號舖（香港首店）｜宵夜時段（21:00 後入座）買一送一：星期日至四 HK$298/2 位、人均 HK$149（原價 HK$338/位，約 44 折）；自助晚餐第2位 HK$111、人均 HK$225；三人同行買二送一 HK$596/3 位、人均 HK$199；全日火鍋定食 HK$88/位（原價 HK$139）
+
+全部優惠仲有幾多日、點樣申請？
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK
+
+---
+
+## dining-playt-cwb-double11-second111-20261105
+
+🍽️ 銅鑼灣柏寧 PLAYT 雙11：自助午餐第 2 位 HK$111、人均 HK$337
+📍 銅鑼灣告士打道 310 號香港柏寧酒店 PLAYT
+💰 平日自助午餐第 2 位 HK$111：2 位 HK$674（人均 HK$337，已包原價加一）；星期一至四海鮮自助晚餐第 2 位 HK$211：2 位 HK$1,170（人均 HK$585，已包原價加一）。實際價格以 KKday 商品頁為準
+
+銅鑼灣柏寧酒店 PLAYT 嘅雙11 快閃返嚟喇：平日自助午餐第 2 位只需 HK$111，2 位 HK$674、人均 HK$337，可以歎冰鎮鱈蟹腳、原隻鮑魚同慢烤西冷牛扒；星…
+
+⏰ 今日結束，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-kowloonhotel-harbourview-double11-20261107
+
+🍽️ 尖沙咀九龍酒店倚窗閣雙11快閃：自助午餐每位 HK$111，原價 HK$526
+📍 尖沙咀彌敦道19-21號九龍酒店2樓倚窗閣（Window Café）
+💰 自助午餐每位 HK$111（原價 HK$526 已包原價加一，約 21 折）；「蟹逅海洋」自助晚餐買一送一碼後人均 HK$430 起（原價 HK$834，約 52 折）；聖誕除夕節慶自助餐低至 6 折
+
+一向少出優惠嘅九龍酒店倚窗閣，今次同 KKday 推雙11 快閃：輸入優惠碼【DB11KL】自助午餐低至 HK$111/位（原價 HK$526 已包加一），其他方案用碼【DB11…
+
+⏰ 明日結束，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-xiqing-duckbuffet-111-20261107
+
+🍽️ 雲海匯／囍慶片皮鴨放題 KKday 雙11限量快閃 HK$11/位，原價 HK$368
+📍 深水埗雲海匯／沙田囍慶科學園／大圍囍慶顯徑（三店適用）
+💰 囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位（原價 HK$368/位）；第1位 HK$168＋第2位 HK$111、人均 HK$139.5；長者或小童第2位 HK$111、平日 HK$279/2 位
+
+雙11 快閃又一個限量筍價：囍慶科學園片皮鴨 3 小時放題，星期一至五限量 HK$11/位（原價 HK$368），深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑三店都有份
+
+⏰ 明日結束，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-parklane-playt-double11bogo-20261102
+
+🍽️ 銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起
+📍 銅鑼灣告士打道 310 號香港柏寧酒店 1 樓 PLAYT
+💰 Klook 雙11 自助餐買一送一，自助午餐折後人均約 HK$240 起（媒體 2026-11-02 查價）；原價、適用餐期與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止
+
+銅鑼灣柏寧酒店的 PLAYT 在 Klook 雙11 旅展期間做自助餐買一送一，自助午餐折後人均約 HK$240 起，等於約五折
+
+⏰ 剩 2 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-renaissance-cafe-double11bogo-20261102
+
+🍽️ 灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起
+📍 灣仔港灣道 1 號香港萬麗海景酒店 大堂 萬麗咖啡室
+💰 Klook 雙11 自助餐買一送一，生蠔龍蝦自助晚餐折後人均約 HK$420 起（媒體 2026-11-02 查價）；原價與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止
+
+灣仔萬麗海景酒店的萬麗咖啡室（Café Mira）在 Klook 雙11 旅展做自助餐買一送一，主打生蠔與龍蝦的自助晚餐折後人均約 HK$420 起
+
+⏰ 剩 2 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-ngoudaaisou-mongkok-hotpot-20261107
+
+🍽️ 旺角牛大帥天天鮮牛肉火鍋 KKday 雙11：潮汕牛肉放題宵夜買一送一人均 HK$149 起
+📍 旺角彌敦道700號 T.O.P This is Our Place 地庫 R1 號舖（香港首店）
+💰 宵夜時段（21:00 後入座）買一送一：星期日至四 HK$298/2 位、人均 HK$149（原價 HK$338/位，約 44 折）；自助晚餐第2位 HK$111、人均 HK$225；三人同行買二送一 HK$596/3 位、人均 HK$199；全日火鍋定食 HK$88/位（原價 HK$139）
+
+牛大帥香港首店登陸旺角 T.O.P：一人一鍋 120 分鐘潮汕手切牛肉任食任飲，8 款牛肉（嫩牛肉、匙仁、雙層肉、匙柄、吊龍、牛胸油、牛舌等）任叫，每位送清蒸江蘇大閘蟹一隻（先到…
+
+⏰ 剩 3 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-cafetoo-admiralty-crabseafood-kkday-20261011
+
+🍽️ 金鐘港島香格里拉 cafe TOO「金秋豐盛海鮮蟹宴」，自助晚餐 HK$1,212／2 位（人均 HK$606，約 61 折）
+📍 金鐘法院道 1 號港島香格里拉 5 樓 cafe TOO（港鐵金鐘站 F 出口）
+💰 平日自助晚餐 HK$1,212／2 位（人均 HK$606／位，原價 HK$988／位，約 61 折）；晚市每位奉送清蒸大閘蟹乙隻（約 3.5–4 両）。名額及價格以 KKday 頁面即時公佈為準
+
+金鐘港島香格里拉 cafe TOO 推出秋季主題「金秋豐盛海鮮蟹宴」，並以 KKday 12 週年快閃價登場：平日自助晚餐 HK$1,212／2 位（人均 HK$606／位，原價…
+
+⏰ 剩 4 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-wmhotel-kkday-second11-20261109
+
+🍽️ 西貢 WM 酒店 WM 咖啡廳雙11：第二位 +HK$11，平日半自助午餐人均 HK$247
+📍 西貢惠民路28號 WM 酒店 LG 樓層 WM 咖啡廳
+💰 第二位 +HK$11：平日半自助午餐 2 位 HK$493（人均 HK$247）、週末自助早午餐 2 位 HK$603（人均 HK$302）、自助晚餐（一至四）2 位 HK$779（人均 HK$390）、自助晚餐（五至日）2 位 HK$989（人均 HK$495，每位成人送 4.5 兩大閘蟹），以上已包加一服務費
+
+西貢 WM 酒店 WM 咖啡廳加入 KKday 雙11 快閃，11 月 9 日中午 12 時開搶：第二位只加 HK$11，等於兩個人食一個價錢多一點
+
+⏰ 剩 4 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-haitunggun-crabduck-2ndwave-20261111
+
+🍽️ 海東軒 150 分鐘大閘蟹＋片皮鴨套餐：第 1 位 HK$111＋第 2 位 HK$408，人均 HK$260
+📍 海東軒（大角咀、鴨脷洲、香港仔、黃大仙 4 門店）
+💰 第 1 位 HK$111＋第 2 位 HK$408：HK$519/2 位（平均 HK$260/位，原價 HK$498/位）；升級無限時任食 HK$398/位（2 位起）；獨家 82 折 HK$408/位（2 位起），現場另收服務費每位 HK$78 及茶芥（現金）
+
+KKday 雙11 第二波：海東軒 150 分鐘大閘蟹＋片皮鴨套餐，第 1 位 HK$111、第 2 位 HK$408，兩位 HK$519、平均 HK$260 一位（原價 HK$…
+
+⏰ 剩 5 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-royalpark-palatial-double11-111-20261111
+
+🍽️ 沙田帝都酒店柏麗廳雙11：二人同行第一位成人 HK$11，平均 HK$210/位起
+📍 沙田白鶴汀街8號帝都酒店3樓柏麗廳
+💰 二人同行第一位 HK$11：「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419（人均 HK$210）、星期五 HK$599（人均 HK$300）；另有四人同行第四位 HK$111（自助午餐 4 位 HK$681 人均 HK$171 起）、買一送一週末自助午餐 HK$528/2 位（人均 HK$264）、長腳蟹龍蝦日本和牛盛宴晚餐買一送一 HK$698/2 位起，現場另收原價加一服務費
+
+帝都酒店柏麗廳雙11 快閃今日中午 12 時開搶：兩個人去食，第一位成人只收 HK$11，「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419、平均 HK$210 一位
+
+⏰ 剩 6 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-sunwaidaizhong-crab11-20261111
+
+🍽️ 上海新大眾大閘蟹專門店雙11：江蘇大閘蟹（6.3–7.2 兩）限量 HK$11/隻，原價 HK$348
+📍 上海新大眾大閘蟹專門店（HK$1,000 或以上免費送貨，未滿收 HK$100）
+💰 江蘇養殖場大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11/隻（原價 HK$348）；4 隻 HK$111；另有陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）
+
+KKday 雙11 快閃今日 3 時開搶：上海新大眾大閘蟹專門店嘅江蘇大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11 一隻，對照原價 HK$348 即係約 3 折；一次過訂…
+
+⏰ 剩 6 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-parkhotel-parkcafe-xmas-earlybird-20261105
+
+🍽️ 尖沙咀百樂酒店 Park Café 聖誕自助餐早鳥 65 折，平安夜午餐約 HK$297 位
+📍 尖沙咀漆咸道南 61-65 號香港百樂酒店 Park Café
+💰 早鳥 65 折後：12/24 平安夜自助午餐成人約 HK$297.7（原價 HK$458）、自助晚餐約 HK$473.2（原價 HK$728）；12/25 聖誕自助午餐約 HK$323.7（原價 HK$498）、晚餐約 HK$460.2（原價 HK$708）；小童同折。須於指定日期前預訂並繳費，實際以酒店公佈為準
+
+尖沙咀百樂酒店 Park Café 推出「冬日白色聖誕盛宴」自助餐，德韓主題加經典聖誕美饌：韓式牛仔骨、德國脆皮咸豬手，12 月 14 至 31 日仲有楓糖菠蘿焗金門火腿、慢煮聖…
+
+⏰ 剩 9 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-teahouse-crabfirstjin111-20261111
+
+🍽️ 茶皇殿・茶皇漁港雙11：自撈鮮活阿拉斯加蟹首斤 HK$111（原價 HK$338/斤）
+📍 茶皇殿／茶皇漁港（8 門店）
+💰 自撈鮮活阿拉斯加蟹（4 斤）：首斤 HK$111，4 斤 HK$555（原價每斤 HK$338）；另有 HK$148/斤、HK$168/斤及獨家 HK$188/斤，需 6 位或 8 位起入座、額外惠顧小菜，另收原價加一及茶芥
+
+茶皇殿雙11 快閃今日 3 時開搶：自撈鮮活阿拉斯加蟹首斤 HK$111，對照原價每斤 HK$338 即係約 3 折；一次過食 4 斤都只係 HK$555
+
+⏰ 剩 16 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-cafeonm-tst-crabfeast-30off-20261030
+
+🍽️ 尖東海景嘉福洲際 Café on M 秋日蟹宴自助晚餐 7 折，連加一每位 HK$694.4
+📍 尖沙咀東麼地道 70 號香港海景嘉福洲際酒店 M 層 Café on M（海景咖啡廊）
+💰 官網網上商店 7 折：成人每位 HK$694.4（原價 HK$868 另加一，連服務費 HK$954.8）、小童 4–11 歲每位 HK$422.4（原價 HK$528 另加一，連服務費 HK$580.8），7 折價已包加一服務費；Signature Club 會員 65 折（以酒店確認為準）。價格以酒店網上商店即時公佈為準
+
+香港海景嘉福洲際酒店海景咖啡廊 Café on M 推出「秋日蟹之盛宴」自助晚餐，只在 10 月 30、31 日及 11 月 27、28 日四晚供應
+
+⏰ 剩 17 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-wmhotel-goldencrab-20260913
+
+🍽️ 「黃金蟹宴」自助晚餐開鑼，預付優惠碼低至 5 折
+📍 WM Hotel Café@WM · 將軍澳（大埔仔，近科大）
+💰 自助晚餐預付優惠碼低至 5 折
+
+將軍澳 WM Hotel「Café@WM」推出黃金蟹宴自助晚餐：釀蟹蓋、蒸大閘蟹、加拿大雪蟹腳、法國食用蟹任食，另有明太子蟹撻、墨西哥蟹肉 Quesadilla、蟹膏餃、鹹蛋黃蟹…
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-cruise-hairycrab-tasting-20260913
+
+🍽️ 「Hairy Crab Feed Me!」大閘蟹季節套餐 HK$628 / 位
+📍 Cruise Restaurant & Bar · 北角 Hyatt Centric Victoria Harbour（天台維港景）
+💰 HK$628 / 位（最少 2 位）
+
+北角 Hyatt Centric 維港海景屋頂餐廳 Cruise 推出「Hairy Crab Feed Me!」季節套餐：花膠野菌焗蟹肉蟹膏、鎮江醋蒸大閘蟹、大閘蟹小籠包、蒸花蟹…
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-momocafe-saiyingpun-20260913
+
+🍽️ 蠔海鮮自助晚餐 55 折，HK$369 起（已包加一）
+📍 MoMo Café · 西營盤干諾道西 167 號香港萬怡酒店
+💰 OpenRice 訂座優惠 成人 HK$369.2 / 位（已包 10% 加一）
+
+西營盤萬怡酒店 MoMo Café 經 OpenRice 訂座享自助晚餐 55 折，成人 HK$369.2 已包加一
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-threeoncanton-tst-20260913
+
+🍽️ 尖沙咀海景自助午餐 7 折，兩位起用得
+📍 Three on Canton · 尖沙咀廣東道 13 號海港城港威酒店 3 樓
+💰 OpenRice 訂座優惠 自助午餐 7 折（另收加一）
+
+海港城港威酒店 Three on Canton 經 OpenRice 訂座，自助午餐劃一 7 折，即日至 11 月底每日適用，兩位起用得
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-whotel-kitchen-bogo-20260917
+
+🍽️ KITCHEN 自助晚餐買一送一，人均 HK$563 起（已連服務費）
+📍 KITCHEN · 九龍站柯士甸道西 1 號 W Hong Kong 6 樓
+💰 KKday 買1送1 兩位 HK$1,126 起（人均 HK$563，已包 10% 服務費）＋碼 SEPWHOTEL 減 HK$50
+
+尖沙咀 W 酒店 KITCHEN 自助晚餐買一送一：星期五至日、公眾假期及前夕兩位 HK$1,126 起，人均 HK$563 已連 10% 服務費，KKday 輸入碼「SEPWH…
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-mira-yamm-lunch-bogo-20261005
+
+🍽️ 尖沙咀 The Mira Yamm 自助午餐買一送一，逢星期一至四
+📍 尖沙咀彌敦道 118-130 號 Mira Place, The Mira Hong Kong 地下大堂 Yamm
+💰 逢星期一至四惠顧自助午餐享買一送一，2 位成人只需付 1 位價錢；Yamm 自助午餐官方原價 HK$488 起／位，另按原價收取加一服務費，折合人均約 HK$244 起（未計加一；最終結賬以酒店為準）
+
+尖沙咀中部策略發展協會第三屆「尖沙咀中·美酒美饌 2026」由 10 月 1 日做到 11 月 30 日，區內餐廳酒吧合共推出逾百項餐飲禮遇
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-goldcoast-cafelagoon-bogo-20261007
+
+🍽️ 屯門黃金海岸酒店 聆渢咖啡廳快閃買一送一，自助午餐人均 HK$245
+📍 屯門青山公路 1 號香港黃金海岸酒店低層地下 聆渢咖啡廳（Café Lagoon）
+💰 自助午餐買一送一 成人 HK$490 起/2 位（人均 HK$245 起）、小童 HK$346 起/2 位、長者 HK$430 起/2 位；自助晚餐買一送一 成人 HK$886 起/2 位（人均 HK$443 起）、小童 HK$526 起/2 位、長者 HK$646 起/2 位；買一位成人送一位成人＋一位 3–11 歲小童，午餐人均低至 HK$173、晚餐人均低至 HK$310。另按酒店規定收取加一服務費，以酒店及平台公佈為準
+
+屯門黃金海岸酒店聆渢咖啡廳推出快閃自助餐優惠：自助午餐買一送一，成人 2 位只需 HK$490 起（人均 HK$245）；自助晚餐買一送一，成人 2 位 HK$886 起（人均 …
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-momocafe-shatin-double11-20261030
+
+🍽️ 沙田萬怡 MoMo Café 雙11 第 2 位 HK$11，自助午餐人均 HK$224
+📍 沙田安平街 1 號香港沙田萬怡酒店 2 樓 MoMo Café
+💰 平日自助午餐 2 位 HK$448（人均 HK$224，原價每位 HK$438，約 51 折）；平日自助晚餐 2 位 HK$822（人均 HK$411，原價每位 HK$812，包指定飲品及酒水任飲）；另設 KKday 買一送一：午餐 2 位 HK$478 起（人均 HK$239）、晚餐 2 位 HK$886 起（人均 HK$443）。以 KKday 頁面即時報價為準
+
+沙田萬怡酒店 MoMo Café 今日中午 12 時開售雙11 快閃：預訂 1 位成人自助餐，第 2 位只加 HK$11
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## flight-sunphuquoc-phuquoc-lastminute-20261105
+
+✈️ 太陽富國航空：富國島來回連稅 HK$971 起，包 23kg＋送纜車票
+📍 香港出發 · 富國島
+💰 香港直飛富國島來回連稅 HK$971 起（太陽富國航空官網）；Trip.com 用碼 TRAVELERHK26F 98 折後約 HK$953 起；包 23kg 寄艙行李。實際票價以官網／Trip.com 即時顯示為準
+
+太陽富國航空嘅 last minute 平飛，香港直飛富國島來回連稅 HK$971 起，包 23kg 寄艙行李，喺官網直訂就係官方價；經 Trip.com 用優惠碼 TRAVEL…
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港機票 #機票優惠
+
+---
+
+## dining-oceanpark-marriott-marinakitchen-bogo-nov-20261109
+
+🍽️ 黃竹坑海洋公園萬豪海灣餐廳 11 月快閃：成人買一送一，自助午餐人均 HK$311 起
+📍 黃竹坑黃竹坑道180號香港海洋公園萬豪酒店海灣餐廳（Marina Kitchen）
+💰 成人買一送一：自助午餐人均 HK$311 起、自助晚餐人均 HK$479 起；成人買二送一：午餐人均 HK$397 起、晚餐人均 HK$612 起；PayMe 預訂用碼【PMOPM】額外減 HK$80，65 折後午餐 HK$389 起、晚餐 HK$599 起（單人價，毋須湊夠兩位）
+
+海洋公園萬豪海灣餐廳 11 月推新一輪快閃：成人買一送一，自助午餐人均 HK$311 起、自助晚餐人均 HK$479 起；三人或以上可揀買二送一
+
+⏰ 剩 19 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-harbourplaza8degrees-lobster-20260929
+
+🍽️ 8度海逸 8 度餐廳龍蝦海鮮自助晚餐半價，成人 HK$334 起
+📍 土瓜灣道 8 號 8 度海逸酒店 8 度餐廳
+💰 經酒店官方 eShop 預訂半價：星期一至五成人 HK$334 起（原價 HK$668 起）、長者 60 歲或以上 HK$289 起、小童 6–11 歲 HK$254 起；星期六至日、公眾假期及前夕成人 HK$374 起（原價 HK$748 起）、長者 HK$339 起、小童 HK$304 起
+
+8 度海逸酒店 8 度餐廳 10 月 1 日起推出全新「香江龍情・龍蝦海鮮自助晚餐」，經酒店官方 eShop 預訂半價，星期一至五成人 HK$334 起（原價 HK$668 起）…
+
+⏰ 剩 32 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-sheraton-tungchung-lnt-20260917
+
+🍽️ 深海「蟹」逅自助餐酒店官網 7 折，平日午餐成人 HK$299.6 起
+📍 嶼坊 LNT Dining · 東涌怡東路 9 號香港東涌世茂喜來登酒店 1 樓
+💰 官網商店 7 折 平日自助午餐成人 HK$299.6／自助晚餐 HK$537.6
+
+東涌世茂喜來登「嶼坊」深海「蟹」逅主題自助餐，經酒店官方網上商店預訂成人劃一 7 折：平日自助午餐 HK$299.6、自助晚餐 HK$537.6（原價 HK$428／HK$768…
+
+⏰ 剩 37 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## dining-sunsetgrill-tungchung-xmas-bogo-20261107
+
+🍽️ 東涌喜來登海岸扒房聖誕節日早午餐買一送一 HK$592.8 起，原價 HK$1,086.8 起
+📍 東涌喜來登酒店19樓海岸扒房（Sunset Grill，景觀餐廳）
+💰 節日早午餐（12/19、20、27）買一送一 HK$592.8 起（原價 HK$1,086.8 起，約 55 折）；12/25–26 早午餐 6 折 HK$691.6 起；節日晚餐（12/24–25）8 折 HK$1,168.2 起
+
+東涌喜來登 19 樓海岸扒房推出聖誕節日盛宴，網店預訂節日早午餐買一送一，HK$592.8 起（原價 HK$1,086.8 起，約 55 折），仲有大廚即席料理火焰戴安娜牛扒，歎…
+
+⏰ 剩 39 日，手快有手慢冇！
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港美食 #自助餐
+
+---
+
+## flight-hkexpress-taiwan-fuelcut-20261017
+
+✈️ 香港快運下調燃油附加費，台北／高雄／台中單程 HK$88 起、來回連稅 HK$1,020 起
+📍 香港（HKG）↔ 台北（TPE）／高雄（KHH）／台中（RMQ）
+💰 來回連稅 HK$1,020 起（單程票價 HK$88 起，單程連稅約 HK$510）；「隨心飛」包 20kg 寄艙來回連稅 HK$1,220 起
+
+香港快運於 2026 年 10 月 16 日起下調燃油附加費，中國台灣航段由每段較高水平降至 HK$149
+
+💬 想知申請入口＋優惠碼，留言「優惠」，我哋會自動 send 連結俾你！
+🔗 或者直接上我哋網站睇齊全部優惠：https://www.flyandfeasthk.com?utm_source=facebook&utm_medium=social&utm_campaign=deals
+
+#香港優惠 #FlyAndFeastHK #香港機票 #機票優惠

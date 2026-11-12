@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-10T15:10:18+08:00",
+    "updated": "2026-11-12T11:20:44+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,87 +11,16 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 133,
-      "active": 25,
-      "ending": 6,
-      "expired": 108,
+      "total": 137,
+      "active": 27,
+      "ending": 7,
+      "expired": 110,
       "flight": 15,
-      "dining": 118,
+      "dining": 122,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-langham-foodgallery-second11-20261109",
-      "category": "dining",
-      "title": "尖沙咀朗廷酒店 The Food Gallery 第二位 +HK$11，平日自助午餐 2 位 HK$602",
-      "subtitle": "KKday 雙11 · 預訂至 11/10 · 使用期 11/5 至 11/30 · 約 51 折",
-      "venue": "尖沙咀北京道8號香港朗廷酒店 The Food Gallery",
-      "priceLabel": "第二位 +HK$11：平日自助午餐 2 位 HK$602（人均 HK$301）、週末及公眾假期 2 位 HK$778（人均 HK$389）；買一送一＋第三位 HK$111：平日 3 位 HK$756（人均 HK$252）；自助晚餐（一至四）2 位 HK$900（人均 HK$450），以上已包原價加一服務費",
-      "priceValue": 602,
-      "originalLabel": "自助午餐原價每位 HK$592 起、自助晚餐原價每位 HK$900 起（已包原價加一）",
-      "discountPct": 49,
-      "endsAt": "2026-11-10T23:59:00+08:00",
-      "period": "KKday 預訂期至 2026-11-10 23:59；使用期：2026-11-05 至 2026-11-30",
-      "summary": "朗廷酒店 The Food Gallery 的雙11 方案做到「第二位 +HK$11」：平日自助午餐 2 位 HK$602（人均 HK$301，原價每位 HK$592 起），週末及假期 2 位 HK$778；三人同行可揀買一送一＋第三位 HK$111，平日 3 位 HK$756、人均 HK$252。午餐連無限暢飲指定飲品，時段星期一至五 12:00–14:30、週末 11:30–15:00。預訂期只剩至 11 月 10 日，使用期至 11 月 30 日。價格以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "平日自助午餐第二位 +HK$11：2 位 HK$602，人均 HK$301（原價每位 HK$592 起）",
-        "買一送一＋第三位 HK$111：平日 3 位 HK$756，人均 HK$252",
-        "自助晚餐（一至四）第二位 +HK$11：2 位 HK$900，人均 HK$450",
-        "午餐已包無限暢飲指定飲品，價錢已含原價加一服務費",
-        "預訂期至 11/10，使用期至 11/30，適合 11 月聚餐"
-      ],
-      "url": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
-      "sourceLabel": "GroupBuya／KKday 雙11 方案表 ＋ RunHotel（2026-11 自助餐合集，核對預訂及適用期）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
-      "tags": [
-        "雙11",
-        "第二位優惠",
-        "買一送一",
-        "自助餐",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-playt-cwb-double11-second111-20261105",
-      "category": "dining",
-      "title": "銅鑼灣柏寧 PLAYT 雙11：自助午餐第 2 位 HK$111、人均 HK$337",
-      "subtitle": "KKday 11/5 12:00 開搶至 11/11 · 供應至 11/30（金秋蟹宴）",
-      "venue": "銅鑼灣告士打道 310 號香港柏寧酒店 PLAYT",
-      "priceLabel": "平日自助午餐第 2 位 HK$111：2 位 HK$674（人均 HK$337，已包原價加一）；星期一至四海鮮自助晚餐第 2 位 HK$211：2 位 HK$1,170（人均 HK$585，已包原價加一）。實際價格以 KKday 商品頁為準",
-      "priceValue": 337,
-      "originalLabel": "10 月金秋蟹宴自助晚餐原價 HK$878/位（已包加一，供對比）；午餐原價以 KKday 頁面為準",
-      "discountPct": 38,
-      "endsAt": "2026-11-11T23:59:00+08:00",
-      "period": "預訂期：2026-11-05 12:00 至 11-11 23:59；供應期至 2026-11-30（11/30 前晚餐有「金秋蟹宴」，成人每位兩隻約 4 両清蒸大閘蟹）",
-      "summary": "銅鑼灣柏寧酒店 PLAYT 嘅雙11 快閃返嚟喇：平日自助午餐第 2 位只需 HK$111，2 位 HK$674、人均 HK$337，可以歎冰鎮鱈蟹腳、原隻鮑魚同慢烤西冷牛扒；星期一至四自助晚餐第 2 位 HK$211、人均 HK$585，11 月 30 日前仲有「金秋蟹宴」，每位成人送兩隻約 4 両清蒸大閘蟹，配即開生蠔、冰鎮龍蝦同多款蟹粉菜式。以上價錢已包括原價加一服務費。開放預訂期 11 月 5 日中午 12 時至 11 月 11 日 23:59，名額限量售完即止。",
-      "highlights": [
-        "平日自助午餐第 2 位 HK$111，2 位 HK$674、人均 HK$337（已包加一）",
-        "一至四自助晚餐第 2 位 HK$211，人均 HK$585",
-        "11/30 前晚餐有金秋蟹宴：每位成人兩隻約 4 両大閘蟹",
-        "預訂期 11/5 12:00–11/11 23:59，供應期至 11/30",
-        "午餐有冰鎮鱈蟹腳、原隻鮑魚、慢烤西冷牛扒"
-      ],
-      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
-      "sourceLabel": "RunHotel 2026-11-04 報導（價格、開售期、供應期）＋ HKET 2026-11-05 ＋ U Life 11 月 Buffet 精選 20037042 交叉核實",
-      "sourceUrl": "https://www.runhotel.hk/latest-posts/",
-      "tags": [
-        "自助餐",
-        "雙11",
-        "銅鑼灣",
-        "酒店",
-        "蟹宴",
-        "海鮮"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-kowloonhotel-harbourview-double11-20261107",
       "category": "dining",
@@ -122,7 +51,7 @@
         "自助餐"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -155,7 +84,7 @@
         "放題"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -192,7 +121,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -229,7 +158,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -262,8 +191,8 @@
         "火鍋放題"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-admiralty-crabseafood-kkday-20261011",
@@ -297,8 +226,8 @@
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-wmhotel-kkday-second11-20261109",
@@ -329,6 +258,107 @@
         "第二位優惠",
         "自助餐",
         "西貢"
+      ],
+      "sample": false,
+      "daysLeft": 3,
+      "status": "ending"
+    },
+    {
+      "id": "dining-haitunggun-crabduck-2ndwave-20261111",
+      "category": "dining",
+      "title": "海東軒 150 分鐘大閘蟹＋片皮鴨套餐：第 1 位 HK$111＋第 2 位 HK$408，人均 HK$260",
+      "subtitle": "KKday 雙11 快閃 · 11/10 15:00 開搶至 11/16 · 11/10 起可用",
+      "venue": "海東軒（大角咀、鴨脷洲、香港仔、黃大仙 4 門店）",
+      "priceLabel": "第 1 位 HK$111＋第 2 位 HK$408：HK$519/2 位（平均 HK$260/位，原價 HK$498/位）；升級無限時任食 HK$398/位（2 位起）；獨家 82 折 HK$408/位（2 位起），現場另收服務費每位 HK$78 及茶芥（現金）",
+      "priceValue": 519,
+      "originalLabel": "原價 HK$498/位（另收服務費 HK$78/位及茶芥）",
+      "discountPct": 52,
+      "endsAt": "2026-11-16T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-10 15:00 至 2026-11-16 23:59；使用日期：2026-11-10 起；150 分鐘任食清蒸／花彫蒸／油鹽焗大閘蟹及片皮鴨",
+      "summary": "KKday 雙11 第二波：海東軒 150 分鐘大閘蟹＋片皮鴨套餐，第 1 位 HK$111、第 2 位 HK$408，兩位 HK$519、平均 HK$260 一位（原價 HK$498/位，約 52 折）。任食清蒸、花彫蒸、油鹽焗大閘蟹加京式片皮鴨，每位仲送古法扣原隻鮑魚金錢、黃炆佛跳牆同生拆蟹粉小籠包；升級無限時任食 HK$398/位。大角咀、鴨脷洲、香港仔、黃大仙 4 門店都去得。留意服務費 HK$78/位同茶芥要現場現金支付。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "第 1 位 HK$111＋第 2 位 HK$408：2 位 HK$519，人均 HK$260（原價 HK$498/位）",
+        "150 分鐘任食：清蒸／花彫蒸／油鹽焗大閘蟹＋京式片皮鴨",
+        "每位送古法扣原隻鮑魚金錢、黃炆佛跳牆、生拆蟹粉小籠包",
+        "升級無限時任食 HK$398/位；獨家 82 折 HK$408/位（2 位起）",
+        "4 門店：大角咀、鴨脷洲、香港仔、黃大仙"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%9D%B1%E8%BB%92%20%E9%A6%99%E6%B8%AF",
+      "sourceLabel": "GroupBuya 557182/557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557182-KKday-%E9%9B%9911%E7%AC%AC%E4%BA%8C%E6%B3%A2",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "片皮鴨",
+        "放題"
+      ],
+      "sample": false,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-royalpark-palatial-double11-111-20261111",
+      "category": "dining",
+      "title": "沙田帝都酒店柏麗廳雙11：二人同行第一位成人 HK$11，平均 HK$210/位起",
+      "subtitle": "KKday 雙11 快閃 · 11/11 12:00 開搶至 11/17 · 11/12 起可用",
+      "venue": "沙田白鶴汀街8號帝都酒店3樓柏麗廳",
+      "priceLabel": "二人同行第一位 HK$11：「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419（人均 HK$210）、星期五 HK$599（人均 HK$300）；另有四人同行第四位 HK$111（自助午餐 4 位 HK$681 人均 HK$171 起）、買一送一週末自助午餐 HK$528/2 位（人均 HK$264）、長腳蟹龍蝦日本和牛盛宴晚餐買一送一 HK$698/2 位起，現場另收原價加一服務費",
+      "priceValue": 419,
+      "originalLabel": "酒店自助餐原價以餐廳現場公佈為準；優惠機制為第一位 HK$11／第四位 HK$111，屬近乎買一送一級數",
+      "discountPct": null,
+      "endsAt": "2026-11-17T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-11 12:00 至 2026-11-17 23:59；使用日期：2026-11-12 起；優惠只適用成人，兒童及長者須提前三天致電餐廳預留並現場付款，只接受電子支付",
+      "summary": "帝都酒店柏麗廳雙11 快閃今日中午 12 時開搶：兩個人去食，第一位成人只收 HK$11，「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419、平均 HK$210 一位。11 月仲有「秋意蟹味濃」主題，晚上 7 時半起有八款精緻蟹饌；「長腳蟹、龍蝦、日本和牛盛宴」晚餐更包鐵板和牛、火炙和牛壽司、龍蝦同長腳蟹，四人有第四位 HK$111 方案。自助午餐 4 位 HK$681、人均 HK$171 起，係今輪酒店自助餐入面最平的一檔。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "二人同行第一位成人 HK$11：極黑牛鐵板燒平日晚餐 2 位 HK$419，人均 HK$210",
+        "四人同行第四位 HK$111：自助午餐 4 位 HK$681，人均 HK$171 起",
+        "「秋意蟹味濃」主題：晚市 19:30 起八款蟹饌；盛宴晚餐包長腳蟹、龍蝦、日本和牛",
+        "買一送一：週末自助午餐 HK$528/2 位、盛宴晚餐 HK$698/2 位起",
+        "開搶時間：11/11 中午 12:00，預訂至 11/17 23:59"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Park%20Hotel%20Sha%20Tin",
+      "sourceLabel": "U Lifestyle 2026-11-10 + GroupBuya 557182 雙源（轉載 KKday 產品 279517 官方方案）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20117860",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/279517",
+      "tags": [
+        "雙11",
+        "快閃",
+        "第一位優惠",
+        "自助餐",
+        "沙田"
+      ],
+      "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-sunwaidaizhong-crab11-20261111",
+      "category": "dining",
+      "title": "上海新大眾大閘蟹專門店雙11：江蘇大閘蟹（6.3–7.2 兩）限量 HK$11/隻，原價 HK$348",
+      "subtitle": "KKday 雙11 快閃 · 11/11 15:00 開搶至 11/17",
+      "venue": "上海新大眾大閘蟹專門店（HK$1,000 或以上免費送貨，未滿收 HK$100）",
+      "priceLabel": "江蘇養殖場大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11/隻（原價 HK$348）；4 隻 HK$111；另有陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
+      "priceValue": 11,
+      "originalLabel": "蟹公 6.3–7.2 兩原價 HK$348/隻",
+      "discountPct": 3,
+      "endsAt": "2026-11-17T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-11 15:00 至 2026-11-17 23:59；限量售完即止；運費：滿 HK$1,000 免費送貨，未滿收 HK$100",
+      "summary": "KKday 雙11 快閃今日 3 時開搶：上海新大眾大閘蟹專門店嘅江蘇大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11 一隻，對照原價 HK$348 即係約 3 折；一次過訂 4 隻都只係 HK$111。想升級可以揀陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）。大閘蟹季節尾班車，限量售完即止。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "江蘇大閘蟹（蟹公 6.3–7.2 兩）限量 HK$11/隻，原價 HK$348，約 3 折",
+        "4 隻 HK$111（平均 HK$27.75/隻）",
+        "陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
+        "滿 HK$1,000 免費送貨；11/11 15:00 開搶、限量售完即止"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A7%E7%9C%BE%E5%A4%A7%E9%96%98%E8%9F%B9%E5%B0%88%E9%96%80%E5%BA%97",
+      "sourceLabel": "GroupBuya 557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557233-KKday-%E9%9B%9911%E5%BF%AB%E9%96%8311%E6%9C%8811",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "限量"
       ],
       "sample": false,
       "daysLeft": 5,
@@ -367,7 +397,39 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 10,
+      "daysLeft": 8,
+      "status": "active"
+    },
+    {
+      "id": "dining-teahouse-crabfirstjin111-20261111",
+      "category": "dining",
+      "title": "茶皇殿・茶皇漁港雙11：自撈鮮活阿拉斯加蟹首斤 HK$111（原價 HK$338/斤）",
+      "subtitle": "KKday 雙11 快閃 · 11/11 15:00 開搶至 11/27 · 11/12 至 12/30 適用",
+      "venue": "茶皇殿／茶皇漁港（8 門店）",
+      "priceLabel": "自撈鮮活阿拉斯加蟹（4 斤）：首斤 HK$111，4 斤 HK$555（原價每斤 HK$338）；另有 HK$148/斤、HK$168/斤及獨家 HK$188/斤，需 6 位或 8 位起入座、額外惠顧小菜，另收原價加一及茶芥",
+      "priceValue": 111,
+      "originalLabel": "阿拉斯加蟹原價每斤 HK$338",
+      "discountPct": 33,
+      "endsAt": "2026-11-27T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-11 15:00 至 2026-11-27 23:59；使用日期：2026-11-12 至 2026-12-30（12/11–13 及 12/18–22 不適用）",
+      "summary": "茶皇殿雙11 快閃今日 3 時開搶：自撈鮮活阿拉斯加蟹首斤 HK$111，對照原價每斤 HK$338 即係約 3 折；一次過食 4 斤都只係 HK$555。另有 HK$148/斤、HK$168/斤同獨家 HK$188/斤方案。留意要 6 位或 8 位起入座、需額外惠顧小菜，現場另收原價加一及茶芥；12 月 11–13 日同 18–22 日不適用。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "阿拉斯加蟹首斤 HK$111（原價 HK$338/斤，約 3 折）；4 斤 HK$555",
+        "另有 HK$148／HK$168／獨家 HK$188 每斤方案",
+        "使用期 11/12 至 12/30（12/11–13、12/18–22 不適用）",
+        "需 6 或 8 位起入座、額外惠顧小菜；11/11 15:00 開搶"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E7%9A%87%E6%AE%BF%20%E9%A6%99%E6%B8%AF",
+      "sourceLabel": "GroupBuya 557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557233-KKday-%E9%9B%9911%E5%BF%AB%E9%96%8311%E6%9C%8811",
+      "tags": [
+        "雙11",
+        "快閃",
+        "阿拉斯加蟹",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -403,7 +465,7 @@
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "daysLeft": 16,
       "status": "active"
     },
     {
@@ -434,7 +496,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -465,7 +527,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -496,7 +558,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -526,7 +588,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -561,7 +623,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -596,7 +658,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -631,7 +693,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -667,7 +729,7 @@
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -702,7 +764,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -736,7 +798,7 @@
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 20,
+      "daysLeft": 18,
       "status": "active"
     },
     {
@@ -773,7 +835,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 33,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -808,7 +870,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 38,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -840,7 +902,7 @@
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 40,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -876,7 +938,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 82,
+      "daysLeft": 80,
       "status": "active"
     },
     {
@@ -4690,6 +4752,77 @@
         "燒烤"
       ],
       "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-langham-foodgallery-second11-20261109",
+      "category": "dining",
+      "title": "尖沙咀朗廷酒店 The Food Gallery 第二位 +HK$11，平日自助午餐 2 位 HK$602",
+      "subtitle": "KKday 雙11 · 預訂至 11/10 · 使用期 11/5 至 11/30 · 約 51 折",
+      "venue": "尖沙咀北京道8號香港朗廷酒店 The Food Gallery",
+      "priceLabel": "第二位 +HK$11：平日自助午餐 2 位 HK$602（人均 HK$301）、週末及公眾假期 2 位 HK$778（人均 HK$389）；買一送一＋第三位 HK$111：平日 3 位 HK$756（人均 HK$252）；自助晚餐（一至四）2 位 HK$900（人均 HK$450），以上已包原價加一服務費",
+      "priceValue": 602,
+      "originalLabel": "自助午餐原價每位 HK$592 起、自助晚餐原價每位 HK$900 起（已包原價加一）",
+      "discountPct": 49,
+      "endsAt": "2026-11-10T23:59:00+08:00",
+      "period": "KKday 預訂期至 2026-11-10 23:59；使用期：2026-11-05 至 2026-11-30",
+      "summary": "朗廷酒店 The Food Gallery 的雙11 方案做到「第二位 +HK$11」：平日自助午餐 2 位 HK$602（人均 HK$301，原價每位 HK$592 起），週末及假期 2 位 HK$778；三人同行可揀買一送一＋第三位 HK$111，平日 3 位 HK$756、人均 HK$252。午餐連無限暢飲指定飲品，時段星期一至五 12:00–14:30、週末 11:30–15:00。預訂期只剩至 11 月 10 日，使用期至 11 月 30 日。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "平日自助午餐第二位 +HK$11：2 位 HK$602，人均 HK$301（原價每位 HK$592 起）",
+        "買一送一＋第三位 HK$111：平日 3 位 HK$756，人均 HK$252",
+        "自助晚餐（一至四）第二位 +HK$11：2 位 HK$900，人均 HK$450",
+        "午餐已包無限暢飲指定飲品，價錢已含原價加一服務費",
+        "預訂期至 11/10，使用期至 11/30，適合 11 月聚餐"
+      ],
+      "url": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
+      "sourceLabel": "GroupBuya／KKday 雙11 方案表 ＋ RunHotel（2026-11 自助餐合集，核對預訂及適用期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/556518-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "第二位優惠",
+        "買一送一",
+        "自助餐",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-playt-cwb-double11-second111-20261105",
+      "category": "dining",
+      "title": "銅鑼灣柏寧 PLAYT 雙11：自助午餐第 2 位 HK$111、人均 HK$337",
+      "subtitle": "KKday 11/5 12:00 開搶至 11/11 · 供應至 11/30（金秋蟹宴）",
+      "venue": "銅鑼灣告士打道 310 號香港柏寧酒店 PLAYT",
+      "priceLabel": "平日自助午餐第 2 位 HK$111：2 位 HK$674（人均 HK$337，已包原價加一）；星期一至四海鮮自助晚餐第 2 位 HK$211：2 位 HK$1,170（人均 HK$585，已包原價加一）。實際價格以 KKday 商品頁為準",
+      "priceValue": 337,
+      "originalLabel": "10 月金秋蟹宴自助晚餐原價 HK$878/位（已包加一，供對比）；午餐原價以 KKday 頁面為準",
+      "discountPct": 38,
+      "endsAt": "2026-11-11T23:59:00+08:00",
+      "period": "預訂期：2026-11-05 12:00 至 11-11 23:59；供應期至 2026-11-30（11/30 前晚餐有「金秋蟹宴」，成人每位兩隻約 4 両清蒸大閘蟹）",
+      "summary": "銅鑼灣柏寧酒店 PLAYT 嘅雙11 快閃返嚟喇：平日自助午餐第 2 位只需 HK$111，2 位 HK$674、人均 HK$337，可以歎冰鎮鱈蟹腳、原隻鮑魚同慢烤西冷牛扒；星期一至四自助晚餐第 2 位 HK$211、人均 HK$585，11 月 30 日前仲有「金秋蟹宴」，每位成人送兩隻約 4 両清蒸大閘蟹，配即開生蠔、冰鎮龍蝦同多款蟹粉菜式。以上價錢已包括原價加一服務費。開放預訂期 11 月 5 日中午 12 時至 11 月 11 日 23:59，名額限量售完即止。",
+      "highlights": [
+        "平日自助午餐第 2 位 HK$111，2 位 HK$674、人均 HK$337（已包加一）",
+        "一至四自助晚餐第 2 位 HK$211，人均 HK$585",
+        "11/30 前晚餐有金秋蟹宴：每位成人兩隻約 4 両大閘蟹",
+        "預訂期 11/5 12:00–11/11 23:59，供應期至 11/30",
+        "午餐有冰鎮鱈蟹腳、原隻鮑魚、慢烤西冷牛扒"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-paymentoffer",
+      "sourceLabel": "RunHotel 2026-11-04 報導（價格、開售期、供應期）＋ HKET 2026-11-05 ＋ U Life 11 月 Buffet 精選 20037042 交叉核實",
+      "sourceUrl": "https://www.runhotel.hk/latest-posts/",
+      "tags": [
+        "自助餐",
+        "雙11",
+        "銅鑼灣",
+        "酒店",
+        "蟹宴",
+        "海鮮"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
       "daysLeft": 0,
       "status": "expired"
     }
