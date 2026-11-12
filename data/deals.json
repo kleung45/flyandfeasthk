@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-12T11:20:44+08:00",
+    "updated": "2026-11-12T14:30:56+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,12 +11,12 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 137,
-      "active": 27,
+      "total": 140,
+      "active": 30,
       "ending": 7,
       "expired": 110,
       "flight": 15,
-      "dining": 122,
+      "dining": 125,
       "hotel": 0
     }
   },
@@ -362,6 +362,108 @@
       ],
       "sample": false,
       "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-harbourview-wanchai-double11-111-20261112",
+      "category": "dining",
+      "title": "灣仔灣景國際 灣景廳雙11：自助午餐 HK$111/位（原價 HK$372，已包加一）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 10:00 開搶至 11/18 · 11/12 至 11/30 平日適用",
+      "venue": "香港灣仔港灣道4號灣景國際1樓灣景廳",
+      "priceLabel": "雙11 限定自助午餐 HK$111/位（原價 HK$372/位，已包加一，只限星期一至五 12:00–14:30）；自助晚餐「第 2 位 +HK$11」：星期日至四 HK$706/2 位（人均 HK$353）、星期五及六 HK$742/2 位（人均 HK$371），每次須購 2 位",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$372/位（已包加一）；晚餐第 2 位機制屬買一送一等級",
+      "discountPct": 30,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-12 10:00 至 2026-11-18 23:59；使用日期：2026-11-12 至 2026-11-30（午餐只限星期一至五，公眾假期除外）",
+      "summary": "灣仔灣景國際灣景廳雙11 快閃今早 10 時開搶：平日自助午餐每位 HK$111，對照原價 HK$372 即係約 3 折，而且已包加一服務費。餐廳主打「地中海海鮮盛宴」，任食冰鎮龍蝦、即開時令生蠔、加拿大鱈場蟹腳、白酒煮青口、避風塘炒龍蝦鉗同蟹粉小籠包，落地玻璃窗可以望維港。晚餐另有「第 2 位 +HK$11」，兩個人去每晚人均 HK$353 起。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "平日自助午餐 HK$111/位（原價 HK$372，已包加一，約 3 折）",
+        "晚餐第 2 位 +HK$11：日至四 HK$706/2 位、五六 HK$742/2 位",
+        "任食冰鎮龍蝦、即開生蠔、加拿大鱈場蟹腳、蟹粉小籠包",
+        "預訂 11/12 10:00–11/18；使用 11/12–11/30（午餐限星期一至五）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20View%20International%20House%20Wan%20Chai",
+      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "自助餐",
+        "灣仔",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-xiheyayuan-crab-duck-double11-20261112",
+      "category": "dining",
+      "title": "羲和雅苑雙11：大閘蟹＋北京烤鴨 120 分鐘放題 限量 HK$111/位（原價 HK$888）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開搶至 11/18 · 11/13 至 12/15 平日適用（尖沙咀／中環／東涌）",
+      "venue": "尖沙咀海港城／中環 The L. Place／東涌東薈城（羲和雅苑）",
+      "priceLabel": "雙11 限量 HK$111/位（原價 HK$888/位，適用尖沙咀／中環）；第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位（人均 HK$240）；1 位成人＋1 位 65 歲以上長者 HK$111（人均 HK$230 起）；家庭 4 位 HK$1,111（人均 HK$278，2 成人＋2 長者或 150cm 以下小童，17:30 入座）；東涌平日低至 HK$348/位；另收茶位（尖沙咀 HK$22／中環及東涌 HK$14）及正價加一，現場支付",
+      "priceValue": 111,
+      "originalLabel": "120 分鐘烤鴨＋大閘蟹放題原價 HK$888/位",
+      "discountPct": 13,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-12 12:00 至 2026-11-18 23:59；使用日期：2026-11-13 至 2026-12-15（雙11 優惠只限星期一至五，公眾假期除外）",
+      "summary": "羲和雅苑雙11 第二輪今日中午 12 時開搶，今次仲加入東涌東薈城分店。限量價 HK$111 一位，對照原價 HK$888 即係大約 13 折，包 120 分鐘北京烤鴨＋大閘蟹任食，每位再送小米海參、磯煮鮑魚等。兩個人去可以揀「第 1 位 HK$368＋第 2 位 HK$111」，人均 HK$240；一家大細就有 4 位 HK$1,111 方案。留意茶位費同正價加一要現場另付，東涌平日低至 HK$348/位。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "限量 HK$111/位（原價 HK$888，約 13 折）：烤鴨＋大閘蟹 120 分鐘任食",
+        "第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位，人均 HK$240",
+        "4 位家庭方案 HK$1,111（人均 HK$278）；東涌平日低至 HK$348/位",
+        "預訂 11/12 12:00–11/18；使用 11/13–12/15（只限星期一至五）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%B2%E5%92%8C%E9%9B%85%E8%8B%91%20%E5%B0%96%E6%B2%99%E5%92%80",
+      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "北京烤鴨",
+        "放題"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-teppanyaki-haige-tst-bogo-20261112",
+      "category": "dining",
+      "title": "尖沙咀鐵板燒海賀買一送一：HK$194/位起（原價 HK$388）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開賣 · 名額售完即止",
+      "venue": "尖沙咀彌敦道100號 The ONE 19樓 鐵板燒海賀",
+      "priceLabel": "買一送一 HK$194/位起（原價 HK$388/位起，等於半價）；適用 Omakase 及鐵板燒套餐，實際可選套餐、加購項目與服務費以 KKday 頁面為準",
+      "priceValue": 194,
+      "originalLabel": "鐵板燒／Omakase 套餐原價 HK$388/位起",
+      "discountPct": 50,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 雙11 快閃：2026-11-12 12:00 開賣，名額有限售完即止；官方頁未列明截止日，本檔暫以 11/18 為界，落單前請以 KKday 頁面即時顯示為準",
+      "summary": "尖沙咀 The ONE 19 樓的鐵板燒海賀，雙11 今日中午 12 時推出買一送一：HK$194 一位起，對照原價 HK$388 即係半價。餐廳坐 19 樓，落地玻璃可以無遮擋望 270 度維港景，主打南非鮑魚、西澳龍蝦同美國牛柳等鐵板燒食材，平時人均消費約 HK$800 以上，今次半價入場算係相當罕有。名額有限、售完即止；套餐選擇同現場加購以 KKday 頁面為準。",
+      "highlights": [
+        "買一送一 HK$194/位起（原價 HK$388/位起，半價）",
+        "The ONE 19 樓，270 度維港景鐵板燒",
+        "Omakase 及鐵板燒套餐適用",
+        "11/12 12:00 開賣，名額有限售完即止"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%90%B5%E6%9D%BF%E7%87%92%E6%B5%B7%E8%B3%80%20The%20ONE%20%E5%B0%96%E6%B2%99%E5%92%80",
+      "sourceLabel": "KKday 雙11 官方活動頁（hk-double11）港澳優惠列表",
+      "sourceUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "鐵板燒",
+        "買一送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 6,
       "status": "active"
     },
     {
