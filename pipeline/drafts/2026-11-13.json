@@ -1,0 +1,101 @@
+{
+  "deals": [
+    {
+      "id": "flight-hka-20th-anniversary-taipei-20261113",
+      "category": "flight",
+      "title": "香港航空 20 週年：台北來回連稅 HK$1,590 起（全線經濟艙 8 折，包 23kg）",
+      "subtitle": "官網訂票至 11/30 · 出發 11/10–2027/3/18 · 經濟艙來回 8 折",
+      "route": "香港出發 · 台北（另有峇里島、東京、大阪、福岡、札幌、沖繩、首爾、曼谷、峴港等 20 多個航點）",
+      "priceLabel": "台北來回連稅 HK$1,590 起（8 折後，包 1 件 23kg 寄艙行李）；同輪其他航點：峴港 HK$1,761 起、曼谷 HK$1,813 起、沖繩 HK$1,851 起、首爾 HK$1,879 起、大阪 HK$2,114 起。折扣只適用於票價，不適用於稅項及附加費，票價隨座位情況變動",
+      "priceValue": 1590,
+      "originalLabel": "經濟艙（T／V／W／O 子艙位）來回原價 8 折；官方頁未列逐航點原價，8 折後連稅金額由旅遊情報網綜合官網搜價得出",
+      "discountPct": 80,
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "訂票期：2026-11-04 至 2026-11-30（香港航空官網／App／微信小程序）；出發期：2026-11-10 至 2027-03-18",
+      "summary": "香港航空 20 週年誌慶，官網買指定子艙位機票，經濟艙單程 85 折、來回 8 折，商務艙個別航點來回都有 8 折。最啱短線的是台北，8 折後來回連稅 HK$1,590 起，仲包 1 件 23kg 寄艙行李，以傳統航空公司來講算好抵。出發期橫跨聖誕、農曆新年到明年 3 月中，冬季東京、沖繩、布吉亦會加班。折扣自動在搜尋結果扣減，名額視座位情況，部分日子未必有折扣票價，一切以官網即時報價為準。",
+      "highlights": [
+        "台北來回連稅 HK$1,590 起（8 折後，包 23kg 寄艙行李）",
+        "經濟艙 T／V／W／O 子艙位：單程 85 折、來回 8 折；商務艙指定航點來回 8 折",
+        "訂票期 2026-11-04 至 11-30；出發期 2026-11-10 至 2027-03-18",
+        "折扣只減票價，稅項及附加費照計；部分航班或日期沒有折扣艙位",
+        "冬季加班：東京每日 6 班（12/18–1/3）、沖繩每日 2 班、布吉每日 2 班"
+      ],
+      "url": "https://www.hongkongairlines.com/zh_HK/campaign/specialoffer",
+      "sourceLabel": "香港航空官網「二十周年誌慶」優惠頁 · MeetHK 旅遊情報網（連稅參考價，2026-11-11）",
+      "sourceUrl": "https://www.hongkongairlines.com/zh_HK/campaign/specialoffer",
+      "bookingUrl": "https://www.hongkongairlines.com/zh_HK/campaign/specialoffer",
+      "tags": [
+        "機票",
+        "台灣",
+        "台北",
+        "香港航空",
+        "週年優惠"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-harbourgrand-hongkong-cafe-bogo-nov-20261113",
+      "category": "dining",
+      "title": "港島海逸君綽 Harbour Grand Café：買 1 位第 2 位 HK$1，人均 HK$257.5 食自助晚餐",
+      "subtitle": "Klook 快閃 · 開售 11/12 12:00 至 11/18 · 11/13 至 12/10 適用",
+      "venue": "香港北角油街 23 號港島海逸君綽酒店 Harbour Grand Café（3 樓）",
+      "priceLabel": "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折）；4 位 HK$887（人均 HK$443.5，原價 HK$1,624）。已包加一服務費",
+      "priceValue": 257.5,
+      "originalLabel": "自助晚餐原價 2 位 HK$942、4 位 HK$1,624",
+      "discountPct": 55,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "Klook 開售期：2026-11-12 12:00 至 2026-11-18；適用日期：2026-11-13 至 2026-12-10",
+      "summary": "港島海逸君綽 Harbour Grand Café 今輪 Klook 快閃做「買 1 位 + 第 2 位 HK$1」，兩個人食自助晚餐合共 HK$515，人均 HK$257.5，對照原價 HK$942 即係大約 55 折，而且已包加一。四人同行就有 HK$887 方案，人均 HK$443.5。主打波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓、松露燕窩菜式，甜品有 12 款 Mövenpick 雪糕。開售至 11 月 18 日，11 月 13 日至 12 月 10 日都可以用，適合聖誕前聚餐。名額有限，價格及供應以 Klook 頁面即時顯示為準。",
+      "highlights": [
+        "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折），已包加一",
+        "4 位 HK$887（人均 HK$443.5，原價 HK$1,624）",
+        "任食波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓",
+        "開售 11/12 12:00–11/18；適用 11/13–12/10"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20Grand%20Hong%20Kong%20North%20Point",
+      "sourceLabel": "GroupBuya（Klook 11.12 餐飲快閃，2026-11-12 發佈／11-13 更新）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557291-Klook-%E6%B2%99%E7%94%B0%E9%A6%AC%E5%A0%B4%E5%96%9C%E9%A6%AC%E7%95%B6%E5%85%88%E5%8D%8A%E8%87%AA",
+      "bookingUrl": "https://www.klook.com/zh-HK/deals",
+      "tags": [
+        "自助餐",
+        "酒店",
+        "北角",
+        "買一送一",
+        "海鮮"
+      ],
+      "sample": false
+    },
+    {
+      "id": "dining-sheraton-oysterbar-bogo-20261113",
+      "category": "dining",
+      "title": "尖沙咀喜來登蠔酒吧：晚餐買一送一，4 道菜人均 HK$713 起",
+      "subtitle": "即日起至 12/30 供應 · 已包加一 · 18:30–22:30",
+      "venue": "香港九龍尖沙咀彌敦道 20 號香港喜來登酒店 18 樓 蠔酒吧 Oyster and Wine Bar",
+      "priceLabel": "4 道菜 2 位 HK$1,426（人均 HK$713）；5 道菜 2 位 HK$1,666（人均 HK$833）。已包加一服務費；龍蝦主菜需另加 HK$350",
+      "priceValue": 713,
+      "originalLabel": "買一送一前的單客套餐價：4 道菜 HK$1,426、5 道菜 HK$1,666，即約 5 折",
+      "discountPct": 50,
+      "endsAt": "2026-12-30T22:30:00+08:00",
+      "period": "供應期：即日起至 2026-12-30，每日 18:30–22:30；平台未列截止訂購日，以 KKday 頁面為準",
+      "summary": "尖沙咀喜來登 18 樓蠔酒吧做晚餐買一送一，4 道菜兩位合共 HK$1,426、人均 HK$713；5 道菜兩位 HK$1,666、人均 HK$833，價錢已包加一，等於半價。前菜可以自選生蠔、和牛塔塔、阿根廷小龍蝦塔塔、香煎鴨肝、美式焗蟹餅等，主菜有和牛二重奏、香煎南極海鱸魚、威士忌煙燻干貝燉飯同波士頓龍蝦（龍蝦約 680 克，需另加 HK$350）。落地玻璃望維港，適合紀念日同聖誕前聚餐。消費滿 HK$1,000 起有免費代客泊車。供應至 12 月 30 日，價格以商戶及平台頁面為準。",
+      "highlights": [
+        "4 道菜 2 位 HK$1,426（人均 HK$713）；5 道菜 2 位 HK$1,666（人均 HK$833）",
+        "買一送一即約 5 折，已包加一服務費",
+        "前菜 7 款任選，包括生蠔、和牛塔塔、香煎鴨肝、美式焗蟹餅",
+        "供應至 12/30，每日 18:30–22:30；消費滿 HK$1,000 有免費代客泊車"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sheraton%20Hong%20Kong%20Oyster%20and%20Wine%20Bar",
+      "sourceLabel": "RunHotel（2026-11-10，轉載 KKday 產品 930393 方案）",
+      "sourceUrl": "https://www.runhotel.hk/sheraton-oyster-wine-bar-dinner-offer/",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/930393",
+      "tags": [
+        "餐廳",
+        "尖沙咀",
+        "買一送一",
+        "生蠔",
+        "酒店"
+      ],
+      "sample": false
+    }
+  ]
+}
