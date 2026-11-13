@@ -1309,18 +1309,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-kowloonhotel-harbourview-double11-20261107/</loc>
-    <lastmod>2026-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-xiqing-duckbuffet-111-20261107/</loc>
-    <lastmod>2026-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-parklane-playt-double11bogo-20261102/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1485,24 +1473,6 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/flight-hkexpress-taiwan-fuelcut-20261017/</loc>
     <lastmod>2026-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-harbourview-wanchai-buffet-20261007/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-ninahotel-tww-cafecircles-bogo-20261007/</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.flyandfeasthk.com/deals/dining-hyatt-tst-cafe-b2g2-20261009/</loc>
-    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1797,6 +1767,18 @@
   <url>
     <loc>https://www.flyandfeasthk.com/deals/dining-playt-cwb-double11-second111-20261105/</loc>
     <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-kowloonhotel-harbourview-double11-20261107/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.flyandfeasthk.com/deals/dining-xiqing-duckbuffet-111-20261107/</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-12T14:30:56+08:00",
+    "updated": "2026-11-13T14:06:12+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,81 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 140,
-      "active": 30,
-      "ending": 7,
-      "expired": 110,
+      "active": 28,
+      "ending": 6,
+      "expired": 112,
       "flight": 15,
       "dining": 125,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-kowloonhotel-harbourview-double11-20261107",
-      "category": "dining",
-      "title": "尖沙咀九龍酒店倚窗閣雙11快閃：自助午餐每位 HK$111，原價 HK$526",
-      "subtitle": "KKday 雙11 快閃 · 11/6 12:00 開搶至 11/12 · 約 21 折",
-      "venue": "尖沙咀彌敦道19-21號九龍酒店2樓倚窗閣（Window Café）",
-      "priceLabel": "自助午餐每位 HK$111（原價 HK$526 已包原價加一，約 21 折）；「蟹逅海洋」自助晚餐買一送一碼後人均 HK$430 起（原價 HK$834，約 52 折）；聖誕除夕節慶自助餐低至 6 折",
-      "priceValue": 111,
-      "originalLabel": "自助午餐原價 HK$526/位、自助晚餐原價 HK$834/位（已包原價加一服務費）",
-      "discountPct": 79,
-      "endsAt": "2026-11-12T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-06 12:00 至 2026-11-12 23:59；使用期：2026-11-06 至 12-31（各方案適用日子不同；聖誕除夕節慶餐 12/24–26、12/31 供應，部分方案節慶日不適用）",
-      "summary": "一向少出優惠嘅九龍酒店倚窗閣，今次同 KKday 推雙11 快閃：輸入優惠碼【DB11KL】自助午餐低至 HK$111/位（原價 HK$526 已包加一），其他方案用碼【DB11KL50】減 HK$50。「蟹逅海洋」自助晚餐任食雪花蟹腳、麵包蟹、三點蟹，熱葷有香煎鵝肝、日本 A5 和牛、北京片皮鴨，買一送一碼後人均 HK$430 起。連 12 月聖誕及除夕節慶自助餐都一齊開賣，低至 6 折。每張訂單及每名會員限用一組優惠碼，價格以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "優惠碼【DB11KL】：自助午餐每位 HK$111（原價 HK$526，約 21 折，已包原價加一）",
-        "優惠碼【DB11KL50】：其他方案減 HK$50，晚餐買一送一碼後人均 HK$430 起",
-        "「蟹逅海洋」晚餐任食雪花蟹腳／麵包蟹／三點蟹＋A5 和牛／煎鵝肝／片皮鴨",
-        "聖誕「北歐冬日」節慶晚餐低至 6 折 HK$549/位起、節慶午餐低至 7 折 HK$340/位起",
-        "3.5 小時任食，無限暢飲指定啤酒、汽水及果汁"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/120782",
-      "sourceLabel": "U Lifestyle 2026-11-06（引 KKday 官方方案表）＋myTV SUPER 交叉核實",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116931",
-      "tags": [
-        "雙11",
-        "快閃",
-        "買一送一",
-        "自助餐"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-xiqing-duckbuffet-111-20261107",
-      "category": "dining",
-      "title": "雲海匯／囍慶片皮鴨放題 KKday 雙11限量快閃 HK$11/位，原價 HK$368",
-      "subtitle": "KKday 雙11 快閃 · 11/6 15:00 開搶至 11/12 · 約 3 折限量",
-      "venue": "深水埗雲海匯／沙田囍慶科學園／大圍囍慶顯徑（三店適用）",
-      "priceLabel": "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位（原價 HK$368/位）；第1位 HK$168＋第2位 HK$111、人均 HK$139.5；長者或小童第2位 HK$111、平日 HK$279/2 位",
-      "priceValue": 11,
-      "originalLabel": "片皮鴨放題原價 HK$368/位",
-      "discountPct": 97,
-      "endsAt": "2026-11-12T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-06 15:00 至 2026-11-12 23:59；使用日期：2026-11-07 至 2026-12-16",
-      "summary": "雙11 快閃又一個限量筍價：囍慶科學園片皮鴨 3 小時放題，星期一至五限量 HK$11/位（原價 HK$368），深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑三店都有份。冇搶到 $11 都唔緊要，第1位 HK$168＋第2位 HK$111 方案人均都係百幾蚊，45 款美食 3 小時任叫，紅白餐酒及生力啤酒任飲。限量快閃售完即止，價格以 KKday 頁面為準。",
-      "highlights": [
-        "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位，原價 HK$368",
-        "第1位 HK$168＋第2位 HK$111，人均約 HK$139.5（星期一至五）",
-        "45 款美食 3 小時無限任叫，紅白餐酒及生力啤酒任飲",
-        "每位送茄汁煎焗大虎蝦、雲南野菌燉響螺湯、蠔皇 6 頭鮮鮑魚",
-        "另收茶芥 HK$15/位、加一服務費及酸菜 HK$15/碟"
-      ],
-      "url": "https://www.kkday.com/zh-hk/promo/hk-double11",
-      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07，列明 HK$11/位、原價 HK$368、預訂／使用期）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
-      "tags": [
-        "雙11",
-        "快閃",
-        "限量",
-        "放題"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-parklane-playt-double11bogo-20261102",
       "category": "dining",
@@ -122,7 +56,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -159,7 +93,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -192,7 +126,7 @@ window.DEAL_DATA = {
         "火鍋放題"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -227,7 +161,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -261,7 +195,7 @@ window.DEAL_DATA = {
         "西貢"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -295,8 +229,8 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-royalpark-palatial-double11-111-20261111",
@@ -330,7 +264,7 @@ window.DEAL_DATA = {
         "沙田"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -362,7 +296,7 @@ window.DEAL_DATA = {
         "限量"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -396,7 +330,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -430,7 +364,7 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -464,7 +398,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -500,7 +434,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -532,7 +466,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 15,
+      "daysLeft": 14,
       "status": "active"
     },
     {
@@ -568,7 +502,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 16,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -599,7 +533,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -630,7 +564,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -661,7 +595,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -691,7 +625,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -726,7 +660,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -761,7 +695,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -796,7 +730,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -832,7 +766,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -867,7 +801,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -901,7 +835,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -938,7 +872,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -973,7 +907,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 36,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1005,7 +939,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -1041,7 +975,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 80,
+      "daysLeft": 79,
       "status": "active"
     },
     {
@@ -4926,6 +4860,72 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-kowloonhotel-harbourview-double11-20261107",
+      "category": "dining",
+      "title": "尖沙咀九龍酒店倚窗閣雙11快閃：自助午餐每位 HK$111，原價 HK$526",
+      "subtitle": "KKday 雙11 快閃 · 11/6 12:00 開搶至 11/12 · 約 21 折",
+      "venue": "尖沙咀彌敦道19-21號九龍酒店2樓倚窗閣（Window Café）",
+      "priceLabel": "自助午餐每位 HK$111（原價 HK$526 已包原價加一，約 21 折）；「蟹逅海洋」自助晚餐買一送一碼後人均 HK$430 起（原價 HK$834，約 52 折）；聖誕除夕節慶自助餐低至 6 折",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$526/位、自助晚餐原價 HK$834/位（已包原價加一服務費）",
+      "discountPct": 79,
+      "endsAt": "2026-11-12T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-06 12:00 至 2026-11-12 23:59；使用期：2026-11-06 至 12-31（各方案適用日子不同；聖誕除夕節慶餐 12/24–26、12/31 供應，部分方案節慶日不適用）",
+      "summary": "一向少出優惠嘅九龍酒店倚窗閣，今次同 KKday 推雙11 快閃：輸入優惠碼【DB11KL】自助午餐低至 HK$111/位（原價 HK$526 已包加一），其他方案用碼【DB11KL50】減 HK$50。「蟹逅海洋」自助晚餐任食雪花蟹腳、麵包蟹、三點蟹，熱葷有香煎鵝肝、日本 A5 和牛、北京片皮鴨，買一送一碼後人均 HK$430 起。連 12 月聖誕及除夕節慶自助餐都一齊開賣，低至 6 折。每張訂單及每名會員限用一組優惠碼，價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "優惠碼【DB11KL】：自助午餐每位 HK$111（原價 HK$526，約 21 折，已包原價加一）",
+        "優惠碼【DB11KL50】：其他方案減 HK$50，晚餐買一送一碼後人均 HK$430 起",
+        "「蟹逅海洋」晚餐任食雪花蟹腳／麵包蟹／三點蟹＋A5 和牛／煎鵝肝／片皮鴨",
+        "聖誕「北歐冬日」節慶晚餐低至 6 折 HK$549/位起、節慶午餐低至 7 折 HK$340/位起",
+        "3.5 小時任食，無限暢飲指定啤酒、汽水及果汁"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/120782",
+      "sourceLabel": "U Lifestyle 2026-11-06（引 KKday 官方方案表）＋myTV SUPER 交叉核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116931",
+      "tags": [
+        "雙11",
+        "快閃",
+        "買一送一",
+        "自助餐"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-xiqing-duckbuffet-111-20261107",
+      "category": "dining",
+      "title": "雲海匯／囍慶片皮鴨放題 KKday 雙11限量快閃 HK$11/位，原價 HK$368",
+      "subtitle": "KKday 雙11 快閃 · 11/6 15:00 開搶至 11/12 · 約 3 折限量",
+      "venue": "深水埗雲海匯／沙田囍慶科學園／大圍囍慶顯徑（三店適用）",
+      "priceLabel": "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位（原價 HK$368/位）；第1位 HK$168＋第2位 HK$111、人均 HK$139.5；長者或小童第2位 HK$111、平日 HK$279/2 位",
+      "priceValue": 11,
+      "originalLabel": "片皮鴨放題原價 HK$368/位",
+      "discountPct": 97,
+      "endsAt": "2026-11-12T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-06 15:00 至 2026-11-12 23:59；使用日期：2026-11-07 至 2026-12-16",
+      "summary": "雙11 快閃又一個限量筍價：囍慶科學園片皮鴨 3 小時放題，星期一至五限量 HK$11/位（原價 HK$368），深水埗雲海匯、沙田囍慶科學園、大圍囍慶顯徑三店都有份。冇搶到 $11 都唔緊要，第1位 HK$168＋第2位 HK$111 方案人均都係百幾蚊，45 款美食 3 小時任叫，紅白餐酒及生力啤酒任飲。限量快閃售完即止，價格以 KKday 頁面為準。",
+      "highlights": [
+        "囍慶科學園片皮鴨 3 小時放題（星期一至五）限量 HK$11/位，原價 HK$368",
+        "第1位 HK$168＋第2位 HK$111，人均約 HK$139.5（星期一至五）",
+        "45 款美食 3 小時無限任叫，紅白餐酒及生力啤酒任飲",
+        "每位送茄汁煎焗大虎蝦、雲南野菌燉響螺湯、蠔皇 6 頭鮮鮑魚",
+        "另收茶芥 HK$15/位、加一服務費及酸菜 HK$15/碟"
+      ],
+      "url": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07，列明 HK$11/位、原價 HK$368、預訂／使用期）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "快閃",
+        "限量",
+        "放題"
+      ],
+      "sample": false,
       "daysLeft": 0,
       "status": "expired"
     }
