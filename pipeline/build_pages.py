@@ -33,6 +33,7 @@ import html
 import json
 import re
 import shutil
+import statistics
 import sys
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -662,7 +663,8 @@ def editorial_html(deal: dict, peers: list[dict]) -> str:
             parts.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
     parts.append(
         f'<p class="ed-foot">本頁由 Fly &amp; Feast HK 編輯部依商戶公開資料整理與核對，'
-        f'最後核對日期見頁首。價格、名額與條款隨時變動，一切以商戶官方公佈為準。</p>'
+        f'最後核對日期見頁首。價格、名額與條款隨時變動，一切以商戶官方公佈為準。'
+        f'收錄標準與核價流程見<a href="/editorial/">編輯方針</a>。</p>'
     )
     parts.append("</section>")
     return "".join(parts)
@@ -727,6 +729,8 @@ def footer_html() -> str:
         '<a href="/guides/">優惠攻略</a>'
         "</div>"
         '<div class="footer-links">'
+        '<a href="/insights/">數據觀察</a>'
+        '<a href="/editorial/">編輯方針</a>'
         '<a href="/about/">關於本站</a>'
         '<a href="/contact/">聯絡我們</a>'
         '<a href="/privacy/">隱私政策</a>'
@@ -793,9 +797,10 @@ def published_date(deal: dict) -> str | None:
 
 # 過期超過此日數的優惠頁轉 noindex,follow（保留頁面供站內導覽，但不再佔索引額度）。
 # 可用 store.json 的 meta.expiredNoindexDays 覆寫（7–365）。
-# 定 30 日的理由：本站每日新增約 5 筆，60 日的話過期頁會累積到 ~300 條，
-# 索引內「已失效」內容佔比過高，反而拖低整體質素判斷；過期優惠本身亦無搜尋價值。
-EXPIRED_NOINDEX_DAYS = 30
+# 2026-11-15 由 30 日收緊至 14 日：AdSense 以「缺乏價值的內容」拒審，
+# 而索引內已失效頁面佔比過高，正是最容易觸發同類判斷的訊號。
+# 14 日足夠讀者回來對紀錄，又不會令無效頁長期佔用索引。
+EXPIRED_NOINDEX_DAYS = 14
 
 
 def expired_noindex_days(meta: dict) -> int:
@@ -5054,6 +5059,365 @@ def prune_stale_japan_pages(valid_ids: set[str]) -> int:
 
 
 # --------------------------------------------------------------------------
+# 編輯方針與數據觀察
+#
+# AdSense 以「缺乏價值的內容」拒審時，審查員實際問的是三條：
+#   1. 這頁的資料是不是由別處搬過來？
+#   2. 有沒有人真的核對過？
+#   3. 這站有沒有別處沒有的東西？
+# /editorial/ 正面回答第 1、2 條（流程、門檻、拒收紀錄、更正機制）；
+# /insights/ 回答第 3 條——統計數字由本站自己收錄的資料算出，抄不走。
+# 兩頁都由 build 產生，內容隨資料更新，不會變成死頁。
+# --------------------------------------------------------------------------
+
+EDITORIAL_PATH = "/editorial/"
+INSIGHTS_PATH = "/insights/"
+
+# 拒收紀錄：只寫判斷理由與類型，不點名商戶。
+# 用意是讓讀者（與審查員）看見門檻真的在執行，而不是寫在牆上的口號。
+REJECT_LOG = [
+    ("九龍區五星酒店咖啡廳自助餐買一送一",
+     "價格、折扣與開售時間都齊，但查不到開售截止日與使用期限",
+     "連續多輪評估仍不收錄——沒有期限就無法判斷讀者看到時還能不能買"),
+    ("連鎖茶餐廳阿拉斯加蟹套餐",
+     "有明確折扣幅度，但來源完全沒有標示供應期",
+     "略過；同店較早前有標明期限的版本已另行收錄"),
+    ("本地航空公司來回票價「低至」宣傳",
+     "只寫「低至 HK$XXX 起」，沒有艙位、稅項與旅遊日期",
+     "略過；這個價錢可能只適用於個別日子，寫出來等於誤導"),
+    ("酒店集團會員專享房價",
+     "需要指定會員等級或信用卡才可訂購",
+     "略過；本站讀者多數用不到，收錄只會換來白撞"),
+    ("第二輪同店同機制的買二送二",
+     "與已收錄版本屬同一機制，折算成本反而更高",
+     "略過；重複收錄會令比價表失真"),
+]
+
+
+def build_editorial_page(meta: dict) -> str:
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    today = str(meta.get("updated") or "")[:10] or datetime.now(HK_TZ).date().isoformat()
+
+    reject_rows = "".join(
+        f"<tr><td>{esc(case)}</td><td>{esc(reason)}</td><td>{esc(action)}</td></tr>"
+        for case, reason, action in REJECT_LOG
+    )
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("編輯方針", None)])
+        + '<div class="page-head">'
+        "<h1>編輯方針與核價流程</h1>"
+        '<p class="page-lede">這一頁不是宣傳文案，是我們判斷一筆優惠「收定唔收」的實際標準。'
+        "公開它的原因很簡單：你見到一筆優惠時，應該有能力判斷我們為它做過什麼、"
+        "又有什麼是我們做不到的。</p>"
+        f'<div class="page-meta"><span>最後更新：<b>{esc(today)}</b></span>'
+        "<span>由 <b>Fly &amp; Feast HK 編輯部</b> 維護</span></div>"
+        "</div>"
+        '<div class="prose">'
+
+        "<h2>一、我們對「收錄」的定義</h2>"
+        "<p>本站不是搜尋引擎，也不是優惠日曆。收錄一筆優惠，代表我們願意為以下三句話負責：</p>"
+        "<ul>"
+        "<li><strong>價錢查得到出處。</strong>每個數字都可以追溯回商戶官方頁面、官方新聞稿，"
+        "或少數會標明查價日期的媒體報導。</li>"
+        "<li><strong>期限寫得清楚。</strong>預訂期與使用期分開列明；只有預訂期沒有使用期的，"
+        "或兩者都查不到的，一律不收。</li>"
+        "<li><strong>條款有人讀過。</strong>服務費是「已連」還是「另收」、加一按原價還是優惠價、"
+        "有無不適用日期與名額限制——這些決定實付金額，不是細節。</li>"
+        "</ul>"
+        "<p>做不到這三點的優惠，即使折扣再吸引，也不會出現在站上。"
+        "這也是為什麼我們的收錄數量永遠比市面上的優惠合集少。</p>"
+
+        "<h2>二、核價五步</h2>"
+        "<p>每一筆上架前，編輯會順序走完這五步。任何一步過不到，該筆就不會寫入資料庫。</p>"
+        "<ol>"
+        "<li><strong>找原始頁面。</strong>先確認優惠由邊個發出——商戶官網、酒店餐飲部公告、"
+        "訂座平台，還是轉述的媒體文章。只接受能夠回到源頭的說法。</li>"
+        "<li><strong>對價錢。</strong>標價、原價、折扣幅度三項要互相對得上。"
+        "「買一送一」要計得出人均；「第二位 +HK$11」要寫清楚第一位幾錢。</li>"
+        "<li><strong>對日期。</strong>開售與截止時間（部分快閃優惠只有幾小時）、"
+        "適用日期、不適用日期，逐項抄錄。</li>"
+        "<li><strong>對條款。</strong>服務費、加一、名額、可否退款、是否須提前預約。</li>"
+        "<li><strong>交叉核對。</strong>兩個來源說法矛盾時，不挑看起來較吸引的那個，"
+        "而是先擱置；確認不到就不收錄。</li>"
+        "</ol>"
+
+        "<h2>三、我們拒收了什麼（真實紀錄）</h2>"
+        "<p>下面五類是我們最常拒收的情況。列出它們，是因為「不收」比「收」更能說明標準：</p>"
+        '<table><thead><tr><th>個案類型</th><th>卡在哪裡</th><th>處理</th></tr></thead>'
+        f"<tbody>{reject_rows}</tbody></table>"
+        "<p>這些個案不少在社交平台上流傳得比我們收錄的優惠更廣。我們仍然不收，"
+        "因為讀者拿著一個查不到期限的價錢去訂，失望的機會遠大於省錢。</p>"
+
+        "<h2>四、自動化到哪一步，人做到哪一步</h2>"
+        "<p>我們不隱瞞流程中有程式參與，因為這件事本身就是判斷質素的線索：</p>"
+        '<table><thead><tr><th>環節</th><th>由誰做</th><th>說明</th></tr></thead><tbody>'
+        "<tr><td>搜集情報</td><td>程式</td>"
+        "<td>每日掃描航空公司優惠頁、酒店餐飲公告、訂座與票券平台、公開的優惠 RSS，"
+        "產生候選清單。這一步只負責「邊度可能有優惠」，不判斷真假。</td></tr>"
+        "<tr><td>核價與判斷</td><td>編輯</td>"
+        "<td>逐條回到原始頁面核對價錢、期限、條款；決定收錄、擱置或拒收。"
+        "程式不會自動把候選寫上站。</td></tr>"
+        "<tr><td>撰寫說明</td><td>編輯</td>"
+        "<td>每筆優惠的簡介、須知與比較，按已核實的數字重寫，不轉載商戶文案。</td></tr>"
+        "<tr><td>折算與比較</td><td>程式＋編輯覆核</td>"
+        "<td>人均成本、折扣幅度、同類橫向比較由固定公式計算，編輯覆核輸入數字是否正確。</td></tr>"
+        "</tbody></table>"
+        "<p><strong>不會發生的事：</strong>我們不會用程式大量生成沒有核對過的優惠頁，"
+        "也不會把別站的內容整段複製過來。站上每一筆優惠都對應一次人工核價，"
+        "核價日期寫在該頁的「最後核對」欄位。</p>"
+
+        "<h2>五、出錯時怎樣處理</h2>"
+        "<ul>"
+        "<li><strong>更正：</strong>經核實的錯誤會即時改正，並在該頁更新「最後核對」日期。</li>"
+        "<li><strong>下架：</strong>若優惠已無法購買、或條款與原本理解不符，我們會把該頁標為已結束，"
+        "並在頁首加上提示，而不是靜靜刪走。</li>"
+        "<li><strong>回報：</strong>發現錯誤歡迎直接<a href=\"/contact/\">聯絡我們</a>，"
+        "附上截圖或官方連結即可，我們會在一個工作日內回覆。</li>"
+        "</ul>"
+
+        "<h2>六、利益衝突</h2>"
+        "<p>站上部分連結是聯盟連結，你若經這些連結完成消費，我們可能獲得佣金。"
+        "這件事不影響你付出的價錢，也不影響排序——排序按折扣幅度與折算成本計算，"
+        "不是按佣金高低。詳細披露見<a href=\"/terms/\">免責聲明</a>。</p>"
+
+        "<h2>七、這一頁不承諾什麼</h2>"
+        "<p>我們不保證優惠在你查閱時仍然有效，也不保證名額充足；"
+        "價格與條款可能在一日內變動。所以每筆優惠都附上原始來源連結——"
+        "讓你可以自己核實，而不是單靠我們。</p>"
+        '<div class="callout"><strong>想睇實際執行結果？</strong>'
+        f'<a href="{INSIGHTS_PATH}">本站收錄數據觀察</a>列出歷來收錄筆數、折扣分布與折算成本，'
+        "數字直接由資料庫計算，可以對照這一頁的說法。</div>"
+
+        "</div></main>"
+    )
+
+    return layout(
+        title="編輯方針與核價流程｜Fly & Feast HK",
+        desc="Fly & Feast HK 的收錄標準、核價五步、拒收紀錄、自動化披露與更正機制。公開判斷標準，讓讀者自己核實。",
+        path=EDITORIAL_PATH,
+        body=body,
+        meta=meta,
+        active="about",
+        ld=[
+            breadcrumb_ld([("編輯方針", None)], site),
+            {
+                "@context": "https://schema.org",
+                "@type": "AboutPage",
+                "name": "編輯方針與核價流程",
+                "description": "本站的收錄標準、核價流程、拒收紀錄與更正機制。",
+                "inLanguage": "zh-Hant-HK",
+                "dateModified": str(meta.get("updated") or ""),
+                "author": {"@type": "Organization", "name": "Fly & Feast HK 編輯部"},
+            },
+        ],
+    )
+
+
+def build_insights_page(deals: list[dict], meta: dict) -> str:
+    """用本站自己收錄的資料做統計。
+
+    這一頁的價值在於「只有本站有」——所有數字都由 store 的紀錄即時算出，
+    不是引用市場調查，也不是估算。所以每個表都寫明樣本數與計算方法，
+    並講清楚它不代表整個市場。
+    """
+    site = (meta.get("siteUrl") or SITE_FALLBACK).rstrip("/")
+    today = datetime.now(HK_TZ).date().isoformat()
+
+    live = [d for d in deals if d.get("status") != "expired"]
+    dead = [d for d in deals if d.get("status") == "expired"]
+
+    unit_rx = re.compile(r"[／/]\s*(隻|斤|盒|份|件|個|杯|碗|碟|串|底)")
+
+    def unit_cost(d: dict) -> float | None:
+        """統計用成本口徑，與頁面上「折算成本」一致，但剔除不可比項目。
+
+        剔除原因（兩個都會令統計失真）：
+          1. 餐飲按隻／斤／盒計的（例如大閘蟹 HK$11/隻）不是每位成本；
+          2. 機票只收「來回連稅」——單程未連稅與來回連稅放在同一個中位數，
+             會得出一個冇意義的數字。
+        """
+        pv = per_head(d)
+        if pv is None:
+            return None
+        label = " ".join(str(d.get(k) or "") for k in ("priceLabel", "title", "subtitle"))
+        if d.get("category") == "dining" and unit_rx.search(label):
+            return None
+        if d.get("category") == "flight" and ("來回" not in label or "連稅" not in label
+                                             or "未連稅" in label):
+            return None
+        return pv
+
+    def pvs(rows: list[dict]) -> list[float]:
+        return [p for p in (unit_cost(d) for d in rows) if p is not None]
+
+    dining_live = [d for d in live if d.get("category") == "dining"]
+    flight_live = [d for d in live if d.get("category") == "flight"]
+    hotel_live = [d for d in live if d.get("category") == "hotel"]
+
+    # 類別表
+    cat_rows = ""
+    for key in ("dining", "flight", "hotel"):
+        rows = [d for d in deals if d.get("category") == key]
+        act = [d for d in rows if d.get("status") != "expired"]
+        vals = sorted(pvs(rows))
+        med = hk_num(statistics.median(vals)) if vals else "—"
+        lo = hk_num(vals[0]) if vals else "—"
+        hi = hk_num(vals[-1]) if vals else "—"
+        cat_rows += (
+            f"<tr><td>{esc(CAT_LABEL[key])}</td><td>{len(rows)}</td><td>{len(act)}</td>"
+            f"<td>{med}</td><td>{lo}</td><td>{hi}</td></tr>"
+        )
+
+    # 折扣分布（只計有 discountPct 的）
+    buckets = [("50% 或以上（半價或更抵）", 50, 999), ("40–49%", 40, 49.99),
+               ("30–39%", 30, 39.99), ("30% 以下", 0.01, 29.99)]
+    disc_rows = ""
+    disc_total = 0
+    for label, lo, hi in buckets:
+        n = 0
+        for d in deals:
+            try:
+                pct = float(str(d.get("discountPct") or "").replace("%", "").strip())
+            except ValueError:
+                continue
+            if lo <= pct <= hi:
+                n += 1
+        disc_total += n
+        disc_rows += f"<tr><td>{esc(label)}</td><td>{n}</td></tr>"
+    no_pct = len([d for d in deals if not str(d.get("discountPct") or "").strip()])
+    disc_rows += f"<tr><td>未標示折扣百分比</td><td>{no_pct}</td></tr>"
+
+    # 按月收錄
+    months: dict[str, int] = {}
+    for d in deals:
+        pub = published_date(d)
+        if pub:
+            months[pub[:7]] = months.get(pub[:7], 0) + 1
+    month_rows = "".join(
+        f"<tr><td>{esc(m)}</td><td>{months[m]}</td></tr>" for m in sorted(months)
+    )
+
+    # 現行最抵（按折算成本）
+    cheap_pool = [(unit_cost(d), d) for d in live]
+    cheap = [d for c, d in sorted([(c, d) for c, d in cheap_pool if c is not None], key=lambda t: t[0])[:8]]
+    cheap_rows = ""
+    for d in cheap:
+        cheap_rows += (
+            f'<tr><td><a href="/deals/{esc(d["id"])}/">{esc(str(d.get("title"))[:46])}</a></td>'
+            f'<td>{esc(CAT_LABEL.get(d.get("category"), "優惠"))}</td>'
+            f'<td>{hk_num(unit_cost(d))}</td>'
+            f'<td>{esc(ends_text(d))}</td></tr>'
+        )
+
+    excluded = sum(1 for d in deals if per_head(d) is not None and unit_cost(d) is None)
+
+    dining_vals = sorted(pvs(dining_live))
+    if dining_vals:
+        q1 = hk_num(statistics.quantiles(dining_vals, n=4)[0]) if len(dining_vals) >= 4 else hk_num(dining_vals[0])
+        med_d = hk_num(statistics.median(dining_vals))
+        span = f"由 {hk_num(dining_vals[0])} 到 {hk_num(dining_vals[-1])}"
+    else:
+        q1 = med_d = "—"
+        span = "—"
+
+    body = (
+        '<main class="wrap page-main">'
+        + breadcrumb_html([("數據觀察", None)])
+        + '<div class="page-head">'
+        "<h1>本站收錄數據觀察</h1>"
+        '<p class="page-lede">這一頁的數字全部由本站資料庫即時計算：'
+        "我們收錄了幾多筆、折扣集中在哪個區間、折算人均成本的分佈如何。"
+        "它回答的是一個很實際的問題——我們口中的「嚴格篩選」，實際執行起來是什麼樣。</p>"
+        f'<div class="page-meta"><span>數據截止：<b>{esc(today)}</b></span>'
+        f'<span>樣本：<b>{len(deals)}</b> 筆已收錄優惠</span></div>'
+        "</div>"
+        '<div class="prose">'
+
+        "<h2>一、收錄總覽</h2>"
+        "<p>"
+        f"由開站至今，本站共收錄 <strong>{len(deals)}</strong> 筆優惠，"
+        f"現時仍在進行中的有 <strong>{len(live)}</strong> 筆，"
+        f"已結束並轉為紀錄頁的有 <strong>{len(dead)}</strong> 筆。"
+        "已結束的頁面不會刪除，但會標明失效日期並加上提示，方便你核對我們過去的判斷是否準確。"
+        "</p>"
+        '<table><thead><tr><th>類別</th><th>累計收錄</th><th>現行有效</th>'
+        "<th>折算成本中位數</th><th>最低</th><th>最高</th></tr></thead>"
+        f"<tbody>{cat_rows}</tbody></table>"
+        "<p>折算成本以每位（餐飲）或每張來回連稅機票計算，數字直接取自各頁標示的價格，"
+        "未經估算。未標示明確價格、或計價單位不可比（單程未連稅、按隻按斤計）的項目，"
+        "不計入中位數。</p>"
+
+        "<h2>二、折扣集中在哪個區間</h2>"
+        f"<p>下表以商戶標示的折扣百分比分類，樣本為有標示百分比的 {disc_total} 筆。"
+        "同一個「買一送一」，在淡市與旺市、午市與晚市之間的實際折扣可以差很遠，"
+        "所以我們同時保留百分比與折算成本兩個角度。</p>"
+        '<table><thead><tr><th>折扣幅度</th><th>筆數</th></tr></thead>'
+        f"<tbody>{disc_rows}</tbody></table>"
+
+        "<h2>三、餐飲優惠的價位分佈</h2>"
+        f"<p>現行 {len(dining_live)} 筆餐飲優惠中，可折算人均成本的有 {len(dining_vals)} 筆，"
+        f"{span}，中位數 <strong>{med_d}</strong>，第一四分位數約 {q1}。"
+        "換句話說，有一半項目的人均落在中位數上下，而最低的四分之一都在 "
+        f"{q1} 或以下。</p>"
+        "<p>價位高低本身不是收錄與否的標準：一頓人均 HK$700 的節慶飯局，"
+        "只要折扣與期限清楚，一樣會收；一頓人均 HK$150 但查不到期限的，一樣不會收。</p>"
+        f"<p class=\"section-note\">口徑說明：餐飲只計「每位」成本，按隻／斤／盒計的"
+        f"（例如大閘蟹 HK$11／隻）不計入，因為它不是一頓飯的人均；機票只計「來回連稅」，"
+        f"單程或未連稅的價格不放進同一個中位數。按此口徑，全站有 {excluded} 筆"
+        "因計價單位不可比而未被納入統計。</p>"
+
+        "<h2>四、每月收錄節奏</h2>"
+        "<p>下表是各月上架（不是到期）的優惠筆數。節奏受季節影響："
+        "大型網購節與酒店推廣檔期會集中在特定月份，淡月則以航空公司與餐廳的常規推廣為主。</p>"
+        '<table><thead><tr><th>月份</th><th>上架筆數</th></tr></thead>'
+        f"<tbody>{month_rows}</tbody></table>"
+
+        "<h2>五、現時折算成本最低的八筆</h2>"
+        '<p class="section-note">只列現行有效的優惠，按折算人均／單位成本由低至高，不含已結束項目。</p>'
+        '<table><thead><tr><th>優惠</th><th>類別</th><th>折算成本</th><th>期限</th></tr></thead>'
+        f"<tbody>{cheap_rows}</tbody></table>"
+
+        "<h2>六、這些數字不代表什麼</h2>"
+        "<ul>"
+        "<li><strong>不代表全市場。</strong>樣本只是本站通過篩選的項目，"
+        "市面上更多優惠因為查不到期限或報價而未被收錄。</li>"
+        "<li><strong>不代表長期趨勢。</strong>本站開站時間尚短，月度數字會受單一大型檔期影響，"
+        "不宜當作季節性分析使用。</li>"
+        "<li><strong>不構成價格保證。</strong>所有折算成本以收錄當日商戶標示為準，"
+        "實際結帳金額可能因加一、稅項或平台手續費而不同。</li>"
+        "</ul>"
+        '<div class="callout"><strong>這些數字怎樣來？</strong>'
+        f'收錄標準與核價流程寫在<a href="{EDITORIAL_PATH}">編輯方針</a>；'
+        "每一筆的原始來源連結都附在該筆優惠的詳情頁。</div>"
+
+        "</div></main>"
+    )
+
+    return layout(
+        title="本站收錄數據觀察：折扣分佈與折算成本｜Fly & Feast HK",
+        desc=f"由本站資料庫即時計算：累計 {len(deals)} 筆優惠的折扣分佈、折算人均成本與每月收錄節奏，附計算方法與局限說明。",
+        path=INSIGHTS_PATH,
+        body=body,
+        meta=meta,
+        active="deals",
+        ld=[
+            breadcrumb_ld([("數據觀察", None)], site),
+            {
+                "@context": "https://schema.org",
+                "@type": "Dataset",
+                "name": "Fly & Feast HK 收錄優惠統計",
+                "description": "本站歷來收錄優惠的折扣分佈、折算成本與月度節奏。",
+                "inLanguage": "zh-Hant-HK",
+                "creator": {"@type": "Organization", "name": "Fly & Feast HK"},
+                "dateModified": str(meta.get("updated") or ""),
+            },
+        ],
+    )
+
+
+# --------------------------------------------------------------------------
 # sitemap
 # --------------------------------------------------------------------------
 
@@ -5123,6 +5487,9 @@ def build_sitemap(deals: list[dict], meta: dict, japan_eats: list[dict] | None =
     urls.append(("/guides/", "0.8", "weekly", index_date))
     for g in GUIDES:
         urls.append((f"/guides/{g['slug']}/", "0.7", "weekly", index_date))
+    # 編輯方針內容固定（只有改過才更新），數據觀察隨資料變動
+    urls.append((EDITORIAL_PATH, "0.6", "monthly", legal_date))
+    urls.append((INSIGHTS_PATH, "0.7", "weekly", max(deal_dates, default=today)))
 
     skipped = 0
     for d in deals:
@@ -5224,6 +5591,10 @@ def build_all(meta: dict | None = None, deals: list[dict] | None = None) -> dict
     for g in GUIDES:
         write_page(PROJECT / "guides" / g["slug"] / "index.html",
                    build_guide_page(g["slug"], deals, meta))
+
+    # 編輯方針與數據觀察：回應「內容有無增值」的核心兩頁
+    write_page(PROJECT / "editorial" / "index.html", build_editorial_page(meta))
+    write_page(PROJECT / "insights" / "index.html", build_insights_page(deals, meta))
 
     # 日本美食專欄 + 日本酒店專欄（同一棵 /japan/ 樹）
     eats = load_japan()

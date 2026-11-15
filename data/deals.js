@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-13T14:20:29+08:00",
+    "updated": "2026-11-15T10:35:06+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,122 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 143,
-      "active": 31,
-      "ending": 6,
-      "expired": 112,
+      "active": 28,
+      "ending": 9,
+      "expired": 115,
       "flight": 16,
       "dining": 127,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-parklane-playt-double11bogo-20261102",
-      "category": "dining",
-      "title": "銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起",
-      "subtitle": "Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶 · 同場加推大閘蟹自助晚餐至 11/30",
-      "venue": "銅鑼灣告士打道 310 號香港柏寧酒店 1 樓 PLAYT",
-      "priceLabel": "Klook 雙11 自助餐買一送一，自助午餐折後人均約 HK$240 起（媒體 2026-11-02 查價）；原價、適用餐期與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止",
-      "priceValue": 240,
-      "originalLabel": "自助午餐原價以 Klook 活動頁即時顯示為準",
-      "discountPct": 50,
-      "endsAt": "2026-11-13T23:59:00+08:00",
-      "period": "預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期以 Klook 商品頁「有效期」為準；另 PLAYT「金秋蟹宴」大閘蟹自助晚餐供應期為 2026-10-12 至 11-30，每位兩隻約四両清蒸大閘蟹（小童一隻）",
-      "summary": "銅鑼灣柏寧酒店的 PLAYT 在 Klook 雙11 旅展期間做自助餐買一送一，自助午餐折後人均約 HK$240 起，等於約五折。餐廳以開放式「Kitchen Theatre」廚房劇院設計，即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排、壽司刺身與中式點心齊備；10 月 12 日至 11 月 30 日同場加推「金秋蟹宴」大閘蟹自助晚餐，每位包兩隻約四両清蒸大閘蟹，另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯。買一送一屬限量名額，每日中午 12:00 開搶，落單前先確認想去的日子仍有位。",
-      "highlights": [
-        "自助午餐買一送一，折後人均約 HK$240 起（媒體 2026-11-02 查價，以 Klook 即時價為準）",
-        "雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶，名額有限",
-        "金秋蟹宴大閘蟹自助晚餐 10/12–11/30：每位兩隻約四両大閘蟹（小童一隻）",
-        "海鮮吧即開生蠔、冰鎮龍蝦、鱈蟹腳；熱盤有安格斯帶骨牛排、即蒸點心",
-        "位於銅鑼灣告士打道，港鐵銅鑼灣站步行約 5 分鐘",
-        "餐券使用期以商品頁有效期為準，買券後仍須向餐廳訂位"
-      ],
-      "url": "https://www.klook.com/zh-HK/activity/82950-park-lane-playt-buffet/",
-      "sourceLabel": "Klook 柏寧酒店 PLAYT 自助餐商品頁 · Finance01 雙11 優惠整合（2026-11-02 查價）",
-      "sourceUrl": "https://www.finance01.com/double-11",
-      "tags": [
-        "自助餐",
-        "買一送一",
-        "雙11",
-        "銅鑼灣",
-        "大閘蟹"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-renaissance-cafe-double11bogo-20261102",
-      "category": "dining",
-      "title": "灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起",
-      "subtitle": "生蠔龍蝦自助晚餐 · Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶",
-      "venue": "灣仔港灣道 1 號香港萬麗海景酒店 大堂 萬麗咖啡室",
-      "priceLabel": "Klook 雙11 自助餐買一送一，生蠔龍蝦自助晚餐折後人均約 HK$420 起（媒體 2026-11-02 查價）；原價與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止",
-      "priceValue": 420,
-      "originalLabel": "自助晚餐原價以 Klook 活動頁即時顯示為準",
-      "discountPct": 50,
-      "endsAt": "2026-11-13T23:59:00+08:00",
-      "period": "預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期、可訂時段與不適用日期以 Klook 商品頁為準",
-      "summary": "灣仔萬麗海景酒店的萬麗咖啡室（Café Mira）在 Klook 雙11 旅展做自助餐買一送一，主打生蠔與龍蝦的自助晚餐折後人均約 HK$420 起。酒店位於會展中心上蓋，海景與地點是主要賣點；自助餐以冰鎮海鮮、即切烤肉與甜品檯為骨幹。買一送一屬限量名額，每日中午 12:00 開搶，熱門日子（週五至日、假日前夕）通常最快售完。留意價錢未計加一服務費的情況，實際結帳以平台與餐廳公佈為準。",
-      "highlights": [
-        "生蠔龍蝦自助晚餐買一送一，折後人均約 HK$420 起（媒體 2026-11-02 查價）",
-        "雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶",
-        "酒店位於灣仔會展中心上蓋，港鐵灣仔站步行約 10 分鐘",
-        "買券不等於訂位，落單後仍須向餐廳確認日期與時段",
-        "週五至日及假日前夕名額最快售完，建議開搶即落單",
-        "服務費與不適用日期以 Klook 商品頁及餐廳公佈為準"
-      ],
-      "url": "https://www.finance01.com/double-11",
-      "sourceLabel": "Finance01 雙11 優惠整合（2026-11-02 查價）· Klook 活動",
-      "sourceUrl": "https://www.finance01.com/double-11",
-      "tags": [
-        "自助餐",
-        "買一送一",
-        "雙11",
-        "灣仔",
-        "海鮮"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-ngoudaaisou-mongkok-hotpot-20261107",
-      "category": "dining",
-      "title": "旺角牛大帥天天鮮牛肉火鍋 KKday 雙11：潮汕牛肉放題宵夜買一送一人均 HK$149 起",
-      "subtitle": "KKday 雙11 快閃 · 11/8 12:00 開搶至 11/14 · 原價 HK$338/位",
-      "venue": "旺角彌敦道700號 T.O.P This is Our Place 地庫 R1 號舖（香港首店）",
-      "priceLabel": "宵夜時段（21:00 後入座）買一送一：星期日至四 HK$298/2 位、人均 HK$149（原價 HK$338/位，約 44 折）；自助晚餐第2位 HK$111、人均 HK$225；三人同行買二送一 HK$596/3 位、人均 HK$199；全日火鍋定食 HK$88/位（原價 HK$139）",
-      "priceValue": 149,
-      "originalLabel": "120 分鐘放題原價 HK$338/位",
-      "discountPct": 56,
-      "endsAt": "2026-11-14T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-08 12:00 至 2026-11-14 23:59；使用日期：2026-11-09 至 2026-12-31",
-      "summary": "牛大帥香港首店登陸旺角 T.O.P：一人一鍋 120 分鐘潮汕手切牛肉任食任飲，8 款牛肉（嫩牛肉、匙仁、雙層肉、匙柄、吊龍、牛胸油、牛舌等）任叫，每位送清蒸江蘇大閘蟹一隻（先到先得）。雙11 快閃最抵係宵夜場買一送一，人均 HK$149 平過北上食潮汕火鍋。留意另收每位醬料費 HK$18 及 10% 服務費，價格以 KKday 頁面為準。",
-      "highlights": [
-        "宵夜買一送一（21:00 後入座）：日日至四人均 HK$149、五六人均 HK$159",
-        "自助晚餐第 2 位 HK$111，人均 HK$225；三人買二送一人均 HK$199",
-        "全日火鍋定食 HK$88/位（原價 HK$139），免醬料費",
-        "每位送清蒸江蘇大閘蟹一隻（先到先得、送完即止）",
-        "另收每位醬料費 HK$18 及 10% 服務費"
-      ],
-      "url": "https://www.kkday.com/zh-hk/product/569461",
-      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07）＋KKday 產品頁／官方 Blog 交叉核實",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
-      "tags": [
-        "雙11",
-        "快閃",
-        "買一送一",
-        "火鍋放題"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-cafetoo-admiralty-crabseafood-kkday-20261011",
       "category": "dining",
@@ -161,7 +54,7 @@ window.DEAL_DATA = {
         "快閃"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -195,7 +88,7 @@ window.DEAL_DATA = {
         "西貢"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -229,7 +122,7 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -264,8 +157,8 @@ window.DEAL_DATA = {
         "沙田"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-sunwaidaizhong-crab11-20261111",
@@ -296,8 +189,8 @@ window.DEAL_DATA = {
         "限量"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-harbourview-wanchai-double11-111-20261112",
@@ -330,8 +223,8 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-xiheyayuan-crab-duck-double11-20261112",
@@ -364,8 +257,8 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-teppanyaki-haige-tst-bogo-20261112",
@@ -398,8 +291,8 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-harbourgrand-hongkong-cafe-bogo-nov-20261113",
@@ -432,8 +325,8 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-parkhotel-parkcafe-xmas-earlybird-20261105",
@@ -468,7 +361,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 7,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -500,7 +393,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 12,
       "status": "active"
     },
     {
@@ -536,7 +429,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 15,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -567,7 +460,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -598,7 +491,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -629,7 +522,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -659,7 +552,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -694,7 +587,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -729,7 +622,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -764,7 +657,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -800,7 +693,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -835,7 +728,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -869,7 +762,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -904,7 +797,7 @@ window.DEAL_DATA = {
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 17,
+      "daysLeft": 15,
       "status": "active"
     },
     {
@@ -941,7 +834,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 30,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -976,7 +869,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 35,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -1008,7 +901,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 37,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1042,7 +935,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 47,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -1078,7 +971,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 79,
+      "daysLeft": 77,
       "status": "active"
     },
     {
@@ -5027,6 +4920,113 @@ window.DEAL_DATA = {
         "快閃",
         "限量",
         "放題"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-parklane-playt-double11bogo-20261102",
+      "category": "dining",
+      "title": "銅鑼灣柏寧酒店 PLAYT 雙11 自助餐買一送一，折後人均約 HK$240 起",
+      "subtitle": "Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶 · 同場加推大閘蟹自助晚餐至 11/30",
+      "venue": "銅鑼灣告士打道 310 號香港柏寧酒店 1 樓 PLAYT",
+      "priceLabel": "Klook 雙11 自助餐買一送一，自助午餐折後人均約 HK$240 起（媒體 2026-11-02 查價）；原價、適用餐期與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止",
+      "priceValue": 240,
+      "originalLabel": "自助午餐原價以 Klook 活動頁即時顯示為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-13T23:59:00+08:00",
+      "period": "預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期以 Klook 商品頁「有效期」為準；另 PLAYT「金秋蟹宴」大閘蟹自助晚餐供應期為 2026-10-12 至 11-30，每位兩隻約四両清蒸大閘蟹（小童一隻）",
+      "summary": "銅鑼灣柏寧酒店的 PLAYT 在 Klook 雙11 旅展期間做自助餐買一送一，自助午餐折後人均約 HK$240 起，等於約五折。餐廳以開放式「Kitchen Theatre」廚房劇院設計，即開生蠔、冰鎮龍蝦、鱈蟹腳、美國安格斯帶骨牛排、壽司刺身與中式點心齊備；10 月 12 日至 11 月 30 日同場加推「金秋蟹宴」大閘蟹自助晚餐，每位包兩隻約四両清蒸大閘蟹，另有蟹粉鮑魚兩面黃、蟹粉茶碗蒸、焗酥皮蟹粉忌廉湯。買一送一屬限量名額，每日中午 12:00 開搶，落單前先確認想去的日子仍有位。",
+      "highlights": [
+        "自助午餐買一送一，折後人均約 HK$240 起（媒體 2026-11-02 查價，以 Klook 即時價為準）",
+        "雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶，名額有限",
+        "金秋蟹宴大閘蟹自助晚餐 10/12–11/30：每位兩隻約四両大閘蟹（小童一隻）",
+        "海鮮吧即開生蠔、冰鎮龍蝦、鱈蟹腳；熱盤有安格斯帶骨牛排、即蒸點心",
+        "位於銅鑼灣告士打道，港鐵銅鑼灣站步行約 5 分鐘",
+        "餐券使用期以商品頁有效期為準，買券後仍須向餐廳訂位"
+      ],
+      "url": "https://www.klook.com/zh-HK/activity/82950-park-lane-playt-buffet/",
+      "sourceLabel": "Klook 柏寧酒店 PLAYT 自助餐商品頁 · Finance01 雙11 優惠整合（2026-11-02 查價）",
+      "sourceUrl": "https://www.finance01.com/double-11",
+      "tags": [
+        "自助餐",
+        "買一送一",
+        "雙11",
+        "銅鑼灣",
+        "大閘蟹"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-renaissance-cafe-double11bogo-20261102",
+      "category": "dining",
+      "title": "灣仔萬麗海景酒店萬麗咖啡室 雙11 自助餐買一送一，折後人均約 HK$420 起",
+      "subtitle": "生蠔龍蝦自助晚餐 · Klook 雙11 旅展 10/30–11/13 · 每日中午 12:00 開搶",
+      "venue": "灣仔港灣道 1 號香港萬麗海景酒店 大堂 萬麗咖啡室",
+      "priceLabel": "Klook 雙11 自助餐買一送一，生蠔龍蝦自助晚餐折後人均約 HK$420 起（媒體 2026-11-02 查價）；原價與實際折扣以 Klook 活動頁即時顯示為準，名額每日中午 12:00 開放，售完即止",
+      "priceValue": 420,
+      "originalLabel": "自助晚餐原價以 Klook 活動頁即時顯示為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-13T23:59:00+08:00",
+      "period": "預訂期：2026-10-30 至 2026-11-13（Klook 雙11 線上旅展，每日中午 12:00 開搶，名額有限）；餐券使用期、可訂時段與不適用日期以 Klook 商品頁為準",
+      "summary": "灣仔萬麗海景酒店的萬麗咖啡室（Café Mira）在 Klook 雙11 旅展做自助餐買一送一，主打生蠔與龍蝦的自助晚餐折後人均約 HK$420 起。酒店位於會展中心上蓋，海景與地點是主要賣點；自助餐以冰鎮海鮮、即切烤肉與甜品檯為骨幹。買一送一屬限量名額，每日中午 12:00 開搶，熱門日子（週五至日、假日前夕）通常最快售完。留意價錢未計加一服務費的情況，實際結帳以平台與餐廳公佈為準。",
+      "highlights": [
+        "生蠔龍蝦自助晚餐買一送一，折後人均約 HK$420 起（媒體 2026-11-02 查價）",
+        "雙11 旅展預訂期 10/30–11/13，每日中午 12:00 開搶",
+        "酒店位於灣仔會展中心上蓋，港鐵灣仔站步行約 10 分鐘",
+        "買券不等於訂位，落單後仍須向餐廳確認日期與時段",
+        "週五至日及假日前夕名額最快售完，建議開搶即落單",
+        "服務費與不適用日期以 Klook 商品頁及餐廳公佈為準"
+      ],
+      "url": "https://www.finance01.com/double-11",
+      "sourceLabel": "Finance01 雙11 優惠整合（2026-11-02 查價）· Klook 活動",
+      "sourceUrl": "https://www.finance01.com/double-11",
+      "tags": [
+        "自助餐",
+        "買一送一",
+        "雙11",
+        "灣仔",
+        "海鮮"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-ngoudaaisou-mongkok-hotpot-20261107",
+      "category": "dining",
+      "title": "旺角牛大帥天天鮮牛肉火鍋 KKday 雙11：潮汕牛肉放題宵夜買一送一人均 HK$149 起",
+      "subtitle": "KKday 雙11 快閃 · 11/8 12:00 開搶至 11/14 · 原價 HK$338/位",
+      "venue": "旺角彌敦道700號 T.O.P This is Our Place 地庫 R1 號舖（香港首店）",
+      "priceLabel": "宵夜時段（21:00 後入座）買一送一：星期日至四 HK$298/2 位、人均 HK$149（原價 HK$338/位，約 44 折）；自助晚餐第2位 HK$111、人均 HK$225；三人同行買二送一 HK$596/3 位、人均 HK$199；全日火鍋定食 HK$88/位（原價 HK$139）",
+      "priceValue": 149,
+      "originalLabel": "120 分鐘放題原價 HK$338/位",
+      "discountPct": 56,
+      "endsAt": "2026-11-14T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-08 12:00 至 2026-11-14 23:59；使用日期：2026-11-09 至 2026-12-31",
+      "summary": "牛大帥香港首店登陸旺角 T.O.P：一人一鍋 120 分鐘潮汕手切牛肉任食任飲，8 款牛肉（嫩牛肉、匙仁、雙層肉、匙柄、吊龍、牛胸油、牛舌等）任叫，每位送清蒸江蘇大閘蟹一隻（先到先得）。雙11 快閃最抵係宵夜場買一送一，人均 HK$149 平過北上食潮汕火鍋。留意另收每位醬料費 HK$18 及 10% 服務費，價格以 KKday 頁面為準。",
+      "highlights": [
+        "宵夜買一送一（21:00 後入座）：日日至四人均 HK$149、五六人均 HK$159",
+        "自助晚餐第 2 位 HK$111，人均 HK$225；三人買二送一人均 HK$199",
+        "全日火鍋定食 HK$88/位（原價 HK$139），免醬料費",
+        "每位送清蒸江蘇大閘蟹一隻（先到先得、送完即止）",
+        "另收每位醬料費 HK$18 及 10% 服務費"
+      ],
+      "url": "https://www.kkday.com/zh-hk/product/569461",
+      "sourceLabel": "GroupBuya KKday 雙11 快閃整理（2026-11-07）＋KKday 產品頁／官方 Blog 交叉核實",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557049-KKday-%E9%9B%9911",
+      "tags": [
+        "雙11",
+        "快閃",
+        "買一送一",
+        "火鍋放題"
       ],
       "sample": false,
       "daysLeft": 0,
