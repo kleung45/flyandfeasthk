@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-15T10:35:06+08:00",
+    "updated": "2026-11-15T10:42:47+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,16 +12,52 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 143,
-      "active": 28,
-      "ending": 9,
+      "total": 147,
+      "active": 32,
+      "ending": 10,
       "expired": 115,
-      "flight": 16,
-      "dining": 127,
+      "flight": 17,
+      "dining": 130,
       "hotel": 0
     }
   },
   "deals": [
+    {
+      "id": "flight-hkexpress-hsbc-winter-20261115",
+      "category": "flight",
+      "title": "HK Express × 滙豐「冬日超值賞」：全線 30+ 航點票價高達半價，台北來回連稅 HK$928 起",
+      "subtitle": "訂票至今日 11/15 23:45 · 出發 11/20–2027/1/31 · 優惠碼 HSBCUO26 須以滙豐信用卡付款",
+      "route": "香港出發 · 台北／台中／高雄（另有峴港、河內、富國島、沖繩、東京、大阪、首爾等 30+ 航點）",
+      "priceLabel": "來回連稅：峴港 HK$899 起、河內 HK$921 起、台北／台中／高雄 HK$928 起、富國島 HK$1,048 起、濟州 HK$1,175 起、曼谷 HK$1,236 起、沖繩 HK$1,256 起、首爾／釜山 HK$1,347 起；東京 HK$1,627 起、大阪 HK$1,701 起。優惠只減票價，稅項及附加費照計",
+      "priceValue": 928,
+      "originalLabel": "官網標示指定航班票價高達 50% OFF；單程未連稅票價 台北／台中／高雄 HK$44 起、峴港 HK$34 起、沖繩 HK$110 起、東京 HK$160 起",
+      "discountPct": 50,
+      "endsAt": "2026-11-15T23:45:00+08:00",
+      "period": "訂票期：2026-11-13 10:00 至 2026-11-15 23:45（香港時間）；出發期：2026-11-20 至 2027-01-31（各航點或有不同）",
+      "summary": "HK Express 同滙豐信用卡推出「冬日超值賞」，全線 30 多個航點指定航班票價高達半價，今日（11 月 15 日）23:45 就截。於官網或 App 先輸入優惠碼【HSBCUO26】，再揀標示「已套用優惠代碼」的航班，並用指定滙豐信用卡（不包括銀聯及扣賬卡）付款即可。短線最抵是越南同台灣：峴港來回連稅 HK$899、河內 HK$921、台北／台中／高雄 HK$928，沖繩 HK$1,256，通通在 HK$1,600 以內；東京 HK$1,627、大阪 HK$1,701 就超門檻，只作參考。出發期橫跨聖誕及農曆新年旺季。價錢只減票價，稅項另計，名額先到先得，一切以官網即時報價為準。",
+      "highlights": [
+        "台北／台中／高雄來回連稅 HK$928 起（單程未連稅 HK$44 起）",
+        "峴港 HK$899、河內 HK$921、富國島 HK$1,048、沖繩 HK$1,256 起，均在 HK$1,600 內",
+        "優惠碼 HSBCUO26，須用指定滙豐信用卡結算（不包銀聯及扣賬卡）",
+        "訂票至 2026-11-15 23:45；出發 2026-11-20 至 2027-01-31",
+        "每張訂單只可用一次優惠碼，只限初次預訂由香港出發的機票"
+      ],
+      "url": "https://www.hkexpress.com/zh-hk/offers/promotions/hsbc_flashsale_20261113",
+      "sourceLabel": "HK Express 官網「滙豐信用卡旅人專享 · 冬日超值賞」優惠頁（2026-11-15 仍然在線）· MeetHK／flyday 連稅參考價 · U Travel 實測",
+      "sourceUrl": "https://www.hkexpress.com/zh-hk/offers/promotions/hsbc_flashsale_20261113",
+      "bookingUrl": "https://www.hkexpress.com/zh-hk/offers/promotions/hsbc_flashsale_20261113",
+      "tags": [
+        "機票",
+        "台灣",
+        "越南",
+        "沖繩",
+        "香港快運",
+        "滙豐"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "ending"
+    },
     {
       "id": "dining-cafetoo-admiralty-crabseafood-kkday-20261011",
       "category": "dining",
@@ -362,6 +398,42 @@ window.DEAL_DATA = {
       "postedFacebook": false,
       "postedThreads": false,
       "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-mrsteak-cwb-dec-bogo-20261115",
+      "category": "dining",
+      "title": "銅鑼灣 Mr. Steak a la minute：12 月自助餐買一送一，午餐人均 HK$210 起",
+      "subtitle": "KKday 11/16 12:00 開售至 11/22 · 12/1 起用餐 · 除夕跨年場都有",
+      "venue": "銅鑼灣告士打道 280 號世貿中心 6 樓 Mr. Steak a la minute",
+      "priceLabel": "自助午餐買一送一 人均 HK$210 起；自助晚餐（17:00–19:00）人均 HK$275 起；和牛龍蝦盛宴（19:30–22:00）人均 HK$370 起；除夕跨年自助晚餐（22:30–00:30）人均 HK$360 起。須於現場另付每位原價 10% 服務費",
+      "priceValue": 210,
+      "originalLabel": "買一送一（第二位免費），即約 5 折；文章未列逐項原價，實際以 KKday 頁面顯示為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-22T23:59:00+08:00",
+      "period": "KKday 開售：2026-11-16 12:00 至 11-22 23:59；買一送一方案用餐期由 2026-12-01 起（長者半價方案適用至 11-30），須按訂購時所選日子及時段使用",
+      "summary": "銅鑼灣 Mr. Steak a la minute 12 月自助餐快閃再推買一送一，KKday 於 11 月 16 日中午 12 時開售，至 11 月 22 日 23:59。自助午餐人均 HK$210 起，晚餐 17:00–19:00 場人均 HK$275 起，19:30 後的和牛龍蝦盛宴人均 HK$370 起，除夕 22:30 跨年場人均 HK$360 起，全部第二位免費。12 月 18–26 日午晚市無限量供應應節烤火雞，24–26 日有聖誕造型甜品，22–27 日晚市有蛇羹及羊腩煲，31 日晚市尾輪有「巨型火焰雪山」表演。留意須於現場另付每位原價 10% 服務費，名額有限、售完即止。",
+      "highlights": [
+        "自助午餐買一送一 人均 HK$210 起（星期一至五 12:00–14:30）",
+        "晚餐 17:00–19:00 買一送一 人均 HK$275 起；19:30 和牛龍蝦場 人均 HK$370 起",
+        "除夕 22:30 跨年場買一送一 人均 HK$360 起，設 Cocktail Bar 任飲指定雞尾酒",
+        "12/18–26 無限量烤火雞；22–27 晚市蛇羹、羊腩煲；24–27 晚市頭輪凍龍蝦",
+        "KKday 開售 11/16 12:00–11/22；用餐期由 12/1 起，現場另付每位原價 10% 服務費"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Steak%20a%20la%20minute%20World%20Trade%20Centre%20Causeway%20Bay",
+      "sourceLabel": "U Lifestyle 港生活（2026-11-15 發佈，來源：KKday 產品 279547）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20118646",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/279547",
+      "tags": [
+        "自助餐",
+        "銅鑼灣",
+        "買一送一",
+        "聖誕",
+        "除夕",
+        "Mr. Steak"
+      ],
+      "sample": false,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -801,6 +873,42 @@ window.DEAL_DATA = {
       "status": "active"
     },
     {
+      "id": "dining-metropolis-promenade-crab-nov-20261115",
+      "category": "dining",
+      "title": "紅磡都會海逸西餐廳「歲暮蟹香」：eShop 65 折 HK$506 起，買二送二人均 HK$389",
+      "subtitle": "11 月限定 · 首 50 名 65 折 · 11/1–15 每位成人送清蒸大閘蟹",
+      "venue": "九龍紅磡都會道 7 號都會海逸酒店 7 樓西餐廳（Promenade Restaurant）",
+      "priceLabel": "eShop 首 50 名 65 折：自助晚餐 HK$506 起（星期日至四原價 HK$778、五六 HK$838）；買二送二每位成人 HK$389 起；長者及當月生日之星半價 HK$389 起；自助午餐買一送一 HK$239 起、週末下午茶買一送一 HK$219 起。所有價目另加一服務費（以原價計算）",
+      "priceValue": 389,
+      "originalLabel": "自助晚餐原價 星期日至四 HK$778／星期五、六 HK$838（未加一）；自助午餐原價 HK$478（平日）／HK$588（週末及公眾假期）；週末下午茶原價 HK$438",
+      "discountPct": 50,
+      "endsAt": "2026-11-30T23:59:00+08:00",
+      "period": "推廣期：2026-11-01 至 11-30；11/1–15 每位成人惠顧自助晚餐送清蒸大閘蟹乙隻（約 3.5 兩）；11/16–30 加推香煎海蝦帶子蒜辣橄欖油扁意粉及火焰焦糖芝士撻；晚餐時段 18:30–21:30；須於酒店 eShop 預訂",
+      "summary": "紅磡都會海逸酒店西餐廳 11 月以蟹為主題推出「歲暮蟹香」冬韻臻選自助晚餐，主打即開生蠔、波士頓龍蝦、雪花蟹腳、薑蔥松葉蟹腳、泰式羅勒葉炒麵包蟹、酥皮蟹肉龍蝦湯杯，另有北京烤鴨、燒原條有骨肉眼、香煎鴨肝同 Mövenpick 雪糕。經酒店 eShop 付全費預訂，首 50 名可享高達 65 折（HK$506 起），之後 7 折至 75 折；另有買二送二每位成人 HK$389 起、長者及當月生日之星半價。11 月 1 至 15 日每位成人惠顧晚餐再送約 3.5 兩清蒸大閘蟹乙隻。價錢未包加一，以酒店 eShop 即時顯示為準。",
+      "highlights": [
+        "eShop 首 50 名 65 折：自助晚餐 HK$506 起（原價 HK$778／HK$838）",
+        "買二送二每位成人 HK$389 起；長者、當月生日之星半價",
+        "11/1–15 每位成人惠顧晚餐送清蒸大閘蟹乙隻（約 3.5 兩）",
+        "即開生蠔、波士頓龍蝦、雪花蟹腳、泰式羅勒葉炒麵包蟹、北京烤鴨",
+        "推廣期至 2026-11-30；價目另加一（以原價計算）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20Plaza%20Metropolis%20Promenade%20Restaurant%20Hung%20Hom",
+      "sourceLabel": "海逸國際酒店集團官網「十一月佳餚薈萃」· 酒店 eShop 產品頁 · U Lifestyle（各方案價格，2026-11-15 查閱）",
+      "sourceUrl": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-nov2026-dinner-buffet",
+      "bookingUrl": "https://eshop.harbour-plaza.com/metropolis/zh/promenade-nov2026-dinner-buffet",
+      "tags": [
+        "自助餐",
+        "紅磡",
+        "大閘蟹",
+        "生蠔",
+        "都會海逸",
+        "eShop"
+      ],
+      "sample": false,
+      "daysLeft": 15,
+      "status": "active"
+    },
+    {
       "id": "dining-harbourplaza8degrees-lobster-20260929",
       "category": "dining",
       "title": "8度海逸 8 度餐廳龍蝦海鮮自助晚餐半價，成人 HK$334 起",
@@ -936,6 +1044,42 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "daysLeft": 45,
+      "status": "active"
+    },
+    {
+      "id": "dining-harbourplaza-np-green-crab-bogo-20261115",
+      "category": "dining",
+      "title": "北角海逸綠怡咖啡廳「蟹腳．花膠燕窩」自助晚餐：成人買一送一，人均 HK$449",
+      "subtitle": "官網 eShop 11/1–2027/1/3 · 2 位 HK$898 · 小童長者每位 HK$350 起",
+      "venue": "香港北角英皇道 665 號北角海逸酒店 2 樓綠怡咖啡廳（港鐵鰂魚涌站 C 出口）",
+      "priceLabel": "成人買一送一 2 位 HK$898（人均 HK$449，原價每位 HK$822.8，約 55 折）；小童／長者每位 HK$350 起（原價 HK$613.8）；家庭套票 4 成人＋1 小童 HK$2,138 起；6 成人＋1 小童 HK$3,028 起；單人 55 折 HK$487 起。所有價目已包加一（以原價計算）",
+      "priceValue": 449,
+      "originalLabel": "成人原價每位 HK$822.8、小童（5–11 歲）／長者（60 歲以上）原價每位 HK$613.8，均已包加一",
+      "discountPct": 55,
+      "endsAt": "2027-01-03T23:59:00+08:00",
+      "period": "用餐期：2026-11-01 至 2027-01-03（11 月只限星期五至日；12 月至 1/3 為星期四至日及 12/21–22；12/24–25 除外）；時段 18:30–22:00；慶生套票須於用餐 3 天前預訂",
+      "summary": "北角海逸酒店綠怡咖啡廳推出「蟹腳．花膠燕窩尊尚盛宴」自助晚餐，經酒店 eShop 預訂成人買一送一，2 位 HK$898，人均 HK$449，對照原價每位 HK$822.8 約 55 折，而且已包加一。菜式有鱈場蟹腳、凍蝦、凍蜆等凍海鮮，豬肚花膠雞煲、蠔皇鵝掌冬菇炆花膠、燒乳豬、椰汁燉燕窩、香煎鴨肝多士、龍蝦西班牙飯、芝士焗蠔，刺身有甜蝦及馬刀貝，甜品有 Mövenpick 九款口味，仲有汽水、氣泡酒、紅白酒及啤酒無限暢飲。用餐期橫跨聖誕前至明年 1 月 3 日，11 月只做星期五至日，12 月 24–25 日除外。",
+      "highlights": [
+        "成人買一送一 2 位 HK$898（人均 HK$449，原價每位 HK$822.8，約 55 折）",
+        "小童／長者每位 HK$350 起；家庭套票 4 成人＋1 小童 HK$2,138 起",
+        "鱈場蟹腳、花膠、椰汁燉燕窩、香煎鴨肝多士、龍蝦西班牙飯",
+        "汽水、氣泡酒、紅白酒及啤酒無限暢飲",
+        "用餐期 11/1–2027/1/3；11 月只限五六日，12/24–25 除外；已包加一"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20Plaza%20North%20Point%20Greenery%20Cafe",
+      "sourceLabel": "北角海逸酒店官方 eShop 產品頁 · 海逸國際酒店集團官網「十一月佳餚薈萃」",
+      "sourceUrl": "https://eshop.harbour-plaza.com/northpoint/zh/Dinner-Buffet-Nov-Dec-2026",
+      "bookingUrl": "https://eshop.harbour-plaza.com/northpoint/zh/Dinner-Buffet-Nov-Dec-2026",
+      "tags": [
+        "自助餐",
+        "北角",
+        "買一送一",
+        "花膠",
+        "蟹腳",
+        "eShop"
+      ],
+      "sample": false,
+      "daysLeft": 49,
       "status": "active"
     },
     {
