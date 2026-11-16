@@ -1,14 +1,13 @@
 {
  "meta": {
   "note": "日本高性價比酒店推介資料庫。收錄鐵律：(1) 每間必須有可引用的來源網頁明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，絕不自行評分或估算。(2) 地址須為門牌級。(3) 價位只寫來源有講的數字並標明查價日期；酒店房價浮動，頁面一律註明以訂房平台即時報價為準。(4)「性價比」以可量化硬指標判斷（Google 評分／距車站步行時間／評論數規模／房型與設施亮點），非編輯主觀評選。評分會浮動，ratingCheckedAt 記錄核對日期，出發前請以 Google Map 即時顯示為準。與 store.json（優惠）、japan.json（美食）分開管理，由 build_pages.py 讀取產生 /japan/hotels/ 專欄。",
-  "updated": "2026-11-12",
+  "updated": "2026-11-16",
   "minRating": 4.3,
   "rotation": [
    "高松",
    "橫濱",
    "神戶",
    "大阪",
-   "廣島",
    "名古屋",
    "京都",
    "東京",
@@ -16,10 +15,11 @@
    "仙台",
    "沖繩",
    "金澤",
-   "札幌"
+   "札幌",
+   "廣島"
   ],
   "pricePolicy": "價格一律標示「參考價＋查價日期」，並註明以訂房平台即時報價為準；未見可靠公開參考價者，不列數字，只寫「以訂房平台即時報價為準」。",
-  "rotationNote": "2026-11-12：札幌新增 2 間（札幌 3→5、北海道 3→5），札幌移至末位。現時酒店各地區收錄：關東 6／關西 8／中部 4／九州 4／北海道 5／東北 4／中國 3／四國 3／沖繩 3。下輪首選中國（廣島）／四國（高松）／沖繩（各 3 間）。註：札幌候選大清洗——La'Gent 4.4/4.3/4.1 三聲、東急Stay札幌大通 4.3 vs 4.4、相鐵FRESA薄野 4.3 vs 4.2、SAPPORO STREAM 4.4 vs 4.5 全部兩源矛盾跳過；Comfort 薄野無第二個 Google 來源。"
+  "rotationNote": "2026-11-16：廣島新增 2 間（Randor Prestige 4.5/303、Hilton 廣島 4.4/2,265），中國 3→5，廣島移至末位。現時酒店各地區收錄：關東 6／關西 8／中部 4／九州 4／北海道 5／東北 4／中國 5／四國 3／沖繩 3。下輪首選四國（高松已證實冇貨，可考慮松山）或九州（4 間）。"
  },
  "hotels": [
   {
@@ -1299,6 +1299,68 @@
    "sourceLabel": "bigfang 札幌表（Google 4.3／609，2025/12 快照）＋波比看世界（Google 4.3）",
    "sourceUrl": "https://www.bigfang.tw/?p=242609/",
    "addedAt": "2026-11-12"
+  },
+  {
+   "id": "jp-hiroshima-randor-prestige",
+   "name": "蘭德豪酒店 廣島尊貴",
+   "nameEn": "Randor Hotel Hiroshima Prestige",
+   "city": "廣島",
+   "area": "廣島站南口／西錦町（JR 廣島站步行約 5 分鐘）",
+   "type": "公寓式酒店",
+   "highlight": "房間大＋房內洗衣機廚具，車站 5 分鐘的公寓式選擇",
+   "rating": 4.5,
+   "reviews": 303,
+   "ratingCheckedAt": "2026-11-16",
+   "priceBand": "以訂房平台即時報價為準",
+   "address": "広島県広島市南区西錦町1-38",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Randor%20Hotel%20Hiroshima%20Prestige%20%E5%BA%83%E5%B3%B6",
+   "blurb": "廣島站步行 5 分鐘內的高分公寓式酒店，Google 評分 4.5。房間明顯大過一般日本酒店（住客指近 38m²），房內有洗衣機、微波爐同小廚具，浴室有獨立浴缸＋淋浴，6 樓仲有觀景露台，適合想住得闊落、自己開火的旅客。",
+   "valuePoints": [
+    "Google 評分 4.5／303 則（Wanderlog place 頁明示 From Google；北海道OPEN桑 2026-11 同列 Google 4.5）",
+    "JR 廣島站約 340 米，步行約 5 分鐘（訂房平台列 340 米／460 米）",
+    "房內洗衣機＋微波爐＋小廚具，浴室獨立浴缸＋淋浴（Wanderlog／住客評論一致）",
+    "住客普遍評價房間大過一般日本酒店（約 38m² 級別）",
+    "6 樓設觀景露台"
+   ],
+   "tips": [
+    "冇早餐服務，早餐建議用廣島站邊的咖啡館（酒店會推薦三家）。",
+    "自助式 check-in，日常基本靠自助、無每日房務，當公寓式酒店預期就唔會失望。",
+    "房內洗衣機冇烘乾功能，晾衣要預時間。"
+   ],
+   "sourceLabel": "Wanderlog place 頁（From Google 4.5／303）＋北海道OPEN桑廣島住宿表（Google 4.5）",
+   "sourceUrl": "https://wanderlog.com/place/details/5604919/randor-hotel-hiroshima-prestige",
+   "addedAt": "2026-11-16"
+  },
+  {
+   "id": "jp-hiroshima-hilton",
+   "name": "希爾頓廣島",
+   "nameEn": "Hilton Hiroshima",
+   "city": "廣島",
+   "area": "中區富見町（本通商店街約 1 公里；路面電車比治山橋站約 700 米）",
+   "type": "國際五星",
+   "highlight": "2022 年開業五星：室內泳池＋桑拿＋Tecnogym 健身房",
+   "rating": 4.4,
+   "reviews": 2265,
+   "ratingCheckedAt": "2026-11-16",
+   "priceBand": "比價頁參考價每晚約 HK$566 起（HyperAir，2026-11-16 查價）；實際以訂房平台即時報價為準",
+   "address": "広島県広島市中区富見町11-12",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%8C%E7%88%BE%E9%A0%93%E5%BB%A3%E5%B3%B6%20Hilton%20Hiroshima%20%E5%BA%83%E5%B3%B6",
+   "blurb": "2022 年開業嘅國際五星，Google 評分 4.4、2,200+ 則評論。住客免費享用室內泳池、桑拿與 Tecnogym 健身中心，房間新淨寬敞；行去和平紀念公園／本通商店街都約 1 公里，五星設施配廣島物價，係五星入面性價比突出的一間。",
+   "valuePoints": [
+    "Google 評分 4.4／2,265 則（Wanderlog place 頁明示 From Google；北海道OPEN桑 2026-11 同列 Google 4.4）",
+    "2022 年開業的國際五星，住客免費使用室內泳池、桑拿與 Tecnogym 健身中心（官網／Wanderlog）",
+    "距和平紀念公園／原爆圓頂約 1 公里、本通商店街約 1 公里（官方頁）",
+    "路面電車比治山橋站約 700 米（訂房平台列）",
+    "比價頁參考價每晚約 HK$566 起（2026-11-16 查價）"
+   ],
+   "tips": [
+    "5 歲以下小童同床免費；自助泊車每晚 ¥2,500。",
+    "自助早餐成人約 ¥3,000、小童約 ¥1,500。",
+    "距 JR 廣島站約 1.9 公里，建議搭路面電車（比治山橋站落車行約 7 分鐘）。"
+   ],
+   "sourceLabel": "Wanderlog place 頁（From Google 4.4／2,265）＋北海道OPEN桑廣島住宿表（Google 4.4）",
+   "sourceUrl": "https://wanderlog.com/zh/place/details/4874129/hilton-hiroshima",
+   "addedAt": "2026-11-16"
   }
  ]
 }

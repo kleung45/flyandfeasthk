@@ -1,11 +1,10 @@
 {
  "meta": {
   "note": "日本美食專欄資料庫。每筆須有可查證的 Google Maps 評分來源（第三方公開網站引用 Google 資料並附出處）、地址與城市。評分會浮動，ratingCheckedAt 記錄核對日期；出發前請以 Google Map 即時顯示為準。與 store.json（優惠）分開管理，由 build_pages.py 讀取產生 /japan/ 專欄。",
-  "updated": "2026-11-12",
+  "updated": "2026-11-16",
   "minRating": 4.2,
   "rotation": [
    "名古屋",
-   "札幌",
    "東京",
    "廣島",
    "神戶",
@@ -18,9 +17,10 @@
    "京都",
    "沖繩",
    "仙台",
-   "橫濱"
+   "橫濱",
+   "札幌"
   ],
-  "rotationNote": "2026-11-12：橫濱新增 3 間（橫濱 2→5、關東 7→10），橫濱移至末位。現時美食各地區收錄：關東 10／關西 11／中部 7／九州 6／北海道 4／東北 6／中國 5／四國 5／沖繩 5。下輪首選北海道（札幌，全站最少地區之一）；東北／沖繩／四國亦可加深。註：招福門 Wanderlog 4.5 vs tanotim（Google 快照）4.7、兩源矛盾已跳過；謝甜記 Google 4.2、馬さんの店 3.8、中華街大飯店 3.7 未達門檻。"
+  "rotationNote": "2026-11-16：札幌新增 3 間（湯咖哩 GARAKU 4.3/5,438、居酒屋あいよ北3条 4.5/3,263、Suage+ 4.3/5,624），北海道 4→7，札幌移至末位。現時美食各地區收錄：關東 10／關西 11／中部 7／九州 6／北海道 7／東北 6／中國 5／四國 5／沖繩 5。下輪首選名古屋（中部，rotation 首位）。註：あいよ Wanderlog 較早快照為 4.4/3,078，現值 4.5/3,263，屬同一來源快照浮動（兩者均達門檻）。"
  },
  "eats": [
   {
@@ -1484,6 +1484,78 @@
    "sourceLabel": "Google Maps 實體頁 4.3／130 則＋Restaurant Guru（明示 Google 4.3）",
    "sourceUrl": "https://restaurantguru.com/%E7%84%BC%E8%82%89%E7%89%9B%E4%B8%89%E9%83%8E-%E6%A8%AA%E6%B5%9C%E5%85%83%E7%94%BA%E5%BA%97-Yokohama-2",
    "addedAt": "2026-11-12"
+  },
+  {
+   "id": "jp-sapporo-soup-curry-garaku",
+   "name": "湯咖哩 GARAKU 札幌本店",
+   "nameEn": "Soup Curry GARAKU Sapporo Honten",
+   "city": "札幌",
+   "area": "中央區南3条東（狸小路商圈）",
+   "cuisine": "湯咖喱",
+   "signature": "燉豬肉咖哩、炸花椰菜配料",
+   "rating": 4.3,
+   "reviews": 5438,
+   "ratingCheckedAt": "2026-11-16",
+   "priceRange": "以現場菜單為準",
+   "address": "北海道札幌市中央区南3条東2-6-1 プレサント南3東2 B1F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E5%92%96%E5%93%A9%20GARAKU%20%E6%9C%AD%E5%B9%8C%E6%9C%AC%E5%BA%97%20%E6%9C%AD%E5%B9%8C",
+   "blurb": "札幌湯咖喱界的排隊名店，Google 評分 4.3、5,400+ 則評論。以多層次辛香料與和風高湯打出濃郁湯底，招牌燉豬肉咖哩配吸湯炸花椰菜，就喺狸小路商圈，行完街順路就到。",
+   "tips": [
+    "門口先抽號碼牌，午晚市高峰經常大排長龍，建議避開 12:00–13:00 與 18:00–19:00。",
+    "營業時間 11:30–15:00、17:00–20:30，全週營業。",
+    "辣度分多級，怕辣可揀低級數（有評論指 2 號辣已經好溫和）。"
+   ],
+   "sourceLabel": "Google Maps 商家頁 4.3／5,438＋bobbytravel 札幌美食表 4.3／5,154＋tyaward 4.3",
+   "sourceUrl": "https://bobbytravel.tw/sapporo-food/",
+   "addedAt": "2026-11-16"
+  },
+  {
+   "id": "jp-sapporo-izakaya-aiyo-kita3jo",
+   "name": "産地直送 粋な居酒屋 あいよ 札幌駅北3条店",
+   "nameEn": "Aiyo Sapporo Ekimae Kita-3jo",
+   "city": "札幌",
+   "area": "札幌站北口／北3条西（地下鐵札幌站步行約 3 分鐘）",
+   "cuisine": "居酒屋／海鮮",
+   "signature": "產地直送刺身拼盤、痛風箱（生蠔盛合）、Zangi 炸雞",
+   "rating": 4.5,
+   "reviews": 3263,
+   "ratingCheckedAt": "2026-11-16",
+   "priceRange": "單點為主；¥8,000 暢飲套餐（8 道菜＋生啤）可參考",
+   "address": "北海道札幌市中央区北3条西2丁目2 STV北3条ビル 1F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%A3%E5%9C%B0%E7%9B%B4%E9%80%81%20%E7%B2%8B%E3%81%AA%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%82%E3%81%84%E3%82%88%20%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%8C%973%E6%9D%A1%E5%BA%97%20%E6%9C%AD%E5%B9%8C",
+   "blurb": "札幌站北口旁的高分海鮮居酒屋，Google 評分 4.5、3,200+ 則評論。北海道產地直送海鮮、串燒配凍杯生啤，桌上簾布間隔有私隱，店員熱情氣氛好，係當地人同旅客都會去的宵夜熱點。",
+   "tips": [
+    "營業 17:00–翌 1:00，開到深夜，適合看完夜景或晚機到埗做宵夜。",
+    "全店可吸煙，介意的話要先留意。",
+    "旺季建議先經訂房平台或官網預約，¥8,000 套餐含 8 道菜＋啤酒最抵。"
+   ],
+   "sourceLabel": "Wanderlog place 頁（明示 From Google 4.5／3,263；較早快照 4.4／3,078）＋官方店頁（地址／交通）",
+   "sourceUrl": "https://wanderlog.com/zh/place/details/5097053/aiyo-sapporoeki-kita3jo",
+   "addedAt": "2026-11-16"
+  },
+  {
+   "id": "jp-sapporo-suage",
+   "name": "Suage+ Soup Curry",
+   "nameEn": "Suage+ Soup Curry",
+   "city": "札幌",
+   "area": "薄野／南4条西（すすきの商圈）",
+   "cuisine": "湯咖喱",
+   "signature": "雞腿湯咖喱、墨魚汁湯頭、知床雞串燒",
+   "rating": 4.3,
+   "reviews": 5624,
+   "ratingCheckedAt": "2026-11-16",
+   "priceRange": "¥1,000–2,000",
+   "address": "北海道札幌市中央区南4条西5丁目6-1 都志松ビル 2F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%BC%E3%83%97%E3%82%AB%E3%83%AC%E3%83%BC%20Suage%2B%20%E6%9C%AD%E5%B9%8C",
+   "blurb": "薄野區的湯咖喱名店，Google 評分 4.3、5,600+ 則評論，人均約 ¥1,000–2,000。經典原味、墨魚汁同鮮蝦三種湯底可揀，串烤雞與馬鈴薯先炸後燉鎖住甜味，性價比在同區數一數二。",
+   "tips": [
+    "店門掃 QR 碼登記虛擬排隊（支援 LINE app），登記後行開附近逛，唔使乾等。",
+    "有評論提醒以現金付款為主，出發前預備日圓現鈔。",
+    "營業約 11:30–20:30（星期一至 20:00），以午晚市為主，無深宵場。"
+   ],
+   "sourceLabel": "Google Maps 商家頁 4.3／5,624＋Restaurant Guru（Google 4.3／5,724）＋tyaward 4.3＋tanotim 4.3",
+   "sourceUrl": "https://it.restaurantguru.com/Suage-Soup-Curry-Sapporo",
+   "addedAt": "2026-11-16"
   }
  ]
 }
