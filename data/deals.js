@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-16T15:48:37+08:00",
+    "updated": "2026-11-17T10:38:21+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,50 +12,16 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 147,
-      "active": 29,
+      "total": 150,
+      "active": 31,
       "ending": 7,
-      "expired": 118,
+      "expired": 119,
       "flight": 17,
-      "dining": 130,
+      "dining": 133,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-haitunggun-crabduck-2ndwave-20261111",
-      "category": "dining",
-      "title": "海東軒 150 分鐘大閘蟹＋片皮鴨套餐：第 1 位 HK$111＋第 2 位 HK$408，人均 HK$260",
-      "subtitle": "KKday 雙11 快閃 · 11/10 15:00 開搶至 11/16 · 11/10 起可用",
-      "venue": "海東軒（大角咀、鴨脷洲、香港仔、黃大仙 4 門店）",
-      "priceLabel": "第 1 位 HK$111＋第 2 位 HK$408：HK$519/2 位（平均 HK$260/位，原價 HK$498/位）；升級無限時任食 HK$398/位（2 位起）；獨家 82 折 HK$408/位（2 位起），現場另收服務費每位 HK$78 及茶芥（現金）",
-      "priceValue": 519,
-      "originalLabel": "原價 HK$498/位（另收服務費 HK$78/位及茶芥）",
-      "discountPct": 52,
-      "endsAt": "2026-11-16T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-10 15:00 至 2026-11-16 23:59；使用日期：2026-11-10 起；150 分鐘任食清蒸／花彫蒸／油鹽焗大閘蟹及片皮鴨",
-      "summary": "KKday 雙11 第二波：海東軒 150 分鐘大閘蟹＋片皮鴨套餐，第 1 位 HK$111、第 2 位 HK$408，兩位 HK$519、平均 HK$260 一位（原價 HK$498/位，約 52 折）。任食清蒸、花彫蒸、油鹽焗大閘蟹加京式片皮鴨，每位仲送古法扣原隻鮑魚金錢、黃炆佛跳牆同生拆蟹粉小籠包；升級無限時任食 HK$398/位。大角咀、鴨脷洲、香港仔、黃大仙 4 門店都去得。留意服務費 HK$78/位同茶芥要現場現金支付。價格以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "第 1 位 HK$111＋第 2 位 HK$408：2 位 HK$519，人均 HK$260（原價 HK$498/位）",
-        "150 分鐘任食：清蒸／花彫蒸／油鹽焗大閘蟹＋京式片皮鴨",
-        "每位送古法扣原隻鮑魚金錢、黃炆佛跳牆、生拆蟹粉小籠包",
-        "升級無限時任食 HK$398/位；獨家 82 折 HK$408/位（2 位起）",
-        "4 門店：大角咀、鴨脷洲、香港仔、黃大仙"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%9D%B1%E8%BB%92%20%E9%A6%99%E6%B8%AF",
-      "sourceLabel": "GroupBuya 557182/557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557182-KKday-%E9%9B%9911%E7%AC%AC%E4%BA%8C%E6%B3%A2",
-      "tags": [
-        "雙11",
-        "快閃",
-        "大閘蟹",
-        "片皮鴨",
-        "放題"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-royalpark-palatial-double11-111-20261111",
       "category": "dining",
@@ -88,7 +54,7 @@ window.DEAL_DATA = {
         "沙田"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -120,7 +86,7 @@ window.DEAL_DATA = {
         "限量"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -154,7 +120,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -188,7 +154,7 @@ window.DEAL_DATA = {
         "放題"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -222,7 +188,7 @@ window.DEAL_DATA = {
         "尖沙咀"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -256,7 +222,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -292,8 +258,8 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-mrsteak-cwb-dec-bogo-20261115",
@@ -328,6 +294,115 @@ window.DEAL_DATA = {
         "Mr. Steak"
       ],
       "sample": false,
+      "daysLeft": 5,
+      "status": "active"
+    },
+    {
+      "id": "dining-touyuen-hairycrab-buffet-20261117",
+      "category": "dining",
+      "title": "陶源酒家 2 小時大閘蟹放題：KKday 獨家快閃 68 折 HK$398/位，買二大送一小",
+      "subtitle": "今晚 6 點開搶至 11/23 · 11/19 起用餐 · 灣仔／尖沙咀／旺角三店",
+      "venue": "灣仔／尖沙咀／旺角陶源酒家（三家分店同價）",
+      "priceLabel": "HK$398/位（原價 HK$588，約 68 折），星期一至日同價；買二大送一小（1.2 米以下小童免費）人均 HK$332/位起；現場另收服務費每位 HK$58.8 及茶芥每位 HK$15",
+      "priceValue": 398,
+      "originalLabel": "原價 HK$588/位（KKday 頁面標示）",
+      "discountPct": 68,
+      "endsAt": "2026-11-23T23:59:00+08:00",
+      "period": "預訂期：2026-11-17 18:00 至 11-23 23:59；使用日期：2026-11-19 至 12-15；必須 2 位起訂",
+      "summary": "陶源酒家同 KKday 推出獨家快閃，2 小時任食大閘蟹放題每位 HK$398，對照原價 HK$588 約 68 折，今晚（11 月 17 日）6 點開搶，至 11 月 23 日 23:59，11 月 19 日起至 12 月 15 日可用，灣仔、尖沙咀、旺角三店星期一至日同價。清蒸、鹽焗、太雕蒸、花雕熟醉四款大閘蟹任食，午市點心任食，仲有太雕卜卜蜆煲，每位送特盛三式（鮑汁鮑魚、瓊樓玉宇、西班牙橡果黑毛豬叉燒），獨家免費升級任飲汽水同啤酒。買二大送一細（1.2 米或以下小童免費），人均低至 HK$332。留意現場另收服務費每位 HK$58.8 同茶芥每位 HK$15，必須 2 位起訂，一切以 KKday 頁面為準。",
+      "highlights": [
+        "2 小時任食大閘蟹放題 HK$398/位（原價 HK$588，約 68 折）",
+        "清蒸／鹽焗／太雕蒸／花雕熟醉四款大閘蟹任食＋午市點心任食",
+        "每位送鮑汁鮑魚、瓊樓玉宇、黑毛豬叉燒；免費任飲汽水啤酒",
+        "買二大送一小（1.2 米以下免費）人均 HK$332/位起",
+        "預訂 11/17 18:00–11/23；用餐 11/19–12/15；另收服務費 HK$58.8＋茶芥 HK$15"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B6%E6%BA%90%E9%85%92%E5%AE%B6%20%E7%81%A3%E4%BB%94",
+      "sourceLabel": "GroupBuya 著數網 KKday 快閃文章（2026-11-17 更新）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557461-KKday-11%E6%9C%8817%E6%97%A518",
+      "bookingUrl": "https://www.kkday.com/zh-hk/",
+      "tags": [
+        "自助餐",
+        "大閘蟹",
+        "放題",
+        "灣仔",
+        "尖沙咀",
+        "旺角",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-cafetoo-admiralty-festive-b2g2-20261117",
+      "category": "dining",
+      "title": "金鐘港島香格里拉 Café TOO「節慶歡聚」：自助餐買二送二，午餐人均 HK$473 起",
+      "subtitle": "KKday 11/17 15:00 開搶至 11/23 · 買二送二已包加一 · 聖誕節慶檔期",
+      "venue": "金鐘法院道太古廣場港島香格里拉 7 樓 Café TOO",
+      "priceLabel": "買二送二：自助午餐 HK$1,892/4 位（人均 HK$473，已包加一）；自助晚餐 HK$2,540/4 位（人均 HK$635，已包加一）。買二送一：3 位同行午餐人均 HK$604 起（五六 HK$650）、晚餐 HK$811 起",
+      "priceValue": 473,
+      "originalLabel": "買二送二（4 位付 2 位價），即人均約半價；文章未列逐項原價，實際以 KKday 頁面顯示為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-23T23:59:00+08:00",
+      "period": "預訂期：2026-11-17 15:00 至 11-23 23:59；買二送二午餐使用期 11-16 至 12-17、晚餐至 12-10；買二送一至 12-30；須於用餐日期 24 小時前購買；八達通滿 HK$660 輸入 262OT75 減 HK$75",
+      "summary": "港島香格里拉 Café TOO 推出「節慶歡聚自助盛宴」KKday 早鳥快閃，11 月 17 日下午 3 時開搶，至 11 月 23 日 23:59。自助餐買二送二：午餐 4 位 HK$1,892（人均 HK$473）、晚餐 4 位 HK$2,540（人均 HK$635），全部已包加一，聖誕節前至 12 月中可用。3 位同行另有買二送一（午餐人均 HK$604 起、晚餐 HK$811 起），用至 12 月 30 日。用八達通付款滿 HK$660 輸入優惠碼 262OT75 再減 HK$75。須於用餐日期 24 小時前購買，名額有限先到先得，一切以 KKday 頁面為準。",
+      "highlights": [
+        "買二送二：自助午餐人均 HK$473、自助晚餐人均 HK$635（已包加一）",
+        "買二送一：午餐人均 HK$604 起、晚餐 HK$811 起，用至 12/30",
+        "八達通滿 HK$660 輸入 262OT75 減 HK$75",
+        "預訂 11/17 15:00–11/23；晚餐買二送二用至 12/10、午餐至 12/17",
+        "須於用餐 24 小時前購買；名額有限售完即止"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20TOO%20Island%20Shangri-La%20Pacific%20Place",
+      "sourceLabel": "GroupBuya 著數網 KKday 快閃文章（2026-11-17）· RunHotel 專文雙源核實",
+      "sourceUrl": "https://www.runhotel.hk/island-shangri-la-cafe-too-buffet-202611/",
+      "bookingUrl": "https://www.kkday.com/zh-hk/",
+      "tags": [
+        "自助餐",
+        "金鐘",
+        "買二送二",
+        "聖誕",
+        "香格里拉",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-hyatt-kaitak-dimsun-b2g2-20261117",
+      "category": "dining",
+      "title": "尖沙咀凱悅酒店凱悅軒：120 分鐘早鳥點心放題買二送二，人均 HK$264",
+      "subtitle": "KKday 11/17 12:00 開搶至 11/23 · 已包茶芥及加一 · 中午 12 時前入座",
+      "venue": "九龍尖沙咀河內道 18 號香港尖沙咀凱悅酒店 凱悅軒",
+      "priceLabel": "買二送二 HK$1,056/4 位（平均 HK$264/位，原價 HK$488/位，約 54 折，已包茶芥及加一）；2 位 7 折 HK$684（平均 HK$342/位）；20 多款點心任食",
+      "priceValue": 264,
+      "originalLabel": "原價 HK$488/位（KKday 頁面標示，已包茶芥及加一）",
+      "discountPct": 54,
+      "endsAt": "2026-11-23T23:59:00+08:00",
+      "period": "預訂期：2026-11-17 12:00 至 11-23 23:59；使用日期：2026-11-18 至 2027-01-31（12/22、24、25、31 及 2027/1/1 不適用）；放題時段上午 10 時至正午 12 時；須於用餐前 24 小時預訂",
+      "summary": "尖沙咀凱悅酒店凱悅軒再推 120 分鐘早鳥點心放題快閃，KKday 於 11 月 17 日中午 12 時開搶，至 11 月 23 日 23:59。買二送二 4 位 HK$1,056，平均每位 HK$264，對照原價每位 HK$488 約 54 折，而且已包茶芥同加一；2 位同行就 7 折 HK$684（人均 HK$342）。20 多款點心任食，包括蜜汁叉燒、筍尖蝦餃皇、飛魚子燒賣等，放題時段係上午 10 時至正午 12 點。使用期由 11 月 18 日起至明年 1 月 31 日，12 月 22、24、25、31 同 2027 年 1 月 1 日不適用。須於用餐前 24 小時預訂，以 KKday 頁面為準。",
+      "highlights": [
+        "買二送二 HK$1,056/4 位，平均 HK$264/位（原價 HK$488，約 54 折）",
+        "2 位同行 7 折 HK$684（人均 HK$342）",
+        "蜜汁叉燒、筍尖蝦餃皇、飛魚子燒賣等 20 多款點心任食",
+        "已包茶芥及加一，放題時段 10:00–12:00",
+        "預訂 11/17 12:00–11/23；使用 11/18–2027/1/31（指定日子除外）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%87%B1%E6%82%85%E8%BB%92%20%E5%B0%96%E6%B2%99%E5%92%80%E5%87%B1%E6%82%85%E9%85%92%E5%BA%97",
+      "sourceLabel": "GroupBuya 著數網 KKday 快閃文章（2026-11-17）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557461-KKday-11%E6%9C%8817%E6%97%A518",
+      "bookingUrl": "https://www.kkday.com/zh-hk/",
+      "tags": [
+        "點心",
+        "放題",
+        "尖沙咀",
+        "買二送二",
+        "凱悅",
+        "KKday"
+      ],
+      "sample": false,
       "daysLeft": 6,
       "status": "active"
     },
@@ -360,7 +435,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active"
     },
     {
@@ -396,7 +471,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 12,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -427,7 +502,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -458,7 +533,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -489,7 +564,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -519,7 +594,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -554,7 +629,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -589,7 +664,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -624,7 +699,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -660,7 +735,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -695,7 +770,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -729,7 +804,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -764,7 +839,7 @@ window.DEAL_DATA = {
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -800,7 +875,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 14,
+      "daysLeft": 13,
       "status": "active"
     },
     {
@@ -837,7 +912,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 27,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -872,7 +947,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 32,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -904,7 +979,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -938,7 +1013,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 44,
+      "daysLeft": 43,
       "status": "active"
     },
     {
@@ -974,7 +1049,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 48,
+      "daysLeft": 47,
       "status": "active"
     },
     {
@@ -1010,7 +1085,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 76,
+      "daysLeft": 75,
       "status": "active"
     },
     {
@@ -5171,6 +5246,40 @@ window.DEAL_DATA = {
         "第二位優惠",
         "自助餐",
         "西貢"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-haitunggun-crabduck-2ndwave-20261111",
+      "category": "dining",
+      "title": "海東軒 150 分鐘大閘蟹＋片皮鴨套餐：第 1 位 HK$111＋第 2 位 HK$408，人均 HK$260",
+      "subtitle": "KKday 雙11 快閃 · 11/10 15:00 開搶至 11/16 · 11/10 起可用",
+      "venue": "海東軒（大角咀、鴨脷洲、香港仔、黃大仙 4 門店）",
+      "priceLabel": "第 1 位 HK$111＋第 2 位 HK$408：HK$519/2 位（平均 HK$260/位，原價 HK$498/位）；升級無限時任食 HK$398/位（2 位起）；獨家 82 折 HK$408/位（2 位起），現場另收服務費每位 HK$78 及茶芥（現金）",
+      "priceValue": 519,
+      "originalLabel": "原價 HK$498/位（另收服務費 HK$78/位及茶芥）",
+      "discountPct": 52,
+      "endsAt": "2026-11-16T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-10 15:00 至 2026-11-16 23:59；使用日期：2026-11-10 起；150 分鐘任食清蒸／花彫蒸／油鹽焗大閘蟹及片皮鴨",
+      "summary": "KKday 雙11 第二波：海東軒 150 分鐘大閘蟹＋片皮鴨套餐，第 1 位 HK$111、第 2 位 HK$408，兩位 HK$519、平均 HK$260 一位（原價 HK$498/位，約 52 折）。任食清蒸、花彫蒸、油鹽焗大閘蟹加京式片皮鴨，每位仲送古法扣原隻鮑魚金錢、黃炆佛跳牆同生拆蟹粉小籠包；升級無限時任食 HK$398/位。大角咀、鴨脷洲、香港仔、黃大仙 4 門店都去得。留意服務費 HK$78/位同茶芥要現場現金支付。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "第 1 位 HK$111＋第 2 位 HK$408：2 位 HK$519，人均 HK$260（原價 HK$498/位）",
+        "150 分鐘任食：清蒸／花彫蒸／油鹽焗大閘蟹＋京式片皮鴨",
+        "每位送古法扣原隻鮑魚金錢、黃炆佛跳牆、生拆蟹粉小籠包",
+        "升級無限時任食 HK$398/位；獨家 82 折 HK$408/位（2 位起）",
+        "4 門店：大角咀、鴨脷洲、香港仔、黃大仙"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%9D%B1%E8%BB%92%20%E9%A6%99%E6%B8%AF",
+      "sourceLabel": "GroupBuya 557182/557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557182-KKday-%E9%9B%9911%E7%AC%AC%E4%BA%8C%E6%B3%A2",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "片皮鴨",
+        "放題"
       ],
       "sample": false,
       "daysLeft": 0,
