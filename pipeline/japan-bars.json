@@ -1,22 +1,22 @@
 {
  "meta": {
   "note": "日本各地區最有特色的威士忌／雞尾酒吧。每筆必須有可引用的公開來源明確寫出 Google 評分（最好連評論數）；兩個來源評分矛盾即跳過；查不到評分不收錄，不得自行評分或估算。分 whisky（威士忌專門）／cocktail（雞尾酒專門）／both 兩類，兩類都要有。",
-  "updated": "2026-11-11",
+  "updated": "2026-11-18",
   "minRating": 4.3,
   "ratingPolicy": "評分與評論數一律標明查核日期，並註明以 Google Maps 即時顯示為準。評分一致但評論數因快照時間不同而有差異可以接受；評分本身矛盾即跳過。",
   "etiquetteNote": "日本正統吧（オーセンティックバー）普遍收座位費／チャージ（約 ¥500–1,500，通常包小食或毛巾），另可能收服務費；冇小費文化。營業時間、收費同吸煙規定各店差異大，出發前請查店家 Google 即時資訊或官方社交平台。",
   "rotation": [
-   "東北",
-   "沖繩",
    "關西",
    "關東",
    "北海道",
    "中國／瀨戶內",
    "四國",
    "中部／東海",
-   "九州"
+   "九州",
+   "東北",
+   "沖繩"
   ],
-  "updatedAt": "2026-11-11"
+  "updatedAt": "2026-11-18"
  },
  "bars": [
   {
@@ -1348,6 +1348,145 @@
    "sourceLabel": "Restaurant Guru（引用 Google 評分 4.5、108 則；2026-11-11 查核）；evendo 同列 4.5（頁面未標來源，僅作旁證）",
    "sourceUrl": "https://restaurantguru.com/High-Bridge-Kagoshima-2",
    "addedAt": "2026-11-11"
+  },
+  {
+   "id": "jp-bar-sendai-andante",
+   "name": "Bar Andante（バー アンダンテ）",
+   "nameEn": "Bar Andante",
+   "city": "仙台",
+   "area": "青葉区・中央（仙台駅西口）",
+   "region": "tohoku",
+   "barType": "both",
+   "signature": "無酒單時令鮮果雞尾酒（蜜桃蘭姆、蜜瓜白蘭地配鮮忌廉、西瓜伏特加）；SMWS 裝瓶威士忌；原創雞尾酒「Mr. Snowman」",
+   "rating": 4.7,
+   "reviews": 192,
+   "ratingCheckedAt": "2026-11-18",
+   "priceBand": "Wanderlog 標示 affordable，未見公開價目表；以現場酒單為準，座位費入座前請確認",
+   "address": "宮城県仙台市青葉区中央2-11-13 ユーメントビル 3F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Andante%20%E4%B8%AD%E5%A4%AE%20%E4%BB%99%E5%8F%B0",
+   "blurb": "仙台駅西口徒步幾分鐘，ユーメントビル 三樓一間只得吧檯嘅小店，由一對夫婦拍檔打理。全店禁煙、座位極少，客人形容同一時間最多招呼三幾位，所以全程都係店主親自落手——切鮮果、調酒、同你傾。酒單以當造水果做骨架：蜜桃蘭姆、蜜瓜白蘭地配鮮忌廉、西瓜伏特加都係評論反覆提到嘅款式；後吧另有一批 SMWS（蘇格蘭麥芽威士忌協會）裝瓶同仙台本地蒸餾嘅 Nikka 威士忌，想試少見嘅日本威士忌可以直接問。外國客人評語幾乎一致讚夫婦二人細心，會記住你上次飲咩。",
+   "highlights": [
+    "由夫婦拍檔親自打理，吧檯前即場切鮮果調酒，全程睇得到手勢",
+    "以當造水果做雞尾酒主軸（蜜桃、蜜瓜、西瓜），季節一變款式就跟住變",
+    "後吧有 SMWS 裝瓶與仙台本地蒸餾的 Nikka 威士忌，另有 off-menu 稀有款可以問",
+    "全店禁煙、只有吧檯位，屬安靜型小店，一個人去都自在",
+    "仙台駅西口徒步可到，行程中間插入一杯都夠方便"
+   ],
+   "tips": [
+    "全店禁煙（來源明列 non-smoking），怕煙味嘅旅客可以放心",
+    "座位極少——來源形容全店只有吧檯、同一時間最多約三位客人；開門時段到最穩，夜晚人多要等",
+    "星期一休息；平日約 16:00–24:00、星期日 15:00–23:00（Wanderlog 列示，以店家即時資訊為準）",
+    "冇酒單，直接講「fruity／smoky」加一兩款想試嘅水果，店主就會發辦；想飲稀有威士忌可以問 off-menu",
+    "位於ユーメントビル 3F，地面只有大廈水牌，夜晚要留意入口再搭電梯",
+    "座位費與收費以現場為準，入座前問一句「チャージはいくらですか？」最穩"
+   ],
+   "sourceLabel": "Wanderlog（頁面明列 Review score 4.7／5、192 則，From Google；2026-11-18 查核）",
+   "sourceUrl": "https://www.wanderlog.com/place/details/2657340/bar-andante",
+   "addedAt": "2026-11-18"
+  },
+  {
+   "id": "jp-bar-sendai-andy",
+   "name": "Andy（バー アンディ）",
+   "nameEn": "Bar Andy",
+   "city": "仙台",
+   "area": "青葉区・国分町",
+   "region": "tohoku",
+   "barType": "whisky",
+   "signature": "日本威士忌（秩父、津貫等）與蘇格蘭威士忌；招牌雞尾酒；用 Old Tom 氈酒調的 Tom Collins",
+   "rating": 4.7,
+   "reviews": 140,
+   "ratingCheckedAt": "2026-11-18",
+   "priceBand": "Wanderlog 標示 affordable；有客人提及另收座位費（金額說法不一），以現場為準",
+   "address": "宮城県仙台市青葉区国分町3-6-6 小野ビル 2F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Andy%20%E5%9B%BD%E5%88%86%E7%94%BA%20%E4%BB%99%E5%8F%B0",
+   "blurb": "国分町一棟大廈二樓的 malt bar，招牌細到行過會錯過——但上到二樓推門，就係一間播住輕爵士、只有吧檯嘅安靜小店。店主 Andy（評論亦稱 Ando-san）英語流利，會逐款問你飲開咩風格再拎瓶出嚟；櫃上除咗蘇格蘭，仲有一批唔算常見嘅日本威士忌（秩父、津貫等），價錢比東京相宜。招牌雞尾酒同 Tom Collins 都係客人反覆提到嘅一杯，想飲經典就點 Martini 或 Whiskey Sour，睇手勢都值。",
+   "highlights": [
+    "店主英語流利、對外國客人友善，多則英文評論一致提到溝通順暢",
+    "日本威士忌選擇廣，秩父、津貫等唔算常見嘅款都有，價位比東京相宜",
+    "招牌雞尾酒與用 Old Tom 氈酒調的 Tom Collins 獲客人反覆點名",
+    "播輕爵士、只有吧檯，氣氛安靜，一個人去都唔會尷尬",
+    "國分町是東北最大娛樂街區，仙台站徒步十餘分鐘可到"
+   ],
+   "tips": [
+    "店主英語流利（多則評論一致），唔識日文都傾得到",
+    "星期四 20:00 才開門，其餘日子約 16:00–24:00、星期日 16:00–23:00（Wanderlog 列示，以店家即時資訊為準）",
+    "座位唔多，晚上八點後較旺；想坐吧檯建議早少少到",
+    "有客人提及另收座位費，金額說法不一；入座前問一句「チャージはいくらですか？」最穩",
+    "位於小野ビル 2F，地面冇大招牌，用 Google Maps 搜「Bar Andy 仙台」再認大廈名",
+    "吸煙規定未見可靠來源，入座前先問清楚；酒後唔好揸車"
+   ],
+   "sourceLabel": "Wanderlog（頁面明列 Review score 4.7／5、140 則，From Google；2026-11-18 查核）",
+   "sourceUrl": "https://www.wanderlog.com/place/details/3432789/andy",
+   "addedAt": "2026-11-18"
+  },
+  {
+   "id": "jp-bar-hirosaki-glenmore",
+   "name": "BAR GLEN MORE（バー グレンモア）",
+   "nameEn": "Bar Glen More",
+   "city": "弘前",
+   "area": "駅前（弘前駅前）",
+   "region": "tohoku",
+   "barType": "whisky",
+   "signature": "100 款以上威士忌（蘇格蘭調和、單一麥、單桶，艾雷島款式特多）；氈酒；柚子 Mojito；配酒小食如炸蠔、薄餅、carbonara",
+   "rating": 4.5,
+   "reviews": 70,
+   "ratingCheckedAt": "2026-11-18",
+   "priceBand": "Wanderlog 標示 affordable；以現場酒單為準（有評論形容定價出乎意料地合理、結帳清晰）",
+   "address": "青森県弘前市駅前1丁目1-9 1F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BAR%20GLEN%20MORE%20%E9%A7%85%E5%89%8D%20%E5%BC%98%E5%89%8D",
+   "blurb": "弘前駅前、東橫 INN 隔籬三十秒，一間開到凌晨兩點嘅英式酒吧。黑色主調、位子闊落，後吧上百款威士忌以蘇格蘭為骨幹——調和、單一麥、單桶都有，艾雷島款式尤其齊，亦有稀有瓶同氈酒。食物比一般酒吧認真：炸蠔、薄餅、carbonara 都有人特別寫入評論，所以唔飲威士忌嘅同行都有嘢食。青森蘋果產季（秋季）嚟弘前睇城、行蘋果公園，夜晚落腳呢度啱啱好。",
+   "highlights": [
+    "後吧 100 款以上威士忌，蘇格蘭由調和到單桶都有，艾雷島款式特多",
+    "食物水準比一般酒吧高：炸蠔、薄餅、carbonara 都獲客人點名",
+    "弘前駅徒步一分鐘，隔籬就是東橫 INN，行程尾聲唔使再搭車",
+    "黑色主調、座位闊落，屬可以坐兩三個鐘的英式酒吧",
+    "開到凌晨 2:00，青森夜裡少數開得咁夜嘅店"
+   ],
+   "tips": [
+    "17:00–02:00 營業（Wanderlog 列示，以店家即時資訊為準），19:00 前有 happy hour，想抵飲就早去",
+    "位於 1F 路面層，弘前駅徒步約一分鐘，隔籬係東橫 INN，唔難找",
+    "座位費（チャージ）與吸煙規定未見可靠來源寫明，入座前問一句最穩",
+    "想試艾雷島或島區威士忌可以直接問店員，佢哋會按你口味拎瓶出嚟",
+    "青森冬天落雪，夜晚由車站行過去要預留時間、著夠衫",
+    "酒後唔好揸車；弘前市內晚上班次疏，回程時間要先查"
+   ],
+   "sourceLabel": "Wanderlog（頁面明列 Review score 4.5／5、70 則，From Google；2026-11-18 查核）",
+   "sourceUrl": "https://wanderlog.com/place/details/13747851/bar-glen-more",
+   "addedAt": "2026-11-18"
+  },
+  {
+   "id": "jp-bar-naha-dick",
+   "name": "Bar Dick（バー ディック）",
+   "nameEn": "Bar Dick",
+   "city": "那覇",
+   "area": "牧志（牧志市場旁）",
+   "region": "okinawa",
+   "barType": "both",
+   "signature": "泡盛入調的雞尾酒（Awamori Moscow Mule 等）；經典雞尾酒如 Singapore Sling；威士忌與利口酒選酒",
+   "rating": 4.7,
+   "ratingCheckedAt": "2026-11-18",
+   "priceBand": "人均約 ¥2,000–5,000（Restaurant Guru 列示，以現場酒單為準）",
+   "address": "沖縄県那覇市牧志1-1-4 高良ビル 2F",
+   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Dick%20%E7%89%A7%E5%BF%97%20%E9%82%A3%E8%A6%87",
+   "blurb": "牧志市場旁邊、國際通橫巷一棟舊大廈二樓的老牌酒吧，那霸泡盛雞尾酒的代表店之一。店內唔大，木吧檯、燈光偏暗，客人與店主就隔住吧檯傾——日文為主，但店員有耐性，用翻譯 App 都溝通得到。酒以泡盛做底：Awamori Moscow Mule 是最多人點的一杯，亦有 Singapore Sling 等經典，威士忌與利口酒選擇比一般沖繩小店闊。價位親民、開到凌晨一點，行完國際通可以直接行過去。",
+   "highlights": [
+    "以泡盛入調的雞尾酒為招牌，Awamori Moscow Mule 是客人最常點的一杯",
+    "威士忌與利口酒選酒比一般沖繩小店闊，亦有 Singapore Sling 等經典",
+    "牧志市場旁、國際通橫巷，行街完可以直接行過去",
+    "價位親民（人均約 ¥2,000–5,000），開到凌晨一點",
+    "老牌小店、木吧檯，客人與店主隔住吧檯傾，屬人情味型酒吧"
+   ],
+   "tips": [
+    "星期一休息；星期二至六 19:00–01:00、星期日 19:00–24:00（Restaurant Guru 列示，以店家即時資訊為準）",
+    "店員以日文為主但好有耐性，用翻譯 App 講口味同預算都溝通得到",
+    "座位費（チャージ）未見可靠來源寫明，入座前問一句「チャージはいくらですか？」最穩",
+    "可以訂位（Restaurant Guru 列 Booking），收信用卡；座位唔多，週末建議先問",
+    "位於高良ビル 2F，大廈入口細，夜晚要留意水牌再上樓",
+    "ゆいレール牧志站徒步數分鐘；酒後唔好揸車，單軌列車係最實際嘅回程選擇"
+   ],
+   "sourceLabel": "Restaurant Guru（頁面明列「Based on the guests' feedback on Google, this bar deserved 4.7」；2026-11-18 查核）",
+   "sourceUrl": "https://restaurantguru.com/Dick-Naha-2",
+   "addedAt": "2026-11-18"
   }
  ]
 }
