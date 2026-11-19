@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-17T10:58:12+08:00",
+    "updated": "2026-11-19T14:21:57+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -12,219 +12,16 @@ window.DEAL_DATA = {
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 150,
-      "active": 31,
-      "ending": 7,
-      "expired": 119,
-      "flight": 17,
-      "dining": 133,
+      "total": 153,
+      "active": 28,
+      "ending": 3,
+      "expired": 125,
+      "flight": 18,
+      "dining": 135,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-royalpark-palatial-double11-111-20261111",
-      "category": "dining",
-      "title": "沙田帝都酒店柏麗廳雙11：二人同行第一位成人 HK$11，平均 HK$210/位起",
-      "subtitle": "KKday 雙11 快閃 · 11/11 12:00 開搶至 11/17 · 11/12 起可用",
-      "venue": "沙田白鶴汀街8號帝都酒店3樓柏麗廳",
-      "priceLabel": "二人同行第一位 HK$11：「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419（人均 HK$210）、星期五 HK$599（人均 HK$300）；另有四人同行第四位 HK$111（自助午餐 4 位 HK$681 人均 HK$171 起）、買一送一週末自助午餐 HK$528/2 位（人均 HK$264）、長腳蟹龍蝦日本和牛盛宴晚餐買一送一 HK$698/2 位起，現場另收原價加一服務費",
-      "priceValue": 419,
-      "originalLabel": "酒店自助餐原價以餐廳現場公佈為準；優惠機制為第一位 HK$11／第四位 HK$111，屬近乎買一送一級數",
-      "discountPct": null,
-      "endsAt": "2026-11-17T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-11 12:00 至 2026-11-17 23:59；使用日期：2026-11-12 起；優惠只適用成人，兒童及長者須提前三天致電餐廳預留並現場付款，只接受電子支付",
-      "summary": "帝都酒店柏麗廳雙11 快閃今日中午 12 時開搶：兩個人去食，第一位成人只收 HK$11，「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419、平均 HK$210 一位。11 月仲有「秋意蟹味濃」主題，晚上 7 時半起有八款精緻蟹饌；「長腳蟹、龍蝦、日本和牛盛宴」晚餐更包鐵板和牛、火炙和牛壽司、龍蝦同長腳蟹，四人有第四位 HK$111 方案。自助午餐 4 位 HK$681、人均 HK$171 起，係今輪酒店自助餐入面最平的一檔。價格及名額以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "二人同行第一位成人 HK$11：極黑牛鐵板燒平日晚餐 2 位 HK$419，人均 HK$210",
-        "四人同行第四位 HK$111：自助午餐 4 位 HK$681，人均 HK$171 起",
-        "「秋意蟹味濃」主題：晚市 19:30 起八款蟹饌；盛宴晚餐包長腳蟹、龍蝦、日本和牛",
-        "買一送一：週末自助午餐 HK$528/2 位、盛宴晚餐 HK$698/2 位起",
-        "開搶時間：11/11 中午 12:00，預訂至 11/17 23:59"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Park%20Hotel%20Sha%20Tin",
-      "sourceLabel": "U Lifestyle 2026-11-10 + GroupBuya 557182 雙源（轉載 KKday 產品 279517 官方方案）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20117860",
-      "bookingUrl": "https://www.kkday.com/zh-hk/product/279517",
-      "tags": [
-        "雙11",
-        "快閃",
-        "第一位優惠",
-        "自助餐",
-        "沙田"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-sunwaidaizhong-crab11-20261111",
-      "category": "dining",
-      "title": "上海新大眾大閘蟹專門店雙11：江蘇大閘蟹（6.3–7.2 兩）限量 HK$11/隻，原價 HK$348",
-      "subtitle": "KKday 雙11 快閃 · 11/11 15:00 開搶至 11/17",
-      "venue": "上海新大眾大閘蟹專門店（HK$1,000 或以上免費送貨，未滿收 HK$100）",
-      "priceLabel": "江蘇養殖場大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11/隻（原價 HK$348）；4 隻 HK$111；另有陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
-      "priceValue": 11,
-      "originalLabel": "蟹公 6.3–7.2 兩原價 HK$348/隻",
-      "discountPct": 3,
-      "endsAt": "2026-11-17T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-11 15:00 至 2026-11-17 23:59；限量售完即止；運費：滿 HK$1,000 免費送貨，未滿收 HK$100",
-      "summary": "KKday 雙11 快閃今日 3 時開搶：上海新大眾大閘蟹專門店嘅江蘇大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11 一隻，對照原價 HK$348 即係約 3 折；一次過訂 4 隻都只係 HK$111。想升級可以揀陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）。大閘蟹季節尾班車，限量售完即止。價格以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "江蘇大閘蟹（蟹公 6.3–7.2 兩）限量 HK$11/隻，原價 HK$348，約 3 折",
-        "4 隻 HK$111（平均 HK$27.75/隻）",
-        "陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
-        "滿 HK$1,000 免費送貨；11/11 15:00 開搶、限量售完即止"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A7%E7%9C%BE%E5%A4%A7%E9%96%98%E8%9F%B9%E5%B0%88%E9%96%80%E5%BA%97",
-      "sourceLabel": "GroupBuya 557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557233-KKday-%E9%9B%9911%E5%BF%AB%E9%96%8311%E6%9C%8811",
-      "tags": [
-        "雙11",
-        "快閃",
-        "大閘蟹",
-        "限量"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourview-wanchai-double11-111-20261112",
-      "category": "dining",
-      "title": "灣仔灣景國際 灣景廳雙11：自助午餐 HK$111/位（原價 HK$372，已包加一）",
-      "subtitle": "KKday 雙11 快閃 · 11/12 10:00 開搶至 11/18 · 11/12 至 11/30 平日適用",
-      "venue": "香港灣仔港灣道4號灣景國際1樓灣景廳",
-      "priceLabel": "雙11 限定自助午餐 HK$111/位（原價 HK$372/位，已包加一，只限星期一至五 12:00–14:30）；自助晚餐「第 2 位 +HK$11」：星期日至四 HK$706/2 位（人均 HK$353）、星期五及六 HK$742/2 位（人均 HK$371），每次須購 2 位",
-      "priceValue": 111,
-      "originalLabel": "自助午餐原價 HK$372/位（已包加一）；晚餐第 2 位機制屬買一送一等級",
-      "discountPct": 30,
-      "endsAt": "2026-11-18T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-12 10:00 至 2026-11-18 23:59；使用日期：2026-11-12 至 2026-11-30（午餐只限星期一至五，公眾假期除外）",
-      "summary": "灣仔灣景國際灣景廳雙11 快閃今早 10 時開搶：平日自助午餐每位 HK$111，對照原價 HK$372 即係約 3 折，而且已包加一服務費。餐廳主打「地中海海鮮盛宴」，任食冰鎮龍蝦、即開時令生蠔、加拿大鱈場蟹腳、白酒煮青口、避風塘炒龍蝦鉗同蟹粉小籠包，落地玻璃窗可以望維港。晚餐另有「第 2 位 +HK$11」，兩個人去每晚人均 HK$353 起。價格及名額以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "平日自助午餐 HK$111/位（原價 HK$372，已包加一，約 3 折）",
-        "晚餐第 2 位 +HK$11：日至四 HK$706/2 位、五六 HK$742/2 位",
-        "任食冰鎮龍蝦、即開生蠔、加拿大鱈場蟹腳、蟹粉小籠包",
-        "預訂 11/12 10:00–11/18；使用 11/12–11/30（午餐限星期一至五）"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20View%20International%20House%20Wan%20Chai",
-      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
-      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
-      "tags": [
-        "雙11",
-        "快閃",
-        "自助餐",
-        "灣仔",
-        "海鮮"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-xiheyayuan-crab-duck-double11-20261112",
-      "category": "dining",
-      "title": "羲和雅苑雙11：大閘蟹＋北京烤鴨 120 分鐘放題 限量 HK$111/位（原價 HK$888）",
-      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開搶至 11/18 · 11/13 至 12/15 平日適用（尖沙咀／中環／東涌）",
-      "venue": "尖沙咀海港城／中環 The L. Place／東涌東薈城（羲和雅苑）",
-      "priceLabel": "雙11 限量 HK$111/位（原價 HK$888/位，適用尖沙咀／中環）；第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位（人均 HK$240）；1 位成人＋1 位 65 歲以上長者 HK$111（人均 HK$230 起）；家庭 4 位 HK$1,111（人均 HK$278，2 成人＋2 長者或 150cm 以下小童，17:30 入座）；東涌平日低至 HK$348/位；另收茶位（尖沙咀 HK$22／中環及東涌 HK$14）及正價加一，現場支付",
-      "priceValue": 111,
-      "originalLabel": "120 分鐘烤鴨＋大閘蟹放題原價 HK$888/位",
-      "discountPct": 13,
-      "endsAt": "2026-11-18T23:59:00+08:00",
-      "period": "KKday 預訂期：2026-11-12 12:00 至 2026-11-18 23:59；使用日期：2026-11-13 至 2026-12-15（雙11 優惠只限星期一至五，公眾假期除外）",
-      "summary": "羲和雅苑雙11 第二輪今日中午 12 時開搶，今次仲加入東涌東薈城分店。限量價 HK$111 一位，對照原價 HK$888 即係大約 13 折，包 120 分鐘北京烤鴨＋大閘蟹任食，每位再送小米海參、磯煮鮑魚等。兩個人去可以揀「第 1 位 HK$368＋第 2 位 HK$111」，人均 HK$240；一家大細就有 4 位 HK$1,111 方案。留意茶位費同正價加一要現場另付，東涌平日低至 HK$348/位。價格及名額以 KKday 頁面即時顯示為準。",
-      "highlights": [
-        "限量 HK$111/位（原價 HK$888，約 13 折）：烤鴨＋大閘蟹 120 分鐘任食",
-        "第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位，人均 HK$240",
-        "4 位家庭方案 HK$1,111（人均 HK$278）；東涌平日低至 HK$348/位",
-        "預訂 11/12 12:00–11/18；使用 11/13–12/15（只限星期一至五）"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%B2%E5%92%8C%E9%9B%85%E8%8B%91%20%E5%B0%96%E6%B2%99%E5%92%80",
-      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
-      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
-      "tags": [
-        "雙11",
-        "快閃",
-        "大閘蟹",
-        "北京烤鴨",
-        "放題"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-teppanyaki-haige-tst-bogo-20261112",
-      "category": "dining",
-      "title": "尖沙咀鐵板燒海賀買一送一：HK$194/位起（原價 HK$388）",
-      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開賣 · 名額售完即止",
-      "venue": "尖沙咀彌敦道100號 The ONE 19樓 鐵板燒海賀",
-      "priceLabel": "買一送一 HK$194/位起（原價 HK$388/位起，等於半價）；適用 Omakase 及鐵板燒套餐，實際可選套餐、加購項目與服務費以 KKday 頁面為準",
-      "priceValue": 194,
-      "originalLabel": "鐵板燒／Omakase 套餐原價 HK$388/位起",
-      "discountPct": 50,
-      "endsAt": "2026-11-18T23:59:00+08:00",
-      "period": "KKday 雙11 快閃：2026-11-12 12:00 開賣，名額有限售完即止；官方頁未列明截止日，本檔暫以 11/18 為界，落單前請以 KKday 頁面即時顯示為準",
-      "summary": "尖沙咀 The ONE 19 樓的鐵板燒海賀，雙11 今日中午 12 時推出買一送一：HK$194 一位起，對照原價 HK$388 即係半價。餐廳坐 19 樓，落地玻璃可以無遮擋望 270 度維港景，主打南非鮑魚、西澳龍蝦同美國牛柳等鐵板燒食材，平時人均消費約 HK$800 以上，今次半價入場算係相當罕有。名額有限、售完即止；套餐選擇同現場加購以 KKday 頁面為準。",
-      "highlights": [
-        "買一送一 HK$194/位起（原價 HK$388/位起，半價）",
-        "The ONE 19 樓，270 度維港景鐵板燒",
-        "Omakase 及鐵板燒套餐適用",
-        "11/12 12:00 開賣，名額有限售完即止"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%90%B5%E6%9D%BF%E7%87%92%E6%B5%B7%E8%B3%80%20The%20ONE%20%E5%B0%96%E6%B2%99%E5%92%80",
-      "sourceLabel": "KKday 雙11 官方活動頁（hk-double11）港澳優惠列表",
-      "sourceUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
-      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
-      "tags": [
-        "雙11",
-        "快閃",
-        "鐵板燒",
-        "買一送一",
-        "尖沙咀"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
-    {
-      "id": "dining-harbourgrand-hongkong-cafe-bogo-nov-20261113",
-      "category": "dining",
-      "title": "港島海逸君綽 Harbour Grand Café：買 1 位第 2 位 HK$1，人均 HK$257.5 食自助晚餐",
-      "subtitle": "Klook 快閃 · 開售 11/12 12:00 至 11/18 · 11/13 至 12/10 適用",
-      "venue": "香港北角油街 23 號港島海逸君綽酒店 Harbour Grand Café（3 樓）",
-      "priceLabel": "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折）；4 位 HK$887（人均 HK$443.5，原價 HK$1,624）。已包加一服務費",
-      "priceValue": 257.5,
-      "originalLabel": "自助晚餐原價 2 位 HK$942、4 位 HK$1,624",
-      "discountPct": 55,
-      "endsAt": "2026-11-18T23:59:00+08:00",
-      "period": "Klook 開售期：2026-11-12 12:00 至 2026-11-18；適用日期：2026-11-13 至 2026-12-10",
-      "summary": "港島海逸君綽 Harbour Grand Café 今輪 Klook 快閃做「買 1 位 + 第 2 位 HK$1」，兩個人食自助晚餐合共 HK$515，人均 HK$257.5，對照原價 HK$942 即係大約 55 折，而且已包加一。四人同行就有 HK$887 方案，人均 HK$443.5。主打波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓、松露燕窩菜式，甜品有 12 款 Mövenpick 雪糕。開售至 11 月 18 日，11 月 13 日至 12 月 10 日都可以用，適合聖誕前聚餐。名額有限，價格及供應以 Klook 頁面即時顯示為準。",
-      "highlights": [
-        "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折），已包加一",
-        "4 位 HK$887（人均 HK$443.5，原價 HK$1,624）",
-        "任食波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓",
-        "開售 11/12 12:00–11/18；適用 11/13–12/10"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20Grand%20Hong%20Kong%20North%20Point",
-      "sourceLabel": "GroupBuya（Klook 11.12 餐飲快閃，2026-11-12 發佈／11-13 更新）",
-      "sourceUrl": "https://www.groupbuya.com/jetso/557291-Klook-%E6%B2%99%E7%94%B0%E9%A6%AC%E5%A0%B4%E5%96%9C%E9%A6%AC%E7%95%B6%E5%85%88%E5%8D%8A%E8%87%AA",
-      "bookingUrl": "https://www.klook.com/zh-HK/deals",
-      "tags": [
-        "自助餐",
-        "酒店",
-        "北角",
-        "買一送一",
-        "海鮮"
-      ],
-      "sample": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-parkhotel-parkcafe-xmas-earlybird-20261105",
       "category": "dining",
@@ -258,7 +55,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -294,8 +91,44 @@ window.DEAL_DATA = {
         "Mr. Steak"
       ],
       "sample": false,
-      "daysLeft": 5,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
+    },
+    {
+      "id": "flight-peach-osaka-specialsale-20261119",
+      "category": "flight",
+      "title": "樂桃 Peach 香港–大阪 Special Sale：單程 HK$300 起，來回連稅約 HK$1,189 起",
+      "subtitle": "官方 Special Sale 11/19 中午 12:00 開賣至 11/22 23:59 · 出發 11/24–2027/1/31 · 唔收燃油附加費",
+      "venue": "香港國際機場 → 大阪關西國際機場（KIX）",
+      "priceLabel": "Minimum Promo 單程 HK$300 起（限星期二、三出發坐 MM64，適用 12/1–12/16）、HK$400 起（限星期一、四出發，適用 11/30–2027/1/11）、全航班 HK$550 起（11/24–2027/1/31）；Standard Promo（包 20kg 寄艙＋揀位）單程 HK$780 起。以上未連稅；來回連稅約 HK$1,189 起（MeetHK 綜合），以訂票系統即時顯示為準",
+      "priceValue": 1189,
+      "originalLabel": "限時促銷票價；Peach 唔收燃油附加費，機場服務費等另計",
+      "discountPct": null,
+      "endsAt": "2026-11-22T23:59:00+08:00",
+      "period": "訂票期：2026-11-19 12:00 至 11-22 23:59（HKT）；出發期：2026-11-24 至 2027-01-31；$300 票限 12/1–12/16 星期二、三出發，$400 票限 11/30–2027/1/11 星期一、四出發，$550 票全航班適用；機位有限售完即止",
+      "summary": "樂桃航空香港–大阪關西 Special Sale 今日中午 12 點開賣，至 11 月 22 日 23:59。Minimum Promo 單程最低 HK$300（限二、三出發坐 MM64 午機），一、四出發 HK$400，其餘全航班 HK$550；想包 20kg 寄艙加揀位可揀 Standard Promo HK$780 起。按 MeetHK 綜合，來回連稅約 HK$1,189 起，出發期覆蓋 11 月 24 日至明年 1 月 31 日，聖誕新年檔都有份。Peach 繼續唔收燃油附加費，機場服務費等另計，機位有限售完即止，一切以 Peach 官方訂票系統即時顯示為準。",
+      "highlights": [
+        "單程 HK$300 起（限二、三出發）、全航班 HK$550 起",
+        "來回連稅約 HK$1,189 起（MeetHK 綜合）",
+        "Standard Promo 包 20kg 寄艙＋揀位，HK$780 起",
+        "訂票 11/19 12:00–11/22 23:59；出發 11/24–2027/1/31",
+        "唔收燃油附加費"
+      ],
+      "mapsUrl": null,
+      "sourceLabel": "樂桃航空官方 Special Sale 頁（2026-11-19 實測在線）· MeetHK 連稅參考價",
+      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale_2",
+      "bookingUrl": "https://booking.flypeach.com/hk/",
+      "tags": [
+        "機票",
+        "日本",
+        "大阪",
+        "Peach",
+        "廉航",
+        "限時快閃"
+      ],
+      "sample": false,
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-touyuen-hairycrab-buffet-20261117",
@@ -331,7 +164,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -367,7 +200,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -403,6 +236,78 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
+      "daysLeft": 4,
+      "status": "active"
+    },
+    {
+      "id": "dining-eaton-astor-xmas-bogo-20261119",
+      "category": "dining",
+      "title": "佐敦逸東酒店 The Astor 聖誕自助餐買一送一：HK$966/2 位，人均 HK$483",
+      "subtitle": "Klook 今晚 9 點開搶至 11/25 · 11/23 起聖誕主題 · 晚市每位奉送芝士焗龍蝦尾",
+      "venue": "佐敦彌敦道 380 號香港逸東酒店 B1 樓 普慶餐廳 The Astor",
+      "priceLabel": "快閃買一送一自助晚餐 HK$966/2 位（人均 HK$483，原價 HK$1,690，約 57 折），用餐時間 18:30–21:30 共 3 小時；小童／長者優惠價以 Klook 頁面顯示為準；現場或另收服務費，以餐廳公佈為準",
+      "priceValue": 483,
+      "originalLabel": "原價 HK$1,690/2 位（U Lifestyle 及 RunHotel 一致）",
+      "discountPct": 57,
+      "endsAt": "2026-11-25T23:59:00+08:00",
+      "period": "開售：2026-11-19 21:00 至 11-25（Klook 獨家快閃）；適用日期：2026-11-20 至 12-13（U Lifestyle 版；RunHotel 寫至 12-14，以 Klook 頁面為準）；11/23 起供應聖誕主題自助餐，晚市每位奉送法式芝士焗龍蝦尾一客（12/24–25 除外）",
+      "summary": "佐敦逸東酒店普慶餐廳 The Astor 今晚（11 月 19 日）9 點在 Klook 推出聖誕自助餐快閃買一送一，2 位 HK$966、人均 HK$483（原價 HK$1,690），11 月 20 日起至 12 月中可用。由 11 月 23 日起供應聖誕主題自助餐，晚市每位賓客奉送法式芝士焗龍蝦尾，另有生蠔、青口、松葉蟹蟹腳等海鮮刺身，必食片皮鴨、芝士火鍋、烤有骨肉眼，甜品有巨型聖誕樹頭蛋糕、薑餅人蛋糕，飲品吧仲有聖誕特飲同熱紅酒。3 小時任食，名額有限售完即止，一切以 Klook 頁面為準。",
+      "highlights": [
+        "買一送一 HK$966/2 位，人均 HK$483（原價 HK$1,690）",
+        "晚市每位送法式芝士焗龍蝦尾（12/24–25 除外）",
+        "生蠔／松葉蟹腳／片皮鴨／芝士火鍋／聖誕樹頭蛋糕",
+        "Klook 開售 11/19 21:00–11/25；適用 11/20–12 月中",
+        "18:30–21:30 共 3 小時任食"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%80%B8%E6%9D%B1%E9%85%92%E5%BA%97%20%E6%99%AE%E6%85%B6%E9%A4%90%E5%BB%B3%20The%20Astor",
+      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet · The Astor 官方聖誕頁三源核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119629",
+      "bookingUrl": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "買一送一",
+        "佐敦",
+        "Klook"
+      ],
+      "sample": false,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-goldcoast-cafelagoon-flash111-20261119",
+      "category": "dining",
+      "title": "屯門黃金海岸酒店 聆渢咖啡廳突發快閃：自助午餐／晚餐 HK$111/位",
+      "subtitle": "Klook 開售即日至 11/25 · 適用 11/20 起 · 3.5 小時炭燒盛宴，晚餐原價 HK$812",
+      "venue": "屯門青山公路 1 號香港黃金海岸酒店 聆渢咖啡廳（Café Lagoon）",
+      "priceLabel": "自助午餐快閃 HK$111/位（原價 HK$449，約 25 折，12:00–14:30）；自助晚餐快閃 HK$111/位（原價 HK$812，約 14 折，18:00–21:30）；同場另有買一送一 HK$886/2 位（人均 HK$443）；小童／長者價以 Klook 頁面為準，現場或另收服務費",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$449/位、自助晚餐原價 HK$812/位（U Lifestyle）",
+      "discountPct": 14,
+      "endsAt": "2026-11-25T23:59:00+08:00",
+      "period": "開售：即日起至 2026-11-25（Klook）；適用日期：2026-11-20 起（U Lifestyle 寫至 12-18、RunHotel 寫至 12-31，以 Klook 頁面為準）；午餐 12:00–14:30、晚餐 18:00–21:30",
+      "summary": "屯門黃金海岸酒店聆渢咖啡廳突發推出 Klook 快閃，自助午餐或晚餐每位只需 HK$111，對照原價晚餐 HK$812 約 14 折、午餐 HK$449 約 25 折，11 月 20 日起至 12 月中可用。3.5 小時任食「燒烤百味盛宴」：戶外炭烤區有參巴醬燒魔鬼魚、日式醬燒白鱔、炭燒封門柳，每位賓客尊享麥皮虎蝦一隻；熱葷有紅酒燴牛尾，烤肉區有慢烤和牛肩胛肉、蜜汁黑毛豬叉燒，仲有即煮港式車仔麵檔。逢周五至日及公眾假期晚上加推脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀。搶唔到 $111 快閃都唔使灰心，同場有買一送一 HK$886/2 位（人均 HK$443）。名額有限售完即止，一切以 Klook 頁面為準。",
+      "highlights": [
+        "自助午餐／晚餐突發快閃 HK$111/位（晚餐原價 HK$812，約 14 折）",
+        "3.5 小時任食炭燒盛宴，每位送麥皮虎蝦",
+        "逢周五至日晚上加推脆皮烤乳豬、煙燻和牛胸肉",
+        "Klook 開售即日至 11/25；適用 11/20 起",
+        "搶唔到另有買一送一 HK$886/2 位（人均 HK$443）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%20%E8%81%86%E6%B8%A2%E5%92%96%E5%95%A1%E5%BB%B3",
+      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet 雙源核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119603",
+      "bookingUrl": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "酒店餐飲",
+        "屯門",
+        "黃金海岸",
+        "Klook"
+      ],
+      "sample": false,
       "daysLeft": 6,
       "status": "active"
     },
@@ -435,7 +340,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 10,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -471,7 +376,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -502,7 +407,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -533,7 +438,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -564,7 +469,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -594,7 +499,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -629,7 +534,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -664,7 +569,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -699,7 +604,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -735,7 +640,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -770,7 +675,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -804,7 +709,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -839,7 +744,7 @@ window.DEAL_DATA = {
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -875,7 +780,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 13,
+      "daysLeft": 11,
       "status": "active"
     },
     {
@@ -912,7 +817,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -947,7 +852,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 31,
+      "daysLeft": 29,
       "status": "active"
     },
     {
@@ -979,7 +884,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 33,
+      "daysLeft": 31,
       "status": "active"
     },
     {
@@ -1013,7 +918,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 43,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1049,7 +954,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 47,
+      "daysLeft": 45,
       "status": "active"
     },
     {
@@ -1085,7 +990,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 75,
+      "daysLeft": 73,
       "status": "active"
     },
     {
@@ -5280,6 +5185,209 @@ window.DEAL_DATA = {
         "大閘蟹",
         "片皮鴨",
         "放題"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-royalpark-palatial-double11-111-20261111",
+      "category": "dining",
+      "title": "沙田帝都酒店柏麗廳雙11：二人同行第一位成人 HK$11，平均 HK$210/位起",
+      "subtitle": "KKday 雙11 快閃 · 11/11 12:00 開搶至 11/17 · 11/12 起可用",
+      "venue": "沙田白鶴汀街8號帝都酒店3樓柏麗廳",
+      "priceLabel": "二人同行第一位 HK$11：「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419（人均 HK$210）、星期五 HK$599（人均 HK$300）；另有四人同行第四位 HK$111（自助午餐 4 位 HK$681 人均 HK$171 起）、買一送一週末自助午餐 HK$528/2 位（人均 HK$264）、長腳蟹龍蝦日本和牛盛宴晚餐買一送一 HK$698/2 位起，現場另收原價加一服務費",
+      "priceValue": 419,
+      "originalLabel": "酒店自助餐原價以餐廳現場公佈為準；優惠機制為第一位 HK$11／第四位 HK$111，屬近乎買一送一級數",
+      "discountPct": null,
+      "endsAt": "2026-11-17T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-11 12:00 至 2026-11-17 23:59；使用日期：2026-11-12 起；優惠只適用成人，兒童及長者須提前三天致電餐廳預留並現場付款，只接受電子支付",
+      "summary": "帝都酒店柏麗廳雙11 快閃今日中午 12 時開搶：兩個人去食，第一位成人只收 HK$11，「美國極黑牛鐵板燒」平日自助晚餐 2 位 HK$419、平均 HK$210 一位。11 月仲有「秋意蟹味濃」主題，晚上 7 時半起有八款精緻蟹饌；「長腳蟹、龍蝦、日本和牛盛宴」晚餐更包鐵板和牛、火炙和牛壽司、龍蝦同長腳蟹，四人有第四位 HK$111 方案。自助午餐 4 位 HK$681、人均 HK$171 起，係今輪酒店自助餐入面最平的一檔。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "二人同行第一位成人 HK$11：極黑牛鐵板燒平日晚餐 2 位 HK$419，人均 HK$210",
+        "四人同行第四位 HK$111：自助午餐 4 位 HK$681，人均 HK$171 起",
+        "「秋意蟹味濃」主題：晚市 19:30 起八款蟹饌；盛宴晚餐包長腳蟹、龍蝦、日本和牛",
+        "買一送一：週末自助午餐 HK$528/2 位、盛宴晚餐 HK$698/2 位起",
+        "開搶時間：11/11 中午 12:00，預訂至 11/17 23:59"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Park%20Hotel%20Sha%20Tin",
+      "sourceLabel": "U Lifestyle 2026-11-10 + GroupBuya 557182 雙源（轉載 KKday 產品 279517 官方方案）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20117860",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/279517",
+      "tags": [
+        "雙11",
+        "快閃",
+        "第一位優惠",
+        "自助餐",
+        "沙田"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-sunwaidaizhong-crab11-20261111",
+      "category": "dining",
+      "title": "上海新大眾大閘蟹專門店雙11：江蘇大閘蟹（6.3–7.2 兩）限量 HK$11/隻，原價 HK$348",
+      "subtitle": "KKday 雙11 快閃 · 11/11 15:00 開搶至 11/17",
+      "venue": "上海新大眾大閘蟹專門店（HK$1,000 或以上免費送貨，未滿收 HK$100）",
+      "priceLabel": "江蘇養殖場大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11/隻（原價 HK$348）；4 隻 HK$111；另有陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
+      "priceValue": 11,
+      "originalLabel": "蟹公 6.3–7.2 兩原價 HK$348/隻",
+      "discountPct": 3,
+      "endsAt": "2026-11-17T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-11 15:00 至 2026-11-17 23:59；限量售完即止；運費：滿 HK$1,000 免費送貨，未滿收 HK$100",
+      "summary": "KKday 雙11 快閃今日 3 時開搶：上海新大眾大閘蟹專門店嘅江蘇大閘蟹（蟹公約 6.3–7.2 兩）限量 HK$11 一隻，對照原價 HK$348 即係約 3 折；一次過訂 4 隻都只係 HK$111。想升級可以揀陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）。大閘蟹季節尾班車，限量售完即止。價格以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "江蘇大閘蟹（蟹公 6.3–7.2 兩）限量 HK$11/隻，原價 HK$348，約 3 折",
+        "4 隻 HK$111（平均 HK$27.75/隻）",
+        "陽澄湖大閘蟹 7 折 HK$98/隻起（只限送貨）",
+        "滿 HK$1,000 免費送貨；11/11 15:00 開搶、限量售完即止"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A7%E7%9C%BE%E5%A4%A7%E9%96%98%E8%9F%B9%E5%B0%88%E9%96%80%E5%BA%97",
+      "sourceLabel": "GroupBuya 557233（轉載 KKday 雙11 官方 promo hk-double11 方案）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557233-KKday-%E9%9B%9911%E5%BF%AB%E9%96%8311%E6%9C%8811",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "限量"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourview-wanchai-double11-111-20261112",
+      "category": "dining",
+      "title": "灣仔灣景國際 灣景廳雙11：自助午餐 HK$111/位（原價 HK$372，已包加一）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 10:00 開搶至 11/18 · 11/12 至 11/30 平日適用",
+      "venue": "香港灣仔港灣道4號灣景國際1樓灣景廳",
+      "priceLabel": "雙11 限定自助午餐 HK$111/位（原價 HK$372/位，已包加一，只限星期一至五 12:00–14:30）；自助晚餐「第 2 位 +HK$11」：星期日至四 HK$706/2 位（人均 HK$353）、星期五及六 HK$742/2 位（人均 HK$371），每次須購 2 位",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$372/位（已包加一）；晚餐第 2 位機制屬買一送一等級",
+      "discountPct": 30,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-12 10:00 至 2026-11-18 23:59；使用日期：2026-11-12 至 2026-11-30（午餐只限星期一至五，公眾假期除外）",
+      "summary": "灣仔灣景國際灣景廳雙11 快閃今早 10 時開搶：平日自助午餐每位 HK$111，對照原價 HK$372 即係約 3 折，而且已包加一服務費。餐廳主打「地中海海鮮盛宴」，任食冰鎮龍蝦、即開時令生蠔、加拿大鱈場蟹腳、白酒煮青口、避風塘炒龍蝦鉗同蟹粉小籠包，落地玻璃窗可以望維港。晚餐另有「第 2 位 +HK$11」，兩個人去每晚人均 HK$353 起。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "平日自助午餐 HK$111/位（原價 HK$372，已包加一，約 3 折）",
+        "晚餐第 2 位 +HK$11：日至四 HK$706/2 位、五六 HK$742/2 位",
+        "任食冰鎮龍蝦、即開生蠔、加拿大鱈場蟹腳、蟹粉小籠包",
+        "預訂 11/12 10:00–11/18；使用 11/12–11/30（午餐限星期一至五）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20View%20International%20House%20Wan%20Chai",
+      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "自助餐",
+        "灣仔",
+        "海鮮"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-xiheyayuan-crab-duck-double11-20261112",
+      "category": "dining",
+      "title": "羲和雅苑雙11：大閘蟹＋北京烤鴨 120 分鐘放題 限量 HK$111/位（原價 HK$888）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開搶至 11/18 · 11/13 至 12/15 平日適用（尖沙咀／中環／東涌）",
+      "venue": "尖沙咀海港城／中環 The L. Place／東涌東薈城（羲和雅苑）",
+      "priceLabel": "雙11 限量 HK$111/位（原價 HK$888/位，適用尖沙咀／中環）；第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位（人均 HK$240）；1 位成人＋1 位 65 歲以上長者 HK$111（人均 HK$230 起）；家庭 4 位 HK$1,111（人均 HK$278，2 成人＋2 長者或 150cm 以下小童，17:30 入座）；東涌平日低至 HK$348/位；另收茶位（尖沙咀 HK$22／中環及東涌 HK$14）及正價加一，現場支付",
+      "priceValue": 111,
+      "originalLabel": "120 分鐘烤鴨＋大閘蟹放題原價 HK$888/位",
+      "discountPct": 13,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 預訂期：2026-11-12 12:00 至 2026-11-18 23:59；使用日期：2026-11-13 至 2026-12-15（雙11 優惠只限星期一至五，公眾假期除外）",
+      "summary": "羲和雅苑雙11 第二輪今日中午 12 時開搶，今次仲加入東涌東薈城分店。限量價 HK$111 一位，對照原價 HK$888 即係大約 13 折，包 120 分鐘北京烤鴨＋大閘蟹任食，每位再送小米海參、磯煮鮑魚等。兩個人去可以揀「第 1 位 HK$368＋第 2 位 HK$111」，人均 HK$240；一家大細就有 4 位 HK$1,111 方案。留意茶位費同正價加一要現場另付，東涌平日低至 HK$348/位。價格及名額以 KKday 頁面即時顯示為準。",
+      "highlights": [
+        "限量 HK$111/位（原價 HK$888，約 13 折）：烤鴨＋大閘蟹 120 分鐘任食",
+        "第 1 位 HK$368＋第 2 位 HK$111＝HK$479/2 位，人均 HK$240",
+        "4 位家庭方案 HK$1,111（人均 HK$278）；東涌平日低至 HK$348/位",
+        "預訂 11/12 12:00–11/18；使用 11/13–12/15（只限星期一至五）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%B2%E5%92%8C%E9%9B%85%E8%8B%91%20%E5%B0%96%E6%B2%99%E5%92%80",
+      "sourceLabel": "GroupBuya 557282（轉載 KKday 雙11 官方 promo 方案）＋ KKday 雙11 活動頁",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557282-KKday-%E9%9B%9911%E9%99%90%E9%87%8F",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "大閘蟹",
+        "北京烤鴨",
+        "放題"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-teppanyaki-haige-tst-bogo-20261112",
+      "category": "dining",
+      "title": "尖沙咀鐵板燒海賀買一送一：HK$194/位起（原價 HK$388）",
+      "subtitle": "KKday 雙11 快閃 · 11/12 12:00 開賣 · 名額售完即止",
+      "venue": "尖沙咀彌敦道100號 The ONE 19樓 鐵板燒海賀",
+      "priceLabel": "買一送一 HK$194/位起（原價 HK$388/位起，等於半價）；適用 Omakase 及鐵板燒套餐，實際可選套餐、加購項目與服務費以 KKday 頁面為準",
+      "priceValue": 194,
+      "originalLabel": "鐵板燒／Omakase 套餐原價 HK$388/位起",
+      "discountPct": 50,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "KKday 雙11 快閃：2026-11-12 12:00 開賣，名額有限售完即止；官方頁未列明截止日，本檔暫以 11/18 為界，落單前請以 KKday 頁面即時顯示為準",
+      "summary": "尖沙咀 The ONE 19 樓的鐵板燒海賀，雙11 今日中午 12 時推出買一送一：HK$194 一位起，對照原價 HK$388 即係半價。餐廳坐 19 樓，落地玻璃可以無遮擋望 270 度維港景，主打南非鮑魚、西澳龍蝦同美國牛柳等鐵板燒食材，平時人均消費約 HK$800 以上，今次半價入場算係相當罕有。名額有限、售完即止；套餐選擇同現場加購以 KKday 頁面為準。",
+      "highlights": [
+        "買一送一 HK$194/位起（原價 HK$388/位起，半價）",
+        "The ONE 19 樓，270 度維港景鐵板燒",
+        "Omakase 及鐵板燒套餐適用",
+        "11/12 12:00 開賣，名額有限售完即止"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%90%B5%E6%9D%BF%E7%87%92%E6%B5%B7%E8%B3%80%20The%20ONE%20%E5%B0%96%E6%B2%99%E5%92%80",
+      "sourceLabel": "KKday 雙11 官方活動頁（hk-double11）港澳優惠列表",
+      "sourceUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "bookingUrl": "https://www.kkday.com/zh-hk/promo/hk-double11",
+      "tags": [
+        "雙11",
+        "快閃",
+        "鐵板燒",
+        "買一送一",
+        "尖沙咀"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-harbourgrand-hongkong-cafe-bogo-nov-20261113",
+      "category": "dining",
+      "title": "港島海逸君綽 Harbour Grand Café：買 1 位第 2 位 HK$1，人均 HK$257.5 食自助晚餐",
+      "subtitle": "Klook 快閃 · 開售 11/12 12:00 至 11/18 · 11/13 至 12/10 適用",
+      "venue": "香港北角油街 23 號港島海逸君綽酒店 Harbour Grand Café（3 樓）",
+      "priceLabel": "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折）；4 位 HK$887（人均 HK$443.5，原價 HK$1,624）。已包加一服務費",
+      "priceValue": 257.5,
+      "originalLabel": "自助晚餐原價 2 位 HK$942、4 位 HK$1,624",
+      "discountPct": 55,
+      "endsAt": "2026-11-18T23:59:00+08:00",
+      "period": "Klook 開售期：2026-11-12 12:00 至 2026-11-18；適用日期：2026-11-13 至 2026-12-10",
+      "summary": "港島海逸君綽 Harbour Grand Café 今輪 Klook 快閃做「買 1 位 + 第 2 位 HK$1」，兩個人食自助晚餐合共 HK$515，人均 HK$257.5，對照原價 HK$942 即係大約 55 折，而且已包加一。四人同行就有 HK$887 方案，人均 HK$443.5。主打波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓、松露燕窩菜式，甜品有 12 款 Mövenpick 雪糕。開售至 11 月 18 日，11 月 13 日至 12 月 10 日都可以用，適合聖誕前聚餐。名額有限，價格及供應以 Klook 頁面即時顯示為準。",
+      "highlights": [
+        "2 位 HK$515（人均 HK$257.5，原價 HK$942，約 55 折），已包加一",
+        "4 位 HK$887（人均 HK$443.5，原價 HK$1,624）",
+        "任食波士頓龍蝦、蟹腳、特大阿根廷蝦、焗蠔、和牛威靈頓",
+        "開售 11/12 12:00–11/18；適用 11/13–12/10"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harbour%20Grand%20Hong%20Kong%20North%20Point",
+      "sourceLabel": "GroupBuya（Klook 11.12 餐飲快閃，2026-11-12 發佈／11-13 更新）",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557291-Klook-%E6%B2%99%E7%94%B0%E9%A6%AC%E5%A0%B4%E5%96%9C%E9%A6%AC%E7%95%B6%E5%85%88%E5%8D%8A%E8%87%AA",
+      "bookingUrl": "https://www.klook.com/zh-HK/deals",
+      "tags": [
+        "自助餐",
+        "酒店",
+        "北角",
+        "買一送一",
+        "海鮮"
       ],
       "sample": false,
       "daysLeft": 0,
