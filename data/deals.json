@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-19T14:21:57+08:00",
+    "updated": "2026-11-21T10:52:01+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,52 +11,16 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 153,
-      "active": 28,
-      "ending": 3,
-      "expired": 125,
+      "total": 158,
+      "active": 32,
+      "ending": 6,
+      "expired": 126,
       "flight": 18,
-      "dining": 135,
+      "dining": 140,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-parkhotel-parkcafe-xmas-earlybird-20261105",
-      "category": "dining",
-      "title": "尖沙咀百樂酒店 Park Café 聖誕自助餐早鳥 65 折，平安夜午餐約 HK$297 位",
-      "subtitle": "11/20 前預訂聖誕自助餐享 65 折 · 12/5 前預訂除夕自助餐享 65 折",
-      "venue": "尖沙咀漆咸道南 61-65 號香港百樂酒店 Park Café",
-      "priceLabel": "早鳥 65 折後：12/24 平安夜自助午餐成人約 HK$297.7（原價 HK$458）、自助晚餐約 HK$473.2（原價 HK$728）；12/25 聖誕自助午餐約 HK$323.7（原價 HK$498）、晚餐約 HK$460.2（原價 HK$708）；小童同折。須於指定日期前預訂並繳費，實際以酒店公佈為準",
-      "priceValue": 297,
-      "originalLabel": "平安夜午餐原價 HK$458/位、晚餐 HK$728/位；聖誕日午餐 HK$498、晚餐 HK$708",
-      "discountPct": 35,
-      "endsAt": "2026-11-20T23:59:00+08:00",
-      "period": "早鳥預訂：聖誕自助餐（12/24–26）2026-11-20 或之前、除夕自助餐（12/31）2026-12-05 或之前；用餐日期為 12 月 24 至 26 日及 12 月 31 日",
-      "summary": "尖沙咀百樂酒店 Park Café 推出「冬日白色聖誕盛宴」自助餐，德韓主題加經典聖誕美饌：韓式牛仔骨、德國脆皮咸豬手，12 月 14 至 31 日仲有楓糖菠蘿焗金門火腿、慢煮聖誕果香火雞，12 月 24 至 25 日晚餐加推燒和牛斧頭扒、威靈頓豬柳同燒羊腿。提早預訂最抵：11 月 20 日前預訂聖誕自助餐、12 月 5 日前預訂除夕自助餐，可享 65 折早鳥價，平安夜晚餐折後約 HK$473 位。另有長者 65 折、12 月生日免費等優惠。預訂要繳全費，名額有限。",
-      "highlights": [
-        "聖誕自助餐 11/20 前預訂享 65 折；除夕自助餐 12/5 前預訂享 65 折",
-        "平安夜自助晚餐原價 HK$728，折後約 HK$473 位（已按 65 折計）",
-        "德韓主題：韓式牛仔骨、德國脆皮咸豬手，聖誕限定燒和牛斧頭扒",
-        "12/1–20 生日賓客 4 位同行免費；65 歲或以上長者 65 折",
-        "經網上或親臨預訂並繳全費，名額有限"
-      ],
-      "url": "https://www.parkhotelgroup.com/en/park-hotel-hong-kong",
-      "sourceLabel": "U Life 港生活 2026-11-03 報導（資料來源：香港百樂酒店；列明原價、早鳥折扣期與用餐日期）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116008/",
-      "tags": [
-        "自助餐",
-        "聖誕",
-        "尖沙咀",
-        "酒店",
-        "早鳥"
-      ],
-      "sample": false,
-      "postedFacebook": false,
-      "postedThreads": false,
-      "daysLeft": 1,
-      "status": "ending"
-    },
     {
       "id": "dining-mrsteak-cwb-dec-bogo-20261115",
       "category": "dining",
@@ -90,7 +54,7 @@
         "Mr. Steak"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -126,7 +90,7 @@
         "限時快閃"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -163,8 +127,8 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-cafetoo-admiralty-festive-b2g2-20261117",
@@ -199,8 +163,8 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-hyatt-kaitak-dimsun-b2g2-20261117",
@@ -235,8 +199,44 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 2,
+      "status": "ending"
+    },
+    {
+      "id": "dining-sheraton-tst-cafe-xmas-bogo-20261121",
+      "category": "dining",
+      "title": "尖沙咀喜來登 The Café 自助餐買一送一：午餐人均 HK$269、晚餐 HK$479（55 折）",
+      "subtitle": "Klook 快閃開售至 11/23 · 適用 11/23–12/13 · 12/1 起轉節慶自助餐 · 即開生蠔、波士頓龍蝦",
+      "venue": "尖沙咀彌敦道 20 號香港喜來登酒店 2 樓 咖啡廳 The Café",
+      "priceLabel": "自助午餐買一送一 2 位 HK$538（人均 HK$269，原價 HK$986，約 55 折）；自助晚餐買一送一 2 位 HK$958（人均 HK$479，原價 HK$1,756，約 55 折）；已包加一，以 Klook 頁面為準",
+      "priceValue": 269,
+      "originalLabel": "原價午餐 HK$986／2 位、晚餐 HK$1,756／2 位（RunHotel 引 Klook）",
+      "discountPct": 55,
+      "endsAt": "2026-11-23T23:59:00+08:00",
+      "period": "開售：2026-11-17 21:00 至 11-23（Klook 獨家快閃）；適用日期：2026-11-23 至 12-13；12 月 1 日至 1 月 1 日供應節慶自助盛宴",
+      "summary": "尖沙咀喜來登酒店咖啡廳 The Café 在 Klook 推出獨家快閃買一送一，開售至 11 月 23 日，11 月 23 日至 12 月 13 日可用。自助午餐 2 位 HK$538、人均 HK$269（原價 HK$986，約 55 折）；自助晚餐 2 位 HK$958、人均 HK$479（原價 HK$1,756，約 55 折）。海鮮有冰鎮海鮮塔、即開時令生蠔、鱈場蟹腳及鮮蝦，晚餐限定波士頓龍蝦、麵包蟹、極品紅蝦及鮮甜帶子刺身；12 月 1 日起轉節慶自助餐，有聖誕金黃香烤原隻火雞、聖誕脆皮豬手、烤開心果仁脆皮澳洲羊架等。甜品由糕點團隊製作聖誕黑森林蛋糕、栗子蒙布朗、綠茶聖誕樹朱古力撻。名額有限售完即止，以 Klook 頁面為準。",
+      "highlights": [
+        "午餐買一送一 2 位 HK$538（人均 HK$269，55 折）",
+        "晚餐買一送一 2 位 HK$958（人均 HK$479，55 折）",
+        "晚餐限定波士頓龍蝦、麵包蟹、紅蝦刺身",
+        "12/1 起轉節慶自助餐，有原隻烤火雞",
+        "開售至 11/23；適用 11/23–12/13"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%96%9C%E4%BE%86%E7%99%BB%E9%85%92%E5%BA%97%20The%20Cafe%20%E5%92%96%E5%95%A1%E5%BB%B3",
+      "sourceLabel": "RunHotel all-hotel-buffet（2026-11-17 更新）· Klook 產品頁 87227",
+      "sourceUrl": "https://www.runhotel.hk/all-hotel-buffet",
+      "bookingUrl": "https://www.klook.com/zh-HK/activity/87227-hotel-buffet-sheraton-hongkong-hotel-towers-thecafe/",
+      "tags": [
+        "自助餐",
+        "買一送一",
+        "酒店餐飲",
+        "尖沙咀",
+        "Klook",
+        "聖誕"
+      ],
+      "sample": false,
+      "daysLeft": 2,
+      "status": "ending"
     },
     {
       "id": "dining-eaton-astor-xmas-bogo-20261119",
@@ -271,7 +271,7 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -307,7 +307,7 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -339,7 +339,43 @@
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 6,
+      "status": "active"
+    },
+    {
+      "id": "dining-metropolis-promenade-xmas-kkday-20261121",
+      "category": "dining",
+      "title": "紅磡都會海逸酒店 Promenade 聖誕自助餐快閃：午餐人均 HK$388、晚餐 HK$618（低至 62 折）",
+      "subtitle": "今日 12:00 開搶至 11/27 · 買二送一／買二送二 · 週末下午茶買一送一人均 HK$318 · 12/31 次輪可到戶外花園看煙花",
+      "venue": "紅磡都會道 7 號都會海逸酒店 7 樓 西餐廳 Promenade（港鐵紅磡站 C2 出口）",
+      "priceLabel": "聖誕及元旦國際美食自助午餐 3 位 HK$1,164 起（人均 HK$388，原價 HK$647/位，約 6 折）；自助晚餐 3 位 HK$1,854 起（人均 HK$618，原價 HK$922/位，約 67 折）；11 月自助晚餐買二送二 4 位 HK$2,152（人均 HK$538，一至四）；週末下午茶買一送一 2 位 HK$636 起（人均 HK$318，原價 HK$460/位，約 69 折）；以上已包原價加一，部分方案含無限暢飲指定餐酒",
+      "priceValue": 388,
+      "originalLabel": "原價午餐 HK$647/位、晚餐 HK$922/位、週末下午茶 HK$460/位（已包原價加一，U Food 引 KKday）",
+      "discountPct": 62,
+      "endsAt": "2026-11-27T23:59:00+08:00",
+      "period": "預訂期：2026-11-21 12:00 至 11-27 23:59（KKday 快閃）；使用期：2026-11 至 2027-01-01；最早可預訂日：下午茶 11/21、自助晚餐 11/23、聖誕午餐 12/3；12/24–26 及 31 為「夜幕降臨・聖誕舞會之夜」主題，12/31 次輪顧客可到戶外花園 The Patio 看煙花",
+      "summary": "紅磡都會海逸酒店西餐廳 Promenade 今日中午 12 點在 KKday 開搶聖誕自助餐快閃，至 11 月 27 日 23:59。買二送一後，12 月至 1 月 1 日的國際美食自助午餐人均 HK$388 起（原價 HK$647）、自助晚餐人均 HK$618 起（原價 HK$922），大約 6 至 67 折；11 月自助晚餐買二送二 4 位 HK$2,152，人均 HK$538。想平平哋試就先搶週末下午茶買一送一，2 位 HK$636 起、人均 HK$318，成人每位送指定紅酒、白酒或啤酒一杯。12 月 24 至 26 日及 31 日轉「聖誕舞會之夜」主題，有即開生蠔、香草烤聖誕火雞、威靈頓牛肉及即席火焰海中鮮，12 月 24、25 日有聖誕老人巡禮。滿 HK$500 輸入碼【263PAY30】減 HK$30；恒生信用卡簽滿 HK$1,000 再回贈價值 HK$250 KKday Points。名額有限，一切以 KKday 頁面為準。",
+      "highlights": [
+        "聖誕午餐人均 HK$388 起（原價 HK$647，約 6 折）",
+        "聖誕晚餐人均 HK$618 起（原價 HK$922，約 67 折）",
+        "週末下午茶買一送一 2 位 HK$636（人均 HK$318）",
+        "11 月晚餐買二送二 4 位 HK$2,152（人均 HK$538）",
+        "預訂 11/21 12:00–11/27 23:59；碼 263PAY30 滿 $500 減 $30"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%E9%83%BD%E6%9C%83%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%20Promenade%20%E8%A5%BF%E9%A4%90%E5%BB%B3",
+      "sourceLabel": "U Food（2026-11-19）KKday 快閃詳情 · GroupBuya（2026-11-21）雙源核實",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20119709",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/143340",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "買二送一",
+        "紅磡",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -375,7 +411,7 @@
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -406,7 +442,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -437,7 +473,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -468,7 +504,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -498,7 +534,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -533,7 +569,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -568,7 +604,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -603,7 +639,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -639,7 +675,7 @@
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -674,7 +710,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -708,7 +744,7 @@
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -743,7 +779,7 @@
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -779,7 +815,7 @@
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 11,
+      "daysLeft": 9,
       "status": "active"
     },
     {
@@ -816,7 +852,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 24,
+      "daysLeft": 22,
       "status": "active"
     },
     {
@@ -851,7 +887,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 29,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -883,7 +919,43 @@
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 31,
+      "daysLeft": 29,
+      "status": "active"
+    },
+    {
+      "id": "dining-prudential-hungrywindow-winterseafood-20261121",
+      "category": "dining",
+      "title": "佐敦恆豐酒店紅煙窗「冬之海鮮祭」聖誕自助晚餐：HK$448/位起（原價 HK$779，59 折）",
+      "subtitle": "12/24–26 限定 · 2 成人＋1 小童 HK$1,100/3 位（4 折）· 紐西蘭生蠔／麵包蟹／原條牛肋骨 · 巨型聖誕樹頭蛋糕切餅儀式",
+      "venue": "佐敦彌敦道 222 號恆豐酒店 2 樓 紅煙窗餐廳",
+      "priceLabel": "冬之海鮮祭海鮮自助晚餐 HK$448/位起（原價 HK$779/位起，約 59 折）；2 成人／長者＋1 小童套票 HK$1,100/3 位起（原價 HK$1,984，約 4 折，平均約 HK$367/位）；海鮮狂熱盛宴自助午餐 HK$278/位起（原價 HK$515，約 58 折）；加一及茶芥以 KKday 頁面及現場為準",
+      "priceValue": 448,
+      "originalLabel": "原價晚餐 HK$779/位起、午餐 HK$515/位起（KKday 聖誕早鳥，U Food 引述）",
+      "discountPct": 59,
+      "endsAt": "2026-12-26T22:00:00+08:00",
+      "period": "使用日期：2026-12-24 至 12-26（聖誕限定）；KKday 未列明預訂截止日，售完即止，本頁以最後使用日為界；須按訂購時所選日期及時段使用",
+      "summary": "佐敦恆豐酒店紅煙窗餐廳 12 月 24 至 26 日推出聖誕限定「冬之海鮮祭．紐西蘭生蠔．海鮮自助晚餐」，KKday 早鳥價 HK$448/位起，原價 HK$779，大約 59 折；兩位成人或長者加一位小童的套票 HK$1,100/3 位起，對比原價 HK$1,984 大約 4 折，平均每位約 HK$367，一家三口最抵。總廚推介紐西蘭生蠔、法國麵包蟹、鱈場蟹腳、傳統聖誕火雞、烤原條美國牛肋骨、蜜糖燒火腿及焗酥皮菠菜三文魚，另有薑蔥炒龍蝦球、香煎法國鴨肝伴多士；12 月 24 至 26 日更有原個巨型聖誕樹頭蛋糕切餅儀式。同場海鮮狂熱盛宴自助午餐 HK$278/位起，約 58 折。數量有限售完即止，加一及茶芥以 KKday 頁面及現場為準。",
+      "highlights": [
+        "聖誕自助晚餐 HK$448/位起（原價 HK$779，約 59 折）",
+        "2 成人／長者＋1 小童 HK$1,100/3 位（約 4 折，人均 $367）",
+        "紐西蘭生蠔、麵包蟹、鱈場蟹腳、原條美國牛肋骨",
+        "12/24–26 限定，設巨型聖誕樹頭蛋糕切餅儀式",
+        "自助午餐 HK$278/位起（約 58 折）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%86%E8%B1%90%E9%85%92%E5%BA%97%20%E7%B4%85%E7%85%99%E7%AA%97%E9%A4%90%E5%BB%B3%20%E4%BD%90%E6%95%A6",
+      "sourceLabel": "U Food（2026-11-19）KKday 聖誕早鳥合集 · KKday 產品頁 284215",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20119730",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/284215",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "海鮮",
+        "佐敦",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -917,7 +989,78 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 41,
+      "daysLeft": 39,
+      "status": "active"
+    },
+    {
+      "id": "dining-regal-kowloon-banyan-xmas-20261121",
+      "category": "dining",
+      "title": "尖沙咀富豪九龍酒店芊妍廳「聖誕天王自助餐」：晚餐 HK$615/位起（62 折）",
+      "subtitle": "早鳥 7 折 · 12/24–26 及 31 晚餐、12/25–26 及 1/1 午餐 · 鱈場蟹腳／和牛肉眼／堂煎法國鴨肝",
+      "venue": "尖沙咀麼地道 71 號富豪九龍酒店 3 樓 芊妍廳",
+      "priceLabel": "聖誕天王自助晚餐盛宴 HK$615/位起（原價 HK$988/位起，約 62 折，12/24–26 及 12/31 適用）；聖誕天王自助午餐盛宴 HK$479/位起（原價 HK$768/位起，約 7 折，12/25–26 及 1/1 適用）；加一以 KKday 頁面及現場為準",
+      "priceValue": 615,
+      "originalLabel": "原價晚餐 HK$988/位起、午餐 HK$768/位起（KKday 早鳥 7 折，U Food 引述）",
+      "discountPct": 62,
+      "endsAt": "2026-12-31T22:00:00+08:00",
+      "period": "使用日期：自助晚餐 2026-12-24 至 12-26 及 12-31；自助午餐 2026-12-25 至 12-26 及 2027-01-01；早鳥優惠期以 KKday 產品頁為準，售完即止",
+      "summary": "尖沙咀富豪九龍酒店芊妍廳今年聖誕推出「天王自助餐盛宴」，KKday 早鳥 7 折：自助晚餐 HK$615/位起（原價 HK$988，約 62 折），12 月 24 至 26 日及 31 日適用；自助午餐 HK$479/位起（原價 HK$768，約 7 折），12 月 25、26 日及 1 月 1 日適用。菜式包括鱈場蟹腳、海蝦、龍蝦、日式原隻鮑魚及多款刺身，肉食有澳洲和牛肉眼及堂煎法國鴨肝，另有即煮海膽醬意大利粉，甜品以火焰雪山作結。這間是首次收錄，適合想避開連鎖酒店人潮的讀者。名額有限，以 KKday 頁面為準。",
+      "highlights": [
+        "聖誕晚餐 HK$615/位起（原價 HK$988，約 62 折）",
+        "聖誕午餐 HK$479/位起（原價 HK$768，約 7 折）",
+        "鱈場蟹腳、龍蝦、原隻鮑魚、澳洲和牛肉眼",
+        "堂煎法國鴨肝、即煮海膽醬意大利粉、火焰雪山",
+        "晚餐 12/24–26 及 31；午餐 12/25–26 及 1/1"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%B1%AA%E4%B9%9D%E9%BE%8D%E9%85%92%E5%BA%97%20%E8%8A%8A%E5%A6%8D%E5%BB%B3",
+      "sourceLabel": "U Food（2026-11-19）KKday 聖誕早鳥合集 · KKday 產品頁 153914",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20119730",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/153914",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "尖沙咀",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 40,
+      "status": "active"
+    },
+    {
+      "id": "dining-kowloonhotel-harbourview-xmas-20261121",
+      "category": "dining",
+      "title": "尖沙咀九龍酒店倚窗閣聖誕除夕自助餐：晚餐 HK$531/位起（6 折），買一送一碼後人均 HK$455",
+      "subtitle": "12/24–26 及 31 晚餐 · 12/24–27 午餐 7 折 HK$366 起 · 全包無限暢飲 · 碼 DB11KL50 再享 11% OFF 最高減 $50",
+      "venue": "尖沙咀彌敦道 19–21 號九龍酒店 2 樓 倚窗閣",
+      "priceLabel": "聖誕除夕自助晚餐 成人 HK$531/位起（原價 HK$834/位起，約 6 折）、兒童低至 HK$299；聖誕自助午餐 HK$366/位起（原價 HK$526/位起，約 7 折）；獨家快閃成人買一送一：晚餐 HK$910/2 位（人均 HK$455）、午餐 HK$550/2 位（人均 HK$275），輸入碼 DB11KL50 享 11% OFF 最高減 HK$50；所有方案包無限暢飲指定飲料及果汁",
+      "priceValue": 531,
+      "originalLabel": "原價晚餐 HK$834/位起、午餐 HK$526/位起（KKday 聖誕早鳥，U Food 引述）",
+      "discountPct": 60,
+      "endsAt": "2026-12-31T23:59:00+08:00",
+      "period": "使用日期：自助晚餐 2026-12-24 至 12-26 及 12-31；自助午餐 2026-12-24 至 12-27；預訂期以 KKday 產品頁為準，售完即止",
+      "summary": "尖沙咀九龍酒店倚窗閣的聖誕除夕自助餐，晚餐成人 HK$531/位起（原價 HK$834，約 6 折）、兒童低至 HK$299，12 月 24 至 26 日及 31 日適用；自助午餐 HK$366/位起（原價 HK$526，約 7 折），12 月 24 至 27 日適用。全部方案包無限暢飲指定飲料及果汁。另外有獨家快閃成人買一送一：晚餐 HK$910/2 位（人均 HK$455）、午餐 HK$550/2 位（人均 HK$275），結帳輸入碼【DB11KL50】再享 11% OFF、最高減 HK$50。菜式有燒聖誕火雞及火腿伴金巴倫子汁、雜錦日式刺身、壽司卷物、冰島小龍蝦蟹子雞蛋沙律等。名額有限售完即止，以 KKday 頁面為準。",
+      "highlights": [
+        "聖誕除夕晚餐 HK$531/位起（原價 HK$834，約 6 折）",
+        "聖誕午餐 HK$366/位起（原價 HK$526，約 7 折）",
+        "成人買一送一：晚餐人均 HK$455、午餐 HK$275",
+        "碼 DB11KL50 再享 11% OFF（最高減 $50）",
+        "全包無限暢飲指定飲料及果汁"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E9%85%92%E5%BA%97%20%E5%80%9A%E7%AA%97%E9%96%A3%20%E5%B0%96%E6%B2%99%E5%92%80",
+      "sourceLabel": "U Food（2026-11-19）KKday 聖誕早鳥合集 · KKday 產品頁 120782",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20119730",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/120782",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "除夕",
+        "酒店餐飲",
+        "尖沙咀",
+        "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 40,
       "status": "active"
     },
     {
@@ -953,7 +1096,7 @@
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 45,
+      "daysLeft": 43,
       "status": "active"
     },
     {
@@ -989,7 +1132,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 73,
+      "daysLeft": 71,
       "status": "active"
     },
     {
@@ -5389,6 +5532,42 @@
         "海鮮"
       ],
       "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-parkhotel-parkcafe-xmas-earlybird-20261105",
+      "category": "dining",
+      "title": "尖沙咀百樂酒店 Park Café 聖誕自助餐早鳥 65 折，平安夜午餐約 HK$297 位",
+      "subtitle": "11/20 前預訂聖誕自助餐享 65 折 · 12/5 前預訂除夕自助餐享 65 折",
+      "venue": "尖沙咀漆咸道南 61-65 號香港百樂酒店 Park Café",
+      "priceLabel": "早鳥 65 折後：12/24 平安夜自助午餐成人約 HK$297.7（原價 HK$458）、自助晚餐約 HK$473.2（原價 HK$728）；12/25 聖誕自助午餐約 HK$323.7（原價 HK$498）、晚餐約 HK$460.2（原價 HK$708）；小童同折。須於指定日期前預訂並繳費，實際以酒店公佈為準",
+      "priceValue": 297,
+      "originalLabel": "平安夜午餐原價 HK$458/位、晚餐 HK$728/位；聖誕日午餐 HK$498、晚餐 HK$708",
+      "discountPct": 35,
+      "endsAt": "2026-11-20T23:59:00+08:00",
+      "period": "早鳥預訂：聖誕自助餐（12/24–26）2026-11-20 或之前、除夕自助餐（12/31）2026-12-05 或之前；用餐日期為 12 月 24 至 26 日及 12 月 31 日",
+      "summary": "尖沙咀百樂酒店 Park Café 推出「冬日白色聖誕盛宴」自助餐，德韓主題加經典聖誕美饌：韓式牛仔骨、德國脆皮咸豬手，12 月 14 至 31 日仲有楓糖菠蘿焗金門火腿、慢煮聖誕果香火雞，12 月 24 至 25 日晚餐加推燒和牛斧頭扒、威靈頓豬柳同燒羊腿。提早預訂最抵：11 月 20 日前預訂聖誕自助餐、12 月 5 日前預訂除夕自助餐，可享 65 折早鳥價，平安夜晚餐折後約 HK$473 位。另有長者 65 折、12 月生日免費等優惠。預訂要繳全費，名額有限。",
+      "highlights": [
+        "聖誕自助餐 11/20 前預訂享 65 折；除夕自助餐 12/5 前預訂享 65 折",
+        "平安夜自助晚餐原價 HK$728，折後約 HK$473 位（已按 65 折計）",
+        "德韓主題：韓式牛仔骨、德國脆皮咸豬手，聖誕限定燒和牛斧頭扒",
+        "12/1–20 生日賓客 4 位同行免費；65 歲或以上長者 65 折",
+        "經網上或親臨預訂並繳全費，名額有限"
+      ],
+      "url": "https://www.parkhotelgroup.com/en/park-hotel-hong-kong",
+      "sourceLabel": "U Life 港生活 2026-11-03 報導（資料來源：香港百樂酒店；列明原價、早鳥折扣期與用餐日期）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20116008/",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "尖沙咀",
+        "酒店",
+        "早鳥"
+      ],
+      "sample": false,
+      "postedFacebook": false,
+      "postedThreads": false,
       "daysLeft": 0,
       "status": "expired"
     }
