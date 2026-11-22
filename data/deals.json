@@ -3,7 +3,7 @@
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-21T10:52:01+08:00",
+    "updated": "2026-11-22T21:35:29+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -11,12 +11,12 @@
     "gtmContainerId": "GTM-KQVGKZTS",
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
-      "total": 158,
-      "active": 32,
-      "ending": 6,
+      "total": 162,
+      "active": 36,
+      "ending": 9,
       "expired": 126,
       "flight": 18,
-      "dining": 140,
+      "dining": 144,
       "hotel": 0
     }
   },
@@ -54,7 +54,7 @@
         "Mr. Steak"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -90,7 +90,7 @@
         "限時快閃"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -127,7 +127,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -163,7 +163,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -199,7 +199,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -233,6 +233,42 @@
         "尖沙咀",
         "Klook",
         "聖誕"
+      ],
+      "sample": false,
+      "daysLeft": 1,
+      "status": "ending"
+    },
+    {
+      "id": "dining-novotel-citygate-essence-xmas-20261122",
+      "category": "dining",
+      "title": "東涌諾富特東薈城 Essence「大玩聖誕」自助晚餐：買二送二 4 位 HK$1,772，人均 HK$443（55 折）",
+      "subtitle": "11/24 前購買 · 12/24–27 晚餐 · 每位送半隻龍蝦＋無限暢飲啤酒 · 黃鰭吞拿魚即席解體、明爐燒豬、10 呎火焰雪山",
+      "venue": "東涌文東路 51 號諾富特東薈城酒店 Essence（港鐵東涌站，東薈城名店倉旁）",
+      "priceLabel": "聖誕自助晚餐買二送二 4 位 HK$1,772（人均 HK$443，原價 HK$3,248／4 位，約 55 折，已包加一）；週末自助晚餐買一送一 2 位 HK$880（人均 HK$440，原價 HK$1,595）；週末自助晚餐買一送二 3 位 HK$943（人均 HK$315）；平日半自助晚餐買二送一 3 位 HK$644（人均 HK$215）；聖誕早午餐 12/25–26 每位 HK$260；以上均包 10% 服務費",
+      "priceValue": 443,
+      "originalLabel": "原價聖誕自助晚餐 HK$3,248／4 位（即 HK$812／位）、週末自助晚餐 HK$1,595／2 位（GroupBuya 引 KKday）",
+      "discountPct": 55,
+      "endsAt": "2026-11-24T23:59:00+08:00",
+      "period": "購買期：2026-11-18 15:00 至 11-24 23:59（KKday 聖誕早鳥快閃，售完即止）；用餐期：聖誕自助晚餐 2026-12-24 至 12-27（17:30–21:30），同款主題晚餐亦於 12-19 至 12-20 供應；聖誕早午餐 2026-12-25 至 12-26（12:00–15:00，最後入座 13:00）；聖誕自助午餐 2026-12-21 至 12-24 及 12-31",
+      "summary": "東涌諾富特東薈城酒店 Essence 今年以「大玩聖誕」為主題，KKday 聖誕早鳥快閃買二送二：買兩位成人自助晚餐，送兩位成人或 3 至 11 歲小童，4 位合共 HK$1,772、人均 HK$443，對比原價 HK$3,248 大約 55 折，已包加一服務費。用餐期為 12 月 24 至 27 日晚上 5 時半至 9 時半，每位客人送半隻龍蝦，並無限暢飲啤酒及包裝飲品。三大即席亮點是黃鰭吞拿魚解體表演、即叫即切的明爐燒豬，以及甜品時段的 10 呎長巨型火焰雪山蛋糕。食物有凍熟雪蟹腳、煙燻南非 M9 卡魯和牛、聖誕燒火雞、蜜汁燒火腿、烤豬肋排、香糟黃酒大河蝦、鹽焗海鱸魚及焗釀蟹蓋。若只想兩個人去，週末自助晚餐買一送一 2 位 HK$880（原價 HK$1,595）；平日半自助晚餐買二送一 3 位 HK$644、人均 HK$215，是整個系列最平的入場方式。購買期至 11 月 24 日 23:59，名額有限，價格以酒店及 KKday 官方公佈為準。",
+      "highlights": [
+        "聖誕晚餐買二送二 4 位 HK$1,772（人均 HK$443，55 折）",
+        "每位送半隻龍蝦＋無限暢飲啤酒及包裝飲品",
+        "黃鰭吞拿魚解體表演、明爐燒豬、10 呎火焰雪山",
+        "週末晚餐買一送一 2 位 HK$880（原價 HK$1,595）",
+        "購買期至 11/24 23:59；用餐 12/24–27"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AB%BE%E5%AF%8C%E7%89%B9%E6%9D%B1%E8%96%88%E5%9F%8E%E9%85%92%E5%BA%97%20Essence%20%E6%9D%B1%E6%B6%8C",
+      "sourceLabel": "RunHotel（2026-11-19）· GroupBuya（2026-11-17 KKday 快閃）· KKday 產品頁 165307 三重核實",
+      "sourceUrl": "https://www.runhotel.hk/novotel-citygate-essence-christmas-buffet-2026/",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/165307",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "買二送二",
+        "東涌",
+        "KKday"
       ],
       "sample": false,
       "daysLeft": 2,
@@ -271,8 +307,8 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-goldcoast-cafelagoon-flash111-20261119",
@@ -307,8 +343,8 @@
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-teahouse-crabfirstjin111-20261111",
@@ -339,7 +375,7 @@
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -375,7 +411,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -411,7 +447,7 @@
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 7,
+      "daysLeft": 6,
       "status": "active"
     },
     {
@@ -442,7 +478,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -473,7 +509,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -504,7 +540,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -534,7 +570,7 @@
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -569,7 +605,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -604,7 +640,7 @@
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -639,7 +675,7 @@
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -675,7 +711,7 @@
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -710,7 +746,7 @@
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -744,7 +780,7 @@
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -779,7 +815,7 @@
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -815,7 +851,7 @@
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 9,
+      "daysLeft": 8,
       "status": "active"
     },
     {
@@ -852,7 +888,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 22,
+      "daysLeft": 21,
       "status": "active"
     },
     {
@@ -887,7 +923,7 @@
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 27,
+      "daysLeft": 26,
       "status": "active"
     },
     {
@@ -919,7 +955,7 @@
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 29,
+      "daysLeft": 28,
       "status": "active"
     },
     {
@@ -955,7 +991,7 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 35,
+      "daysLeft": 34,
       "status": "active"
     },
     {
@@ -989,7 +1025,7 @@
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1024,7 +1060,43 @@
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 40,
+      "daysLeft": 39,
+      "status": "active"
+    },
+    {
+      "id": "dining-lukkwok-lemenu-xmas-20261122",
+      "category": "dining",
+      "title": "灣仔六國酒店 Le Menu 聖誕自助晚餐：54 折 HK$499／位，另送 1 小時＋升級無限暢飲",
+      "subtitle": "2 小時變 3 小時 · 波士頓龍蝦／雪花蟹腳／佛跳牆每位一客 · 四場即席烹調表演 · 汽水啤酒紅白酒氣泡酒任飲",
+      "venue": "灣仔告士打道 72 號六國酒店 1 樓 Le Menu 西餐廳",
+      "priceLabel": "2 小時自助晚餐（另送 1 小時）連升級無限暢飲 HK$499／位起（原價 HK$977／位起，約 54 折，聖誕檔期適用）；果漾花語下午茶自助餐二人同行 HK$239／位起（原價 HK$438，約 43 折）；半自助午餐 HK$148／位起（原價 HK$207，約 78 折）",
+      "priceValue": 499,
+      "originalLabel": "原價自助晚餐 HK$977／位起（KKday 產品頁 121621，U Food 引述）",
+      "discountPct": 54,
+      "endsAt": "2026-12-31T22:00:00+08:00",
+      "period": "使用日期：聖誕及節日檔期（KKday 產品頁顯示最早可預訂日 2026-11-20，各方案適用日期不同）；自助晚餐供應時間 18:00–22:00，加送 1 小時後可坐到約 23:00；預訂期以 KKday 頁面為準，售完即止",
+      "summary": "灣仔六國酒店 Le Menu 西餐廳今年聖誕推出「冬日盛宴自助晚餐」，經 KKday 預訂 2 小時自助晚餐（另送 1 小時）HK$499／位起，原價 HK$977，大約 54 折，並獨家升級無限暢飲汽水、凍果汁、啤酒、紅白酒及氣泡酒，等於用 54 折價錢食足 3 小時。海鮮有波士頓龍蝦、加拿大雪花蟹腳及麵包蟹，每位賓客另享一客佛跳牆；肉車區供應威靈頓牛柳、聖誕燒火雞及火腿、燒肉眼扒及片皮鵝，刺身壽司即叫即做。每晚設四場即席烹調表演，包括紅燒扣鮑魚鴨掌、慢煮煙燻牛柳、火焰雪山及蜜桃梅爾巴，甜品有聖誕樹頭蛋糕、聖誕布甸及 Häagen-Dazs 雪糕。惠顧自助晚餐可享晚上 6 至 10 時免費泊車。同場下午茶自助餐二人同行 HK$239／位起（原價 HK$438，43 折），半自助午餐 HK$148 起。這是六國酒店首次收錄，價格以酒店及 KKday 官方公佈為準。",
+      "highlights": [
+        "自助晚餐 HK$499／位起（原價 HK$977，54 折）",
+        "2 小時用餐另送 1 小時，變相食足 3 小時",
+        "升級無限暢飲：汽水、啤酒、紅白酒、氣泡酒",
+        "波士頓龍蝦、雪花蟹腳、每位一客佛跳牆",
+        "四場即席烹調表演；晚上 6–10 時免費泊車"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AD%E5%9C%8B%E9%85%92%E5%BA%97%20Le%20Menu%20%E7%81%A3%E4%BB%94",
+      "sourceLabel": "U Food（KKday 聖誕早鳥合集）· KKday 產品頁 121621 · HyperAir 方案頁",
+      "sourceUrl": "https://ufood.com.hk/restaurant/news/detail/20114045",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/121621",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "灣仔",
+        "KKday",
+        "無限暢飲"
+      ],
+      "sample": false,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1058,6 +1130,78 @@
         "酒店餐飲",
         "尖沙咀",
         "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 39,
+      "status": "active"
+    },
+    {
+      "id": "dining-shnewdazhong-whitecrab-20261122",
+      "category": "dining",
+      "title": "上海新大眾「蟹中寶玉」白玉蟹 90 分鐘放題：HK$388／位（66 折），11/23 18:00 開搶",
+      "subtitle": "旺角／黃大仙三店適用 · 4–5 両蟹公＋3.5 両蟹乸任食 · 清蒸鹽焗避風塘花雕蒸無限追加 · 蟹粉撈麵小籠包任食",
+      "venue": "旺角彌敦道 726 號 9 樓全層｜黃大仙鳳德道 13 號地舖｜黃大仙飛鳳街 46 號 A 地下",
+      "priceLabel": "白玉蟹 90 分鐘任食 HK$388／位（原價星期一至四 HK$588、星期五至日及公眾假期 HK$628，約 66 折／62 折）；2 位起 HK$450／位（一至四）、HK$480／位（五六日）；買三送一 4 位平均 HK$441／位起；正宗江蘇清水大閘蟹放題 2 位起 HK$328／位起（一至四，約 7 折）；現場另收服務費每位 HK$80（現金）",
+      "priceValue": 388,
+      "originalLabel": "原價白玉蟹放題 HK$588／位（星期一至四）、HK$628／位（星期五至日及公眾假期）",
+      "discountPct": 66,
+      "endsAt": "2026-12-31T23:59:00+08:00",
+      "period": "預訂期：2026-11-23 18:00 至 11-29 23:59（KKday 快閃）；使用期：2026-11-24 至 12-31（12-19 至 12-22 不適用）；限 90 分鐘用餐，2 位起訂",
+      "summary": "上海新大眾大閘蟹專門店推出全港獨家的「蟹中寶玉」白玉蟹 90 分鐘任食放題，11 月 23 日傍晚 6 時在 KKday 開搶，快閃價 HK$388／位，原價平日 HK$588、週末及公眾假期 HK$628，大約 62 至 66 折。白玉蟹被稱為「蟹中愛馬仕」，外殼半透明乳白、蟹膏帶奶香及鹹蛋黃香，規格約 4 至 5 両蟹公配 3.5 両蟹乸，清蒸、鹽焗、避風塘及荷葉花雕蒸四種做法無限追加。放題另包 10 多款蟹粉鵝肝菜式，包括瀑布蟹黃金撈麵、爆汁蟹粉小籠包、芝士蟹粉釀蟹蓋、蟹黃鵝肝炒飯，以及黑松露薯條、咖喱角等小食，熱薑茶及汽水無限任飲。三間分店分別在旺角彌敦道、黃大仙鳳德道及黃大仙飛鳳街。要留意現場另收服務費每位 HK$80，須以現金支付；2 位起訂、用餐 90 分鐘。使用期至 12 月 31 日，12 月 19 至 22 日不適用。價格以商戶及 KKday 官方公佈為準。",
+      "highlights": [
+        "白玉蟹 90 分鐘任食 HK$388／位（原價 HK$588 起，66 折）",
+        "4–5 両蟹公＋3.5 両蟹乸，四種做法無限追加",
+        "10 多款蟹粉鵝肝菜式、小食、汽水薑茶任飲",
+        "旺角及黃大仙三間分店通用",
+        "11/23 18:00 開搶；使用期至 12/31（12/19–22 除外）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A7%E7%9C%BE%E5%A4%A7%E9%96%98%E8%9F%B9%20%E6%97%BA%E8%A7%92%E5%BD%8C%E6%95%A6%E9%81%93726%E8%99%9F",
+      "sourceLabel": "GroupBuya（2026-11-22 KKday 快閃）· U Food · Buffet Cat 價目表",
+      "sourceUrl": "https://www.groupbuya.com/jetso/557669-KKday-11%E6%9C%8823%E6%97%A518",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/251659",
+      "tags": [
+        "放題",
+        "大閘蟹",
+        "旺角",
+        "黃大仙",
+        "KKday",
+        "蟹粉"
+      ],
+      "sample": false,
+      "daysLeft": 39,
+      "status": "active"
+    },
+    {
+      "id": "dining-harbourplaza8degrees-xmas-buffet-20261122",
+      "category": "dining",
+      "title": "土瓜灣 8 度海逸酒店聖誕自助餐：晚餐 HK$374 起（5 折），12 月即開生蠔回歸",
+      "subtitle": "12/14–1/1 節日檔期 · 聖誕午餐 HK$314 · 半自助午餐 HK$221 · 雙人聖誕下午茶 HK$256 · 購買期至 11/24",
+      "venue": "土瓜灣九龍城道 199 號 8 度海逸酒店地下 8 度餐廳 Café 8 Degrees",
+      "priceLabel": "聖誕自助晚餐成人 HK$374／位起（原價 HK$748，約 5 折）；聖誕自助午餐成人 HK$314／位起（原價約 HK$628）；聖誕半自助午餐 HK$221；雙人聖誕下午茶 HK$256（第二位加 HK$28 起，人均 HK$128）；The Pool Bar 六道菜節日晚餐 2 位 HK$826 起（人均 HK$413）；以上未包服務費，餐廳現場另收原價加一",
+      "priceValue": 374,
+      "originalLabel": "原價自助晚餐 HK$748／位（GroupBuya 引 KKday 聖誕早鳥快閃）",
+      "discountPct": 50,
+      "endsAt": "2027-01-01T22:00:00+08:00",
+      "period": "購買期：2026-11-18 15:00 至 11-24 23:59（KKday 快閃）；用餐期：2026-12-14 至 2027-01-01（節日及聖誕自助餐）；11 月「極品蟹賞」自助晚餐至 11-30，12-01 起自助晚餐加入即開生蠔",
+      "summary": "土瓜灣 8 度海逸酒店 8 度餐廳推出聖誕及節日自助餐快閃，12 月 14 日至 2027 年 1 月 1 日供應，自助晚餐成人 HK$374／位起、自助午餐 HK$314／位起，對比原價 HK$748 大約 5 折，是九龍區少數真正半價的聖誕 buffet。12 月 1 日起自助晚餐加入即開生蠔，冰鎮海鮮有鱈場蟹腳及麵包蟹，熱食有蒜蓉辣椒蒸扇貝、澳洲草飼有骨肉眼扒、香煎鴨肝配黑松露汁。不想食晚餐的話，聖誕半自助午餐 HK$221，雙人聖誕下午茶 HK$256（第二位加 HK$28 起）人均 HK$128，The Pool Bar 六道菜節日晚餐 2 位 HK$826 起。要留意 KKday 價未包服務費，現場會按原價另收加一；11 月 30 日前惠顧「極品蟹賞」自助晚餐每位另送兩隻清蒸大閘蟹。購買期至 11 月 24 日，價格以酒店及 KKday 官方公佈為準。",
+      "highlights": [
+        "聖誕自助晚餐 HK$374／位起（原價 HK$748，5 折）",
+        "聖誕自助午餐 HK$314／位起",
+        "12/1 起自助晚餐即開生蠔回歸",
+        "雙人聖誕下午茶 HK$256（人均 HK$128）",
+        "購買期至 11/24；用餐 12/14–2027/1/1"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=8%E5%BA%A6%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%208%20%E5%BA%A6%E9%A4%90%E5%BB%B3%20%E5%9C%9F%E7%93%9C%E7%81%A3",
+      "sourceLabel": "RunHotel（2026-11-19）· GroupBuya（2026-11-17 KKday 聖誕早鳥）· KKday 產品頁 115719",
+      "sourceUrl": "https://www.runhotel.hk/harbour-plaza-8-degrees-christmas-buffet-2026/",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/115719",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "土瓜灣",
+        "KKday",
+        "5折"
       ],
       "sample": false,
       "daysLeft": 40,
@@ -1096,7 +1240,7 @@
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 43,
+      "daysLeft": 42,
       "status": "active"
     },
     {
@@ -1132,7 +1276,7 @@
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 71,
+      "daysLeft": 70,
       "status": "active"
     },
     {
