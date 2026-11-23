@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-22T21:35:29+08:00",
+    "updated": "2026-11-23T10:34:58+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,87 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 162,
-      "active": 36,
-      "ending": 9,
-      "expired": 126,
+      "active": 34,
+      "ending": 7,
+      "expired": 128,
       "flight": 18,
       "dining": 144,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-mrsteak-cwb-dec-bogo-20261115",
-      "category": "dining",
-      "title": "銅鑼灣 Mr. Steak a la minute：12 月自助餐買一送一，午餐人均 HK$210 起",
-      "subtitle": "KKday 11/16 12:00 開售至 11/22 · 12/1 起用餐 · 除夕跨年場都有",
-      "venue": "銅鑼灣告士打道 280 號世貿中心 6 樓 Mr. Steak a la minute",
-      "priceLabel": "自助午餐買一送一 人均 HK$210 起；自助晚餐（17:00–19:00）人均 HK$275 起；和牛龍蝦盛宴（19:30–22:00）人均 HK$370 起；除夕跨年自助晚餐（22:30–00:30）人均 HK$360 起。須於現場另付每位原價 10% 服務費",
-      "priceValue": 210,
-      "originalLabel": "買一送一（第二位免費），即約 5 折；文章未列逐項原價，實際以 KKday 頁面顯示為準",
-      "discountPct": 50,
-      "endsAt": "2026-11-22T23:59:00+08:00",
-      "period": "KKday 開售：2026-11-16 12:00 至 11-22 23:59；買一送一方案用餐期由 2026-12-01 起（長者半價方案適用至 11-30），須按訂購時所選日子及時段使用",
-      "summary": "銅鑼灣 Mr. Steak a la minute 12 月自助餐快閃再推買一送一，KKday 於 11 月 16 日中午 12 時開售，至 11 月 22 日 23:59。自助午餐人均 HK$210 起，晚餐 17:00–19:00 場人均 HK$275 起，19:30 後的和牛龍蝦盛宴人均 HK$370 起，除夕 22:30 跨年場人均 HK$360 起，全部第二位免費。12 月 18–26 日午晚市無限量供應應節烤火雞，24–26 日有聖誕造型甜品，22–27 日晚市有蛇羹及羊腩煲，31 日晚市尾輪有「巨型火焰雪山」表演。留意須於現場另付每位原價 10% 服務費，名額有限、售完即止。",
-      "highlights": [
-        "自助午餐買一送一 人均 HK$210 起（星期一至五 12:00–14:30）",
-        "晚餐 17:00–19:00 買一送一 人均 HK$275 起；19:30 和牛龍蝦場 人均 HK$370 起",
-        "除夕 22:30 跨年場買一送一 人均 HK$360 起，設 Cocktail Bar 任飲指定雞尾酒",
-        "12/18–26 無限量烤火雞；22–27 晚市蛇羹、羊腩煲；24–27 晚市頭輪凍龍蝦",
-        "KKday 開售 11/16 12:00–11/22；用餐期由 12/1 起，現場另付每位原價 10% 服務費"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Steak%20a%20la%20minute%20World%20Trade%20Centre%20Causeway%20Bay",
-      "sourceLabel": "U Lifestyle 港生活（2026-11-15 發佈，來源：KKday 產品 279547）",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20118646",
-      "bookingUrl": "https://www.kkday.com/zh-hk/product/279547",
-      "tags": [
-        "自助餐",
-        "銅鑼灣",
-        "買一送一",
-        "聖誕",
-        "除夕",
-        "Mr. Steak"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "flight-peach-osaka-specialsale-20261119",
-      "category": "flight",
-      "title": "樂桃 Peach 香港–大阪 Special Sale：單程 HK$300 起，來回連稅約 HK$1,189 起",
-      "subtitle": "官方 Special Sale 11/19 中午 12:00 開賣至 11/22 23:59 · 出發 11/24–2027/1/31 · 唔收燃油附加費",
-      "venue": "香港國際機場 → 大阪關西國際機場（KIX）",
-      "priceLabel": "Minimum Promo 單程 HK$300 起（限星期二、三出發坐 MM64，適用 12/1–12/16）、HK$400 起（限星期一、四出發，適用 11/30–2027/1/11）、全航班 HK$550 起（11/24–2027/1/31）；Standard Promo（包 20kg 寄艙＋揀位）單程 HK$780 起。以上未連稅；來回連稅約 HK$1,189 起（MeetHK 綜合），以訂票系統即時顯示為準",
-      "priceValue": 1189,
-      "originalLabel": "限時促銷票價；Peach 唔收燃油附加費，機場服務費等另計",
-      "discountPct": null,
-      "endsAt": "2026-11-22T23:59:00+08:00",
-      "period": "訂票期：2026-11-19 12:00 至 11-22 23:59（HKT）；出發期：2026-11-24 至 2027-01-31；$300 票限 12/1–12/16 星期二、三出發，$400 票限 11/30–2027/1/11 星期一、四出發，$550 票全航班適用；機位有限售完即止",
-      "summary": "樂桃航空香港–大阪關西 Special Sale 今日中午 12 點開賣，至 11 月 22 日 23:59。Minimum Promo 單程最低 HK$300（限二、三出發坐 MM64 午機），一、四出發 HK$400，其餘全航班 HK$550；想包 20kg 寄艙加揀位可揀 Standard Promo HK$780 起。按 MeetHK 綜合，來回連稅約 HK$1,189 起，出發期覆蓋 11 月 24 日至明年 1 月 31 日，聖誕新年檔都有份。Peach 繼續唔收燃油附加費，機場服務費等另計，機位有限售完即止，一切以 Peach 官方訂票系統即時顯示為準。",
-      "highlights": [
-        "單程 HK$300 起（限二、三出發）、全航班 HK$550 起",
-        "來回連稅約 HK$1,189 起（MeetHK 綜合）",
-        "Standard Promo 包 20kg 寄艙＋揀位，HK$780 起",
-        "訂票 11/19 12:00–11/22 23:59；出發 11/24–2027/1/31",
-        "唔收燃油附加費"
-      ],
-      "mapsUrl": null,
-      "sourceLabel": "樂桃航空官方 Special Sale 頁（2026-11-19 實測在線）· MeetHK 連稅參考價",
-      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale_2",
-      "bookingUrl": "https://booking.flypeach.com/hk/",
-      "tags": [
-        "機票",
-        "日本",
-        "大阪",
-        "Peach",
-        "廉航",
-        "限時快閃"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-touyuen-hairycrab-buffet-20261117",
       "category": "dining",
@@ -128,7 +56,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -164,7 +92,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -200,7 +128,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -236,7 +164,7 @@ window.DEAL_DATA = {
         "聖誕"
       ],
       "sample": false,
-      "daysLeft": 1,
+      "daysLeft": 0,
       "status": "ending"
     },
     {
@@ -272,7 +200,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -308,7 +236,7 @@ window.DEAL_DATA = {
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -344,7 +272,7 @@ window.DEAL_DATA = {
         "Klook"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -376,7 +304,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -412,7 +340,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -448,7 +376,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -479,7 +407,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -510,7 +438,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -541,7 +469,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -571,7 +499,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -606,7 +534,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -641,7 +569,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -676,7 +604,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -712,7 +640,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -747,7 +675,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -781,7 +709,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -816,7 +744,7 @@ window.DEAL_DATA = {
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -852,7 +780,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active"
     },
     {
@@ -889,7 +817,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 21,
+      "daysLeft": 20,
       "status": "active"
     },
     {
@@ -924,7 +852,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 26,
+      "daysLeft": 25,
       "status": "active"
     },
     {
@@ -956,7 +884,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 28,
+      "daysLeft": 27,
       "status": "active"
     },
     {
@@ -992,7 +920,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 34,
+      "daysLeft": 33,
       "status": "active"
     },
     {
@@ -1026,7 +954,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 38,
+      "daysLeft": 37,
       "status": "active"
     },
     {
@@ -1061,7 +989,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1097,7 +1025,7 @@ window.DEAL_DATA = {
         "無限暢飲"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1133,7 +1061,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1169,7 +1097,7 @@ window.DEAL_DATA = {
         "蟹粉"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1205,7 +1133,7 @@ window.DEAL_DATA = {
         "5折"
       ],
       "sample": false,
-      "daysLeft": 40,
+      "daysLeft": 39,
       "status": "active"
     },
     {
@@ -1241,7 +1169,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 42,
+      "daysLeft": 41,
       "status": "active"
     },
     {
@@ -1277,7 +1205,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 70,
+      "daysLeft": 69,
       "status": "active"
     },
     {
@@ -5713,6 +5641,78 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-mrsteak-cwb-dec-bogo-20261115",
+      "category": "dining",
+      "title": "銅鑼灣 Mr. Steak a la minute：12 月自助餐買一送一，午餐人均 HK$210 起",
+      "subtitle": "KKday 11/16 12:00 開售至 11/22 · 12/1 起用餐 · 除夕跨年場都有",
+      "venue": "銅鑼灣告士打道 280 號世貿中心 6 樓 Mr. Steak a la minute",
+      "priceLabel": "自助午餐買一送一 人均 HK$210 起；自助晚餐（17:00–19:00）人均 HK$275 起；和牛龍蝦盛宴（19:30–22:00）人均 HK$370 起；除夕跨年自助晚餐（22:30–00:30）人均 HK$360 起。須於現場另付每位原價 10% 服務費",
+      "priceValue": 210,
+      "originalLabel": "買一送一（第二位免費），即約 5 折；文章未列逐項原價，實際以 KKday 頁面顯示為準",
+      "discountPct": 50,
+      "endsAt": "2026-11-22T23:59:00+08:00",
+      "period": "KKday 開售：2026-11-16 12:00 至 11-22 23:59；買一送一方案用餐期由 2026-12-01 起（長者半價方案適用至 11-30），須按訂購時所選日子及時段使用",
+      "summary": "銅鑼灣 Mr. Steak a la minute 12 月自助餐快閃再推買一送一，KKday 於 11 月 16 日中午 12 時開售，至 11 月 22 日 23:59。自助午餐人均 HK$210 起，晚餐 17:00–19:00 場人均 HK$275 起，19:30 後的和牛龍蝦盛宴人均 HK$370 起，除夕 22:30 跨年場人均 HK$360 起，全部第二位免費。12 月 18–26 日午晚市無限量供應應節烤火雞，24–26 日有聖誕造型甜品，22–27 日晚市有蛇羹及羊腩煲，31 日晚市尾輪有「巨型火焰雪山」表演。留意須於現場另付每位原價 10% 服務費，名額有限、售完即止。",
+      "highlights": [
+        "自助午餐買一送一 人均 HK$210 起（星期一至五 12:00–14:30）",
+        "晚餐 17:00–19:00 買一送一 人均 HK$275 起；19:30 和牛龍蝦場 人均 HK$370 起",
+        "除夕 22:30 跨年場買一送一 人均 HK$360 起，設 Cocktail Bar 任飲指定雞尾酒",
+        "12/18–26 無限量烤火雞；22–27 晚市蛇羹、羊腩煲；24–27 晚市頭輪凍龍蝦",
+        "KKday 開售 11/16 12:00–11/22；用餐期由 12/1 起，現場另付每位原價 10% 服務費"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Steak%20a%20la%20minute%20World%20Trade%20Centre%20Causeway%20Bay",
+      "sourceLabel": "U Lifestyle 港生活（2026-11-15 發佈，來源：KKday 產品 279547）",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20118646",
+      "bookingUrl": "https://www.kkday.com/zh-hk/product/279547",
+      "tags": [
+        "自助餐",
+        "銅鑼灣",
+        "買一送一",
+        "聖誕",
+        "除夕",
+        "Mr. Steak"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "flight-peach-osaka-specialsale-20261119",
+      "category": "flight",
+      "title": "樂桃 Peach 香港–大阪 Special Sale：單程 HK$300 起，來回連稅約 HK$1,189 起",
+      "subtitle": "官方 Special Sale 11/19 中午 12:00 開賣至 11/22 23:59 · 出發 11/24–2027/1/31 · 唔收燃油附加費",
+      "venue": "香港國際機場 → 大阪關西國際機場（KIX）",
+      "priceLabel": "Minimum Promo 單程 HK$300 起（限星期二、三出發坐 MM64，適用 12/1–12/16）、HK$400 起（限星期一、四出發，適用 11/30–2027/1/11）、全航班 HK$550 起（11/24–2027/1/31）；Standard Promo（包 20kg 寄艙＋揀位）單程 HK$780 起。以上未連稅；來回連稅約 HK$1,189 起（MeetHK 綜合），以訂票系統即時顯示為準",
+      "priceValue": 1189,
+      "originalLabel": "限時促銷票價；Peach 唔收燃油附加費，機場服務費等另計",
+      "discountPct": null,
+      "endsAt": "2026-11-22T23:59:00+08:00",
+      "period": "訂票期：2026-11-19 12:00 至 11-22 23:59（HKT）；出發期：2026-11-24 至 2027-01-31；$300 票限 12/1–12/16 星期二、三出發，$400 票限 11/30–2027/1/11 星期一、四出發，$550 票全航班適用；機位有限售完即止",
+      "summary": "樂桃航空香港–大阪關西 Special Sale 今日中午 12 點開賣，至 11 月 22 日 23:59。Minimum Promo 單程最低 HK$300（限二、三出發坐 MM64 午機），一、四出發 HK$400，其餘全航班 HK$550；想包 20kg 寄艙加揀位可揀 Standard Promo HK$780 起。按 MeetHK 綜合，來回連稅約 HK$1,189 起，出發期覆蓋 11 月 24 日至明年 1 月 31 日，聖誕新年檔都有份。Peach 繼續唔收燃油附加費，機場服務費等另計，機位有限售完即止，一切以 Peach 官方訂票系統即時顯示為準。",
+      "highlights": [
+        "單程 HK$300 起（限二、三出發）、全航班 HK$550 起",
+        "來回連稅約 HK$1,189 起（MeetHK 綜合）",
+        "Standard Promo 包 20kg 寄艙＋揀位，HK$780 起",
+        "訂票 11/19 12:00–11/22 23:59；出發 11/24–2027/1/31",
+        "唔收燃油附加費"
+      ],
+      "mapsUrl": null,
+      "sourceLabel": "樂桃航空官方 Special Sale 頁（2026-11-19 實測在線）· MeetHK 連稅參考價",
+      "sourceUrl": "https://www.flypeach.com/hk/um/specials/sale/sale_2",
+      "bookingUrl": "https://booking.flypeach.com/hk/",
+      "tags": [
+        "機票",
+        "日本",
+        "大阪",
+        "Peach",
+        "廉航",
+        "限時快閃"
+      ],
+      "sample": false,
       "daysLeft": 0,
       "status": "expired"
     }
