@@ -63,7 +63,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           # 只上傳網站檔案。不要改成 '.'，否則 pipeline/ 與 outbox/ 會被公開讀取。
           path: "_site"
