@@ -20,3 +20,6 @@ __pycache__/
 # 編輯器
 .vscode/
 .idea/
+
+# 臨時工作目錄（部署 log、下載檔）
+.tmp_drive/
