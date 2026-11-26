@@ -4,7 +4,7 @@ window.DEAL_DATA = {
     "brand": "Fly & Feast HK",
     "brandZh": "飛嚐香港",
     "siteUrl": "https://www.flyandfeasthk.com",
-    "updated": "2026-11-25T11:12:48+08:00",
+    "updated": "2026-11-26T11:12:17+08:00",
     "sample": false,
     "disclaimer": "本站為優惠情報整理平台，並非銷售方。價格、艙位與名額隨時變動，一切以商戶官方頁面為準。部分連結為聯盟連結，我們可能因此獲得佣金，並不影響你的價格。",
     "updatedAt": "2026-10-02T22:15:00+08:00",
@@ -13,87 +13,15 @@ window.DEAL_DATA = {
     "adsenseClientId": "ca-pub-1777376842974340",
     "stats": {
       "total": 169,
-      "active": 36,
+      "active": 34,
       "ending": 5,
-      "expired": 133,
+      "expired": 135,
       "flight": 19,
       "dining": 150,
       "hotel": 0
     }
   },
   "deals": [
-    {
-      "id": "dining-eaton-astor-xmas-bogo-20261119",
-      "category": "dining",
-      "title": "佐敦逸東酒店 The Astor 聖誕自助餐買一送一：HK$966/2 位，人均 HK$483",
-      "subtitle": "Klook 今晚 9 點開搶至 11/25 · 11/23 起聖誕主題 · 晚市每位奉送芝士焗龍蝦尾",
-      "venue": "佐敦彌敦道 380 號香港逸東酒店 B1 樓 普慶餐廳 The Astor",
-      "priceLabel": "快閃買一送一自助晚餐 HK$966/2 位（人均 HK$483，原價 HK$1,690，約 57 折），用餐時間 18:30–21:30 共 3 小時；小童／長者優惠價以 Klook 頁面顯示為準；現場或另收服務費，以餐廳公佈為準",
-      "priceValue": 483,
-      "originalLabel": "原價 HK$1,690/2 位（U Lifestyle 及 RunHotel 一致）",
-      "discountPct": 57,
-      "endsAt": "2026-11-25T23:59:00+08:00",
-      "period": "開售：2026-11-19 21:00 至 11-25（Klook 獨家快閃）；適用日期：2026-11-20 至 12-13（U Lifestyle 版；RunHotel 寫至 12-14，以 Klook 頁面為準）；11/23 起供應聖誕主題自助餐，晚市每位奉送法式芝士焗龍蝦尾一客（12/24–25 除外）",
-      "summary": "佐敦逸東酒店普慶餐廳 The Astor 今晚（11 月 19 日）9 點在 Klook 推出聖誕自助餐快閃買一送一，2 位 HK$966、人均 HK$483（原價 HK$1,690），11 月 20 日起至 12 月中可用。由 11 月 23 日起供應聖誕主題自助餐，晚市每位賓客奉送法式芝士焗龍蝦尾，另有生蠔、青口、松葉蟹蟹腳等海鮮刺身，必食片皮鴨、芝士火鍋、烤有骨肉眼，甜品有巨型聖誕樹頭蛋糕、薑餅人蛋糕，飲品吧仲有聖誕特飲同熱紅酒。3 小時任食，名額有限售完即止，一切以 Klook 頁面為準。",
-      "highlights": [
-        "買一送一 HK$966/2 位，人均 HK$483（原價 HK$1,690）",
-        "晚市每位送法式芝士焗龍蝦尾（12/24–25 除外）",
-        "生蠔／松葉蟹腳／片皮鴨／芝士火鍋／聖誕樹頭蛋糕",
-        "Klook 開售 11/19 21:00–11/25；適用 11/20–12 月中",
-        "18:30–21:30 共 3 小時任食"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%80%B8%E6%9D%B1%E9%85%92%E5%BA%97%20%E6%99%AE%E6%85%B6%E9%A4%90%E5%BB%B3%20The%20Astor",
-      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet · The Astor 官方聖誕頁三源核實",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119629",
-      "bookingUrl": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
-      "tags": [
-        "自助餐",
-        "聖誕",
-        "酒店餐飲",
-        "買一送一",
-        "佐敦",
-        "Klook"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
-    {
-      "id": "dining-goldcoast-cafelagoon-flash111-20261119",
-      "category": "dining",
-      "title": "屯門黃金海岸酒店 聆渢咖啡廳突發快閃：自助午餐／晚餐 HK$111/位",
-      "subtitle": "Klook 開售即日至 11/25 · 適用 11/20 起 · 3.5 小時炭燒盛宴，晚餐原價 HK$812",
-      "venue": "屯門青山公路 1 號香港黃金海岸酒店 聆渢咖啡廳（Café Lagoon）",
-      "priceLabel": "自助午餐快閃 HK$111/位（原價 HK$449，約 25 折，12:00–14:30）；自助晚餐快閃 HK$111/位（原價 HK$812，約 14 折，18:00–21:30）；同場另有買一送一 HK$886/2 位（人均 HK$443）；小童／長者價以 Klook 頁面為準，現場或另收服務費",
-      "priceValue": 111,
-      "originalLabel": "自助午餐原價 HK$449/位、自助晚餐原價 HK$812/位（U Lifestyle）",
-      "discountPct": 14,
-      "endsAt": "2026-11-25T23:59:00+08:00",
-      "period": "開售：即日起至 2026-11-25（Klook）；適用日期：2026-11-20 起（U Lifestyle 寫至 12-18、RunHotel 寫至 12-31，以 Klook 頁面為準）；午餐 12:00–14:30、晚餐 18:00–21:30",
-      "summary": "屯門黃金海岸酒店聆渢咖啡廳突發推出 Klook 快閃，自助午餐或晚餐每位只需 HK$111，對照原價晚餐 HK$812 約 14 折、午餐 HK$449 約 25 折，11 月 20 日起至 12 月中可用。3.5 小時任食「燒烤百味盛宴」：戶外炭烤區有參巴醬燒魔鬼魚、日式醬燒白鱔、炭燒封門柳，每位賓客尊享麥皮虎蝦一隻；熱葷有紅酒燴牛尾，烤肉區有慢烤和牛肩胛肉、蜜汁黑毛豬叉燒，仲有即煮港式車仔麵檔。逢周五至日及公眾假期晚上加推脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀。搶唔到 $111 快閃都唔使灰心，同場有買一送一 HK$886/2 位（人均 HK$443）。名額有限售完即止，一切以 Klook 頁面為準。",
-      "highlights": [
-        "自助午餐／晚餐突發快閃 HK$111/位（晚餐原價 HK$812，約 14 折）",
-        "3.5 小時任食炭燒盛宴，每位送麥皮虎蝦",
-        "逢周五至日晚上加推脆皮烤乳豬、煙燻和牛胸肉",
-        "Klook 開售即日至 11/25；適用 11/20 起",
-        "搶唔到另有買一送一 HK$886/2 位（人均 HK$443）"
-      ],
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%20%E8%81%86%E6%B8%A2%E5%92%96%E5%95%A1%E5%BB%B3",
-      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet 雙源核實",
-      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119603",
-      "bookingUrl": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
-      "tags": [
-        "自助餐",
-        "快閃",
-        "酒店餐飲",
-        "屯門",
-        "黃金海岸",
-        "Klook"
-      ],
-      "sample": false,
-      "daysLeft": 0,
-      "status": "ending"
-    },
     {
       "id": "dining-teahouse-crabfirstjin111-20261111",
       "category": "dining",
@@ -123,7 +51,7 @@ window.DEAL_DATA = {
         "海鮮"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -159,7 +87,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "ending"
     },
     {
@@ -195,7 +123,7 @@ window.DEAL_DATA = {
         "蟹宴"
       ],
       "sample": false,
-      "daysLeft": 3,
+      "daysLeft": 2,
       "status": "ending"
     },
     {
@@ -231,8 +159,8 @@ window.DEAL_DATA = {
         "限時快閃"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-fullerton-lighthouse-199-flash-20261123",
@@ -267,8 +195,8 @@ window.DEAL_DATA = {
         "買一送一"
       ],
       "sample": false,
-      "daysLeft": 4,
-      "status": "active"
+      "daysLeft": 3,
+      "status": "ending"
     },
     {
       "id": "dining-wmhotel-goldencrab-20260913",
@@ -298,7 +226,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -329,7 +257,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -360,7 +288,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -390,7 +318,7 @@ window.DEAL_DATA = {
       ],
       "sample": false,
       "postedFacebook": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -425,7 +353,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -460,7 +388,7 @@ window.DEAL_DATA = {
         "10 月活動"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -495,7 +423,7 @@ window.DEAL_DATA = {
         "炭烤"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -531,7 +459,7 @@ window.DEAL_DATA = {
         "第2位優惠"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -566,7 +494,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": false,
       "postedThreads": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -600,7 +528,7 @@ window.DEAL_DATA = {
         "PayMe"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -635,7 +563,7 @@ window.DEAL_DATA = {
         "週年優惠"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -671,7 +599,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -705,7 +633,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active"
     },
     {
@@ -739,7 +667,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -773,7 +701,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -808,7 +736,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -842,7 +770,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 6,
+      "daysLeft": 5,
       "status": "active"
     },
     {
@@ -879,7 +807,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 18,
+      "daysLeft": 17,
       "status": "active"
     },
     {
@@ -914,7 +842,7 @@ window.DEAL_DATA = {
       "sample": false,
       "postedFacebook": true,
       "postedThreads": true,
-      "daysLeft": 23,
+      "daysLeft": 22,
       "status": "active"
     },
     {
@@ -946,7 +874,7 @@ window.DEAL_DATA = {
         "早午餐"
       ],
       "sample": false,
-      "daysLeft": 25,
+      "daysLeft": 24,
       "status": "active"
     },
     {
@@ -982,7 +910,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 31,
+      "daysLeft": 30,
       "status": "active"
     },
     {
@@ -1016,7 +944,7 @@ window.DEAL_DATA = {
         "酒店"
       ],
       "sample": false,
-      "daysLeft": 35,
+      "daysLeft": 34,
       "status": "active"
     },
     {
@@ -1051,7 +979,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 36,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1087,7 +1015,7 @@ window.DEAL_DATA = {
         "無限暢飲"
       ],
       "sample": false,
-      "daysLeft": 36,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1123,7 +1051,7 @@ window.DEAL_DATA = {
         "KKday"
       ],
       "sample": false,
-      "daysLeft": 36,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1159,7 +1087,7 @@ window.DEAL_DATA = {
         "蟹粉"
       ],
       "sample": false,
-      "daysLeft": 36,
+      "daysLeft": 35,
       "status": "active"
     },
     {
@@ -1195,7 +1123,7 @@ window.DEAL_DATA = {
         "5折"
       ],
       "sample": false,
-      "daysLeft": 37,
+      "daysLeft": 36,
       "status": "active"
     },
     {
@@ -1231,7 +1159,7 @@ window.DEAL_DATA = {
         "eShop"
       ],
       "sample": false,
-      "daysLeft": 39,
+      "daysLeft": 38,
       "status": "active"
     },
     {
@@ -1267,7 +1195,7 @@ window.DEAL_DATA = {
         "燃油附加費"
       ],
       "sample": false,
-      "daysLeft": 67,
+      "daysLeft": 66,
       "status": "active"
     },
     {
@@ -5954,6 +5882,78 @@ window.DEAL_DATA = {
         "買二送二",
         "東涌",
         "KKday"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-eaton-astor-xmas-bogo-20261119",
+      "category": "dining",
+      "title": "佐敦逸東酒店 The Astor 聖誕自助餐買一送一：HK$966/2 位，人均 HK$483",
+      "subtitle": "Klook 今晚 9 點開搶至 11/25 · 11/23 起聖誕主題 · 晚市每位奉送芝士焗龍蝦尾",
+      "venue": "佐敦彌敦道 380 號香港逸東酒店 B1 樓 普慶餐廳 The Astor",
+      "priceLabel": "快閃買一送一自助晚餐 HK$966/2 位（人均 HK$483，原價 HK$1,690，約 57 折），用餐時間 18:30–21:30 共 3 小時；小童／長者優惠價以 Klook 頁面顯示為準；現場或另收服務費，以餐廳公佈為準",
+      "priceValue": 483,
+      "originalLabel": "原價 HK$1,690/2 位（U Lifestyle 及 RunHotel 一致）",
+      "discountPct": 57,
+      "endsAt": "2026-11-25T23:59:00+08:00",
+      "period": "開售：2026-11-19 21:00 至 11-25（Klook 獨家快閃）；適用日期：2026-11-20 至 12-13（U Lifestyle 版；RunHotel 寫至 12-14，以 Klook 頁面為準）；11/23 起供應聖誕主題自助餐，晚市每位奉送法式芝士焗龍蝦尾一客（12/24–25 除外）",
+      "summary": "佐敦逸東酒店普慶餐廳 The Astor 今晚（11 月 19 日）9 點在 Klook 推出聖誕自助餐快閃買一送一，2 位 HK$966、人均 HK$483（原價 HK$1,690），11 月 20 日起至 12 月中可用。由 11 月 23 日起供應聖誕主題自助餐，晚市每位賓客奉送法式芝士焗龍蝦尾，另有生蠔、青口、松葉蟹蟹腳等海鮮刺身，必食片皮鴨、芝士火鍋、烤有骨肉眼，甜品有巨型聖誕樹頭蛋糕、薑餅人蛋糕，飲品吧仲有聖誕特飲同熱紅酒。3 小時任食，名額有限售完即止，一切以 Klook 頁面為準。",
+      "highlights": [
+        "買一送一 HK$966/2 位，人均 HK$483（原價 HK$1,690）",
+        "晚市每位送法式芝士焗龍蝦尾（12/24–25 除外）",
+        "生蠔／松葉蟹腳／片皮鴨／芝士火鍋／聖誕樹頭蛋糕",
+        "Klook 開售 11/19 21:00–11/25；適用 11/20–12 月中",
+        "18:30–21:30 共 3 小時任食"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%80%B8%E6%9D%B1%E9%85%92%E5%BA%97%20%E6%99%AE%E6%85%B6%E9%A4%90%E5%BB%B3%20The%20Astor",
+      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet · The Astor 官方聖誕頁三源核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119629",
+      "bookingUrl": "https://www.klook.com/zh-HK/activity/85761-eaton-hk-the-astor/",
+      "tags": [
+        "自助餐",
+        "聖誕",
+        "酒店餐飲",
+        "買一送一",
+        "佐敦",
+        "Klook"
+      ],
+      "sample": false,
+      "daysLeft": 0,
+      "status": "expired"
+    },
+    {
+      "id": "dining-goldcoast-cafelagoon-flash111-20261119",
+      "category": "dining",
+      "title": "屯門黃金海岸酒店 聆渢咖啡廳突發快閃：自助午餐／晚餐 HK$111/位",
+      "subtitle": "Klook 開售即日至 11/25 · 適用 11/20 起 · 3.5 小時炭燒盛宴，晚餐原價 HK$812",
+      "venue": "屯門青山公路 1 號香港黃金海岸酒店 聆渢咖啡廳（Café Lagoon）",
+      "priceLabel": "自助午餐快閃 HK$111/位（原價 HK$449，約 25 折，12:00–14:30）；自助晚餐快閃 HK$111/位（原價 HK$812，約 14 折，18:00–21:30）；同場另有買一送一 HK$886/2 位（人均 HK$443）；小童／長者價以 Klook 頁面為準，現場或另收服務費",
+      "priceValue": 111,
+      "originalLabel": "自助午餐原價 HK$449/位、自助晚餐原價 HK$812/位（U Lifestyle）",
+      "discountPct": 14,
+      "endsAt": "2026-11-25T23:59:00+08:00",
+      "period": "開售：即日起至 2026-11-25（Klook）；適用日期：2026-11-20 起（U Lifestyle 寫至 12-18、RunHotel 寫至 12-31，以 Klook 頁面為準）；午餐 12:00–14:30、晚餐 18:00–21:30",
+      "summary": "屯門黃金海岸酒店聆渢咖啡廳突發推出 Klook 快閃，自助午餐或晚餐每位只需 HK$111，對照原價晚餐 HK$812 約 14 折、午餐 HK$449 約 25 折，11 月 20 日起至 12 月中可用。3.5 小時任食「燒烤百味盛宴」：戶外炭烤區有參巴醬燒魔鬼魚、日式醬燒白鱔、炭燒封門柳，每位賓客尊享麥皮虎蝦一隻；熱葷有紅酒燴牛尾，烤肉區有慢烤和牛肩胛肉、蜜汁黑毛豬叉燒，仲有即煮港式車仔麵檔。逢周五至日及公眾假期晚上加推脆皮烤乳豬、德州煙燻和牛胸肉、美式燒烤豬仔髀。搶唔到 $111 快閃都唔使灰心，同場有買一送一 HK$886/2 位（人均 HK$443）。名額有限售完即止，一切以 Klook 頁面為準。",
+      "highlights": [
+        "自助午餐／晚餐突發快閃 HK$111/位（晚餐原價 HK$812，約 14 折）",
+        "3.5 小時任食炭燒盛宴，每位送麥皮虎蝦",
+        "逢周五至日晚上加推脆皮烤乳豬、煙燻和牛胸肉",
+        "Klook 開售即日至 11/25；適用 11/20 起",
+        "搶唔到另有買一送一 HK$886/2 位（人均 HK$443）"
+      ],
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%20%E8%81%86%E6%B8%A2%E5%92%96%E5%95%A1%E5%BB%B3",
+      "sourceLabel": "UHK 港生活（2026-11-19）· RunHotel all-hotel-buffet 雙源核實",
+      "sourceUrl": "https://hk.ulifestyle.com.hk/activity/detail/20119603",
+      "bookingUrl": "https://www.klook.com/zh-HK/activity/76921-cafe-lagoon-gold-coast-hong-kong/",
+      "tags": [
+        "自助餐",
+        "快閃",
+        "酒店餐飲",
+        "屯門",
+        "黃金海岸",
+        "Klook"
       ],
       "sample": false,
       "daysLeft": 0,
