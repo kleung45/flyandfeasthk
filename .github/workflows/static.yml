@@ -11,10 +11,13 @@ on:
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# actions: read 是 deploy-pages 讀取本 run artifact metadata 的必要權限
+# （2026-11-26 曾因欠此權限出現「No artifacts named github-pages were found」連環失敗）
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
